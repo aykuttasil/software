@@ -1,5 +1,5 @@
 ---
-title: "STEP MOTOR NEDİR?"
+title: "Step Motor Nedir?"
 date: 2018-08-03T22:21:48+03:00
 lastmod: 2018-08-03T22:21:48+03:00
 draft: false
@@ -19,7 +19,7 @@ hiddenFromHomePage: false
 
 ---
 
-> **Step motoru** bir diğer adıyla adım motorları; hızlı,  Doğrusal ve kademeli hareket istenilen uygulamalarda kullanılan fırçasız  DC elektrik motorudur. 
+> **Step motoru** bir diğer adıyla adım motorları; hızlı,  Doğrusal ve kademeli hareket istenilen uygulamalarda kullanılan fırçasız  DC elektrik motorudur.
 
 Kademeli motorlar düşük devirlerde yüksek tork ve düşük titreşim ve hassasiyetle çalışmaktadırlar. Step  motorları rotor denilen sabit bir manyetik dönen şafta ve stator olarak adlandırılan motoru çevreleyen sabit kısımdaki elektromıknatıslardan oluşur. step motorlar, yarim adim modunda çalistiklarin da hassasiyetleri daha da artar.
 
