@@ -31,6 +31,11 @@ Bunu engellemek için DNS over TLS kullanılır.
 - Bu uygulama, İnternet Servis Sağlayıcılarının hangi web sitelerine erişmeye çalıştığınızı görmesini engeller. 
 - DNS'yi TLS üzerinden kullanmak için DNS servisinizin bunu desteklemesi gerekir.
 
+## Kaynak
+
+- https://www.thesslstore.com/blog/what-is-dns-over-tls/
+- https://developers.cloudflare.com/1.1.1.1/dns-over-tls/
+
 
 
 
