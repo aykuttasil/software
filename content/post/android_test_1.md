@@ -19,11 +19,15 @@ hiddenFromHomePage: false
 
 # Unit Test ve Instrumentation Test
 
+## Unit Test
+
 **Unit Test:** Android framework ünden bağımsız olan sınıfları/metodları test etmek için kullanılır. **Robolectric** ve **JUnit** popüler unit test araçlarıdır.
 
 >If you run local unit tests, a special version of the android.jar (also known as the Android mockable jar) is created by the tooling. This modified JAR file is provided to the unit test so that all fields, methods and classes are available. Any call to the Android mockable JAR results, by default, in an exception, but you can configure Android to return default values. See Activating default return values for mocked methods in android.jar for details.
 
-**Instrumentation Test:** Android framework ü ile ilişkili olan sınıfların testi için kullanılır. Örneğin bir Activity nin testi yazılacak ise Instrumentation Test yapılacak demektir. **Espresso**,**UIAutomator**,**Robotium** popüler instrumentation test araçlarıdır.
+## Instrumentation Test (on-device)
+
+Android framework ü ile ilişkili olan sınıfların testi için kullanılır. Örneğin bir Activity nin testi yazılacak ise Instrumentation Test yapılacak demektir. **Espresso**,**UIAutomator**,**Robotium** popüler instrumentation test araçlarıdır.
 
 - Unit Test lerin yazımı için aşağıdaki resimde görülen **test** package ı kullanılmalıdır.
 - Instrumentation Test lerin yazılımı için aşağıdaki resimde görülen **androidTest** package ı kullanılmalıdır.
@@ -34,9 +38,22 @@ hiddenFromHomePage: false
 
 > Android bağımlılıklarını mock edemiyorsak Instrumentation Test yazılır. Eğer mock edebileceğimiz bir yapıya sahip ise unit test yazılır. Bu sayede hızlı bir şekilde testler koşturulabilir.
 
+- Instrumentation test yapılırken sınıf **@AndroidJUnitRunner** annotations ı ile etiketlenmelidir.
+- Instrumentation testleri JVM yerine gerçek bir cihazda veya emülatör de koşturulur.
+
+AndroidJunitRunner provides access to the instrumentation API, via the InstrumentationRegistery.**
+
+- **InstrumentationRegistry.getInstrumentation()**, returns the Instrumentation currently running.
+- **InstrumentationRegistry.getContext()**, returns the Context of this Instrumentation’s package.
+- **InstrumentationRegistry.getTargetContext()**, returns the application Context of the target application.
+- **InstrumentationRegistry.getArguments()**, returns a copy of arguments Bundle that was passed to this Instrumentation. 
+
+This is useful when you want to access the command line arguments passed to the instrumentation for your test.
+It also gives access to the life cycle via the ActivityLifecycleMonitorRegistry.
+
 ---
 
-# Espresso 
+# Espresso
 
 Uygulamanın arayüzü ile ilgli test yazımı için kullanılır.
 
@@ -80,13 +97,13 @@ Ne zaman ihtiyacımız olacak? Activity içindeki görünümlerle etkileşime gi
 
 gradle.properties
 
-```gradle
+```bash
 android.enableUnitTestBinaryResources=true
 ```
 
 build.gradle
 
-```gradle
+```bash
 android
 {
     testOptions {
@@ -126,7 +143,7 @@ Yukarıda **RobolectricRunner** yerine **AndroidJunit4** kullanılmıştır. Ve 
 
 # Mockito
 
-```gradle
+```bash
 dependencies {
     // Required -- JUnit 4 framework
     testImplementation 'junit:junit:4.12'
@@ -148,22 +165,7 @@ dependencies {
 
 ---
 
-## Instrumentation(on-device) Test
-
-- Instrumentation test yapılırken sınıf **@AndroidJUnitRunner** annotations ı ile etiketlenmelidir.
-- Instrumentation testleri JVM yerine gerçek bir cihazda veya emülatör de koşturulur.
-
-AndroidJunitRunner provides access to the instrumentation API, via the InstrumentationRegistery.**
-
-- **InstrumentationRegistry.getInstrumentation()**, returns the Instrumentation currently running.
-- **InstrumentationRegistry.getContext()**, returns the Context of this Instrumentation’s package.
-- **InstrumentationRegistry.getTargetContext()**, returns the application Context of the target application.
-- **InstrumentationRegistry.getArguments()**, returns a copy of arguments Bundle that was passed to this Instrumentation. 
-
-This is useful when you want to access the command line arguments passed to the instrumentation for your test.
-It also gives access to the life cycle via the ActivityLifecycleMonitorRegistry.
-
----
+# Test Piramit
 
 <img src="/image/test_piramid.jpeg" height="400px" />
 
@@ -193,11 +195,204 @@ Testler 3 başlık altında kategorilendirilebilir.
 
 ---
 
+# MockWebServer
+
+Unit test yazarken api rest isteklerinin simüle edilmesini sağlar.
+
+```bash
+testImplementation 'com.squareup.okhttp3:mockwebserver:(insert latest version)'
+```
+
+- https://github.com/square/okhttp/blob/master/mockwebserver/README.md
+
+Mockito gibi bir kullanım şekli vardır.
+
+```kotlin
+val mockServer = MockWebServer()
+mockServer.start()
+
+
+val mockedResponse = MockResponse()
+mockedResponse.setResponseCode(200)
+mockedResponse.setBody("{}") // sample JSON
+
+mockServer.enqueue(mockedReponse)
+
+
+val recordedRequest = mockServer.takeRequest()
+mockedRequest.path // /blogs
+```
+
+```kotlin
+@RunWith(JUnit4::class)
+class BlogRepositoryUTest {
+  
+    lateinit var blogRepository : BlogRepository
+    lateinit var mockServer : MockWebServer
+    lateinit var blogService : BlogService
+  
+    @Before @Throws fun setUp() {
+        // Initialize mock webserver
+        mockServer = MockWebServer()
+        // Start the local server
+        mockServer.start()
+
+        // Get an okhttp client
+        val okHttpClient = OkHttpClient.Builder()
+                .build()
+
+        // Get an instance of Retrofit
+        val retrofit = Retrofit.Builder()
+                .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
+                .baseUrl("https://api.blogs.com")
+                .addConverterFactory(GsonConverterFactory.create())
+                .client(okHttpClient)
+                .build()
+
+        // Get an instance of blogService
+        blogService = retrofit.create(BlogService::class.java)
+        // Initialized repository
+        blogRepository = BlogRepository(blogService)
+    }
+
+    @After @Throws fun tearDown() {
+        // We're done with tests, shut it down
+        mockServer.shutdown()
+    }
+
+    @Test fun testBlogsReturnsListOfBlogs() {
+        val testObserver = TestObserver<List<Blog>>()
+        val path = "/blogs"
+
+        // Mock a response with status 200 and sample JSON output
+        val mockReponse = MockReponse()
+                            .setResponseCode(200)
+                            .setBody(getJson("json/blog/blogs.json"))
+        // Enqueue request
+        mockServer.enqueue(mockResponse)
+
+        // Call the API
+        blogRepository.blogs().subscribe(testObserver)
+        testObserver.awaitTerminalEvent(2, TimeUnit.SECONDS)
+
+        // No errors
+        testObserver.assertNoErrors()
+        // One list emitted
+        testObserver.assertValueCount(1)
+
+        // Get the request that was just made
+        val request = mockServer.takeRequest()
+        // Make sure we made the request to the required path
+        assertEquals(path, request.path)
+    }
+
+    // Network ağ durumu testi
+    @Test fun testBlogsReturnsError() {
+        val testObserver = TestObserver<List<Blog>>()
+        val path = "/blogs"
+
+        // Mock a response with status 200 and sample JSON output
+        val mockReponse = MockReponse()
+                            .setResponseCode(500) // Simulate a 500 HTTP Code
+
+        // Enqueue request
+        mockServer.enqueue(mockResponse)
+
+        // Call the API
+        blogRepository.blogs().subscribe(testObserver)
+        testObserver.awaitTerminalEvent(2, TimeUnit.SECONDS)
+
+        // No values
+        testObserver.assertNoValues()
+        // One error recorded
+        assertEquals(1, testObserver.errorCount())
+
+        // Get the request that was just made
+        val request = mockServer.takeRequest()
+        // Make sure we made the request to the required path
+        assertEquals(path, request.path)
+    }
+
+    // SocketTimeoutException
+    @Test fun testBlogsReturnsError1() {
+        val testObserver = TestObserver<List<Blog>>()
+
+        val path = "/blogs"
+
+        // Mock a response with status 200 and sample JSON output
+        val mockReponse = MockReponse()
+                            .setResponseCode(200)
+                            .throttleBody(1024, 1, TimeUnit.SECONDS) // Simulate SocketTimeout
+                            .setBody(getJson("json/blog/blogs.json"))
+
+        // Enqueue request
+        mockServer.enqueue(mockResponse)
+
+        // Call the API
+        blogRepository.blogs().subscribe(testObserver)
+        testObserver.awaitTerminalEvent(2, TimeUnit.SECONDS)
+
+        // No values
+        testObserver.assertNoValues()
+        // One error recorded
+        assertEquals(1, testObserver.errorCount())
+
+        // Get the request that was just made
+        val request = mockServer.takeRequest()
+        // Make sure we made the request to the required path
+        assertEquals(path, request.path)
+    }
+
+}
+```
+
+SocketTimeoutException testi çalıştırılırken aşağıdaki düzenlemeler de yapılmalıdır:
+
+- mockResponse.throttleBody(1024, 1, TimeUnit.SECONDS) Her saniye için sadece 1024 bayt göndermesini söylüyoruz.
+- Client için okuma/yazma zaman sürelerini düzenliyoruz.
+
+```kotlin
+val okHttpClient = OkHttpClient.Builder()
+        .connectTimeout(2, TimeUnit.SECONDS) // For testing purposes
+        .readTimeout(2, TimeUnit.SECONDS) // For testing purposes
+        .writeTimeout(2, TimeUnit.SECONDS)
+        .build()
+```
+
+> getJson(path = "json/blog/blogs.json") ?
+
+<img src="/image/mockwebserber.png" height="400px" />
+
+## Dispatcher
+
+Her bir response'u ayrı ayrı mocklamak yerine aşağıdaki gibi bir yapıda kullanılabilir.
+
+```java
+final Dispatcher dispatcher = new Dispatcher() {
+
+    @Override
+    public MockResponse dispatch(RecordedRequest request) throws InterruptedException {
+
+        if (request.getPath().equals("/v1/login/auth/")){
+            return new MockResponse().setResponseCode(200);
+        } else if (request.getPath().equals("v1/check/version/")){
+            return new MockResponse().setResponseCode(200).setBody("version=9");
+        } else if (request.getPath().equals("/v1/profile/info")) {
+            return new MockResponse().setResponseCode(200).setBody("{\\\"info\\\":{\\\"name\":\"Lucas Albuquerque\",\"age\":\"21\",\"gender\":\"male\"}}");
+        }
+        return new MockResponse().setResponseCode(404);
+    }
+};
+server.setDispatcher(dispatcher);
+```
+
+---
+
 # Gradle Yapılandırmaları
 
 Unit testlerin yazımı sırasında mocklanmaya gerek olmayan nesnelerin default değerini dönmesini belirtmek için aşağıdaki şekilde düzenleme yapılmalıdır.
 
-```gradle
+```bash
 android {
     // ...
 
@@ -206,6 +401,8 @@ android {
     }
 }
 ```
+
+---
 
 > Kaynaklar
 
@@ -217,3 +414,4 @@ android {
 - https://proandroiddev.com/robolectric-testing-with-androidjunitrunner-86292bceef25
 - http://robolectric.org/blog/2018/05/09/robolectric-4-0-alpha/
 - https://github.com/googlesamples/android-testing
+- https://github.com/square/okhttp/blob/master/mockwebserver/
