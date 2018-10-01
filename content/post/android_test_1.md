@@ -1,7 +1,7 @@
 ---
 title: "Android Test"
 date: 2018-09-18T11:51:07+03:00
-lastmod: 2018-09-18T11:51:07+03:00
+lastmod: 2018-09-25T11:51:07+03:00
 draft: false
 keywords: ["android","test","junit","roboloectric","mockito","mock","espresso"]
 description: "Android Test"
@@ -244,7 +244,7 @@ class BlogRepositoryUTest {
         // Get an instance of Retrofit
         val retrofit = Retrofit.Builder()
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-                .baseUrl("https://api.blogs.com")
+                .baseUrl("https://api.test.com")
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(okHttpClient)
                 .build()
@@ -348,7 +348,7 @@ class BlogRepositoryUTest {
 
 SocketTimeoutException testi çalıştırılırken aşağıdaki düzenlemeler de yapılmalıdır:
 
-- mockResponse.throttleBody(1024, 1, TimeUnit.SECONDS) Her saniye için sadece 1024 bayt göndermesini söylüyoruz.
+- `mockResponse.throttleBody(1024, 1, TimeUnit.SECONDS)` Her saniye için sadece 1024 bayt göndermesini söylüyoruz.
 - Client için okuma/yazma zaman sürelerini düzenliyoruz.
 
 ```kotlin
@@ -406,6 +406,7 @@ android {
 
 > Kaynaklar
 
+- https://developer.android.com/training/testing/
 - http://www.vogella.com/tutorials/AndroidTesting/article.html
 - https://medium.com/android-testing-daily/the-3-tiers-of-the-android-test-pyramid-c1211b359acd
 - https://github.com/codepath/android_guides/wiki/Unit-Testing-with-Robolectric
@@ -415,3 +416,4 @@ android {
 - http://robolectric.org/blog/2018/05/09/robolectric-4-0-alpha/
 - https://github.com/googlesamples/android-testing
 - https://github.com/square/okhttp/blob/master/mockwebserver/
+- https://medium.com/appunite-edu-collection/ui-testing-on-android-with-dagger-espresso-and-mockito-12d37e5f613d
