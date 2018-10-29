@@ -24,3 +24,15 @@ hiddenFromHomePage: false
 - Şifreleme algoritmaları nelerdir?
 
 ---
+
+## Encryption
+
+Veri güvenliğini sağlamanın en iyi yolu encrpyt yani şifrelemedir. Şifrelenen verinin orjinaline tekrar ulaşılmak istenirse şifreleme yöntemine göre ya secret key ya da password e ihtiyaç vardır.
+
+
+
+
+# Kaynaklar
+
+- https://proandroiddev.com/secure-data-in-android-encryption-7eda33e68f58
+- https://expertise.jetruby.com/step-by-step-guide-to-implementing-a-fingerprint-scanner-in-your-android-application-eb370a4a7e95
