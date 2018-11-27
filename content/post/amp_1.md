@@ -114,4 +114,4 @@ Google AMP Cache mekanizması otomatik güncelleme için de bir yapıya sahiptir
 
 # Kaynaklar
 
-- 
+- https://www.ampproject.org/docs/
