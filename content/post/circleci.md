@@ -3,9 +3,9 @@ title: "CircleCI Configuration"
 date: 2018-11-27T14:20:45+03:00
 lastmod: 2018-11-27T14:20:45+03:00
 draft: false
-keywords: ["ci","cd","continuous-integration","continious-deployment","circleci"]
+keywords: ["ci","cd","continues-integration","continues-deployment","circleci"]
 description: "Circle CI/CD"
-tags: ["ci","cd","continious-integration","continious-deployment","circleci"]
+tags: ["ci","cd","continues-integration","continues-deployment","circleci"]
 categories: []
 author: "Aykut Asil"
 comment: true

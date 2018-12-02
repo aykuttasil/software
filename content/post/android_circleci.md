@@ -3,9 +3,9 @@ title: "Android CircleCI Configuration"
 date: 2018-12-01T14:20:45+03:00
 lastmod: 2018-12-03T14:20:45+03:00
 draft: true
-keywords: ["android","ci","cd","continuous-integration","continious-deployment","circleci"]
+keywords: ["android","ci","cd","continues-integration","continues-deployment","circleci"]
 description: "Adnroid Circle CI/CD"
-tags: ["android","ci","cd","continious-integration","continious-deployment","circleci"]
+tags: ["android","ci","cd","continues-integration","continues-deployment","circleci"]
 categories: []
 author: "Aykut Asil"
 comment: true
