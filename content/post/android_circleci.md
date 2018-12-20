@@ -150,4 +150,20 @@ dependencies {
 
 ## Ne Yaptık?
 
-Yukarıda ki örnek **gradle** dosyasında log için kullanılan **Crashlytics**' apiKey bilgilerini ve **apk** imzalama için gerekli bilgileri başka dosyalardan okuyayarak gizliliği sağladığımızı görüyorsunuz. Bunu neden yapıyoruz? çünkü **apiKey** gibi değerleri gizli tutmamız ve başkalarıyla paylaşmamamız gerekmektedir.
+Yukarıda ki örnek **gradle** dosyasında log için kullanılan **Crashlytics**' apiKey bilgilerini ve **apk** imzalama için gerekli bilgileri başka dosyalardan okuyayarak gizliliği sağladığımızı görüyorsunuz.
+
+Bu bilgileri okuğumuz **keystore.properties** ve **fabric.properties** dosyalarını **vcs** içerisine eklemiyoruz. Yani **.gitignore** dosyamıza ekleyerek **github, bitbucket** gibi vsc platformlarına gönderimini engelliyoruz.
+
+Peki bu dosyaları **vcs** platformuna göndermemiş isek **CI/CD** platformu projemizi derlemeye çalışırken **gradle** dosyası içerisinde ki bu bilgileri nasıl okuyacak?
+
+İşte bunun için farklı yöntemler mevcut. Bunlardan ikisi yukarıda ki örnekte mevcut.
+
+### 1. Base64 Yöntemi
+
+Yukarıda ki **.yml** dosyasını incelediğinizde `command: echo $KEYSTORE_BASE64 | base64 --decode > app/aykutasilkeystore` şeklinde bir satır göreceksiniz. Burada yaptığımız şey mevcut **keystore** dosyamızın **base64** değerini alarak **CI/CD** platformuna **environment variable** olarak kayıt etmek. Ve daha sonra **yml** dosyasında bu **environment variable ($KEYSTORE_BASE64)** değerini okuyarak `base64 --decode` komutu ile **decode** ederek `> app/aykutasilkeystore` yoluna bu dosyayı ekliyoruz. Ve artık **gradle** dosyamız ilgili dosyayı(keystore) bulacağı için sorun oluşmayacak ve düzgün bir şekilde projemiz derlenecektir.
+
+### 2. Environment Variable
+
+Aslında burada da bir öncekine benzer bir yapılandırma söz konusu. Tek fark okunan **environment variable** değerini ilgili dosyaya direk olarak yazmak.
+
+Yukarıda ki **yml** dosyasında `echo "apiKey=$FABRIC_API_KEY" >> app/fabric.properties` satırında direk olarak **$FABRIC_API_KEY** değeri okunup **app/fabric.properties** yolunda **fabric.properties** isimli dosyanın oluşması sağlanmıştır.
