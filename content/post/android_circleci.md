@@ -148,13 +148,13 @@ dependencies {
 }
 ```
 
-## Ne Yaptık?
+## Ne Yaptık ?
 
 Yukarıda ki örnek **gradle** dosyasında log için kullanılan **Crashlytics**' apiKey bilgilerini ve **apk** imzalama için gerekli bilgileri başka dosyalardan okuyayarak gizliliği sağladığımızı görüyorsunuz.
 
-Bu bilgileri okuğumuz **keystore.properties** ve **fabric.properties** dosyalarını **vcs** içerisine eklemiyoruz. Yani **.gitignore** dosyamıza ekleyerek **github, bitbucket** gibi vsc platformlarına gönderimini engelliyoruz.
+Bu bilgileri okuğumuz **keystore.properties** ve **fabric.properties** dosyalarını **VCS** içerisine eklemiyoruz. Yani **.gitignore** dosyamıza ekleyerek **github, bitbucket** gibi **VCS** platformlarına gönderimini engelliyoruz.
 
-Peki bu dosyaları **vcs** platformuna göndermemiş isek **CI/CD** platformu projemizi derlemeye çalışırken **gradle** dosyası içerisinde ki bu bilgileri nasıl okuyacak?
+Peki bu dosyaları **VCS** platformuna göndermemiş isek **CI/CD** platformu projemizi derlemeye çalışırken **gradle** dosyası içerisinde ki bu bilgileri nasıl okuyacak?
 
 İşte bunun için farklı yöntemler mevcut. Bunlardan ikisi yukarıda ki örnekte mevcut.
 
