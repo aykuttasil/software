@@ -2,7 +2,7 @@
 title: "Android CircleCI Configuration"
 date: 2018-12-01T14:20:45+03:00
 lastmod: 2018-12-03T14:20:45+03:00
-draft: true
+draft: false
 keywords: ["android","ci","cd","continues-integration","continues-deployment","circleci","build","test","deployment"]
 description: "Android Circle CI/CD"
 tags: ["android","ci","cd","continues-integration","continues-deployment","circleci","build","test","deployment"]
@@ -81,7 +81,7 @@ workflows:
 
 ## app/build.gradle
 
-```
+```bash
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
@@ -115,6 +115,7 @@ android {
     if (keystorePropertiesFile.exists()) {
         keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
     }
+
     signingConfigs {
         config {
             keyAlias keystoreProperties['signingKeyAlias']
@@ -146,3 +147,7 @@ dependencies {
     }
 }
 ```
+
+## Ne Yaptık?
+
+Yukarıda ki örnek **gradle** dosyasında log için kullanılan **Crashlytics**' apiKey bilgilerini ve **apk** imzalama için gerekli bilgileri başka dosyalardan okuyayarak gizliliği sağladığımızı görüyorsunuz. Bunu neden yapıyoruz? çünkü **apiKey** gibi değerleri gizli tutmamız ve başkalarıyla paylaşmamamız gerekmektedir.
