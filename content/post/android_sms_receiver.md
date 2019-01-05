@@ -1,29 +1,19 @@
-+++
-title = "Android SMS Receiver"
-autoThumbnailImage = false
-thumbnailImage = ""
-metaAlignment = "center"
-keywords = [
-  "yazilim",
-  "sofware",
-  "sms receiver",
-  "android",
-  "java"
-]
-date = "2017-01-11T01:42:54+03:00"
-categories = [
-  "yazilim",
-  "java",
-  "android"
-]
-tags = [
-  "software","android","java","sms","sms receiver"
-]
-desciption = ""
-thumbnailImagePosition = "top"
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-
-+++
+---
+title: "Android SMS Receiver"
+date: 2017-01-11T01:42:54+03:00
+lastmod: 2018-09-25T11:51:07+03:00
+draft: false
+keywords: ["yazilim","sofware","sms-receiver","android","java"]
+description: "Android Test"
+tags: ["software","android","java","sms","sms-receiver"]
+categories: ["yazilim","java","android"]
+author: "Aykut Asil"
+comment: true
+toc: true
+autoCollapseToc: false
+postMetaInFooter: true
+hiddenFromHomePage: false
+---
 
 # Android SMS Receiver
 
@@ -32,12 +22,12 @@ Android de gelen sms leri dinlemek ve uygulamanızın akışını gelen sms lere
 İlk olarak AndroidManifest.xml dosyanızda receiver tanımlamalısınız. Fakat biz bu receiver ı dinamik olarak tanımlıcaz. Bunu yapmamızın sebebi SMS i dinledikten sonra bu receiver ı silmek ve daha sonra gelen SMS lerin dinlenmesini önlemek.
 
 Siz uygulamınız da sürekli bir SMS dinlemeye ihtiyaç duyarsanız receiver ı AndroidManifest.xml dosyanızda tanımlamalısınız.
- 
+
 Biz burda SMS dinlemesi yaparken önlem amaçlı olarak CPU nun uyumasını önlüyoruz. Eğer bir işlem sonucunda sms gelmesini bekliyorsak, beklediğimiz SMS  geciktiği takdirde ve bu sırada cihazın ekranını vs. kapattığımız da Android cihazımız kendini uyku moduna almak isteyecektir. Bunu önlemek için **WakefulBroadcastReceiver** yapısını kullanıyoruz. Bu yapı aslında Android in WakeLock özelliğini kullanan serviceler için özel olarak tasarlanmış  bir yapıdır. Cihazı uyanık tutar ve işimiz bittiği takdirde bu WakeLock u kaldırmamız gerekir. Bunu da service in içerisinde tanımlarız.
 
 Aşağıdaki fonksiyonu Activity miz içerisinde ihtiyacımız olan yerde çağırır ve SMS receiver ı çalıştırmıış oluruz.
 
-**LoginActivity**
+## LoginActivity
 
 ```java
 public void RegisterSmsReceiver() {
@@ -47,8 +37,8 @@ public void RegisterSmsReceiver() {
     registerReceiver(smsReceiver, intentFilter, "android.permission.GET_TASKS", handler);
 }
 ```
- 
-**SmsReceiver**
+
+## SmsReceiver
 
 ```java
 public class SmsReceiver extends WakefulBroadcastReceiver {
@@ -79,11 +69,10 @@ public class SmsReceiver extends WakefulBroadcastReceiver {
     android:name=".SmsReceiverService"
     android:exported="false" />
 ```
-`exported=”false”` tanımı servisin cihazda ki diğer uygulamalar tarafından çalıştırılamayacağını belirtir.
 
- 
+`exported="false"` tanımı servisin cihazda ki diğer uygulamalar tarafından çalıştırılamayacağını belirtir.
 
-**SmsReceiverService**
+## SmsReceiverService
 
 ```java
 public class SmsReceiverService extends IntentService {

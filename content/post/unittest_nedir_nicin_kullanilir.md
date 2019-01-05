@@ -24,7 +24,6 @@ date = "2017-01-11T00:27:54+03:00"
 
 +++
 
-
 **Unit Test Nedir ? Niçin ve Nasıl Yapılır ?**
 
 Yıl olmuş 2014 hala birim test makalesi mi yazıyorsun diye düşünüyor olabilirsiniz. Ancak, birim testi uzun zamandır kullanılan bir yöntem olmasına rağmen tam olarak ne işe yaradığı, neden yapıldığı ve nasıl yapılması gerektiği konusunda açıklayıcı bir Türkçe yazı bulmak malesef zor. Bu yüzden, yazılım mühendisi adaylarına ve kariyerine yeni başlayan arkadaşlara faydalı olabilmek adına bu yazıyı yazmak uygun olur diye düşündüm.
@@ -62,6 +61,7 @@ Bağımlılıkları (dependency) değil, tek bir sınıfı test edin: Yazıda da
 Yazdığınız testler birbirini etkilemesin: Yazdığınız her test birbirinden bağımsız bir şekilde tek başına sorunsuz çalışabilmelidir. Eğer yazdığınız bir birim test başka bir birim testin üreteceği veriye bağımlıysa yanlış yapıyorsunuz demektir.
 Testlerinizi doğru isimlendirin: Test sayısı arttıkça isimlendirmenin önemi de artar. Kafa karıştırıcı test isimleri kullanmak ileride problemlere yol açar. Açıklayıcı olması için test isimlerini uzun tutmanız gerekiyorsa öyle yapın, uzun isimler yanlış isimlerden daha faydalıdır.
 Test koduna ikinci sınıf kod muamelesi yapmayın: Testler de yazılımın bir parçasıdır. Dolayısıyla normal program kodunu yazarken ne kadar özen gösteriyorsanız test kodlarına da aynı özeni gösterin, kod tekrarlarından kaçının, okunabilir test kodu yazın.
- 
 
-[Kaynak](http://www.seckintozlu.com/etiketler/unit-test)
+## Kaynak
+
+- <http://www.seckintozlu.com/etiketler/unit-test>

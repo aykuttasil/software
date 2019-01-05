@@ -15,7 +15,7 @@ postMetaInFooter: true
 hiddenFromHomePage: false
 ---
 
-> Not: Bu yazıyı hazırlarken ben de öğrenme sürecinde olucam. Araştırdığım ve öğrendiğim tüm teknik ve yöntemleri, best-practice leri gelişi güzel(karmakarışık değil) bir şekilde yazıcam. Sonrasında zaman bulduğum vakit bir düzenleme yapıcam.
+> **Not:** Bu yazıyı hazırlarken ben de öğrenme sürecinde olucam. Araştırdığım ve öğrendiğim tüm teknik bilgileri ve yöntemleri, best-practice leri gelişi güzel(karmakarışık değil) bir şekilde yazıcam. Sonrasında zaman bulduğum vakit bir düzenleme yapıcam.
 
 # Unit Test ve Instrumentation Test
 
@@ -27,10 +27,10 @@ hiddenFromHomePage: false
 
 ## Instrumentation Test (on-device)
 
-Android framework ü ile ilişkili olan sınıfların testi için kullanılır. Örneğin bir Activity nin testi yazılacak ise Instrumentation Test yapılacak demektir. **Espresso**,**UIAutomator**,**Robotium** popüler instrumentation test araçlarıdır.
+Android framework'ü ile gerçek anlamda etkileşime girmesi gereken sınıfların testi için **Instrumentation Test** yapılması gerekmektedir. **Espresso**, **UIAutomator**, **Robotium** popüler instrumentation test araçlarıdır.
 
-- Unit Test lerin yazımı için aşağıdaki resimde görülen **test** package ı kullanılmalıdır.
-- Instrumentation Test lerin yazılımı için aşağıdaki resimde görülen **androidTest** package ı kullanılmalıdır.
+- **Unit Test** sınıfları aşağıdaki resimde görülen **test** package'ı altına eklenir.
+- **Instrumentation Test** sınıfları resimde görülen **androidTest** package'ı altına eklenir.
 - **app/src/test/java** - for any unit test which can run on the JVM
 - **app/src/androidTest/java** -> for any test which should run on an Android device
 
@@ -63,11 +63,11 @@ Uygulamanın arayüzü ile ilgli test yazımı için kullanılır.
 
 Robolectric, kodunuzu yerel JVM'de gerçek(sahte olmayan) Android JAR'lere karşı çalıştırır. Bu, düşük seviyeli sistem bileşenlerini (UI gibi) simüle etmek için baytkod manipülasyonu kullanılarak yapılabilir.
 
-Sonuç, bir emülatöre ya da cihaza dağıtma yükü olmadan daha gerçekçi bir test tertibatıdır. Gerçek Android çerçevenin çalışan bir sürümünü kullanmak, test yürütmeyi yavaşlatır ve saf birim testleri ile karşılaştırıldığında bir derece kırılganlık ekler.
+Sonuç, bir emülatöre ya da cihaza dağıtma yükü olmadan daha gerçekçi bir test tertibatıdır. Gerçek Android framework ünün çalışan bir sürümünü kullanmak, test yürütmeyi yavaşlatır ve saf unit testleri ile karşılaştırıldığında bir derece kırılganlık ekler.
 
-Roboloctric ile neredeyse her android componentinin shadow hali üretileblir. Ve bu üretilen shadow nesneleri normal componentlerin sahip olmadığı bazı fonksiyonlara sahiptir.
+Roboloctric ile neredeyse her android componentinin **shadow** hali üretileblir. Ve bu üretilen shadow nesneleri normal componentlerin sahip olmadığı bazı fonksiyonlara sahiptir.
 
-Mockito, Espresso gibi diğer test bileşenleri ile birlikte çalıştırılabilir.
+**Mockito, Espresso** gibi diğer test bileşenleri ile birlikte çalıştırılabilir.
 
 ```java
 Activity activity = Robolectric.buildActivity(MyAwesomeActivity.class).create().get();
@@ -115,10 +115,10 @@ android
 
 dependency
 {
-    testImplementation 'com.android.support.test:rules:1.0.2'
-    testImplementation 'com.android.support.test:runner:1.0.2'
-    testImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    testImplementation "org.robolectric:robolectric:4.0-alpha-1"
+    testImplementation 'com.android.support.test:rules:1.1.1'
+    testImplementation 'com.android.support.test: runner:1.1.1'
+    testImplementation 'com.android.support.test.espresso:espresso-core:3.1.1'
+    testImplementation "org.robolectric:robolectric:4.0.2"
 }
 ```
 
@@ -145,10 +145,9 @@ Yukarıda **RobolectricRunner** yerine **AndroidJunit4** kullanılmıştır. Ve 
 
 ```bash
 dependencies {
-    // Required -- JUnit 4 framework
     testImplementation 'junit:junit:4.12'
-    // Optional -- Mockito framework
-    testImplementation 'org.mockito:mockito-core:1.10.19'
+    testImplementation 'org.mockito:mockito-core:2.23.4'
+    testImplementation 'org.mockito:mockito-android:2.22.0'
 }
 ```
 
@@ -200,7 +199,7 @@ Testler 3 başlık altında kategorilendirilebilir.
 Unit test yazarken api rest isteklerinin simüle edilmesini sağlar.
 
 ```bash
-testImplementation 'com.squareup.okhttp3:mockwebserver:(insert latest version)'
+testImplementation 'com.squareup.okhttp3:mockwebserver:3.8.1'
 ```
 
 - https://github.com/square/okhttp/blob/master/mockwebserver/README.md
