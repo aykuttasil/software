@@ -416,3 +416,9 @@ android {
 - https://github.com/googlesamples/android-testing
 - https://github.com/square/okhttp/blob/master/mockwebserver/
 - https://medium.com/appunite-edu-collection/ui-testing-on-android-with-dagger-espresso-and-mockito-12d37e5f613d
+- https://medium.com/@rafael_toledo/setting-up-an-unified-coverage-report-in-android-with-jacoco-robolectric-and-espresso-ffe239aaf3fa
+- https://github.com/arturdm/jacoco-android-gradle-plugin
+- https://medium.com/@fabioCollini/android-testing-using-dagger-2-mockito-and-a-custom-junit-rule-c8487ed01b56
+- https://codelabs.developers.google.com/codelabs/android-testing/index.html?index=..%2F..index#
+- https://medium.com/androiddevelopers/write-once-run-everywhere-tests-on-android-88adb2ba20c5
+- https://github.com/googlesamples/android-testing-templates
