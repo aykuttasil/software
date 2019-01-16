@@ -206,7 +206,7 @@ testImplementation 'com.squareup.okhttp3:mockwebserver:3.8.1'
 
 Mockito gibi bir kullanım şekli vardır.
 
-```kotlin
+```java
 val mockServer = MockWebServer()
 mockServer.start()
 
@@ -222,7 +222,7 @@ val recordedRequest = mockServer.takeRequest()
 mockedRequest.path // /blogs
 ```
 
-```kotlin
+```java
 @RunWith(JUnit4::class)
 class BlogRepositoryUTest {
   
