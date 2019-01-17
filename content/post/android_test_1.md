@@ -75,7 +75,7 @@ Activity activity = Robolectric.buildActivity(MyAwesomeActivity.class).create().
 
 şeklinde test edeceğimiz **Activity** nin oluşturulmasını sağlıyoruz.
 
-Aşağıdaki gibi activity nin lifecycle ına uygun testler yazılabilir. Burada **onResume** sonrası çalışan kod bloğu için test yazımını görebiliriz.
+Aşağıdaki gibi activity nin lifecycle'ına uygun testler yazılabilir. Burada **onResume** sonrası çalışan kod bloğu için test yazımını görebiliriz.
 
 ```java
 ActivityController controller = Robolectric.buildActivity(MyAwesomeActivity.class).create().start();
@@ -91,7 +91,7 @@ Gerçek bir Android uygulamasında, bir Etkinliğin görünüm hiyerarşisi, **o
 
 Ne zaman ihtiyacımız olacak? Activity içindeki görünümlerle etkileşime girdiğinizde.
 
-**Robolectric.clickOn()** gibi yöntemler, işlev görmesi için view'in görünür ve düzgün şekilde eklenmesini gerektirir. Bunun için **create()** öğesinden sonra **visible()** öğesini çağırmalıyız.
+**Robolectric.clickOn()** gibi yöntemler, işlev görmesi için view'in görünür olması ve düzgün şekilde eklenmesini gerektirir. Bunun için **create()** öğesinden sonra **visible()** öğesini çağırmalıyız.
 
 ## Robolectric 4
 
@@ -124,7 +124,7 @@ dependency
 
 test.kt (test package'ı altında)
 
-```kotlin
+```java
 @RunWith(AndroidJUnit4::class)
 class MainActivityTest {
     @get:Rule
