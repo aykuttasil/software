@@ -162,6 +162,16 @@ dependencies {
 - Eğer sınıf içerisinde sadece belli metodları mocklamamız gerekiyor(Partial Mocking) ve diğer alanların gerçek değerleri ile işlem yapılacak ise **@Spy** ile etiketlenir.
 - Partial mocking can also be achieved using mock thenCallRealMethod()
 
+**Kotlin** ile geliştirilen uygulamaların test yazımı sırasında **mock**lanmak istenen sınıflar, alanlar vs. kotlin dilinin yapısı gereği çeşitli hataların üretilmesine neden olur. Bu uyuşmazlığın sebeplerinden biri kotlin ile oluşturulan sınıfların, alanların default olarak **final** olması ve **Mockito**'nun **final** sınıf veya alanları mocklayamamasıdır. Çözüm olarak sınıfların, fonksiyonların vs. başına **open** eklenmesi veya mockitoyu eklerken aşağıdaki kütüphanenin kullanılması gerekmektedir.
+
+- `testImplementation "org.mockito:mockito-inline:2.23.16""`
+- `testImplementation "org.mockito:mockito-core:2.23.16"` bu satırı siliyoruz.
+
+Kotlin dilinin nimetlerinden yararlanarak test yazımı sırasında mockitonun kullanımını kolaylaştırmak için aşağıdaki kütüphaneyi kullanabilriz
+
+- https://github.com/nhaarman/mockito-kotlin
+- `testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:2.1.0"`
+
 ---
 
 # Test Piramit
