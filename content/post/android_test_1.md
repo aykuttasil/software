@@ -38,13 +38,13 @@ Android framework'ü ile gerçek anlamda etkileşime girmesi gereken sınıflar�
 
 > Android bağımlılıklarını mock edemiyorsak Instrumentation Test yazılır. Eğer mock edebileceğimiz bir yapıya sahip ise unit test yazılır. Bu sayede hızlı bir şekilde testler koşturulabilir.
 
-- Instrumentation test yapılırken sınıf **@AndroidJUnitRunner** annotations ı ile etiketlenmelidir.
+- Instrumentation test yapılırken sınıf **@AndroidJUnitRunner** annotations'ı ile etiketlenmelidir.
 - Instrumentation testleri JVM yerine gerçek bir cihazda veya emülatör de koşturulur.
 
 AndroidJunitRunner provides access to the instrumentation API, via the InstrumentationRegistery.**
 
 - **InstrumentationRegistry.getInstrumentation()**, returns the Instrumentation currently running.
-- **InstrumentationRegistry.getContext()**, returns the Context of this Instrumentation’s package.
+- **InstrumentationRegistry.getContext()**, returns the Context of this Instrumentation's package.
 - **InstrumentationRegistry.getTargetContext()**, returns the application Context of the target application.
 - **InstrumentationRegistry.getArguments()**, returns a copy of arguments Bundle that was passed to this Instrumentation. 
 
