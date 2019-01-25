@@ -14,3 +14,13 @@ autoCollapseToc: false
 postMetaInFooter: true
 hiddenFromHomePage: false
 ---
+
+# Nedir ?
+
+Statik kod analizi, uygulama kodlarınızın mevcut standartlara uygunluğu, uygulama kodları içerisindeki değişken isimlerinin ilk harfinin küçük olması, sınıf isimlerinin büyük harfle başlaması gibi genelde kod görünümü ile alakalı sorunların bulunmasını sağlar. Bununla birlikte bazı statik kod analiz araçları uygulama kodlarınızı mantıksal çerçevede değerlendirmesini de sağlayabilir. Veya yazılan platform/dil özelinde çok sık yapılan bazı hatalı kodlamaların farkedilmesini sağlayabilir.
+
+Bir diğer faydası da uygulama kodlarını kaç kişi geliştiriyor olursa olsun sanki tek bir kişinin elinden çıkmış gibi düzenin korunmasını sağlar.
+
+# Android statik kod analizi nasıl yapılır ?
+
+
