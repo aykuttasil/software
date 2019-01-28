@@ -92,6 +92,7 @@ adresine, linkteki alanları uygun şekilde doldurduktan sonra request atmamız 
 
 - https://developers.google.com/amp/cache/update-cache
 
+
 Google AMP Cache mekanizması otomatik güncelleme için de bir yapıya sahiptir. Kullanıcı daha önce cache lenmiş bir AMP dökümanına istekte bulunduğunda Google AMP cache mekanizöası taze datayı sağlamak için update request inde bulunur. Aynı dökümana istekte bulunan birkaç kullanıcıdan sonra taze içerik gösterilmeye başlanır.
 
 ---
