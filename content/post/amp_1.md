@@ -86,6 +86,7 @@ AMP url inin sonuna `#development=1` eklenerek (`http://localhost:8000/released.
 Sayfamızda bir değişiklik oldu ve bunu google a söylememiz gerekiyor. Hiç bir etkileşimde bulunmaz isek [max-age](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control) meta tagına göre güncelleme yapılır.
 
 Bir değişiklik olduğunu ve google ın mevut cache i güncellemesi gerektiğini söylememiz için
+
 - https://example-com.<cache.updateCacheApiDomainSuffix>/update-cache/c/s/example.com/article?amp_action=flush&amp_ts=<ts_val>&amp_url_signature=<sig_val> şeklinde bir istekte bulunmamız gerekiyor
 
 adresine, linkteki alanları uygun şekilde doldurduktan sonra request atmamız gerekiyor. Nasıl doldurmamız gerektiği ile ilgili açıklamaları aşağıdaki linkte bulabilirsiniz.

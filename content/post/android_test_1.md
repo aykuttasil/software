@@ -370,7 +370,7 @@ val okHttpClient = OkHttpClient.Builder()
 
 > getJson(path = "json/blog/blogs.json") ?
 
-<img src="/image/mockwebserber.png" height="400px" />
+![Mock Web Server](/image/mockwebserber.png "Mock Web Server")
 
 ## Dispatcher
 
