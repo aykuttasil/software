@@ -15,17 +15,6 @@ postMetaInFooter: true
 hiddenFromHomePage: false
 ---
 
-# Sorun
+# Mockk Kullanımı
 
-**Kotlin** dili ile geliştirilen **Android** projelerinin test yazımı sırasında sınıfların veya metodların **mock**lanması, **Java** ile geliştirilen projelere göre bazı farklılıklar göstermektedir. Bu farklılığın sebeplerinden biri **Kotlin** ile oluşturulan sınıf veya metodların default olarak **final** olarak işaretlenmiş olmasıdır. Ve **final** tipindeki sınıfların **mock**lanması bazı sorunlar çıkarmaktadır.
-
-# Çözüm
-
-**Final** tipindeki sınıfların veya metodların mocklama işlemi sırasında çıkan sorunun çözmenin birkaç farklı yöntemi vardır
-
-## Çözüm 1
-
-Kotlin **all-open** pluginini kullanmak.
-
-
-
+Kotlin ile yazılan uygulamaların testi sırasında, sadece test etmek istediğimiz kısma odaklanabilmek için mevcut koddaki diğer bağımlılıkları **mock**layarak test yazımını gerçekleştirebiliriz. **Mock**lanılan sınıfların da teslerini ayrı olarak gerçekleştirmeliyiz.
