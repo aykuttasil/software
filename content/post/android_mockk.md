@@ -17,4 +17,4 @@ hiddenFromHomePage: false
 
 # Mockk Kullanımı
 
-Kotlin ile yazılan uygulamaların testi sırasında, sadece test etmek istediğimiz kısma odaklanabilmek için mevcut koddaki diğer bağımlılıkları **mock**layarak test yazımını gerçekleştirebiliriz. **Mock**lanılan sınıfların da teslerini ayrı olarak gerçekleştirmeliyiz.
+Kotlin ile yazılan uygulamaların testi sırasında, sadece test etmek istediğimiz kısma odaklanabilmek için mevcut koddaki diğer bağımlılıkları **mock**layarak test yazımını gerçekleştirebiliriz. **Mock**lanılan sınıfların da teslerini ayrı olarak yazmalıyız.
