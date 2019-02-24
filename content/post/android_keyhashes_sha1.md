@@ -33,8 +33,7 @@ title = "Android Key Hashes & SHA1"
 
 Windows komut satırına aşağıdaki komutu yazarak ulaşabilirsiniz.
 
- 
-```
+```bash
 keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%\.android\debug.keystore | openssl sha1 -binary | openssl base64
 ```
 
@@ -42,11 +41,10 @@ openssl hatası alırsanız https://code.google.com/p/openssl-for-windows/downlo
 
 Ortam değişkenlerine ulaşmak için : **Denetim Masası > Sistem > Gelişmiş Sİstem Ayarları** 
 
- 
 SHA1 ulaşmak için komut satırına aşağıdaki kodu yazmanız yeterli olacaktır.
 
 **your_user_name** yerine kendi kullanıcı adınızı yazmayı unutmayın.
 
-```
+```bash
 keytool -list -v -keystore c:\users\your_user_name\.android\debug.keystore -alias androiddebugkey -storepass android -keypass android
 ```

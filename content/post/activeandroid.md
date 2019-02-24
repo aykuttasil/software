@@ -31,8 +31,6 @@ ActiveAndroid kütüphanesi ORM kütüphanelerinden biridir.
 
 Kütüphaneyi [buradan](https://github.com/pardom/ActiveAndroid) indirebilirsiniz.
 
- 
-
 Kullanımı oldukça basittir. Sadece birkaç noktaya özellikle dikkat edilmesi gerekiyor. Bunlardan biri oluşturmuş olduğunuz tabloya yeni alanlar eklediğiniz de tablonuzu güncellemek. Veya herhangi bir sebeple tabloda çeşitli işlemler yapmak.
 
 Aşağıda kısaca Tablo oluşturmaktan ve gerektiğinde Tablo yu nasıl güncelleyeceğimizden bahsedicem.
