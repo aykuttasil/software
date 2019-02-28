@@ -49,7 +49,7 @@ Kodları vermeden önce **DataBinding** mekanizmasının nasıl çalıştığın
 Activity kodlarımız aşağıdaki gibi olacak şekilde düzenlemeleri yapalım.
 <script src="https://gist.github.com/aykuttasil/5a1c82abaa5e8638880c8a552e5fd1c4.js"></script>
 
-> `binding.lifecycleOwner = this` satırını eklediğimizden olalım. Bu kodu **LiveData** kullanarak **DataBinding** yapmak istiyorsak eklemek zorundayız.
+> `binding.lifecycleOwner = this` satırını eklediğimizden emin olalım. Bu kodu **LiveData** kullanarak **DataBinding** yapmak istiyorsak eklemek zorundayız.
 
 Yukarıda ki kodda bulunan **bind<>()** fonksiyonu kotlin extension fonksiyonudur.
 <script src="https://gist.github.com/aykuttasil/6117974f91a0312b248d976e6479aa76.js"></script>
@@ -62,6 +62,20 @@ Kalıtım aldığımız **RxAwareViewModel.kt** sınıfının kodları aşağıd
 
 **Login** ekranımızın **layout**'unu aşağıdaki gibi düzenleyelim.
 <script src="https://gist.github.com/aykuttasil/064ab78950d9a62bedd2228a70b67903.js"></script>
+
+**Layout** kodumuzu incelicek olursak
+
+`android:text="@={viewmodel.liveEmail}"` satırını çift yönlü binding yapmak için kullanıyoruz. Çift yönlü **binding** için **="@={}"** yapısını kullanıyoruz.
+Yani, **EditText**'e yazılan değerler aynı anda **ViewModel** sınıfımızın içindeki **liveEmail** nesnemize atanmış olucak. 
+
+**Not:** Burada dikkat edilmesi gereken bir nokta var. Çift yönlü binding yapmak istiyorsak, kullanacağımız **livedata** nesnemizin primitive tip olması gerekiyor. Bunu aşmanın çeşitli yöntemleri var ama bence en kolay ve okunabilir yöntem her çift yönlü binding yapılmak istenen alanın ayrı ayrı oluşturulması. 
+
+Primitive tipten kastımız `val liveEmail = MutableLiveData<String>()` şeklinde yani **String** tipinde olması. Bu alanı MutableLiveData<**Int**>() şeklinde de oluşturabiliriz. Burada yapamayacığımız şey direk olarak bir **Personel**, **User** gibi nesne kullanamıcak olmamız.
+
+`val liveUser = MutableLiveData<User>()` şeklinde oluşturduğumuzu ve **layout** kodumuzu da `android:text="@={viewmodel.liveUser.email}"` şeklinde düzelttiğimizi düşünelim. Burada çift yönlü binding çalışmayacaktır. Yani **User** nesnesinin **email** alanı otomatik olarak doldurulmayacaktır. Biraz fazla uzadı ama bu konuya dikkat etmemiz gerekiyor.
+
+
+
 
 
 
