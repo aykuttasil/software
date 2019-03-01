@@ -29,7 +29,7 @@ Test edeceğimiz sınıf ve metodun başına **open** ifadesini ekleyerek **exte
 
 ## Çözüm 2 (all-open)
 
-Kotlin **all-open** pluginini kullanmak.
+Kotlin **all-open** pluginini kullanmak. Ki bu **plugin**'de aslında sınıfların, metodların başında **open** ifadesi ekliyor.
 
 ## Çözüm 3 (Mockk)
 
@@ -39,7 +39,9 @@ Kotlin **all-open** pluginini kullanmak.
 
 > - Android P ve sonrası (>= 28) için birşey yapmanıza gerek yok
 > - Android P öncesi (< 28) için **all-open** pluginini aktifleştirmeniz gerekmektedir.
-> - https://mockk.io/ANDROID
+> - <https://mockk.io/ANDROID>
+
+**Not:** Kişisel olarak **Mockk** kullanmanızı tavsiye ederim. 
 
 ## Çözüm 4 (Mockito)
 

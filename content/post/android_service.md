@@ -81,7 +81,7 @@ Kullanıcı tarafından gözükecek olan service adını belirlemek için kullan
 
 Service class name'i bu etiket altında belirlenir. Örneğin: com.example.project.MyService
 
-### android:permission
+### android:permission
 
 Service çağırıldığında uygulama tarafından bu etiket altın belirtilen izinlerin sağlanmış olması gerekmektedir. Aksi takdirde ilgili service çalışmayacaktır.
 Örneğin, service içerisinde location API'si kullanılıyor ise `android:permission="android.permission.ACCESS_FINE_LOCATION"` şeklinde tanımlama yapılması ilgili servisi koruma altına alacak yani ilgili iznin sağlanması dahilinde çalışacağını garanti etmiş olacaktır.
