@@ -84,13 +84,13 @@ Burada tek yönlü binding'den kastımız data akışı **viewmodel -> layout** 
 
 Çift yönlü binding de ise data akışı **viewmodel <-> layout** şeklinde olacaktır.
 
-- `android:enabled="@{!TextUtils.isEmpty(viewmodel.liveEmail) &amp;&amp; !TextUtils.isEmpty(viewmodel.livePass)}"` satırında layout bileşenimizin, bizim durumumuz için Button, enable olup olmamasını bir koşula bağladık. Ve dinamik değişen değerler neticesinde eğer koşullar sağlanıyor ise **enable**, sağlanmıyor ise **disable** olacaktır. Burada **TextUtils** sınıfından bir fonksiyon kullandık. Bu şekilde harici bir sınıfa erişim sağlamak istiyorsan bunu layout dosyamızda **import** ederek belirtmeliyiz. 
+- `android:enabled="@{!TextUtils.isEmpty(viewmodel.liveEmail) &amp;&amp; !TextUtils.isEmpty(viewmodel.livePass)}"` satırında layout bileşenimizin, bizim durumumuz için **Button**, enable olup olmamasını bir koşula bağladık. Ve dinamik değişen değerler neticesinde eğer koşullar sağlanıyor ise **enable**, sağlanmıyor ise **disable** olacaktır. Burada **TextUtils** sınıfından bir fonksiyon kullandık. Bu şekilde harici bir sınıfa erişim sağlamak istiyorsak, bunu layout dosyamızda **import** ederek belirtmeliyiz.
 
 `&amp;&amp;` kısmı aslında `&&` anlamına geliyor. Yani **Ve** koşulu.
 
 - `android:onClick="@{()->viewmodel.login(edtEmail.getText().toString(),editParola.getText().toString())}"` bu satırda yaptığımız şey **viewmodel** sınıfımızdan bir fonksiyon çağırmak ve bu fonksiyona parametre olarak **edittext**'lere (email,parola) yazılan değerleri göndermek. **EditText** nesnesinin değerine ulaşmak için nesnenin **id** sini kullandığımıza dikkat edelim.
 
-Bu fonksiyona parametresin olarak da çağırabilirdik. Çünkü zaten **edittext** lere yazılan değerler otomatik olarak **viewmodel** sınıfındaki ilgili alanları doldurmuş oluyor. Ve biz bu nesnelere **(liveEmail,livePass)**, **login** fonksiyonunun içerisinde direk erişim sağlayarak ilgili işlemleri yapabiliriz.
+Login fonksiyonunu parametre göndermeden de çağırabilirdik. Çünkü zaten **edittext** bileşenlerine yazılan değerler otomatik olarak **viewmodel** sınıfındaki ilgili alanları doldurmuş oluyor. Ve biz bu nesnelere **(liveEmail,livePass)**, **login** fonksiyonunun içerisinden direk erişim sağlayarak ilgili işlemleri yapabiliriz.
 
 ---
 
