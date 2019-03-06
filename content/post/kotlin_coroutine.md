@@ -17,7 +17,7 @@ hiddenFromHomePage: false
 
 # Kotlin Coroutine
 
-**Coroutine**'i thread'e benzetebiliriz. Amaçları aynıdır fakat yapış şekillleri farklıdır.
+**Coroutine**'i thread'e benzetebiliriz. Amaçları aynıdır fakat işleyiş şekillleri farklıdır.
 
 **Thread**'ler **CPU** üzerinde başlatılan birbirinden izole yapılardır. Ve **thread**lerin yönetimini **CPU** düzenler. Tek çekirdekli bir bilgisayarda oluşturulan 5 thread düşünelim. **CPU** bu 5 thread arasında teker teker ama sadece her zaman için tek bir tanesinde işlem yapar. Yani aynı anda yapmaz. Bu geçişleri çok hızlı yaptığı için son kullanıcı gözünden sanki aynı anda yapıyormuş gibi görünür. 4 çekirdekli bilgisayarda ise **aynı anda** 4 thread çalışabilir demektir.
 
