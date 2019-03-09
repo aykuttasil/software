@@ -25,18 +25,13 @@ TLS/SSL protokolüne sahip siteler üzerinden yapılan veri alış verişleri ş
 
 Bunu engellemek için DNS over TLS kullanılır.
 
-## Özet 
+## Özet
 
 - TLS üzerinden DNS, tüm DNS isteklerinin güvenli bir şekilde yapılmasını sağlayan bir protokoldür.
-- Bu uygulama, İnternet Servis Sağlayıcılarının hangi web sitelerine erişmeye çalıştığınızı görmesini engeller. 
-- DNS'yi TLS üzerinden kullanmak için DNS servisinizin bunu desteklemesi gerekir.
+- Bu uygulama, İnternet Servis Sağlayıcılarının hangi web sitelerine erişmeye çalıştığınızı görmesini engeller.
+- DNS'i TLS üzerinden kullanmak için DNS servisinizin bunu desteklemesi gerekir.
 
 ## Kaynak
 
-- https://www.thesslstore.com/blog/what-is-dns-over-tls/
-- https://developers.cloudflare.com/1.1.1.1/dns-over-tls/
-
-
-
-
-
+- <https://www.thesslstore.com/blog/what-is-dns-over-tls/>
+- <https://developers.cloudflare.com/1.1.1.1/dns-over-tls/>
