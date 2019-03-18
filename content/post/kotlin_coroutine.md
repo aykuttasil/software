@@ -23,9 +23,12 @@ hiddenFromHomePage: false
 
 ![Thread](/image/concurrency_is_not_parallelism.png "Thread")
 
-**Coroutine**'ler ise **thread** gibi değildir. **Coroutine**'lerin yönetimi kotlin runtime tarafından yapılır. Arka tarafta **thread**'leri kullanır fakat nasıl kullanılacağını kotlin runtime belirler. Bir thread'de başlatılan **coroutine** başka bir thread'de devam edebilir. Bunun yönetimi dediğimiz gibi kotlin runtime tarafından otomatik yapılır.
+**Coroutine**'lerin çalışma biçimi **thread**ler gibi değildir. **Coroutine**'lerin yönetimi kotlin runtime tarafından yapılır. Arka tarafta **thread**'leri kullanır fakat nasıl kullanılacağını kotlin runtime belirler. Bir thread'de başlatılan **coroutine** başka bir thread'de devam edebilir. Bunun yönetimi dediğimiz gibi kotlin runtime tarafından otomatik yapılır.
 
 ![Coroutine](/image/coroutine.png "Coroutine")
+
+---
+
 
 # Kaynaklar
 
