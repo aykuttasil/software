@@ -6,7 +6,7 @@ draft: false
 keywords: ["netcore",".net",",netcore","aspnet","aspnetcore"]
 description: ""
 tags: ["netcore","aspnetcore","csharp","webapi","api"]
-categories: ["netcore","csharp","aspnetcore"]
+categories: ["netcore","csharp","aspnetcore","webapi"]
 author: "Aykut Asil"
 comment: true
 toc: true
