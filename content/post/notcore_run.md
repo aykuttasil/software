@@ -17,7 +17,12 @@ hiddenFromHomePage: false
 
 ## ASP.NET Core Run Method
 
-**ASP.NET Core** ile birlikte gelen **middleware** konsepti sayesinde **request-response** arasına girerek kendi mantıksal devremizi yazmamız çok kolay gelmiştir.
+**ASP.NET Core** ile birlikte gelen **middleware** konsepti sayesinde **request-response** arasına girerek kendi mantıksal devremizi yazmamız çok kolay hale gelmiştir.
+
+<script src="https://gist.github.com/aykuttasil/1c8ba890f705d3c982b9381a3792800b.js"></script>
+
+Yukarıda ki gibi **Startup.cs** sınıfı içerisinde ki **Configure** fonksiyonu içerisine `app.Run()` diyerek **middleware**'ımızı ekliyoruz. Peki tam olarak **Run** metodu nasıl çalışıyor?
+
 
 ## Kaynak
 
