@@ -23,7 +23,6 @@ hiddenFromHomePage: false
 
 Yukarıda ki gibi **Startup.cs** sınıfı içerisindeki **Configure** fonksiyonuna `app.Run()` diyerek **middleware**'ımızı ekliyoruz. Peki tam olarak **Run** metodu nasıl çalışıyor?
 
-
 **app.Run()** kendine gelen request'i bir sonraki **middleware**'a iletmez. Yani yukarı
 
 ## Kaynak
