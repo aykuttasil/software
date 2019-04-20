@@ -1,5 +1,5 @@
 ---
-title: ".Net Core Run"
+title: "Asp.Net Core app.Run() Middleware"
 date: 2019-04-15T22:08:14+03:00
 lastmod: 2019-04-15T22:08:14+03:00
 draft: false
@@ -21,10 +21,17 @@ hiddenFromHomePage: false
 
 <script src="https://gist.github.com/aykuttasil/1c8ba890f705d3c982b9381a3792800b.js"></script>
 
-Yukarıda ki gibi **Startup.cs** sınıfı içerisindeki **Configure** fonksiyonuna `app.Run()` diyerek **middleware**'ımızı ekliyoruz. Peki tam olarak **Run** metodu nasıl çalışıyor?
+Yukarıda ki gibi **Startup.cs** sınıfı içerisindeki **Configure** fonksiyonuna `app.Run()` diyerek **middleware**'ımızı ekleyebiliriz.
 
-**app.Run()** kendine gelen request'i bir sonraki **middleware**'a iletmez. Yani yukarı
+## Peki tam olarak `app.Run()` metodu nasıl çalışıyor?
+
+**app.Run()** middlaware'ı ile istenilen bir kod bloğunu çalıştırabilir ve uygulamamıza kısa devre yaptırabiliriz. Yani **pipeline** akışı eğer **Run()** içerisine girerse, sonraki kod blokları çalışmayacaktır.
+
+<script src="https://gist.github.com/aykuttasil/3e3741c99ebafe52d2b6bd4ccae00972.js"></script>
+
+Yukarıda ki kodun çıktısı sadece `Response 1` olacak ve sonraki kod bloğu çalışmayacaktır.
 
 ## Kaynak
 
 - <https://www.tutorialsteacher.com/core/aspnet-core-middleware>
+- <http://www.nazimdemir.net/asp-net-core-mvc-middleware-kavrami/>
