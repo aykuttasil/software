@@ -19,10 +19,11 @@ hiddenFromHomePage: false
 
 Android dünyasında temiz kod(**Clean Code**) günümüzde çokça konuşulan konular arasında yer almakta ve neden temiz kod yazmalıyız ile alakalı bir çok makale yazılmaktadır.
 
-Temiz kod yazmak için **MVP, MVVM** vs. kod tasarım mimarilerinden birini seçerek yazılan kodların ve etkileşimlerinin birbirinden ayrımını sağlamaktayız. Bu kod tasarım kalıpları ile beraber bize çok faydası olacak bir mimari daha bulunmakta:**DataBinding**
+Temiz kod yazmak için **MVP, MVVM** vs. kod tasarım mimarilerinden birini seçerek yazılan kodların ve etkileşimlerinin birbirinden ayrımını sağlamaktayız. Bu kod tasarım kalıpları ile beraber bize çok faydası olacak bir mimari daha bulunmakta: **DataBinding**
 
 ## DataBinding
 
+Uygulamanın arayüzünü tasarlamak için kullandığımız **layout** dosyamızın içerisine 
 Uygulamamızın arayüzünü oluşturmak için kullandığımız **layout** xml dosyalarına gerekli **data**yı doğrudan entegre ederek, arayüz değişikliği ile ilgili tüm akışların harici müdahaleye gerek kalmadan otomatik olarak gerçekleşmesini sağlayabiliriz. Bununla birlikte **null** kontrolü gibi kontrollerin de otomatik yapılmasını sağlayarak uygulamamızın milyon dolarlık hataya yakalanmasını engelleyebiliriz ;) ve bunun gibi bir çok faydası bulunmakta elbette.
 
 ### Nasıl Kullanılır?
