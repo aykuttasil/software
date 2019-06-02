@@ -31,5 +31,5 @@ Veri güvenliğini sağlamanın en iyi yolu encrpyt yani şifrelemedir. Şifrele
 
 # Kaynaklar
 
-- https://proandroiddev.com/secure-data-in-android-encryption-7eda33e68f58
-- https://expertise.jetruby.com/step-by-step-guide-to-implementing-a-fingerprint-scanner-in-your-android-application-eb370a4a7e95
+- <https://proandroiddev.com/secure-data-in-android-encryption-7eda33e68f58>
+- <https://expertise.jetruby.com/step-by-step-guide-to-implementing-a-fingerprint-scanner-in-your-android-application-eb370a4a7e95>
