@@ -1,9 +1,9 @@
 ---
-title: "Android FileProvider"
+title: "Android File System"
 date: 2019-06-27T14:00:59+03:00
 lastmod: 2019-06-27T14:00:59+03:00
 draft: false
-keywords: ["android","fileprovider","filesystem","uri","share-data","permission","security"]
+keywords: ["android","fileprovider","filesystem","uri","share-data","permission","security","file-system"]
 description: "Android FileProvider"
 tags: ["android","fileprovider","filesystem","uri","share-data","permission","security"]
 categories: ["android","security"]
@@ -15,7 +15,7 @@ postMetaInFooter: true
 hiddenFromHomePage: false
 ---
 
-## Android FileProvider
+## Android File System
 
 ### Internal Storage vs External Storage
 
@@ -51,3 +51,4 @@ Bir cihazda birden fazla **external** hafızayı temsil eden alan var ise bu ala
 ## Kaynaklar
 
 - <https://developer.android.com/training/data-storage/files.html>
+- <https://developer.android.com/reference/android/os/Environment>
