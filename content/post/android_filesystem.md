@@ -45,8 +45,9 @@ hiddenFromHomePage: false
 
 > - <https://developer.android.com/reference/android/os/Environment#getExternalStorageDirectory()>
 
-**External** kelimesi kafa karıştırıcı olabiliyor. Çoğu zaman için bu alan SD kartı ifade eder fakat android cihazların çok büyük bir kısmında dahili olarak **external** için ayrılmış alan bulunur. 
-Bir cihazda birden fazla **external** hafızayı temsil eden alan var ise bu alanlara
+**External** kelimesi kafa karıştırıcı olabiliyor. Çoğu zaman için bu alan SD kartı ifade eder fakat android cihazların çok büyük bir kısmında dahili olarak **external** için ayrılmış alan bulunur.
+
+Bir cihazda birden fazla **external** hafızayı temsil eden alan var ise bu alanlara `ContextCompat.getExternalFilesDirs(this,null);` şeklinde erişilebilir. **Android 4.4 (19)** öncesi ve sonrasında bu dizine erişim farklılık gösterdiği için **ContextCompat** sınıfı bize yardımcı olur.
 
 ## Kaynaklar
 
