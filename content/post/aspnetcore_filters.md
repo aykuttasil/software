@@ -75,9 +75,6 @@ Eğer oluşturduğumuz **Filter** sınıfı **DI** container'ından bir bağıml
 
 #### ServiceFilterAttribute
 
-
-
-
 ## Kaynaklar
 
 - <https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters>

@@ -23,7 +23,7 @@ date = "2017-01-11T18:52:51+03:00"
 
 +++
 
-# RxJava range() Kullanımı
+## RxJava range() Kullanımı
 
 **Örnek kod:--
 
@@ -42,13 +42,12 @@ private void range() {
 
 Yukarıda ki kodun çıktısı aşağıdaki gibidir.
 
-```
+```console
 I/MainActivity: val: 3
 I/MainActivity: val: 4
 I/MainActivity: val: 5
 I/MainActivity: val: 6
 I/MainActivity: val: 7
-``` 
+```
 
-RxJava candır 😉
-
+RxJava candır. 😉

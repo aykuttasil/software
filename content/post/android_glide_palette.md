@@ -30,23 +30,18 @@ Sizde projenizde resimlerle ilgili herhangi bir işlem yapıyorsanız bu kütüp
 
 - **Gradle :** `compile ‘com.github.florent37:glidepalette:1.0.6’`
 
- 
-
 Google ın geliştirmiş olduğu Palette kütüphanesi ise, resimlerinizin renkleriyle ilgilenir. Daha farklı işlemler içinde kullanılabilir resim boyutlandırma vs. gibi. Ama renklerle ilgili işlemler için oldukça güzel bir kütüphanedir.
 
 Link : [Android Developer](http://developer.android.com/reference/android/support/v7/graphics/Palette.html)
 
 - `Gradle : compile ‘com.android.support:palette-v7:23.1.1’`
 
- 
-
 Bu iki güzel kütüphanenin birlikte kullanımı ile oldukça güzel işler çıkabilir
 
 Bunun için de bir kütüphane mevcut 🙂
 
-- **Github :** https://github.com/florent37/GlidePalette
+- **Github :** <https://github.com/florent37/GlidePalette>
 
- 
 ```java
  Glide.with(mContext).load("ImageAdress")
                          // Her resim için farklı bir signature belirtmeliyiz. Bu sayede resimlerin tekrar tekrar yüklenmesini engellemiş oluruz.
@@ -89,5 +84,4 @@ Bunun için de bir kütüphane mevcut 🙂
                                         */
                         )
                         .into(mCollapsingImageView);
-```                        
-
+```

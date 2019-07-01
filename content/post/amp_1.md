@@ -17,9 +17,9 @@ hiddenFromHomePage: false
 
 > Not: Bu yazı öğrenme sürecinde hazırlanmış olup kısa kısa notlar içerir.
 
-# Nedir bu AMP
+## Nedir bu AMP
 
-# Kurallar
+## Kurallar
 
 - `<!doctype html>` ile başlamalı
 - `<html amp>` şeklinde düzenlenmeli 
@@ -40,10 +40,9 @@ hiddenFromHomePage: false
         - Eğer sayfanın sadece AMP versiyonu var ise kendi linki canonical olarak belirtilmelidir.
             - `<link rel="canonical" href="https://www.example.com/url/to/amp/document.html">`
 
-
 ---
 
-# AMP-HTML
+## AMP-HTML
 
 - `<amp-img>`
 
@@ -51,7 +50,7 @@ hiddenFromHomePage: false
 
 ---
 
-# Style
+## Style
 
 ```html
 <style amp-custom>
@@ -75,13 +74,13 @@ Normak html sayfalarındaki gibi amp html sayfalarında da mevcut taglara style 
 
 ---
 
-# Validate
+## Validate
 
 AMP url inin sonuna `#development=1` eklenerek (`http://localhost:8000/released.amp.html#development=1`) valide olup olmadığı kontrol edilebilir. Chrome DevTools açılarak console a yazılan loglar takip edilebilir.
 
 ---
 
-# Update or Delete Cache
+## Update or Delete Cache
 
 Sayfamızda bir değişiklik oldu ve bunu google a söylememiz gerekiyor. Hiç bir etkileşimde bulunmaz isek [max-age](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control) meta tagına göre güncelleme yapılır.
 
@@ -91,29 +90,12 @@ Bir değişiklik olduğunu ve google ın mevut cache i güncellemesi gerektiğin
 
 adresine, linkteki alanları uygun şekilde doldurduktan sonra request atmamız gerekiyor. Nasıl doldurmamız gerektiği ile ilgili açıklamaları aşağıdaki linkte bulabilirsiniz.
 
-- https://developers.google.com/amp/cache/update-cache
-
+- <https://developers.google.com/amp/cache/update-cache>
 
 Google AMP Cache mekanizması otomatik güncelleme için de bir yapıya sahiptir. Kullanıcı daha önce cache lenmiş bir AMP dökümanına istekte bulunduğunda Google AMP cache mekanizöası taze datayı sağlamak için update request inde bulunur. Aynı dökümana istekte bulunan birkaç kullanıcıdan sonra taze içerik gösterilmeye başlanır.
 
 ---
 
+## Kaynaklar
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Kaynaklar
-
-- https://www.ampproject.org/docs/
+- <https://www.ampproject.org/docs/>

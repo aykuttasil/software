@@ -15,7 +15,7 @@ postMetaInFooter: true
 hiddenFromHomePage: false
 ---
 
-# Android SMS Receiver
+## Android SMS Receiver
 
 Android de gelen sms leri dinlemek ve uygulamanızın akışını gelen sms lere göre şekillendirmek için aşağıdaki yapıyı kullanabilirsiniz.
 
@@ -27,7 +27,7 @@ Biz burda SMS dinlemesi yaparken önlem amaçlı olarak CPU nun uyumasını önl
 
 Aşağıdaki fonksiyonu Activity miz içerisinde ihtiyacımız olan yerde çağırır ve SMS receiver ı çalıştırmıış oluruz.
 
-## LoginActivity
+### LoginActivity
 
 ```java
 public void RegisterSmsReceiver() {
@@ -38,7 +38,7 @@ public void RegisterSmsReceiver() {
 }
 ```
 
-## SmsReceiver
+### SmsReceiver
 
 ```java
 public class SmsReceiver extends WakefulBroadcastReceiver {
@@ -72,7 +72,7 @@ public class SmsReceiver extends WakefulBroadcastReceiver {
 
 `exported="false"` tanımı servisin cihazda ki diğer uygulamalar tarafından çalıştırılamayacağını belirtir.
 
-## SmsReceiverService
+### SmsReceiverService
 
 ```java
 public class SmsReceiverService extends IntentService {
@@ -130,7 +130,6 @@ public class SmsReceiverService extends IntentService {
     }
 }
 ```
- 
 
 **SmsEvent**
 

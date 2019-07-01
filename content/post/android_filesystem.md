@@ -15,9 +15,7 @@ postMetaInFooter: true
 hiddenFromHomePage: false
 ---
 
-## Android File System
-
-### Internal Storage vs External Storage
+## Internal Storage vs External Storage
 
 > Internal Storage
 
@@ -27,8 +25,8 @@ hiddenFromHomePage: false
 
 > External Storage
 
-- Her zaman erişilebilir durumda olmayabilir. External storage cihaza dahili olarak bulunabileceği gibi USB cihazı olarak sonradan takılmış bir cihaz da olabilir. Bu nedenle erişebilir olup olmadığı kontrol edilmelidir (`getExternalStorageState()`).
-- External Storage'a kayıt edilen dosyalar başka uygulamalar tarafından okunabilir ve görülebilir durumda olabilir. Oluşturma şekline göre farklılık gösterebilir.
+- Her zaman erişilebilir durumda olmayabilir. **External storage** cihaza dahili olarak bulunabileceği gibi USB cihazı olarak sonradan takılmış bir cihaz da olabilir. Bu nedenle erişebilir olup olmadığı kontrol edilmelidir (`getExternalStorageState()`).
+- External Storage'a kayıt edilen dosyalar başka uygulamalar tarafından okunabilir ve görülebilir durumda olabilir. Oluşturma şekline göre farklılık gösterir.
 - `Context.getExternalFilesDir()`ile ulaşılan path'e kayıt edilen dosyalar uygulama silindiğinde otomatik olarak temizlenir.
 
 ---
@@ -38,6 +36,8 @@ hiddenFromHomePage: false
 - `getExternalCacheDir()` -> /storage/emulated/0/Android/data/com.aykuttasil.myapp/cache
 - `Environment.getExternalStorageDirectory()` -> /storage/emulated/0
 - `Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM)` -> /storage/emulated/0/DCIM
+
+![android_external_storage_apis](/image/android_external_storage_apis.png "android_external_storage_apis")
 
 ## Environment.getExternalStorageDirectory()
 
