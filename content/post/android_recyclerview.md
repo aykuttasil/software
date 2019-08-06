@@ -18,7 +18,7 @@ keywords = [
 date = "2017-01-11T16:39:33+03:00"
 thumbnailImagePosition = "top"
 metaAlignment = "center"
-
+draft = true
 +++
 
 
