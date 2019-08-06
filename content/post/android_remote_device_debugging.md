@@ -21,9 +21,11 @@ Canlı bir örnek verirsem sanıyorum daha iyi olacak.
 
 > Geliştirme yaptığınız makinenizinde **MacOS** işletim sistemi var. Bununla beraber çeşitli ihtiyaçlarınızdan ötürü windows kurmanız gerekti ve **Virtual Machine** kurarak içine windows yüklediniz. **Windows** üzerinde Visual Studio ile bir **WebApi** ayağa kaldırdınız ve bu **api**'ye fiziksel **Android** cihazınızdan erişmek istiyorsunuz. Üstüne üstlük normal **web adresi** girer gibi yani **myrestapi.local** gibi bir adres üzerinden erişim sağlamak istiyorsunuz.
 
+## Kurulum
+
 Artık kuruluma geçebiliriz.
 
-### İlk olarak **Windows** tarafını ele alalım
+### **Windows** için gerekli düzenlemeler
 
 Eğer kurulu değilse ilk olarak **IIS**'i etkinleştirmemiz gerekmektedir. Bunun için arama çubuğuna **Turn Windows features on or off** yazarak ilgili pencereyi açıyoruz. Ve aşağıda seçili olan kutucukları seçerek kurulumu tamamlıyoruz.
 
@@ -62,6 +64,10 @@ Mac üzerinde bulunan **Chrome**'u açıyoruz ve arama kutusuna `chrome://inspec
 **Android** cihazlarının farklılığından dolayı aşağıdaki ayarları yapma şekli farklılık gösterebilir ama muhtemelen benzer şekillerde olacaktır.
 
 Android cihazımız üzerinden **Wi-Fi Settings** sayfasını açıyoruz. Ve **Proxy** ayarlama kısmından **Manuel** seçerek aşağıdaki gibi giriş yapıyoruz. **Chrome** yapılandırma kısmında girmiş olduğumuz **8080** port numarasının buradaki ile aynı olmasına dikkat ediyoruz.
+
+![android proxy](/image/android_proxy.jpeg)
+
+![android proxy](/image/android_proxy1.jpeg)
 
 ---
 
