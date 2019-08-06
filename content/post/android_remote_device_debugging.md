@@ -71,9 +71,11 @@ Android cihazımız üzerinden **Wi-Fi Settings** sayfasını açıyoruz. Ve **P
 
 ---
 
-Evet tüm yapılandırmalarımız yaptık. Geliştirme yaparken **Android** cihazımız üzerinde **Chrome**'un açık olmasına dikkat ediyoruz. Ve cihazın **Proxy** ayarlarının yukarıda bahsettiğimiz şekilde ayarlı olmasına dikkat ediyoruz. 
+Evet tüm düzenlemelerimizi yaptık. Artık **VM (Windows)** üzerinde koşan **api**mize <htttp://myrestapi.local> adresinden ve **Windows, Mac veya Android** üzerindeki bir browserdan erişim sağlayabiliriz. Ve tabi geliştirmekte olduğunuz **android** uygulaması üzerinden de bu adrese erişim sağlayabileceksiniz.
 
-Geliştirme sonrasında ilgili **android** cihazımızndan normal **wi-fi** bağlantısı ile internete erişmek için **proxy** ayarlarını **otomatik** olarak düzeltmeyi unutmayalım.
+Geliştirme yaparken **Android** cihazımız üzerinde **Chrome**'un açık olmasına dikkat ediyoruz. Ve cihazın **Proxy** ayarlarının yukarıda bahsettiğimiz şekilde ayarlı olmasına dikkat ediyoruz.
+
+> **Not:** Geliştirme sonrasında ilgili **android** cihazımızdan normal **wi-fi** bağlantısı ile internete erişmek için **proxy** ayarlarını **"Yok"** olarak işaretlemeyi yani **default** ayarına geri göndürmeyi unutmayalım.
 
 ## Kaynaklar
 
