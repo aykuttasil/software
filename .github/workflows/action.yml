@@ -1,0 +1,27 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
+
+    - name: Deploy the site
+      uses: benmatselby/hugo-deploy-gh-pages@master
+      env:
+        HUGO_VERSION: 0.57.2
+        TARGET_REPO: aykuttasil/yazilim.github.io
+        TOKEN: ${{ secrets.TOKEN }}
+        HUGO_ARGS: '-t academic'
+        CNAME: benmatselby.github.io
+    
