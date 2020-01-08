@@ -18,9 +18,10 @@
       
       <guid>https://yazilim.aykutasil.com/post/android_keyhashes_sha1/</guid>
       <description>Android Key Hashes &amp;amp; SHA1 Windows komut satırına aşağıdaki komutu yazarak ulaşabilirsiniz.
-keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%\.android\debug.keystore | openssl sha1 -binary | openssl base64  openssl hatası alırsanız https://code.google.com/p/openssl-for-windows/downloads/detail?name=openssl-0.9.8k_X64.zip adresindeki dosyayı indirdikten sonra çıkan dosyadaki bin klasörünü ortam değişkenlerindeki PATH kısmına eklerseniz sorun ortadan kalkacaktır.
+keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%\.android\debug.keystore | openssl sha1 -binary | openssl base64 openssl hatası alırsanız https://code.google.com/p/openssl-for-windows/downloads/detail?name=openssl-0.9.8k_X64.zip adresindeki dosyayı indirdikten sonra çıkan dosyadaki bin klasörünü ortam değişkenlerindeki PATH kısmına eklerseniz sorun ortadan kalkacaktır.
 Ortam değişkenlerine ulaşmak için : Denetim Masası &amp;gt; Sistem &amp;gt; Gelişmiş Sİstem Ayarları
-SHA1 ulaşmak için komut satırına aşağıdaki kodu yazmanız yeterli olacaktır.</description>
+SHA1 ulaşmak için komut satırına aşağıdaki kodu yazmanız yeterli olacaktır.
+your_user_name yerine kendi kullanıcı adınızı yazmayı unutmayın.</description>
     </item>
     
   </channel>

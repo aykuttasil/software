@@ -20,7 +20,7 @@
       <description>Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id sini getirir.
 Yapılan son kaydın id sini almak için uzun yol olarak insert sorgusunu çalıştırdıktan sonra bir select sorgusu atarak ve order by id desc diyerek ilk sıradaki kaydı okuyabilir ve bu kaydın id sini alabiliriz.
 Tüm bunları yapmaktansa:
-DECLARE @son_satir_id INT; INSERT INTO tbQwerty ( Ad , Soyad ) VALUES ( &#39;Aykut&#39; &#39;Asil&#39; ) SET @son_satir_id = SCOPE_IDENTITY();  Ayrıntılı Bilgi : https://technet.</description>
+DECLARE @son_satir_id INT; INSERT INTO tbQwerty ( Ad , Soyad ) VALUES ( &amp;#39;Aykut&amp;#39; &amp;#39;Asil&amp;#39; ) SET @son_satir_id = SCOPE_IDENTITY(); Ayrıntılı Bilgi : https://technet.</description>
     </item>
     
     <item>
@@ -46,7 +46,7 @@ Oluşturmuş olduğumuz tabloların sadece şemasını yani içiindeki veriler o
       <description>TSQL NULLIF fonksiyonu NULLIF fonksiyonu verilen iki parametre birbirine esit ise NULL deger döndürür eger degerleri fakli iki parametre verilirse sonuç olarak birinci parametrenin degerini döndürür.
 Kullanimi ve anlamasi kolay bir fonksiyon oldugu için basit bir örnekle anlatmaya çalisalim.
 Ilk olarak kullanacagimiz geçici tabloyu asagidaki gibi çalistirip içine insert komutu ile veri kaydedelim.
-CREATE TABLE #Urun ( UrunID TINYINT, ListeFiyati DECIMAL NULL); GO INSERT #Urun VALUES(1,100); INSERT #Urun VALUES(2,NULL); INSERT #Urun VALUES(3,0); INSERT #Urun VALUES(7,250); INSERT #Urun VALUES(9,458);  ListeFiyati kolonuna göre count yaparsak sonuç olarak 4 dönecegini görürsünüz, çünkü UrunID’si 2 olan ürünün liste fiyati girilmemistir.</description>
+CREATE TABLE #Urun ( UrunID TINYINT, ListeFiyati DECIMAL NULL); GO INSERT #Urun VALUES(1,100); INSERT #Urun VALUES(2,NULL); INSERT #Urun VALUES(3,0); INSERT #Urun VALUES(7,250); INSERT #Urun VALUES(9,458); ListeFiyati kolonuna göre count yaparsak sonuç olarak 4 dönecegini görürsünüz, çünkü UrunID’si 2 olan ürünün liste fiyati girilmemistir.</description>
     </item>
     
   </channel>

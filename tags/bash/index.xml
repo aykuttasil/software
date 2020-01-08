@@ -17,10 +17,10 @@
       <pubDate>Mon, 10 Dec 2018 00:47:41 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/post/bash/</guid>
-      <description>cat &amp;lt;&amp;lt;EOF cat &amp;lt;&amp;lt;EOF komutu ile multiline bash script yazabiliriz. Son satır EOF oluncaya kadar satır oluşturulmaya devam eder.
+      <description>cat &amp;laquo;EOF cat &amp;lt;&amp;lt;EOF komutu ile multiline bash script yazabiliriz. Son satır EOF oluncaya kadar satır oluşturulmaya devam eder.
 EOF yerine herhangi bir belirteç yazılabilir. Genelde EOF veya STOP yazılır.
-$ sql=$(cat &amp;lt;&amp;lt;EOF SELECT foo, bar FROM db WHERE foo=&#39;baz&#39; EOF )  $ cat &amp;lt;&amp;lt;EOF &amp;gt; print.sh #!/bin/bash echo \$PWD echo $PWD EOF  Yukarıda ki bash çalıştırıldığında print.sh adında ve içeriği
-#!/bin/bash echo $PWD echo /home/user  olan bir dosya oluşur.</description>
+$ sql=$(cat &amp;lt;&amp;lt;EOF SELECT foo, bar FROM db WHERE foo=&amp;#39;baz&amp;#39; EOF ) $ cat &amp;lt;&amp;lt;EOF &amp;gt; print.sh #!/bin/bash echo \$PWD echo $PWD EOF Yukarıda ki bash çalıştırıldığında print.sh adında ve içeriği
+#!/bin/bash echo $PWD echo /home/user olan bir dosya oluşur.</description>
     </item>
     
     <item>
@@ -30,9 +30,10 @@ $ sql=$(cat &amp;lt;&amp;lt;EOF SELECT foo, bar FROM db WHERE foo=&#39;baz&#39; 
       
       <guid>https://yazilim.aykutasil.com/post/android_keyhashes_sha1/</guid>
       <description>Android Key Hashes &amp;amp; SHA1 Windows komut satırına aşağıdaki komutu yazarak ulaşabilirsiniz.
-keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%\.android\debug.keystore | openssl sha1 -binary | openssl base64  openssl hatası alırsanız https://code.google.com/p/openssl-for-windows/downloads/detail?name=openssl-0.9.8k_X64.zip adresindeki dosyayı indirdikten sonra çıkan dosyadaki bin klasörünü ortam değişkenlerindeki PATH kısmına eklerseniz sorun ortadan kalkacaktır.
+keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%\.android\debug.keystore | openssl sha1 -binary | openssl base64 openssl hatası alırsanız https://code.google.com/p/openssl-for-windows/downloads/detail?name=openssl-0.9.8k_X64.zip adresindeki dosyayı indirdikten sonra çıkan dosyadaki bin klasörünü ortam değişkenlerindeki PATH kısmına eklerseniz sorun ortadan kalkacaktır.
 Ortam değişkenlerine ulaşmak için : Denetim Masası &amp;gt; Sistem &amp;gt; Gelişmiş Sİstem Ayarları
-SHA1 ulaşmak için komut satırına aşağıdaki kodu yazmanız yeterli olacaktır.</description>
+SHA1 ulaşmak için komut satırına aşağıdaki kodu yazmanız yeterli olacaktır.
+your_user_name yerine kendi kullanıcı adınızı yazmayı unutmayın.</description>
     </item>
     
   </channel>

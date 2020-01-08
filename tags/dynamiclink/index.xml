@@ -18,7 +18,7 @@
       
       <guid>https://yazilim.aykutasil.com/post/firebase_dynamiclink/</guid>
       <description>Firebase Dynamic Links Öyle bir link olsun ki;
- Bilgisayarımda ki browserdan linke tıkladığımda kişisel web sitem açılsın, Eğer mobil cihazımda ki browserdan linke tıklarsan;  Uygulama cihazda yüklü ise uygulamam açılsın (Belirtmiş olduğum Activity vs.), Uygulama cihazda yüklü değilse Google Play Store veya App Store açılsın, Uygulama cihazda yüklü olsa bile eğer belirttiğim versiyon kodundan eski bir sürüm varsa yine Google Play Store vs. açılsın, &amp;hellip;   gibi sorulara tek bir link ile cevap verebilirsiniz.</description>
+ Bilgisayarımda ki browserdan linke tıkladığımda kişisel web sitem açılsın, Eğer mobil cihazımda ki browserdan linke tıklarsan;  Uygulama cihazda yüklü ise uygulamam açılsın (Belirtmiş olduğum Activity vs.), Uygulama cihazda yüklü değilse Google Play Store veya App Store açılsın, Uygulama cihazda yüklü olsa bile eğer belirttiğim versiyon kodundan eski bir sürüm varsa yine Google Play Store vs. açılsın, &amp;hellip;    gibi sorulara tek bir link ile cevap verebilirsiniz.</description>
     </item>
     
   </channel>

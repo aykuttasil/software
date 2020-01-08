@@ -19,7 +19,7 @@
       <guid>https://yazilim.aykutasil.com/android-webview-etkilesimi/</guid>
       <description>Kısa Hikaye : Üstünde çalışmakta olduğum bir projede kredi kartı ile ödeme yapısı kurmam gerekti. Kısaca projenin yapısından bahsedecek olursak
  Backend : .Net Client : Android (Java) Ödeme altyapısı : İyzico  Client tarafında rest isteğiyle tüm işlemlerimizi backend tarafında yapıyoruz. Ödeme yapımızı da bu doğrultuda geliştirdik.
-Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine bankanın bize telefonumuza gelen şifreyi girmemiz için göndermiş olduğu web sayfası vs.</description>
+Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine bankanın bize telefonumuza gelen şifreyi girmemiz için göndermiş olduğu web sayfası vs. giriyor.</description>
     </item>
     
     <item>
@@ -71,8 +71,8 @@ Kullanıcı açısından bakıldığında oldukça yararlı birşey gibi duruyor
       <guid>https://yazilim.aykutasil.com/post/android_glide_palette/</guid>
       <description>Google ın resim işlemleri için geliştirmiş olduğu Glide kütüphanesi Android kaynaklarını, cache mekanizmasını vs. verimli şekilde kullanarak uygulamanıza hız ve kalite kazandırır.
 Sizde projenizde resimlerle ilgili herhangi bir işlem yapıyorsanız bu kütüphaneyi incelemenizi tavsiye ediyorum.
- Github : https://github.com/bumptech/glide
- Gradle : compile ‘com.github.florent37:glidepalette:1.0.6’
+  Github : https://github.com/bumptech/glide
+  Gradle : compile ‘com.github.florent37:glidepalette:1.0.6’
   Google ın geliştirmiş olduğu Palette kütüphanesi ise, resimlerinizin renkleriyle ilgilenir. Daha farklı işlemler içinde kullanılabilir resim boyutlandırma vs. gibi. Ama renklerle ilgili işlemler için oldukça güzel bir kütüphanedir.</description>
     </item>
     
@@ -83,8 +83,7 @@ Sizde projenizde resimlerle ilgili herhangi bir işlem yapıyorsanız bu kütüp
       
       <guid>https://yazilim.aykutasil.com/post/android_viewpager/</guid>
       <description>Android ViewPager yapısı içerisinde birçok hazır fonksiyonu, animasyonu ve özelleştirilebilir kontrolleri barındırır.
-İhtiyaçlarımız doğrultusunda bu yapıyı özelleştirebilir ve ViewPager ın bize sunmuş olduğu rahatlığı kullanabiliriz.
- </description>
+İhtiyaçlarımız doğrultusunda bu yapıyı özelleştirebilir ve ViewPager ın bize sunmuş olduğu rahatlığı kullanabiliriz.</description>
     </item>
     
     <item>
@@ -93,8 +92,8 @@ Sizde projenizde resimlerle ilgili herhangi bir işlem yapıyorsanız bu kütüp
       <pubDate>Wed, 11 Jan 2017 16:10:10 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/post/java_collections/</guid>
-      <description> Collections.swap Swap kelime anlamı ile takas anlamına gelmektedir. Mevcut dizimiz içerisinde elemanların yerlerini değiştirmeye yarar.
-private static final String[] STRINGS = new String[]{ &amp;quot;1&amp;quot;, &amp;quot;2&amp;quot;, &amp;quot;3&amp;quot;, &amp;quot;4&amp;quot;, &amp;quot;5&amp;quot; }; private final List mItems = new ArrayList&amp;lt;&amp;gt;(); public void setArray() { mItems.addAll(Arrays.asList(STRINGS)); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 1,2,3,4,5 private void elemanYerDegistir() { Collections.swap(mItems, 0, 4); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 5,2,3,4,1  </description>
+      <description>Collections.swap Swap kelime anlamı ile takas anlamına gelmektedir. Mevcut dizimiz içerisinde elemanların yerlerini değiştirmeye yarar.
+private static final String[] STRINGS = new String[]{ &amp;#34;1&amp;#34;, &amp;#34;2&amp;#34;, &amp;#34;3&amp;#34;, &amp;#34;4&amp;#34;, &amp;#34;5&amp;#34; }; private final List mItems = new ArrayList&amp;lt;&amp;gt;(); public void setArray() { mItems.addAll(Arrays.asList(STRINGS)); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 1,2,3,4,5  private void elemanYerDegistir() { Collections.swap(mItems, 0, 4); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 5,2,3,4,1 </description>
     </item>
     
     <item>
@@ -117,8 +116,8 @@ Burada yapacağımız örnekte kısaca şu aşamaları görücez;
       <description>GcmNetworkManager kullanarak Android de network tabanlı işlemlerinizi olabildiğince kontrollü bir şekide yapabilirsiniz.
 GcmNetworkManager ın kullanım alanı daha çok asenkron ve periodic network işlemlerinizi yapılandırmaktır.
 Tek sefer çalışacak veya Periodic olarak çalışacak işlemleriniz için 2 tip belirlenmiştir.
- OneoffTask PeriodicTask  OneoffTask Kullanımı
-OneoffTask oneoff = new OneoffTask.Builder() // Uygulamanızı kapatsanız bile tekrar açtığınız da network işleminiz işleme konulur. // Yani isteğinizin kalıcı olup olmamasını bu parametre ile ayarlayabilirsiniz. .setPersisted(true) // Belirtilen network işlemlerinin çalışacağı service i belirtir.</description>
+ OneoffTask PeriodicTask   OneoffTask Kullanımı
+OneoffTask oneoff = new OneoffTask.Builder() // Uygulamanızı kapatsanız bile tekrar açtığınız da network işleminiz işleme konulur.  // Yani isteğinizin kalıcı olup olmamasını bu parametre ile ayarlayabilirsiniz.  .</description>
     </item>
     
     <item>
@@ -141,8 +140,9 @@ Biz burda SMS dinlemesi yaparken önlem amaçlı olarak CPU nun uyumasını önl
       <guid>https://yazilim.aykutasil.com/post/android_internet_connection_receiver/</guid>
       <description>Uygulamanızın akışını internet kontrolü yaparak yönetmeniz gerekebilir.
 Bunun için ilk olarak AndroidManifest.xml dosyasına receiver tanımı yapmalısınız.
-&amp;lt;receiver android:name=&amp;quot;.InternetConnectionReceiver&amp;quot;&amp;gt; &amp;lt;intent-filter&amp;gt; &amp;lt;action android:name=&amp;quot;android.net.conn.CONNECTIVITY_CHANGE&amp;quot; /&amp;gt; &amp;lt;/intent-filter&amp;gt; &amp;lt;/receiver&amp;gt;  InternetConnectionReceiver
-public class InternetConnectionReceiver extends BroadcastReceiver { @Override public void onReceive(Context context, Intent intent) { if (CheckConnection(context)) { } } }  Yukarıda tanımlanmış olan receiver, cihazın ağ yapısında herhangi bir değişiklik olduğunda bunu yakalar. Örneğin wireless açıkken kapattığınız da veya kapalıyken açtığınız da bunu yakayabilirsiniz.</description>
+&amp;lt;receiver android:name=&amp;#34;.InternetConnectionReceiver&amp;#34;&amp;gt; &amp;lt;intent-filter&amp;gt; &amp;lt;action android:name=&amp;#34;android.net.conn.CONNECTIVITY_CHANGE&amp;#34; /&amp;gt; &amp;lt;/intent-filter&amp;gt; &amp;lt;/receiver&amp;gt; InternetConnectionReceiver
+public class InternetConnectionReceiver extends BroadcastReceiver { @Override public void onReceive(Context context, Intent intent) { if (CheckConnection(context)) { } } } Yukarıda tanımlanmış olan receiver, cihazın ağ yapısında herhangi bir değişiklik olduğunda bunu yakalar. Örneğin wireless açıkken kapattığınız da veya kapalıyken açtığınız da bunu yakayabilirsiniz.
+CheckConnection</description>
     </item>
     
     <item>

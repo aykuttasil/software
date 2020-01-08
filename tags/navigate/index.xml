@@ -18,7 +18,7 @@
       
       <guid>https://yazilim.aykutasil.com/post/android_backstack_navigate/</guid>
       <description>Android Navigate Örnek Senaryo Kullanıcıya bir ürün ile ilgili notification yolladınız. Kullanıcı bu notification a tıkladığında direk olarak Ürün Detay sayfasına yönlendiriliyor. Kullanıcı sayfada işi bittiğinde geri tuşuna basıyor ve siz bu durumda kullanıcıyı uygulamanın Anasayfasına yönlendirmek istiyorsunuz. Ek bir geliştirme yapmadığınız takdirde bu senaryo için geri tuşuna basıldığında uygulama kapanır. Çünkü geri gidecek ekranı yoktur. Direk olarak Detay sayfası açılmıştır.
-Çözüm İlk olarak yapmamız gereken Manifest.xml dosyasında DetailActivity tanımlamasını yaptığımız yerde parentActivityName i belirtmek.</description>
+ Çözüm İlk olarak yapmamız gereken Manifest.xml dosyasında DetailActivity tanımlamasını yaptığımız yerde parentActivityName i belirtmek.</description>
     </item>
     
   </channel>

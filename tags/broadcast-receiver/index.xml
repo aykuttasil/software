@@ -19,8 +19,9 @@
       <guid>https://yazilim.aykutasil.com/post/android_internet_connection_receiver/</guid>
       <description>Uygulamanızın akışını internet kontrolü yaparak yönetmeniz gerekebilir.
 Bunun için ilk olarak AndroidManifest.xml dosyasına receiver tanımı yapmalısınız.
-&amp;lt;receiver android:name=&amp;quot;.InternetConnectionReceiver&amp;quot;&amp;gt; &amp;lt;intent-filter&amp;gt; &amp;lt;action android:name=&amp;quot;android.net.conn.CONNECTIVITY_CHANGE&amp;quot; /&amp;gt; &amp;lt;/intent-filter&amp;gt; &amp;lt;/receiver&amp;gt;  InternetConnectionReceiver
-public class InternetConnectionReceiver extends BroadcastReceiver { @Override public void onReceive(Context context, Intent intent) { if (CheckConnection(context)) { } } }  Yukarıda tanımlanmış olan receiver, cihazın ağ yapısında herhangi bir değişiklik olduğunda bunu yakalar. Örneğin wireless açıkken kapattığınız da veya kapalıyken açtığınız da bunu yakayabilirsiniz.</description>
+&amp;lt;receiver android:name=&amp;#34;.InternetConnectionReceiver&amp;#34;&amp;gt; &amp;lt;intent-filter&amp;gt; &amp;lt;action android:name=&amp;#34;android.net.conn.CONNECTIVITY_CHANGE&amp;#34; /&amp;gt; &amp;lt;/intent-filter&amp;gt; &amp;lt;/receiver&amp;gt; InternetConnectionReceiver
+public class InternetConnectionReceiver extends BroadcastReceiver { @Override public void onReceive(Context context, Intent intent) { if (CheckConnection(context)) { } } } Yukarıda tanımlanmış olan receiver, cihazın ağ yapısında herhangi bir değişiklik olduğunda bunu yakalar. Örneğin wireless açıkken kapattığınız da veya kapalıyken açtığınız da bunu yakayabilirsiniz.
+CheckConnection</description>
     </item>
     
   </channel>

@@ -18,9 +18,9 @@
       
       <guid>https://yazilim.aykutasil.com/post/aspnetcore_run/</guid>
       <description>ASP.NET Core Run Method ASP.NET Core ile birlikte gelen middleware konsepti sayesinde request-response süreçleri arasına girerek kendi mantıksal devremizi yazmamız çok kolay hale gelmiştir.
- Yukarıda ki gibi Startup.cs sınıfı içerisindeki Configure fonksiyonuna app.Run() diyerek middleware&amp;lsquo;ımızı ekleyebiliriz.
-Peki tam olarak app.Run() metodu nasıl çalışıyor? app.Run() middlaware&amp;rsquo;ı ile istenilen bir kod bloğunu çalıştırabilir ve uygulamamıza kısa devre yaptırabiliriz. Yani pipeline akışı eğer Run() içerisine girerse, sonraki kod blokları çalışmayacaktır.
- Yukarıda ki kodun çıktısı sadece Response 1 olacak ve sonraki kod bloğu çalışmayacaktır.</description>
+Yukarıda ki gibi Startup.cs sınıfı içerisindeki Configure fonksiyonuna app.Run() diyerek middleware&amp;lsquo;ımızı ekleyebiliriz.
+Peki tam olarak app.Run() metodu nasıl çalışıyor? app.Run() middlaware&#39;ı ile istenilen bir kod bloğunu çalıştırabilir ve uygulamamıza kısa devre yaptırabiliriz. Yani pipeline akışı eğer Run() içerisine girerse, sonraki kod blokları çalışmayacaktır.
+Yukarıda ki kodun çıktısı sadece Response 1 olacak ve sonraki kod bloğu çalışmayacaktır.</description>
     </item>
     
   </channel>

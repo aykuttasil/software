@@ -18,9 +18,9 @@
       
       <guid>https://yazilim.aykutasil.com/post/docker_komutlari/</guid>
       <description>Docker Komutları ve Açıklamaları
-&amp;gt; docker images  Docker hostuna yüklü olan image leri gösterir.
-&amp;gt; docker ps  Docker hostunda yüklü olan imagelerle inşa edilmiş olan container ları listeler.
-&amp;gt; docker run hello-world  İlk olarak Local de (bilgisayarımızda) hello-world isminde bir image var mı kontrol eder. Eğer varsa direkt olarak çalıştırır.
+ &amp;gt; docker images Docker hostuna yüklü olan image leri gösterir.
+ &amp;gt; docker ps Docker hostunda yüklü olan imagelerle inşa edilmiş olan container ları listeler.
+ &amp;gt; docker run hello-world İlk olarak Local de (bilgisayarımızda) hello-world isminde bir image var mı kontrol eder. Eğer varsa direkt olarak çalıştırır.
 Local de verilen isimde bir image bulamaz ise cloud da arama yapar, bulur, local e indirir ve ardından çalıştırır.</description>
     </item>
     

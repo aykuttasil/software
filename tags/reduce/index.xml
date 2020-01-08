@@ -18,9 +18,7 @@
       
       <guid>https://yazilim.aykutasil.com/post/android_rxjava_reduce/</guid>
       <description>RxJava reduce() Kullanımı reduce() fonskyionu iki şekilde çalışır;
- 1
-.reduce(new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } })  2
-.reduce(10,new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } })   1 ile 2 nin farkı, 2 de görüldüğü üzere fonksiyona başlangıç değeri atanabilmesidir.
+ 1  .reduce(new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } })  2  .reduce(10,new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } }) 1 ile 2 nin farkı, 2 de görüldüğü üzere fonksiyona başlangıç değeri atanabilmesidir.
 Aşağıdaki örneklerde daha net görebilirsiniz.</description>
     </item>
     

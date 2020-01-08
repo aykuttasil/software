@@ -19,8 +19,8 @@
       <guid>https://yazilim.aykutasil.com/post/android_glide_palette/</guid>
       <description>Google ın resim işlemleri için geliştirmiş olduğu Glide kütüphanesi Android kaynaklarını, cache mekanizmasını vs. verimli şekilde kullanarak uygulamanıza hız ve kalite kazandırır.
 Sizde projenizde resimlerle ilgili herhangi bir işlem yapıyorsanız bu kütüphaneyi incelemenizi tavsiye ediyorum.
- Github : https://github.com/bumptech/glide
- Gradle : compile ‘com.github.florent37:glidepalette:1.0.6’
+  Github : https://github.com/bumptech/glide
+  Gradle : compile ‘com.github.florent37:glidepalette:1.0.6’
   Google ın geliştirmiş olduğu Palette kütüphanesi ise, resimlerinizin renkleriyle ilgilenir. Daha farklı işlemler içinde kullanılabilir resim boyutlandırma vs. gibi. Ama renklerle ilgili işlemler için oldukça güzel bir kütüphanedir.</description>
     </item>
     

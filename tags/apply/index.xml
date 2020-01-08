@@ -17,10 +17,10 @@
       <pubDate>Tue, 06 Jun 2017 10:47:58 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/post/kotlin_apply/</guid>
-      <description>fun &amp;lt;T&amp;gt; T.apply(f: T.() -&amp;gt; Unit): T { f(); return this }  apply() tüm tipler için belirlenmiş bir extension function dır. apply() fonksiyonu uygulanan nesnenin özelliklerine direk olarak apply kod bloğu içerisinden erişilebilir.
-var file = File(dir) file.mkdirs()  veya Java ile yazacak olursak
-File makeDir(String path) { File result = new File(path); result.mkdirs(); return result; }  Bu kodu aşağıdaki yapıya çevirebiliriz.
-File(dir).apply { mkdirs() }  </description>
+      <description>fun &amp;lt;T&amp;gt; T.apply(f: T.() -&amp;gt; Unit): T { f(); return this } apply() tüm tipler için belirlenmiş bir extension function dır. apply() fonksiyonu uygulanan nesnenin özelliklerine direk olarak apply kod bloğu içerisinden erişilebilir.
+var file = File(dir) file.mkdirs() veya Java ile yazacak olursak
+File makeDir(String path) { File result = new File(path); result.mkdirs(); return result; } Bu kodu aşağıdaki yapıya çevirebiliriz.
+File(dir).apply { mkdirs() } </description>
     </item>
     
   </channel>

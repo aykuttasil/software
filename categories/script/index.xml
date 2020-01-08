@@ -17,10 +17,10 @@
       <pubDate>Mon, 10 Dec 2018 00:47:41 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/post/bash/</guid>
-      <description>cat &amp;lt;&amp;lt;EOF cat &amp;lt;&amp;lt;EOF komutu ile multiline bash script yazabiliriz. Son satır EOF oluncaya kadar satır oluşturulmaya devam eder.
+      <description>cat &amp;laquo;EOF cat &amp;lt;&amp;lt;EOF komutu ile multiline bash script yazabiliriz. Son satır EOF oluncaya kadar satır oluşturulmaya devam eder.
 EOF yerine herhangi bir belirteç yazılabilir. Genelde EOF veya STOP yazılır.
-$ sql=$(cat &amp;lt;&amp;lt;EOF SELECT foo, bar FROM db WHERE foo=&#39;baz&#39; EOF )  $ cat &amp;lt;&amp;lt;EOF &amp;gt; print.sh #!/bin/bash echo \$PWD echo $PWD EOF  Yukarıda ki bash çalıştırıldığında print.sh adında ve içeriği
-#!/bin/bash echo $PWD echo /home/user  olan bir dosya oluşur.</description>
+$ sql=$(cat &amp;lt;&amp;lt;EOF SELECT foo, bar FROM db WHERE foo=&amp;#39;baz&amp;#39; EOF ) $ cat &amp;lt;&amp;lt;EOF &amp;gt; print.sh #!/bin/bash echo \$PWD echo $PWD EOF Yukarıda ki bash çalıştırıldığında print.sh adında ve içeriği
+#!/bin/bash echo $PWD echo /home/user olan bir dosya oluşur.</description>
     </item>
     
   </channel>

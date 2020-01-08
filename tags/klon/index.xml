@@ -20,8 +20,8 @@
       <description>Sizde benim gibi klon Arduino Uno kartınızı çalıştıramayıp bozuk zannettiyseniz doğru yerdesiniz.
 Arduino Uno klon kartlarında orijinal Arduino Uno kartına göre farklı bir işlemci kullanılmış ( daha ucuz olanından 😉 ) ve bu yüzden Mac OS kullanıyorsanız ayrı bir driver dosyası indirmeniz gerekmekte.
 Orijinal Arduino Kartlarının yapımı iki koldan yürüyor. Bir taraf open source u destekleyen diğer taraf parayı destekleyen insanlardan oluşuyor(muş).
- http://www.arduino.cc Parayı destekleyen tarafın sitesi
- http://www.arduino.org Open source u destekleyen taraf</description>
+  http://www.arduino.cc Parayı destekleyen tarafın sitesi
+  http://www.</description>
     </item>
     
   </channel>

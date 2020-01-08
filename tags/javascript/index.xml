@@ -22,7 +22,7 @@ Her dilde var olan Replace fonksiyonu Javascript de saçma sapan bir şekilde ya
 Örneğin elinizde
 var degisken = ‘İSTANBUL’ ;
 şeklinde bir değişkeniniz var. Ve siz ihtiyacınız doğrultusunda bu kelimeyi veritabanından çektiğiniz ‘istanbul’ kelimesi ile karşılaştırmak istiyorsunuz.
-$(&#39;#Iller &amp;gt; option&#39;).</description>
+$(&amp;#39;#Iller &amp;gt; option&amp;#39;).</description>
     </item>
     
   </channel>

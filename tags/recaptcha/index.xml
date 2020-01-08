@@ -20,7 +20,9 @@
       <description>ReCaptcha Sitenize gelebilecek saldıralara karşı bir önlem olarak kullanılacak eklentilerden biridir ReCaptcha.
 Kolay bir şekilde entegre edilir ve kolay bir şekilde güvenlik sağlanır.
 Bunun için aşağıdaki adımları uygulamanız yeterli olacaktır.
- https://www.google.com/recaptcha/admin#list sitesine gidiniz.Ve gerekli yerleri doldurunuz. Label kısmına ReCaptcha i hangi sayfada kullanacaksınız,(örneğin giriş sayfası için) GirişCaptcha diyin. Domain kısmına sitenizin domain i ekleyin.Her biri bir satır olacak şekilde.Birden fazla domain girerek aynı kodu farklı domainlerde çalıştırabilirsiniz. Owner kısmına ise Adınız yazın.</description>
+  https://www.google.com/recaptcha/admin#list sitesine gidiniz.Ve gerekli yerleri doldurunuz.
+  Label kısmına ReCaptcha i hangi sayfada kullanacaksınız,(örneğin giriş sayfası için) GirişCaptcha diyin.
+  Domain kısmına sitenizin domain i ekleyin.Her biri bir satır olacak şekilde.Birden fazla domain girerek aynı kodu farklı domainlerde çalıştırabilirsiniz.</description>
     </item>
     
   </channel>

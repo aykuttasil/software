@@ -19,7 +19,7 @@
       <guid>https://yazilim.aykutasil.com/android-webview-etkilesimi/</guid>
       <description>Kısa Hikaye : Üstünde çalışmakta olduğum bir projede kredi kartı ile ödeme yapısı kurmam gerekti. Kısaca projenin yapısından bahsedecek olursak
  Backend : .Net Client : Android (Java) Ödeme altyapısı : İyzico  Client tarafında rest isteğiyle tüm işlemlerimizi backend tarafında yapıyoruz. Ödeme yapımızı da bu doğrultuda geliştirdik.
-Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine bankanın bize telefonumuza gelen şifreyi girmemiz için göndermiş olduğu web sayfası vs.</description>
+Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine bankanın bize telefonumuza gelen şifreyi girmemiz için göndermiş olduğu web sayfası vs. giriyor.</description>
     </item>
     
     <item>
@@ -29,9 +29,9 @@ Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine
       
       <guid>https://yazilim.aykutasil.com/post/docker_komutlari/</guid>
       <description>Docker Komutları ve Açıklamaları
-&amp;gt; docker images  Docker hostuna yüklü olan image leri gösterir.
-&amp;gt; docker ps  Docker hostunda yüklü olan imagelerle inşa edilmiş olan container ları listeler.
-&amp;gt; docker run hello-world  İlk olarak Local de (bilgisayarımızda) hello-world isminde bir image var mı kontrol eder. Eğer varsa direkt olarak çalıştırır.
+ &amp;gt; docker images Docker hostuna yüklü olan image leri gösterir.
+ &amp;gt; docker ps Docker hostunda yüklü olan imagelerle inşa edilmiş olan container ları listeler.
+ &amp;gt; docker run hello-world İlk olarak Local de (bilgisayarımızda) hello-world isminde bir image var mı kontrol eder. Eğer varsa direkt olarak çalıştırır.
 Local de verilen isimde bir image bulamaz ise cloud da arama yapar, bulur, local e indirir ve ardından çalıştırır.</description>
     </item>
     
@@ -42,13 +42,13 @@ Local de verilen isimde bir image bulamaz ise cloud da arama yapar, bulur, local
       
       <guid>https://yazilim.aykutasil.com/post/docker/</guid>
       <description>DOCKER
-Docker aldı başını gidiyor. Yeni bir devrim açıyor.
+ Docker aldı başını gidiyor. Yeni bir devrim açıyor.
 E haliyle yazılım dünyası buna sessiz kalmamakla beraber bir çok Docker nedir? örnekleri vs. hazırlanıyor.
 Bu nedenle biz Docker nedir? tanımlamasından daha çok hızlı ilerlemeler şeklinde ufak uygulamalar geliştiricez. Bende bu yazı serisiyle paralel şekilde öğrenimimi sağlayacağımı belirtmek isterim ! 🙂
 Başlıyoruz..
 İlk olarak makinemize Docker ı kuralım.
- Mac: https://docs.docker.com/docker-for-mac/
- Windows : https://docs.docker.com/docker-for-windows/
+  Mac: https://docs.docker.com/docker-for-mac/
+  Windows : https://docs.docker.com/docker-for-windows/
   İndirip kurulumu sağladıktan sonra terminali açarak</description>
     </item>
     
