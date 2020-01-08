@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>execute on Software</title><link>https://yazilim.aykutasil.com/tags/execute/</link><description>Recent content in execute on Software</description><generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Wed, 11 Jan 2017 19:26:49 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/execute/index.xml" rel="self" type="application/rss+xml"/><item><title>ExecutorService submit() – execute()</title><link>https://yazilim.aykutasil.com/post/java_executorservice_submit_execute/</link><pubDate>Wed, 11 Jan 2017 19:26:49 +0300</pubDate><guid>https://yazilim.aykutasil.com/post/java_executorservice_submit_execute/</guid><description>ExecutorService submit() – execute() Link : http://javarevisited.blogspot.com.tr/2016/04/difference-between-ExecutorServie-submit-vs-Executor-execute-method-in-Java.html</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>execute on Software</title>
+    <link>https://yazilim.aykutasil.com/tags/execute/</link>
+    <description>Recent content in execute on Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr</language>
+    <lastBuildDate>Wed, 11 Jan 2017 19:26:49 +0300</lastBuildDate>
+    
+	<atom:link href="https://yazilim.aykutasil.com/tags/execute/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ExecutorService submit() – execute()</title>
+      <link>https://yazilim.aykutasil.com/post/java_executorservice_submit_execute/</link>
+      <pubDate>Wed, 11 Jan 2017 19:26:49 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/post/java_executorservice_submit_execute/</guid>
+      <description>ExecutorService submit() – execute() Link : http://javarevisited.blogspot.com.tr/2016/04/difference-between-ExecutorServie-submit-vs-Executor-execute-method-in-Java.html</description>
+    </item>
+    
+  </channel>
+</rss>

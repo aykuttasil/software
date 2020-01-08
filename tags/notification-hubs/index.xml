@@ -1,5 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>notification hubs on Software</title><link>https://yazilim.aykutasil.com/tags/notification-hubs/</link><description>Recent content in notification hubs on Software</description><generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Wed, 11 Jan 2017 00:21:36 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/notification-hubs/index.xml" rel="self" type="application/rss+xml"/><item><title>Azure Mobile Services ve Notification Hubs Kullanımı</title><link>https://yazilim.aykutasil.com/post/azure_notification_hubs_kullanimi/</link><pubDate>Wed, 11 Jan 2017 00:21:36 +0300</pubDate><guid>https://yazilim.aykutasil.com/post/azure_notification_hubs_kullanimi/</guid><description>Azure Mobile Services çok hızlı ve kolay bir şekilde uygulama geliştirmeniz için önceden veya uygulama yazımı sırasında yapılması gereken işlemleri minimize eden bir servistir.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>notification hubs on Software</title>
+    <link>https://yazilim.aykutasil.com/tags/notification-hubs/</link>
+    <description>Recent content in notification hubs on Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr</language>
+    <lastBuildDate>Wed, 11 Jan 2017 00:21:36 +0300</lastBuildDate>
+    
+	<atom:link href="https://yazilim.aykutasil.com/tags/notification-hubs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Azure Mobile Services ve Notification Hubs Kullanımı</title>
+      <link>https://yazilim.aykutasil.com/post/azure_notification_hubs_kullanimi/</link>
+      <pubDate>Wed, 11 Jan 2017 00:21:36 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/post/azure_notification_hubs_kullanimi/</guid>
+      <description>Azure Mobile Services çok hızlı ve kolay bir şekilde uygulama geliştirmeniz için önceden veya uygulama yazımı sırasında yapılması gereken işlemleri minimize eden bir servistir.
 Kullanımı oldukça kolay olmakla beraber ilk bir kaç adımı gerçekleştirmek bazen can sıkıcı olabilmekte.
 Bunun için ufak bir örnekle bu ilk birkaç adımı beraber atıcaz.
 https://azure.microsoft.com/tr-tr/ adresinden portal a girdiniz.Ve mobile services tab ından new diyerek yeni bir mobile services oluşturdunuz.
-Oluşturduğunuz Mobile Service tıkladınız ve çıkan ekranda Push tabına girdiniz.</description></item></channel></rss>
+
+Oluşturduğunuz Mobile Service tıkladınız ve çıkan ekranda Push tabına girdiniz.</description>
+    </item>
+    
+  </channel>
+</rss>

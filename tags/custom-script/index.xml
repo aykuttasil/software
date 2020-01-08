@@ -1,6 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>custom script on Software</title><link>https://yazilim.aykutasil.com/tags/custom-script/</link><description>Recent content in custom script on Software</description><generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Wed, 11 Jan 2017 15:39:47 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/custom-script/index.xml" rel="self" type="application/rss+xml"/><item><title>SQL Management Studio Custom Generate Scripts</title><link>https://yazilim.aykutasil.com/post/sql_management_studio_custom_scrips/</link><pubDate>Wed, 11 Jan 2017 15:39:47 +0300</pubDate><guid>https://yazilim.aykutasil.com/post/sql_management_studio_custom_scrips/</guid><description>SQL Management Studio kullanarak MSSQL e erişim yapmanız size birçok fayda sağlayacaktır. Tabi dezavantajları da yok değil !.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>custom script on Software</title>
+    <link>https://yazilim.aykutasil.com/tags/custom-script/</link>
+    <description>Recent content in custom script on Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr</language>
+    <lastBuildDate>Wed, 11 Jan 2017 15:39:47 +0300</lastBuildDate>
+    
+	<atom:link href="https://yazilim.aykutasil.com/tags/custom-script/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SQL Management Studio Custom Generate Scripts</title>
+      <link>https://yazilim.aykutasil.com/post/sql_management_studio_custom_scrips/</link>
+      <pubDate>Wed, 11 Jan 2017 15:39:47 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/post/sql_management_studio_custom_scrips/</guid>
+      <description>SQL Management Studio kullanarak MSSQL e erişim yapmanız size birçok fayda sağlayacaktır. Tabi dezavantajları da yok değil !.
 Senaryomuz şu şekilde;
 Test veritabanında çalışarak kendinizi production veritabanında izole ettiniz ve güvenlik konusunda bir adım öne geçtiniz.
 Test veritabanı ile işlemleriniz bittikten sonra artık sıra geldi oluşturmuş olduğumuz tüm yapıları taşımaya !
 Bu kısım biraz sıkıcı olsa da SQL Management Studio nun buna getirmiş olduğu kolaylıklar var.
-Oluşturmuş olduğumuz tabloların sadece şemasını yani içiindeki veriler olmaksızın taşımak istersek, ( ki bu durum default olarak yapılandıırlmış durumdur ) işimiz oldukça kolay.</description></item></channel></rss>
+Oluşturmuş olduğumuz tabloların sadece şemasını yani içiindeki veriler olmaksızın taşımak istersek, ( ki bu durum default olarak yapılandıırlmış durumdur ) işimiz oldukça kolay.</description>
+    </item>
+    
+  </channel>
+</rss>

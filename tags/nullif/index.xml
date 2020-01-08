@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>nullif on Software</title><link>https://yazilim.aykutasil.com/tags/nullif/</link><description>Recent content in nullif on Software</description><generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Tue, 10 Jan 2017 23:08:34 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/nullif/index.xml" rel="self" type="application/rss+xml"/><item><title>TSQL NULLIF Fonksiyonu Nedir ve Nasıl Kullanılır</title><link>https://yazilim.aykutasil.com/post/tsql_nullif_kullanimi/</link><pubDate>Tue, 10 Jan 2017 23:08:34 +0300</pubDate><guid>https://yazilim.aykutasil.com/post/tsql_nullif_kullanimi/</guid><description>TSQL NULLIF fonksiyonu NULLIF fonksiyonu verilen iki parametre birbirine esit ise NULL deger döndürür eger degerleri fakli iki parametre verilirse sonuç olarak birinci parametrenin degerini döndürür.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nullif on Software</title>
+    <link>https://yazilim.aykutasil.com/tags/nullif/</link>
+    <description>Recent content in nullif on Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr</language>
+    <lastBuildDate>Tue, 10 Jan 2017 23:08:34 +0300</lastBuildDate>
+    
+	<atom:link href="https://yazilim.aykutasil.com/tags/nullif/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TSQL NULLIF Fonksiyonu Nedir ve Nasıl Kullanılır</title>
+      <link>https://yazilim.aykutasil.com/post/tsql_nullif_kullanimi/</link>
+      <pubDate>Tue, 10 Jan 2017 23:08:34 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/post/tsql_nullif_kullanimi/</guid>
+      <description>TSQL NULLIF fonksiyonu NULLIF fonksiyonu verilen iki parametre birbirine esit ise NULL deger döndürür eger degerleri fakli iki parametre verilirse sonuç olarak birinci parametrenin degerini döndürür.
 Kullanimi ve anlamasi kolay bir fonksiyon oldugu için basit bir örnekle anlatmaya çalisalim.
 Ilk olarak kullanacagimiz geçici tabloyu asagidaki gibi çalistirip içine insert komutu ile veri kaydedelim.
-CREATE TABLE #Urun ( UrunID TINYINT, ListeFiyati DECIMAL NULL); GO INSERT #Urun VALUES(1,100); INSERT #Urun VALUES(2,NULL); INSERT #Urun VALUES(3,0); INSERT #Urun VALUES(7,250); INSERT #Urun VALUES(9,458); ListeFiyati kolonuna göre count yaparsak sonuç olarak 4 dönecegini görürsünüz, çünkü UrunID’si 2 olan ürünün liste fiyati girilmemistir.</description></item></channel></rss>
+CREATE TABLE #Urun ( UrunID TINYINT, ListeFiyati DECIMAL NULL); GO INSERT #Urun VALUES(1,100); INSERT #Urun VALUES(2,NULL); INSERT #Urun VALUES(3,0); INSERT #Urun VALUES(7,250); INSERT #Urun VALUES(9,458);  ListeFiyati kolonuna göre count yaparsak sonuç olarak 4 dönecegini görürsünüz, çünkü UrunID’si 2 olan ürünün liste fiyati girilmemistir.</description>
+    </item>
+    
+  </channel>
+</rss>

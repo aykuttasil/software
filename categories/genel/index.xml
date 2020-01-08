@@ -1,8 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>genel on Software</title><link>https://yazilim.aykutasil.com/categories/genel/</link><description>Recent content in genel on Software</description><generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Fri, 26 Oct 2018 01:04:21 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/genel/index.xml" rel="self" type="application/rss+xml"/><item><title>SSH Sürekli Parola İstemesi Sorunu</title><link>https://yazilim.aykutasil.com/post/ssh_1/</link><pubDate>Fri, 26 Oct 2018 01:04:21 +0300</pubDate><guid>https://yazilim.aykutasil.com/post/ssh_1/</guid><description>Problem ./ssh klasörünüzde id_rsa ve id_rsa.pub dosyanız var ve Github, Gitlab, DigitalOcean vs. gibi platformlara erişim için bu rsa keyini kullanıyorsunuz. Her biri için ayrı ayrı rsa key oluşturmuşda olabilirsiniz tabi. Fakat git clone git@gitlab.com:aykuttasil/test.git gibi bir komutu çalıştırdığınızda Enter passphrase for key &#39;/Users/aykutasil/.ssh/id_rsa&#39;: gibi bir uyarı karşınıza çıkıyor ve rsa keyinizin şifresini girmenizi istiyor. Her git komutunda aynı şey ile karşılaşıyorsunuz.
-Yukarıda ki durum ssh&amp;lsquo;ın kullanım amacına ters düştüğü için ortada bir problem var demektir.</description></item><item><title>TLS vs SSL</title><link>https://yazilim.aykutasil.com/post/general_tls_ssl/</link><pubDate>Sun, 12 Aug 2018 23:12:07 +0300</pubDate><guid>https://yazilim.aykutasil.com/post/general_tls_ssl/</guid><description>TLS/SSL nedir? TLS (Transport Layer Securtiy) , SSL(Secure Sockets Layer)&amp;lsquo;ın modernize edilmiş halidir diyebiliriz. Yani günümüzde SSL den bahsedildiğinde aslında TLS den bahsediliyor olduğunu söyleyebiliriz.
-TLS protokolü, makinelerin web üzerindeki iletişimini kimlik doğrulama ve şifreleme mekanizmaları ile güvenli hale getirem bir standarttır. Günümüz dijital dünyasında güvenliğin önemi her geçen gün arttığı için iletişim yöntemleri ve güvenliği de beraberinde değişmekte ve gelişmektedir. Bu nedenle web iletişiminin güvenli hale gelmesi zorunluluk ve ihtiyaçtır.</description></item><item><title>Google Cloud DNS</title><link>https://yazilim.aykutasil.com/post/gcloud_custom_dns/</link><pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate><guid>https://yazilim.aykutasil.com/post/gcloud_custom_dns/</guid><description>Google Cloud Platform Cloud DNS Örnek senaryomuz şu şekilde olsun.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>genel on Software</title>
+    <link>https://yazilim.aykutasil.com/categories/genel/</link>
+    <description>Recent content in genel on Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr</language>
+    <lastBuildDate>Fri, 26 Oct 2018 01:04:21 +0300</lastBuildDate>
+    
+	<atom:link href="https://yazilim.aykutasil.com/categories/genel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SSH Sürekli Parola İstemesi Sorunu</title>
+      <link>https://yazilim.aykutasil.com/post/ssh_1/</link>
+      <pubDate>Fri, 26 Oct 2018 01:04:21 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/post/ssh_1/</guid>
+      <description>Problem ./ssh klasörünüzde id_rsa ve id_rsa.pub dosyanız var ve Github, Gitlab, DigitalOcean vs. gibi platformlara erişim için bu rsa keyini kullanıyorsunuz. Her biri için ayrı ayrı rsa key oluşturmuşda olabilirsiniz tabi. Fakat git clone git@gitlab.com:aykuttasil/test.git gibi bir komutu çalıştırdığınızda Enter passphrase for key &#39;/Users/aykutasil/.ssh/id_rsa&#39;: gibi bir uyarı karşınıza çıkıyor ve rsa keyinizin şifresini girmenizi istiyor. Her git komutunda aynı şey ile karşılaşıyorsunuz.
+Yukarıda ki durum ssh&amp;lsquo;ın kullanım amacına ters düştüğü için ortada bir problem var demektir.</description>
+    </item>
+    
+    <item>
+      <title>TLS vs SSL</title>
+      <link>https://yazilim.aykutasil.com/post/general_tls_ssl/</link>
+      <pubDate>Sun, 12 Aug 2018 23:12:07 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/post/general_tls_ssl/</guid>
+      <description>TLS/SSL nedir? TLS (Transport Layer Securtiy) , SSL(Secure Sockets Layer)&amp;lsquo;ın modernize edilmiş halidir diyebiliriz. Yani günümüzde SSL den bahsedildiğinde aslında TLS den bahsediliyor olduğunu söyleyebiliriz.
+TLS protokolü, makinelerin web üzerindeki iletişimini kimlik doğrulama ve şifreleme mekanizmaları ile güvenli hale getirem bir standarttır. Günümüz dijital dünyasında güvenliğin önemi her geçen gün arttığı için iletişim yöntemleri ve güvenliği de beraberinde değişmekte ve gelişmektedir. Bu nedenle web iletişiminin güvenli hale gelmesi zorunluluk ve ihtiyaçtır.</description>
+    </item>
+    
+    <item>
+      <title>Google Cloud DNS</title>
+      <link>https://yazilim.aykutasil.com/post/gcloud_custom_dns/</link>
+      <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/post/gcloud_custom_dns/</guid>
+      <description>Google Cloud Platform Cloud DNS Örnek senaryomuz şu şekilde olsun.
 Google Cloud ortamında hazır olarak bulunan (Cloud Launcher) sanal makinelerden wordpress yüklü olanı seçtik ve hızlıca makinemizi hazır hale getirdik. Google Cloud bize makineye ait bir ip adresi verdi ve bu ip ile worpress sitemize erişim sağlayabiliyoruz. Elimizde başka bir yerden aldığımız bir domain adresi var ve bu adresi wordpress sitemize yönlendirmek istiyoruz.
-Cloud DNS nedir? Google Cloud platformunun dns yapılandırması için vermiş olduğu hizmettir.</description></item><item><title>TCP/IP Nasıl Çalışır ?</title><link>https://yazilim.aykutasil.com/post/tcp_ip/</link><pubDate>Wed, 11 Jan 2017 18:05:02 +0300</pubDate><guid>https://yazilim.aykutasil.com/post/tcp_ip/</guid><description>TCP/IP Nasıl Çalışır ? Bilgisayar ağları kullanılarak bilgisayarların birbirileriyle haberleşmeye başladıkları ilk yıllarda iki bilgisayarın birbiriyle haberleşebilmeleri için aynı marka/model cihazları kullanmaları gerekiyordu. Bunun üzerine farklı üreticiler tarafından üretilen cihazların birbiriyle sorunsuz ve belirli bir düzen içinde haberleşebilmesi için çeşitli standartlar geliştirilmiştir.
-Bunlardan en çok kullanılanı Açık Sistem Bağlantıları komitesi tarafından geliştirilen 7 katmanlı OSI referans modeli ve Amerikan Savunma Bakanlığı tarafından geliştirilen TCP/IP referans modelidir. OSI iki bilgisayar arasındaki haberleşme problemini çözmek için 7 katmanlı (aşamalı) bir ağ sistemi önermiştir.</description></item><item><title>Local IIS Site Kurulumu</title><link>https://yazilim.aykutasil.com/post/local_iis_site_kurulumu/</link><pubDate>Tue, 10 Jan 2017 23:20:12 +0300</pubDate><guid>https://yazilim.aykutasil.com/post/local_iis_site_kurulumu/</guid><description>Uygulamanızı geliştirme sırasında Local IIS e sitenizi tanımlamanız gerekebilir. Sanki uzak sunucuda sitenizi custom domain ile host eder gibi (yani site kodlarınızı uzaktaki hostunuzda çalıştırır gibi) çalıştırabilirsiniz. İstediğiniz domain adresini belirtebilir, işlemlerinizi bu domaini kullanarak gerçekleştirebilirsiniz. Eğer bu yazıyı okuyor iseniz muhtemelen bunu yapmaya gerek duymuşsunuzdur.
+Cloud DNS nedir? Google Cloud platformunun dns yapılandırması için vermiş olduğu hizmettir.</description>
+    </item>
+    
+    <item>
+      <title>TCP/IP Nasıl Çalışır ?</title>
+      <link>https://yazilim.aykutasil.com/post/tcp_ip/</link>
+      <pubDate>Wed, 11 Jan 2017 18:05:02 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/post/tcp_ip/</guid>
+      <description>TCP/IP Nasıl Çalışır ? Bilgisayar ağları kullanılarak bilgisayarların birbirileriyle haberleşmeye başladıkları ilk yıllarda iki bilgisayarın birbiriyle haberleşebilmeleri için aynı marka/model cihazları kullanmaları gerekiyordu. Bunun üzerine farklı üreticiler tarafından üretilen cihazların birbiriyle sorunsuz ve belirli bir düzen içinde haberleşebilmesi için çeşitli standartlar geliştirilmiştir.
+Bunlardan en çok kullanılanı Açık Sistem Bağlantıları komitesi tarafından geliştirilen 7 katmanlı OSI referans modeli ve Amerikan Savunma Bakanlığı tarafından geliştirilen TCP/IP referans modelidir. OSI iki bilgisayar arasındaki haberleşme problemini çözmek için 7 katmanlı (aşamalı) bir ağ sistemi önermiştir.</description>
+    </item>
+    
+    <item>
+      <title>Local IIS Site Kurulumu</title>
+      <link>https://yazilim.aykutasil.com/post/local_iis_site_kurulumu/</link>
+      <pubDate>Tue, 10 Jan 2017 23:20:12 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/post/local_iis_site_kurulumu/</guid>
+      <description>Uygulamanızı geliştirme sırasında Local IIS e sitenizi tanımlamanız gerekebilir. Sanki uzak sunucuda sitenizi custom domain ile host eder gibi (yani site kodlarınızı uzaktaki hostunuzda çalıştırır gibi) çalıştırabilirsiniz. İstediğiniz domain adresini belirtebilir, işlemlerinizi bu domaini kullanarak gerçekleştirebilirsiniz. Eğer bu yazıyı okuyor iseniz muhtemelen bunu yapmaya gerek duymuşsunuzdur.
 İlk olarak windows yüklü bilgisayarımızın başlat menüsüne tıklayarak “Windows özellikleriniz Aç veya Kapat” yazıp arama yapıyoruz.
-Yukarıda ki resimde görmüş olduğunuz gibi gerekli kutucukları işaretleyip kurulumu sağıyoruz.</description></item></channel></rss>
+
+Yukarıda ki resimde görmüş olduğunuz gibi gerekli kutucukları işaretleyip kurulumu sağıyoruz.</description>
+    </item>
+    
+  </channel>
+</rss>
