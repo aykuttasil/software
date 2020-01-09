@@ -34,7 +34,7 @@ Android framework'ü ile gerçek anlamda etkileşime girmesi gereken sınıflar�
 - **app/src/test/java** - for any unit test which can run on the JVM
 - **app/src/androidTest/java** -> for any test which should run on an Android device
 
-<img src="/image/unit_vs_instrumential.png" height="400px" />
+<img src="/img/unit_vs_instrumential.png" height="400px" />
 
 > Android bağımlılıklarını mock edemiyorsak Instrumentation Test yazılır. Eğer mock edebileceğimiz bir yapıya sahip ise unit test yazılır. Bu sayede hızlı bir şekilde testler koşturulabilir.
 
@@ -136,7 +136,7 @@ Kotlin dilinin nimetlerinden yararlanarak test yazımı sırasında mockitonun k
 
 # Test Piramit
 
-<img src="/image/test_piramid.jpeg" height="400px" />
+<img src="/img/test_piramid.jpeg" height="400px" />
 
 > Unit Tests
 
@@ -189,7 +189,7 @@ SocketTimeoutException testi çalıştırılırken aşağıdaki düzenlemeler de
 
 > getJson(path = "json/blog/blogs.json") ?
 
-![Mock Web Server](/image/mockwebserber.png "Mock Web Server")
+![Mock Web Server](/img/mockwebserber.png "Mock Web Server")
 
 ## Dispatcher
 

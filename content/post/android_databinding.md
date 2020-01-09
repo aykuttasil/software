@@ -32,7 +32,7 @@ Uygulamamızın arayüzünü oluşturmak için kullandığımız **layout** xml 
 
 > **Not:** Birkaç farklı kullanma şekli olsa da burada en modern ve en kolay yaklaşımı ele alıcaz.
 
-![Login Screen](/image/android_databinding_sample_ss.png "SweetLoc Login Screen")
+![Login Screen](/img/android_databinding_sample_ss.png "SweetLoc Login Screen")
 
 Yukarıda ki ekran görüntüsüne benzer bir ekranımız var.
 

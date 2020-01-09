@@ -75,7 +75,7 @@ Eğer projenizi **kotlin** ile geliştirmiş ve test için **Mockito** kullanmay
 
 ---
 
-![Mockito Benchmark](/image/mockito_benchmark.png "Mockito Benchmark")
+![Mockito Benchmark](/img/mockito_benchmark.png "Mockito Benchmark")
 
 # Kaynaklar
 

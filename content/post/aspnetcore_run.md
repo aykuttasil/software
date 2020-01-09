@@ -19,7 +19,7 @@ hiddenFromHomePage: false
 
 **ASP.NET Core** ile birlikte gelen **middleware** konsepti sayesinde **request-response** süreçleri arasına girerek kendi mantıksal devremizi yazmamız çok kolay hale gelmiştir.
 
-![middleware](/image/middleware-1.png "Asp.Net Core Middleware")
+![middleware](/img/middleware-1.png "Asp.Net Core Middleware")
 
 <script src="https://gist.github.com/aykuttasil/1c8ba890f705d3c982b9381a3792800b.js"></script>
 

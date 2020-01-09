@@ -39,7 +39,7 @@ hiddenFromHomePage: false
 - `Environment.getExternalStorageDirectory()` -> /storage/emulated/0
 - `Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM)` -> /storage/emulated/0/DCIM
 
-![android_external_storage_apis](/image/android_external_storage_apis.png "android_external_storage_apis")
+![android_external_storage_apis](/img/android_external_storage_apis.png "android_external_storage_apis")
 
 ## Environment.getExternalStorageDirectory()
 
@@ -51,7 +51,7 @@ Bir cihazda birden fazla **external** hafızayı temsil eden alan var ise bu ala
 
 ---
 
-![android_external_storage_example_result](/image/android_external_storage_example_result.png "android_external_storage_example_result")
+![android_external_storage_example_result](/img/android_external_storage_example_result.png "android_external_storage_example_result")
 
 ---
 

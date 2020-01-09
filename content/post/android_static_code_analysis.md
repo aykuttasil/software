@@ -23,7 +23,7 @@ Bir diğer faydası da uygulama kodlarını kaç kişi geliştiriyor olursa olsu
 
 # Android statik kod analizi nasıl yapılır?
 
-![Android Studio Code Inspect](/image/android_studio_code_inspect.png "Android Studio Code Inspect")
+![Android Studio Code Inspect](/img/android_studio_code_inspect.png "Android Studio Code Inspect")
 
 Android Studio içerisinde statik kod analizi yapmak için dahili olarak gelen bazı araçlar vardır. Bunlardan biri resimdeki gibi IDE üzerisinde **Inspect Code** diyerek çalıştırabilir. Analiz sonrası mevcut kodunuz üzerinde çeşitki önerimler, iyileştirmele vs. göreceksiniz ve bu iyileştirmeleri yapmanız uygulama kodunuzun ileriye dönük bakımı, sağlamlığı vs. üzerinde önemli etkilere sahip olacaktır.
 

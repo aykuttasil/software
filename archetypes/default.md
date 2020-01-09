@@ -1,16 +1,15 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
+author: "Aykut Asil"
 date: {{ .Date }}
 lastmod: {{ .Date }}
-draft: true
+linktitle: Awesomeness
+next: /tutorials/github-pages-blog
+prev: /tutorials/automated-deployments
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
+weight: 10
+authorAvatar: hugo-logo.png
 keywords: ["aykuttasil","software"]
 description: ""
 tags: ["software"]
 categories: []
-author: "Aykut Asil"
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: true
-hiddenFromHomePage: false
 ---

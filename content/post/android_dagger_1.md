@@ -15,7 +15,7 @@ postMetaInFooter: true
 hiddenFromHomePage: false
 ---
 
-# @BindsInstance
+## @BindsInstance
 
 Bağımlılıklarınızı oluşturma esnasında belirtmeniz gereken bir değişkenininiz var ve bu değişkeni diğer module leriniz içerisinde kullanıcaksınız. Aşağıdaki gibi `@BindsInstance` kullanarak bu bağımlılığınızı dependency graph içerisine ekleyerek diğer modüller içerisinde kullanımını sağlayabilirsiniz.
 

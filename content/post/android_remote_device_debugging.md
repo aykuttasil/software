@@ -29,17 +29,17 @@ Artık kuruluma geçebiliriz.
 
 Eğer kurulu değilse ilk olarak **IIS**'i etkinleştirmemiz gerekmektedir. Bunun için arama çubuğuna **Turn Windows features on or off** yazarak ilgili pencereyi açıyoruz. Ve aşağıda seçili olan kutucukları seçerek kurulumu tamamlıyoruz.
 
-![iis](/image/iis_open.png)
+![iis](/img/iis_open.png)
 
 Daha sonra arama kutusuna **IIS** yazarak ilgili sayfaya gidiyoruz. **Sites** sağ tıklayarak **Add Website** diyoruz.
 
-![iis](/image/iis_addwebsite.png)
+![iis](/img/iis_addwebsite.png)
 
 Açılan pencerede **Physical path:**'i projenin kaynak kodlarının **web.config** dosyasının bulunduğu klasör olarak ayarlıyoruz.
 
-![iis1](/image/iis_addwebsite1.png)
+![iis1](/img/iis_addwebsite1.png)
 
-![iis2](/image/iis_addwebsite2.png)
+![iis2](/img/iis_addwebsite2.png)
 
 Sıra geldi **hosts** dosyasını düzenlemeye. Bunun için [şuraya](../local_iis_site_kurulumu/) gidip gerekli ayarlamaları yapabilirsiniz.
 
@@ -49,7 +49,7 @@ Sıra geldi **hosts** dosyasını düzenlemeye. Bunun için [şuraya](../local_i
 
 Ana işletim sistemi(Mac) üzerinden VM'deki local web server'a **myrestapi.local** adresi üzerinden erişim sağlamak için **mac** tarafında da **host** dosyasını düzenlememiz gerekmektedir. Bunun için **terminal**'ı açarak ve `~ sudo nano /private/etc/hosts` komutunu girerek ilgili dosyayı açıyoruz. Ve **VM** üzerinde çalışan windows'umuzun **IP**'sini öğrenerek aşağıdaki gibi en alt satıra ekliyoruz.
 
-![mac host](/image/mac_host.png)
+![mac host](/img/mac_host.png)
 
 ### Chrome için düzenlemeler
 
@@ -57,7 +57,7 @@ Mac üzerinde bulunan **Chrome**'u açıyoruz ve arama kutusuna `chrome://inspec
 
 **Port forwarding** butonuna basıyoruz ve aşağıdaki gibi giriş yapıyoruz.
 
-![chrome_port_forwarding](/image/chrome_port_forwarding.png)
+![chrome_port_forwarding](/img/chrome_port_forwarding.png)
 
 ### Android Cihazımız için düzenlemeler
 
@@ -65,9 +65,9 @@ Mac üzerinde bulunan **Chrome**'u açıyoruz ve arama kutusuna `chrome://inspec
 
 Android cihazımız üzerinden **Wi-Fi Settings** sayfasını açıyoruz. Ve **Proxy** ayarlama kısmından **Manuel** seçerek aşağıdaki gibi giriş yapıyoruz. **Chrome** yapılandırma kısmında girmiş olduğumuz **8080** port numarasının buradaki ile aynı olmasına dikkat ediyoruz.
 
-![android proxy](/image/android_proxy.jpeg)
+![android proxy](/img/android_proxy.jpeg)
 
-![android proxy](/image/android_proxy1.jpeg)
+![android proxy](/img/android_proxy1.jpeg)
 
 ---
 

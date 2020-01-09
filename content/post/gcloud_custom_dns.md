@@ -29,7 +29,7 @@ Elimizde başka bir yerden aldığımız bir domain adresi var ve bu adresi word
 
 Google Cloud platformunun dns yapılandırması için vermiş olduğu hizmettir.
 
-<img src="/image/cloud_dns_1.png" height="400px" />
+<img src="/img/cloud_dns_1.png" height="400px" />
 
 ---
 
@@ -38,17 +38,17 @@ Google Cloud platformunun dns yapılandırması için vermiş olduğu hizmettir.
 Domain adresimiz örnek olarak http://www.aykutasil.com olsun
 
 - Resimdeki gibi inputları dolduruyoruz.
-<img src="/image/cloud_dns_2.png" height="400px" />
+<img src="/img/cloud_dns_2.png" height="400px" />
 
 - Oluştur butonuna bastığımızda aşağıda ki gibi bir ekran gelecektir.
-<img src="/image/cloud_dns_3.png"/>
+<img src="/img/cloud_dns_3.png"/>
 
 - Daha sonra bu ekranda bulunan **Kayıt Kümesi Ekle** butonuna basarak **A** ve **CNAME** düzenlemeleri yapıyoruz. **A** kaydı oluştururken **IPv4 Adresi** inputuna **wordpress** kurulu sanal makinemizin IP sini veriyoruz. Bu IP ye **Compute Engine** sekmesinden ilgili makineye tıklayarak ulaşabiliriz.
-<img src="/image/cloud_dns_4.png" height="400px"/>
-<img src="/image/cloud_dns_5.png" height="400px"/>
+<img src="/img/cloud_dns_4.png" height="400px"/>
+<img src="/img/cloud_dns_5.png" height="400px"/>
 
 - Kayıtları eklediğimizde son durum şöyle olması gerekiyor.
-<img src="/image/cloud_dns_6.png"/>
+<img src="/img/cloud_dns_6.png"/>
 
 - Domain aldığımız şirketin yönetim paneline girdiğimizde, DNS ayarları benzeri bir sekme olacaktır. Bu sekmeden **nameserver(NS)** bilgilerini yukarıdaki resimde bulunan;
 	- **ns-cloud-a1.googledomains.com.**

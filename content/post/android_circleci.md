@@ -15,7 +15,7 @@ postMetaInFooter: true
 hiddenFromHomePage: false
 ---
 
-# CircleCI Android Yapılandırması
+## CircleCI Android Yapılandırması
 
 ## .circleci/config.yml
 

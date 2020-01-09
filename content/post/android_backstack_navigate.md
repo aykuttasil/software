@@ -16,9 +16,9 @@ postMetaInFooter: false
 hiddenFromHomePage: false
 
 ---
-# Android Navigate
+## Android Navigate
 
-## Örnek Senaryo
+### Örnek Senaryo
 
 Kullanıcıya bir ürün ile ilgili notification yolladınız. Kullanıcı bu notification a tıkladığında direk olarak **Ürün Detay** sayfasına yönlendiriliyor. Kullanıcı sayfada işi bittiğinde geri tuşuna basıyor ve siz bu durumda kullanıcıyı uygulamanın **Anasayfa**sına yönlendirmek istiyorsunuz. Ek bir geliştirme yapmadığınız takdirde bu senaryo için geri tuşuna basıldığında uygulama kapanır. Çünkü geri gidecek ekranı yoktur. Direk olarak **Detay** sayfası açılmıştır.
 
@@ -72,5 +72,5 @@ Artık notification ile açılan DetailsActivity sayfasında kullanıcı geri tu
 
 > Ayrıntılı Bilgi için
 
-- https://developer.android.com/training/implementing-navigation/temporal
-- https://developer.android.com/training/design-navigation/ancestral-temporal
+- <https://developer.android.com/training/implementing-navigation/temporal>
+- <https://developer.android.com/training/design-navigation/ancestral-temporal>

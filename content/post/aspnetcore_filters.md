@@ -21,7 +21,7 @@ hiddenFromHomePage: false
 
 ## Filter Tipleri
 
-![filter-pipeline](/image/filter-pipeline-2.png "Filter Pipeline")
+![filter-pipeline](/img/filter-pipeline-2.png "Filter Pipeline")
 
 ### Authorization Filters
 
@@ -61,7 +61,7 @@ Oluşturduğumuz filter'ın **global scope**'a sahip olduğunu belirtmek için a
 
 <script src="https://gist.github.com/aykuttasil/71b3a33f3ee562826efbc3dacf23001c.js"></script>
 
-![resultfilter](/image/resultfiltersample.png "Global Scope Result Filter")
+![resultfilter](/img/resultfiltersample.png "Global Scope Result Filter")
 
 ### Dependency injection
 
