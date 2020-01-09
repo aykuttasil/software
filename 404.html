@@ -65,7 +65,7 @@
 
   <section class="error-message">
     <h1 class="error-code">404</h1>
-    <p class="error-description">404 - Page not found</p>
+    <p class="error-description">Sayfa Bulunamadı!</p>
     <a class="error-link" href="https://aykuttasil.github.io/">Go to the front page →</a>
   </section>
     
@@ -82,25 +82,30 @@
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/firebase-dynamic-links/">
-      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/6.jpg)"></div>
+    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/android-webview-etkilesimi/">
+      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/2.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/firebase-dynamic-links/">
+      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/android-webview-etkilesimi/">
           <header class="post-card-header">
               <span class="post-card-tags">
-              #software 
-              #firebase 
-              #dynamiclink  </span>
+              #sofware 
+              #android 
+              #java 
+              #webview 
+              #addJavascriptInterface 
+              #WebViewClient 
+              #JavascriptInterface  </span>
               
-              <h2 class="post-card-title">Firebase Dynamic Links</h2>
+              <h2 class="post-card-title">Android ile WebView Etkileşimi</h2>
           </header>
           <section class="post-card-excerpt">
               
-                <p>Firebase Dynamic Links Öyle bir link olsun ki;
- Bilgisayarımda ki browserdan linke tıkladığımda kişisel web sitem açılsın, Eğer mobil cihazımda ki browserdan linke tıklarsan;  Uygulama cihazda yüklü ise uygulamam açılsın (Belirtmiş olduğum Activity vs.), Uygulama cihazda yüklü değilse Google Play Store veya App Store açılsın, Uygulama cihazda yüklü olsa bile eğer belirttiğim versiyon kodundan eski bir sürüm varsa yine Google Play Store vs. açılsın, &hellip;    gibi sorulara tek bir link ile cevap verebilirsiniz. ...  </p>
+                <p>Kısa Hikaye : Üstünde çalışmakta olduğum bir projede kredi kartı ile ödeme yapısı kurmam gerekti. Kısaca projenin yapısından bahsedecek olursak
+ Backend : .Net Client : Android (Java) Ödeme altyapısı : İyzico  Client tarafında rest isteğiyle tüm işlemlerimizi backend tarafında yapıyoruz. Ödeme yapımızı da bu doğrultuda geliştirdik.
+Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine bankanın bize telefonumuza gelen şifreyi girmemiz için göndermiş olduğu web sayfası vs. giriyor. ...  </p>
               
           </section>
       </a>
@@ -115,28 +120,28 @@
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/rxjava-reduce-kullan%C4%B1m%C4%B1/">
-      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/6.jpg)"></div>
+    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/foreground-service-ile-fusedlocationapi-kullan%C4%B1m%C4%B1/">
+      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/2.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/rxjava-reduce-kullan%C4%B1m%C4%B1/">
+      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/foreground-service-ile-fusedlocationapi-kullan%C4%B1m%C4%B1/">
           <header class="post-card-header">
               <span class="post-card-tags">
               #software 
               #android 
               #java 
-              #rxjava 
-              #reduce  </span>
+              #fusedlocationapi 
+              #foreground service  </span>
               
-              <h2 class="post-card-title">RxJava reduce() Kullanımı</h2>
+              <h2 class="post-card-title">Foreground Service ile FusedLocationApi Kullanımı</h2>
           </header>
           <section class="post-card-excerpt">
               
-                <p>RxJava reduce() Kullanımı reduce() fonskyionu iki şekilde çalışır;
- 1  .reduce(new BiFunction&lt;Integer, Integer, Integer&gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } })  2  .reduce(10,new BiFunction&lt;Integer, Integer, Integer&gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } }) 1 ile 2 nin farkı, 2 de görüldüğü üzere fonksiyona başlangıç değeri atanabilmesidir.
-Aşağıdaki örneklerde daha net görebilirsiniz. ...  </p>
+                <p>Android service yapısı, Android’in temel bileşenlerinden olup genel kullanım amacı yan iş parçacığı oluşturmaktır. Uzun süren işlemler (download vb.) için olmazsa olmaz bileşendir. Android in service bileşenini kendi ihtiyaçlarınız doğrultusunda özelleştirebilir ve uygulamanızı modern bir yapıya kavuşturabilirsiniz.
+Burada yapacağımız örnekte kısaca şu aşamaları görücez;
+ Service i foreground olarak başlatmak Ongoing(devamlı gözüken) notification oluşturmak GoogleApiClient a bağlanmak Location bilgisini notification da göstermek  İlk olarak Service imiz kodlarını yazalım. Gerekli açıklamalar kodların arasında mevcuttur. ...  </p>
               
           </section>
       </a>
@@ -151,28 +156,29 @@ Aşağıdaki örneklerde daha net görebilirsiniz. ...  </p>
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/sql-scope_identity/">
-      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/5.jpg)"></div>
+    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/tsql-nullif-fonksiyonu-nedir-ve-nas%C4%B1l-kullan%C4%B1l%C4%B1r/">
+      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/7.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/sql-scope_identity/">
+      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/tsql-nullif-fonksiyonu-nedir-ve-nas%C4%B1l-kullan%C4%B1l%C4%B1r/">
           <header class="post-card-header">
               <span class="post-card-tags">
               #software 
               #sql 
-              #sql_scope_identity 
-              #mssql  </span>
+              #mssql 
+              #tsql 
+              #nullif  </span>
               
-              <h2 class="post-card-title">SQL SCOPE_IDENTITY()</h2>
+              <h2 class="post-card-title">TSQL NULLIF Fonksiyonu Nedir ve Nasıl Kullanılır</h2>
           </header>
           <section class="post-card-excerpt">
               
-                <p>Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id sini getirir.
-Yapılan son kaydın id sini almak için uzun yol olarak insert sorgusunu çalıştırdıktan sonra bir select sorgusu atarak ve order by id desc diyerek ilk sıradaki kaydı okuyabilir ve bu kaydın id sini alabiliriz.
-Tüm bunları yapmaktansa:
-DECLARE @son_satir_id INT; INSERT INTO tbQwerty ( Ad , Soyad ) VALUES ( &#39;Aykut&#39; &#39;Asil&#39; ) SET @son_satir_id = SCOPE_IDENTITY(); Ayrıntılı Bilgi : https://technet. ...  </p>
+                <p>TSQL NULLIF fonksiyonu NULLIF fonksiyonu verilen iki parametre birbirine esit ise NULL deger döndürür eger degerleri fakli iki parametre verilirse sonuç olarak birinci parametrenin degerini döndürür.
+Kullanimi ve anlamasi kolay bir fonksiyon oldugu için basit bir örnekle anlatmaya çalisalim.
+Ilk olarak kullanacagimiz geçici tabloyu asagidaki gibi çalistirip içine insert komutu ile veri kaydedelim.
+CREATE TABLE #Urun ( UrunID TINYINT, ListeFiyati DECIMAL NULL); GO INSERT #Urun VALUES(1,100); INSERT #Urun VALUES(2,NULL); INSERT #Urun VALUES(3,0); INSERT #Urun VALUES(7,250); INSERT #Urun VALUES(9,458); ListeFiyati kolonuna göre count yaparsak sonuç olarak 4 dönecegini görürsünüz, çünkü UrunID’si 2 olan ürünün liste fiyati girilmemistir. ...  </p>
               
           </section>
       </a>
@@ -193,7 +199,7 @@ DECLARE @son_satir_id INT; INSERT INTO tbQwerty ( Ad , Soyad ) VALUES ( &#39;Ayk
 <footer class="site-footer outer">
   <div class="site-footer-content inner">
     <section class="copyright" style="line-height: 1.3em;">
-      <a href="https://aykuttasil.github.io/software/">AykutAsil</a> © 2018 <br>
+      <a href="https://aykuttasil.github.io/software/">AA</a> © 2018 <br>
       <span style="font-size: 0.8em; color: #555;">Hugo port of <a href="https://github.com/TryGhost/Casper">Casper 2.1.7</a> by <a href="https://www.telematika.org">EM</a></span>
     </section>
     <nav class="site-footer-nav">
@@ -201,7 +207,7 @@ DECLARE @son_satir_id INT; INSERT INTO tbQwerty ( Ad , Soyad ) VALUES ( &#39;Ayk
         <a href="https://www.facebook.com/aykuttasil" target="_blank" rel="noopener">Facebook</a>
         <a href="https://twitter.com/aykuttasil" target="_blank" rel="noopener">Twitter</a>
         <a href="https://github.com/aykuttasil" target="_blank" rel="noopener">Github</a>
-        <a href="https://www.linkedin.com/in/aykutasil" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/aykuttasil" target="_blank" rel="noopener">LinkedIn</a>
         <a href="https://medium.com/@aykuttasil" target="_blank" rel="noopener">Medium</a>
     </nav>  
   </div>
