@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Kotlin_dsl_create_json</title>
-      <link>https://yazilim.aykutasil.com/post/kotlin_dsl_create_json/</link>
+      <title>Kotlin DSL ile Json</title>
+      <link>https://yazilim.aykutasil.com/create-json-with-kotlin-dsl/</link>
       <pubDate>Fri, 03 Jan 2020 17:19:13 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/post/kotlin_dsl_create_json/</guid>
+      <guid>https://yazilim.aykutasil.com/create-json-with-kotlin-dsl/</guid>
       <description>Kotlin DSL kullanarak Json Objesi nasıl oluşturulur ? Normalde Json objesi oluşturmak için aşağıdaki gibi bir yöntem izleriz.
 val jsonObject = JSONObject() jsonObject.put(&amp;#34;name&amp;#34;,&amp;#34;Aykut&amp;#34;) jsonObject.put(&amp;#34;age&amp;#34;,20) Bunu Kotlin DSL ile çok daha ergonomik bir şekilde hazırlayabiliriz.
 Öncelikle Json isminde bir sınıf oluşturuyoruz ve JsonObject sınıfından kalıtım alıyoruz. Ve DSL kullanabilmek için gerekli custom constructor fonksiyonumuzu yazıyoruz.

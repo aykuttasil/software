@@ -13,10 +13,10 @@
     
     <item>
       <title>Kotlin Sealed Class</title>
-      <link>https://yazilim.aykutasil.com/post/kotlin-sealed-class/</link>
+      <link>https://yazilim.aykutasil.com/kotlin-sealed-class/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/post/kotlin-sealed-class/</guid>
+      <guid>https://yazilim.aykutasil.com/kotlin-sealed-class/</guid>
       <description>Kotlin Sealed Class Enum yapısına benzer bir yapıya sahiptir. Ve benzer görevler için kullanılır. Aradaki fark enum lar sabit değer ifade etmek için kullanılırken sealed yapısı normal sınıf gibi fakat enum mantığıyla kullanılır. Yani belli bir duruma ait fonksiyonları bir arada tutmak ve when() gibi fonksiyonlar ile birlikte kullanımını sağlamak için kullanılır.
 // Sealed class enum yapısına benzer  // Bir durum için belli başlı akışları bir arada tutmamızı sağlar ve bu akışların yönetimini kolaylaştırır.</description>
     </item>

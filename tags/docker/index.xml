@@ -13,10 +13,10 @@
     
     <item>
       <title>Docker Komutları</title>
-      <link>https://yazilim.aykutasil.com/post/docker-komutlar%C4%B1/</link>
+      <link>https://yazilim.aykutasil.com/docker-komutlari/</link>
       <pubDate>Wed, 11 Jan 2017 19:56:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/post/docker-komutlar%C4%B1/</guid>
+      <guid>https://yazilim.aykutasil.com/docker-komutlari/</guid>
       <description>Docker Komutları ve Açıklamaları
  &amp;gt; docker images Docker hostuna yüklü olan image leri gösterir.
  &amp;gt; docker ps Docker hostunda yüklü olan imagelerle inşa edilmiş olan container ları listeler.
@@ -26,12 +26,11 @@ Local de verilen isimde bir image bulamaz ise cloud da arama yapar, bulur, local
     
     <item>
       <title>Docker</title>
-      <link>https://yazilim.aykutasil.com/post/docker/</link>
+      <link>https://yazilim.aykutasil.com/docker/</link>
       <pubDate>Wed, 11 Jan 2017 19:55:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/post/docker/</guid>
-      <description>DOCKER
- Docker aldı başını gidiyor. Yeni bir devrim açıyor.
+      <guid>https://yazilim.aykutasil.com/docker/</guid>
+      <description>DOCKER Docker aldı başını gidiyor. Yeni bir devrim açıyor.
 E haliyle yazılım dünyası buna sessiz kalmamakla beraber bir çok Docker nedir? örnekleri vs. hazırlanıyor.
 Bu nedenle biz Docker nedir? tanımlamasından daha çok hızlı ilerlemeler şeklinde ufak uygulamalar geliştiricez. Bende bu yazı serisiyle paralel şekilde öğrenimimi sağlayacağımı belirtmek isterim ! 🙂
 Başlıyoruz..
@@ -43,10 +42,10 @@ Başlıyoruz..
     
     <item>
       <title>Docker Container Install nano</title>
-      <link>https://yazilim.aykutasil.com/post/docker-container-install-nano/</link>
+      <link>https://yazilim.aykutasil.com/docker-nano-setup/</link>
       <pubDate>Sun, 25 Dec 2016 03:51:49 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/post/docker-container-install-nano/</guid>
+      <guid>https://yazilim.aykutasil.com/docker-nano-setup/</guid>
       <description>Docker ile ayağa kaldırmış olduğunuz bir container olduğunu varsayalım ve bu docker container a erişerek komut satırı çalıştırmanız gerekiyor.
 https://docs.docker.com/engine/reference/commandline/exec/
 Yukarıdaki linki takip ederek nasıl komut çalıştıracağınızı öğrenebilirsiniz. Ya da Kitematic gibi bir uygulama yüklü ise bu uygulamayı açarak ve çalışan image e tıklayarak exe butonuna basmamız yeterli olucaktır.

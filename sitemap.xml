@@ -4,7 +4,12 @@
   
   <url>
     <loc>https://yazilim.aykutasil.com/</loc>
-    <lastmod>2020-01-03T17:19:13+03:00</lastmod>
+    <lastmod>2020-01-08T22:17:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yazilim.aykutasil.com/about/</loc>
+    <lastmod>2020-01-08T22:17:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,17 +28,17 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/kotlin/</loc>
-    <lastmod>2020-01-03T17:19:13+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yazilim.aykutasil.com/tags/kotlin/</loc>
     <lastmod>2020-01-03T17:19:13+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/kotlin_dsl_create_json/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/kotlin/</loc>
+    <lastmod>2020-01-03T17:19:13+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yazilim.aykutasil.com/create-json-with-kotlin-dsl/</loc>
     <lastmod>2020-01-03T17:19:13+03:00</lastmod>
   </url>
   
@@ -53,17 +58,17 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/asp.net-core-session/</loc>
-    <lastmod>2019-11-12T10:17:17+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yazilim.aykutasil.com/categories/aspnetcore/</loc>
+    <loc>https://yazilim.aykutasil.com/aspnetcore-session/</loc>
     <lastmod>2019-11-12T10:17:17+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://yazilim.aykutasil.com/tags/aspnetcore/</loc>
+    <lastmod>2019-11-12T10:17:17+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yazilim.aykutasil.com/categories/aspnetcore/</loc>
     <lastmod>2019-11-12T10:17:17+03:00</lastmod>
   </url>
   
@@ -93,17 +98,17 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android-debugging-with-local-web-server/</loc>
-    <lastmod>2019-08-03T03:14:28+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yazilim.aykutasil.com/categories/debugging/</loc>
+    <loc>https://yazilim.aykutasil.com/android-debugging-local-server/</loc>
     <lastmod>2019-08-03T03:14:28+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://yazilim.aykutasil.com/tags/debugging/</loc>
+    <lastmod>2019-08-03T03:14:28+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yazilim.aykutasil.com/categories/debugging/</loc>
     <lastmod>2019-08-03T03:14:28+03:00</lastmod>
   </url>
   
@@ -123,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/adb-komutu-ile-cihaz-ipsini-%C3%B6%C4%9Fren/</loc>
+    <loc>https://yazilim.aykutasil.com/deviceip-with-adb/</loc>
     <lastmod>2019-07-20T01:04:53+03:00</lastmod>
   </url>
   
@@ -138,7 +143,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android-file-system/</loc>
+    <loc>https://yazilim.aykutasil.com/android-filesystem/</loc>
     <lastmod>2019-06-27T14:00:59+03:00</lastmod>
   </url>
   
@@ -178,7 +183,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/asp.net-core-filters/</loc>
+    <loc>https://yazilim.aykutasil.com/aspnetcore-filters/</loc>
     <lastmod>2019-04-29T10:05:05+03:00</lastmod>
   </url>
   
@@ -188,12 +193,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/netcore/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/netcore/</loc>
     <lastmod>2019-04-29T10:05:05+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/netcore/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/netcore/</loc>
     <lastmod>2019-04-29T10:05:05+03:00</lastmod>
   </url>
   
@@ -203,12 +208,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/asp.net-core-app.run-middleware/</loc>
-    <lastmod>2019-04-15T22:08:14+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yazilim.aykutasil.com/categories/csharp/</loc>
+    <loc>https://yazilim.aykutasil.com/aspnetcore-run-middleware/</loc>
     <lastmod>2019-04-15T22:08:14+03:00</lastmod>
   </url>
   
@@ -218,12 +218,17 @@
   </url>
   
   <url>
+    <loc>https://yazilim.aykutasil.com/categories/csharp/</loc>
+    <lastmod>2019-04-15T22:08:14+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yazilim.aykutasil.com/categories/webapi/</loc>
     <lastmod>2019-04-15T22:08:14+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android-databinding/</loc>
+    <loc>https://yazilim.aykutasil.com/android-databinding/</loc>
     <lastmod>2019-02-25T00:00:27+03:00</lastmod>
   </url>
   
@@ -243,7 +248,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android-service/</loc>
+    <loc>https://yazilim.aykutasil.com/android-service/</loc>
     <lastmod>2019-02-14T13:10:18+03:00</lastmod>
   </url>
   
@@ -253,7 +258,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android-kotlin-test-final-type-problem/</loc>
+    <loc>https://yazilim.aykutasil.com/android-kotlin-test-final-type-problem/</loc>
     <lastmod>2019-01-29T15:38:29+03:00</lastmod>
   </url>
   
@@ -268,17 +273,17 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/test/</loc>
-    <lastmod>2019-03-01T11:51:07+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yazilim.aykutasil.com/tags/test/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/server-ip/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/test/</loc>
+    <lastmod>2019-03-01T11:51:07+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yazilim.aykutasil.com/server-ip/</loc>
     <lastmod>2019-01-08T23:20:28+03:00</lastmod>
   </url>
   
@@ -293,7 +298,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/bash-scripts/</loc>
+    <loc>https://yazilim.aykutasil.com/bash-scripts/</loc>
     <lastmod>2018-12-10T00:47:41+03:00</lastmod>
   </url>
   
@@ -313,7 +318,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android-circleci-configuration/</loc>
+    <loc>https://yazilim.aykutasil.com/android-circleci/</loc>
     <lastmod>2018-12-03T14:20:45+03:00</lastmod>
   </url>
   
@@ -358,7 +363,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/circleci-configuration/</loc>
+    <loc>https://yazilim.aykutasil.com/circleci-configuration/</loc>
     <lastmod>2018-11-27T14:20:45+03:00</lastmod>
   </url>
   
@@ -373,12 +378,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/ssh-s%C3%BCrekli-parola-istemesi-sorunu/</loc>
+    <loc>https://yazilim.aykutasil.com/ssh-surekli-parola-isteme-problemi/</loc>
     <lastmod>2018-10-26T01:04:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android-dagger/</loc>
+    <loc>https://yazilim.aykutasil.com/android-dagger/</loc>
     <lastmod>2018-10-12T11:48:08+03:00</lastmod>
   </url>
   
@@ -388,12 +393,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/dependency-injection/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/dependency-injection/</loc>
     <lastmod>2018-10-12T11:48:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/dependency-injection/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/dependency-injection/</loc>
     <lastmod>2018-10-12T11:48:08+03:00</lastmod>
   </url>
   
@@ -408,17 +413,17 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/amp/</loc>
-    <lastmod>2018-10-10T11:57:46+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yazilim.aykutasil.com/tags/amp/</loc>
     <lastmod>2018-10-10T11:57:46+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android-test/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/amp/</loc>
+    <lastmod>2018-10-10T11:57:46+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yazilim.aykutasil.com/android-test/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
   </url>
   
@@ -453,7 +458,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/dns-over-tls-nedir/</loc>
+    <loc>https://yazilim.aykutasil.com/dns-over-tls/</loc>
     <lastmod>2018-08-13T00:50:25+03:00</lastmod>
   </url>
   
@@ -488,7 +493,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/tls-vs-ssl/</loc>
+    <loc>https://yazilim.aykutasil.com/tls-ssl/</loc>
     <lastmod>2018-08-12T23:12:07+03:00</lastmod>
   </url>
   
@@ -508,22 +513,22 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/motor/</loc>
-    <lastmod>2018-08-03T22:21:48+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yazilim.aykutasil.com/tags/motor/</loc>
     <lastmod>2018-08-03T22:21:48+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/step-motor-nedir/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/motor/</loc>
     <lastmod>2018-08-03T22:21:48+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android-backstack-navigate/</loc>
+    <loc>https://yazilim.aykutasil.com/step-motor-nedir/</loc>
+    <lastmod>2018-08-03T22:21:48+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yazilim.aykutasil.com/android-backstack-navigate/</loc>
     <lastmod>2018-05-04T17:38:15+03:00</lastmod>
   </url>
   
@@ -538,7 +543,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android-architecture-components/</loc>
+    <loc>https://yazilim.aykutasil.com/android-architecture-components/</loc>
     <lastmod>2017-08-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -598,7 +603,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/google-cloud-dns/</loc>
+    <loc>https://yazilim.aykutasil.com/google_cloud_dns/</loc>
     <lastmod>2017-07-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -613,7 +618,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/kotlin-jvmoverloads/</loc>
+    <loc>https://yazilim.aykutasil.com/kotlin-jvmoverloads/</loc>
     <lastmod>2017-07-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -623,7 +628,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/kotlin-sealed-class/</loc>
+    <loc>https://yazilim.aykutasil.com/kotlin-sealed-class/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -633,7 +638,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/kotlin-lambda/</loc>
+    <loc>https://yazilim.aykutasil.com/kotlin-lambda/</loc>
     <lastmod>2017-06-18T02:24:37+03:00</lastmod>
   </url>
   
@@ -653,12 +658,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/kotlin-apply-kullan%C4%B1m%C4%B1/</loc>
+    <loc>https://yazilim.aykutasil.com/kotlin-apply/</loc>
     <lastmod>2017-06-06T10:47:58+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/kotlin-when-kullan%C4%B1m%C4%B1/</loc>
+    <loc>https://yazilim.aykutasil.com/kotlin-when/</loc>
     <lastmod>2017-06-06T04:42:56+03:00</lastmod>
   </url>
   
@@ -668,7 +673,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/kotlin-let-kullan%C4%B1m%C4%B1/</loc>
+    <loc>https://yazilim.aykutasil.com/kotlin-let/</loc>
     <lastmod>2017-06-06T04:33:06+03:00</lastmod>
   </url>
   
@@ -693,7 +698,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/retrofit-oauth/</loc>
+    <loc>https://yazilim.aykutasil.com/retrofit_oauth/</loc>
     <lastmod>2017-05-17T11:58:43+03:00</lastmod>
   </url>
   
@@ -708,7 +713,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/firebase-dynamic-links/</loc>
+    <loc>https://yazilim.aykutasil.com/firebase_dynamiclink/</loc>
     <lastmod>2017-04-17T01:53:03+03:00</lastmod>
   </url>
   
@@ -718,7 +723,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/arduino-hc-06-bluetooth-kullan%C4%B1m%C4%B1/</loc>
+    <loc>https://yazilim.aykutasil.com/arduino_hc06_kullanimi/</loc>
     <lastmod>2017-03-12T23:40:36+03:00</lastmod>
   </url>
   
@@ -743,7 +748,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/yeoman-kullan%C4%B1m%C4%B1/</loc>
+    <loc>https://yazilim.aykutasil.com/yeoman-kullanimi/</loc>
     <lastmod>2017-01-18T12:09:26+03:00</lastmod>
   </url>
   
@@ -758,7 +763,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/csharp-null-kontrol%C3%BC/</loc>
+    <loc>https://yazilim.aykutasil.com/csharp-soru-isareti-syntax/</loc>
     <lastmod>2017-01-16T11:13:16+03:00</lastmod>
   </url>
   
@@ -788,12 +793,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/java/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/java/</loc>
     <lastmod>2018-09-25T11:51:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/java/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/java/</loc>
     <lastmod>2018-09-25T11:51:07+03:00</lastmod>
   </url>
   
@@ -823,22 +828,22 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/docker/</loc>
-    <lastmod>2017-01-11T19:56:08+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yazilim.aykutasil.com/categories/docker/</loc>
     <lastmod>2017-01-11T19:56:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/docker-komutlar%C4%B1/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/docker/</loc>
     <lastmod>2017-01-11T19:56:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/docker/</loc>
+    <loc>https://yazilim.aykutasil.com/docker-komutlari/</loc>
+    <lastmod>2017-01-11T19:56:08+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yazilim.aykutasil.com/docker/</loc>
     <lastmod>2017-01-11T19:55:08+03:00</lastmod>
   </url>
   
@@ -853,7 +858,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/executorservice-submit-execute/</loc>
+    <loc>https://yazilim.aykutasil.com/java-executorservice-submit-and-execute/</loc>
     <lastmod>2017-01-11T19:26:49+03:00</lastmod>
   </url>
   
@@ -868,7 +873,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/executor-newcachedthreadpool-newfixedthreadpooln-newsinglethreadexecutor/</loc>
+    <loc>https://yazilim.aykutasil.com/java-executorservice/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
   </url>
   
@@ -903,7 +908,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/runnable-callable/</loc>
+    <loc>https://yazilim.aykutasil.com/java-runnable-and-callable/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
   </url>
   
@@ -913,22 +918,22 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/rxjava/</loc>
-    <lastmod>2017-01-11T18:52:51+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yazilim.aykutasil.com/tags/rxjava/</loc>
     <lastmod>2017-01-11T18:52:51+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/rxjava-range-kullan%C4%B1m%C4%B1/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/rxjava/</loc>
     <lastmod>2017-01-11T18:52:51+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/rxjava-scan-kullan%C4%B1m%C4%B1/</loc>
+    <loc>https://yazilim.aykutasil.com/rxjava-range/</loc>
+    <lastmod>2017-01-11T18:52:51+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yazilim.aykutasil.com/rxjava-scan/</loc>
     <lastmod>2017-01-11T18:49:21+03:00</lastmod>
   </url>
   
@@ -938,7 +943,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/rxjava-reduce-kullan%C4%B1m%C4%B1/</loc>
+    <loc>https://yazilim.aykutasil.com/rxjava-reduce/</loc>
     <lastmod>2017-01-11T18:42:04+03:00</lastmod>
   </url>
   
@@ -963,7 +968,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/vs-code-express-typescript-intellisense/</loc>
+    <loc>https://yazilim.aykutasil.com/vscode-intellisense/</loc>
     <lastmod>2017-01-11T18:14:05+03:00</lastmod>
   </url>
   
@@ -988,12 +993,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/tcp/ip-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r/</loc>
+    <loc>https://yazilim.aykutasil.com/tcpip-nedir_nasil_calisir/</loc>
     <lastmod>2017-01-11T18:05:02+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android-library-bintray/</loc>
+    <loc>https://yazilim.aykutasil.com/android-create-library-upload-bintray/</loc>
     <lastmod>2017-01-11T17:27:29+03:00</lastmod>
   </url>
   
@@ -1013,7 +1018,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android-runtime-permission/</loc>
+    <loc>https://yazilim.aykutasil.com/android-runtime-permission/</loc>
     <lastmod>2017-01-11T17:24:52+03:00</lastmod>
   </url>
   
@@ -1028,7 +1033,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/mac-os-arduino-uno-klon-kurulumu/</loc>
+    <loc>https://yazilim.aykutasil.com/macos-arduino-uno-klon-kurulum/</loc>
     <lastmod>2017-01-11T17:22:38+03:00</lastmod>
   </url>
   
@@ -1053,7 +1058,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/sql-scope_identity/</loc>
+    <loc>https://yazilim.aykutasil.com/sql-scope-identity/</loc>
     <lastmod>2017-01-11T17:20:37+03:00</lastmod>
   </url>
   
@@ -1063,22 +1068,22 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/javascript/</loc>
-    <lastmod>2017-01-11T17:14:22+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yazilim.aykutasil.com/categories/javascript/</loc>
     <lastmod>2017-01-11T17:14:22+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/javascript-gariplikleri/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/javascript/</loc>
     <lastmod>2017-01-11T17:14:22+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android-glide-ve-palette-kullan%C4%B1m%C4%B1/</loc>
+    <loc>https://yazilim.aykutasil.com/javascript-gariplikleri/</loc>
+    <lastmod>2017-01-11T17:14:22+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yazilim.aykutasil.com/android-glide-ve-palette-kullanimi/</loc>
     <lastmod>2017-01-11T17:11:30+03:00</lastmod>
   </url>
   
@@ -1093,7 +1098,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android-viewpager/</loc>
+    <loc>https://yazilim.aykutasil.com/android-viewpager/</loc>
     <lastmod>2017-01-11T17:07:51+03:00</lastmod>
   </url>
   
@@ -1108,7 +1113,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/java-collections/</loc>
+    <loc>https://yazilim.aykutasil.com/java-collections/</loc>
     <lastmod>2017-01-11T16:10:10+03:00</lastmod>
   </url>
   
@@ -1118,7 +1123,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android-custom-toolbar-title/</loc>
+    <loc>https://yazilim.aykutasil.com/android-custom-toolbar/</loc>
     <lastmod>2017-01-11T16:01:33+03:00</lastmod>
   </url>
   
@@ -1133,7 +1138,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/mac-os-ile-mssql-ba%C4%9Flant%C4%B1s%C4%B1-kurmak/</loc>
+    <loc>https://yazilim.aykutasil.com/macos-mssql-connection/</loc>
     <lastmod>2017-01-11T15:50:10+03:00</lastmod>
   </url>
   
@@ -1148,7 +1153,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/sql-management-studio-custom-generate-scripts/</loc>
+    <loc>https://yazilim.aykutasil.com/sqlmanagement-custom-generate-scripts/</loc>
     <lastmod>2017-01-11T15:39:47+03:00</lastmod>
   </url>
   
@@ -1158,7 +1163,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/foreground-service-ile-fusedlocationapi-kullan%C4%B1m%C4%B1/</loc>
+    <loc>https://yazilim.aykutasil.com/foregroundservice-ve-fusedlocationapi-kullanimi/</loc>
     <lastmod>2017-01-11T15:27:59+03:00</lastmod>
   </url>
   
@@ -1178,12 +1183,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/retrofit-multipart-file-upload/</loc>
+    <loc>https://yazilim.aykutasil.com/retrofit-multipart-file-upload/</loc>
     <lastmod>2017-01-11T01:50:51+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android-gcmnetworkmanager-kullan%C4%B1m%C4%B1/</loc>
+    <loc>https://yazilim.aykutasil.com/android-gcmnetworkmanager-kullanimi/</loc>
     <lastmod>2017-01-11T01:43:53+03:00</lastmod>
   </url>
   
@@ -1193,7 +1198,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android-sms-receiver/</loc>
+    <loc>https://yazilim.aykutasil.com/android-smsreceiver/</loc>
     <lastmod>2018-09-25T11:51:07+03:00</lastmod>
   </url>
   
@@ -1208,7 +1213,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android-internet-connection-receiver/</loc>
+    <loc>https://yazilim.aykutasil.com/android-internet-connection-receiver/</loc>
     <lastmod>2017-01-11T01:42:36+03:00</lastmod>
   </url>
   
@@ -1233,7 +1238,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/postman-ile-api-test-yaz%C4%B1m%C4%B1/</loc>
+    <loc>https://yazilim.aykutasil.com/postman-api-test/</loc>
     <lastmod>2017-01-11T01:09:39+03:00</lastmod>
   </url>
   
@@ -1243,7 +1248,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android-activeandroid-kullan%C4%B1m%C4%B1/</loc>
+    <loc>https://yazilim.aykutasil.com/activeandroid/</loc>
     <lastmod>2017-01-11T01:00:19+03:00</lastmod>
   </url>
   
@@ -1273,7 +1278,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/robolectric-ile-unittest-yaz%C4%B1m%C4%B1/</loc>
+    <loc>https://yazilim.aykutasil.com/android-robolectric/</loc>
     <lastmod>2017-01-11T00:31:52+03:00</lastmod>
   </url>
   
@@ -1283,13 +1288,8 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/unit-test-nedir-ni%C3%A7in-ve-nas%C4%B1l-yap%C4%B1l%C4%B1r/</loc>
+    <loc>https://yazilim.aykutasil.com/unittest-nedir/</loc>
     <lastmod>2017-01-11T00:27:54+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yazilim.aykutasil.com/categories/azure/</loc>
-    <lastmod>2017-01-11T00:21:36+03:00</lastmod>
   </url>
   
   <url>
@@ -1298,7 +1298,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/azure-mobile-services-ve-notification-hubs-kullan%C4%B1m%C4%B1/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/azure/</loc>
+    <lastmod>2017-01-11T00:21:36+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yazilim.aykutasil.com/azure-notification-hubs-kullanimi/</loc>
     <lastmod>2017-01-11T00:21:36+03:00</lastmod>
   </url>
   
@@ -1313,12 +1318,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/recaptcha-kullan%C4%B1m%C4%B1/</loc>
+    <loc>https://yazilim.aykutasil.com/recaptcha-kullanimi/</loc>
     <lastmod>2017-01-11T00:14:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android-key-hashes-sha1/</loc>
+    <loc>https://yazilim.aykutasil.com/android-keyhashes-sha1/</loc>
     <lastmod>2017-01-10T23:56:35+03:00</lastmod>
   </url>
   
@@ -1338,17 +1343,17 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/iis/</loc>
-    <lastmod>2017-01-10T23:20:12+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yazilim.aykutasil.com/tags/iis/</loc>
     <lastmod>2017-01-10T23:20:12+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/local-iis-site-kurulumu/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/iis/</loc>
+    <lastmod>2017-01-10T23:20:12+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yazilim.aykutasil.com/windows-local-iis-kurulumu/</loc>
     <lastmod>2017-01-10T23:20:12+03:00</lastmod>
   </url>
   
@@ -1378,12 +1383,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/tsql-nullif-fonksiyonu-nedir-ve-nas%C4%B1l-kullan%C4%B1l%C4%B1r/</loc>
+    <loc>https://yazilim.aykutasil.com/sql-nullif-fonksiyonu-kullanimi/</loc>
     <lastmod>2017-01-10T23:08:34+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android-spinner-text-g%C3%BCncelleme/</loc>
+    <loc>https://yazilim.aykutasil.com/android-spinner-dynamic-text/</loc>
     <lastmod>2017-01-10T23:00:03+03:00</lastmod>
   </url>
   
@@ -1393,7 +1398,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/pendingintent-flags/</loc>
+    <loc>https://yazilim.aykutasil.com/android-pendingintent-flags/</loc>
     <lastmod>2017-01-02T14:35:49+03:00</lastmod>
   </url>
   
@@ -1403,7 +1408,7 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/docker-container-install-nano/</loc>
+    <loc>https://yazilim.aykutasil.com/docker-nano-setup/</loc>
     <lastmod>2016-12-25T03:51:49+03:00</lastmod>
   </url>
   
@@ -1415,11 +1420,6 @@
   <url>
     <loc>https://yazilim.aykutasil.com/tags/nano/</loc>
     <lastmod>2016-12-25T03:51:49+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yazilim.aykutasil.com/about/</loc>
-    <lastmod>2015-04-14T22:17:00+00:00</lastmod>
   </url>
   
   <url>

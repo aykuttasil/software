@@ -13,10 +13,10 @@
     
     <item>
       <title>ADB Komutu ile Cihaz IP&#39;sini Öğren</title>
-      <link>https://yazilim.aykutasil.com/post/adb-komutu-ile-cihaz-ipsini-%C3%B6%C4%9Fren/</link>
+      <link>https://yazilim.aykutasil.com/deviceip-with-adb/</link>
       <pubDate>Sat, 20 Jul 2019 01:04:53 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/post/adb-komutu-ile-cihaz-ipsini-%C3%B6%C4%9Fren/</guid>
+      <guid>https://yazilim.aykutasil.com/deviceip-with-adb/</guid>
       <description>Aşağıdaki komutu çalıştırarak android cihaz ip&#39;sini öğrenebilirsiniz.
 &amp;gt; adb shell ip -f inet addr show wlan0 </description>
     </item>

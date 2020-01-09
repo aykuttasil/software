@@ -60,19 +60,19 @@
         
         
             <li class="" role="menuitem">
-              <a href="https://yazilim.aykutasil.com/">Home</a>
+              <a href="/">Home</a>
             </li>
         
             <li class="" role="menuitem">
-              <a href="https://yazilim.aykutasil.com/about/">About me</a>
+              <a href="/about/">About me</a>
             </li>
         
             <li class="" role="menuitem">
-              <a href="https://yazilim.aykutasil.com/tags/android/">Android</a>
+              <a href="/tags/android/">Android</a>
             </li>
         
             <li class="nav-current" role="menuitem">
-              <a href="https://yazilim.aykutasil.com/categories/">Categories</a>
+              <a href="/categories/">Categories</a>
             </li>
         
       </ul></div>
@@ -187,100 +187,104 @@
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/post/firebase-dynamic-links/">
+    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-custom-toolbar/">
       <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/post/firebase-dynamic-links/">
-          <header class="post-card-header">
-              <span class="post-card-tags">
-              #software 
-              #firebase 
-              #dynamiclink  </span>
-              
-              <h2 class="post-card-title">Firebase Dynamic Links</h2>
-          </header>
-          <section class="post-card-excerpt">
-              
-                <p>Firebase Dynamic Links Öyle bir link olsun ki;
- Bilgisayarımda ki browserdan linke tıkladığımda kişisel web sitem açılsın, Eğer mobil cihazımda ki browserdan linke tıklarsan;  Uygulama cihazda yüklü ise uygulamam açılsın (Belirtmiş olduğum Activity vs.), Uygulama cihazda yüklü değilse Google Play Store veya App Store açılsın, Uygulama cihazda yüklü olsa bile eğer belirttiğim versiyon kodundan eski bir sürüm varsa yine Google Play Store vs. açılsın, &hellip;    gibi sorulara tek bir link ile cevap verebilirsiniz. ...  </p>
-              
-          </section>
-      </a>
-
-      <footer class="post-card-meta">
-          <img class="author-profile-image" src="https://yazilim.aykutasil.com/img/aykutasil.jpg" alt="Author" />
-          <span class="post-card-author"><a href="https://yazilim.aykutasil.com/">Aykut Asil</a></span>
-      </footer>
-    </div>
-</article>
- 
-
-<article class="post-card post"> 
-    
-    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/post/step-motor-nedir/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
-    </a>    
-    
-
-    <div class="post-card-content">
-      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/post/step-motor-nedir/">
-          <header class="post-card-header">
-              <span class="post-card-tags">
-              #arduino 
-              #iot 
-              #motor  </span>
-              
-              <h2 class="post-card-title">Step Motor Nedir?</h2>
-          </header>
-          <section class="post-card-excerpt">
-               
-                <p>Step Motor Nedir?</p>
-              
-          </section>
-      </a>
-
-      <footer class="post-card-meta">
-          <img class="author-profile-image" src="https://yazilim.aykutasil.com/img/aykutasil.jpg" alt="Author" />
-          <span class="post-card-author"><a href="https://yazilim.aykutasil.com/">Aykut Asil</a></span>
-      </footer>
-    </div>
-</article>
- 
-
-<article class="post-card post"> 
-    
-    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/post/rxjava-reduce-kullan%C4%B1m%C4%B1/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)"></div>
-    </a>    
-    
-
-    <div class="post-card-content">
-      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/post/rxjava-reduce-kullan%C4%B1m%C4%B1/">
+      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/android-custom-toolbar/">
           <header class="post-card-header">
               <span class="post-card-tags">
               #software 
               #android 
               #java 
-              #rxjava 
-              #reduce  </span>
+              #toolbar  </span>
               
-              <h2 class="post-card-title">RxJava reduce() Kullanımı</h2>
+              <h2 class="post-card-title">Android Custom Toolbar Title</h2>
           </header>
           <section class="post-card-excerpt">
               
-                <p>RxJava reduce() Kullanımı reduce() fonskyionu iki şekilde çalışır;
- 1.Kullanım  .reduce(new BiFunction&lt;Integer, Integer, Integer&gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } })  2.Kullanım  .reduce(10,new BiFunction&lt;Integer, Integer, Integer&gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } }) 1 ile 2 nin farkı, 2 de görüldüğü üzere fonksiyona başlangıç değeri atanabilmesidir.
-Aşağıdaki örneklerde daha net görebilirsiniz. ...  </p>
+                <p>Android Toolbar bileşeni çok yönlü bir yapıya sahiptir. Android Design Library kullanarak ve AppBarLayout içerisinde tanımlanarak oldukça farklı şekillere bürünebilir.
+Genel kullanımı aşağıdaki gibidir.
+&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt; &lt;android.support.design.widget.CoordinatorLayout xmlns:android=&#34;http://schemas.android.com/apk/res/android&#34; xmlns:app=&#34;http://schemas.android.com/apk/res-auto&#34; xmlns:tools=&#34;http://schemas.android.com/tools&#34; android:layout_width=&#34;match_parent&#34; android:layout_height=&#34;match_parent&#34; android:background=&#34;@color/primary_dark&#34; tools:context=&#34;.MainActivity&#34;&gt; &lt;FrameLayout android:id=&#34;@+id/container&#34; android:layout_width=&#34;match_parent&#34; android:layout_height=&#34;match_parent&#34;&gt; &lt;/FrameLayout&gt; &lt;android.support.design.widget.FloatingActionButton android:id=&#34;@+id/fab&#34; android:layout_width=&#34;wrap_content&#34; android:layout_height=&#34;wrap_content&#34; android:layout_gravity=&#34;bottom|end&#34; android:layout_margin=&#34;@dimen/fab_margin&#34; android:src=&#34;@android:drawable/ic_dialog_email&#34; /&gt; &lt;android.support.design.widget.AppBarLayout android:layout_width=&#34;match_parent&#34; android:layout_height=&#34;wrap_content&#34; app:elevation=&#34;0dp&#34;&gt; &lt;android.support.v7.widget.Toolbar android:id=&#34;@+id/toolbar&#34; android:layout_width=&#34;match_parent&#34; android:layout_height=&#34;wrap_content&#34; android:background=&#34;@color/primary_dark&#34; android:minHeight=&#34;?attr/actionBarSize&#34; app:popupTheme=&#34;@style/AppTheme.PopupOverlay&#34;/&gt; &lt;/android.support.design.widget.AppBarLayout&gt; &lt;/android.support.design.widget.CoordinatorLayout&gt; app:elevation=&quot;0dp&quot; // AppBarLayout içerisinde ki bu tanımlama default olarak tanımlanmış gölgeyi kaldırır. ...  </p>
               
           </section>
       </a>
 
       <footer class="post-card-meta">
           <img class="author-profile-image" src="https://yazilim.aykutasil.com/img/aykutasil.jpg" alt="Author" />
-          <span class="post-card-author"><a href="https://yazilim.aykutasil.com/">Aykut Asil</a></span>
+          <span class="post-card-author"><a href="/">Aykut Asil</a></span>
+      </footer>
+    </div>
+</article>
+ 
+
+<article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/recaptcha-kullanimi/">
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
+    </a>    
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/recaptcha-kullanimi/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #software 
+              #recaptcha  </span>
+              
+              <h2 class="post-card-title">ReCaptcha Kullanımı</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>ReCaptcha Sitenize gelebilecek saldıralara karşı bir önlem olarak kullanılacak eklentilerden biridir ReCaptcha.
+Kolay bir şekilde entegre edilir ve kolay bir şekilde güvenlik sağlanır.
+Bunun için aşağıdaki adımları uygulamanız yeterli olacaktır.
+  https://www.google.com/recaptcha/admin#list sitesine gidiniz.Ve gerekli yerleri doldurunuz.
+  Label kısmına ReCaptcha i hangi sayfada kullanacaksınız,(örneğin giriş sayfası için) GirişCaptcha diyin.
+  Domain kısmına sitenizin domain i ekleyin.Her biri bir satır olacak şekilde.Birden fazla domain girerek aynı kodu farklı domainlerde çalıştırabilirsiniz. ...  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://yazilim.aykutasil.com/img/aykutasil.jpg" alt="Author" />
+          <span class="post-card-author"><a href="/">Aykut Asil</a></span>
+      </footer>
+    </div>
+</article>
+ 
+
+<article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-viewpager/">
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
+    </a>    
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/android-viewpager/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #software 
+              #android 
+              #java 
+              #viewpager  </span>
+              
+              <h2 class="post-card-title">Android ViewPager</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>Android ViewPager yapısı içerisinde birçok hazır fonksiyonu, animasyonu ve özelleştirilebilir kontrolleri barındırır.
+İhtiyaçlarımız doğrultusunda bu yapıyı özelleştirebilir ve ViewPager ın bize sunmuş olduğu rahatlığı kullanabiliriz. </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://yazilim.aykutasil.com/img/aykutasil.jpg" alt="Author" />
+          <span class="post-card-author"><a href="/">Aykut Asil</a></span>
       </footer>
     </div>
 </article>
@@ -294,11 +298,11 @@ Aşağıdaki örneklerde daha net görebilirsiniz. ...  </p>
 <footer class="site-footer outer">
   <div class="site-footer-content inner">
     <section class="copyright" style="line-height: 1.3em;">
-      <a href="https://yazilim.aykutasil.com/">AA</a> © 2018 <br>
+      <a href="/">AA</a> © 2018 <br>
       <span style="font-size: 0.8em; color: #555;">Hugo port of <a href="https://github.com/TryGhost/Casper">Casper 2.1.7</a> by <a href="https://www.telematika.org">EM</a></span>
     </section>
     <nav class="site-footer-nav">
-        <a href="https://yazilim.aykutasil.com/">Latest Posts</a>
+        <a href="/">Latest Posts</a>
         <a href="https://www.facebook.com/aykuttasil" target="_blank" rel="noopener">Facebook</a>
         <a href="https://twitter.com/aykuttasil" target="_blank" rel="noopener">Twitter</a>
         <a href="https://github.com/aykuttasil" target="_blank" rel="noopener">Github</a>

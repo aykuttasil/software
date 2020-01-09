@@ -13,10 +13,10 @@
     
     <item>
       <title>Kotlin @JvmOverloads</title>
-      <link>https://yazilim.aykutasil.com/post/kotlin-jvmoverloads/</link>
+      <link>https://yazilim.aykutasil.com/kotlin-jvmoverloads/</link>
       <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/post/kotlin-jvmoverloads/</guid>
+      <guid>https://yazilim.aykutasil.com/kotlin-jvmoverloads/</guid>
       <description>Kotlin @JvmOverloads Kotlin ile uygulama geliştirmeyi teşvik eden en büyük etkenlerden biri şüphesiz Java dili uyumlu yapısıdır. Her iki tarafdan da birbirlerine referanslar verilebilir.
 Kotlin dilinin Java&#39;dan ayıran özelliklerinden biri Java compiler ından daha zeki olmasıdır. Nitekim java dili yaşlanıyor :). Kotlin ile oluşturulan bazı yapıların Java tarafına uyumlu hale getirilmesi için bazen ufak düzenlemelere gerek duyulabiliyor. Bu düzenlemelerden bir tanesi de @JvmOverloads annotation kullanımı.
 fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View { return LayoutInflater.</description>
