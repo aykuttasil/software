@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "software/"
 
 theme           = "casper-two"
 languageCode    = "en-US"
