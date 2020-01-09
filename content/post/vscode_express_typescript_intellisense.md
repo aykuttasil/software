@@ -6,7 +6,7 @@ keywords = [
   "sofware","vscode","typescript","express","nodejs","intellisense"
 ]
 title = "VS Code & Express & TypeScript & IntelliSense"
-#url = "vscode-intellisense"
+url = "vscode-intellisense"
 desciption = ""
 metaAlignment = "center"
 categories = [

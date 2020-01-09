@@ -1,5 +1,6 @@
 +++
-title = "Android Internet Connection Receiver "
+title = "Android Internet Connection Receiver"
+url = "android-internet-connection-receiver"
 metaAlignment = "center"
 categories = [
   "yazilim",

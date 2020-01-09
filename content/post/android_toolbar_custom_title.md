@@ -1,6 +1,7 @@
 +++
 thumbnailImage = ""
 title = "Android Custom Toolbar Title"
+url = "android-custom-toolbar"
 tags = [
   "software","android","java","toolbar"
 ]

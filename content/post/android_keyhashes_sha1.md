@@ -26,6 +26,7 @@ metaAlignment = "center"
 thumbnailImagePosition = "top"
 thumbnailImage = ""
 title = "Android Key Hashes & SHA1"
+url = "android-keyhashes-sha1"
 
 +++
 

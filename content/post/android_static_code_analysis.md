@@ -1,5 +1,6 @@
 ---
 title: "Android Static Code Analysis"
+url : "android-static-code-analysis"
 date: 2019-01-24T23:55:53+03:00
 lastmod: 2019-01-24T23:55:53+03:00
 draft: true

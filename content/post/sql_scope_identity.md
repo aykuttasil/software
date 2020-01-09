@@ -16,7 +16,7 @@ keywords = [
 thumbnailImagePosition = "top"
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 title = "SQL SCOPE_IDENTITY()"
-#url = "sql_scope_identity"
+url = "sql-scope-identity"
 desciption = ""
 autoThumbnailImage = false
 

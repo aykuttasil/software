@@ -1,5 +1,6 @@
 ---
 title: "ASP.Net Core app.Run() Middleware"
+url : "aspnetcore-run-middleware"
 date: 2019-04-15T22:08:14+03:00
 lastmod: 2019-04-15T22:08:14+03:00
 draft: false

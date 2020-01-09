@@ -1,5 +1,6 @@
 ---
 title: "ADB Komutu ile Cihaz IP'sini Öğren"
+url: "deviceip-with-adb"
 date: 2019-07-20T01:04:53+03:00
 lastmod: 2019-07-20T01:04:53+03:00
 draft: false

@@ -5,6 +5,7 @@ tags = [
 thumbnailImagePosition = "top"
 metaAlignment = "center"
 title = "SQL Management Studio Custom Generate Scripts"
+url = "sqlmanagement-custom-generate-scripts"
 date = "2017-01-11T15:39:47+03:00"
 keywords = [
   "yazilim",

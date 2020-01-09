@@ -6,7 +6,7 @@ categories = [
   "rxjava"
 ]
 title = "RxJava reduce() Kullanımı"
-# url = "rxjava-reduce"
+url = "rxjava-reduce"
 autoThumbnailImage = false
 thumbnailImage = ""
 date = "2017-01-11T18:42:04+03:00"

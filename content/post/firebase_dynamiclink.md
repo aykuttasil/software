@@ -17,7 +17,7 @@ keywords = [
 autoThumbnailImage = false
 date = "2017-04-17T01:53:03+03:00"
 title = "Firebase Dynamic Links"
-#url = "firebase_dynamiclink"
+url = "firebase_dynamiclink"
 
 +++
 

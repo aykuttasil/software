@@ -6,7 +6,7 @@ keywords = [
   "sofware","kotlin","let","android"
 ]
 thumbnailImagePosition = "top"
-#url = "kotlin_let"
+url = "kotlin-let"
 autoThumbnailImage = false
 date = "2017-06-06T04:33:06+03:00"
 tags = [

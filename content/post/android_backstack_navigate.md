@@ -1,5 +1,6 @@
 ---
 title: "Android Backstack Navigate"
+url : "android-backstack-navigate"
 date: 2018-05-04T17:38:15+03:00
 lastmod: 2018-05-04T17:38:15+03:00
 draft: false

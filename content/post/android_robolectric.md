@@ -4,7 +4,7 @@ coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 date = "2017-01-11T00:31:52+03:00"
 thumbnailImagePosition = "top"
 title = "Robolectric ile UnitTest Yazımı"
-#url = "android-robolectric-test"
+url = "android-robolectric"
 keywords = [
   "yazilim",
   "sofware",

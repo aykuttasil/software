@@ -1,5 +1,6 @@
 ---
 title: "CircleCI Configuration"
+url : "circleci-configuration"
 date: 2018-11-27T14:20:45+03:00
 lastmod: 2018-11-27T14:20:45+03:00
 draft: false

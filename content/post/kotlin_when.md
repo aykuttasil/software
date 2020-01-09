@@ -3,7 +3,7 @@ coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 autoThumbnailImage = false
 desciption = "Kotlin when kullanımı"
 metaAlignment = "center"
-#url = "kotlin_when"
+url = "kotlin-when"
 categories = [
   "yazilim","kotlin"
 ]

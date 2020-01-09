@@ -1,16 +1,13 @@
 +++
 thumbnailImage = ""
 metaAlignment = "center"
-categories = [
-  "yazilim",
-  "test",
-]
+categories = ["yazilim","test"]
 autoThumbnailImage = false
 thumbnailImagePosition = "top"
 desciption = ""
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 title = "Unit Test Nedir ? Niçin ve Nasıl Yapılır ?"
-#url = "unittest-nedir"
+url = "unittest-nedir"
 tags = [
   "software",
   "unit test"

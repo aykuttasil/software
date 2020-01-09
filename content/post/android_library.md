@@ -1,5 +1,6 @@
 +++
 title = "Android Library & Bintray"
+url = "android-create-library-upload-bintray"
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 keywords = [
   "yazilim",

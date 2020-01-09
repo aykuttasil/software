@@ -1,5 +1,6 @@
 ---
 title: "Android File System"
+url : "android-filesystem"
 date: 2019-06-27T14:00:59+03:00
 lastmod: 2019-06-27T14:00:59+03:00
 draft: false

@@ -13,7 +13,7 @@ tags = [
   "software","c#","csharp","operator","soru isareti","null condition"
 ]
 title = "CSharp Null Kontrolü"
-#url = "csharp-soru-isareti-syntax"
+url = "csharp-soru-isareti-syntax"
 categories = [
   "yazilim",
   "c#",

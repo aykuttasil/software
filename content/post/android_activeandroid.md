@@ -1,7 +1,7 @@
 ---
 date : "2017-01-11T01:00:19+03:00"
 title : "Android ActiveAndroid Kullanımı"
-#url : "activeandroid-kullanimi"
+url : "activeandroid"
 metaAlignment : "center"
 tags : [
   "software","android","java","sqlite","activeandroid","orm"

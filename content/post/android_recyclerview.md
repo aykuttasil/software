@@ -8,6 +8,7 @@ categories = [
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 thumbnailImage = ""
 title = "Android RecyclerView"
+url = "android-recyclerview"
 tags = [
   "software","android","java","recyclerview"
 ]

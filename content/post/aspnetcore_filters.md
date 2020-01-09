@@ -1,5 +1,6 @@
 ---
 title: "ASP.NET Core Filters"
+url : "aspnetcore-filters"
 date: 2019-04-29T10:05:05+03:00
 lastmod: 2019-04-29T10:05:05+03:00
 draft: false

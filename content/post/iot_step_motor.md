@@ -1,5 +1,6 @@
 ---
 title: "Step Motor Nedir?"
+url : "step-motor-nedir"
 date: 2018-08-03T22:21:48+03:00
 lastmod: 2018-08-03T22:21:48+03:00
 draft: false

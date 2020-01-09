@@ -2,7 +2,7 @@
 thumbnailImage = ""
 date = "2017-01-11T17:14:22+03:00"
 title = "Javascript Gariplikleri"
-#url = "javascript-gariplikleri"
+url = "javascript-gariplikleri"
 keywords = [
   "yazilim",
   "sofware","javascript"

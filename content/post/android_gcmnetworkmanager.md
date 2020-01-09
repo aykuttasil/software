@@ -4,7 +4,7 @@ coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 date = "2017-01-11T01:43:53+03:00"
 autoThumbnailImage = false
 title = "Android GcmNetworkManager Kullanımı"
-#url = "android-gcmnetworkmanager-kullanimi"
+url = "android-gcmnetworkmanager-kullanimi"
 metaAlignment = "center"
 categories = [
   "yazilim",

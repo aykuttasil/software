@@ -1,5 +1,6 @@
 ---
 title: "Android Mockk Kullanımı"
+url : "android-mockk"
 date: 2019-01-29T15:22:56+03:00
 lastmod: 2019-01-29T15:22:56+03:00
 draft: true

@@ -5,7 +5,7 @@ keywords = [
 ]
 autoThumbnailImage = false
 title = "Docker Komutları"
-#url = "docker-komutlari"
+url = "docker-komutlari"
 tags = [
   "sofware","docker","bash script"
 ]

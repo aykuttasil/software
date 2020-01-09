@@ -1,5 +1,6 @@
 ---
 title: "Android Dagger"
+url : "android-dagger"
 date: 2018-10-12T11:48:08+03:00
 lastmod: 2018-10-12T11:48:08+03:00
 draft: false

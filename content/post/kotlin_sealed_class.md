@@ -1,6 +1,6 @@
 +++
 title = "Kotlin Sealed Class"
-#url = "kotlin_sealed_class"
+url = "kotlin-sealed-class"
 desciption = "Kotlin Sealed Class"
 metaAlignment = "center"
 categories = [

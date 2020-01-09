@@ -1,5 +1,6 @@
 ---
-title: "Kotlin_dsl_create_json"
+title: "Kotlin DSL ile Json"
+url: "create-json-with-kotlin-dsl"
 date: 2020-01-03T17:19:13+03:00
 lastmod: 2020-01-03T17:19:13+03:00
 draft: false

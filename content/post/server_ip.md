@@ -1,5 +1,6 @@
 ---
 title: "Server Ip"
+url : "server-ip"
 date: 2019-01-08T23:20:28+03:00
 lastmod: 2019-01-08T23:20:28+03:00
 draft: false

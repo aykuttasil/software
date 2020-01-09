@@ -1,6 +1,6 @@
 +++
 title = "TCP/IP Nasıl Çalışır ?"
-#url = "tcpip-nedir_nasil_calisir"
+url = "tcpip-nedir_nasil_calisir"
 date = "2017-01-11T18:05:02+03:00"
 metaAlignment = "center"
 thumbnailImagePosition = "top"

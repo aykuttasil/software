@@ -9,7 +9,7 @@ keywords = [
 ]
 thumbnailImagePosition = "top"
 title = "Yeoman Kullanımı"
-#url = "yeoman-kullanimi"
+url = "yeoman-kullanimi"
 thumbnailImage = ""
 metaAlignment = "center"
 categories = [

@@ -16,6 +16,7 @@ thumbnailImage = ""
 date = "2017-01-11T17:07:51+03:00"
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 title = "Android ViewPager"
+url = "android-viewpager"
 desciption = ""
 autoThumbnailImage = false
 

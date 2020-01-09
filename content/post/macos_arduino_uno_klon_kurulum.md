@@ -14,7 +14,7 @@ keywords = [
   "sofware","arduino","uno","klon"
 ]
 title = "Mac OS Arduino Uno (Klon) Kurulumu"
-#url = "macos-arduino-uno-klon-kurulum"
+url = "macos-arduino-uno-klon-kurulum"
 tags = [
   "software","arduino","uno","klon"
 ]

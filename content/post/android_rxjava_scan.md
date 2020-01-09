@@ -1,7 +1,7 @@
 +++
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 title = "RxJava scan() Kullanımı"
-# url = "rxjava-scan"
+url = "rxjava-scan"
 thumbnailImage = ""
 thumbnailImagePosition = "top"
 date = "2017-01-11T18:49:21+03:00"

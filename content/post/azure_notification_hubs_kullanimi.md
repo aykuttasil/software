@@ -23,7 +23,7 @@ tags = [
   "notification hubs"
 ]
 title = "Azure Mobile Services ve Notification Hubs Kullanımı"
-#url = "azure-notification-hubs-kullanimi"
+url = "azure-notification-hubs-kullanimi"
 
 +++
 

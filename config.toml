@@ -5,7 +5,7 @@ languageCode    = "en-US"
 disqusShortname = "yazilimaykutasil"
 paginate        = 20
 #SectionPagesMenu = "main"
-canonifyurls    = true
+canonifyurls    = false
 
 [params]
   title       = "My Book"

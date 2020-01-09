@@ -12,7 +12,7 @@ tags = [
   "software","android","java","rxjava"
 ]
 title = "RxJava range() Kullanımı"
-#url = "rxjava-range"
+url = "rxjava-range"
 autoThumbnailImage = false
 thumbnailImagePosition = "top"
 thumbnailImage = ""

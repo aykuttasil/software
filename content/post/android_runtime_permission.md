@@ -2,6 +2,7 @@
 desciption = ""
 thumbnailImagePosition = "top"
 title = "Android Runtime Permission"
+url = "android-runtime-permission"
 categories = [
   "yazilim",
   "java","android"

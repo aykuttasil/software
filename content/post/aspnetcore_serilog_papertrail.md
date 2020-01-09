@@ -1,5 +1,6 @@
 ---
 title: "Aspnetcore_serilog_papertrail"
+url : "aspnetcore-serilog-papertrail-integration"
 date: 2019-11-18T02:37:24+03:00
 lastmod: 2019-11-18T02:37:24+03:00
 draft: true

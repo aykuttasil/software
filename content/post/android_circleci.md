@@ -1,5 +1,6 @@
 ---
 title: "Android CircleCI Configuration"
+url : "android-circleci"
 date: 2018-12-01T14:20:45+03:00
 lastmod: 2018-12-03T14:20:45+03:00
 draft: false

@@ -1,7 +1,7 @@
 +++
 thumbnailImagePosition = "top"
 title = "Foreground Service ile FusedLocationApi Kullanımı"
-#url = "foregroundservice-ve-fusedlocationapi-kullanimi"
+url = "foregroundservice-ve-fusedlocationapi-kullanimi"
 metaAlignment = "center"
 categories = [
   "yazilim",

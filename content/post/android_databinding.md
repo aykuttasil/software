@@ -1,5 +1,6 @@
 ---
 title: "Android DataBinding"
+url : "android-databinding"
 date: 2019-02-25T00:00:27+03:00
 lastmod: 2019-02-25T00:00:27+03:00
 draft: false
@@ -15,7 +16,7 @@ postMetaInFooter: true
 hiddenFromHomePage: false
 ---
 
-# Android DataBinding
+## Android DataBinding
 
 Android dünyasında temiz kod(**Clean Code**) günümüzde çokça konuşulan konular arasında yer almakta ve neden temiz kod yazmalıyız ile alakalı bir çok makale yazılmaktadır.
 

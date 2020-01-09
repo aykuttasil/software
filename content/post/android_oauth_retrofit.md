@@ -5,7 +5,7 @@ title = "Retrofit Oauth"
 desciption = "Retrofit Oauth Entegrasyonu"
 thumbnailImage = ""
 date = "2017-05-17T11:58:43+03:00"
-#url = "retrofit_oauth"
+url = "retrofit_oauth"
 tags = [
   "software","oauth","retrofit","okhttp"
 ]

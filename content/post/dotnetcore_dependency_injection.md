@@ -1,5 +1,6 @@
 ---
 title: ".Net Core Dependency Injection"
+url : "aspnetcore-dependency-injection"
 date: 2018-08-11T14:58:39+03:00
 lastmod: 2018-08-11T14:58:39+03:00
 draft: true

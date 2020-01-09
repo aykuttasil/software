@@ -1,5 +1,6 @@
 +++
 title = "Local IIS Site Kurulumu"
+url = "windows-local-iis-kurulumu"
 thumbnailImage = ""
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 metaAlignment = "center"

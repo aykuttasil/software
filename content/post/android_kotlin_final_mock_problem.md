@@ -1,5 +1,6 @@
 ---
 title: "Android Kotlin Test - Final Type Problem"
+url : "android-kotlin-test-final-type-problem"
 date: 2019-01-29T15:38:29+03:00
 lastmod: 2019-01-29T15:38:29+03:00
 draft: false

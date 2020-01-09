@@ -11,7 +11,7 @@ keywords = [
 autoThumbnailImage = false
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 title = "TSQL NULLIF Fonksiyonu Nedir ve Nasıl Kullanılır"
-#url = "sql_nullif_fonksiyonu_kullanimi"
+url = "sql-nullif-fonksiyonu-kullanimi"
 metaAlignment = "center"
 categories = [
   "yazilim",

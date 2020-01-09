@@ -1,6 +1,6 @@
 +++
 title = "Google Cloud DNS"
-#url = "google_cloud_dns"
+url = "google_cloud_dns"
 desciption = "Google Cloud DNS"
 metaAlignment = "center"
 categories = [

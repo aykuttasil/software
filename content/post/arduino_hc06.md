@@ -15,7 +15,7 @@ keywords = [
   "yazilim",
   "sofware","arduino","hc06","hc-06","bluetooth"
 ]
-#url = "arduino_hc06_kullanimi"
+url = "arduino_hc06_kullanimi"
 autoThumbnailImage = false
 thumbnailImagePosition = "top"
 

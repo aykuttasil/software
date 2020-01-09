@@ -25,7 +25,7 @@ keywords = [
 ]
 autoThumbnailImage = false
 title = "Android Spinner Text Güncelleme"
-#url = "android-spinner-dynamic-text"
+url = "android-spinner-dynamic-text"
 
 +++
 

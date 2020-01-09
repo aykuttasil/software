@@ -1,5 +1,6 @@
 ---
 title: "Android Debugging With Local Web Server"
+url : "android-debugging-local-server"
 date: 2019-08-03T03:14:28+03:00
 lastmod: 2019-08-03T03:14:28+03:00
 draft: false

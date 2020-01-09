@@ -17,7 +17,7 @@ categories = [
 thumbnailImage = ""
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 title = "Executor newCachedThreadPool() newFixedThreadPool(n) newSingleThreadExecutor()"
-#url = "java-executor"
+url = "java-executorservice"
 thumbnailImagePosition = "top"
 
 +++

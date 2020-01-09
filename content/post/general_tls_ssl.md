@@ -1,5 +1,6 @@
 ---
 title: "TLS vs SSL"
+url : "tls-ssl"
 date: 2018-08-12T23:12:07+03:00
 lastmod: 2018-08-12T23:12:07+03:00
 draft: false

@@ -1,5 +1,6 @@
 ---
 title: "Bash Scripts"
+url : "bash-scripts"
 date: 2018-12-10T00:47:41+03:00
 lastmod: 2018-12-10T00:47:41+03:00
 draft: false

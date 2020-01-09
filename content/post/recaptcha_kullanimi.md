@@ -10,7 +10,7 @@ tags = [
 ]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 title = "ReCaptcha Kullanımı"
-#url = "recaptcha-kullanimi"
+url = "recaptcha-kullanimi"
 thumbnailImagePosition = "top"
 thumbnailImage = ""
 date = "2017-01-11T00:14:08+03:00"

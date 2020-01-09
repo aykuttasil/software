@@ -11,7 +11,7 @@ tags = [
 ]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 title = "Android Glide ve Palette Kullanımı"
-#url = "android-glide-ve-palette-kullanimi"
+url = "android-glide-ve-palette-kullanimi"
 categories = [
   "yazilim",
   "android","java"

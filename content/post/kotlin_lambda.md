@@ -9,7 +9,7 @@ keywords = [
   "yazilim",
   "sofware","kotlin","lambda","functional programming"
 ]
-#url = "kotlin_lambda"
+url = "kotlin-lambda"
 metaAlignment = "center"
 autoThumbnailImage = false
 thumbnailImage = ""

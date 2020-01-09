@@ -18,7 +18,7 @@ keywords = [
 ]
 thumbnailImagePosition = "top"
 title = "Mac OS ile MSSQL Bağlantısı Kurmak"
-#url = "macos-mssql-connection"
+url = "macos-mssql-connection"
 
 +++
 

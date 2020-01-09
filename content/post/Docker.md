@@ -9,6 +9,7 @@ autoThumbnailImage = false
 thumbnailImagePosition = "top"
 metaAlignment = "center"
 title = "Docker"
+url = "docker"
 date = "2017-01-11T19:55:08+03:00"
 tags = [
   "sofware","docker"
@@ -18,9 +19,7 @@ coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 
 +++
 
-DOCKER
-
----
+## DOCKER
 
 Docker aldı başını gidiyor. Yeni bir devrim açıyor.
 

@@ -1,5 +1,6 @@
 +++
 title = "Docker Container Install nano"
+url = "docker-nano-setup"
 metaAlignment = "center"
 date = "2016-12-25T03:51:49+03:00"
 categories = [

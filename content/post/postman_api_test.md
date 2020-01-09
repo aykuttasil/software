@@ -6,7 +6,7 @@ categories = [
 ]
 date = "2017-01-11T01:09:39+03:00"
 title = "Postman ile API Test Yazımı"
-#url = "postman-api-test"
+url = "postman-api-test"
 keywords = [
   "yazilim",
   "sofware",

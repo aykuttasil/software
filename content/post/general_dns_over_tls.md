@@ -1,5 +1,6 @@
 ---
 title: "DNS over TLS Nedir?"
+url : "dns-over-tls"
 date: 2018-08-13T00:50:25+03:00
 lastmod: 2018-08-13T00:50:25+03:00
 draft: false

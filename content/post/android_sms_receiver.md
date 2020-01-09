@@ -1,5 +1,6 @@
 ---
 title: "Android SMS Receiver"
+url : "android-smsreceiver"
 date: 2017-01-11T01:42:54+03:00
 lastmod: 2018-09-25T11:51:07+03:00
 draft: false

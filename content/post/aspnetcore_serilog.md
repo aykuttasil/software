@@ -1,5 +1,6 @@
 ---
 title: "Asp.Net Core Serilog"
+url : "aspnetcore-serilog"
 date: 2019-11-18T02:34:57+03:00
 lastmod: 2019-11-18T02:34:57+03:00
 draft: true

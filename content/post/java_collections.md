@@ -15,6 +15,7 @@ keywords = [
   "sofware","android","java","collections","swap"
 ]
 title = "Java Collections"
+url = "java-collections"
 tags = [
   "software","android","java","collections","swap"
 ]

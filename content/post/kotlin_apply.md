@@ -14,6 +14,7 @@ keywords = [
   "sofware","kotlin","apply"
 ]
 title = "Kotlin apply Kullanımı"
+url = "kotlin-apply"
 desciption = ""
 thumbnailImagePosition = "top"
 thumbnailImage = ""

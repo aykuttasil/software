@@ -8,6 +8,7 @@ autoThumbnailImage = false
 desciption = ""
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 title = "Retrofit Multipart File Upload"
+url = "retrofit-multipart-file-upload"
 categories = [
   "yazilim",
   "android",

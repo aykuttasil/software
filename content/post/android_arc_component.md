@@ -1,6 +1,6 @@
 +++
 title = "Android Architecture Components"
-#url = "android-architecture-components"
+url = "android-architecture-components"
 desciption = "Android Architecture Components"
 metaAlignment = "center"
 categories = [

@@ -7,7 +7,7 @@ keywords = [
   "thread"
 ]
 title = "Runnable() & Callable()"
-#url = "java-runnable-and-callable"
+url = "java-runnable-and-callable"
 thumbnailImagePosition = "top"
 metaAlignment = "center"
 tags = [
