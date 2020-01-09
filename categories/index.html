@@ -13,7 +13,7 @@
     <link rel="canonical" href="https://aykuttasil.github.io/software/categories/" />
 
     
-    <meta name="description" content="Aykut Asil Software Notes" /> 
+    <meta name="description" content="aykuttasil" /> 
 
     
     <meta name="twitter:card" content="summary"/>
@@ -187,27 +187,30 @@
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/retrofit-oauth/">
+    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/android-internet-connection-receiver/">
       <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/4.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/retrofit-oauth/">
+      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/android-internet-connection-receiver/">
           <header class="post-card-header">
               <span class="post-card-tags">
               #software 
-              #oauth 
-              #retrofit 
-              #okhttp  </span>
+              #java 
+              #android 
+              #broadcast receiver 
+              #internet control  </span>
               
-              <h2 class="post-card-title">Retrofit Oauth</h2>
+              <h2 class="post-card-title">Android Internet Connection Receiver </h2>
           </header>
           <section class="post-card-excerpt">
               
-                <p>Retrofit Oauth Entegrasyonu Oauth, kısaca anlatmak gerekirse; Kullanıcı ile ilgili her türlü (izin,yetki,güvenlik vs.) etkileşimi standartlaştıran bir yapı diyebiliriz. Google amcaya sorarsanız neler yapabileceğiniz ile ilgili birçok kaynak bulabilirsiniz. Veya buraya bakabilirsiniz.
-Burada bahsedecek olduğumuz şey Android mobil uygulamanızdan bir istek yaptığınızda tüm bu oauth işlemlerinizi otomatize etmek üzerine olacak.
-Nasıl Çalışıyor? Kısaca anlatılan bu yazıyı okuduğunuzda günün sonunda elimizde bir token olduğunu ve bu tokenı request headerımıza ekleyerek backend kısmında kontrolünü sağladığımızı ve duruma göre cevap döndüğümüzü göreceksiniz. ...  </p>
+                <p>Uygulamanızın akışını internet kontrolü yaparak yönetmeniz gerekebilir.
+Bunun için ilk olarak AndroidManifest.xml dosyasına receiver tanımı yapmalısınız.
+&lt;receiver android:name=&#34;.InternetConnectionReceiver&#34;&gt; &lt;intent-filter&gt; &lt;action android:name=&#34;android.net.conn.CONNECTIVITY_CHANGE&#34; /&gt; &lt;/intent-filter&gt; &lt;/receiver&gt; InternetConnectionReceiver
+public class InternetConnectionReceiver extends BroadcastReceiver { @Override public void onReceive(Context context, Intent intent) { if (CheckConnection(context)) { } } } Yukarıda tanımlanmış olan receiver, cihazın ağ yapısında herhangi bir değişiklik olduğunda bunu yakalar. Örneğin wireless açıkken kapattığınız da veya kapalıyken açtığınız da bunu yakayabilirsiniz.
+CheckConnection ...  </p>
               
           </section>
       </a>
@@ -222,20 +225,25 @@ Nasıl Çalışıyor? Kısaca anlatılan bu yazıyı okuduğunuzda günün sonun
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/">
+    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/android-service/">
       <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/7.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/">
+      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/android-service/">
           <header class="post-card-header">
+              <span class="post-card-tags">
+              #android 
+              #service  </span>
               
-              <h2 class="post-card-title"></h2>
+              <h2 class="post-card-title">Android Service</h2>
           </header>
           <section class="post-card-excerpt">
               
-                <p>                   94  Posts   53  Following   3,454  Followers   238  Likes      Winnie Brewer  Boulder, CO  Coffee roasting poet in the vein of Emerson and Blake.   FOLLOW   OPTION D      </p>
+                <p>Android Service Android'in temel bileşenlerinden biri olan Service&lsquo;ler kısaca UI(arayüz) olmayan Activity&lsquo;lere benzetebiliriz. Tabi ki kendine göre ek özellikleri bulunmaktadır. Service tanımlaması AndroidManifest.xml içerisinde tanımlı olmalıdır. Aksi takdirde çalışmaz. &lt;service&gt; elementinin alabileceği özellikler aşağıdaki gibidir.
+Niçin kullanılır? Temel olarak ifade etmek gerekirse Service&lsquo;lerin kullanım amacı uzun süren ve arka planda(background) çalışan taskler oluşturmaktır. Bununla birlikte diğer uygulamalar tarafından çağırılabilen iletişim imkanı sağlar.
+Service tanımlanması &lt;service android:description=&#34;string resource&#34; android:directBootAware=[&#34;true&#34; | &#34;false&#34;] android:enabled=[&#34;true&#34; | &#34;false&#34;] android:exported=[&#34;true&#34; | &#34;false&#34;] android:icon=&#34;drawable resource&#34; android:isolatedProcess=[&#34;true&#34; | &#34;false&#34;] android:label=&#34;string resource&#34; android:name=&#34;string&#34; android:permission=&#34;string&#34; android:process=&#34;string&#34; &gt; . ...  </p>
               
           </section>
       </a>
@@ -250,27 +258,31 @@ Nasıl Çalışıyor? Kısaca anlatılan bu yazıyı okuduğunuzda günün sonun
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/kotlin_dsl_create_json/">
-      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/3.jpg)"></div>
+    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/docker/">
+      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/1.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/kotlin_dsl_create_json/">
+      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/docker/">
           <header class="post-card-header">
               <span class="post-card-tags">
-              #kotlin 
-              #dsl 
-              #json  </span>
+              #sofware 
+              #docker  </span>
               
-              <h2 class="post-card-title">Kotlin_dsl_create_json</h2>
+              <h2 class="post-card-title">Docker</h2>
           </header>
           <section class="post-card-excerpt">
               
-                <p>Kotlin DSL kullanarak Json Objesi nasıl oluşturulur ? Normalde Json objesi oluşturmak için aşağıdaki gibi bir yöntem izleriz.
-val jsonObject = JSONObject() jsonObject.put(&#34;name&#34;,&#34;Aykut&#34;) jsonObject.put(&#34;age&#34;,20) Bunu Kotlin DSL ile çok daha ergonomik bir şekilde hazırlayabiliriz.
-Öncelikle Json isminde bir sınıf oluşturuyoruz ve JsonObject sınıfından kalıtım alıyoruz. Ve DSL kullanabilmek için gerekli custom constructor fonksiyonumuzu yazıyoruz.
-class Json() : JSONObject() { constructor(json: Json.() -&gt; Unit) : this() { this.init() } } Json objemizi hazırlarken kolaylık olsun diye bir infix fonksiyonu ekliyoruz. ...  </p>
+                <p>DOCKER
+ Docker aldı başını gidiyor. Yeni bir devrim açıyor.
+E haliyle yazılım dünyası buna sessiz kalmamakla beraber bir çok Docker nedir? örnekleri vs. hazırlanıyor.
+Bu nedenle biz Docker nedir? tanımlamasından daha çok hızlı ilerlemeler şeklinde ufak uygulamalar geliştiricez. Bende bu yazı serisiyle paralel şekilde öğrenimimi sağlayacağımı belirtmek isterim ! 🙂
+Başlıyoruz..
+İlk olarak makinemize Docker ı kuralım.
+  Mac: https://docs.docker.com/docker-for-mac/
+  Windows : https://docs.docker.com/docker-for-windows/
+  İndirip kurulumu sağladıktan sonra terminali açarak ...  </p>
               
           </section>
       </a>

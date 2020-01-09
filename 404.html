@@ -13,7 +13,7 @@
     <link rel="canonical" href="https://aykuttasil.github.io/software/404.html" />
 
     
-    <meta name="description" content="Aykut Asil Software Notes" /> 
+    <meta name="description" content="aykuttasil" /> 
 
     
     <meta name="twitter:card" content="summary"/>
@@ -82,30 +82,24 @@
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/android-webview-etkilesimi/">
-      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/2.jpg)"></div>
+    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/unit-test-nedir-ni%C3%A7in-ve-nas%C4%B1l-yap%C4%B1l%C4%B1r/">
+      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/1.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/android-webview-etkilesimi/">
+      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/unit-test-nedir-ni%C3%A7in-ve-nas%C4%B1l-yap%C4%B1l%C4%B1r/">
           <header class="post-card-header">
               <span class="post-card-tags">
-              #sofware 
-              #android 
-              #java 
-              #webview 
-              #addJavascriptInterface 
-              #WebViewClient 
-              #JavascriptInterface  </span>
+              #software 
+              #unit test  </span>
               
-              <h2 class="post-card-title">Android ile WebView Etkileşimi</h2>
+              <h2 class="post-card-title">Unit Test Nedir ? Niçin ve Nasıl Yapılır ?</h2>
           </header>
           <section class="post-card-excerpt">
               
-                <p>Kısa Hikaye : Üstünde çalışmakta olduğum bir projede kredi kartı ile ödeme yapısı kurmam gerekti. Kısaca projenin yapısından bahsedecek olursak
- Backend : .Net Client : Android (Java) Ödeme altyapısı : İyzico  Client tarafında rest isteğiyle tüm işlemlerimizi backend tarafında yapıyoruz. Ödeme yapımızı da bu doğrultuda geliştirdik.
-Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine bankanın bize telefonumuza gelen şifreyi girmemiz için göndermiş olduğu web sayfası vs. giriyor. ...  </p>
+                <p>Unit Test Nedir ? Niçin ve Nasıl Yapılır ?
+Yıl olmuş 2014 hala birim test makalesi mi yazıyorsun diye düşünüyor olabilirsiniz. Ancak, birim testi uzun zamandır kullanılan bir yöntem olmasına rağmen tam olarak ne işe yaradığı, neden yapıldığı ve nasıl yapılması gerektiği konusunda açıklayıcı bir Türkçe yazı bulmak malesef zor. Bu yüzden, yazılım mühendisi adaylarına ve kariyerine yeni başlayan arkadaşlara faydalı olabilmek adına bu yazıyı yazmak uygun olur diye düşündüm. ...  </p>
               
           </section>
       </a>
@@ -120,28 +114,30 @@ Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/foreground-service-ile-fusedlocationapi-kullan%C4%B1m%C4%B1/">
-      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/2.jpg)"></div>
+    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/android-library-bintray/">
+      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/6.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/foreground-service-ile-fusedlocationapi-kullan%C4%B1m%C4%B1/">
+      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/android-library-bintray/">
           <header class="post-card-header">
               <span class="post-card-tags">
               #software 
               #android 
               #java 
-              #fusedlocationapi 
-              #foreground service  </span>
+              #library 
+              #bintray 
+              #gradle  </span>
               
-              <h2 class="post-card-title">Foreground Service ile FusedLocationApi Kullanımı</h2>
+              <h2 class="post-card-title">Android Library &amp; Bintray</h2>
           </header>
           <section class="post-card-excerpt">
               
-                <p>Android service yapısı, Android’in temel bileşenlerinden olup genel kullanım amacı yan iş parçacığı oluşturmaktır. Uzun süren işlemler (download vb.) için olmazsa olmaz bileşendir. Android in service bileşenini kendi ihtiyaçlarınız doğrultusunda özelleştirebilir ve uygulamanızı modern bir yapıya kavuşturabilirsiniz.
-Burada yapacağımız örnekte kısaca şu aşamaları görücez;
- Service i foreground olarak başlatmak Ongoing(devamlı gözüken) notification oluşturmak GoogleApiClient a bağlanmak Location bilgisini notification da göstermek  İlk olarak Service imiz kodlarını yazalım. Gerekli açıklamalar kodların arasında mevcuttur. ...  </p>
+                <p>Android uygulaması yazarken bazı oluşturmuş olduğunuz yapıları tekrar tekrar yazmak durumunda kalıyorsanız, sizin de artık kendi kütüphanenizi yazmanızın zamanı gelmiş geçiyor demektir. Böyle bir durum söz konusu olmak zorunda değil tabi library oluşturmak için 🙂
+Bu yazının konusu Android Library oluşturmak, oluşturmuş olduğumuz bu kütüphaneyi maven ve jcenter repository e deploy etmek olucak.
+Ve başlayabiliriz.
+İlk olarak Android Studio yu açarak File &gt; New &gt; New Project e tıklayıp yeni bir proje oluşturalım. ...  </p>
               
           </section>
       </a>
@@ -156,29 +152,26 @@ Burada yapacağımız örnekte kısaca şu aşamaları görücez;
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/tsql-nullif-fonksiyonu-nedir-ve-nas%C4%B1l-kullan%C4%B1l%C4%B1r/">
-      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/7.jpg)"></div>
+    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/executorservice-submit-execute/">
+      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/2.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/tsql-nullif-fonksiyonu-nedir-ve-nas%C4%B1l-kullan%C4%B1l%C4%B1r/">
+      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/executorservice-submit-execute/">
           <header class="post-card-header">
               <span class="post-card-tags">
               #software 
-              #sql 
-              #mssql 
-              #tsql 
-              #nullif  </span>
+              #java 
+              #executorservice 
+              #submit 
+              #execute  </span>
               
-              <h2 class="post-card-title">TSQL NULLIF Fonksiyonu Nedir ve Nasıl Kullanılır</h2>
+              <h2 class="post-card-title">ExecutorService submit() – execute()</h2>
           </header>
           <section class="post-card-excerpt">
               
-                <p>TSQL NULLIF fonksiyonu NULLIF fonksiyonu verilen iki parametre birbirine esit ise NULL deger döndürür eger degerleri fakli iki parametre verilirse sonuç olarak birinci parametrenin degerini döndürür.
-Kullanimi ve anlamasi kolay bir fonksiyon oldugu için basit bir örnekle anlatmaya çalisalim.
-Ilk olarak kullanacagimiz geçici tabloyu asagidaki gibi çalistirip içine insert komutu ile veri kaydedelim.
-CREATE TABLE #Urun ( UrunID TINYINT, ListeFiyati DECIMAL NULL); GO INSERT #Urun VALUES(1,100); INSERT #Urun VALUES(2,NULL); INSERT #Urun VALUES(3,0); INSERT #Urun VALUES(7,250); INSERT #Urun VALUES(9,458); ListeFiyati kolonuna göre count yaparsak sonuç olarak 4 dönecegini görürsünüz, çünkü UrunID’si 2 olan ürünün liste fiyati girilmemistir. ...  </p>
+                <p>ExecutorService submit() – execute() Link : http://javarevisited.blogspot.com.tr/2016/04/difference-between-ExecutorServie-submit-vs-Executor-execute-method-in-Java.html </p>
               
           </section>
       </a>
