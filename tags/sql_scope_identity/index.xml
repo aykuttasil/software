@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sql_scope_identity on </title>
-    <link>/tags/sql_scope_identity/</link>
+    <link>software/tags/sql_scope_identity/</link>
     <description>Recent content in sql_scope_identity on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 11 Jan 2017 17:20:37 +0300</lastBuildDate>
     
-	<atom:link href="/tags/sql_scope_identity/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="software/tags/sql_scope_identity/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SQL SCOPE_IDENTITY()</title>
-      <link>/post/sql-scope_identity/</link>
+      <link>software/post/sql-scope_identity/</link>
       <pubDate>Wed, 11 Jan 2017 17:20:37 +0300</pubDate>
       
-      <guid>/post/sql-scope_identity/</guid>
+      <guid>software/post/sql-scope_identity/</guid>
       <description>Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id sini getirir.
 Yapılan son kaydın id sini almak için uzun yol olarak insert sorgusunu çalıştırdıktan sonra bir select sorgusu atarak ve order by id desc diyerek ilk sıradaki kaydı okuyabilir ve bu kaydın id sini alabiliriz.
 Tüm bunları yapmaktansa:

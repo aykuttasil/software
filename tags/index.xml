@@ -2,1533 +2,1533 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
-    <link>/tags/</link>
+    <link>software/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 03 Jan 2020 17:19:13 +0300</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="software/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>dsl</title>
-      <link>/tags/dsl/</link>
+      <link>software/tags/dsl/</link>
       <pubDate>Fri, 03 Jan 2020 17:19:13 +0300</pubDate>
       
-      <guid>/tags/dsl/</guid>
+      <guid>software/tags/dsl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>json</title>
-      <link>/tags/json/</link>
+      <link>software/tags/json/</link>
       <pubDate>Fri, 03 Jan 2020 17:19:13 +0300</pubDate>
       
-      <guid>/tags/json/</guid>
+      <guid>software/tags/json/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kotlin</title>
-      <link>/tags/kotlin/</link>
+      <link>software/tags/kotlin/</link>
       <pubDate>Fri, 03 Jan 2020 17:19:13 +0300</pubDate>
       
-      <guid>/tags/kotlin/</guid>
+      <guid>software/tags/kotlin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>aspnetcore</title>
-      <link>/tags/aspnetcore/</link>
+      <link>software/tags/aspnetcore/</link>
       <pubDate>Tue, 12 Nov 2019 10:17:17 +0300</pubDate>
       
-      <guid>/tags/aspnetcore/</guid>
+      <guid>software/tags/aspnetcore/</guid>
       <description></description>
     </item>
     
     <item>
       <title>session</title>
-      <link>/tags/session/</link>
+      <link>software/tags/session/</link>
       <pubDate>Tue, 12 Nov 2019 10:17:17 +0300</pubDate>
       
-      <guid>/tags/session/</guid>
+      <guid>software/tags/session/</guid>
       <description></description>
     </item>
     
     <item>
       <title>webapi</title>
-      <link>/tags/webapi/</link>
+      <link>software/tags/webapi/</link>
       <pubDate>Tue, 12 Nov 2019 10:17:17 +0300</pubDate>
       
-      <guid>/tags/webapi/</guid>
+      <guid>software/tags/webapi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>android</title>
-      <link>/tags/android/</link>
+      <link>software/tags/android/</link>
       <pubDate>Sat, 03 Aug 2019 03:14:28 +0300</pubDate>
       
-      <guid>/tags/android/</guid>
+      <guid>software/tags/android/</guid>
       <description></description>
     </item>
     
     <item>
       <title>debugging</title>
-      <link>/tags/debugging/</link>
+      <link>software/tags/debugging/</link>
       <pubDate>Sat, 03 Aug 2019 03:14:28 +0300</pubDate>
       
-      <guid>/tags/debugging/</guid>
+      <guid>software/tags/debugging/</guid>
       <description></description>
     </item>
     
     <item>
       <title>local-web-server</title>
-      <link>/tags/local-web-server/</link>
+      <link>software/tags/local-web-server/</link>
       <pubDate>Sat, 03 Aug 2019 03:14:28 +0300</pubDate>
       
-      <guid>/tags/local-web-server/</guid>
+      <guid>software/tags/local-web-server/</guid>
       <description></description>
     </item>
     
     <item>
       <title>windows</title>
-      <link>/tags/windows/</link>
+      <link>software/tags/windows/</link>
       <pubDate>Sat, 03 Aug 2019 03:14:28 +0300</pubDate>
       
-      <guid>/tags/windows/</guid>
+      <guid>software/tags/windows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>abd</title>
-      <link>/tags/abd/</link>
+      <link>software/tags/abd/</link>
       <pubDate>Sat, 20 Jul 2019 01:04:53 +0300</pubDate>
       
-      <guid>/tags/abd/</guid>
+      <guid>software/tags/abd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ip</title>
-      <link>/tags/ip/</link>
+      <link>software/tags/ip/</link>
       <pubDate>Sat, 20 Jul 2019 01:04:53 +0300</pubDate>
       
-      <guid>/tags/ip/</guid>
+      <guid>software/tags/ip/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shell</title>
-      <link>/tags/shell/</link>
+      <link>software/tags/shell/</link>
       <pubDate>Sat, 20 Jul 2019 01:04:53 +0300</pubDate>
       
-      <guid>/tags/shell/</guid>
+      <guid>software/tags/shell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fileprovider</title>
-      <link>/tags/fileprovider/</link>
+      <link>software/tags/fileprovider/</link>
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
-      <guid>/tags/fileprovider/</guid>
+      <guid>software/tags/fileprovider/</guid>
       <description></description>
     </item>
     
     <item>
       <title>filesystem</title>
-      <link>/tags/filesystem/</link>
+      <link>software/tags/filesystem/</link>
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
-      <guid>/tags/filesystem/</guid>
+      <guid>software/tags/filesystem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>permission</title>
-      <link>/tags/permission/</link>
+      <link>software/tags/permission/</link>
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
-      <guid>/tags/permission/</guid>
+      <guid>software/tags/permission/</guid>
       <description></description>
     </item>
     
     <item>
       <title>security</title>
-      <link>/tags/security/</link>
+      <link>software/tags/security/</link>
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
-      <guid>/tags/security/</guid>
+      <guid>software/tags/security/</guid>
       <description></description>
     </item>
     
     <item>
       <title>share-data</title>
-      <link>/tags/share-data/</link>
+      <link>software/tags/share-data/</link>
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
-      <guid>/tags/share-data/</guid>
+      <guid>software/tags/share-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>uri</title>
-      <link>/tags/uri/</link>
+      <link>software/tags/uri/</link>
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
-      <guid>/tags/uri/</guid>
+      <guid>software/tags/uri/</guid>
       <description></description>
     </item>
     
     <item>
       <title>filters</title>
-      <link>/tags/filters/</link>
+      <link>software/tags/filters/</link>
       <pubDate>Mon, 29 Apr 2019 10:05:05 +0300</pubDate>
       
-      <guid>/tags/filters/</guid>
+      <guid>software/tags/filters/</guid>
       <description></description>
     </item>
     
     <item>
       <title>netcore</title>
-      <link>/tags/netcore/</link>
+      <link>software/tags/netcore/</link>
       <pubDate>Mon, 29 Apr 2019 10:05:05 +0300</pubDate>
       
-      <guid>/tags/netcore/</guid>
+      <guid>software/tags/netcore/</guid>
       <description></description>
     </item>
     
     <item>
       <title>api</title>
-      <link>/tags/api/</link>
+      <link>software/tags/api/</link>
       <pubDate>Mon, 15 Apr 2019 22:08:14 +0300</pubDate>
       
-      <guid>/tags/api/</guid>
+      <guid>software/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>csharp</title>
-      <link>/tags/csharp/</link>
+      <link>software/tags/csharp/</link>
       <pubDate>Mon, 15 Apr 2019 22:08:14 +0300</pubDate>
       
-      <guid>/tags/csharp/</guid>
+      <guid>software/tags/csharp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>databinding</title>
-      <link>/tags/databinding/</link>
+      <link>software/tags/databinding/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:27 +0300</pubDate>
       
-      <guid>/tags/databinding/</guid>
+      <guid>software/tags/databinding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mobile</title>
-      <link>/tags/mobile/</link>
+      <link>software/tags/mobile/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:27 +0300</pubDate>
       
-      <guid>/tags/mobile/</guid>
+      <guid>software/tags/mobile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>service</title>
-      <link>/tags/service/</link>
+      <link>software/tags/service/</link>
       <pubDate>Thu, 14 Feb 2019 13:10:18 +0300</pubDate>
       
-      <guid>/tags/service/</guid>
+      <guid>software/tags/service/</guid>
       <description></description>
     </item>
     
     <item>
       <title>test</title>
-      <link>/tags/test/</link>
+      <link>software/tags/test/</link>
       <pubDate>Tue, 29 Jan 2019 15:38:29 +0300</pubDate>
       
-      <guid>/tags/test/</guid>
+      <guid>software/tags/test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bash</title>
-      <link>/tags/bash/</link>
+      <link>software/tags/bash/</link>
       <pubDate>Mon, 10 Dec 2018 00:47:41 +0300</pubDate>
       
-      <guid>/tags/bash/</guid>
+      <guid>software/tags/bash/</guid>
       <description></description>
     </item>
     
     <item>
       <title>script</title>
-      <link>/tags/script/</link>
+      <link>software/tags/script/</link>
       <pubDate>Mon, 10 Dec 2018 00:47:41 +0300</pubDate>
       
-      <guid>/tags/script/</guid>
+      <guid>software/tags/script/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sh</title>
-      <link>/tags/sh/</link>
+      <link>software/tags/sh/</link>
       <pubDate>Mon, 10 Dec 2018 00:47:41 +0300</pubDate>
       
-      <guid>/tags/sh/</guid>
+      <guid>software/tags/sh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>build</title>
-      <link>/tags/build/</link>
+      <link>software/tags/build/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>/tags/build/</guid>
+      <guid>software/tags/build/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cd</title>
-      <link>/tags/cd/</link>
+      <link>software/tags/cd/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>/tags/cd/</guid>
+      <guid>software/tags/cd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ci</title>
-      <link>/tags/ci/</link>
+      <link>software/tags/ci/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>/tags/ci/</guid>
+      <guid>software/tags/ci/</guid>
       <description></description>
     </item>
     
     <item>
       <title>circleci</title>
-      <link>/tags/circleci/</link>
+      <link>software/tags/circleci/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>/tags/circleci/</guid>
+      <guid>software/tags/circleci/</guid>
       <description></description>
     </item>
     
     <item>
       <title>continuous-deployment</title>
-      <link>/tags/continuous-deployment/</link>
+      <link>software/tags/continuous-deployment/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>/tags/continuous-deployment/</guid>
+      <guid>software/tags/continuous-deployment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>continuous-integration</title>
-      <link>/tags/continuous-integration/</link>
+      <link>software/tags/continuous-integration/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>/tags/continuous-integration/</guid>
+      <guid>software/tags/continuous-integration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>deployment</title>
-      <link>/tags/deployment/</link>
+      <link>software/tags/deployment/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>/tags/deployment/</guid>
+      <guid>software/tags/deployment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ssh</title>
-      <link>/tags/ssh/</link>
+      <link>software/tags/ssh/</link>
       <pubDate>Fri, 26 Oct 2018 01:04:21 +0300</pubDate>
       
-      <guid>/tags/ssh/</guid>
+      <guid>software/tags/ssh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dagger</title>
-      <link>/tags/dagger/</link>
+      <link>software/tags/dagger/</link>
       <pubDate>Fri, 12 Oct 2018 11:48:08 +0300</pubDate>
       
-      <guid>/tags/dagger/</guid>
+      <guid>software/tags/dagger/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dependency-injection</title>
-      <link>/tags/dependency-injection/</link>
+      <link>software/tags/dependency-injection/</link>
       <pubDate>Fri, 12 Oct 2018 11:48:08 +0300</pubDate>
       
-      <guid>/tags/dependency-injection/</guid>
+      <guid>software/tags/dependency-injection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>di</title>
-      <link>/tags/di/</link>
+      <link>software/tags/di/</link>
       <pubDate>Fri, 12 Oct 2018 11:48:08 +0300</pubDate>
       
-      <guid>/tags/di/</guid>
+      <guid>software/tags/di/</guid>
       <description></description>
     </item>
     
     <item>
       <title>amp</title>
-      <link>/tags/amp/</link>
+      <link>software/tags/amp/</link>
       <pubDate>Wed, 10 Oct 2018 11:57:46 +0300</pubDate>
       
-      <guid>/tags/amp/</guid>
+      <guid>software/tags/amp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>espresso</title>
-      <link>/tags/espresso/</link>
+      <link>software/tags/espresso/</link>
       <pubDate>Tue, 18 Sep 2018 11:51:07 +0300</pubDate>
       
-      <guid>/tags/espresso/</guid>
+      <guid>software/tags/espresso/</guid>
       <description></description>
     </item>
     
     <item>
       <title>junit</title>
-      <link>/tags/junit/</link>
+      <link>software/tags/junit/</link>
       <pubDate>Tue, 18 Sep 2018 11:51:07 +0300</pubDate>
       
-      <guid>/tags/junit/</guid>
+      <guid>software/tags/junit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mock</title>
-      <link>/tags/mock/</link>
+      <link>software/tags/mock/</link>
       <pubDate>Tue, 18 Sep 2018 11:51:07 +0300</pubDate>
       
-      <guid>/tags/mock/</guid>
+      <guid>software/tags/mock/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mockito</title>
-      <link>/tags/mockito/</link>
+      <link>software/tags/mockito/</link>
       <pubDate>Tue, 18 Sep 2018 11:51:07 +0300</pubDate>
       
-      <guid>/tags/mockito/</guid>
+      <guid>software/tags/mockito/</guid>
       <description></description>
     </item>
     
     <item>
       <title>roboloectric</title>
-      <link>/tags/roboloectric/</link>
+      <link>software/tags/roboloectric/</link>
       <pubDate>Tue, 18 Sep 2018 11:51:07 +0300</pubDate>
       
-      <guid>/tags/roboloectric/</guid>
+      <guid>software/tags/roboloectric/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dns</title>
-      <link>/tags/dns/</link>
+      <link>software/tags/dns/</link>
       <pubDate>Mon, 13 Aug 2018 00:50:25 +0300</pubDate>
       
-      <guid>/tags/dns/</guid>
+      <guid>software/tags/dns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dns-over-tls</title>
-      <link>/tags/dns-over-tls/</link>
+      <link>software/tags/dns-over-tls/</link>
       <pubDate>Mon, 13 Aug 2018 00:50:25 +0300</pubDate>
       
-      <guid>/tags/dns-over-tls/</guid>
+      <guid>software/tags/dns-over-tls/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ssl</title>
-      <link>/tags/ssl/</link>
+      <link>software/tags/ssl/</link>
       <pubDate>Mon, 13 Aug 2018 00:50:25 +0300</pubDate>
       
-      <guid>/tags/ssl/</guid>
+      <guid>software/tags/ssl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tls</title>
-      <link>/tags/tls/</link>
+      <link>software/tags/tls/</link>
       <pubDate>Mon, 13 Aug 2018 00:50:25 +0300</pubDate>
       
-      <guid>/tags/tls/</guid>
+      <guid>software/tags/tls/</guid>
       <description></description>
     </item>
     
     <item>
       <title>encrypted-data</title>
-      <link>/tags/encrypted-data/</link>
+      <link>software/tags/encrypted-data/</link>
       <pubDate>Sun, 12 Aug 2018 23:12:07 +0300</pubDate>
       
-      <guid>/tags/encrypted-data/</guid>
+      <guid>software/tags/encrypted-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>network</title>
-      <link>/tags/network/</link>
+      <link>software/tags/network/</link>
       <pubDate>Sun, 12 Aug 2018 23:12:07 +0300</pubDate>
       
-      <guid>/tags/network/</guid>
+      <guid>software/tags/network/</guid>
       <description></description>
     </item>
     
     <item>
       <title>arduino</title>
-      <link>/tags/arduino/</link>
+      <link>software/tags/arduino/</link>
       <pubDate>Fri, 03 Aug 2018 22:21:48 +0300</pubDate>
       
-      <guid>/tags/arduino/</guid>
+      <guid>software/tags/arduino/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iot</title>
-      <link>/tags/iot/</link>
+      <link>software/tags/iot/</link>
       <pubDate>Fri, 03 Aug 2018 22:21:48 +0300</pubDate>
       
-      <guid>/tags/iot/</guid>
+      <guid>software/tags/iot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>motor</title>
-      <link>/tags/motor/</link>
+      <link>software/tags/motor/</link>
       <pubDate>Fri, 03 Aug 2018 22:21:48 +0300</pubDate>
       
-      <guid>/tags/motor/</guid>
+      <guid>software/tags/motor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>backstack</title>
-      <link>/tags/backstack/</link>
+      <link>software/tags/backstack/</link>
       <pubDate>Fri, 04 May 2018 17:38:15 +0300</pubDate>
       
-      <guid>/tags/backstack/</guid>
+      <guid>software/tags/backstack/</guid>
       <description></description>
     </item>
     
     <item>
       <title>navigate</title>
-      <link>/tags/navigate/</link>
+      <link>software/tags/navigate/</link>
       <pubDate>Fri, 04 May 2018 17:38:15 +0300</pubDate>
       
-      <guid>/tags/navigate/</guid>
+      <guid>software/tags/navigate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>android-architecure</title>
-      <link>/tags/android-architecure/</link>
+      <link>software/tags/android-architecure/</link>
       <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/android-architecure/</guid>
+      <guid>software/tags/android-architecure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lifecycle</title>
-      <link>/tags/lifecycle/</link>
+      <link>software/tags/lifecycle/</link>
       <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/lifecycle/</guid>
+      <guid>software/tags/lifecycle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>livedata</title>
-      <link>/tags/livedata/</link>
+      <link>software/tags/livedata/</link>
       <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/livedata/</guid>
+      <guid>software/tags/livedata/</guid>
       <description></description>
     </item>
     
     <item>
       <title>software</title>
-      <link>/tags/software/</link>
+      <link>software/tags/software/</link>
       <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/software/</guid>
+      <guid>software/tags/software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>viewmodel</title>
-      <link>/tags/viewmodel/</link>
+      <link>software/tags/viewmodel/</link>
       <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/viewmodel/</guid>
+      <guid>software/tags/viewmodel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cloud</title>
-      <link>/tags/cloud/</link>
+      <link>software/tags/cloud/</link>
       <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/cloud/</guid>
+      <guid>software/tags/cloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cloud-dns</title>
-      <link>/tags/cloud-dns/</link>
+      <link>software/tags/cloud-dns/</link>
       <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/cloud-dns/</guid>
+      <guid>software/tags/cloud-dns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>custom-dns</title>
-      <link>/tags/custom-dns/</link>
+      <link>software/tags/custom-dns/</link>
       <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/custom-dns/</guid>
+      <guid>software/tags/custom-dns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>domain</title>
-      <link>/tags/domain/</link>
+      <link>software/tags/domain/</link>
       <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/domain/</guid>
+      <guid>software/tags/domain/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gcloud</title>
-      <link>/tags/gcloud/</link>
+      <link>software/tags/gcloud/</link>
       <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/gcloud/</guid>
+      <guid>software/tags/gcloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>annotations</title>
-      <link>/tags/annotations/</link>
+      <link>software/tags/annotations/</link>
       <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/annotations/</guid>
+      <guid>software/tags/annotations/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jvmoverloads</title>
-      <link>/tags/jvmoverloads/</link>
+      <link>software/tags/jvmoverloads/</link>
       <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/jvmoverloads/</guid>
+      <guid>software/tags/jvmoverloads/</guid>
       <description></description>
     </item>
     
     <item>
       <title>enum</title>
-      <link>/tags/enum/</link>
+      <link>software/tags/enum/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/enum/</guid>
+      <guid>software/tags/enum/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sealed</title>
-      <link>/tags/sealed/</link>
+      <link>software/tags/sealed/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/sealed/</guid>
+      <guid>software/tags/sealed/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lambda</title>
-      <link>/tags/lambda/</link>
+      <link>software/tags/lambda/</link>
       <pubDate>Sun, 18 Jun 2017 02:24:37 +0300</pubDate>
       
-      <guid>/tags/lambda/</guid>
+      <guid>software/tags/lambda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>apply</title>
-      <link>/tags/apply/</link>
+      <link>software/tags/apply/</link>
       <pubDate>Tue, 06 Jun 2017 10:47:58 +0300</pubDate>
       
-      <guid>/tags/apply/</guid>
+      <guid>software/tags/apply/</guid>
       <description></description>
     </item>
     
     <item>
       <title>extensin function</title>
-      <link>/tags/extensin-function/</link>
+      <link>software/tags/extensin-function/</link>
       <pubDate>Tue, 06 Jun 2017 10:47:58 +0300</pubDate>
       
-      <guid>/tags/extensin-function/</guid>
+      <guid>software/tags/extensin-function/</guid>
       <description></description>
     </item>
     
     <item>
       <title>when</title>
-      <link>/tags/when/</link>
+      <link>software/tags/when/</link>
       <pubDate>Tue, 06 Jun 2017 04:42:56 +0300</pubDate>
       
-      <guid>/tags/when/</guid>
+      <guid>software/tags/when/</guid>
       <description></description>
     </item>
     
     <item>
       <title>let</title>
-      <link>/tags/let/</link>
+      <link>software/tags/let/</link>
       <pubDate>Tue, 06 Jun 2017 04:33:06 +0300</pubDate>
       
-      <guid>/tags/let/</guid>
+      <guid>software/tags/let/</guid>
       <description></description>
     </item>
     
     <item>
       <title>oauth</title>
-      <link>/tags/oauth/</link>
+      <link>software/tags/oauth/</link>
       <pubDate>Wed, 17 May 2017 11:58:43 +0300</pubDate>
       
-      <guid>/tags/oauth/</guid>
+      <guid>software/tags/oauth/</guid>
       <description></description>
     </item>
     
     <item>
       <title>okhttp</title>
-      <link>/tags/okhttp/</link>
+      <link>software/tags/okhttp/</link>
       <pubDate>Wed, 17 May 2017 11:58:43 +0300</pubDate>
       
-      <guid>/tags/okhttp/</guid>
+      <guid>software/tags/okhttp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>retrofit</title>
-      <link>/tags/retrofit/</link>
+      <link>software/tags/retrofit/</link>
       <pubDate>Wed, 17 May 2017 11:58:43 +0300</pubDate>
       
-      <guid>/tags/retrofit/</guid>
+      <guid>software/tags/retrofit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dynamiclink</title>
-      <link>/tags/dynamiclink/</link>
+      <link>software/tags/dynamiclink/</link>
       <pubDate>Mon, 17 Apr 2017 01:53:03 +0300</pubDate>
       
-      <guid>/tags/dynamiclink/</guid>
+      <guid>software/tags/dynamiclink/</guid>
       <description></description>
     </item>
     
     <item>
       <title>firebase</title>
-      <link>/tags/firebase/</link>
+      <link>software/tags/firebase/</link>
       <pubDate>Mon, 17 Apr 2017 01:53:03 +0300</pubDate>
       
-      <guid>/tags/firebase/</guid>
+      <guid>software/tags/firebase/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bluetooth</title>
-      <link>/tags/bluetooth/</link>
+      <link>software/tags/bluetooth/</link>
       <pubDate>Sun, 12 Mar 2017 23:40:36 +0300</pubDate>
       
-      <guid>/tags/bluetooth/</guid>
+      <guid>software/tags/bluetooth/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hc-06</title>
-      <link>/tags/hc-06/</link>
+      <link>software/tags/hc-06/</link>
       <pubDate>Sun, 12 Mar 2017 23:40:36 +0300</pubDate>
       
-      <guid>/tags/hc-06/</guid>
+      <guid>software/tags/hc-06/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hc06</title>
-      <link>/tags/hc06/</link>
+      <link>software/tags/hc06/</link>
       <pubDate>Sun, 12 Mar 2017 23:40:36 +0300</pubDate>
       
-      <guid>/tags/hc06/</guid>
+      <guid>software/tags/hc06/</guid>
       <description></description>
     </item>
     
     <item>
       <title>yeoman</title>
-      <link>/tags/yeoman/</link>
+      <link>software/tags/yeoman/</link>
       <pubDate>Wed, 18 Jan 2017 12:09:26 +0300</pubDate>
       
-      <guid>/tags/yeoman/</guid>
+      <guid>software/tags/yeoman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>c#</title>
-      <link>/tags/c#/</link>
+      <link>software/tags/c#/</link>
       <pubDate>Mon, 16 Jan 2017 11:13:16 +0300</pubDate>
       
-      <guid>/tags/c#/</guid>
+      <guid>software/tags/c#/</guid>
       <description></description>
     </item>
     
     <item>
       <title>null condition</title>
-      <link>/tags/null-condition/</link>
+      <link>software/tags/null-condition/</link>
       <pubDate>Mon, 16 Jan 2017 11:13:16 +0300</pubDate>
       
-      <guid>/tags/null-condition/</guid>
+      <guid>software/tags/null-condition/</guid>
       <description></description>
     </item>
     
     <item>
       <title>operator</title>
-      <link>/tags/operator/</link>
+      <link>software/tags/operator/</link>
       <pubDate>Mon, 16 Jan 2017 11:13:16 +0300</pubDate>
       
-      <guid>/tags/operator/</guid>
+      <guid>software/tags/operator/</guid>
       <description></description>
     </item>
     
     <item>
       <title>soru isareti</title>
-      <link>/tags/soru-isareti/</link>
+      <link>software/tags/soru-isareti/</link>
       <pubDate>Mon, 16 Jan 2017 11:13:16 +0300</pubDate>
       
-      <guid>/tags/soru-isareti/</guid>
+      <guid>software/tags/soru-isareti/</guid>
       <description></description>
     </item>
     
     <item>
       <title>addJavascriptInterface</title>
-      <link>/tags/addjavascriptinterface/</link>
+      <link>software/tags/addjavascriptinterface/</link>
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
-      <guid>/tags/addjavascriptinterface/</guid>
+      <guid>software/tags/addjavascriptinterface/</guid>
       <description></description>
     </item>
     
     <item>
       <title>java</title>
-      <link>/tags/java/</link>
+      <link>software/tags/java/</link>
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
-      <guid>/tags/java/</guid>
+      <guid>software/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JavascriptInterface</title>
-      <link>/tags/javascriptinterface/</link>
+      <link>software/tags/javascriptinterface/</link>
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
-      <guid>/tags/javascriptinterface/</guid>
+      <guid>software/tags/javascriptinterface/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sofware</title>
-      <link>/tags/sofware/</link>
+      <link>software/tags/sofware/</link>
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
-      <guid>/tags/sofware/</guid>
+      <guid>software/tags/sofware/</guid>
       <description></description>
     </item>
     
     <item>
       <title>webview</title>
-      <link>/tags/webview/</link>
+      <link>software/tags/webview/</link>
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
-      <guid>/tags/webview/</guid>
+      <guid>software/tags/webview/</guid>
       <description></description>
     </item>
     
     <item>
       <title>WebViewClient</title>
-      <link>/tags/webviewclient/</link>
+      <link>software/tags/webviewclient/</link>
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
-      <guid>/tags/webviewclient/</guid>
+      <guid>software/tags/webviewclient/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bash script</title>
-      <link>/tags/bash-script/</link>
+      <link>software/tags/bash-script/</link>
       <pubDate>Wed, 11 Jan 2017 19:56:08 +0300</pubDate>
       
-      <guid>/tags/bash-script/</guid>
+      <guid>software/tags/bash-script/</guid>
       <description></description>
     </item>
     
     <item>
       <title>docker</title>
-      <link>/tags/docker/</link>
+      <link>software/tags/docker/</link>
       <pubDate>Wed, 11 Jan 2017 19:56:08 +0300</pubDate>
       
-      <guid>/tags/docker/</guid>
+      <guid>software/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>execute</title>
-      <link>/tags/execute/</link>
+      <link>software/tags/execute/</link>
       <pubDate>Wed, 11 Jan 2017 19:26:49 +0300</pubDate>
       
-      <guid>/tags/execute/</guid>
+      <guid>software/tags/execute/</guid>
       <description></description>
     </item>
     
     <item>
       <title>executorservice</title>
-      <link>/tags/executorservice/</link>
+      <link>software/tags/executorservice/</link>
       <pubDate>Wed, 11 Jan 2017 19:26:49 +0300</pubDate>
       
-      <guid>/tags/executorservice/</guid>
+      <guid>software/tags/executorservice/</guid>
       <description></description>
     </item>
     
     <item>
       <title>submit</title>
-      <link>/tags/submit/</link>
+      <link>software/tags/submit/</link>
       <pubDate>Wed, 11 Jan 2017 19:26:49 +0300</pubDate>
       
-      <guid>/tags/submit/</guid>
+      <guid>software/tags/submit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>callable</title>
-      <link>/tags/callable/</link>
+      <link>software/tags/callable/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>/tags/callable/</guid>
+      <guid>software/tags/callable/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Executors</title>
-      <link>/tags/executors/</link>
+      <link>software/tags/executors/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>/tags/executors/</guid>
+      <guid>software/tags/executors/</guid>
       <description></description>
     </item>
     
     <item>
       <title>multithread</title>
-      <link>/tags/multithread/</link>
+      <link>software/tags/multithread/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>/tags/multithread/</guid>
+      <guid>software/tags/multithread/</guid>
       <description></description>
     </item>
     
     <item>
       <title>newCachedThreadPool</title>
-      <link>/tags/newcachedthreadpool/</link>
+      <link>software/tags/newcachedthreadpool/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>/tags/newcachedthreadpool/</guid>
+      <guid>software/tags/newcachedthreadpool/</guid>
       <description></description>
     </item>
     
     <item>
       <title>newFixedThreadPool</title>
-      <link>/tags/newfixedthreadpool/</link>
+      <link>software/tags/newfixedthreadpool/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>/tags/newfixedthreadpool/</guid>
+      <guid>software/tags/newfixedthreadpool/</guid>
       <description></description>
     </item>
     
     <item>
       <title>newSingleThreadExecutor</title>
-      <link>/tags/newsinglethreadexecutor/</link>
+      <link>software/tags/newsinglethreadexecutor/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>/tags/newsinglethreadexecutor/</guid>
+      <guid>software/tags/newsinglethreadexecutor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>runnable</title>
-      <link>/tags/runnable/</link>
+      <link>software/tags/runnable/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>/tags/runnable/</guid>
+      <guid>software/tags/runnable/</guid>
       <description></description>
     </item>
     
     <item>
       <title>thread</title>
-      <link>/tags/thread/</link>
+      <link>software/tags/thread/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>/tags/thread/</guid>
+      <guid>software/tags/thread/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rxjava</title>
-      <link>/tags/rxjava/</link>
+      <link>software/tags/rxjava/</link>
       <pubDate>Wed, 11 Jan 2017 18:52:51 +0300</pubDate>
       
-      <guid>/tags/rxjava/</guid>
+      <guid>software/tags/rxjava/</guid>
       <description></description>
     </item>
     
     <item>
       <title>reduce</title>
-      <link>/tags/reduce/</link>
+      <link>software/tags/reduce/</link>
       <pubDate>Wed, 11 Jan 2017 18:42:04 +0300</pubDate>
       
-      <guid>/tags/reduce/</guid>
+      <guid>software/tags/reduce/</guid>
       <description></description>
     </item>
     
     <item>
       <title>express</title>
-      <link>/tags/express/</link>
+      <link>software/tags/express/</link>
       <pubDate>Wed, 11 Jan 2017 18:14:05 +0300</pubDate>
       
-      <guid>/tags/express/</guid>
+      <guid>software/tags/express/</guid>
       <description></description>
     </item>
     
     <item>
       <title>intellisense</title>
-      <link>/tags/intellisense/</link>
+      <link>software/tags/intellisense/</link>
       <pubDate>Wed, 11 Jan 2017 18:14:05 +0300</pubDate>
       
-      <guid>/tags/intellisense/</guid>
+      <guid>software/tags/intellisense/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nodejs</title>
-      <link>/tags/nodejs/</link>
+      <link>software/tags/nodejs/</link>
       <pubDate>Wed, 11 Jan 2017 18:14:05 +0300</pubDate>
       
-      <guid>/tags/nodejs/</guid>
+      <guid>software/tags/nodejs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>typescript</title>
-      <link>/tags/typescript/</link>
+      <link>software/tags/typescript/</link>
       <pubDate>Wed, 11 Jan 2017 18:14:05 +0300</pubDate>
       
-      <guid>/tags/typescript/</guid>
+      <guid>software/tags/typescript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vscode</title>
-      <link>/tags/vscode/</link>
+      <link>software/tags/vscode/</link>
       <pubDate>Wed, 11 Jan 2017 18:14:05 +0300</pubDate>
       
-      <guid>/tags/vscode/</guid>
+      <guid>software/tags/vscode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tcp</title>
-      <link>/tags/tcp/</link>
+      <link>software/tags/tcp/</link>
       <pubDate>Wed, 11 Jan 2017 18:05:02 +0300</pubDate>
       
-      <guid>/tags/tcp/</guid>
+      <guid>software/tags/tcp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tcp/ip</title>
-      <link>/tags/tcp/ip/</link>
+      <link>software/tags/tcp/ip/</link>
       <pubDate>Wed, 11 Jan 2017 18:05:02 +0300</pubDate>
       
-      <guid>/tags/tcp/ip/</guid>
+      <guid>software/tags/tcp/ip/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bintray</title>
-      <link>/tags/bintray/</link>
+      <link>software/tags/bintray/</link>
       <pubDate>Wed, 11 Jan 2017 17:27:29 +0300</pubDate>
       
-      <guid>/tags/bintray/</guid>
+      <guid>software/tags/bintray/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gradle</title>
-      <link>/tags/gradle/</link>
+      <link>software/tags/gradle/</link>
       <pubDate>Wed, 11 Jan 2017 17:27:29 +0300</pubDate>
       
-      <guid>/tags/gradle/</guid>
+      <guid>software/tags/gradle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>library</title>
-      <link>/tags/library/</link>
+      <link>software/tags/library/</link>
       <pubDate>Wed, 11 Jan 2017 17:27:29 +0300</pubDate>
       
-      <guid>/tags/library/</guid>
+      <guid>software/tags/library/</guid>
       <description></description>
     </item>
     
     <item>
       <title>runtime permission</title>
-      <link>/tags/runtime-permission/</link>
+      <link>software/tags/runtime-permission/</link>
       <pubDate>Wed, 11 Jan 2017 17:24:52 +0300</pubDate>
       
-      <guid>/tags/runtime-permission/</guid>
+      <guid>software/tags/runtime-permission/</guid>
       <description></description>
     </item>
     
     <item>
       <title>klon</title>
-      <link>/tags/klon/</link>
+      <link>software/tags/klon/</link>
       <pubDate>Wed, 11 Jan 2017 17:22:38 +0300</pubDate>
       
-      <guid>/tags/klon/</guid>
+      <guid>software/tags/klon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>uno</title>
-      <link>/tags/uno/</link>
+      <link>software/tags/uno/</link>
       <pubDate>Wed, 11 Jan 2017 17:22:38 +0300</pubDate>
       
-      <guid>/tags/uno/</guid>
+      <guid>software/tags/uno/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mssql</title>
-      <link>/tags/mssql/</link>
+      <link>software/tags/mssql/</link>
       <pubDate>Wed, 11 Jan 2017 17:20:37 +0300</pubDate>
       
-      <guid>/tags/mssql/</guid>
+      <guid>software/tags/mssql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sql</title>
-      <link>/tags/sql/</link>
+      <link>software/tags/sql/</link>
       <pubDate>Wed, 11 Jan 2017 17:20:37 +0300</pubDate>
       
-      <guid>/tags/sql/</guid>
+      <guid>software/tags/sql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sql_scope_identity</title>
-      <link>/tags/sql_scope_identity/</link>
+      <link>software/tags/sql_scope_identity/</link>
       <pubDate>Wed, 11 Jan 2017 17:20:37 +0300</pubDate>
       
-      <guid>/tags/sql_scope_identity/</guid>
+      <guid>software/tags/sql_scope_identity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>javascript</title>
-      <link>/tags/javascript/</link>
+      <link>software/tags/javascript/</link>
       <pubDate>Wed, 11 Jan 2017 17:14:22 +0300</pubDate>
       
-      <guid>/tags/javascript/</guid>
+      <guid>software/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>glide</title>
-      <link>/tags/glide/</link>
+      <link>software/tags/glide/</link>
       <pubDate>Wed, 11 Jan 2017 17:11:30 +0300</pubDate>
       
-      <guid>/tags/glide/</guid>
+      <guid>software/tags/glide/</guid>
       <description></description>
     </item>
     
     <item>
       <title>palette</title>
-      <link>/tags/palette/</link>
+      <link>software/tags/palette/</link>
       <pubDate>Wed, 11 Jan 2017 17:11:30 +0300</pubDate>
       
-      <guid>/tags/palette/</guid>
+      <guid>software/tags/palette/</guid>
       <description></description>
     </item>
     
     <item>
       <title>viewpager</title>
-      <link>/tags/viewpager/</link>
+      <link>software/tags/viewpager/</link>
       <pubDate>Wed, 11 Jan 2017 17:07:51 +0300</pubDate>
       
-      <guid>/tags/viewpager/</guid>
+      <guid>software/tags/viewpager/</guid>
       <description></description>
     </item>
     
     <item>
       <title>collections</title>
-      <link>/tags/collections/</link>
+      <link>software/tags/collections/</link>
       <pubDate>Wed, 11 Jan 2017 16:10:10 +0300</pubDate>
       
-      <guid>/tags/collections/</guid>
+      <guid>software/tags/collections/</guid>
       <description></description>
     </item>
     
     <item>
       <title>swap</title>
-      <link>/tags/swap/</link>
+      <link>software/tags/swap/</link>
       <pubDate>Wed, 11 Jan 2017 16:10:10 +0300</pubDate>
       
-      <guid>/tags/swap/</guid>
+      <guid>software/tags/swap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>toolbar</title>
-      <link>/tags/toolbar/</link>
+      <link>software/tags/toolbar/</link>
       <pubDate>Wed, 11 Jan 2017 16:01:33 +0300</pubDate>
       
-      <guid>/tags/toolbar/</guid>
+      <guid>software/tags/toolbar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dbeaver</title>
-      <link>/tags/dbeaver/</link>
+      <link>software/tags/dbeaver/</link>
       <pubDate>Wed, 11 Jan 2017 15:50:10 +0300</pubDate>
       
-      <guid>/tags/dbeaver/</guid>
+      <guid>software/tags/dbeaver/</guid>
       <description></description>
     </item>
     
     <item>
       <title>macos mssql connection</title>
-      <link>/tags/macos-mssql-connection/</link>
+      <link>software/tags/macos-mssql-connection/</link>
       <pubDate>Wed, 11 Jan 2017 15:50:10 +0300</pubDate>
       
-      <guid>/tags/macos-mssql-connection/</guid>
+      <guid>software/tags/macos-mssql-connection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>custom script</title>
-      <link>/tags/custom-script/</link>
+      <link>software/tags/custom-script/</link>
       <pubDate>Wed, 11 Jan 2017 15:39:47 +0300</pubDate>
       
-      <guid>/tags/custom-script/</guid>
+      <guid>software/tags/custom-script/</guid>
       <description></description>
     </item>
     
     <item>
       <title>foreground service</title>
-      <link>/tags/foreground-service/</link>
+      <link>software/tags/foreground-service/</link>
       <pubDate>Wed, 11 Jan 2017 15:27:59 +0300</pubDate>
       
-      <guid>/tags/foreground-service/</guid>
+      <guid>software/tags/foreground-service/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fusedlocationapi</title>
-      <link>/tags/fusedlocationapi/</link>
+      <link>software/tags/fusedlocationapi/</link>
       <pubDate>Wed, 11 Jan 2017 15:27:59 +0300</pubDate>
       
-      <guid>/tags/fusedlocationapi/</guid>
+      <guid>software/tags/fusedlocationapi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>file upload</title>
-      <link>/tags/file-upload/</link>
+      <link>software/tags/file-upload/</link>
       <pubDate>Wed, 11 Jan 2017 01:50:51 +0300</pubDate>
       
-      <guid>/tags/file-upload/</guid>
+      <guid>software/tags/file-upload/</guid>
       <description></description>
     </item>
     
     <item>
       <title>multipart</title>
-      <link>/tags/multipart/</link>
+      <link>software/tags/multipart/</link>
       <pubDate>Wed, 11 Jan 2017 01:50:51 +0300</pubDate>
       
-      <guid>/tags/multipart/</guid>
+      <guid>software/tags/multipart/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gcmnetworkmanager</title>
-      <link>/tags/gcmnetworkmanager/</link>
+      <link>software/tags/gcmnetworkmanager/</link>
       <pubDate>Wed, 11 Jan 2017 01:43:53 +0300</pubDate>
       
-      <guid>/tags/gcmnetworkmanager/</guid>
+      <guid>software/tags/gcmnetworkmanager/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sms</title>
-      <link>/tags/sms/</link>
+      <link>software/tags/sms/</link>
       <pubDate>Wed, 11 Jan 2017 01:42:54 +0300</pubDate>
       
-      <guid>/tags/sms/</guid>
+      <guid>software/tags/sms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sms-receiver</title>
-      <link>/tags/sms-receiver/</link>
+      <link>software/tags/sms-receiver/</link>
       <pubDate>Wed, 11 Jan 2017 01:42:54 +0300</pubDate>
       
-      <guid>/tags/sms-receiver/</guid>
+      <guid>software/tags/sms-receiver/</guid>
       <description></description>
     </item>
     
     <item>
       <title>broadcast receiver</title>
-      <link>/tags/broadcast-receiver/</link>
+      <link>software/tags/broadcast-receiver/</link>
       <pubDate>Wed, 11 Jan 2017 01:42:36 +0300</pubDate>
       
-      <guid>/tags/broadcast-receiver/</guid>
+      <guid>software/tags/broadcast-receiver/</guid>
       <description></description>
     </item>
     
     <item>
       <title>internet control</title>
-      <link>/tags/internet-control/</link>
+      <link>software/tags/internet-control/</link>
       <pubDate>Wed, 11 Jan 2017 01:42:36 +0300</pubDate>
       
-      <guid>/tags/internet-control/</guid>
+      <guid>software/tags/internet-control/</guid>
       <description></description>
     </item>
     
     <item>
       <title>api test</title>
-      <link>/tags/api-test/</link>
+      <link>software/tags/api-test/</link>
       <pubDate>Wed, 11 Jan 2017 01:09:39 +0300</pubDate>
       
-      <guid>/tags/api-test/</guid>
+      <guid>software/tags/api-test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>postman</title>
-      <link>/tags/postman/</link>
+      <link>software/tags/postman/</link>
       <pubDate>Wed, 11 Jan 2017 01:09:39 +0300</pubDate>
       
-      <guid>/tags/postman/</guid>
+      <guid>software/tags/postman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>activeandroid</title>
-      <link>/tags/activeandroid/</link>
+      <link>software/tags/activeandroid/</link>
       <pubDate>Wed, 11 Jan 2017 01:00:19 +0300</pubDate>
       
-      <guid>/tags/activeandroid/</guid>
+      <guid>software/tags/activeandroid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>orm</title>
-      <link>/tags/orm/</link>
+      <link>software/tags/orm/</link>
       <pubDate>Wed, 11 Jan 2017 01:00:19 +0300</pubDate>
       
-      <guid>/tags/orm/</guid>
+      <guid>software/tags/orm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sqlite</title>
-      <link>/tags/sqlite/</link>
+      <link>software/tags/sqlite/</link>
       <pubDate>Wed, 11 Jan 2017 01:00:19 +0300</pubDate>
       
-      <guid>/tags/sqlite/</guid>
+      <guid>software/tags/sqlite/</guid>
       <description></description>
     </item>
     
     <item>
       <title>android test</title>
-      <link>/tags/android-test/</link>
+      <link>software/tags/android-test/</link>
       <pubDate>Wed, 11 Jan 2017 00:31:52 +0300</pubDate>
       
-      <guid>/tags/android-test/</guid>
+      <guid>software/tags/android-test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>robolectric</title>
-      <link>/tags/robolectric/</link>
+      <link>software/tags/robolectric/</link>
       <pubDate>Wed, 11 Jan 2017 00:31:52 +0300</pubDate>
       
-      <guid>/tags/robolectric/</guid>
+      <guid>software/tags/robolectric/</guid>
       <description></description>
     </item>
     
     <item>
       <title>unit test</title>
-      <link>/tags/unit-test/</link>
+      <link>software/tags/unit-test/</link>
       <pubDate>Wed, 11 Jan 2017 00:27:54 +0300</pubDate>
       
-      <guid>/tags/unit-test/</guid>
+      <guid>software/tags/unit-test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>azure</title>
-      <link>/tags/azure/</link>
+      <link>software/tags/azure/</link>
       <pubDate>Wed, 11 Jan 2017 00:21:36 +0300</pubDate>
       
-      <guid>/tags/azure/</guid>
+      <guid>software/tags/azure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>notification hubs</title>
-      <link>/tags/notification-hubs/</link>
+      <link>software/tags/notification-hubs/</link>
       <pubDate>Wed, 11 Jan 2017 00:21:36 +0300</pubDate>
       
-      <guid>/tags/notification-hubs/</guid>
+      <guid>software/tags/notification-hubs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>recaptcha</title>
-      <link>/tags/recaptcha/</link>
+      <link>software/tags/recaptcha/</link>
       <pubDate>Wed, 11 Jan 2017 00:14:08 +0300</pubDate>
       
-      <guid>/tags/recaptcha/</guid>
+      <guid>software/tags/recaptcha/</guid>
       <description></description>
     </item>
     
     <item>
       <title>keyhashes</title>
-      <link>/tags/keyhashes/</link>
+      <link>software/tags/keyhashes/</link>
       <pubDate>Tue, 10 Jan 2017 23:56:35 +0300</pubDate>
       
-      <guid>/tags/keyhashes/</guid>
+      <guid>software/tags/keyhashes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sha1</title>
-      <link>/tags/sha1/</link>
+      <link>software/tags/sha1/</link>
       <pubDate>Tue, 10 Jan 2017 23:56:35 +0300</pubDate>
       
-      <guid>/tags/sha1/</guid>
+      <guid>software/tags/sha1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hosts</title>
-      <link>/tags/hosts/</link>
+      <link>software/tags/hosts/</link>
       <pubDate>Tue, 10 Jan 2017 23:20:12 +0300</pubDate>
       
-      <guid>/tags/hosts/</guid>
+      <guid>software/tags/hosts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iis</title>
-      <link>/tags/iis/</link>
+      <link>software/tags/iis/</link>
       <pubDate>Tue, 10 Jan 2017 23:20:12 +0300</pubDate>
       
-      <guid>/tags/iis/</guid>
+      <guid>software/tags/iis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>localwebserver</title>
-      <link>/tags/localwebserver/</link>
+      <link>software/tags/localwebserver/</link>
       <pubDate>Tue, 10 Jan 2017 23:20:12 +0300</pubDate>
       
-      <guid>/tags/localwebserver/</guid>
+      <guid>software/tags/localwebserver/</guid>
       <description></description>
     </item>
     
     <item>
       <title>site</title>
-      <link>/tags/site/</link>
+      <link>software/tags/site/</link>
       <pubDate>Tue, 10 Jan 2017 23:20:12 +0300</pubDate>
       
-      <guid>/tags/site/</guid>
+      <guid>software/tags/site/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nullif</title>
-      <link>/tags/nullif/</link>
+      <link>software/tags/nullif/</link>
       <pubDate>Tue, 10 Jan 2017 23:08:34 +0300</pubDate>
       
-      <guid>/tags/nullif/</guid>
+      <guid>software/tags/nullif/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tsql</title>
-      <link>/tags/tsql/</link>
+      <link>software/tags/tsql/</link>
       <pubDate>Tue, 10 Jan 2017 23:08:34 +0300</pubDate>
       
-      <guid>/tags/tsql/</guid>
+      <guid>software/tags/tsql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>spinner</title>
-      <link>/tags/spinner/</link>
+      <link>software/tags/spinner/</link>
       <pubDate>Tue, 10 Jan 2017 23:00:03 +0300</pubDate>
       
-      <guid>/tags/spinner/</guid>
+      <guid>software/tags/spinner/</guid>
       <description></description>
     </item>
     
     <item>
       <title>container</title>
-      <link>/tags/container/</link>
+      <link>software/tags/container/</link>
       <pubDate>Sun, 25 Dec 2016 03:51:49 +0300</pubDate>
       
-      <guid>/tags/container/</guid>
+      <guid>software/tags/container/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>/tags/linux/</link>
+      <link>software/tags/linux/</link>
       <pubDate>Sun, 25 Dec 2016 03:51:49 +0300</pubDate>
       
-      <guid>/tags/linux/</guid>
+      <guid>software/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nano</title>
-      <link>/tags/nano/</link>
+      <link>software/tags/nano/</link>
       <pubDate>Sun, 25 Dec 2016 03:51:49 +0300</pubDate>
       
-      <guid>/tags/nano/</guid>
+      <guid>software/tags/nano/</guid>
       <description></description>
     </item>
     

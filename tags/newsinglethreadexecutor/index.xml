@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>newSingleThreadExecutor on </title>
-    <link>/tags/newsinglethreadexecutor/</link>
+    <link>software/tags/newsinglethreadexecutor/</link>
     <description>Recent content in newSingleThreadExecutor on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 11 Jan 2017 18:55:08 +0300</lastBuildDate>
     
-	<atom:link href="/tags/newsinglethreadexecutor/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="software/tags/newsinglethreadexecutor/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Executor newCachedThreadPool() newFixedThreadPool(n) newSingleThreadExecutor()</title>
-      <link>/post/executor-newcachedthreadpool-newfixedthreadpooln-newsinglethreadexecutor/</link>
+      <link>software/post/executor-newcachedthreadpool-newfixedthreadpooln-newsinglethreadexecutor/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>/post/executor-newcachedthreadpool-newfixedthreadpooln-newsinglethreadexecutor/</guid>
+      <guid>software/post/executor-newcachedthreadpool-newfixedthreadpooln-newsinglethreadexecutor/</guid>
       <description>Executor newCachedThreadPool() newFixedThreadPool(n) newSingleThreadExecutor() Thread kullanımı, Java ile multi-threading yazılım geliştiriyorsanız mutlaka ama mutlaka bilmeniz gereken konulardan biridir.
 ThreadPool Gün geldi çattı ve uygulamanız ilk kurulduğu amacın evrimleşmesi sonucu bambaşka bir hale büründü 🙂
 Yani birçok uygulamada gidişat bu yöndedir ve olması gerekende budur.

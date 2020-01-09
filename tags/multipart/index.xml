@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>multipart on </title>
-    <link>/tags/multipart/</link>
+    <link>software/tags/multipart/</link>
     <description>Recent content in multipart on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 11 Jan 2017 01:50:51 +0300</lastBuildDate>
     
-	<atom:link href="/tags/multipart/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="software/tags/multipart/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Retrofit Multipart File Upload</title>
-      <link>/post/retrofit-multipart-file-upload/</link>
+      <link>software/post/retrofit-multipart-file-upload/</link>
       <pubDate>Wed, 11 Jan 2017 01:50:51 +0300</pubDate>
       
-      <guid>/post/retrofit-multipart-file-upload/</guid>
+      <guid>software/post/retrofit-multipart-file-upload/</guid>
       <description>Retrofit Multipart File Upload @DebugLog public BelgeResponse BelgeSync(BelgeRequest request, String apiVersion, String appVersion) { try { Map&amp;lt;String, RequestBody&amp;gt; map = new HashMap&amp;lt;&amp;gt;(); String belgeDirPath = SuperHelper.getInternalIztopBelgeDir(mContext, request.getGonderiNo()); File belgeDir = new File(belgeDirPath); boolean isDir = belgeDir.isDirectory(); if (isDir) { File[] files = belgeDir.listFiles(); for (File file : files) { RequestBody requestBody = RequestBody.create(MediaType.parse(&amp;#34;image/jpg&amp;#34;), file); map.put(&amp;#34;file\&amp;#34;; filename=\&amp;#34;&amp;#34; + file.getName(), requestBody); } } //RequestBody requestBodyGonderiNo = RequestBody.create(MediaType.parse(&amp;#34;text/plain&amp;#34;), request.getGonderiNo());  //RequestBody requestBodyMusId = RequestBody.</description>
     </item>
     

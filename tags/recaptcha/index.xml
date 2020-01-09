@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>recaptcha on </title>
-    <link>/tags/recaptcha/</link>
+    <link>software/tags/recaptcha/</link>
     <description>Recent content in recaptcha on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 11 Jan 2017 00:14:08 +0300</lastBuildDate>
     
-	<atom:link href="/tags/recaptcha/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="software/tags/recaptcha/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ReCaptcha Kullanımı</title>
-      <link>/post/recaptcha-kullan%C4%B1m%C4%B1/</link>
+      <link>software/post/recaptcha-kullan%C4%B1m%C4%B1/</link>
       <pubDate>Wed, 11 Jan 2017 00:14:08 +0300</pubDate>
       
-      <guid>/post/recaptcha-kullan%C4%B1m%C4%B1/</guid>
+      <guid>software/post/recaptcha-kullan%C4%B1m%C4%B1/</guid>
       <description>ReCaptcha Sitenize gelebilecek saldıralara karşı bir önlem olarak kullanılacak eklentilerden biridir ReCaptcha.
 Kolay bir şekilde entegre edilir ve kolay bir şekilde güvenlik sağlanır.
 Bunun için aşağıdaki adımları uygulamanız yeterli olacaktır.

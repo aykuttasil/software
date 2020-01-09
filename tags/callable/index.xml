@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>callable on </title>
-    <link>/tags/callable/</link>
+    <link>software/tags/callable/</link>
     <description>Recent content in callable on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 11 Jan 2017 18:55:08 +0300</lastBuildDate>
     
-	<atom:link href="/tags/callable/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="software/tags/callable/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Runnable() &amp; Callable()</title>
-      <link>/post/runnable-callable/</link>
+      <link>software/post/runnable-callable/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>/post/runnable-callable/</guid>
+      <guid>software/post/runnable-callable/</guid>
       <description>Runnable() &amp;amp; Callable() Ayrıntılı açıklama için bu siteyi kullanabilirsiniz.</description>
     </item>
     

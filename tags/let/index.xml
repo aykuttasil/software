@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>let on </title>
-    <link>/tags/let/</link>
+    <link>software/tags/let/</link>
     <description>Recent content in let on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 06 Jun 2017 04:33:06 +0300</lastBuildDate>
     
-	<atom:link href="/tags/let/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="software/tags/let/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Kotlin Let Kullanımı</title>
-      <link>/post/kotlin-let-kullan%C4%B1m%C4%B1/</link>
+      <link>software/post/kotlin-let-kullan%C4%B1m%C4%B1/</link>
       <pubDate>Tue, 06 Jun 2017 04:33:06 +0300</pubDate>
       
-      <guid>/post/kotlin-let-kullan%C4%B1m%C4%B1/</guid>
+      <guid>software/post/kotlin-let-kullan%C4%B1m%C4%B1/</guid>
       <description>Kotlin fun &amp;lt;T, R&amp;gt; T.let(f: (T) -&amp;gt; R): R = f(this) let() temel olarak, belirli bir kapsam için bir değişken/kod bloğu oluşturmamızı sağlayan bir kapsamlayıcı işlevdir. Yani let() bir sarmalıyıcı fonksiyondur.
 Örneğin:
 private var mPhotoUrl: String? = null fun uploadClicked() { if (mPhotoUrl != null) { uploadPhoto(mPhotoUrl!!) } } Yukarıda ki if (mPhotoUrl != null) satırı ile null kontrolü yapılır ve eğer null değilse uploadPhoto(mPhotoUrl!!) kod bloğu çalıştırılır. Bu kodu let() ile çok daha kolay ve anlaşılır hale getirebiliriz.</description>

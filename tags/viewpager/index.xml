@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>viewpager on </title>
-    <link>/tags/viewpager/</link>
+    <link>software/tags/viewpager/</link>
     <description>Recent content in viewpager on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 11 Jan 2017 17:07:51 +0300</lastBuildDate>
     
-	<atom:link href="/tags/viewpager/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="software/tags/viewpager/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Android ViewPager</title>
-      <link>/post/android-viewpager/</link>
+      <link>software/post/android-viewpager/</link>
       <pubDate>Wed, 11 Jan 2017 17:07:51 +0300</pubDate>
       
-      <guid>/post/android-viewpager/</guid>
+      <guid>software/post/android-viewpager/</guid>
       <description>Android ViewPager yapısı içerisinde birçok hazır fonksiyonu, animasyonu ve özelleştirilebilir kontrolleri barındırır.
 İhtiyaçlarımız doğrultusunda bu yapıyı özelleştirebilir ve ViewPager ın bize sunmuş olduğu rahatlığı kullanabiliriz.</description>
     </item>

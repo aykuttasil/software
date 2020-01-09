@@ -3,1427 +3,1427 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
+    <loc>software/</loc>
     <lastmod>2020-01-03T17:19:13+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>software/categories/</loc>
     <lastmod>2020-01-03T17:19:13+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/dsl/</loc>
+    <loc>software/tags/dsl/</loc>
     <lastmod>2020-01-03T17:19:13+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/json/</loc>
+    <loc>software/tags/json/</loc>
     <lastmod>2020-01-03T17:19:13+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/kotlin/</loc>
+    <loc>software/tags/kotlin/</loc>
     <lastmod>2020-01-03T17:19:13+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/kotlin/</loc>
+    <loc>software/categories/kotlin/</loc>
     <lastmod>2020-01-03T17:19:13+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/kotlin_dsl_create_json/</loc>
+    <loc>software/post/kotlin_dsl_create_json/</loc>
     <lastmod>2020-01-03T17:19:13+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>software/post/</loc>
     <lastmod>2020-01-03T17:19:13+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>software/tags/</loc>
     <lastmod>2020-01-03T17:19:13+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/api/</loc>
+    <loc>software/categories/api/</loc>
     <lastmod>2019-11-12T10:17:17+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/asp.net-core-session/</loc>
+    <loc>software/post/asp.net-core-session/</loc>
     <lastmod>2019-11-12T10:17:17+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/aspnetcore/</loc>
+    <loc>software/tags/aspnetcore/</loc>
     <lastmod>2019-11-12T10:17:17+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/aspnetcore/</loc>
+    <loc>software/categories/aspnetcore/</loc>
     <lastmod>2019-11-12T10:17:17+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/session/</loc>
+    <loc>software/tags/session/</loc>
     <lastmod>2019-11-12T10:17:17+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/web/</loc>
+    <loc>software/categories/web/</loc>
     <lastmod>2019-11-12T10:17:17+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/webapi/</loc>
+    <loc>software/tags/webapi/</loc>
     <lastmod>2019-11-12T10:17:17+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/android/</loc>
+    <loc>software/categories/android/</loc>
     <lastmod>2019-08-03T03:14:28+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/android/</loc>
+    <loc>software/tags/android/</loc>
     <lastmod>2019-08-03T03:14:28+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/android-debugging-with-local-web-server/</loc>
+    <loc>software/post/android-debugging-with-local-web-server/</loc>
     <lastmod>2019-08-03T03:14:28+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/debugging/</loc>
+    <loc>software/categories/debugging/</loc>
     <lastmod>2019-08-03T03:14:28+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/debugging/</loc>
+    <loc>software/tags/debugging/</loc>
     <lastmod>2019-08-03T03:14:28+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/local-web-server/</loc>
+    <loc>software/tags/local-web-server/</loc>
     <lastmod>2019-08-03T03:14:28+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/windows/</loc>
+    <loc>software/tags/windows/</loc>
     <lastmod>2019-08-03T03:14:28+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/abd/</loc>
+    <loc>software/tags/abd/</loc>
     <lastmod>2019-07-20T01:04:53+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/adb-komutu-ile-cihaz-ipsini-%C3%B6%C4%9Fren/</loc>
+    <loc>software/post/adb-komutu-ile-cihaz-ipsini-%C3%B6%C4%9Fren/</loc>
     <lastmod>2019-07-20T01:04:53+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/ip/</loc>
+    <loc>software/tags/ip/</loc>
     <lastmod>2019-07-20T01:04:53+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/shell/</loc>
+    <loc>software/tags/shell/</loc>
     <lastmod>2019-07-20T01:04:53+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/android-file-system/</loc>
+    <loc>software/post/android-file-system/</loc>
     <lastmod>2019-06-27T14:00:59+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/fileprovider/</loc>
+    <loc>software/tags/fileprovider/</loc>
     <lastmod>2019-06-27T14:00:59+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/filesystem/</loc>
+    <loc>software/tags/filesystem/</loc>
     <lastmod>2019-06-27T14:00:59+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/permission/</loc>
+    <loc>software/tags/permission/</loc>
     <lastmod>2019-06-27T14:00:59+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/security/</loc>
+    <loc>software/categories/security/</loc>
     <lastmod>2019-06-27T14:00:59+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/security/</loc>
+    <loc>software/tags/security/</loc>
     <lastmod>2019-06-27T14:00:59+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/share-data/</loc>
+    <loc>software/tags/share-data/</loc>
     <lastmod>2019-06-27T14:00:59+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/uri/</loc>
+    <loc>software/tags/uri/</loc>
     <lastmod>2019-06-27T14:00:59+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/asp.net-core-filters/</loc>
+    <loc>software/post/asp.net-core-filters/</loc>
     <lastmod>2019-04-29T10:05:05+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/filters/</loc>
+    <loc>software/tags/filters/</loc>
     <lastmod>2019-04-29T10:05:05+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/netcore/</loc>
+    <loc>software/tags/netcore/</loc>
     <lastmod>2019-04-29T10:05:05+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/netcore/</loc>
+    <loc>software/categories/netcore/</loc>
     <lastmod>2019-04-29T10:05:05+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/api/</loc>
+    <loc>software/tags/api/</loc>
     <lastmod>2019-04-15T22:08:14+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/asp.net-core-app.run-middleware/</loc>
+    <loc>software/post/asp.net-core-app.run-middleware/</loc>
     <lastmod>2019-04-15T22:08:14+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/csharp/</loc>
+    <loc>software/categories/csharp/</loc>
     <lastmod>2019-04-15T22:08:14+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/csharp/</loc>
+    <loc>software/tags/csharp/</loc>
     <lastmod>2019-04-15T22:08:14+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/webapi/</loc>
+    <loc>software/categories/webapi/</loc>
     <lastmod>2019-04-15T22:08:14+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/android-databinding/</loc>
+    <loc>software/post/android-databinding/</loc>
     <lastmod>2019-02-25T00:00:27+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/databinding/</loc>
+    <loc>software/tags/databinding/</loc>
     <lastmod>2019-02-25T00:00:27+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/mobile/</loc>
+    <loc>software/tags/mobile/</loc>
     <lastmod>2019-02-25T00:00:27+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/mobile/</loc>
+    <loc>software/categories/mobile/</loc>
     <lastmod>2019-02-25T00:00:27+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/android-service/</loc>
+    <loc>software/post/android-service/</loc>
     <lastmod>2019-02-14T13:10:18+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/service/</loc>
+    <loc>software/tags/service/</loc>
     <lastmod>2019-02-14T13:10:18+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/android-kotlin-test-final-type-problem/</loc>
+    <loc>software/post/android-kotlin-test-final-type-problem/</loc>
     <lastmod>2019-01-29T15:38:29+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/final-type/</loc>
+    <loc>software/categories/final-type/</loc>
     <lastmod>2019-01-29T15:38:29+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/mock/</loc>
+    <loc>software/categories/mock/</loc>
     <lastmod>2019-01-29T15:38:29+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/test/</loc>
+    <loc>software/tags/test/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/test/</loc>
+    <loc>software/categories/test/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/server-ip/</loc>
+    <loc>software/post/server-ip/</loc>
     <lastmod>2019-01-08T23:20:28+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/bash/</loc>
+    <loc>software/tags/bash/</loc>
     <lastmod>2018-12-10T00:47:41+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/bash/</loc>
+    <loc>software/categories/bash/</loc>
     <lastmod>2018-12-10T00:47:41+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/bash-scripts/</loc>
+    <loc>software/post/bash-scripts/</loc>
     <lastmod>2018-12-10T00:47:41+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/script/</loc>
+    <loc>software/categories/script/</loc>
     <lastmod>2018-12-10T00:47:41+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/script/</loc>
+    <loc>software/tags/script/</loc>
     <lastmod>2018-12-10T00:47:41+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/sh/</loc>
+    <loc>software/tags/sh/</loc>
     <lastmod>2018-12-10T00:47:41+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/android-circleci-configuration/</loc>
+    <loc>software/post/android-circleci-configuration/</loc>
     <lastmod>2018-12-03T14:20:45+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/build/</loc>
+    <loc>software/tags/build/</loc>
     <lastmod>2018-12-03T14:20:45+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/cd/</loc>
+    <loc>software/tags/cd/</loc>
     <lastmod>2018-12-03T14:20:45+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/ci/</loc>
+    <loc>software/tags/ci/</loc>
     <lastmod>2018-12-03T14:20:45+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/ci/cd/</loc>
+    <loc>software/categories/ci/cd/</loc>
     <lastmod>2018-12-03T14:20:45+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/circleci/</loc>
+    <loc>software/tags/circleci/</loc>
     <lastmod>2018-12-03T14:20:45+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/continuous-deployment/</loc>
+    <loc>software/tags/continuous-deployment/</loc>
     <lastmod>2018-12-03T14:20:45+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/continuous-integration/</loc>
+    <loc>software/tags/continuous-integration/</loc>
     <lastmod>2018-12-03T14:20:45+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/deployment/</loc>
+    <loc>software/tags/deployment/</loc>
     <lastmod>2018-12-03T14:20:45+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/circleci-configuration/</loc>
+    <loc>software/post/circleci-configuration/</loc>
     <lastmod>2018-11-27T14:20:45+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/genel/</loc>
+    <loc>software/categories/genel/</loc>
     <lastmod>2018-10-26T01:04:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/ssh/</loc>
+    <loc>software/tags/ssh/</loc>
     <lastmod>2018-10-26T01:04:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/ssh-s%C3%BCrekli-parola-istemesi-sorunu/</loc>
+    <loc>software/post/ssh-s%C3%BCrekli-parola-istemesi-sorunu/</loc>
     <lastmod>2018-10-26T01:04:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/android-dagger/</loc>
+    <loc>software/post/android-dagger/</loc>
     <lastmod>2018-10-12T11:48:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/dagger/</loc>
+    <loc>software/tags/dagger/</loc>
     <lastmod>2018-10-12T11:48:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/dependency-injection/</loc>
+    <loc>software/categories/dependency-injection/</loc>
     <lastmod>2018-10-12T11:48:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/dependency-injection/</loc>
+    <loc>software/tags/dependency-injection/</loc>
     <lastmod>2018-10-12T11:48:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/di/</loc>
+    <loc>software/tags/di/</loc>
     <lastmod>2018-10-12T11:48:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/amp/</loc>
+    <loc>software/post/amp/</loc>
     <lastmod>2018-10-10T11:57:46+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/amp/</loc>
+    <loc>software/tags/amp/</loc>
     <lastmod>2018-10-10T11:57:46+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/amp/</loc>
+    <loc>software/categories/amp/</loc>
     <lastmod>2018-10-10T11:57:46+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/android-test/</loc>
+    <loc>software/post/android-test/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/espresso/</loc>
+    <loc>software/tags/espresso/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/junit/</loc>
+    <loc>software/tags/junit/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/mock/</loc>
+    <loc>software/tags/mock/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/mockito/</loc>
+    <loc>software/tags/mockito/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/roboloectric/</loc>
+    <loc>software/tags/roboloectric/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/dns/</loc>
+    <loc>software/tags/dns/</loc>
     <lastmod>2018-08-13T00:50:25+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/dns-over-tls-nedir/</loc>
+    <loc>software/post/dns-over-tls-nedir/</loc>
     <lastmod>2018-08-13T00:50:25+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/dns-over-tls/</loc>
+    <loc>software/tags/dns-over-tls/</loc>
     <lastmod>2018-08-13T00:50:25+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/network/</loc>
+    <loc>software/categories/network/</loc>
     <lastmod>2018-08-13T00:50:25+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/ssl/</loc>
+    <loc>software/tags/ssl/</loc>
     <lastmod>2018-08-13T00:50:25+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/tls/</loc>
+    <loc>software/tags/tls/</loc>
     <lastmod>2018-08-13T00:50:25+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/encrypted-data/</loc>
+    <loc>software/tags/encrypted-data/</loc>
     <lastmod>2018-08-12T23:12:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/network/</loc>
+    <loc>software/tags/network/</loc>
     <lastmod>2018-08-12T23:12:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/tls-vs-ssl/</loc>
+    <loc>software/post/tls-vs-ssl/</loc>
     <lastmod>2018-08-12T23:12:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/arduino/</loc>
+    <loc>software/tags/arduino/</loc>
     <lastmod>2018-08-03T22:21:48+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/iot/</loc>
+    <loc>software/categories/iot/</loc>
     <lastmod>2018-08-03T22:21:48+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/iot/</loc>
+    <loc>software/tags/iot/</loc>
     <lastmod>2018-08-03T22:21:48+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/motor/</loc>
+    <loc>software/categories/motor/</loc>
     <lastmod>2018-08-03T22:21:48+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/motor/</loc>
+    <loc>software/tags/motor/</loc>
     <lastmod>2018-08-03T22:21:48+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/step-motor-nedir/</loc>
+    <loc>software/post/step-motor-nedir/</loc>
     <lastmod>2018-08-03T22:21:48+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/android-backstack-navigate/</loc>
+    <loc>software/post/android-backstack-navigate/</loc>
     <lastmod>2018-05-04T17:38:15+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/backstack/</loc>
+    <loc>software/tags/backstack/</loc>
     <lastmod>2018-05-04T17:38:15+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/navigate/</loc>
+    <loc>software/tags/navigate/</loc>
     <lastmod>2018-05-04T17:38:15+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/android-architecture-components/</loc>
+    <loc>software/post/android-architecture-components/</loc>
     <lastmod>2017-08-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/android-architecure/</loc>
+    <loc>software/tags/android-architecure/</loc>
     <lastmod>2017-08-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/lifecycle/</loc>
+    <loc>software/tags/lifecycle/</loc>
     <lastmod>2017-08-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/livedata/</loc>
+    <loc>software/tags/livedata/</loc>
     <lastmod>2017-08-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/software/</loc>
+    <loc>software/tags/software/</loc>
     <lastmod>2018-09-25T11:51:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/viewmodel/</loc>
+    <loc>software/tags/viewmodel/</loc>
     <lastmod>2017-08-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/yazilim/</loc>
+    <loc>software/categories/yazilim/</loc>
     <lastmod>2018-09-25T11:51:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/cloud/</loc>
+    <loc>software/tags/cloud/</loc>
     <lastmod>2017-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/cloud-dns/</loc>
+    <loc>software/tags/cloud-dns/</loc>
     <lastmod>2017-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/custom-dns/</loc>
+    <loc>software/tags/custom-dns/</loc>
     <lastmod>2017-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/domain/</loc>
+    <loc>software/tags/domain/</loc>
     <lastmod>2017-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/gcloud/</loc>
+    <loc>software/tags/gcloud/</loc>
     <lastmod>2017-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/google-cloud-dns/</loc>
+    <loc>software/post/google-cloud-dns/</loc>
     <lastmod>2017-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/annotations/</loc>
+    <loc>software/tags/annotations/</loc>
     <lastmod>2017-07-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/jvmoverloads/</loc>
+    <loc>software/tags/jvmoverloads/</loc>
     <lastmod>2017-07-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/kotlin-jvmoverloads/</loc>
+    <loc>software/post/kotlin-jvmoverloads/</loc>
     <lastmod>2017-07-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/enum/</loc>
+    <loc>software/tags/enum/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/kotlin-sealed-class/</loc>
+    <loc>software/post/kotlin-sealed-class/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/sealed/</loc>
+    <loc>software/tags/sealed/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/kotlin-lambda/</loc>
+    <loc>software/post/kotlin-lambda/</loc>
     <lastmod>2017-06-18T02:24:37+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/lambda/</loc>
+    <loc>software/tags/lambda/</loc>
     <lastmod>2017-06-18T02:24:37+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/apply/</loc>
+    <loc>software/tags/apply/</loc>
     <lastmod>2017-06-06T10:47:58+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/extensin-function/</loc>
+    <loc>software/tags/extensin-function/</loc>
     <lastmod>2017-06-06T10:47:58+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/kotlin-apply-kullan%C4%B1m%C4%B1/</loc>
+    <loc>software/post/kotlin-apply-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-06-06T10:47:58+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/kotlin-when-kullan%C4%B1m%C4%B1/</loc>
+    <loc>software/post/kotlin-when-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-06-06T04:42:56+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/when/</loc>
+    <loc>software/tags/when/</loc>
     <lastmod>2017-06-06T04:42:56+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/kotlin-let-kullan%C4%B1m%C4%B1/</loc>
+    <loc>software/post/kotlin-let-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-06-06T04:33:06+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/let/</loc>
+    <loc>software/tags/let/</loc>
     <lastmod>2017-06-06T04:33:06+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/oauth/</loc>
+    <loc>software/tags/oauth/</loc>
     <lastmod>2017-05-17T11:58:43+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/okhttp/</loc>
+    <loc>software/tags/okhttp/</loc>
     <lastmod>2017-05-17T11:58:43+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/retrofit/</loc>
+    <loc>software/tags/retrofit/</loc>
     <lastmod>2017-05-17T11:58:43+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/retrofit-oauth/</loc>
+    <loc>software/post/retrofit-oauth/</loc>
     <lastmod>2017-05-17T11:58:43+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/dynamiclink/</loc>
+    <loc>software/tags/dynamiclink/</loc>
     <lastmod>2017-04-17T01:53:03+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/firebase/</loc>
+    <loc>software/tags/firebase/</loc>
     <lastmod>2017-04-17T01:53:03+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/firebase-dynamic-links/</loc>
+    <loc>software/post/firebase-dynamic-links/</loc>
     <lastmod>2017-04-17T01:53:03+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/arduino/</loc>
+    <loc>software/categories/arduino/</loc>
     <lastmod>2017-03-12T23:40:36+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/arduino-hc-06-bluetooth-kullan%C4%B1m%C4%B1/</loc>
+    <loc>software/post/arduino-hc-06-bluetooth-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-03-12T23:40:36+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/bluetooth/</loc>
+    <loc>software/tags/bluetooth/</loc>
     <lastmod>2017-03-12T23:40:36+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/hc-06/</loc>
+    <loc>software/tags/hc-06/</loc>
     <lastmod>2017-03-12T23:40:36+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/hc06/</loc>
+    <loc>software/tags/hc06/</loc>
     <lastmod>2017-03-12T23:40:36+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/yeoman/</loc>
+    <loc>software/tags/yeoman/</loc>
     <lastmod>2017-01-18T12:09:26+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/yeoman-kullan%C4%B1m%C4%B1/</loc>
+    <loc>software/post/yeoman-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-18T12:09:26+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/c#/</loc>
+    <loc>software/categories/c#/</loc>
     <lastmod>2017-01-16T11:13:16+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/c#/</loc>
+    <loc>software/tags/c#/</loc>
     <lastmod>2017-01-16T11:13:16+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/csharp-null-kontrol%C3%BC/</loc>
+    <loc>software/post/csharp-null-kontrol%C3%BC/</loc>
     <lastmod>2017-01-16T11:13:16+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/null-condition/</loc>
+    <loc>software/tags/null-condition/</loc>
     <lastmod>2017-01-16T11:13:16+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/operator/</loc>
+    <loc>software/tags/operator/</loc>
     <lastmod>2017-01-16T11:13:16+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/soru-isareti/</loc>
+    <loc>software/tags/soru-isareti/</loc>
     <lastmod>2017-01-16T11:13:16+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/addjavascriptinterface/</loc>
+    <loc>software/tags/addjavascriptinterface/</loc>
     <lastmod>2017-01-11T19:59:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/android-webview-etkilesimi/</loc>
+    <loc>software/android-webview-etkilesimi/</loc>
     <lastmod>2017-01-11T19:59:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/java/</loc>
+    <loc>software/categories/java/</loc>
     <lastmod>2018-09-25T11:51:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/java/</loc>
+    <loc>software/tags/java/</loc>
     <lastmod>2018-09-25T11:51:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/javascriptinterface/</loc>
+    <loc>software/tags/javascriptinterface/</loc>
     <lastmod>2017-01-11T19:59:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/sofware/</loc>
+    <loc>software/tags/sofware/</loc>
     <lastmod>2017-01-11T19:59:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/webview/</loc>
+    <loc>software/tags/webview/</loc>
     <lastmod>2017-01-11T19:59:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/webviewclient/</loc>
+    <loc>software/tags/webviewclient/</loc>
     <lastmod>2017-01-11T19:59:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/bash-script/</loc>
+    <loc>software/tags/bash-script/</loc>
     <lastmod>2017-01-11T19:56:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/docker/</loc>
+    <loc>software/tags/docker/</loc>
     <lastmod>2017-01-11T19:56:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/docker/</loc>
+    <loc>software/categories/docker/</loc>
     <lastmod>2017-01-11T19:56:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/docker-komutlar%C4%B1/</loc>
+    <loc>software/post/docker-komutlar%C4%B1/</loc>
     <lastmod>2017-01-11T19:56:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/docker/</loc>
+    <loc>software/post/docker/</loc>
     <lastmod>2017-01-11T19:55:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/execute/</loc>
+    <loc>software/tags/execute/</loc>
     <lastmod>2017-01-11T19:26:49+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/executorservice/</loc>
+    <loc>software/tags/executorservice/</loc>
     <lastmod>2017-01-11T19:26:49+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/executorservice-submit-execute/</loc>
+    <loc>software/post/executorservice-submit-execute/</loc>
     <lastmod>2017-01-11T19:26:49+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/submit/</loc>
+    <loc>software/tags/submit/</loc>
     <lastmod>2017-01-11T19:26:49+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/callable/</loc>
+    <loc>software/tags/callable/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/executor-newcachedthreadpool-newfixedthreadpooln-newsinglethreadexecutor/</loc>
+    <loc>software/post/executor-newcachedthreadpool-newfixedthreadpooln-newsinglethreadexecutor/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/executors/</loc>
+    <loc>software/tags/executors/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/multithread/</loc>
+    <loc>software/tags/multithread/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/newcachedthreadpool/</loc>
+    <loc>software/tags/newcachedthreadpool/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/newfixedthreadpool/</loc>
+    <loc>software/tags/newfixedthreadpool/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/newsinglethreadexecutor/</loc>
+    <loc>software/tags/newsinglethreadexecutor/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/runnable/</loc>
+    <loc>software/tags/runnable/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/runnable-callable/</loc>
+    <loc>software/post/runnable-callable/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/thread/</loc>
+    <loc>software/tags/thread/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/rxjava/</loc>
+    <loc>software/categories/rxjava/</loc>
     <lastmod>2017-01-11T18:52:51+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/rxjava/</loc>
+    <loc>software/tags/rxjava/</loc>
     <lastmod>2017-01-11T18:52:51+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/rxjava-range-kullan%C4%B1m%C4%B1/</loc>
+    <loc>software/post/rxjava-range-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T18:52:51+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/rxjava-scan-kullan%C4%B1m%C4%B1/</loc>
+    <loc>software/post/rxjava-scan-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T18:49:21+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/reduce/</loc>
+    <loc>software/tags/reduce/</loc>
     <lastmod>2017-01-11T18:42:04+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/rxjava-reduce-kullan%C4%B1m%C4%B1/</loc>
+    <loc>software/post/rxjava-reduce-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T18:42:04+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/express/</loc>
+    <loc>software/tags/express/</loc>
     <lastmod>2017-01-11T18:14:05+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/intellisense/</loc>
+    <loc>software/tags/intellisense/</loc>
     <lastmod>2017-01-11T18:14:05+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/nodejs/</loc>
+    <loc>software/tags/nodejs/</loc>
     <lastmod>2017-01-11T18:14:05+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/typescript/</loc>
+    <loc>software/tags/typescript/</loc>
     <lastmod>2017-01-11T18:14:05+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/vs-code-express-typescript-intellisense/</loc>
+    <loc>software/post/vs-code-express-typescript-intellisense/</loc>
     <lastmod>2017-01-11T18:14:05+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/vscode/</loc>
+    <loc>software/tags/vscode/</loc>
     <lastmod>2017-01-11T18:14:05+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/vscode/</loc>
+    <loc>software/categories/vscode/</loc>
     <lastmod>2017-01-11T18:14:05+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/tcp/</loc>
+    <loc>software/tags/tcp/</loc>
     <lastmod>2017-01-11T18:05:02+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/tcp/ip/</loc>
+    <loc>software/tags/tcp/ip/</loc>
     <lastmod>2017-01-11T18:05:02+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/tcp/ip-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r/</loc>
+    <loc>software/post/tcp/ip-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r/</loc>
     <lastmod>2017-01-11T18:05:02+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/android-library-bintray/</loc>
+    <loc>software/post/android-library-bintray/</loc>
     <lastmod>2017-01-11T17:27:29+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/bintray/</loc>
+    <loc>software/tags/bintray/</loc>
     <lastmod>2017-01-11T17:27:29+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/gradle/</loc>
+    <loc>software/tags/gradle/</loc>
     <lastmod>2017-01-11T17:27:29+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/library/</loc>
+    <loc>software/tags/library/</loc>
     <lastmod>2017-01-11T17:27:29+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/android-runtime-permission/</loc>
+    <loc>software/post/android-runtime-permission/</loc>
     <lastmod>2017-01-11T17:24:52+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/runtime-permission/</loc>
+    <loc>software/tags/runtime-permission/</loc>
     <lastmod>2017-01-11T17:24:52+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/klon/</loc>
+    <loc>software/tags/klon/</loc>
     <lastmod>2017-01-11T17:22:38+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/mac-os-arduino-uno-klon-kurulumu/</loc>
+    <loc>software/post/mac-os-arduino-uno-klon-kurulumu/</loc>
     <lastmod>2017-01-11T17:22:38+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/uno/</loc>
+    <loc>software/tags/uno/</loc>
     <lastmod>2017-01-11T17:22:38+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/mssql/</loc>
+    <loc>software/tags/mssql/</loc>
     <lastmod>2017-01-11T17:20:37+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/sql/</loc>
+    <loc>software/tags/sql/</loc>
     <lastmod>2017-01-11T17:20:37+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/sql/</loc>
+    <loc>software/categories/sql/</loc>
     <lastmod>2017-01-11T17:20:37+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/sql-scope_identity/</loc>
+    <loc>software/post/sql-scope_identity/</loc>
     <lastmod>2017-01-11T17:20:37+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/sql_scope_identity/</loc>
+    <loc>software/tags/sql_scope_identity/</loc>
     <lastmod>2017-01-11T17:20:37+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/javascript/</loc>
+    <loc>software/categories/javascript/</loc>
     <lastmod>2017-01-11T17:14:22+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/javascript/</loc>
+    <loc>software/tags/javascript/</loc>
     <lastmod>2017-01-11T17:14:22+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/javascript-gariplikleri/</loc>
+    <loc>software/post/javascript-gariplikleri/</loc>
     <lastmod>2017-01-11T17:14:22+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/android-glide-ve-palette-kullan%C4%B1m%C4%B1/</loc>
+    <loc>software/post/android-glide-ve-palette-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T17:11:30+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/glide/</loc>
+    <loc>software/tags/glide/</loc>
     <lastmod>2017-01-11T17:11:30+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/palette/</loc>
+    <loc>software/tags/palette/</loc>
     <lastmod>2017-01-11T17:11:30+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/android-viewpager/</loc>
+    <loc>software/post/android-viewpager/</loc>
     <lastmod>2017-01-11T17:07:51+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/viewpager/</loc>
+    <loc>software/tags/viewpager/</loc>
     <lastmod>2017-01-11T17:07:51+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/collections/</loc>
+    <loc>software/tags/collections/</loc>
     <lastmod>2017-01-11T16:10:10+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/java-collections/</loc>
+    <loc>software/post/java-collections/</loc>
     <lastmod>2017-01-11T16:10:10+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/swap/</loc>
+    <loc>software/tags/swap/</loc>
     <lastmod>2017-01-11T16:10:10+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/android-custom-toolbar-title/</loc>
+    <loc>software/post/android-custom-toolbar-title/</loc>
     <lastmod>2017-01-11T16:01:33+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/toolbar/</loc>
+    <loc>software/tags/toolbar/</loc>
     <lastmod>2017-01-11T16:01:33+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/dbeaver/</loc>
+    <loc>software/tags/dbeaver/</loc>
     <lastmod>2017-01-11T15:50:10+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/mac-os-ile-mssql-ba%C4%9Flant%C4%B1s%C4%B1-kurmak/</loc>
+    <loc>software/post/mac-os-ile-mssql-ba%C4%9Flant%C4%B1s%C4%B1-kurmak/</loc>
     <lastmod>2017-01-11T15:50:10+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/macos-mssql-connection/</loc>
+    <loc>software/tags/macos-mssql-connection/</loc>
     <lastmod>2017-01-11T15:50:10+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/custom-script/</loc>
+    <loc>software/tags/custom-script/</loc>
     <lastmod>2017-01-11T15:39:47+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/sql-management-studio-custom-generate-scripts/</loc>
+    <loc>software/post/sql-management-studio-custom-generate-scripts/</loc>
     <lastmod>2017-01-11T15:39:47+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/foreground-service/</loc>
+    <loc>software/tags/foreground-service/</loc>
     <lastmod>2017-01-11T15:27:59+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/foreground-service-ile-fusedlocationapi-kullan%C4%B1m%C4%B1/</loc>
+    <loc>software/post/foreground-service-ile-fusedlocationapi-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T15:27:59+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/fusedlocationapi/</loc>
+    <loc>software/tags/fusedlocationapi/</loc>
     <lastmod>2017-01-11T15:27:59+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/file-upload/</loc>
+    <loc>software/tags/file-upload/</loc>
     <lastmod>2017-01-11T01:50:51+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/multipart/</loc>
+    <loc>software/tags/multipart/</loc>
     <lastmod>2017-01-11T01:50:51+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/retrofit-multipart-file-upload/</loc>
+    <loc>software/post/retrofit-multipart-file-upload/</loc>
     <lastmod>2017-01-11T01:50:51+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/android-gcmnetworkmanager-kullan%C4%B1m%C4%B1/</loc>
+    <loc>software/post/android-gcmnetworkmanager-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T01:43:53+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/gcmnetworkmanager/</loc>
+    <loc>software/tags/gcmnetworkmanager/</loc>
     <lastmod>2017-01-11T01:43:53+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/android-sms-receiver/</loc>
+    <loc>software/post/android-sms-receiver/</loc>
     <lastmod>2018-09-25T11:51:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/sms/</loc>
+    <loc>software/tags/sms/</loc>
     <lastmod>2018-09-25T11:51:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/sms-receiver/</loc>
+    <loc>software/tags/sms-receiver/</loc>
     <lastmod>2018-09-25T11:51:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/android-internet-connection-receiver/</loc>
+    <loc>software/post/android-internet-connection-receiver/</loc>
     <lastmod>2017-01-11T01:42:36+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/broadcast-receiver/</loc>
+    <loc>software/tags/broadcast-receiver/</loc>
     <lastmod>2017-01-11T01:42:36+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/internet-control/</loc>
+    <loc>software/tags/internet-control/</loc>
     <lastmod>2017-01-11T01:42:36+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/api-test/</loc>
+    <loc>software/tags/api-test/</loc>
     <lastmod>2017-01-11T01:09:39+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/postman/</loc>
+    <loc>software/tags/postman/</loc>
     <lastmod>2017-01-11T01:09:39+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/postman-ile-api-test-yaz%C4%B1m%C4%B1/</loc>
+    <loc>software/post/postman-ile-api-test-yaz%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T01:09:39+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/activeandroid/</loc>
+    <loc>software/tags/activeandroid/</loc>
     <lastmod>2017-01-11T01:00:19+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/android-activeandroid-kullan%C4%B1m%C4%B1/</loc>
+    <loc>software/post/android-activeandroid-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T01:00:19+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/orm/</loc>
+    <loc>software/categories/orm/</loc>
     <lastmod>2017-01-11T01:00:19+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/orm/</loc>
+    <loc>software/tags/orm/</loc>
     <lastmod>2017-01-11T01:00:19+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/sqlite/</loc>
+    <loc>software/tags/sqlite/</loc>
     <lastmod>2017-01-11T01:00:19+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/android-test/</loc>
+    <loc>software/tags/android-test/</loc>
     <lastmod>2017-01-11T00:31:52+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/robolectric/</loc>
+    <loc>software/tags/robolectric/</loc>
     <lastmod>2017-01-11T00:31:52+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/robolectric-ile-unittest-yaz%C4%B1m%C4%B1/</loc>
+    <loc>software/post/robolectric-ile-unittest-yaz%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T00:31:52+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/unit-test/</loc>
+    <loc>software/tags/unit-test/</loc>
     <lastmod>2017-01-11T00:27:54+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/unit-test-nedir-ni%C3%A7in-ve-nas%C4%B1l-yap%C4%B1l%C4%B1r/</loc>
+    <loc>software/post/unit-test-nedir-ni%C3%A7in-ve-nas%C4%B1l-yap%C4%B1l%C4%B1r/</loc>
     <lastmod>2017-01-11T00:27:54+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/azure/</loc>
+    <loc>software/tags/azure/</loc>
     <lastmod>2017-01-11T00:21:36+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/azure/</loc>
+    <loc>software/categories/azure/</loc>
     <lastmod>2017-01-11T00:21:36+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/azure-mobile-services-ve-notification-hubs-kullan%C4%B1m%C4%B1/</loc>
+    <loc>software/post/azure-mobile-services-ve-notification-hubs-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T00:21:36+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/notification-hubs/</loc>
+    <loc>software/tags/notification-hubs/</loc>
     <lastmod>2017-01-11T00:21:36+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/recaptcha/</loc>
+    <loc>software/tags/recaptcha/</loc>
     <lastmod>2017-01-11T00:14:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/recaptcha-kullan%C4%B1m%C4%B1/</loc>
+    <loc>software/post/recaptcha-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T00:14:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/android-key-hashes-sha1/</loc>
+    <loc>software/post/android-key-hashes-sha1/</loc>
     <lastmod>2017-01-10T23:56:35+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/keyhashes/</loc>
+    <loc>software/tags/keyhashes/</loc>
     <lastmod>2017-01-10T23:56:35+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/sha1/</loc>
+    <loc>software/tags/sha1/</loc>
     <lastmod>2017-01-10T23:56:35+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/hosts/</loc>
+    <loc>software/tags/hosts/</loc>
     <lastmod>2017-01-10T23:20:12+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/iis/</loc>
+    <loc>software/tags/iis/</loc>
     <lastmod>2017-01-10T23:20:12+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/iis/</loc>
+    <loc>software/categories/iis/</loc>
     <lastmod>2017-01-10T23:20:12+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/local-iis-site-kurulumu/</loc>
+    <loc>software/post/local-iis-site-kurulumu/</loc>
     <lastmod>2017-01-10T23:20:12+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/localwebserver/</loc>
+    <loc>software/tags/localwebserver/</loc>
     <lastmod>2017-01-10T23:20:12+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/site/</loc>
+    <loc>software/tags/site/</loc>
     <lastmod>2017-01-10T23:20:12+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/windows/</loc>
+    <loc>software/categories/windows/</loc>
     <lastmod>2017-01-10T23:20:12+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/nullif/</loc>
+    <loc>software/tags/nullif/</loc>
     <lastmod>2017-01-10T23:08:34+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/tsql/</loc>
+    <loc>software/tags/tsql/</loc>
     <lastmod>2017-01-10T23:08:34+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/tsql-nullif-fonksiyonu-nedir-ve-nas%C4%B1l-kullan%C4%B1l%C4%B1r/</loc>
+    <loc>software/post/tsql-nullif-fonksiyonu-nedir-ve-nas%C4%B1l-kullan%C4%B1l%C4%B1r/</loc>
     <lastmod>2017-01-10T23:08:34+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/android-spinner-text-g%C3%BCncelleme/</loc>
+    <loc>software/post/android-spinner-text-g%C3%BCncelleme/</loc>
     <lastmod>2017-01-10T23:00:03+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/spinner/</loc>
+    <loc>software/tags/spinner/</loc>
     <lastmod>2017-01-10T23:00:03+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/pendingintent-flags/</loc>
+    <loc>software/post/pendingintent-flags/</loc>
     <lastmod>2017-01-02T14:35:49+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/container/</loc>
+    <loc>software/tags/container/</loc>
     <lastmod>2016-12-25T03:51:49+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/docker-container-install-nano/</loc>
+    <loc>software/post/docker-container-install-nano/</loc>
     <lastmod>2016-12-25T03:51:49+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/linux/</loc>
+    <loc>software/tags/linux/</loc>
     <lastmod>2016-12-25T03:51:49+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/nano/</loc>
+    <loc>software/tags/nano/</loc>
     <lastmod>2016-12-25T03:51:49+03:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>software/about/</loc>
     <lastmod>2015-04-14T22:17:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>software/post/</loc>
     <priority>0</priority>
   </url>
   
