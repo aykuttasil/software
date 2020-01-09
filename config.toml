@@ -14,7 +14,7 @@ canonifyurls    = true
 
   cover       = "img/istanbul_marti.jpg"
   description = "Aykut Asil Software Notes"
-  metaDescription = ""
+  metaDescription = "aykuttasil"
   googleAnalytics = "UA-42457939-6"
   customCSS = []
   RSSLink = ""

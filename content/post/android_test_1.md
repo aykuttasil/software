@@ -134,7 +134,7 @@ Kotlin dilinin nimetlerinden yararlanarak test yazımı sırasında mockitonun k
 
 ---
 
-# Test Piramit
+## Test Piramit
 
 <img src="/img/test_piramid.jpeg" height="400px" />
 
