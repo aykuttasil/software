@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>robolectric on Software</title>
-    <link>https://yazilim.aykutasil.com/tags/robolectric/</link>
-    <description>Recent content in robolectric on Software</description>
+    <title>robolectric on </title>
+    <link>/tags/robolectric/</link>
+    <description>Recent content in robolectric on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tr</language>
+    <language>en-US</language>
     <lastBuildDate>Wed, 11 Jan 2017 00:31:52 +0300</lastBuildDate>
     
-	<atom:link href="https://yazilim.aykutasil.com/tags/robolectric/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/robolectric/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Robolectric ile UnitTest Yazımı</title>
-      <link>https://yazilim.aykutasil.com/post/android_robolectric/</link>
+      <link>/post/robolectric-ile-unittest-yaz%C4%B1m%C4%B1/</link>
       <pubDate>Wed, 11 Jan 2017 00:31:52 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/post/android_robolectric/</guid>
+      <guid>/post/robolectric-ile-unittest-yaz%C4%B1m%C4%B1/</guid>
       <description>Unit Test birçok yazıılımcı tarafından es geçillen ama bir o kadar da önemli ve yapılması gerekli olan bir durumdur.
 Proje büyüdükçe ve ilerledikçe teste duyulan ihtiyaç ta doğru orantılı olarak artmaktadır.
 Unit Test neden yapılır sorusunun daha ayrıntılı cevabı için unit test nedir nicin ve nasil yapilir bu yazıyı okuyabilirsiniz.

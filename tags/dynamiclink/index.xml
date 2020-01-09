@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>dynamiclink on Software</title>
-    <link>https://yazilim.aykutasil.com/tags/dynamiclink/</link>
-    <description>Recent content in dynamiclink on Software</description>
+    <title>dynamiclink on </title>
+    <link>/tags/dynamiclink/</link>
+    <description>Recent content in dynamiclink on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tr</language>
+    <language>en-US</language>
     <lastBuildDate>Mon, 17 Apr 2017 01:53:03 +0300</lastBuildDate>
     
-	<atom:link href="https://yazilim.aykutasil.com/tags/dynamiclink/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/dynamiclink/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Firebase Dynamic Links</title>
-      <link>https://yazilim.aykutasil.com/post/firebase_dynamiclink/</link>
+      <link>/post/firebase-dynamic-links/</link>
       <pubDate>Mon, 17 Apr 2017 01:53:03 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/post/firebase_dynamiclink/</guid>
+      <guid>/post/firebase-dynamic-links/</guid>
       <description>Firebase Dynamic Links Öyle bir link olsun ki;
  Bilgisayarımda ki browserdan linke tıkladığımda kişisel web sitem açılsın, Eğer mobil cihazımda ki browserdan linke tıklarsan;  Uygulama cihazda yüklü ise uygulamam açılsın (Belirtmiş olduğum Activity vs.), Uygulama cihazda yüklü değilse Google Play Store veya App Store açılsın, Uygulama cihazda yüklü olsa bile eğer belirttiğim versiyon kodundan eski bir sürüm varsa yine Google Play Store vs. açılsın, &amp;hellip;    gibi sorulara tek bir link ile cevap verebilirsiniz.</description>
     </item>

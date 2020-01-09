@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>debugging on Software</title>
-    <link>https://yazilim.aykutasil.com/tags/debugging/</link>
-    <description>Recent content in debugging on Software</description>
+    <title>debugging on </title>
+    <link>/tags/debugging/</link>
+    <description>Recent content in debugging on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tr</language>
+    <language>en-US</language>
     <lastBuildDate>Sat, 03 Aug 2019 03:14:28 +0300</lastBuildDate>
     
-	<atom:link href="https://yazilim.aykutasil.com/tags/debugging/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/debugging/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Android Debugging With Local Web Server</title>
-      <link>https://yazilim.aykutasil.com/post/android_remote_device_debugging/</link>
+      <link>/post/android-debugging-with-local-web-server/</link>
       <pubDate>Sat, 03 Aug 2019 03:14:28 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/post/android_remote_device_debugging/</guid>
+      <guid>/post/android-debugging-with-local-web-server/</guid>
       <description>Fiziksel Android cihazımızla localimizde çalışan web server&#39;a erişmek, development aşamasında eminim ihtiyaç duyduğunuz veya duyacağınız gereksinimlerden biridir. Bununla beraber local makinenizde bulunan VM üzerinde koşan web server&#39;a erişmek.. Ah harika..
 Canlı bir örnek verirsem sanıyorum daha iyi olacak.
  Geliştirme yaptığınız makinenizinde MacOS işletim sistemi var. Bununla beraber çeşitli ihtiyaçlarınızdan ötürü windows kurmanız gerekti ve Virtual Machine kurarak içine windows yüklediniz. Windows üzerinde Visual Studio ile bir WebApi ayağa kaldırdınız ve bu api&amp;lsquo;ye fiziksel Android cihazınızdan erişmek istiyorsunuz.</description>

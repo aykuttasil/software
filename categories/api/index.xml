@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>api on Software</title>
-    <link>https://yazilim.aykutasil.com/categories/api/</link>
-    <description>Recent content in api on Software</description>
+    <title>api on </title>
+    <link>/categories/api/</link>
+    <description>Recent content in api on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tr</language>
+    <language>en-US</language>
     <lastBuildDate>Tue, 12 Nov 2019 10:17:17 +0300</lastBuildDate>
     
-	<atom:link href="https://yazilim.aykutasil.com/categories/api/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/api/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Asp.Net Core Session</title>
-      <link>https://yazilim.aykutasil.com/post/aspnetcore_session/</link>
+      <link>/post/asp.net-core-session/</link>
       <pubDate>Tue, 12 Nov 2019 10:17:17 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/post/aspnetcore_session/</guid>
+      <guid>/post/asp.net-core-session/</guid>
       <description>Asp.Net Core Session Kullanımı Asp.Net Core 2.1 ve üstü sürüme sahip projelerinizde Session kullanmak için Startup.cs dosyanızı aşağıdaki yöntemlerden birini seçerek güncellemeniz gerekmektedir.
 Yöntem 1 Yöntem 2 Neden Asp.Net Core 2.1 ve sonrası? 2018&#39;de uygulanması zorunlu hale gelen Avrupa Veri Koruma Kanunu ile birlikte, şirketlere kişisel verileri kullanması konusunda bazı kısıtlamalar ve uygulaması gereken bazı zorunluluklar getirilmiştir. Bu zorunluluklardan şu an için bizi ilgilendiren kısmı cookielerin kullanımı. Web siteleri cookie kullanımı için son kullanıcının onayını almak zorundadır.</description>
     </item>

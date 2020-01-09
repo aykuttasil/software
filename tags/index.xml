@@ -1,1534 +1,1534 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Software</title>
-    <link>https://yazilim.aykutasil.com/tags/</link>
-    <description>Recent content in Tags on Software</description>
+    <title>Tags on </title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tr</language>
+    <language>en-US</language>
     <lastBuildDate>Fri, 03 Jan 2020 17:19:13 +0300</lastBuildDate>
     
-	<atom:link href="https://yazilim.aykutasil.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>dsl</title>
-      <link>https://yazilim.aykutasil.com/tags/dsl/</link>
+      <link>/tags/dsl/</link>
       <pubDate>Fri, 03 Jan 2020 17:19:13 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/dsl/</guid>
+      <guid>/tags/dsl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>json</title>
-      <link>https://yazilim.aykutasil.com/tags/json/</link>
+      <link>/tags/json/</link>
       <pubDate>Fri, 03 Jan 2020 17:19:13 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/json/</guid>
+      <guid>/tags/json/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kotlin</title>
-      <link>https://yazilim.aykutasil.com/tags/kotlin/</link>
+      <link>/tags/kotlin/</link>
       <pubDate>Fri, 03 Jan 2020 17:19:13 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/kotlin/</guid>
+      <guid>/tags/kotlin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>aspnetcore</title>
-      <link>https://yazilim.aykutasil.com/tags/aspnetcore/</link>
+      <link>/tags/aspnetcore/</link>
       <pubDate>Tue, 12 Nov 2019 10:17:17 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/aspnetcore/</guid>
+      <guid>/tags/aspnetcore/</guid>
       <description></description>
     </item>
     
     <item>
       <title>session</title>
-      <link>https://yazilim.aykutasil.com/tags/session/</link>
+      <link>/tags/session/</link>
       <pubDate>Tue, 12 Nov 2019 10:17:17 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/session/</guid>
+      <guid>/tags/session/</guid>
       <description></description>
     </item>
     
     <item>
       <title>webapi</title>
-      <link>https://yazilim.aykutasil.com/tags/webapi/</link>
+      <link>/tags/webapi/</link>
       <pubDate>Tue, 12 Nov 2019 10:17:17 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/webapi/</guid>
+      <guid>/tags/webapi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>android</title>
-      <link>https://yazilim.aykutasil.com/tags/android/</link>
+      <link>/tags/android/</link>
       <pubDate>Sat, 03 Aug 2019 03:14:28 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/android/</guid>
+      <guid>/tags/android/</guid>
       <description></description>
     </item>
     
     <item>
       <title>debugging</title>
-      <link>https://yazilim.aykutasil.com/tags/debugging/</link>
+      <link>/tags/debugging/</link>
       <pubDate>Sat, 03 Aug 2019 03:14:28 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/debugging/</guid>
+      <guid>/tags/debugging/</guid>
       <description></description>
     </item>
     
     <item>
       <title>local-web-server</title>
-      <link>https://yazilim.aykutasil.com/tags/local-web-server/</link>
+      <link>/tags/local-web-server/</link>
       <pubDate>Sat, 03 Aug 2019 03:14:28 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/local-web-server/</guid>
+      <guid>/tags/local-web-server/</guid>
       <description></description>
     </item>
     
     <item>
       <title>windows</title>
-      <link>https://yazilim.aykutasil.com/tags/windows/</link>
+      <link>/tags/windows/</link>
       <pubDate>Sat, 03 Aug 2019 03:14:28 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/windows/</guid>
+      <guid>/tags/windows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>abd</title>
-      <link>https://yazilim.aykutasil.com/tags/abd/</link>
+      <link>/tags/abd/</link>
       <pubDate>Sat, 20 Jul 2019 01:04:53 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/abd/</guid>
+      <guid>/tags/abd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ip</title>
-      <link>https://yazilim.aykutasil.com/tags/ip/</link>
+      <link>/tags/ip/</link>
       <pubDate>Sat, 20 Jul 2019 01:04:53 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/ip/</guid>
+      <guid>/tags/ip/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shell</title>
-      <link>https://yazilim.aykutasil.com/tags/shell/</link>
+      <link>/tags/shell/</link>
       <pubDate>Sat, 20 Jul 2019 01:04:53 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/shell/</guid>
+      <guid>/tags/shell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fileprovider</title>
-      <link>https://yazilim.aykutasil.com/tags/fileprovider/</link>
+      <link>/tags/fileprovider/</link>
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/fileprovider/</guid>
+      <guid>/tags/fileprovider/</guid>
       <description></description>
     </item>
     
     <item>
       <title>filesystem</title>
-      <link>https://yazilim.aykutasil.com/tags/filesystem/</link>
+      <link>/tags/filesystem/</link>
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/filesystem/</guid>
+      <guid>/tags/filesystem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>permission</title>
-      <link>https://yazilim.aykutasil.com/tags/permission/</link>
+      <link>/tags/permission/</link>
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/permission/</guid>
+      <guid>/tags/permission/</guid>
       <description></description>
     </item>
     
     <item>
       <title>security</title>
-      <link>https://yazilim.aykutasil.com/tags/security/</link>
+      <link>/tags/security/</link>
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/security/</guid>
+      <guid>/tags/security/</guid>
       <description></description>
     </item>
     
     <item>
       <title>share-data</title>
-      <link>https://yazilim.aykutasil.com/tags/share-data/</link>
+      <link>/tags/share-data/</link>
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/share-data/</guid>
+      <guid>/tags/share-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>uri</title>
-      <link>https://yazilim.aykutasil.com/tags/uri/</link>
+      <link>/tags/uri/</link>
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/uri/</guid>
+      <guid>/tags/uri/</guid>
       <description></description>
     </item>
     
     <item>
       <title>filters</title>
-      <link>https://yazilim.aykutasil.com/tags/filters/</link>
+      <link>/tags/filters/</link>
       <pubDate>Mon, 29 Apr 2019 10:05:05 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/filters/</guid>
+      <guid>/tags/filters/</guid>
       <description></description>
     </item>
     
     <item>
       <title>netcore</title>
-      <link>https://yazilim.aykutasil.com/tags/netcore/</link>
+      <link>/tags/netcore/</link>
       <pubDate>Mon, 29 Apr 2019 10:05:05 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/netcore/</guid>
+      <guid>/tags/netcore/</guid>
       <description></description>
     </item>
     
     <item>
       <title>api</title>
-      <link>https://yazilim.aykutasil.com/tags/api/</link>
+      <link>/tags/api/</link>
       <pubDate>Mon, 15 Apr 2019 22:08:14 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/api/</guid>
+      <guid>/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>csharp</title>
-      <link>https://yazilim.aykutasil.com/tags/csharp/</link>
+      <link>/tags/csharp/</link>
       <pubDate>Mon, 15 Apr 2019 22:08:14 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/csharp/</guid>
+      <guid>/tags/csharp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>databinding</title>
-      <link>https://yazilim.aykutasil.com/tags/databinding/</link>
+      <link>/tags/databinding/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:27 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/databinding/</guid>
+      <guid>/tags/databinding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mobile</title>
-      <link>https://yazilim.aykutasil.com/tags/mobile/</link>
+      <link>/tags/mobile/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:27 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/mobile/</guid>
+      <guid>/tags/mobile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>service</title>
-      <link>https://yazilim.aykutasil.com/tags/service/</link>
+      <link>/tags/service/</link>
       <pubDate>Thu, 14 Feb 2019 13:10:18 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/service/</guid>
+      <guid>/tags/service/</guid>
       <description></description>
     </item>
     
     <item>
       <title>test</title>
-      <link>https://yazilim.aykutasil.com/tags/test/</link>
+      <link>/tags/test/</link>
       <pubDate>Tue, 29 Jan 2019 15:38:29 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/test/</guid>
+      <guid>/tags/test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bash</title>
-      <link>https://yazilim.aykutasil.com/tags/bash/</link>
+      <link>/tags/bash/</link>
       <pubDate>Mon, 10 Dec 2018 00:47:41 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/bash/</guid>
+      <guid>/tags/bash/</guid>
       <description></description>
     </item>
     
     <item>
       <title>script</title>
-      <link>https://yazilim.aykutasil.com/tags/script/</link>
+      <link>/tags/script/</link>
       <pubDate>Mon, 10 Dec 2018 00:47:41 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/script/</guid>
+      <guid>/tags/script/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sh</title>
-      <link>https://yazilim.aykutasil.com/tags/sh/</link>
+      <link>/tags/sh/</link>
       <pubDate>Mon, 10 Dec 2018 00:47:41 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/sh/</guid>
+      <guid>/tags/sh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>build</title>
-      <link>https://yazilim.aykutasil.com/tags/build/</link>
+      <link>/tags/build/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/build/</guid>
+      <guid>/tags/build/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cd</title>
-      <link>https://yazilim.aykutasil.com/tags/cd/</link>
+      <link>/tags/cd/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/cd/</guid>
+      <guid>/tags/cd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ci</title>
-      <link>https://yazilim.aykutasil.com/tags/ci/</link>
+      <link>/tags/ci/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/ci/</guid>
+      <guid>/tags/ci/</guid>
       <description></description>
     </item>
     
     <item>
       <title>circleci</title>
-      <link>https://yazilim.aykutasil.com/tags/circleci/</link>
+      <link>/tags/circleci/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/circleci/</guid>
+      <guid>/tags/circleci/</guid>
       <description></description>
     </item>
     
     <item>
       <title>continuous-deployment</title>
-      <link>https://yazilim.aykutasil.com/tags/continuous-deployment/</link>
+      <link>/tags/continuous-deployment/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/continuous-deployment/</guid>
+      <guid>/tags/continuous-deployment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>continuous-integration</title>
-      <link>https://yazilim.aykutasil.com/tags/continuous-integration/</link>
+      <link>/tags/continuous-integration/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/continuous-integration/</guid>
+      <guid>/tags/continuous-integration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>deployment</title>
-      <link>https://yazilim.aykutasil.com/tags/deployment/</link>
+      <link>/tags/deployment/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/deployment/</guid>
+      <guid>/tags/deployment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ssh</title>
-      <link>https://yazilim.aykutasil.com/tags/ssh/</link>
+      <link>/tags/ssh/</link>
       <pubDate>Fri, 26 Oct 2018 01:04:21 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/ssh/</guid>
+      <guid>/tags/ssh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dagger</title>
-      <link>https://yazilim.aykutasil.com/tags/dagger/</link>
+      <link>/tags/dagger/</link>
       <pubDate>Fri, 12 Oct 2018 11:48:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/dagger/</guid>
+      <guid>/tags/dagger/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dependency-injection</title>
-      <link>https://yazilim.aykutasil.com/tags/dependency-injection/</link>
+      <link>/tags/dependency-injection/</link>
       <pubDate>Fri, 12 Oct 2018 11:48:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/dependency-injection/</guid>
+      <guid>/tags/dependency-injection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>di</title>
-      <link>https://yazilim.aykutasil.com/tags/di/</link>
+      <link>/tags/di/</link>
       <pubDate>Fri, 12 Oct 2018 11:48:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/di/</guid>
+      <guid>/tags/di/</guid>
       <description></description>
     </item>
     
     <item>
       <title>amp</title>
-      <link>https://yazilim.aykutasil.com/tags/amp/</link>
+      <link>/tags/amp/</link>
       <pubDate>Wed, 10 Oct 2018 11:57:46 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/amp/</guid>
+      <guid>/tags/amp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>espresso</title>
-      <link>https://yazilim.aykutasil.com/tags/espresso/</link>
+      <link>/tags/espresso/</link>
       <pubDate>Tue, 18 Sep 2018 11:51:07 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/espresso/</guid>
+      <guid>/tags/espresso/</guid>
       <description></description>
     </item>
     
     <item>
       <title>junit</title>
-      <link>https://yazilim.aykutasil.com/tags/junit/</link>
+      <link>/tags/junit/</link>
       <pubDate>Tue, 18 Sep 2018 11:51:07 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/junit/</guid>
+      <guid>/tags/junit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mock</title>
-      <link>https://yazilim.aykutasil.com/tags/mock/</link>
+      <link>/tags/mock/</link>
       <pubDate>Tue, 18 Sep 2018 11:51:07 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/mock/</guid>
+      <guid>/tags/mock/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mockito</title>
-      <link>https://yazilim.aykutasil.com/tags/mockito/</link>
+      <link>/tags/mockito/</link>
       <pubDate>Tue, 18 Sep 2018 11:51:07 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/mockito/</guid>
+      <guid>/tags/mockito/</guid>
       <description></description>
     </item>
     
     <item>
       <title>roboloectric</title>
-      <link>https://yazilim.aykutasil.com/tags/roboloectric/</link>
+      <link>/tags/roboloectric/</link>
       <pubDate>Tue, 18 Sep 2018 11:51:07 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/roboloectric/</guid>
+      <guid>/tags/roboloectric/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dns</title>
-      <link>https://yazilim.aykutasil.com/tags/dns/</link>
+      <link>/tags/dns/</link>
       <pubDate>Mon, 13 Aug 2018 00:50:25 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/dns/</guid>
+      <guid>/tags/dns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dns-over-tls</title>
-      <link>https://yazilim.aykutasil.com/tags/dns-over-tls/</link>
+      <link>/tags/dns-over-tls/</link>
       <pubDate>Mon, 13 Aug 2018 00:50:25 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/dns-over-tls/</guid>
+      <guid>/tags/dns-over-tls/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ssl</title>
-      <link>https://yazilim.aykutasil.com/tags/ssl/</link>
+      <link>/tags/ssl/</link>
       <pubDate>Mon, 13 Aug 2018 00:50:25 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/ssl/</guid>
+      <guid>/tags/ssl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tls</title>
-      <link>https://yazilim.aykutasil.com/tags/tls/</link>
+      <link>/tags/tls/</link>
       <pubDate>Mon, 13 Aug 2018 00:50:25 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/tls/</guid>
+      <guid>/tags/tls/</guid>
       <description></description>
     </item>
     
     <item>
       <title>encrypted-data</title>
-      <link>https://yazilim.aykutasil.com/tags/encrypted-data/</link>
+      <link>/tags/encrypted-data/</link>
       <pubDate>Sun, 12 Aug 2018 23:12:07 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/encrypted-data/</guid>
+      <guid>/tags/encrypted-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>network</title>
-      <link>https://yazilim.aykutasil.com/tags/network/</link>
+      <link>/tags/network/</link>
       <pubDate>Sun, 12 Aug 2018 23:12:07 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/network/</guid>
+      <guid>/tags/network/</guid>
       <description></description>
     </item>
     
     <item>
       <title>arduino</title>
-      <link>https://yazilim.aykutasil.com/tags/arduino/</link>
+      <link>/tags/arduino/</link>
       <pubDate>Fri, 03 Aug 2018 22:21:48 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/arduino/</guid>
+      <guid>/tags/arduino/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iot</title>
-      <link>https://yazilim.aykutasil.com/tags/iot/</link>
+      <link>/tags/iot/</link>
       <pubDate>Fri, 03 Aug 2018 22:21:48 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/iot/</guid>
+      <guid>/tags/iot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>motor</title>
-      <link>https://yazilim.aykutasil.com/tags/motor/</link>
+      <link>/tags/motor/</link>
       <pubDate>Fri, 03 Aug 2018 22:21:48 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/motor/</guid>
+      <guid>/tags/motor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>backstack</title>
-      <link>https://yazilim.aykutasil.com/tags/backstack/</link>
+      <link>/tags/backstack/</link>
       <pubDate>Fri, 04 May 2018 17:38:15 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/backstack/</guid>
+      <guid>/tags/backstack/</guid>
       <description></description>
     </item>
     
     <item>
       <title>navigate</title>
-      <link>https://yazilim.aykutasil.com/tags/navigate/</link>
+      <link>/tags/navigate/</link>
       <pubDate>Fri, 04 May 2018 17:38:15 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/navigate/</guid>
+      <guid>/tags/navigate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>android-architecure</title>
-      <link>https://yazilim.aykutasil.com/tags/android-architecure/</link>
+      <link>/tags/android-architecure/</link>
       <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/android-architecure/</guid>
+      <guid>/tags/android-architecure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lifecycle</title>
-      <link>https://yazilim.aykutasil.com/tags/lifecycle/</link>
+      <link>/tags/lifecycle/</link>
       <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/lifecycle/</guid>
+      <guid>/tags/lifecycle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>livedata</title>
-      <link>https://yazilim.aykutasil.com/tags/livedata/</link>
+      <link>/tags/livedata/</link>
       <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/livedata/</guid>
+      <guid>/tags/livedata/</guid>
       <description></description>
     </item>
     
     <item>
       <title>software</title>
-      <link>https://yazilim.aykutasil.com/tags/software/</link>
+      <link>/tags/software/</link>
       <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/software/</guid>
+      <guid>/tags/software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>viewmodel</title>
-      <link>https://yazilim.aykutasil.com/tags/viewmodel/</link>
+      <link>/tags/viewmodel/</link>
       <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/viewmodel/</guid>
+      <guid>/tags/viewmodel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cloud</title>
-      <link>https://yazilim.aykutasil.com/tags/cloud/</link>
+      <link>/tags/cloud/</link>
       <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/cloud/</guid>
+      <guid>/tags/cloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cloud-dns</title>
-      <link>https://yazilim.aykutasil.com/tags/cloud-dns/</link>
+      <link>/tags/cloud-dns/</link>
       <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/cloud-dns/</guid>
+      <guid>/tags/cloud-dns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>custom-dns</title>
-      <link>https://yazilim.aykutasil.com/tags/custom-dns/</link>
+      <link>/tags/custom-dns/</link>
       <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/custom-dns/</guid>
+      <guid>/tags/custom-dns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>domain</title>
-      <link>https://yazilim.aykutasil.com/tags/domain/</link>
+      <link>/tags/domain/</link>
       <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/domain/</guid>
+      <guid>/tags/domain/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gcloud</title>
-      <link>https://yazilim.aykutasil.com/tags/gcloud/</link>
+      <link>/tags/gcloud/</link>
       <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/gcloud/</guid>
+      <guid>/tags/gcloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>annotations</title>
-      <link>https://yazilim.aykutasil.com/tags/annotations/</link>
+      <link>/tags/annotations/</link>
       <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/annotations/</guid>
+      <guid>/tags/annotations/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jvmoverloads</title>
-      <link>https://yazilim.aykutasil.com/tags/jvmoverloads/</link>
+      <link>/tags/jvmoverloads/</link>
       <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/jvmoverloads/</guid>
+      <guid>/tags/jvmoverloads/</guid>
       <description></description>
     </item>
     
     <item>
       <title>enum</title>
-      <link>https://yazilim.aykutasil.com/tags/enum/</link>
+      <link>/tags/enum/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/enum/</guid>
+      <guid>/tags/enum/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sealed</title>
-      <link>https://yazilim.aykutasil.com/tags/sealed/</link>
+      <link>/tags/sealed/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/sealed/</guid>
+      <guid>/tags/sealed/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lambda</title>
-      <link>https://yazilim.aykutasil.com/tags/lambda/</link>
+      <link>/tags/lambda/</link>
       <pubDate>Sun, 18 Jun 2017 02:24:37 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/lambda/</guid>
+      <guid>/tags/lambda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>apply</title>
-      <link>https://yazilim.aykutasil.com/tags/apply/</link>
+      <link>/tags/apply/</link>
       <pubDate>Tue, 06 Jun 2017 10:47:58 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/apply/</guid>
+      <guid>/tags/apply/</guid>
       <description></description>
     </item>
     
     <item>
       <title>extensin function</title>
-      <link>https://yazilim.aykutasil.com/tags/extensin-function/</link>
+      <link>/tags/extensin-function/</link>
       <pubDate>Tue, 06 Jun 2017 10:47:58 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/extensin-function/</guid>
+      <guid>/tags/extensin-function/</guid>
       <description></description>
     </item>
     
     <item>
       <title>when</title>
-      <link>https://yazilim.aykutasil.com/tags/when/</link>
+      <link>/tags/when/</link>
       <pubDate>Tue, 06 Jun 2017 04:42:56 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/when/</guid>
+      <guid>/tags/when/</guid>
       <description></description>
     </item>
     
     <item>
       <title>let</title>
-      <link>https://yazilim.aykutasil.com/tags/let/</link>
+      <link>/tags/let/</link>
       <pubDate>Tue, 06 Jun 2017 04:33:06 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/let/</guid>
+      <guid>/tags/let/</guid>
       <description></description>
     </item>
     
     <item>
       <title>oauth</title>
-      <link>https://yazilim.aykutasil.com/tags/oauth/</link>
+      <link>/tags/oauth/</link>
       <pubDate>Wed, 17 May 2017 11:58:43 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/oauth/</guid>
+      <guid>/tags/oauth/</guid>
       <description></description>
     </item>
     
     <item>
       <title>okhttp</title>
-      <link>https://yazilim.aykutasil.com/tags/okhttp/</link>
+      <link>/tags/okhttp/</link>
       <pubDate>Wed, 17 May 2017 11:58:43 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/okhttp/</guid>
+      <guid>/tags/okhttp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>retrofit</title>
-      <link>https://yazilim.aykutasil.com/tags/retrofit/</link>
+      <link>/tags/retrofit/</link>
       <pubDate>Wed, 17 May 2017 11:58:43 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/retrofit/</guid>
+      <guid>/tags/retrofit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dynamiclink</title>
-      <link>https://yazilim.aykutasil.com/tags/dynamiclink/</link>
+      <link>/tags/dynamiclink/</link>
       <pubDate>Mon, 17 Apr 2017 01:53:03 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/dynamiclink/</guid>
+      <guid>/tags/dynamiclink/</guid>
       <description></description>
     </item>
     
     <item>
       <title>firebase</title>
-      <link>https://yazilim.aykutasil.com/tags/firebase/</link>
+      <link>/tags/firebase/</link>
       <pubDate>Mon, 17 Apr 2017 01:53:03 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/firebase/</guid>
+      <guid>/tags/firebase/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bluetooth</title>
-      <link>https://yazilim.aykutasil.com/tags/bluetooth/</link>
+      <link>/tags/bluetooth/</link>
       <pubDate>Sun, 12 Mar 2017 23:40:36 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/bluetooth/</guid>
+      <guid>/tags/bluetooth/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hc-06</title>
-      <link>https://yazilim.aykutasil.com/tags/hc-06/</link>
+      <link>/tags/hc-06/</link>
       <pubDate>Sun, 12 Mar 2017 23:40:36 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/hc-06/</guid>
+      <guid>/tags/hc-06/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hc06</title>
-      <link>https://yazilim.aykutasil.com/tags/hc06/</link>
+      <link>/tags/hc06/</link>
       <pubDate>Sun, 12 Mar 2017 23:40:36 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/hc06/</guid>
+      <guid>/tags/hc06/</guid>
       <description></description>
     </item>
     
     <item>
       <title>yeoman</title>
-      <link>https://yazilim.aykutasil.com/tags/yeoman/</link>
+      <link>/tags/yeoman/</link>
       <pubDate>Wed, 18 Jan 2017 12:09:26 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/yeoman/</guid>
+      <guid>/tags/yeoman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>c#</title>
-      <link>https://yazilim.aykutasil.com/tags/c#/</link>
+      <link>/tags/c#/</link>
       <pubDate>Mon, 16 Jan 2017 11:13:16 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/c#/</guid>
+      <guid>/tags/c#/</guid>
       <description></description>
     </item>
     
     <item>
       <title>null condition</title>
-      <link>https://yazilim.aykutasil.com/tags/null-condition/</link>
+      <link>/tags/null-condition/</link>
       <pubDate>Mon, 16 Jan 2017 11:13:16 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/null-condition/</guid>
+      <guid>/tags/null-condition/</guid>
       <description></description>
     </item>
     
     <item>
       <title>operator</title>
-      <link>https://yazilim.aykutasil.com/tags/operator/</link>
+      <link>/tags/operator/</link>
       <pubDate>Mon, 16 Jan 2017 11:13:16 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/operator/</guid>
+      <guid>/tags/operator/</guid>
       <description></description>
     </item>
     
     <item>
       <title>soru isareti</title>
-      <link>https://yazilim.aykutasil.com/tags/soru-isareti/</link>
+      <link>/tags/soru-isareti/</link>
       <pubDate>Mon, 16 Jan 2017 11:13:16 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/soru-isareti/</guid>
+      <guid>/tags/soru-isareti/</guid>
       <description></description>
     </item>
     
     <item>
       <title>addJavascriptInterface</title>
-      <link>https://yazilim.aykutasil.com/tags/addjavascriptinterface/</link>
+      <link>/tags/addjavascriptinterface/</link>
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/addjavascriptinterface/</guid>
+      <guid>/tags/addjavascriptinterface/</guid>
       <description></description>
     </item>
     
     <item>
       <title>java</title>
-      <link>https://yazilim.aykutasil.com/tags/java/</link>
+      <link>/tags/java/</link>
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/java/</guid>
+      <guid>/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JavascriptInterface</title>
-      <link>https://yazilim.aykutasil.com/tags/javascriptinterface/</link>
+      <link>/tags/javascriptinterface/</link>
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/javascriptinterface/</guid>
+      <guid>/tags/javascriptinterface/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sofware</title>
-      <link>https://yazilim.aykutasil.com/tags/sofware/</link>
+      <link>/tags/sofware/</link>
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/sofware/</guid>
+      <guid>/tags/sofware/</guid>
       <description></description>
     </item>
     
     <item>
       <title>webview</title>
-      <link>https://yazilim.aykutasil.com/tags/webview/</link>
+      <link>/tags/webview/</link>
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/webview/</guid>
+      <guid>/tags/webview/</guid>
       <description></description>
     </item>
     
     <item>
       <title>WebViewClient</title>
-      <link>https://yazilim.aykutasil.com/tags/webviewclient/</link>
+      <link>/tags/webviewclient/</link>
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/webviewclient/</guid>
+      <guid>/tags/webviewclient/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bash script</title>
-      <link>https://yazilim.aykutasil.com/tags/bash-script/</link>
+      <link>/tags/bash-script/</link>
       <pubDate>Wed, 11 Jan 2017 19:56:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/bash-script/</guid>
+      <guid>/tags/bash-script/</guid>
       <description></description>
     </item>
     
     <item>
       <title>docker</title>
-      <link>https://yazilim.aykutasil.com/tags/docker/</link>
+      <link>/tags/docker/</link>
       <pubDate>Wed, 11 Jan 2017 19:56:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/docker/</guid>
+      <guid>/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>execute</title>
-      <link>https://yazilim.aykutasil.com/tags/execute/</link>
+      <link>/tags/execute/</link>
       <pubDate>Wed, 11 Jan 2017 19:26:49 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/execute/</guid>
+      <guid>/tags/execute/</guid>
       <description></description>
     </item>
     
     <item>
       <title>executorservice</title>
-      <link>https://yazilim.aykutasil.com/tags/executorservice/</link>
+      <link>/tags/executorservice/</link>
       <pubDate>Wed, 11 Jan 2017 19:26:49 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/executorservice/</guid>
+      <guid>/tags/executorservice/</guid>
       <description></description>
     </item>
     
     <item>
       <title>submit</title>
-      <link>https://yazilim.aykutasil.com/tags/submit/</link>
+      <link>/tags/submit/</link>
       <pubDate>Wed, 11 Jan 2017 19:26:49 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/submit/</guid>
+      <guid>/tags/submit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>callable</title>
-      <link>https://yazilim.aykutasil.com/tags/callable/</link>
+      <link>/tags/callable/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/callable/</guid>
+      <guid>/tags/callable/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Executors</title>
-      <link>https://yazilim.aykutasil.com/tags/executors/</link>
+      <link>/tags/executors/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/executors/</guid>
+      <guid>/tags/executors/</guid>
       <description></description>
     </item>
     
     <item>
       <title>multithread</title>
-      <link>https://yazilim.aykutasil.com/tags/multithread/</link>
+      <link>/tags/multithread/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/multithread/</guid>
+      <guid>/tags/multithread/</guid>
       <description></description>
     </item>
     
     <item>
       <title>newCachedThreadPool</title>
-      <link>https://yazilim.aykutasil.com/tags/newcachedthreadpool/</link>
+      <link>/tags/newcachedthreadpool/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/newcachedthreadpool/</guid>
+      <guid>/tags/newcachedthreadpool/</guid>
       <description></description>
     </item>
     
     <item>
       <title>newFixedThreadPool</title>
-      <link>https://yazilim.aykutasil.com/tags/newfixedthreadpool/</link>
+      <link>/tags/newfixedthreadpool/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/newfixedthreadpool/</guid>
+      <guid>/tags/newfixedthreadpool/</guid>
       <description></description>
     </item>
     
     <item>
       <title>newSingleThreadExecutor</title>
-      <link>https://yazilim.aykutasil.com/tags/newsinglethreadexecutor/</link>
+      <link>/tags/newsinglethreadexecutor/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/newsinglethreadexecutor/</guid>
+      <guid>/tags/newsinglethreadexecutor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>runnable</title>
-      <link>https://yazilim.aykutasil.com/tags/runnable/</link>
+      <link>/tags/runnable/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/runnable/</guid>
+      <guid>/tags/runnable/</guid>
       <description></description>
     </item>
     
     <item>
       <title>thread</title>
-      <link>https://yazilim.aykutasil.com/tags/thread/</link>
+      <link>/tags/thread/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/thread/</guid>
+      <guid>/tags/thread/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rxjava</title>
-      <link>https://yazilim.aykutasil.com/tags/rxjava/</link>
+      <link>/tags/rxjava/</link>
       <pubDate>Wed, 11 Jan 2017 18:52:51 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/rxjava/</guid>
+      <guid>/tags/rxjava/</guid>
       <description></description>
     </item>
     
     <item>
       <title>reduce</title>
-      <link>https://yazilim.aykutasil.com/tags/reduce/</link>
+      <link>/tags/reduce/</link>
       <pubDate>Wed, 11 Jan 2017 18:42:04 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/reduce/</guid>
+      <guid>/tags/reduce/</guid>
       <description></description>
     </item>
     
     <item>
       <title>express</title>
-      <link>https://yazilim.aykutasil.com/tags/express/</link>
+      <link>/tags/express/</link>
       <pubDate>Wed, 11 Jan 2017 18:14:05 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/express/</guid>
+      <guid>/tags/express/</guid>
       <description></description>
     </item>
     
     <item>
       <title>intellisense</title>
-      <link>https://yazilim.aykutasil.com/tags/intellisense/</link>
+      <link>/tags/intellisense/</link>
       <pubDate>Wed, 11 Jan 2017 18:14:05 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/intellisense/</guid>
+      <guid>/tags/intellisense/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nodejs</title>
-      <link>https://yazilim.aykutasil.com/tags/nodejs/</link>
+      <link>/tags/nodejs/</link>
       <pubDate>Wed, 11 Jan 2017 18:14:05 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/nodejs/</guid>
+      <guid>/tags/nodejs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>typescript</title>
-      <link>https://yazilim.aykutasil.com/tags/typescript/</link>
+      <link>/tags/typescript/</link>
       <pubDate>Wed, 11 Jan 2017 18:14:05 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/typescript/</guid>
+      <guid>/tags/typescript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vscode</title>
-      <link>https://yazilim.aykutasil.com/tags/vscode/</link>
+      <link>/tags/vscode/</link>
       <pubDate>Wed, 11 Jan 2017 18:14:05 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/vscode/</guid>
+      <guid>/tags/vscode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tcp</title>
-      <link>https://yazilim.aykutasil.com/tags/tcp/</link>
+      <link>/tags/tcp/</link>
       <pubDate>Wed, 11 Jan 2017 18:05:02 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/tcp/</guid>
+      <guid>/tags/tcp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tcp/ip</title>
-      <link>https://yazilim.aykutasil.com/tags/tcp/ip/</link>
+      <link>/tags/tcp/ip/</link>
       <pubDate>Wed, 11 Jan 2017 18:05:02 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/tcp/ip/</guid>
+      <guid>/tags/tcp/ip/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bintray</title>
-      <link>https://yazilim.aykutasil.com/tags/bintray/</link>
+      <link>/tags/bintray/</link>
       <pubDate>Wed, 11 Jan 2017 17:27:29 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/bintray/</guid>
+      <guid>/tags/bintray/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gradle</title>
-      <link>https://yazilim.aykutasil.com/tags/gradle/</link>
+      <link>/tags/gradle/</link>
       <pubDate>Wed, 11 Jan 2017 17:27:29 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/gradle/</guid>
+      <guid>/tags/gradle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>library</title>
-      <link>https://yazilim.aykutasil.com/tags/library/</link>
+      <link>/tags/library/</link>
       <pubDate>Wed, 11 Jan 2017 17:27:29 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/library/</guid>
+      <guid>/tags/library/</guid>
       <description></description>
     </item>
     
     <item>
       <title>runtime permission</title>
-      <link>https://yazilim.aykutasil.com/tags/runtime-permission/</link>
+      <link>/tags/runtime-permission/</link>
       <pubDate>Wed, 11 Jan 2017 17:24:52 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/runtime-permission/</guid>
+      <guid>/tags/runtime-permission/</guid>
       <description></description>
     </item>
     
     <item>
       <title>klon</title>
-      <link>https://yazilim.aykutasil.com/tags/klon/</link>
+      <link>/tags/klon/</link>
       <pubDate>Wed, 11 Jan 2017 17:22:38 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/klon/</guid>
+      <guid>/tags/klon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>uno</title>
-      <link>https://yazilim.aykutasil.com/tags/uno/</link>
+      <link>/tags/uno/</link>
       <pubDate>Wed, 11 Jan 2017 17:22:38 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/uno/</guid>
+      <guid>/tags/uno/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mssql</title>
-      <link>https://yazilim.aykutasil.com/tags/mssql/</link>
+      <link>/tags/mssql/</link>
       <pubDate>Wed, 11 Jan 2017 17:20:37 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/mssql/</guid>
+      <guid>/tags/mssql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sql</title>
-      <link>https://yazilim.aykutasil.com/tags/sql/</link>
+      <link>/tags/sql/</link>
       <pubDate>Wed, 11 Jan 2017 17:20:37 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/sql/</guid>
+      <guid>/tags/sql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sql_scope_identity</title>
-      <link>https://yazilim.aykutasil.com/tags/sql_scope_identity/</link>
+      <link>/tags/sql_scope_identity/</link>
       <pubDate>Wed, 11 Jan 2017 17:20:37 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/sql_scope_identity/</guid>
+      <guid>/tags/sql_scope_identity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>javascript</title>
-      <link>https://yazilim.aykutasil.com/tags/javascript/</link>
+      <link>/tags/javascript/</link>
       <pubDate>Wed, 11 Jan 2017 17:14:22 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/javascript/</guid>
+      <guid>/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>glide</title>
-      <link>https://yazilim.aykutasil.com/tags/glide/</link>
+      <link>/tags/glide/</link>
       <pubDate>Wed, 11 Jan 2017 17:11:30 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/glide/</guid>
+      <guid>/tags/glide/</guid>
       <description></description>
     </item>
     
     <item>
       <title>palette</title>
-      <link>https://yazilim.aykutasil.com/tags/palette/</link>
+      <link>/tags/palette/</link>
       <pubDate>Wed, 11 Jan 2017 17:11:30 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/palette/</guid>
+      <guid>/tags/palette/</guid>
       <description></description>
     </item>
     
     <item>
       <title>viewpager</title>
-      <link>https://yazilim.aykutasil.com/tags/viewpager/</link>
+      <link>/tags/viewpager/</link>
       <pubDate>Wed, 11 Jan 2017 17:07:51 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/viewpager/</guid>
+      <guid>/tags/viewpager/</guid>
       <description></description>
     </item>
     
     <item>
       <title>collections</title>
-      <link>https://yazilim.aykutasil.com/tags/collections/</link>
+      <link>/tags/collections/</link>
       <pubDate>Wed, 11 Jan 2017 16:10:10 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/collections/</guid>
+      <guid>/tags/collections/</guid>
       <description></description>
     </item>
     
     <item>
       <title>swap</title>
-      <link>https://yazilim.aykutasil.com/tags/swap/</link>
+      <link>/tags/swap/</link>
       <pubDate>Wed, 11 Jan 2017 16:10:10 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/swap/</guid>
+      <guid>/tags/swap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>toolbar</title>
-      <link>https://yazilim.aykutasil.com/tags/toolbar/</link>
+      <link>/tags/toolbar/</link>
       <pubDate>Wed, 11 Jan 2017 16:01:33 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/toolbar/</guid>
+      <guid>/tags/toolbar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dbeaver</title>
-      <link>https://yazilim.aykutasil.com/tags/dbeaver/</link>
+      <link>/tags/dbeaver/</link>
       <pubDate>Wed, 11 Jan 2017 15:50:10 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/dbeaver/</guid>
+      <guid>/tags/dbeaver/</guid>
       <description></description>
     </item>
     
     <item>
       <title>macos mssql connection</title>
-      <link>https://yazilim.aykutasil.com/tags/macos-mssql-connection/</link>
+      <link>/tags/macos-mssql-connection/</link>
       <pubDate>Wed, 11 Jan 2017 15:50:10 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/macos-mssql-connection/</guid>
+      <guid>/tags/macos-mssql-connection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>custom script</title>
-      <link>https://yazilim.aykutasil.com/tags/custom-script/</link>
+      <link>/tags/custom-script/</link>
       <pubDate>Wed, 11 Jan 2017 15:39:47 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/custom-script/</guid>
+      <guid>/tags/custom-script/</guid>
       <description></description>
     </item>
     
     <item>
       <title>foreground service</title>
-      <link>https://yazilim.aykutasil.com/tags/foreground-service/</link>
+      <link>/tags/foreground-service/</link>
       <pubDate>Wed, 11 Jan 2017 15:27:59 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/foreground-service/</guid>
+      <guid>/tags/foreground-service/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fusedlocationapi</title>
-      <link>https://yazilim.aykutasil.com/tags/fusedlocationapi/</link>
+      <link>/tags/fusedlocationapi/</link>
       <pubDate>Wed, 11 Jan 2017 15:27:59 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/fusedlocationapi/</guid>
+      <guid>/tags/fusedlocationapi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>file upload</title>
-      <link>https://yazilim.aykutasil.com/tags/file-upload/</link>
+      <link>/tags/file-upload/</link>
       <pubDate>Wed, 11 Jan 2017 01:50:51 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/file-upload/</guid>
+      <guid>/tags/file-upload/</guid>
       <description></description>
     </item>
     
     <item>
       <title>multipart</title>
-      <link>https://yazilim.aykutasil.com/tags/multipart/</link>
+      <link>/tags/multipart/</link>
       <pubDate>Wed, 11 Jan 2017 01:50:51 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/multipart/</guid>
+      <guid>/tags/multipart/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gcmnetworkmanager</title>
-      <link>https://yazilim.aykutasil.com/tags/gcmnetworkmanager/</link>
+      <link>/tags/gcmnetworkmanager/</link>
       <pubDate>Wed, 11 Jan 2017 01:43:53 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/gcmnetworkmanager/</guid>
+      <guid>/tags/gcmnetworkmanager/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sms</title>
-      <link>https://yazilim.aykutasil.com/tags/sms/</link>
+      <link>/tags/sms/</link>
       <pubDate>Wed, 11 Jan 2017 01:42:54 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/sms/</guid>
+      <guid>/tags/sms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sms-receiver</title>
-      <link>https://yazilim.aykutasil.com/tags/sms-receiver/</link>
+      <link>/tags/sms-receiver/</link>
       <pubDate>Wed, 11 Jan 2017 01:42:54 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/sms-receiver/</guid>
+      <guid>/tags/sms-receiver/</guid>
       <description></description>
     </item>
     
     <item>
       <title>broadcast receiver</title>
-      <link>https://yazilim.aykutasil.com/tags/broadcast-receiver/</link>
+      <link>/tags/broadcast-receiver/</link>
       <pubDate>Wed, 11 Jan 2017 01:42:36 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/broadcast-receiver/</guid>
+      <guid>/tags/broadcast-receiver/</guid>
       <description></description>
     </item>
     
     <item>
       <title>internet control</title>
-      <link>https://yazilim.aykutasil.com/tags/internet-control/</link>
+      <link>/tags/internet-control/</link>
       <pubDate>Wed, 11 Jan 2017 01:42:36 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/internet-control/</guid>
+      <guid>/tags/internet-control/</guid>
       <description></description>
     </item>
     
     <item>
       <title>api test</title>
-      <link>https://yazilim.aykutasil.com/tags/api-test/</link>
+      <link>/tags/api-test/</link>
       <pubDate>Wed, 11 Jan 2017 01:09:39 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/api-test/</guid>
+      <guid>/tags/api-test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>postman</title>
-      <link>https://yazilim.aykutasil.com/tags/postman/</link>
+      <link>/tags/postman/</link>
       <pubDate>Wed, 11 Jan 2017 01:09:39 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/postman/</guid>
+      <guid>/tags/postman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>activeandroid</title>
-      <link>https://yazilim.aykutasil.com/tags/activeandroid/</link>
+      <link>/tags/activeandroid/</link>
       <pubDate>Wed, 11 Jan 2017 01:00:19 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/activeandroid/</guid>
+      <guid>/tags/activeandroid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>orm</title>
-      <link>https://yazilim.aykutasil.com/tags/orm/</link>
+      <link>/tags/orm/</link>
       <pubDate>Wed, 11 Jan 2017 01:00:19 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/orm/</guid>
+      <guid>/tags/orm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sqlite</title>
-      <link>https://yazilim.aykutasil.com/tags/sqlite/</link>
+      <link>/tags/sqlite/</link>
       <pubDate>Wed, 11 Jan 2017 01:00:19 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/sqlite/</guid>
+      <guid>/tags/sqlite/</guid>
       <description></description>
     </item>
     
     <item>
       <title>android test</title>
-      <link>https://yazilim.aykutasil.com/tags/android-test/</link>
+      <link>/tags/android-test/</link>
       <pubDate>Wed, 11 Jan 2017 00:31:52 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/android-test/</guid>
+      <guid>/tags/android-test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>robolectric</title>
-      <link>https://yazilim.aykutasil.com/tags/robolectric/</link>
+      <link>/tags/robolectric/</link>
       <pubDate>Wed, 11 Jan 2017 00:31:52 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/robolectric/</guid>
+      <guid>/tags/robolectric/</guid>
       <description></description>
     </item>
     
     <item>
       <title>unit test</title>
-      <link>https://yazilim.aykutasil.com/tags/unit-test/</link>
+      <link>/tags/unit-test/</link>
       <pubDate>Wed, 11 Jan 2017 00:27:54 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/unit-test/</guid>
+      <guid>/tags/unit-test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>azure</title>
-      <link>https://yazilim.aykutasil.com/tags/azure/</link>
+      <link>/tags/azure/</link>
       <pubDate>Wed, 11 Jan 2017 00:21:36 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/azure/</guid>
+      <guid>/tags/azure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>notification hubs</title>
-      <link>https://yazilim.aykutasil.com/tags/notification-hubs/</link>
+      <link>/tags/notification-hubs/</link>
       <pubDate>Wed, 11 Jan 2017 00:21:36 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/notification-hubs/</guid>
+      <guid>/tags/notification-hubs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>recaptcha</title>
-      <link>https://yazilim.aykutasil.com/tags/recaptcha/</link>
+      <link>/tags/recaptcha/</link>
       <pubDate>Wed, 11 Jan 2017 00:14:08 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/recaptcha/</guid>
+      <guid>/tags/recaptcha/</guid>
       <description></description>
     </item>
     
     <item>
       <title>keyhashes</title>
-      <link>https://yazilim.aykutasil.com/tags/keyhashes/</link>
+      <link>/tags/keyhashes/</link>
       <pubDate>Tue, 10 Jan 2017 23:56:35 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/keyhashes/</guid>
+      <guid>/tags/keyhashes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sha1</title>
-      <link>https://yazilim.aykutasil.com/tags/sha1/</link>
+      <link>/tags/sha1/</link>
       <pubDate>Tue, 10 Jan 2017 23:56:35 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/sha1/</guid>
+      <guid>/tags/sha1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hosts</title>
-      <link>https://yazilim.aykutasil.com/tags/hosts/</link>
+      <link>/tags/hosts/</link>
       <pubDate>Tue, 10 Jan 2017 23:20:12 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/hosts/</guid>
+      <guid>/tags/hosts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iis</title>
-      <link>https://yazilim.aykutasil.com/tags/iis/</link>
+      <link>/tags/iis/</link>
       <pubDate>Tue, 10 Jan 2017 23:20:12 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/iis/</guid>
+      <guid>/tags/iis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>localwebserver</title>
-      <link>https://yazilim.aykutasil.com/tags/localwebserver/</link>
+      <link>/tags/localwebserver/</link>
       <pubDate>Tue, 10 Jan 2017 23:20:12 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/localwebserver/</guid>
+      <guid>/tags/localwebserver/</guid>
       <description></description>
     </item>
     
     <item>
       <title>site</title>
-      <link>https://yazilim.aykutasil.com/tags/site/</link>
+      <link>/tags/site/</link>
       <pubDate>Tue, 10 Jan 2017 23:20:12 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/site/</guid>
+      <guid>/tags/site/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nullif</title>
-      <link>https://yazilim.aykutasil.com/tags/nullif/</link>
+      <link>/tags/nullif/</link>
       <pubDate>Tue, 10 Jan 2017 23:08:34 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/nullif/</guid>
+      <guid>/tags/nullif/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tsql</title>
-      <link>https://yazilim.aykutasil.com/tags/tsql/</link>
+      <link>/tags/tsql/</link>
       <pubDate>Tue, 10 Jan 2017 23:08:34 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/tsql/</guid>
+      <guid>/tags/tsql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>spinner</title>
-      <link>https://yazilim.aykutasil.com/tags/spinner/</link>
+      <link>/tags/spinner/</link>
       <pubDate>Tue, 10 Jan 2017 23:00:03 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/spinner/</guid>
+      <guid>/tags/spinner/</guid>
       <description></description>
     </item>
     
     <item>
       <title>container</title>
-      <link>https://yazilim.aykutasil.com/tags/container/</link>
+      <link>/tags/container/</link>
       <pubDate>Sun, 25 Dec 2016 03:51:49 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/container/</guid>
+      <guid>/tags/container/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>https://yazilim.aykutasil.com/tags/linux/</link>
+      <link>/tags/linux/</link>
       <pubDate>Sun, 25 Dec 2016 03:51:49 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/linux/</guid>
+      <guid>/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nano</title>
-      <link>https://yazilim.aykutasil.com/tags/nano/</link>
+      <link>/tags/nano/</link>
       <pubDate>Sun, 25 Dec 2016 03:51:49 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/tags/nano/</guid>
+      <guid>/tags/nano/</guid>
       <description></description>
     </item>
     

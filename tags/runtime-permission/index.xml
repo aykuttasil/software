@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>runtime permission on Software</title>
-    <link>https://yazilim.aykutasil.com/tags/runtime-permission/</link>
-    <description>Recent content in runtime permission on Software</description>
+    <title>runtime permission on </title>
+    <link>/tags/runtime-permission/</link>
+    <description>Recent content in runtime permission on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tr</language>
+    <language>en-US</language>
     <lastBuildDate>Wed, 11 Jan 2017 17:24:52 +0300</lastBuildDate>
     
-	<atom:link href="https://yazilim.aykutasil.com/tags/runtime-permission/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/runtime-permission/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Android Runtime Permission</title>
-      <link>https://yazilim.aykutasil.com/post/android_runtime_permission/</link>
+      <link>/post/android-runtime-permission/</link>
       <pubDate>Wed, 11 Jan 2017 17:24:52 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/post/android_runtime_permission/</guid>
+      <guid>/post/android-runtime-permission/</guid>
       <description>Yavaş yavaş mevcut android cihazlarının API level düzeyi doğal olarak yükselmekte ve bizlerinde tabi ki buna ayak uydurması gerekmekte.
 Bunlardan biri de Android M – Marshmallow (23) ile gelen Runtime Permissions olayı.
 Kullanıcı açısından bakıldığında oldukça yararlı birşey gibi duruyor ama tabi ki biz kullanıcılar runtime sırasında çıkan permission dialog daki yazıyı ne kadar okuruz ve buna göre onay veririz meçhul. Aslına bakarsanız çok da okunacağını düşünmüyorum ama olsun yine de güzel.</description>

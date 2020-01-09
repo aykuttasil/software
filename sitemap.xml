@@ -3,1988 +3,1427 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/</loc>
+    <loc>/</loc>
     <lastmod>2020-01-03T17:19:13+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/dsl/</loc>
+    <loc>/categories/</loc>
     <lastmod>2020-01-03T17:19:13+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/json/</loc>
+    <loc>/tags/dsl/</loc>
     <lastmod>2020-01-03T17:19:13+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/kotlin/</loc>
+    <loc>/tags/json/</loc>
     <lastmod>2020-01-03T17:19:13+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/kotlin/</loc>
+    <loc>/tags/kotlin/</loc>
     <lastmod>2020-01-03T17:19:13+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/kotlin_dsl_create_json/</loc>
+    <loc>/categories/kotlin/</loc>
     <lastmod>2020-01-03T17:19:13+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/</loc>
+    <loc>/post/kotlin_dsl_create_json/</loc>
     <lastmod>2020-01-03T17:19:13+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/</loc>
+    <loc>/post/</loc>
     <lastmod>2020-01-03T17:19:13+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2020-01-03T17:19:13+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/api/</loc>
+    <loc>/categories/api/</loc>
     <lastmod>2019-11-12T10:17:17+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/aspnetcore_session/</loc>
+    <loc>/post/asp.net-core-session/</loc>
     <lastmod>2019-11-12T10:17:17+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/aspnetcore/</loc>
+    <loc>/tags/aspnetcore/</loc>
     <lastmod>2019-11-12T10:17:17+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/aspnetcore/</loc>
+    <loc>/categories/aspnetcore/</loc>
     <lastmod>2019-11-12T10:17:17+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/session/</loc>
+    <loc>/tags/session/</loc>
     <lastmod>2019-11-12T10:17:17+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/web/</loc>
+    <loc>/categories/web/</loc>
     <lastmod>2019-11-12T10:17:17+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/webapi/</loc>
+    <loc>/tags/webapi/</loc>
     <lastmod>2019-11-12T10:17:17+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/android/</loc>
+    <loc>/categories/android/</loc>
     <lastmod>2019-08-03T03:14:28+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/android/</loc>
+    <loc>/tags/android/</loc>
     <lastmod>2019-08-03T03:14:28+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_remote_device_debugging/</loc>
+    <loc>/post/android-debugging-with-local-web-server/</loc>
     <lastmod>2019-08-03T03:14:28+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/debugging/</loc>
+    <loc>/categories/debugging/</loc>
     <lastmod>2019-08-03T03:14:28+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/debugging/</loc>
+    <loc>/tags/debugging/</loc>
     <lastmod>2019-08-03T03:14:28+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/local-web-server/</loc>
+    <loc>/tags/local-web-server/</loc>
     <lastmod>2019-08-03T03:14:28+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/windows/</loc>
+    <loc>/tags/windows/</loc>
     <lastmod>2019-08-03T03:14:28+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/abd/</loc>
+    <loc>/tags/abd/</loc>
     <lastmod>2019-07-20T01:04:53+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_adb_device_ip/</loc>
+    <loc>/post/adb-komutu-ile-cihaz-ipsini-%C3%B6%C4%9Fren/</loc>
     <lastmod>2019-07-20T01:04:53+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/ip/</loc>
+    <loc>/tags/ip/</loc>
     <lastmod>2019-07-20T01:04:53+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/shell/</loc>
+    <loc>/tags/shell/</loc>
     <lastmod>2019-07-20T01:04:53+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_filesystem/</loc>
+    <loc>/post/android-file-system/</loc>
     <lastmod>2019-06-27T14:00:59+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/fileprovider/</loc>
+    <loc>/tags/fileprovider/</loc>
     <lastmod>2019-06-27T14:00:59+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/filesystem/</loc>
+    <loc>/tags/filesystem/</loc>
     <lastmod>2019-06-27T14:00:59+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/permission/</loc>
+    <loc>/tags/permission/</loc>
     <lastmod>2019-06-27T14:00:59+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/security/</loc>
+    <loc>/categories/security/</loc>
     <lastmod>2019-06-27T14:00:59+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/security/</loc>
+    <loc>/tags/security/</loc>
     <lastmod>2019-06-27T14:00:59+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/share-data/</loc>
+    <loc>/tags/share-data/</loc>
     <lastmod>2019-06-27T14:00:59+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/uri/</loc>
+    <loc>/tags/uri/</loc>
     <lastmod>2019-06-27T14:00:59+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/aspnetcore_filters/</loc>
+    <loc>/post/asp.net-core-filters/</loc>
     <lastmod>2019-04-29T10:05:05+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/filters/</loc>
+    <loc>/tags/filters/</loc>
     <lastmod>2019-04-29T10:05:05+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/netcore/</loc>
+    <loc>/categories/netcore/</loc>
     <lastmod>2019-04-29T10:05:05+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/netcore/</loc>
+    <loc>/tags/netcore/</loc>
     <lastmod>2019-04-29T10:05:05+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/api/</loc>
+    <loc>/tags/api/</loc>
     <lastmod>2019-04-15T22:08:14+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/aspnetcore_run/</loc>
+    <loc>/post/asp.net-core-app.run-middleware/</loc>
     <lastmod>2019-04-15T22:08:14+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/csharp/</loc>
+    <loc>/categories/csharp/</loc>
     <lastmod>2019-04-15T22:08:14+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/csharp/</loc>
+    <loc>/tags/csharp/</loc>
     <lastmod>2019-04-15T22:08:14+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/webapi/</loc>
+    <loc>/categories/webapi/</loc>
     <lastmod>2019-04-15T22:08:14+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_databinding/</loc>
+    <loc>/post/android-databinding/</loc>
     <lastmod>2019-02-25T00:00:27+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/databinding/</loc>
+    <loc>/tags/databinding/</loc>
     <lastmod>2019-02-25T00:00:27+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/mobile/</loc>
+    <loc>/tags/mobile/</loc>
     <lastmod>2019-02-25T00:00:27+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/mobile/</loc>
+    <loc>/categories/mobile/</loc>
     <lastmod>2019-02-25T00:00:27+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_service/</loc>
+    <loc>/post/android-service/</loc>
     <lastmod>2019-02-14T13:10:18+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/service/</loc>
+    <loc>/tags/service/</loc>
     <lastmod>2019-02-14T13:10:18+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_kotlin_final_mock_problem/</loc>
+    <loc>/post/android-kotlin-test-final-type-problem/</loc>
     <lastmod>2019-01-29T15:38:29+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/final-type/</loc>
+    <loc>/categories/final-type/</loc>
     <lastmod>2019-01-29T15:38:29+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/mock/</loc>
+    <loc>/categories/mock/</loc>
     <lastmod>2019-01-29T15:38:29+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/test/</loc>
+    <loc>/categories/test/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/test/</loc>
+    <loc>/tags/test/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/server_ip/</loc>
+    <loc>/post/server-ip/</loc>
     <lastmod>2019-01-08T23:20:28+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/bash/</loc>
+    <loc>/tags/bash/</loc>
     <lastmod>2018-12-10T00:47:41+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/bash/</loc>
+    <loc>/categories/bash/</loc>
     <lastmod>2018-12-10T00:47:41+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/bash/</loc>
+    <loc>/post/bash-scripts/</loc>
     <lastmod>2018-12-10T00:47:41+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/script/</loc>
+    <loc>/categories/script/</loc>
     <lastmod>2018-12-10T00:47:41+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/script/</loc>
+    <loc>/tags/script/</loc>
     <lastmod>2018-12-10T00:47:41+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/sh/</loc>
+    <loc>/tags/sh/</loc>
     <lastmod>2018-12-10T00:47:41+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_circleci/</loc>
+    <loc>/post/android-circleci-configuration/</loc>
     <lastmod>2018-12-03T14:20:45+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/build/</loc>
+    <loc>/tags/build/</loc>
     <lastmod>2018-12-03T14:20:45+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/cd/</loc>
+    <loc>/tags/cd/</loc>
     <lastmod>2018-12-03T14:20:45+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/ci/</loc>
+    <loc>/tags/ci/</loc>
     <lastmod>2018-12-03T14:20:45+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/ci/cd/</loc>
+    <loc>/categories/ci/cd/</loc>
     <lastmod>2018-12-03T14:20:45+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/circleci/</loc>
+    <loc>/tags/circleci/</loc>
     <lastmod>2018-12-03T14:20:45+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/continuous-deployment/</loc>
+    <loc>/tags/continuous-deployment/</loc>
     <lastmod>2018-12-03T14:20:45+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/continuous-integration/</loc>
+    <loc>/tags/continuous-integration/</loc>
     <lastmod>2018-12-03T14:20:45+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/deployment/</loc>
+    <loc>/tags/deployment/</loc>
     <lastmod>2018-12-03T14:20:45+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/circleci/</loc>
+    <loc>/post/circleci-configuration/</loc>
     <lastmod>2018-11-27T14:20:45+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/genel/</loc>
+    <loc>/categories/genel/</loc>
     <lastmod>2018-10-26T01:04:21+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/ssh/</loc>
+    <loc>/tags/ssh/</loc>
     <lastmod>2018-10-26T01:04:21+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/ssh_1/</loc>
+    <loc>/post/ssh-s%C3%BCrekli-parola-istemesi-sorunu/</loc>
     <lastmod>2018-10-26T01:04:21+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_dagger_1/</loc>
+    <loc>/post/android-dagger/</loc>
     <lastmod>2018-10-12T11:48:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/dagger/</loc>
+    <loc>/tags/dagger/</loc>
     <lastmod>2018-10-12T11:48:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/dependency-injection/</loc>
+    <loc>/tags/dependency-injection/</loc>
     <lastmod>2018-10-12T11:48:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/dependency-injection/</loc>
+    <loc>/categories/dependency-injection/</loc>
     <lastmod>2018-10-12T11:48:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/di/</loc>
+    <loc>/tags/di/</loc>
     <lastmod>2018-10-12T11:48:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/amp_1/</loc>
+    <loc>/post/amp/</loc>
     <lastmod>2018-10-10T11:57:46+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/amp/</loc>
+    <loc>/categories/amp/</loc>
     <lastmod>2018-10-10T11:57:46+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/amp/</loc>
+    <loc>/tags/amp/</loc>
     <lastmod>2018-10-10T11:57:46+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_test_1/</loc>
+    <loc>/post/android-test/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/espresso/</loc>
+    <loc>/tags/espresso/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/junit/</loc>
+    <loc>/tags/junit/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/mock/</loc>
+    <loc>/tags/mock/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/mockito/</loc>
+    <loc>/tags/mockito/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/roboloectric/</loc>
+    <loc>/tags/roboloectric/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/dns/</loc>
+    <loc>/tags/dns/</loc>
     <lastmod>2018-08-13T00:50:25+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/general_dns_over_tls/</loc>
+    <loc>/post/dns-over-tls-nedir/</loc>
     <lastmod>2018-08-13T00:50:25+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/dns-over-tls/</loc>
+    <loc>/tags/dns-over-tls/</loc>
     <lastmod>2018-08-13T00:50:25+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/network/</loc>
+    <loc>/categories/network/</loc>
     <lastmod>2018-08-13T00:50:25+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/ssl/</loc>
+    <loc>/tags/ssl/</loc>
     <lastmod>2018-08-13T00:50:25+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/tls/</loc>
+    <loc>/tags/tls/</loc>
     <lastmod>2018-08-13T00:50:25+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/encrypted-data/</loc>
+    <loc>/tags/encrypted-data/</loc>
     <lastmod>2018-08-12T23:12:07+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/network/</loc>
+    <loc>/tags/network/</loc>
     <lastmod>2018-08-12T23:12:07+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/general_tls_ssl/</loc>
+    <loc>/post/tls-vs-ssl/</loc>
     <lastmod>2018-08-12T23:12:07+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/arduino/</loc>
+    <loc>/tags/arduino/</loc>
     <lastmod>2018-08-03T22:21:48+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/iot/</loc>
+    <loc>/categories/iot/</loc>
     <lastmod>2018-08-03T22:21:48+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/iot/</loc>
+    <loc>/tags/iot/</loc>
     <lastmod>2018-08-03T22:21:48+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/motor/</loc>
+    <loc>/categories/motor/</loc>
     <lastmod>2018-08-03T22:21:48+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/motor/</loc>
+    <loc>/tags/motor/</loc>
     <lastmod>2018-08-03T22:21:48+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/iot_step_motor/</loc>
+    <loc>/post/step-motor-nedir/</loc>
     <lastmod>2018-08-03T22:21:48+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_backstack_navigate/</loc>
+    <loc>/post/android-backstack-navigate/</loc>
     <lastmod>2018-05-04T17:38:15+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/backstack/</loc>
+    <loc>/tags/backstack/</loc>
     <lastmod>2018-05-04T17:38:15+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/navigate/</loc>
+    <loc>/tags/navigate/</loc>
     <lastmod>2018-05-04T17:38:15+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_arc_component/</loc>
+    <loc>/post/android-architecture-components/</loc>
     <lastmod>2017-08-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/android-architecure/</loc>
+    <loc>/tags/android-architecure/</loc>
     <lastmod>2017-08-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/lifecycle/</loc>
+    <loc>/tags/lifecycle/</loc>
     <lastmod>2017-08-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/livedata/</loc>
+    <loc>/tags/livedata/</loc>
     <lastmod>2017-08-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/software/</loc>
+    <loc>/tags/software/</loc>
     <lastmod>2018-09-25T11:51:07+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/viewmodel/</loc>
+    <loc>/tags/viewmodel/</loc>
     <lastmod>2017-08-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/yazilim/</loc>
+    <loc>/categories/yazilim/</loc>
     <lastmod>2018-09-25T11:51:07+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/cloud/</loc>
+    <loc>/tags/cloud/</loc>
     <lastmod>2017-07-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/cloud-dns/</loc>
+    <loc>/tags/cloud-dns/</loc>
     <lastmod>2017-07-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/custom-dns/</loc>
+    <loc>/tags/custom-dns/</loc>
     <lastmod>2017-07-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/domain/</loc>
+    <loc>/tags/domain/</loc>
     <lastmod>2017-07-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/gcloud/</loc>
+    <loc>/tags/gcloud/</loc>
     <lastmod>2017-07-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/gcloud_custom_dns/</loc>
+    <loc>/post/google-cloud-dns/</loc>
     <lastmod>2017-07-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/annotations/</loc>
+    <loc>/tags/annotations/</loc>
     <lastmod>2017-07-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/jvmoverloads/</loc>
+    <loc>/tags/jvmoverloads/</loc>
     <lastmod>2017-07-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/kotlin_jvmoverloads/</loc>
+    <loc>/post/kotlin-jvmoverloads/</loc>
     <lastmod>2017-07-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/enum/</loc>
+    <loc>/tags/enum/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/kotlin_sealed_class/</loc>
+    <loc>/post/kotlin-sealed-class/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/sealed/</loc>
+    <loc>/tags/sealed/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/kotlin_lambda/</loc>
+    <loc>/post/kotlin-lambda/</loc>
     <lastmod>2017-06-18T02:24:37+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/lambda/</loc>
+    <loc>/tags/lambda/</loc>
     <lastmod>2017-06-18T02:24:37+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/apply/</loc>
+    <loc>/tags/apply/</loc>
     <lastmod>2017-06-06T10:47:58+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/extensin-function/</loc>
+    <loc>/tags/extensin-function/</loc>
     <lastmod>2017-06-06T10:47:58+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/kotlin_apply/</loc>
+    <loc>/post/kotlin-apply-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-06-06T10:47:58+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/kotlin_when/</loc>
+    <loc>/post/kotlin-when-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-06-06T04:42:56+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/when/</loc>
+    <loc>/tags/when/</loc>
     <lastmod>2017-06-06T04:42:56+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/kotlin_let/</loc>
+    <loc>/post/kotlin-let-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-06-06T04:33:06+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/let/</loc>
+    <loc>/tags/let/</loc>
     <lastmod>2017-06-06T04:33:06+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/oauth/</loc>
+    <loc>/tags/oauth/</loc>
     <lastmod>2017-05-17T11:58:43+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/okhttp/</loc>
+    <loc>/tags/okhttp/</loc>
     <lastmod>2017-05-17T11:58:43+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/retrofit/</loc>
+    <loc>/tags/retrofit/</loc>
     <lastmod>2017-05-17T11:58:43+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_oauth_retrofit/</loc>
+    <loc>/post/retrofit-oauth/</loc>
     <lastmod>2017-05-17T11:58:43+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/dynamiclink/</loc>
+    <loc>/tags/dynamiclink/</loc>
     <lastmod>2017-04-17T01:53:03+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/firebase/</loc>
+    <loc>/tags/firebase/</loc>
     <lastmod>2017-04-17T01:53:03+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/firebase_dynamiclink/</loc>
+    <loc>/post/firebase-dynamic-links/</loc>
     <lastmod>2017-04-17T01:53:03+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/arduino/</loc>
+    <loc>/categories/arduino/</loc>
     <lastmod>2017-03-12T23:40:36+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/arduino_hc06/</loc>
+    <loc>/post/arduino-hc-06-bluetooth-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-03-12T23:40:36+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/bluetooth/</loc>
+    <loc>/tags/bluetooth/</loc>
     <lastmod>2017-03-12T23:40:36+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/hc-06/</loc>
+    <loc>/tags/hc-06/</loc>
     <lastmod>2017-03-12T23:40:36+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/hc06/</loc>
+    <loc>/tags/hc06/</loc>
     <lastmod>2017-03-12T23:40:36+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/yeoman/</loc>
+    <loc>/tags/yeoman/</loc>
     <lastmod>2017-01-18T12:09:26+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/yeoman_scaffolding/</loc>
+    <loc>/post/yeoman-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-18T12:09:26+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/c#/</loc>
+    <loc>/tags/c#/</loc>
     <lastmod>2017-01-16T11:13:16+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/c#/</loc>
+    <loc>/categories/c#/</loc>
     <lastmod>2017-01-16T11:13:16+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/csharp_soruisareti_operator/</loc>
+    <loc>/post/csharp-null-kontrol%C3%BC/</loc>
     <lastmod>2017-01-16T11:13:16+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/null-condition/</loc>
+    <loc>/tags/null-condition/</loc>
     <lastmod>2017-01-16T11:13:16+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/operator/</loc>
+    <loc>/tags/operator/</loc>
     <lastmod>2017-01-16T11:13:16+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/soru-isareti/</loc>
+    <loc>/tags/soru-isareti/</loc>
     <lastmod>2017-01-16T11:13:16+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/addjavascriptinterface/</loc>
+    <loc>/tags/addjavascriptinterface/</loc>
     <lastmod>2017-01-11T19:59:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/android-webview-etkilesimi/</loc>
+    <loc>/android-webview-etkilesimi/</loc>
     <lastmod>2017-01-11T19:59:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/java/</loc>
+    <loc>/tags/java/</loc>
     <lastmod>2018-09-25T11:51:07+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/java/</loc>
+    <loc>/categories/java/</loc>
     <lastmod>2018-09-25T11:51:07+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/javascriptinterface/</loc>
+    <loc>/tags/javascriptinterface/</loc>
     <lastmod>2017-01-11T19:59:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/sofware/</loc>
+    <loc>/tags/sofware/</loc>
     <lastmod>2017-01-11T19:59:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/webview/</loc>
+    <loc>/tags/webview/</loc>
     <lastmod>2017-01-11T19:59:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/webviewclient/</loc>
+    <loc>/tags/webviewclient/</loc>
     <lastmod>2017-01-11T19:59:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/bash-script/</loc>
+    <loc>/tags/bash-script/</loc>
     <lastmod>2017-01-11T19:56:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/docker/</loc>
+    <loc>/categories/docker/</loc>
     <lastmod>2017-01-11T19:56:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/docker/</loc>
+    <loc>/tags/docker/</loc>
     <lastmod>2017-01-11T19:56:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/docker_komutlari/</loc>
+    <loc>/post/docker-komutlar%C4%B1/</loc>
     <lastmod>2017-01-11T19:56:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/docker/</loc>
+    <loc>/post/docker/</loc>
     <lastmod>2017-01-11T19:55:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/execute/</loc>
+    <loc>/tags/execute/</loc>
     <lastmod>2017-01-11T19:26:49+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/executorservice/</loc>
+    <loc>/tags/executorservice/</loc>
     <lastmod>2017-01-11T19:26:49+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/java_executorservice_submit_execute/</loc>
+    <loc>/post/executorservice-submit-execute/</loc>
     <lastmod>2017-01-11T19:26:49+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/submit/</loc>
+    <loc>/tags/submit/</loc>
     <lastmod>2017-01-11T19:26:49+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/callable/</loc>
+    <loc>/tags/callable/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/java_executor_service_threadpool/</loc>
+    <loc>/post/executor-newcachedthreadpool-newfixedthreadpooln-newsinglethreadexecutor/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/executors/</loc>
+    <loc>/tags/executors/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/multithread/</loc>
+    <loc>/tags/multithread/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/newcachedthreadpool/</loc>
+    <loc>/tags/newcachedthreadpool/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/newfixedthreadpool/</loc>
+    <loc>/tags/newfixedthreadpool/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/newsinglethreadexecutor/</loc>
+    <loc>/tags/newsinglethreadexecutor/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/runnable/</loc>
+    <loc>/tags/runnable/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/java_runnable_callable/</loc>
+    <loc>/post/runnable-callable/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/thread/</loc>
+    <loc>/tags/thread/</loc>
     <lastmod>2017-01-11T18:55:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/rxjava/</loc>
+    <loc>/categories/rxjava/</loc>
     <lastmod>2017-01-11T18:52:51+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/rxjava/</loc>
+    <loc>/tags/rxjava/</loc>
     <lastmod>2017-01-11T18:52:51+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_rxjava_range/</loc>
+    <loc>/post/rxjava-range-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T18:52:51+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_rxjava_scan/</loc>
+    <loc>/post/rxjava-scan-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T18:49:21+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/reduce/</loc>
+    <loc>/tags/reduce/</loc>
     <lastmod>2017-01-11T18:42:04+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_rxjava_reduce/</loc>
+    <loc>/post/rxjava-reduce-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T18:42:04+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/express/</loc>
+    <loc>/tags/express/</loc>
     <lastmod>2017-01-11T18:14:05+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/intellisense/</loc>
+    <loc>/tags/intellisense/</loc>
     <lastmod>2017-01-11T18:14:05+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/nodejs/</loc>
+    <loc>/tags/nodejs/</loc>
     <lastmod>2017-01-11T18:14:05+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/typescript/</loc>
+    <loc>/tags/typescript/</loc>
     <lastmod>2017-01-11T18:14:05+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/vscode_express_typescript_intellisense/</loc>
+    <loc>/post/vs-code-express-typescript-intellisense/</loc>
     <lastmod>2017-01-11T18:14:05+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/vscode/</loc>
+    <loc>/tags/vscode/</loc>
     <lastmod>2017-01-11T18:14:05+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/vscode/</loc>
+    <loc>/categories/vscode/</loc>
     <lastmod>2017-01-11T18:14:05+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/tcp/</loc>
+    <loc>/tags/tcp/</loc>
     <lastmod>2017-01-11T18:05:02+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/tcp/ip/</loc>
+    <loc>/tags/tcp/ip/</loc>
     <lastmod>2017-01-11T18:05:02+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/tcp_ip/</loc>
+    <loc>/post/tcp/ip-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r/</loc>
     <lastmod>2017-01-11T18:05:02+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_library/</loc>
+    <loc>/post/android-library-bintray/</loc>
     <lastmod>2017-01-11T17:27:29+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/bintray/</loc>
+    <loc>/tags/bintray/</loc>
     <lastmod>2017-01-11T17:27:29+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/gradle/</loc>
+    <loc>/tags/gradle/</loc>
     <lastmod>2017-01-11T17:27:29+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/library/</loc>
+    <loc>/tags/library/</loc>
     <lastmod>2017-01-11T17:27:29+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_runtime_permission/</loc>
+    <loc>/post/android-runtime-permission/</loc>
     <lastmod>2017-01-11T17:24:52+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/runtime-permission/</loc>
+    <loc>/tags/runtime-permission/</loc>
     <lastmod>2017-01-11T17:24:52+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/klon/</loc>
+    <loc>/tags/klon/</loc>
     <lastmod>2017-01-11T17:22:38+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/macos_arduino_uno_klon_kurulum/</loc>
+    <loc>/post/mac-os-arduino-uno-klon-kurulumu/</loc>
     <lastmod>2017-01-11T17:22:38+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/uno/</loc>
+    <loc>/tags/uno/</loc>
     <lastmod>2017-01-11T17:22:38+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/mssql/</loc>
+    <loc>/tags/mssql/</loc>
     <lastmod>2017-01-11T17:20:37+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/sql/</loc>
+    <loc>/categories/sql/</loc>
     <lastmod>2017-01-11T17:20:37+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/sql/</loc>
+    <loc>/tags/sql/</loc>
     <lastmod>2017-01-11T17:20:37+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/sql_scope_identity/</loc>
+    <loc>/post/sql-scope_identity/</loc>
     <lastmod>2017-01-11T17:20:37+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/sql_scope_identity/</loc>
+    <loc>/tags/sql_scope_identity/</loc>
     <lastmod>2017-01-11T17:20:37+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/javascript/</loc>
+    <loc>/categories/javascript/</loc>
     <lastmod>2017-01-11T17:14:22+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/javascript/</loc>
+    <loc>/tags/javascript/</loc>
     <lastmod>2017-01-11T17:14:22+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/javascript_sacmaliklari/</loc>
+    <loc>/post/javascript-gariplikleri/</loc>
     <lastmod>2017-01-11T17:14:22+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_glide_palette/</loc>
+    <loc>/post/android-glide-ve-palette-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T17:11:30+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/glide/</loc>
+    <loc>/tags/glide/</loc>
     <lastmod>2017-01-11T17:11:30+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/palette/</loc>
+    <loc>/tags/palette/</loc>
     <lastmod>2017-01-11T17:11:30+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_viewpager/</loc>
+    <loc>/post/android-viewpager/</loc>
     <lastmod>2017-01-11T17:07:51+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/viewpager/</loc>
+    <loc>/tags/viewpager/</loc>
     <lastmod>2017-01-11T17:07:51+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/collections/</loc>
+    <loc>/tags/collections/</loc>
     <lastmod>2017-01-11T16:10:10+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/java_collections/</loc>
+    <loc>/post/java-collections/</loc>
     <lastmod>2017-01-11T16:10:10+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/swap/</loc>
+    <loc>/tags/swap/</loc>
     <lastmod>2017-01-11T16:10:10+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_toolbar_custom_title/</loc>
+    <loc>/post/android-custom-toolbar-title/</loc>
     <lastmod>2017-01-11T16:01:33+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/toolbar/</loc>
+    <loc>/tags/toolbar/</loc>
     <lastmod>2017-01-11T16:01:33+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/dbeaver/</loc>
+    <loc>/tags/dbeaver/</loc>
     <lastmod>2017-01-11T15:50:10+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/macos_mssql_connection/</loc>
+    <loc>/post/mac-os-ile-mssql-ba%C4%9Flant%C4%B1s%C4%B1-kurmak/</loc>
     <lastmod>2017-01-11T15:50:10+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/macos-mssql-connection/</loc>
+    <loc>/tags/macos-mssql-connection/</loc>
     <lastmod>2017-01-11T15:50:10+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/custom-script/</loc>
+    <loc>/tags/custom-script/</loc>
     <lastmod>2017-01-11T15:39:47+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/sql_management_studio_custom_scrips/</loc>
+    <loc>/post/sql-management-studio-custom-generate-scripts/</loc>
     <lastmod>2017-01-11T15:39:47+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/foreground-service/</loc>
+    <loc>/tags/foreground-service/</loc>
     <lastmod>2017-01-11T15:27:59+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_foregroundservice_fusedlocationapi/</loc>
+    <loc>/post/foreground-service-ile-fusedlocationapi-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T15:27:59+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/fusedlocationapi/</loc>
+    <loc>/tags/fusedlocationapi/</loc>
     <lastmod>2017-01-11T15:27:59+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/file-upload/</loc>
+    <loc>/tags/file-upload/</loc>
     <lastmod>2017-01-11T01:50:51+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/multipart/</loc>
+    <loc>/tags/multipart/</loc>
     <lastmod>2017-01-11T01:50:51+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_retrofit_multipart/</loc>
+    <loc>/post/retrofit-multipart-file-upload/</loc>
     <lastmod>2017-01-11T01:50:51+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_gcmnetworkmanager/</loc>
+    <loc>/post/android-gcmnetworkmanager-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T01:43:53+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/gcmnetworkmanager/</loc>
+    <loc>/tags/gcmnetworkmanager/</loc>
     <lastmod>2017-01-11T01:43:53+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_sms_receiver/</loc>
+    <loc>/post/android-sms-receiver/</loc>
     <lastmod>2018-09-25T11:51:07+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/sms/</loc>
+    <loc>/tags/sms/</loc>
     <lastmod>2018-09-25T11:51:07+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/sms-receiver/</loc>
+    <loc>/tags/sms-receiver/</loc>
     <lastmod>2018-09-25T11:51:07+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_internet_connection_receiver/</loc>
+    <loc>/post/android-internet-connection-receiver/</loc>
     <lastmod>2017-01-11T01:42:36+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/broadcast-receiver/</loc>
+    <loc>/tags/broadcast-receiver/</loc>
     <lastmod>2017-01-11T01:42:36+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/internet-control/</loc>
+    <loc>/tags/internet-control/</loc>
     <lastmod>2017-01-11T01:42:36+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/api-test/</loc>
+    <loc>/tags/api-test/</loc>
     <lastmod>2017-01-11T01:09:39+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/postman/</loc>
+    <loc>/tags/postman/</loc>
     <lastmod>2017-01-11T01:09:39+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/postman_api_test/</loc>
+    <loc>/post/postman-ile-api-test-yaz%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T01:09:39+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/activeandroid/</loc>
+    <loc>/tags/activeandroid/</loc>
     <lastmod>2017-01-11T01:00:19+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_activeandroid/</loc>
+    <loc>/post/android-activeandroid-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T01:00:19+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/orm/</loc>
+    <loc>/tags/orm/</loc>
     <lastmod>2017-01-11T01:00:19+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/orm/</loc>
+    <loc>/categories/orm/</loc>
     <lastmod>2017-01-11T01:00:19+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/sqlite/</loc>
+    <loc>/tags/sqlite/</loc>
     <lastmod>2017-01-11T01:00:19+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/android-test/</loc>
+    <loc>/tags/android-test/</loc>
     <lastmod>2017-01-11T00:31:52+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/robolectric/</loc>
+    <loc>/tags/robolectric/</loc>
     <lastmod>2017-01-11T00:31:52+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_robolectric/</loc>
+    <loc>/post/robolectric-ile-unittest-yaz%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T00:31:52+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/unit-test/</loc>
+    <loc>/tags/unit-test/</loc>
     <lastmod>2017-01-11T00:27:54+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/unittest_nedir_nicin_kullanilir/</loc>
+    <loc>/post/unit-test-nedir-ni%C3%A7in-ve-nas%C4%B1l-yap%C4%B1l%C4%B1r/</loc>
     <lastmod>2017-01-11T00:27:54+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/azure/</loc>
+    <loc>/categories/azure/</loc>
     <lastmod>2017-01-11T00:21:36+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/azure/</loc>
+    <loc>/tags/azure/</loc>
     <lastmod>2017-01-11T00:21:36+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/azure_notification_hubs_kullanimi/</loc>
+    <loc>/post/azure-mobile-services-ve-notification-hubs-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T00:21:36+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/notification-hubs/</loc>
+    <loc>/tags/notification-hubs/</loc>
     <lastmod>2017-01-11T00:21:36+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/recaptcha/</loc>
+    <loc>/tags/recaptcha/</loc>
     <lastmod>2017-01-11T00:14:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/recaptcha_kullanimi/</loc>
+    <loc>/post/recaptcha-kullan%C4%B1m%C4%B1/</loc>
     <lastmod>2017-01-11T00:14:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_keyhashes_sha1/</loc>
+    <loc>/post/android-key-hashes-sha1/</loc>
     <lastmod>2017-01-10T23:56:35+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/keyhashes/</loc>
+    <loc>/tags/keyhashes/</loc>
     <lastmod>2017-01-10T23:56:35+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/sha1/</loc>
+    <loc>/tags/sha1/</loc>
     <lastmod>2017-01-10T23:56:35+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/hosts/</loc>
+    <loc>/tags/hosts/</loc>
     <lastmod>2017-01-10T23:20:12+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/iis/</loc>
+    <loc>/tags/iis/</loc>
     <lastmod>2017-01-10T23:20:12+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/iis/</loc>
+    <loc>/categories/iis/</loc>
     <lastmod>2017-01-10T23:20:12+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/local_iis_site_kurulumu/</loc>
+    <loc>/post/local-iis-site-kurulumu/</loc>
     <lastmod>2017-01-10T23:20:12+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/localwebserver/</loc>
+    <loc>/tags/localwebserver/</loc>
     <lastmod>2017-01-10T23:20:12+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/site/</loc>
+    <loc>/tags/site/</loc>
     <lastmod>2017-01-10T23:20:12+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/windows/</loc>
+    <loc>/categories/windows/</loc>
     <lastmod>2017-01-10T23:20:12+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/nullif/</loc>
+    <loc>/tags/nullif/</loc>
     <lastmod>2017-01-10T23:08:34+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/tsql/</loc>
+    <loc>/tags/tsql/</loc>
     <lastmod>2017-01-10T23:08:34+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/tsql_nullif_kullanimi/</loc>
+    <loc>/post/tsql-nullif-fonksiyonu-nedir-ve-nas%C4%B1l-kullan%C4%B1l%C4%B1r/</loc>
     <lastmod>2017-01-10T23:08:34+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_spinner_text/</loc>
+    <loc>/post/android-spinner-text-g%C3%BCncelleme/</loc>
     <lastmod>2017-01-10T23:00:03+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/spinner/</loc>
+    <loc>/tags/spinner/</loc>
     <lastmod>2017-01-10T23:00:03+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/android_pendingintentflags/</loc>
+    <loc>/post/pendingintent-flags/</loc>
     <lastmod>2017-01-02T14:35:49+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/container/</loc>
+    <loc>/tags/container/</loc>
     <lastmod>2016-12-25T03:51:49+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/docker_installnano/</loc>
+    <loc>/post/docker-container-install-nano/</loc>
     <lastmod>2016-12-25T03:51:49+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/linux/</loc>
+    <loc>/tags/linux/</loc>
     <lastmod>2016-12-25T03:51:49+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/nano/</loc>
+    <loc>/tags/nano/</loc>
     <lastmod>2016-12-25T03:51:49+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/post/kotlin_coroutine/</loc>
+    <loc>/about/</loc>
+    <lastmod>2015-04-14T22:17:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
     <priority>0</priority>
   </url>
   

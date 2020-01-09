@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>dbeaver on Software</title>
-    <link>https://yazilim.aykutasil.com/tags/dbeaver/</link>
-    <description>Recent content in dbeaver on Software</description>
+    <title>dbeaver on </title>
+    <link>/tags/dbeaver/</link>
+    <description>Recent content in dbeaver on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tr</language>
+    <language>en-US</language>
     <lastBuildDate>Wed, 11 Jan 2017 15:50:10 +0300</lastBuildDate>
     
-	<atom:link href="https://yazilim.aykutasil.com/tags/dbeaver/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/dbeaver/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mac OS ile MSSQL Bağlantısı Kurmak</title>
-      <link>https://yazilim.aykutasil.com/post/macos_mssql_connection/</link>
+      <link>/post/mac-os-ile-mssql-ba%C4%9Flant%C4%B1s%C4%B1-kurmak/</link>
       <pubDate>Wed, 11 Jan 2017 15:50:10 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/post/macos_mssql_connection/</guid>
+      <guid>/post/mac-os-ile-mssql-ba%C4%9Flant%C4%B1s%C4%B1-kurmak/</guid>
       <description>MSSQL oldukça gelişmiş ve birçok firma – kişi tarafından kullanılan bir veritabanın sistemidir. Oldukça büyük miktarda verinizi, doğru şekilde tasarlayarak tatmin edici derecede hızlı bir şekilde kontrol edebilirsiniz.
 Senaryomuz şu şekilde;
 Mac OS yüklü bilgisayarımızdan MSSQL yüklü sunucumuza bağlantı kurmak istiyoruz.
