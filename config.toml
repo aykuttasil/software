@@ -2,8 +2,8 @@ baseURL = "https://aykuttasil.github.io/software/"
 
 theme           = "casper-two"
 languageCode    = "en-US"
-disqusShortname = ""
-paginate        = 6
+disqusShortname = "yazilimaykutasil"
+paginate        = 20
 #SectionPagesMenu = "main"
 canonifyurls    = true
 
@@ -16,19 +16,18 @@ canonifyurls    = true
   description = "Aykut Asil Software Notes"
   metaDescription = ""
   googleAnalytics = "UA-42457939-6"
-  disqusShortname = "yazilimaykutasil"
   customCSS = []
   RSSLink = ""
 
   twitterName = "aykuttasil"
   fbName = "aykuttasil"
   githubName = "aykuttasil"
-  linkedinName = "aykutasil"
+  linkedinName = "aykuttasil"
   mediumName = "aykuttasil"
 
   logo = "img/aykutasil.jpg"
-  orgName = "AykutAsil"
-  orgWebsite = "https://www.aykutasil.com"
+  orgName = "AA"
+  orgWebsite = "https://aykutasil.com"
   orgDescription = ""
 
   showSupport = true
@@ -37,9 +36,9 @@ canonifyurls    = true
   authorAvatar = "img/aykutasil.jpg"
   authorLocation = "Istanbul, Turkey"
   authorWebsite = "https://aykutasil.com"
-  authorDescription = "AykutAsil"
+  authorDescription = "Software Developer"
 
-  pageNotFoundTitle = "404 - Page not found"
+  pageNotFoundTitle = "Sayfa Bulunamadı!"
 
   #casper or caspertwo
   singleViewStyle = "casper"
