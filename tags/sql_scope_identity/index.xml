@@ -17,7 +17,7 @@
       <pubDate>Wed, 11 Jan 2017 17:20:37 +0300</pubDate>
       
       <guid>https://aykuttasil.github.io/software/post/sql-scope_identity/</guid>
-      <description>Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id sini getirir.
+      <description>Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id&#39;sini getirir.
 Yapılan son kaydın id sini almak için uzun yol olarak insert sorgusunu çalıştırdıktan sonra bir select sorgusu atarak ve order by id desc diyerek ilk sıradaki kaydı okuyabilir ve bu kaydın id sini alabiliriz.
 Tüm bunları yapmaktansa:
 DECLARE @son_satir_id INT; INSERT INTO tbQwerty ( Ad , Soyad ) VALUES ( &amp;#39;Aykut&amp;#39; &amp;#39;Asil&amp;#39; ) SET @son_satir_id = SCOPE_IDENTITY(); Ayrıntılı Bilgi : https://technet.</description>

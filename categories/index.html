@@ -187,30 +187,26 @@
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/android-internet-connection-receiver/">
+    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/android-sms-receiver/">
       <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/4.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/android-internet-connection-receiver/">
+      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/android-sms-receiver/">
           <header class="post-card-header">
               <span class="post-card-tags">
               #software 
-              #java 
               #android 
-              #broadcast receiver 
-              #internet control  </span>
+              #java 
+              #sms 
+              #sms-receiver  </span>
               
-              <h2 class="post-card-title">Android Internet Connection Receiver </h2>
+              <h2 class="post-card-title">Android SMS Receiver</h2>
           </header>
           <section class="post-card-excerpt">
-              
-                <p>Uygulamanızın akışını internet kontrolü yaparak yönetmeniz gerekebilir.
-Bunun için ilk olarak AndroidManifest.xml dosyasına receiver tanımı yapmalısınız.
-&lt;receiver android:name=&#34;.InternetConnectionReceiver&#34;&gt; &lt;intent-filter&gt; &lt;action android:name=&#34;android.net.conn.CONNECTIVITY_CHANGE&#34; /&gt; &lt;/intent-filter&gt; &lt;/receiver&gt; InternetConnectionReceiver
-public class InternetConnectionReceiver extends BroadcastReceiver { @Override public void onReceive(Context context, Intent intent) { if (CheckConnection(context)) { } } } Yukarıda tanımlanmış olan receiver, cihazın ağ yapısında herhangi bir değişiklik olduğunda bunu yakalar. Örneğin wireless açıkken kapattığınız da veya kapalıyken açtığınız da bunu yakayabilirsiniz.
-CheckConnection ...  </p>
+               
+                <p>Android Test</p>
               
           </section>
       </a>
@@ -225,64 +221,64 @@ CheckConnection ...  </p>
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/android-service/">
+    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/java-collections/">
+      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/6.jpg)"></div>
+    </a>    
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/java-collections/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #software 
+              #android 
+              #java 
+              #collections 
+              #swap  </span>
+              
+              <h2 class="post-card-title">Java Collections</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>Collections.swap Swap kelime anlamı ile takas anlamına gelmektedir. Mevcut dizimiz içerisinde elemanların yerlerini değiştirmeye yarar.
+private static final String[] STRINGS = new String[]{ &#34;1&#34;, &#34;2&#34;, &#34;3&#34;, &#34;4&#34;, &#34;5&#34; }; private final List mItems = new ArrayList&lt;&gt;(); public void setArray() { mItems.addAll(Arrays.asList(STRINGS)); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 1,2,3,4,5  private void elemanYerDegistir() { Collections.swap(mItems, 0, 4); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 5,2,3,4,1  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://aykuttasil.github.io/software/img/aykutasil.jpg" alt="Author" />
+          <span class="post-card-author"><a href="https://aykuttasil.github.io/software/">Aykut Asil</a></span>
+      </footer>
+    </div>
+</article>
+ 
+
+<article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/tsql-nullif-fonksiyonu-nedir-ve-nas%C4%B1l-kullan%C4%B1l%C4%B1r/">
       <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/7.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/android-service/">
+      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/tsql-nullif-fonksiyonu-nedir-ve-nas%C4%B1l-kullan%C4%B1l%C4%B1r/">
           <header class="post-card-header">
               <span class="post-card-tags">
-              #android 
-              #service  </span>
+              #software 
+              #sql 
+              #mssql 
+              #tsql 
+              #nullif  </span>
               
-              <h2 class="post-card-title">Android Service</h2>
+              <h2 class="post-card-title">TSQL NULLIF Fonksiyonu Nedir ve Nasıl Kullanılır</h2>
           </header>
           <section class="post-card-excerpt">
               
-                <p>Android Service Android'in temel bileşenlerinden biri olan Service&lsquo;ler kısaca UI(arayüz) olmayan Activity&lsquo;lere benzetebiliriz. Tabi ki kendine göre ek özellikleri bulunmaktadır. Service tanımlaması AndroidManifest.xml içerisinde tanımlı olmalıdır. Aksi takdirde çalışmaz. &lt;service&gt; elementinin alabileceği özellikler aşağıdaki gibidir.
-Niçin kullanılır? Temel olarak ifade etmek gerekirse Service&lsquo;lerin kullanım amacı uzun süren ve arka planda(background) çalışan taskler oluşturmaktır. Bununla birlikte diğer uygulamalar tarafından çağırılabilen iletişim imkanı sağlar.
-Service tanımlanması &lt;service android:description=&#34;string resource&#34; android:directBootAware=[&#34;true&#34; | &#34;false&#34;] android:enabled=[&#34;true&#34; | &#34;false&#34;] android:exported=[&#34;true&#34; | &#34;false&#34;] android:icon=&#34;drawable resource&#34; android:isolatedProcess=[&#34;true&#34; | &#34;false&#34;] android:label=&#34;string resource&#34; android:name=&#34;string&#34; android:permission=&#34;string&#34; android:process=&#34;string&#34; &gt; . ...  </p>
-              
-          </section>
-      </a>
-
-      <footer class="post-card-meta">
-          <img class="author-profile-image" src="https://aykuttasil.github.io/software/img/aykutasil.jpg" alt="Author" />
-          <span class="post-card-author"><a href="https://aykuttasil.github.io/software/">Aykut Asil</a></span>
-      </footer>
-    </div>
-</article>
- 
-
-<article class="post-card post"> 
-    
-    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/docker/">
-      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/1.jpg)"></div>
-    </a>    
-    
-
-    <div class="post-card-content">
-      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/docker/">
-          <header class="post-card-header">
-              <span class="post-card-tags">
-              #sofware 
-              #docker  </span>
-              
-              <h2 class="post-card-title">Docker</h2>
-          </header>
-          <section class="post-card-excerpt">
-              
-                <p>DOCKER
- Docker aldı başını gidiyor. Yeni bir devrim açıyor.
-E haliyle yazılım dünyası buna sessiz kalmamakla beraber bir çok Docker nedir? örnekleri vs. hazırlanıyor.
-Bu nedenle biz Docker nedir? tanımlamasından daha çok hızlı ilerlemeler şeklinde ufak uygulamalar geliştiricez. Bende bu yazı serisiyle paralel şekilde öğrenimimi sağlayacağımı belirtmek isterim ! 🙂
-Başlıyoruz..
-İlk olarak makinemize Docker ı kuralım.
-  Mac: https://docs.docker.com/docker-for-mac/
-  Windows : https://docs.docker.com/docker-for-windows/
-  İndirip kurulumu sağladıktan sonra terminali açarak ...  </p>
+                <p>TSQL NULLIF fonksiyonu NULLIF fonksiyonu verilen iki parametre birbirine esit ise NULL deger döndürür eger degerleri fakli iki parametre verilirse sonuç olarak birinci parametrenin degerini döndürür.
+Kullanimi ve anlamasi kolay bir fonksiyon oldugu için basit bir örnekle anlatmaya çalisalim.
+Ilk olarak kullanacagimiz geçici tabloyu asagidaki gibi çalistirip içine insert komutu ile veri kaydedelim.
+CREATE TABLE #Urun ( UrunID TINYINT, ListeFiyati DECIMAL NULL); GO INSERT #Urun VALUES(1,100); INSERT #Urun VALUES(2,NULL); INSERT #Urun VALUES(3,0); INSERT #Urun VALUES(7,250); INSERT #Urun VALUES(9,458); ListeFiyati kolonuna göre count yaparsak sonuç olarak 4 dönecegini görürsünüz, çünkü UrunID’si 2 olan ürünün liste fiyati girilmemistir. ...  </p>
               
           </section>
       </a>

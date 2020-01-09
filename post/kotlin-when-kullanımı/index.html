@@ -116,36 +116,35 @@ if- else if yapısı yerine kullanılabileceği gibi bazı yardımcı operatörl
         <h1 class="post-full-title">Kotlin when kullanımı</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/6.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/7.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
         <p>Kotlin'de <code>when</code> operatörü oldukça işimizi kolaylaştıran operatörlerden biridir.</p>
 <p><code>if- else if</code> yapısı yerine kullanılabileceği gibi bazı yardımcı operatörler ile birçok marifet kazanabilir.</p>
-<pre><code>    val i = 10
-    when {
-        i &lt; 7 -&gt; println(&quot;first block&quot;)
-        fooString.startsWith(&quot;hello&quot;) -&gt; println(&quot;second block&quot;)
-        else -&gt; println(&quot;else block&quot;)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin">    <span style="color:#66d9ef">val</span> i = <span style="color:#ae81ff">10</span>
+    <span style="color:#66d9ef">when</span> {
+        i &lt; <span style="color:#ae81ff">7</span> -&gt; println(<span style="color:#e6db74">&#34;first block&#34;</span>)
+        fooString.startsWith(<span style="color:#e6db74">&#34;hello&#34;</span>) -&gt; println(<span style="color:#e6db74">&#34;second block&#34;</span>)
+        <span style="color:#66d9ef">else</span> -&gt; println(<span style="color:#e6db74">&#34;else block&#34;</span>)
     }
-</code></pre><p>Yukarıda ki örnek if-else if-else yapısının aynısıdır.</p>
+</code></pre></div><p>Yukarıda ki örnek if-else if-else yapısının aynısıdır.</p>
 <hr>
-<pre><code>    when (i) {
-        0, 21 -&gt; println(&quot;0 or 21&quot;)
-        in 1..20 -&gt; println(&quot;in the range 1 to 20&quot;)
-        else -&gt; println(&quot;none of the above&quot;)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin">    <span style="color:#66d9ef">when</span> (i) {
+        <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">21</span> -&gt; println(<span style="color:#e6db74">&#34;0 or 21&#34;</span>)
+        <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1.</span>.<span style="color:#ae81ff">20</span> -&gt; println(<span style="color:#e6db74">&#34;in the range 1 to 20&#34;</span>)
+        <span style="color:#66d9ef">else</span> -&gt; println(<span style="color:#e6db74">&#34;none of the above&#34;</span>)
     }
-</code></pre><p>Yukarıda ki gibi aralıklar tanımlanabilir ve bu aralıklara uyum kontrolü yapılarak ilgili işlemlerin yapılması sağlanılabilir.</p>
+</code></pre></div><p>Yukarıda ki gibi aralıklar tanımlanabilir ve bu aralıklara uyum kontrolü yapılarak ilgili işlemlerin yapılması sağlanılabilir.</p>
 <hr>
-<pre><code>
-    var result = when (i) {
-        0, 21 -&gt; &quot;0 or 21&quot;
-        in 1..20 -&gt; &quot;in the range 1 to 20&quot;
-        else -&gt; &quot;none of the above&quot;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin">    <span style="color:#66d9ef">var</span> result = <span style="color:#66d9ef">when</span> (i) {
+        <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">21</span> -&gt; <span style="color:#e6db74">&#34;0 or 21&#34;</span>
+        <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1.</span>.<span style="color:#ae81ff">20</span> -&gt; <span style="color:#e6db74">&#34;in the range 1 to 20&#34;</span>
+        <span style="color:#66d9ef">else</span> -&gt; <span style="color:#e6db74">&#34;none of the above&#34;</span>
     }
     println(result)
-</code></pre><p>Yukarıda ki gibi <code>when</code> sonucu bir değişkene atanarak istenilen yerde kullanılabilir.</p>
+</code></pre></div><p>Yukarıda ki gibi <code>when</code> sonucu bir değişkene atanarak istenilen yerde kullanılabilir.</p>
     
         </div>
     </section>
@@ -206,13 +205,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://aykuttasil.github.io/software/post/arduino-hc-06-bluetooth-kullan%C4%B1m%C4%B1/">Arduino HC-06 Bluetooth Kullanımı</a></li>            
+          <li><a href="https://aykuttasil.github.io/software/post/tls-vs-ssl/">TLS vs SSL</a></li>            
         
-          <li><a href="https://aykuttasil.github.io/software/post/runnable-callable/">Runnable() &amp; Callable()</a></li>            
+          <li><a href="https://aykuttasil.github.io/software/post/android-file-system/">Android File System</a></li>            
         
-          <li><a href="https://aykuttasil.github.io/software/post/mac-os-arduino-uno-klon-kurulumu/">Mac OS Arduino Uno (Klon) Kurulumu</a></li>            
+          <li><a href="https://aykuttasil.github.io/software/post/rxjava-reduce-kullan%C4%B1m%C4%B1/">RxJava reduce() Kullanımı</a></li>            
         
-          <li><a href="https://aykuttasil.github.io/software/post/csharp-null-kontrol%C3%BC/">CSharp Null Kontrolü</a></li>            
+          <li><a href="https://aykuttasil.github.io/software/post/ssh-s%C3%BCrekli-parola-istemesi-sorunu/">SSH Sürekli Parola İstemesi Sorunu</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -226,7 +225,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/kotlin-apply-kullan%C4%B1m%C4%B1/">
-      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/3.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/1.jpg)"></div>
     </a>    
     
 
@@ -262,7 +261,7 @@ File(dir).apply { mkdirs() }  </p>
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/kotlin-let-kullan%C4%B1m%C4%B1/">
-      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/1.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/4.jpg)"></div>
     </a>    
     
 

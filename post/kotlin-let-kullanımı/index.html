@@ -113,34 +113,34 @@
         <h1 class="post-full-title">Kotlin Let Kullanımı</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/5.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/4.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
-        <h1 id="kotlin">Kotlin</h1>
-<pre><code>fun &lt;T, R&gt; T.let(f: (T) -&gt; R): R = f(this)
-</code></pre><p><code>let()</code> temel olarak, belirli bir kapsam için bir <strong>değişken/kod bloğu</strong> oluşturmamızı sağlayan bir kapsamlayıcı işlevdir. Yani <code>let()</code> bir sarmalıyıcı fonksiyondur.</p>
+        <h2 id="kotlin">Kotlin</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin"><span style="color:#66d9ef">fun</span> &lt;T, R&gt; <span style="color:#a6e22e">T</span>.let(f: (T) -&gt; R): R = f(<span style="color:#66d9ef">this</span>)
+</code></pre></div><p><code>let()</code> temel olarak, belirli bir kapsam için bir <strong>değişken/kod bloğu</strong> oluşturmamızı sağlayan bir kapsamlayıcı işlevdir. Yani <code>let()</code> bir sarmalıyıcı fonksiyondur.</p>
 <p>Örneğin:</p>
-<pre><code>private var mPhotoUrl: String? = null
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin"><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">var</span> mPhotoUrl: String? = <span style="color:#66d9ef">null</span>
 
-fun uploadClicked() {
-    if (mPhotoUrl != null) {
-        uploadPhoto(mPhotoUrl!!)
+<span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">uploadClicked</span>() {
+    <span style="color:#66d9ef">if</span> (mPhotoUrl != <span style="color:#66d9ef">null</span>) {
+        uploadPhoto(mPhotoUrl<span style="color:#f92672">!!</span>)
     }
 }
-</code></pre><p>Yukarıda ki <code>if (mPhotoUrl != null)</code> satırı ile null kontrolü yapılır ve eğer <code>null</code> değilse <code>uploadPhoto(mPhotoUrl!!)</code> kod bloğu çalıştırılır. Bu kodu <code>let()</code> ile çok daha kolay ve anlaşılır hale getirebiliriz.</p>
-<pre><code>    private var mPhotoUrl: String? = null
+</code></pre></div><p>Yukarıda ki <code>if (mPhotoUrl != null)</code> satırı ile null kontrolü yapılır ve eğer <code>null</code> değilse <code>uploadPhoto(mPhotoUrl!!)</code> kod bloğu çalıştırılır. Bu kodu <code>let()</code> ile çok daha kolay ve anlaşılır hale getirebiliriz.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin">    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">var</span> mPhotoUrl: String? = <span style="color:#66d9ef">null</span>
 
-    fun uploadClicked() {
-        mPhotoUrl?.let { uploadPhoto(it) }
+    <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">uploadClicked</span>() {
+        mPhotoUrl<span style="color:#f92672">?.</span>let { uploadPhoto(it) }
     }
-</code></pre><hr>
+</code></pre></div><hr>
 <p><strong>Not:</strong> <code>let()</code> ile sarmalanan bir kod bloğu içerisinde sarmalayıcıya <code>it</code> ile ulaşılabilir.</p>
-<pre><code>File(&quot;a.txt&quot;).let {
-    // it kullanılarak file nesnesine erişilebilir.
-}
-</code></pre>    
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin">File(<span style="color:#e6db74">&#34;a.txt&#34;</span>).let {
+    <span style="color:#75715e">// it kullanılarak file nesnesine erişilebilir.
+</span><span style="color:#75715e"></span>}
+</code></pre></div>    
         </div>
     </section>
 
@@ -200,13 +200,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://aykuttasil.github.io/software/post/rxjava-range-kullan%C4%B1m%C4%B1/">RxJava range() Kullanımı</a></li>            
+          <li><a href="https://aykuttasil.github.io/software/post/android-kotlin-test-final-type-problem/">Android Kotlin Test - Final Type Problem</a></li>            
         
-          <li><a href="https://aykuttasil.github.io/software/post/amp/">AMP</a></li>            
+          <li><a href="https://aykuttasil.github.io/software/post/retrofit-multipart-file-upload/">Retrofit Multipart File Upload</a></li>            
         
-          <li><a href="https://aykuttasil.github.io/software/post/android-backstack-navigate/">Android Backstack Navigate</a></li>            
+          <li><a href="https://aykuttasil.github.io/software/post/android-test/">Android Test</a></li>            
         
-          <li><a href="https://aykuttasil.github.io/software/post/asp.net-core-filters/">ASP.NET Core Filters</a></li>            
+          <li><a href="https://aykuttasil.github.io/software/post/android-dagger/">Android Dagger</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -220,7 +220,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/kotlin-when-kullan%C4%B1m%C4%B1/">
-      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/5.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/4.jpg)"></div>
     </a>    
     
 
@@ -239,8 +239,8 @@ s.setAttribute('data-timestamp', +new Date());
               
                 <p>Kotlin'de when operatörü oldukça işimizi kolaylaştıran operatörlerden biridir.
 if- else if yapısı yerine kullanılabileceği gibi bazı yardımcı operatörler ile birçok marifet kazanabilir.
- val i = 10 when { i &lt; 7 -&gt; println(&quot;first block&quot;) fooString.startsWith(&quot;hello&quot;) -&gt; println(&quot;second block&quot;) else -&gt; println(&quot;else block&quot;) } Yukarıda ki örnek if-else if-else yapısının aynısıdır.
-  when (i) { 0, 21 -&gt; println(&quot;0 or 21&quot;) in 1..20 -&gt; println(&quot;in the range 1 to 20&quot;) else -&gt; println(&quot;none of the above&quot;) } Yukarıda ki gibi aralıklar tanımlanabilir ve bu aralıklara uyum kontrolü yapılarak ilgili işlemlerin yapılması sağlanılabilir. ...  </p>
+val i = 10 when { i &lt; 7 -&gt; println(&#34;first block&#34;) fooString.startsWith(&#34;hello&#34;) -&gt; println(&#34;second block&#34;) else -&gt; println(&#34;else block&#34;) } Yukarıda ki örnek if-else if-else yapısının aynısıdır.
+ when (i) { 0, 21 -&gt; println(&#34;0 or 21&#34;) in 1..20 -&gt; println(&#34;in the range 1 to 20&#34;) else -&gt; println(&#34;none of the above&#34;) } Yukarıda ki gibi aralıklar tanımlanabilir ve bu aralıklara uyum kontrolü yapılarak ilgili işlemlerin yapılması sağlanılabilir. ...  </p>
               
           </section>
       </a>
@@ -256,7 +256,7 @@ if- else if yapısı yerine kullanılabileceği gibi bazı yardımcı operatörl
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/retrofit-oauth/">
-      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/1.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/2.jpg)"></div>
     </a>    
     
 

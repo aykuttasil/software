@@ -166,7 +166,7 @@ $ sql=$(cat &amp;lt;&amp;lt;EOF SELECT foo, bar FROM db WHERE foo=&amp;#39;baz&a
       <pubDate>Fri, 26 Oct 2018 01:04:21 +0300</pubDate>
       
       <guid>https://aykuttasil.github.io/software/post/ssh-s%C3%BCrekli-parola-istemesi-sorunu/</guid>
-      <description>Problem ./ssh klasörünüzde id_rsa ve id_rsa.pub dosyanız var ve Github, Gitlab, DigitalOcean vs. gibi platformlara erişim için bu rsa keyini kullanıyorsunuz. Her biri için ayrı ayrı rsa key oluşturmuşda olabilirsiniz tabi. Fakat git clone git@gitlab.com:aykuttasil/test.git gibi bir komutu çalıştırdığınızda Enter passphrase for key &#39;/Users/aykutasil/.ssh/id_rsa&#39;: gibi bir uyarı karşınıza çıkıyor ve rsa keyinizin şifresini girmenizi istiyor. Her git komutunda aynı şey ile karşılaşıyorsunuz.
+      <description>Problem ./ssh klasörünüzde id_rsa ve id_rsa.pub dosyanız var ve Github, Gitlab, DigitalOcean vs. gibi platformlara erişim için bu rsa keyini kullanıyorsunuz. Her biri için ayrı ayrı rsa key oluşturmuş da olabilirsiniz tabi. Fakat git clone git@gitlab.com:aykuttasil/test.git gibi bir komutu çalıştırdığınızda Enter passphrase for key &#39;/Users/aykutasil/.ssh/id_rsa&#39;: gibi bir uyarı karşınıza çıkıyor ve rsa keyinizin şifresini girmenizi istiyor. Her git komutunda aynı şey ile karşılaşıyorsunuz.
 Yukarıda ki durum ssh&amp;lsquo;ın kullanım amacına ters düştüğü için ortada bir problem var demektir.</description>
     </item>
     
@@ -296,7 +296,7 @@ fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View { return 
       <guid>https://aykuttasil.github.io/software/post/kotlin-lambda/</guid>
       <description>Kotlin Lambda Kullanımı Kotlin dili ile geliştirme yaparken fonksiyonel programlama nimetlerinden faydalanmamızı sağlayan lambda birçok konuda bize yardımcı olacaktır. Doğru kullanımını öğrendiğimiz ölçüde nimetlerinin farkına varabiliriz.
 Belli başlı lambda kullanımları için aşağıdaki örneği inceleyebilirsiniz.
- override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_kotlin_lambda) // Normal Kullanım ButtonPress.setOnClickListener(object : View.OnClickListener { override fun onClick(view: View?) { toast(&amp;quot;Press Me Click&amp;quot;) } }) // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz ButtonPress.setOnClickListener({ v -&amp;gt; toast(&amp;quot;Press Me&amp;quot;) }) // Eğer son parametre lambda fonksiyonu ise bu fonksiyonu parantez &#39;()&#39; dışına çıkarabiliriz.</description>
+override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_kotlin_lambda) // Normal Kullanım  ButtonPress.setOnClickListener(object :View.OnClickListener { override fun onClick(view: View?) { toast(&amp;#34;Press Me Click&amp;#34;) } }) // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz  ButtonPress.setOnClickListener({ v -&amp;gt; toast(&amp;#34;Press Me&amp;#34;) }) // Eğer son parametre lambda fonksiyonu ise bu fonksiyonu parantez &amp;#39;()&amp;#39; dışına çıkarabiliriz.</description>
     </item>
     
     <item>
@@ -319,8 +319,8 @@ File(dir).apply { mkdirs() } </description>
       <guid>https://aykuttasil.github.io/software/post/kotlin-when-kullan%C4%B1m%C4%B1/</guid>
       <description>Kotlin&#39;de when operatörü oldukça işimizi kolaylaştıran operatörlerden biridir.
 if- else if yapısı yerine kullanılabileceği gibi bazı yardımcı operatörler ile birçok marifet kazanabilir.
- val i = 10 when { i &amp;lt; 7 -&amp;gt; println(&amp;quot;first block&amp;quot;) fooString.startsWith(&amp;quot;hello&amp;quot;) -&amp;gt; println(&amp;quot;second block&amp;quot;) else -&amp;gt; println(&amp;quot;else block&amp;quot;) } Yukarıda ki örnek if-else if-else yapısının aynısıdır.
-  when (i) { 0, 21 -&amp;gt; println(&amp;quot;0 or 21&amp;quot;) in 1..20 -&amp;gt; println(&amp;quot;in the range 1 to 20&amp;quot;) else -&amp;gt; println(&amp;quot;none of the above&amp;quot;) } Yukarıda ki gibi aralıklar tanımlanabilir ve bu aralıklara uyum kontrolü yapılarak ilgili işlemlerin yapılması sağlanılabilir.</description>
+val i = 10 when { i &amp;lt; 7 -&amp;gt; println(&amp;#34;first block&amp;#34;) fooString.startsWith(&amp;#34;hello&amp;#34;) -&amp;gt; println(&amp;#34;second block&amp;#34;) else -&amp;gt; println(&amp;#34;else block&amp;#34;) } Yukarıda ki örnek if-else if-else yapısının aynısıdır.
+ when (i) { 0, 21 -&amp;gt; println(&amp;#34;0 or 21&amp;#34;) in 1..20 -&amp;gt; println(&amp;#34;in the range 1 to 20&amp;#34;) else -&amp;gt; println(&amp;#34;none of the above&amp;#34;) } Yukarıda ki gibi aralıklar tanımlanabilir ve bu aralıklara uyum kontrolü yapılarak ilgili işlemlerin yapılması sağlanılabilir.</description>
     </item>
     
     <item>
@@ -490,7 +490,7 @@ I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActiv
       
       <guid>https://aykuttasil.github.io/software/post/rxjava-reduce-kullan%C4%B1m%C4%B1/</guid>
       <description>RxJava reduce() Kullanımı reduce() fonskyionu iki şekilde çalışır;
- 1  .reduce(new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } })  2  .reduce(10,new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } }) 1 ile 2 nin farkı, 2 de görüldüğü üzere fonksiyona başlangıç değeri atanabilmesidir.
+ 1.Kullanım  .reduce(new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } })  2.Kullanım  .reduce(10,new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } }) 1 ile 2 nin farkı, 2 de görüldüğü üzere fonksiyona başlangıç değeri atanabilmesidir.
 Aşağıdaki örneklerde daha net görebilirsiniz.</description>
     </item>
     
@@ -558,7 +558,7 @@ Orijinal Arduino Kartlarının yapımı iki koldan yürüyor. Bir taraf open sou
       <pubDate>Wed, 11 Jan 2017 17:20:37 +0300</pubDate>
       
       <guid>https://aykuttasil.github.io/software/post/sql-scope_identity/</guid>
-      <description>Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id sini getirir.
+      <description>Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id&#39;sini getirir.
 Yapılan son kaydın id sini almak için uzun yol olarak insert sorgusunu çalıştırdıktan sonra bir select sorgusu atarak ve order by id desc diyerek ilk sıradaki kaydı okuyabilir ve bu kaydın id sini alabiliriz.
 Tüm bunları yapmaktansa:
 DECLARE @son_satir_id INT; INSERT INTO tbQwerty ( Ad , Soyad ) VALUES ( &amp;#39;Aykut&amp;#39; &amp;#39;Asil&amp;#39; ) SET @son_satir_id = SCOPE_IDENTITY(); Ayrıntılı Bilgi : https://technet.</description>
@@ -643,10 +643,7 @@ Tüm işletim sistemleri için sürüm mevcuttur. Kendi işletim sisteminize gö
       
       <guid>https://aykuttasil.github.io/software/post/sql-management-studio-custom-generate-scripts/</guid>
       <description>SQL Management Studio kullanarak MSSQL e erişim yapmanız size birçok fayda sağlayacaktır. Tabi dezavantajları da yok değil !.
-Senaryomuz şu şekilde;
-Test veritabanında çalışarak kendinizi production veritabanında izole ettiniz ve güvenlik konusunda bir adım öne geçtiniz.
-Test veritabanı ile işlemleriniz bittikten sonra artık sıra geldi oluşturmuş olduğumuz tüm yapıları taşımaya !
-Bu kısım biraz sıkıcı olsa da SQL Management Studio nun buna getirmiş olduğu kolaylıklar var.
+Senaryomuz şu şekilde; Test veritabanında çalışarak kendinizi production veritabanında izole ettiniz ve güvenlik konusunda bir adım öne geçtiniz. Test veritabanı ile işlemleriniz bittikten sonra artık sıra geldi oluşturmuş olduğumuz tüm yapıları taşımaya ! Bu kısım biraz sıkıcı olsa da SQL Management Studio nun buna getirmiş olduğu kolaylıklar var.
 Oluşturmuş olduğumuz tabloların sadece şemasını yani içiindeki veriler olmaksızın taşımak istersek, ( ki bu durum default olarak yapılandıırlmış durumdur ) işimiz oldukça kolay.</description>
     </item>
     

@@ -113,55 +113,55 @@
         <h1 class="post-full-title">Kotlin Lambda</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/3.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/4.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
-        <h1 id="kotlin-lambda-kullanm">Kotlin Lambda Kullanımı</h1>
+        <h2 id="kotlin-lambda-kullanm">Kotlin Lambda Kullanımı</h2>
 <p>Kotlin dili ile geliştirme yaparken fonksiyonel programlama nimetlerinden faydalanmamızı sağlayan <strong>lambda</strong> birçok konuda bize yardımcı olacaktır. Doğru kullanımını öğrendiğimiz ölçüde nimetlerinin farkına varabiliriz.</p>
 <p>Belli başlı lambda kullanımları için aşağıdaki örneği inceleyebilirsiniz.</p>
-<pre><code>    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-kotlin" data-lang="kotlin">    <span style="color:#66d9ef">override</span> <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">onCreate</span>(savedInstanceState: Bundle?) {
+        <span style="color:#66d9ef">super</span>.onCreate(savedInstanceState)
         setContentView(R.layout.activity_kotlin_lambda)
 
-        // Normal Kullanım
-        ButtonPress.setOnClickListener(object : View.OnClickListener {
-            override fun onClick(view: View?) {
-                toast(&quot;Press Me Click&quot;)
+        <span style="color:#75715e">// Normal Kullanım
+</span><span style="color:#75715e"></span>        ButtonPress.setOnClickListener(<span style="color:#66d9ef">object</span> <span style="color:#960050;background-color:#1e0010">:</span><span style="color:#960050;background-color:#1e0010"> </span><span style="color:#a6e22e">View</span>.OnClickListener {
+            <span style="color:#66d9ef">override</span> <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">onClick</span>(view: View?) {
+                toast(<span style="color:#e6db74">&#34;Press Me Click&#34;</span>)
             }
 
         })
 
-        // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz
-        ButtonPress.setOnClickListener({ v -&gt; toast(&quot;Press Me&quot;) })
+        <span style="color:#75715e">// Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz
+</span><span style="color:#75715e"></span>        ButtonPress.setOnClickListener({ v -&gt; toast(<span style="color:#e6db74">&#34;Press Me&#34;</span>) })
 
-        // Eğer son parametre lambda fonksiyonu ise bu fonksiyonu parantez '()' dışına çıkarabiliriz.
-        // Birden fazla parametre var ise sadece en son lambda parametresi parantez dışına çıkarılabilir.
-        ButtonPress.setOnClickListener() {
+        <span style="color:#75715e">// Eğer son parametre lambda fonksiyonu ise bu fonksiyonu parantez &#39;()&#39; dışına çıkarabiliriz.
+</span><span style="color:#75715e"></span>        <span style="color:#75715e">// Birden fazla parametre var ise sadece en son lambda parametresi parantez dışına çıkarılabilir.
+</span><span style="color:#75715e"></span>        ButtonPress.setOnClickListener() {
             v -&gt;
-            toast(&quot;Press Me&quot;)
+            toast(<span style="color:#e6db74">&#34;Press Me&#34;</span>)
         }
 
-        // Fonksiyon tek bir parametre alıyorsa ve bu lambda parametresi ise parantezler silinebilir
-        ButtonPress.setOnClickListener {
+        <span style="color:#75715e">// Fonksiyon tek bir parametre alıyorsa ve bu lambda parametresi ise parantezler silinebilir
+</span><span style="color:#75715e"></span>        ButtonPress.setOnClickListener {
             v -&gt;
-            toast(&quot;Press Me&quot;)
+            toast(<span style="color:#e6db74">&#34;Press Me&#34;</span>)
         }
 
-        // Lambda fonksiyonunun tek bir parametresi var ise (v) ve kullanılmayacaksa 'v -&gt;' silinebilir
-        ButtonPress.setOnClickListener {
-            toast(&quot;Press Me&quot;)
+        <span style="color:#75715e">// Lambda fonksiyonunun tek bir parametresi var ise (v) ve kullanılmayacaksa &#39;v -&gt;&#39; silinebilir
+</span><span style="color:#75715e"></span>        ButtonPress.setOnClickListener {
+            toast(<span style="color:#e6db74">&#34;Press Me&#34;</span>)
         }
 
-        // Lambda fonksiyonunun tek bir parametresi var ise ve eğer bu parametreye ihtiyaç duyulur ise
-        // v-&gt; yerine 'it' özel kelimesi kullanılabilir.
-        ButtonPress.setOnClickListener {
+        <span style="color:#75715e">// Lambda fonksiyonunun tek bir parametresi var ise ve eğer bu parametreye ihtiyaç duyulur ise
+</span><span style="color:#75715e"></span>        <span style="color:#75715e">// v-&gt; yerine &#39;it&#39; özel kelimesi kullanılabilir.
+</span><span style="color:#75715e"></span>        ButtonPress.setOnClickListener {
             toast(it.javaClass.name)
         }
 
     }
-</code></pre>    
+</code></pre></div>    
         </div>
     </section>
 
@@ -221,13 +221,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://aykuttasil.github.io/software/post/sql-scope_identity/">SQL SCOPE_IDENTITY()</a></li>            
+          <li><a href="https://aykuttasil.github.io/software/post/yeoman-kullan%C4%B1m%C4%B1/">Yeoman Kullanımı</a></li>            
         
-          <li><a href="https://aykuttasil.github.io/software/post/ssh-s%C3%BCrekli-parola-istemesi-sorunu/">SSH Sürekli Parola İstemesi Sorunu</a></li>            
+          <li><a href="https://aykuttasil.github.io/software/post/recaptcha-kullan%C4%B1m%C4%B1/">ReCaptcha Kullanımı</a></li>            
         
-          <li><a href="https://aykuttasil.github.io/software/post/runnable-callable/">Runnable() &amp; Callable()</a></li>            
+          <li><a href="https://aykuttasil.github.io/software/post/tls-vs-ssl/">TLS vs SSL</a></li>            
         
-          <li><a href="https://aykuttasil.github.io/software/post/android-glide-ve-palette-kullan%C4%B1m%C4%B1/">Android Glide ve Palette Kullanımı</a></li>            
+          <li><a href="https://aykuttasil.github.io/software/post/amp/">AMP</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -241,7 +241,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/kotlin-sealed-class/">
-      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/6.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/2.jpg)"></div>
     </a>    
     
 
@@ -276,7 +276,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/kotlin-apply-kullan%C4%B1m%C4%B1/">
-      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/5.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/2.jpg)"></div>
     </a>    
     
 

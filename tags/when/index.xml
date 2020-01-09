@@ -19,8 +19,8 @@
       <guid>https://aykuttasil.github.io/software/post/kotlin-when-kullan%C4%B1m%C4%B1/</guid>
       <description>Kotlin&#39;de when operatörü oldukça işimizi kolaylaştıran operatörlerden biridir.
 if- else if yapısı yerine kullanılabileceği gibi bazı yardımcı operatörler ile birçok marifet kazanabilir.
- val i = 10 when { i &amp;lt; 7 -&amp;gt; println(&amp;quot;first block&amp;quot;) fooString.startsWith(&amp;quot;hello&amp;quot;) -&amp;gt; println(&amp;quot;second block&amp;quot;) else -&amp;gt; println(&amp;quot;else block&amp;quot;) } Yukarıda ki örnek if-else if-else yapısının aynısıdır.
-  when (i) { 0, 21 -&amp;gt; println(&amp;quot;0 or 21&amp;quot;) in 1..20 -&amp;gt; println(&amp;quot;in the range 1 to 20&amp;quot;) else -&amp;gt; println(&amp;quot;none of the above&amp;quot;) } Yukarıda ki gibi aralıklar tanımlanabilir ve bu aralıklara uyum kontrolü yapılarak ilgili işlemlerin yapılması sağlanılabilir.</description>
+val i = 10 when { i &amp;lt; 7 -&amp;gt; println(&amp;#34;first block&amp;#34;) fooString.startsWith(&amp;#34;hello&amp;#34;) -&amp;gt; println(&amp;#34;second block&amp;#34;) else -&amp;gt; println(&amp;#34;else block&amp;#34;) } Yukarıda ki örnek if-else if-else yapısının aynısıdır.
+ when (i) { 0, 21 -&amp;gt; println(&amp;#34;0 or 21&amp;#34;) in 1..20 -&amp;gt; println(&amp;#34;in the range 1 to 20&amp;#34;) else -&amp;gt; println(&amp;#34;none of the above&amp;#34;) } Yukarıda ki gibi aralıklar tanımlanabilir ve bu aralıklara uyum kontrolü yapılarak ilgili işlemlerin yapılması sağlanılabilir.</description>
     </item>
     
   </channel>

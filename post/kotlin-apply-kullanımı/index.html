@@ -190,13 +190,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://aykuttasil.github.io/software/post/android-dagger/">Android Dagger</a></li>            
+          <li><a href="https://aykuttasil.github.io/software/post/mac-os-ile-mssql-ba%C4%9Flant%C4%B1s%C4%B1-kurmak/">Mac OS ile MSSQL Bağlantısı Kurmak</a></li>            
         
-          <li><a href="https://aykuttasil.github.io/software/post/android-file-system/">Android File System</a></li>            
+          <li><a href="https://aykuttasil.github.io/software/post/kotlin-when-kullan%C4%B1m%C4%B1/">Kotlin when kullanımı</a></li>            
         
-          <li><a href="https://aykuttasil.github.io/software/post/kotlin_dsl_create_json/">Kotlin_dsl_create_json</a></li>            
+          <li><a href="https://aykuttasil.github.io/software/post/unit-test-nedir-ni%C3%A7in-ve-nas%C4%B1l-yap%C4%B1l%C4%B1r/">Unit Test Nedir ? Niçin ve Nasıl Yapılır ?</a></li>            
         
-          <li><a href="https://aykuttasil.github.io/software/post/adb-komutu-ile-cihaz-ipsini-%C3%B6%C4%9Fren/">ADB Komutu ile Cihaz IP&#39;sini Öğren</a></li>            
+          <li><a href="https://aykuttasil.github.io/software/post/tcp/ip-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r/">TCP/IP Nasıl Çalışır ?</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -210,7 +210,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/kotlin-lambda/">
-      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/5.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/2.jpg)"></div>
     </a>    
     
 
@@ -228,7 +228,7 @@ s.setAttribute('data-timestamp', +new Date());
               
                 <p>Kotlin Lambda Kullanımı Kotlin dili ile geliştirme yaparken fonksiyonel programlama nimetlerinden faydalanmamızı sağlayan lambda birçok konuda bize yardımcı olacaktır. Doğru kullanımını öğrendiğimiz ölçüde nimetlerinin farkına varabiliriz.
 Belli başlı lambda kullanımları için aşağıdaki örneği inceleyebilirsiniz.
- override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_kotlin_lambda) // Normal Kullanım ButtonPress.setOnClickListener(object : View.OnClickListener { override fun onClick(view: View?) { toast(&quot;Press Me Click&quot;) } }) // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz ButtonPress.setOnClickListener({ v -&gt; toast(&quot;Press Me&quot;) }) // Eğer son parametre lambda fonksiyonu ise bu fonksiyonu parantez '()' dışına çıkarabiliriz. ...  </p>
+override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_kotlin_lambda) // Normal Kullanım  ButtonPress.setOnClickListener(object :View.OnClickListener { override fun onClick(view: View?) { toast(&#34;Press Me Click&#34;) } }) // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz  ButtonPress.setOnClickListener({ v -&gt; toast(&#34;Press Me&#34;) }) // Eğer son parametre lambda fonksiyonu ise bu fonksiyonu parantez &#39;()&#39; dışına çıkarabiliriz. ...  </p>
               
           </section>
       </a>
@@ -244,7 +244,7 @@ Belli başlı lambda kullanımları için aşağıdaki örneği inceleyebilirsin
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/kotlin-when-kullan%C4%B1m%C4%B1/">
-      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/5.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/6.jpg)"></div>
     </a>    
     
 
@@ -263,8 +263,8 @@ Belli başlı lambda kullanımları için aşağıdaki örneği inceleyebilirsin
               
                 <p>Kotlin'de when operatörü oldukça işimizi kolaylaştıran operatörlerden biridir.
 if- else if yapısı yerine kullanılabileceği gibi bazı yardımcı operatörler ile birçok marifet kazanabilir.
- val i = 10 when { i &lt; 7 -&gt; println(&quot;first block&quot;) fooString.startsWith(&quot;hello&quot;) -&gt; println(&quot;second block&quot;) else -&gt; println(&quot;else block&quot;) } Yukarıda ki örnek if-else if-else yapısının aynısıdır.
-  when (i) { 0, 21 -&gt; println(&quot;0 or 21&quot;) in 1..20 -&gt; println(&quot;in the range 1 to 20&quot;) else -&gt; println(&quot;none of the above&quot;) } Yukarıda ki gibi aralıklar tanımlanabilir ve bu aralıklara uyum kontrolü yapılarak ilgili işlemlerin yapılması sağlanılabilir. ...  </p>
+val i = 10 when { i &lt; 7 -&gt; println(&#34;first block&#34;) fooString.startsWith(&#34;hello&#34;) -&gt; println(&#34;second block&#34;) else -&gt; println(&#34;else block&#34;) } Yukarıda ki örnek if-else if-else yapısının aynısıdır.
+ when (i) { 0, 21 -&gt; println(&#34;0 or 21&#34;) in 1..20 -&gt; println(&#34;in the range 1 to 20&#34;) else -&gt; println(&#34;none of the above&#34;) } Yukarıda ki gibi aralıklar tanımlanabilir ve bu aralıklara uyum kontrolü yapılarak ilgili işlemlerin yapılması sağlanılabilir. ...  </p>
               
           </section>
       </a>

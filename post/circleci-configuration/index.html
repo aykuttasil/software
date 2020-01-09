@@ -113,12 +113,12 @@
         <h1 class="post-full-title">CircleCI Configuration</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/2.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/6.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
-        <h1 id="cicd">CI/CD</h1>
+        <h2 id="cicd">CI/CD</h2>
 <p>Uygulamaların <strong>build/test/depleyment</strong> süreçlerini <strong>otomatize</strong> etmemizi sağlayan <strong>CI/CD</strong> kavramları günümüz yazılım dünyasında olmazsa olmaz, bilinmezse ayıp olurlar arasına girmiş bulunmaktadır. Manuel yapılan bu işlemlerin otomatize edilmesi bize ve takım üyelerine çeşitli konularda fayda sağlayacak ve eğer manuel yöntemler ile ilerlendiği takdirde oluşabilecek hataları minimuma indirecektir. Projenizin <strong>build/test/deployment</strong> adımlarında çeşitli sorunlar yaşamaya başlamışsanız ya da başlamadan bitirmek istiyorsanız bu kavramları öğrenmekte fayda var.</p>
 <p>Çeşitli <strong>CI/CD</strong> araçları bulunmaktadır. <strong>Travis, Bitrise, AppCenter, CircleCI</strong> bunlardan bazılarıdır.</p>
 <blockquote>
@@ -137,7 +137,7 @@
 <li>Sorunları bul ve çabuk çöz. Daha yüksek kalite, daha kararlı ürünler bırakın.</li>
 </ul>
 <hr>
-<h1 id="circleci">CircleCI</h1>
+<h2 id="circleci">CircleCI</h2>
 <p>Circle CI, çeşitli pricing modelleri ile birlikte belli kısıtlamalar dahilinde ücretsiz <strong>CI/CD</strong> araçları sunan bir ortam sunar. Hazırlanan konfigurasyon dosyası(<strong>.yml</strong>) ile tüm süreçler(<strong>build/test/deployment</strong>) otomatik olarak işletilebilir.</p>
 <h2 id="configyml">config.yml</h2>
 <h3 id="jobs"><strong>jobs</strong></h3>
@@ -356,15 +356,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://aykuttasil.github.io/software/post/unit-test-nedir-ni%C3%A7in-ve-nas%C4%B1l-yap%C4%B1l%C4%B1r/">Unit Test Nedir ? Niçin ve Nasıl Yapılır ?</a></li>            
+          <li><a href="https://aykuttasil.github.io/software/post/robolectric-ile-unittest-yaz%C4%B1m%C4%B1/">Robolectric ile UnitTest Yazımı</a></li>            
         
-          <li><a href="https://aykuttasil.github.io/software/post/kotlin-sealed-class/">Kotlin Sealed Class</a></li>            
+          <li><a href="https://aykuttasil.github.io/software/post/dns-over-tls-nedir/">DNS over TLS Nedir?</a></li>            
         
-                      
+          <li><a href="https://aykuttasil.github.io/software/post/arduino-hc-06-bluetooth-kullan%C4%B1m%C4%B1/">Arduino HC-06 Bluetooth Kullanımı</a></li>            
         
-          <li><a href="https://aykuttasil.github.io/software/post/kotlin-apply-kullan%C4%B1m%C4%B1/">Kotlin apply Kullanımı</a></li>            
-        
-          <li><a href="https://aykuttasil.github.io/software/post/android-databinding/">Android DataBinding</a></li>            
+          <li><a href="https://aykuttasil.github.io/software/post/retrofit-oauth/">Retrofit Oauth</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -378,7 +376,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/android-circleci-configuration/">
-      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/2.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/3.jpg)"></div>
     </a>    
     
 
@@ -416,7 +414,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/ssh-s%C3%BCrekli-parola-istemesi-sorunu/">
-      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/1.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/3.jpg)"></div>
     </a>    
     
 
@@ -430,7 +428,7 @@ s.setAttribute('data-timestamp', +new Date());
           </header>
           <section class="post-card-excerpt">
               
-                <p>Problem ./ssh klasörünüzde id_rsa ve id_rsa.pub dosyanız var ve Github, Gitlab, DigitalOcean vs. gibi platformlara erişim için bu rsa keyini kullanıyorsunuz. Her biri için ayrı ayrı rsa key oluşturmuşda olabilirsiniz tabi. Fakat git clone git@gitlab.com:aykuttasil/test.git gibi bir komutu çalıştırdığınızda Enter passphrase for key '/Users/aykutasil/.ssh/id_rsa': gibi bir uyarı karşınıza çıkıyor ve rsa keyinizin şifresini girmenizi istiyor. Her git komutunda aynı şey ile karşılaşıyorsunuz.
+                <p>Problem ./ssh klasörünüzde id_rsa ve id_rsa.pub dosyanız var ve Github, Gitlab, DigitalOcean vs. gibi platformlara erişim için bu rsa keyini kullanıyorsunuz. Her biri için ayrı ayrı rsa key oluşturmuş da olabilirsiniz tabi. Fakat git clone git@gitlab.com:aykuttasil/test.git gibi bir komutu çalıştırdığınızda Enter passphrase for key '/Users/aykutasil/.ssh/id_rsa': gibi bir uyarı karşınıza çıkıyor ve rsa keyinizin şifresini girmenizi istiyor. Her git komutunda aynı şey ile karşılaşıyorsunuz.
 Yukarıda ki durum ssh&lsquo;ın kullanım amacına ters düştüğü için ortada bir problem var demektir. ...  </p>
               
           </section>
