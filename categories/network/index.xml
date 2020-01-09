@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>network on </title>
-    <link>https://aykuttasil.github.io/software/categories/network/</link>
+    <link>https://yazilim.aykutasil.com/categories/network/</link>
     <description>Recent content in network on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 13 Aug 2018 00:50:25 +0300</lastBuildDate>
     
-	<atom:link href="https://aykuttasil.github.io/software/categories/network/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yazilim.aykutasil.com/categories/network/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DNS over TLS Nedir?</title>
-      <link>https://aykuttasil.github.io/software/post/dns-over-tls-nedir/</link>
+      <link>https://yazilim.aykutasil.com/post/dns-over-tls-nedir/</link>
       <pubDate>Mon, 13 Aug 2018 00:50:25 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/post/dns-over-tls-nedir/</guid>
+      <guid>https://yazilim.aykutasil.com/post/dns-over-tls-nedir/</guid>
       <description>DNS over TLS Nedir? Kısaca açıklamak gerekirse, İnternet Servis Sağlayıcılarının, hangi siteye erişmek istediğimizi görmesini engelleme yöntemidir.
 TLS/SSL protokolü zaten bunu yapmıyor mu? TLS/SSL protokolüne sahip siteler üzerinden yapılan veri alış verişleri şifreli yapılır fakat hala hangi siteye erişmek istediğimiz açık/şifresiz bir şekilde bellidir ve internet servis sağlayıcıları bunu görebilir.
 Bunu engellemek için DNS over TLS kullanılır.
@@ -25,10 +25,10 @@ Bunu engellemek için DNS over TLS kullanılır.
     
     <item>
       <title>TLS vs SSL</title>
-      <link>https://aykuttasil.github.io/software/post/tls-vs-ssl/</link>
+      <link>https://yazilim.aykutasil.com/post/tls-vs-ssl/</link>
       <pubDate>Sun, 12 Aug 2018 23:12:07 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/post/tls-vs-ssl/</guid>
+      <guid>https://yazilim.aykutasil.com/post/tls-vs-ssl/</guid>
       <description>TLS/SSL nedir? TLS (Transport Layer Securtiy) , SSL(Secure Sockets Layer)&amp;lsquo;ın modernize edilmiş halidir diyebiliriz. Yani günümüzde SSL den bahsedildiğinde aslında TLS den bahsediliyor olduğunu söyleyebiliriz.
 TLS protokolü, makinelerin web üzerindeki iletişimini kimlik doğrulama ve şifreleme mekanizmaları ile güvenli hale getirem bir standarttır. Günümüz dijital dünyasında güvenliğin önemi her geçen gün arttığı için iletişim yöntemleri ve güvenliği de beraberinde değişmekte ve gelişmektedir. Bu nedenle web iletişiminin güvenli hale gelmesi zorunluluk ve ihtiyaçtır.</description>
     </item>

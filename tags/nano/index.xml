@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>nano on </title>
-    <link>https://aykuttasil.github.io/software/tags/nano/</link>
+    <link>https://yazilim.aykutasil.com/tags/nano/</link>
     <description>Recent content in nano on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 25 Dec 2016 03:51:49 +0300</lastBuildDate>
     
-	<atom:link href="https://aykuttasil.github.io/software/tags/nano/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yazilim.aykutasil.com/tags/nano/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Docker Container Install nano</title>
-      <link>https://aykuttasil.github.io/software/post/docker-container-install-nano/</link>
+      <link>https://yazilim.aykutasil.com/post/docker-container-install-nano/</link>
       <pubDate>Sun, 25 Dec 2016 03:51:49 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/post/docker-container-install-nano/</guid>
+      <guid>https://yazilim.aykutasil.com/post/docker-container-install-nano/</guid>
       <description>Docker ile ayağa kaldırmış olduğunuz bir container olduğunu varsayalım ve bu docker container a erişerek komut satırı çalıştırmanız gerekiyor.
 https://docs.docker.com/engine/reference/commandline/exec/
 Yukarıdaki linki takip ederek nasıl komut çalıştıracağınızı öğrenebilirsiniz. Ya da Kitematic gibi bir uygulama yüklü ise bu uygulamayı açarak ve çalışan image e tıklayarak exe butonuna basmamız yeterli olucaktır.

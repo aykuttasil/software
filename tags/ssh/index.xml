@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ssh on </title>
-    <link>https://aykuttasil.github.io/software/tags/ssh/</link>
+    <link>https://yazilim.aykutasil.com/tags/ssh/</link>
     <description>Recent content in ssh on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 26 Oct 2018 01:04:21 +0300</lastBuildDate>
     
-	<atom:link href="https://aykuttasil.github.io/software/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yazilim.aykutasil.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SSH Sürekli Parola İstemesi Sorunu</title>
-      <link>https://aykuttasil.github.io/software/post/ssh-s%C3%BCrekli-parola-istemesi-sorunu/</link>
+      <link>https://yazilim.aykutasil.com/post/ssh-s%C3%BCrekli-parola-istemesi-sorunu/</link>
       <pubDate>Fri, 26 Oct 2018 01:04:21 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/post/ssh-s%C3%BCrekli-parola-istemesi-sorunu/</guid>
+      <guid>https://yazilim.aykutasil.com/post/ssh-s%C3%BCrekli-parola-istemesi-sorunu/</guid>
       <description>Problem ./ssh klasörünüzde id_rsa ve id_rsa.pub dosyanız var ve Github, Gitlab, DigitalOcean vs. gibi platformlara erişim için bu rsa keyini kullanıyorsunuz. Her biri için ayrı ayrı rsa key oluşturmuş da olabilirsiniz tabi. Fakat git clone git@gitlab.com:aykuttasil/test.git gibi bir komutu çalıştırdığınızda Enter passphrase for key &#39;/Users/aykutasil/.ssh/id_rsa&#39;: gibi bir uyarı karşınıza çıkıyor ve rsa keyinizin şifresini girmenizi istiyor. Her git komutunda aynı şey ile karşılaşıyorsunuz.
 Yukarıda ki durum ssh&amp;lsquo;ın kullanım amacına ters düştüğü için ortada bir problem var demektir.</description>
     </item>

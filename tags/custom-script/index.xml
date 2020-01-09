@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>custom script on </title>
-    <link>https://aykuttasil.github.io/software/tags/custom-script/</link>
+    <link>https://yazilim.aykutasil.com/tags/custom-script/</link>
     <description>Recent content in custom script on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 11 Jan 2017 15:39:47 +0300</lastBuildDate>
     
-	<atom:link href="https://aykuttasil.github.io/software/tags/custom-script/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yazilim.aykutasil.com/tags/custom-script/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SQL Management Studio Custom Generate Scripts</title>
-      <link>https://aykuttasil.github.io/software/post/sql-management-studio-custom-generate-scripts/</link>
+      <link>https://yazilim.aykutasil.com/post/sql-management-studio-custom-generate-scripts/</link>
       <pubDate>Wed, 11 Jan 2017 15:39:47 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/post/sql-management-studio-custom-generate-scripts/</guid>
+      <guid>https://yazilim.aykutasil.com/post/sql-management-studio-custom-generate-scripts/</guid>
       <description>SQL Management Studio kullanarak MSSQL e erişim yapmanız size birçok fayda sağlayacaktır. Tabi dezavantajları da yok değil !.
 Senaryomuz şu şekilde; Test veritabanında çalışarak kendinizi production veritabanında izole ettiniz ve güvenlik konusunda bir adım öne geçtiniz. Test veritabanı ile işlemleriniz bittikten sonra artık sıra geldi oluşturmuş olduğumuz tüm yapıları taşımaya ! Bu kısım biraz sıkıcı olsa da SQL Management Studio nun buna getirmiş olduğu kolaylıklar var.
 Oluşturmuş olduğumuz tabloların sadece şemasını yani içiindeki veriler olmaksızın taşımak istersek, ( ki bu durum default olarak yapılandıırlmış durumdur ) işimiz oldukça kolay.</description>

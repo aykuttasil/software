@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hosts on </title>
-    <link>https://aykuttasil.github.io/software/tags/hosts/</link>
+    <link>https://yazilim.aykutasil.com/tags/hosts/</link>
     <description>Recent content in hosts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 10 Jan 2017 23:20:12 +0300</lastBuildDate>
     
-	<atom:link href="https://aykuttasil.github.io/software/tags/hosts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yazilim.aykutasil.com/tags/hosts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Local IIS Site Kurulumu</title>
-      <link>https://aykuttasil.github.io/software/post/local-iis-site-kurulumu/</link>
+      <link>https://yazilim.aykutasil.com/post/local-iis-site-kurulumu/</link>
       <pubDate>Tue, 10 Jan 2017 23:20:12 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/post/local-iis-site-kurulumu/</guid>
+      <guid>https://yazilim.aykutasil.com/post/local-iis-site-kurulumu/</guid>
       <description>Uygulamanızı geliştirme sırasında Local IIS e sitenizi tanımlamanız gerekebilir. Sanki uzak sunucuda sitenizi custom domain ile host eder gibi (yani site kodlarınızı uzaktaki hostunuzda çalıştırır gibi) çalıştırabilirsiniz. İstediğiniz domain adresini belirtebilir, işlemlerinizi bu domaini kullanarak gerçekleştirebilirsiniz. Eğer bu yazıyı okuyor iseniz muhtemelen bunu yapmaya gerek duymuşsunuzdur.
 İlk olarak windows yüklü bilgisayarımızın başlat menüsüne tıklayarak “Windows özellikleriniz Aç veya Kapat” yazıp arama yapıyoruz.
 Yukarıda ki resimde görmüş olduğunuz gibi gerekli kutucukları işaretleyip kurulumu sağıyoruz.</description>

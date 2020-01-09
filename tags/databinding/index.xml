@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>databinding on </title>
-    <link>https://aykuttasil.github.io/software/tags/databinding/</link>
+    <link>https://yazilim.aykutasil.com/tags/databinding/</link>
     <description>Recent content in databinding on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 25 Feb 2019 00:00:27 +0300</lastBuildDate>
     
-	<atom:link href="https://aykuttasil.github.io/software/tags/databinding/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yazilim.aykutasil.com/tags/databinding/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Android DataBinding</title>
-      <link>https://aykuttasil.github.io/software/post/android-databinding/</link>
+      <link>https://yazilim.aykutasil.com/post/android-databinding/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:27 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/post/android-databinding/</guid>
+      <guid>https://yazilim.aykutasil.com/post/android-databinding/</guid>
       <description>Android DataBinding Android dünyasında temiz kod(Clean Code) günümüzde çokça konuşulan konular arasında yer almakta ve neden temiz kod yazmalıyız ile alakalı bir çok makale yazılmaktadır.
 Temiz kod yazmak için MVP, MVVM vs. kod tasarım mimarilerinden birini seçerek yazılan kodların ve etkileşimlerinin birbirinden ayrımını sağlamaktayız. Bu kod tasarım kalıpları ile beraber bize çok faydası olacak bir mimari daha bulunmakta: DataBinding
 DataBinding Uygulamanın arayüzünü tasarlamak için kullandığımız layout dosyamızın içerisine Uygulamamızın arayüzünü oluşturmak için kullandığımız layout xml dosyalarına gerekli datayı doğrudan entegre ederek, arayüz değişikliği ile ilgili tüm akışların harici müdahaleye gerek kalmadan otomatik olarak gerçekleşmesini sağlayabiliriz.</description>

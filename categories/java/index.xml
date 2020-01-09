@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>java on </title>
-    <link>https://aykuttasil.github.io/software/categories/java/</link>
+    <link>https://yazilim.aykutasil.com/categories/java/</link>
     <description>Recent content in java on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 11 Jan 2017 19:59:08 +0300</lastBuildDate>
     
-	<atom:link href="https://aykuttasil.github.io/software/categories/java/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yazilim.aykutasil.com/categories/java/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Android ile WebView Etkileşimi</title>
-      <link>https://aykuttasil.github.io/software/android-webview-etkilesimi/</link>
+      <link>https://yazilim.aykutasil.com/android-webview-etkilesimi/</link>
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/android-webview-etkilesimi/</guid>
+      <guid>https://yazilim.aykutasil.com/android-webview-etkilesimi/</guid>
       <description>Kısa Hikaye : Üstünde çalışmakta olduğum bir projede kredi kartı ile ödeme yapısı kurmam gerekti. Kısaca projenin yapısından bahsedecek olursak
  Backend : .Net Client : Android (Java) Ödeme altyapısı : İyzico  Client tarafında rest isteğiyle tüm işlemlerimizi backend tarafında yapıyoruz. Ödeme yapımızı da bu doğrultuda geliştirdik.
 Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine bankanın bize telefonumuza gelen şifreyi girmemiz için göndermiş olduğu web sayfası vs. giriyor.</description>
@@ -24,19 +24,19 @@ Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine
     
     <item>
       <title>ExecutorService submit() – execute()</title>
-      <link>https://aykuttasil.github.io/software/post/executorservice-submit-execute/</link>
+      <link>https://yazilim.aykutasil.com/post/executorservice-submit-execute/</link>
       <pubDate>Wed, 11 Jan 2017 19:26:49 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/post/executorservice-submit-execute/</guid>
+      <guid>https://yazilim.aykutasil.com/post/executorservice-submit-execute/</guid>
       <description>ExecutorService submit() – execute() Link : http://javarevisited.blogspot.com.tr/2016/04/difference-between-ExecutorServie-submit-vs-Executor-execute-method-in-Java.html</description>
     </item>
     
     <item>
       <title>Executor newCachedThreadPool() newFixedThreadPool(n) newSingleThreadExecutor()</title>
-      <link>https://aykuttasil.github.io/software/post/executor-newcachedthreadpool-newfixedthreadpooln-newsinglethreadexecutor/</link>
+      <link>https://yazilim.aykutasil.com/post/executor-newcachedthreadpool-newfixedthreadpooln-newsinglethreadexecutor/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/post/executor-newcachedthreadpool-newfixedthreadpooln-newsinglethreadexecutor/</guid>
+      <guid>https://yazilim.aykutasil.com/post/executor-newcachedthreadpool-newfixedthreadpooln-newsinglethreadexecutor/</guid>
       <description>Executor newCachedThreadPool() newFixedThreadPool(n) newSingleThreadExecutor() Thread kullanımı, Java ile multi-threading yazılım geliştiriyorsanız mutlaka ama mutlaka bilmeniz gereken konulardan biridir.
 ThreadPool Gün geldi çattı ve uygulamanız ilk kurulduğu amacın evrimleşmesi sonucu bambaşka bir hale büründü 🙂
 Yani birçok uygulamada gidişat bu yöndedir ve olması gerekende budur.
@@ -45,19 +45,19 @@ Aynı anda 1000 den fazla kullanıcıya cevap verme gereksinimiz var artık. Sad
     
     <item>
       <title>Runnable() &amp; Callable()</title>
-      <link>https://aykuttasil.github.io/software/post/runnable-callable/</link>
+      <link>https://yazilim.aykutasil.com/post/runnable-callable/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/post/runnable-callable/</guid>
+      <guid>https://yazilim.aykutasil.com/post/runnable-callable/</guid>
       <description>Runnable() &amp;amp; Callable() Ayrıntılı açıklama için bu siteyi kullanabilirsiniz.</description>
     </item>
     
     <item>
       <title>Android Runtime Permission</title>
-      <link>https://aykuttasil.github.io/software/post/android-runtime-permission/</link>
+      <link>https://yazilim.aykutasil.com/post/android-runtime-permission/</link>
       <pubDate>Wed, 11 Jan 2017 17:24:52 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/post/android-runtime-permission/</guid>
+      <guid>https://yazilim.aykutasil.com/post/android-runtime-permission/</guid>
       <description>Yavaş yavaş mevcut android cihazlarının API level düzeyi doğal olarak yükselmekte ve bizlerinde tabi ki buna ayak uydurması gerekmekte.
 Bunlardan biri de Android M – Marshmallow (23) ile gelen Runtime Permissions olayı.
 Kullanıcı açısından bakıldığında oldukça yararlı birşey gibi duruyor ama tabi ki biz kullanıcılar runtime sırasında çıkan permission dialog daki yazıyı ne kadar okuruz ve buna göre onay veririz meçhul. Aslına bakarsanız çok da okunacağını düşünmüyorum ama olsun yine de güzel.</description>
@@ -65,10 +65,10 @@ Kullanıcı açısından bakıldığında oldukça yararlı birşey gibi duruyor
     
     <item>
       <title>Android Glide ve Palette Kullanımı</title>
-      <link>https://aykuttasil.github.io/software/post/android-glide-ve-palette-kullan%C4%B1m%C4%B1/</link>
+      <link>https://yazilim.aykutasil.com/post/android-glide-ve-palette-kullan%C4%B1m%C4%B1/</link>
       <pubDate>Wed, 11 Jan 2017 17:11:30 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/post/android-glide-ve-palette-kullan%C4%B1m%C4%B1/</guid>
+      <guid>https://yazilim.aykutasil.com/post/android-glide-ve-palette-kullan%C4%B1m%C4%B1/</guid>
       <description>Google ın resim işlemleri için geliştirmiş olduğu Glide kütüphanesi Android kaynaklarını, cache mekanizmasını vs. verimli şekilde kullanarak uygulamanıza hız ve kalite kazandırır.
 Sizde projenizde resimlerle ilgili herhangi bir işlem yapıyorsanız bu kütüphaneyi incelemenizi tavsiye ediyorum.
   Github : https://github.com/bumptech/glide
@@ -78,30 +78,30 @@ Sizde projenizde resimlerle ilgili herhangi bir işlem yapıyorsanız bu kütüp
     
     <item>
       <title>Android ViewPager</title>
-      <link>https://aykuttasil.github.io/software/post/android-viewpager/</link>
+      <link>https://yazilim.aykutasil.com/post/android-viewpager/</link>
       <pubDate>Wed, 11 Jan 2017 17:07:51 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/post/android-viewpager/</guid>
+      <guid>https://yazilim.aykutasil.com/post/android-viewpager/</guid>
       <description>Android ViewPager yapısı içerisinde birçok hazır fonksiyonu, animasyonu ve özelleştirilebilir kontrolleri barındırır.
 İhtiyaçlarımız doğrultusunda bu yapıyı özelleştirebilir ve ViewPager ın bize sunmuş olduğu rahatlığı kullanabiliriz.</description>
     </item>
     
     <item>
       <title>Java Collections</title>
-      <link>https://aykuttasil.github.io/software/post/java-collections/</link>
+      <link>https://yazilim.aykutasil.com/post/java-collections/</link>
       <pubDate>Wed, 11 Jan 2017 16:10:10 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/post/java-collections/</guid>
+      <guid>https://yazilim.aykutasil.com/post/java-collections/</guid>
       <description>Collections.swap Swap kelime anlamı ile takas anlamına gelmektedir. Mevcut dizimiz içerisinde elemanların yerlerini değiştirmeye yarar.
 private static final String[] STRINGS = new String[]{ &amp;#34;1&amp;#34;, &amp;#34;2&amp;#34;, &amp;#34;3&amp;#34;, &amp;#34;4&amp;#34;, &amp;#34;5&amp;#34; }; private final List mItems = new ArrayList&amp;lt;&amp;gt;(); public void setArray() { mItems.addAll(Arrays.asList(STRINGS)); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 1,2,3,4,5  private void elemanYerDegistir() { Collections.swap(mItems, 0, 4); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 5,2,3,4,1 </description>
     </item>
     
     <item>
       <title>Foreground Service ile FusedLocationApi Kullanımı</title>
-      <link>https://aykuttasil.github.io/software/post/foreground-service-ile-fusedlocationapi-kullan%C4%B1m%C4%B1/</link>
+      <link>https://yazilim.aykutasil.com/post/foreground-service-ile-fusedlocationapi-kullan%C4%B1m%C4%B1/</link>
       <pubDate>Wed, 11 Jan 2017 15:27:59 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/post/foreground-service-ile-fusedlocationapi-kullan%C4%B1m%C4%B1/</guid>
+      <guid>https://yazilim.aykutasil.com/post/foreground-service-ile-fusedlocationapi-kullan%C4%B1m%C4%B1/</guid>
       <description>Android service yapısı, Android’in temel bileşenlerinden olup genel kullanım amacı yan iş parçacığı oluşturmaktır. Uzun süren işlemler (download vb.) için olmazsa olmaz bileşendir. Android in service bileşenini kendi ihtiyaçlarınız doğrultusunda özelleştirebilir ve uygulamanızı modern bir yapıya kavuşturabilirsiniz.
 Burada yapacağımız örnekte kısaca şu aşamaları görücez;
  Service i foreground olarak başlatmak Ongoing(devamlı gözüken) notification oluşturmak GoogleApiClient a bağlanmak Location bilgisini notification da göstermek  İlk olarak Service imiz kodlarını yazalım. Gerekli açıklamalar kodların arasında mevcuttur.</description>
@@ -109,10 +109,10 @@ Burada yapacağımız örnekte kısaca şu aşamaları görücez;
     
     <item>
       <title>Android GcmNetworkManager Kullanımı</title>
-      <link>https://aykuttasil.github.io/software/post/android-gcmnetworkmanager-kullan%C4%B1m%C4%B1/</link>
+      <link>https://yazilim.aykutasil.com/post/android-gcmnetworkmanager-kullan%C4%B1m%C4%B1/</link>
       <pubDate>Wed, 11 Jan 2017 01:43:53 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/post/android-gcmnetworkmanager-kullan%C4%B1m%C4%B1/</guid>
+      <guid>https://yazilim.aykutasil.com/post/android-gcmnetworkmanager-kullan%C4%B1m%C4%B1/</guid>
       <description>GcmNetworkManager kullanarak Android de network tabanlı işlemlerinizi olabildiğince kontrollü bir şekide yapabilirsiniz.
 GcmNetworkManager ın kullanım alanı daha çok asenkron ve periodic network işlemlerinizi yapılandırmaktır.
 Tek sefer çalışacak veya Periodic olarak çalışacak işlemleriniz için 2 tip belirlenmiştir.
@@ -122,10 +122,10 @@ OneoffTask oneoff = new OneoffTask.Builder() // Uygulamanızı kapatsanız bile 
     
     <item>
       <title>Android SMS Receiver</title>
-      <link>https://aykuttasil.github.io/software/post/android-sms-receiver/</link>
+      <link>https://yazilim.aykutasil.com/post/android-sms-receiver/</link>
       <pubDate>Wed, 11 Jan 2017 01:42:54 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/post/android-sms-receiver/</guid>
+      <guid>https://yazilim.aykutasil.com/post/android-sms-receiver/</guid>
       <description>Android SMS Receiver Android de gelen sms leri dinlemek ve uygulamanızın akışını gelen sms lere göre şekillendirmek için aşağıdaki yapıyı kullanabilirsiniz.
 İlk olarak AndroidManifest.xml dosyanızda receiver tanımlamalısınız. Fakat biz bu receiver ı dinamik olarak tanımlıcaz. Bunu yapmamızın sebebi SMS i dinledikten sonra bu receiver ı silmek ve daha sonra gelen SMS lerin dinlenmesini önlemek.
 Siz uygulamınız da sürekli bir SMS dinlemeye ihtiyaç duyarsanız receiver ı AndroidManifest.xml dosyanızda tanımlamalısınız.
@@ -134,10 +134,10 @@ Biz burda SMS dinlemesi yaparken önlem amaçlı olarak CPU nun uyumasını önl
     
     <item>
       <title>Android Internet Connection Receiver </title>
-      <link>https://aykuttasil.github.io/software/post/android-internet-connection-receiver/</link>
+      <link>https://yazilim.aykutasil.com/post/android-internet-connection-receiver/</link>
       <pubDate>Wed, 11 Jan 2017 01:42:36 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/post/android-internet-connection-receiver/</guid>
+      <guid>https://yazilim.aykutasil.com/post/android-internet-connection-receiver/</guid>
       <description>Uygulamanızın akışını internet kontrolü yaparak yönetmeniz gerekebilir.
 Bunun için ilk olarak AndroidManifest.xml dosyasına receiver tanımı yapmalısınız.
 &amp;lt;receiver android:name=&amp;#34;.InternetConnectionReceiver&amp;#34;&amp;gt; &amp;lt;intent-filter&amp;gt; &amp;lt;action android:name=&amp;#34;android.net.conn.CONNECTIVITY_CHANGE&amp;#34; /&amp;gt; &amp;lt;/intent-filter&amp;gt; &amp;lt;/receiver&amp;gt; InternetConnectionReceiver
@@ -147,10 +147,10 @@ CheckConnection</description>
     
     <item>
       <title>Robolectric ile UnitTest Yazımı</title>
-      <link>https://aykuttasil.github.io/software/post/robolectric-ile-unittest-yaz%C4%B1m%C4%B1/</link>
+      <link>https://yazilim.aykutasil.com/post/robolectric-ile-unittest-yaz%C4%B1m%C4%B1/</link>
       <pubDate>Wed, 11 Jan 2017 00:31:52 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/post/robolectric-ile-unittest-yaz%C4%B1m%C4%B1/</guid>
+      <guid>https://yazilim.aykutasil.com/post/robolectric-ile-unittest-yaz%C4%B1m%C4%B1/</guid>
       <description>Unit Test birçok yazıılımcı tarafından es geçillen ama bir o kadar da önemli ve yapılması gerekli olan bir durumdur.
 Proje büyüdükçe ve ilerledikçe teste duyulan ihtiyaç ta doğru orantılı olarak artmaktadır.
 Unit Test neden yapılır sorusunun daha ayrıntılı cevabı için unit test nedir nicin ve nasil yapilir bu yazıyı okuyabilirsiniz.

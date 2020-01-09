@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>filesystem on </title>
-    <link>https://aykuttasil.github.io/software/tags/filesystem/</link>
+    <link>https://yazilim.aykutasil.com/tags/filesystem/</link>
     <description>Recent content in filesystem on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 27 Jun 2019 14:00:59 +0300</lastBuildDate>
     
-	<atom:link href="https://aykuttasil.github.io/software/tags/filesystem/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yazilim.aykutasil.com/tags/filesystem/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Android File System</title>
-      <link>https://aykuttasil.github.io/software/post/android-file-system/</link>
+      <link>https://yazilim.aykutasil.com/post/android-file-system/</link>
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/post/android-file-system/</guid>
+      <guid>https://yazilim.aykutasil.com/post/android-file-system/</guid>
       <description>Internal Storage vs External Storage Internal Storage  Her zaman erişilebilir. Sadece uygulamanın kendisi tarafından erişebilir. Buraya kaydedilen dosyalar başka bir uygulama tarafından görünmez. USB ile bilgisayara bağlanıldığında bu dosyalara erişim sağlanamaz. Uygulama silindiğinde internal storage temizlenir.  External Storage  Her zaman erişilebilir durumda olmayabilir. External storage cihaza dahili olarak bulunabileceği gibi USB cihazı olarak sonradan takılmış bir cihaz da olabilir. Bu nedenle erişebilir olup olmadığı kontrol edilmelidir (getExternalStorageState()). External Storage&#39;a kayıt edilen dosyalar başka uygulamalar tarafından okunabilir ve görülebilir durumda olabilir.</description>
     </item>
     

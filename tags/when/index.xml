@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>when on </title>
-    <link>https://aykuttasil.github.io/software/tags/when/</link>
+    <link>https://yazilim.aykutasil.com/tags/when/</link>
     <description>Recent content in when on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 06 Jun 2017 04:42:56 +0300</lastBuildDate>
     
-	<atom:link href="https://aykuttasil.github.io/software/tags/when/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yazilim.aykutasil.com/tags/when/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Kotlin when kullanımı</title>
-      <link>https://aykuttasil.github.io/software/post/kotlin-when-kullan%C4%B1m%C4%B1/</link>
+      <link>https://yazilim.aykutasil.com/post/kotlin-when-kullan%C4%B1m%C4%B1/</link>
       <pubDate>Tue, 06 Jun 2017 04:42:56 +0300</pubDate>
       
-      <guid>https://aykuttasil.github.io/software/post/kotlin-when-kullan%C4%B1m%C4%B1/</guid>
+      <guid>https://yazilim.aykutasil.com/post/kotlin-when-kullan%C4%B1m%C4%B1/</guid>
       <description>Kotlin&#39;de when operatörü oldukça işimizi kolaylaştıran operatörlerden biridir.
 if- else if yapısı yerine kullanılabileceği gibi bazı yardımcı operatörler ile birçok marifet kazanabilir.
 val i = 10 when { i &amp;lt; 7 -&amp;gt; println(&amp;#34;first block&amp;#34;) fooString.startsWith(&amp;#34;hello&amp;#34;) -&amp;gt; println(&amp;#34;second block&amp;#34;) else -&amp;gt; println(&amp;#34;else block&amp;#34;) } Yukarıda ki örnek if-else if-else yapısının aynısıdır.
