@@ -1,4 +1,4 @@
-baseURL = "software/"
+baseURL = "https://aykuttasil.github.io/software/"
 
 theme           = "casper-two"
 languageCode    = "en-US"
