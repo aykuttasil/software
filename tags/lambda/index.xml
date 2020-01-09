@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>lambda on </title>
-    <link>software/tags/lambda/</link>
+    <link>https://aykuttasil.github.io/software/tags/lambda/</link>
     <description>Recent content in lambda on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 18 Jun 2017 02:24:37 +0300</lastBuildDate>
     
-	<atom:link href="software/tags/lambda/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aykuttasil.github.io/software/tags/lambda/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Kotlin Lambda</title>
-      <link>software/post/kotlin-lambda/</link>
+      <link>https://aykuttasil.github.io/software/post/kotlin-lambda/</link>
       <pubDate>Sun, 18 Jun 2017 02:24:37 +0300</pubDate>
       
-      <guid>software/post/kotlin-lambda/</guid>
+      <guid>https://aykuttasil.github.io/software/post/kotlin-lambda/</guid>
       <description>Kotlin Lambda Kullanımı Kotlin dili ile geliştirme yaparken fonksiyonel programlama nimetlerinden faydalanmamızı sağlayan lambda birçok konuda bize yardımcı olacaktır. Doğru kullanımını öğrendiğimiz ölçüde nimetlerinin farkına varabiliriz.
 Belli başlı lambda kullanımları için aşağıdaki örneği inceleyebilirsiniz.
  override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_kotlin_lambda) // Normal Kullanım ButtonPress.setOnClickListener(object : View.OnClickListener { override fun onClick(view: View?) { toast(&amp;quot;Press Me Click&amp;quot;) } }) // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz ButtonPress.setOnClickListener({ v -&amp;gt; toast(&amp;quot;Press Me&amp;quot;) }) // Eğer son parametre lambda fonksiyonu ise bu fonksiyonu parantez &#39;()&#39; dışına çıkarabiliriz.</description>

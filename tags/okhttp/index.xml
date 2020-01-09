@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>okhttp on </title>
-    <link>software/tags/okhttp/</link>
+    <link>https://aykuttasil.github.io/software/tags/okhttp/</link>
     <description>Recent content in okhttp on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 17 May 2017 11:58:43 +0300</lastBuildDate>
     
-	<atom:link href="software/tags/okhttp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aykuttasil.github.io/software/tags/okhttp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Retrofit Oauth</title>
-      <link>software/post/retrofit-oauth/</link>
+      <link>https://aykuttasil.github.io/software/post/retrofit-oauth/</link>
       <pubDate>Wed, 17 May 2017 11:58:43 +0300</pubDate>
       
-      <guid>software/post/retrofit-oauth/</guid>
+      <guid>https://aykuttasil.github.io/software/post/retrofit-oauth/</guid>
       <description>Retrofit Oauth Entegrasyonu Oauth, kısaca anlatmak gerekirse; Kullanıcı ile ilgili her türlü (izin,yetki,güvenlik vs.) etkileşimi standartlaştıran bir yapı diyebiliriz. Google amcaya sorarsanız neler yapabileceğiniz ile ilgili birçok kaynak bulabilirsiniz. Veya buraya bakabilirsiniz.
 Burada bahsedecek olduğumuz şey Android mobil uygulamanızdan bir istek yaptığınızda tüm bu oauth işlemlerinizi otomatize etmek üzerine olacak.
 Nasıl Çalışıyor? Kısaca anlatılan bu yazıyı okuduğunuzda günün sonunda elimizde bir token olduğunu ve bu tokenı request headerımıza ekleyerek backend kısmında kontrolünü sağladığımızı ve duruma göre cevap döndüğümüzü göreceksiniz.</description>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>api on </title>
-    <link>software/categories/api/</link>
+    <link>https://aykuttasil.github.io/software/categories/api/</link>
     <description>Recent content in api on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 12 Nov 2019 10:17:17 +0300</lastBuildDate>
     
-	<atom:link href="software/categories/api/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aykuttasil.github.io/software/categories/api/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Asp.Net Core Session</title>
-      <link>software/post/asp.net-core-session/</link>
+      <link>https://aykuttasil.github.io/software/post/asp.net-core-session/</link>
       <pubDate>Tue, 12 Nov 2019 10:17:17 +0300</pubDate>
       
-      <guid>software/post/asp.net-core-session/</guid>
+      <guid>https://aykuttasil.github.io/software/post/asp.net-core-session/</guid>
       <description>Asp.Net Core Session Kullanımı Asp.Net Core 2.1 ve üstü sürüme sahip projelerinizde Session kullanmak için Startup.cs dosyanızı aşağıdaki yöntemlerden birini seçerek güncellemeniz gerekmektedir.
 Yöntem 1 Yöntem 2 Neden Asp.Net Core 2.1 ve sonrası? 2018&#39;de uygulanması zorunlu hale gelen Avrupa Veri Koruma Kanunu ile birlikte, şirketlere kişisel verileri kullanması konusunda bazı kısıtlamalar ve uygulaması gereken bazı zorunluluklar getirilmiştir. Bu zorunluluklardan şu an için bizi ilgilendiren kısmı cookielerin kullanımı. Web siteleri cookie kullanımı için son kullanıcının onayını almak zorundadır.</description>
     </item>

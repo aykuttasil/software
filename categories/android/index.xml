@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>android on </title>
-    <link>software/categories/android/</link>
+    <link>https://aykuttasil.github.io/software/categories/android/</link>
     <description>Recent content in android on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 03 Aug 2019 03:14:28 +0300</lastBuildDate>
     
-	<atom:link href="software/categories/android/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aykuttasil.github.io/software/categories/android/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Android Debugging With Local Web Server</title>
-      <link>software/post/android-debugging-with-local-web-server/</link>
+      <link>https://aykuttasil.github.io/software/post/android-debugging-with-local-web-server/</link>
       <pubDate>Sat, 03 Aug 2019 03:14:28 +0300</pubDate>
       
-      <guid>software/post/android-debugging-with-local-web-server/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-debugging-with-local-web-server/</guid>
       <description>Fiziksel Android cihazımızla localimizde çalışan web server&#39;a erişmek, development aşamasında eminim ihtiyaç duyduğunuz veya duyacağınız gereksinimlerden biridir. Bununla beraber local makinenizde bulunan VM üzerinde koşan web server&#39;a erişmek.. Ah harika..
 Canlı bir örnek verirsem sanıyorum daha iyi olacak.
  Geliştirme yaptığınız makinenizinde MacOS işletim sistemi var. Bununla beraber çeşitli ihtiyaçlarınızdan ötürü windows kurmanız gerekti ve Virtual Machine kurarak içine windows yüklediniz. Windows üzerinde Visual Studio ile bir WebApi ayağa kaldırdınız ve bu api&amp;lsquo;ye fiziksel Android cihazınızdan erişmek istiyorsunuz.</description>
@@ -24,29 +24,29 @@ Canlı bir örnek verirsem sanıyorum daha iyi olacak.
     
     <item>
       <title>ADB Komutu ile Cihaz IP&#39;sini Öğren</title>
-      <link>software/post/adb-komutu-ile-cihaz-ipsini-%C3%B6%C4%9Fren/</link>
+      <link>https://aykuttasil.github.io/software/post/adb-komutu-ile-cihaz-ipsini-%C3%B6%C4%9Fren/</link>
       <pubDate>Sat, 20 Jul 2019 01:04:53 +0300</pubDate>
       
-      <guid>software/post/adb-komutu-ile-cihaz-ipsini-%C3%B6%C4%9Fren/</guid>
+      <guid>https://aykuttasil.github.io/software/post/adb-komutu-ile-cihaz-ipsini-%C3%B6%C4%9Fren/</guid>
       <description>Aşağıdaki komutu çalıştırarak android cihaz ip&#39;sini öğrenebilirsiniz.
 &amp;gt; adb shell ip -f inet addr show wlan0 </description>
     </item>
     
     <item>
       <title>Android File System</title>
-      <link>software/post/android-file-system/</link>
+      <link>https://aykuttasil.github.io/software/post/android-file-system/</link>
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
-      <guid>software/post/android-file-system/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-file-system/</guid>
       <description>Internal Storage vs External Storage Internal Storage  Her zaman erişilebilir. Sadece uygulamanın kendisi tarafından erişebilir. Buraya kaydedilen dosyalar başka bir uygulama tarafından görünmez. USB ile bilgisayara bağlanıldığında bu dosyalara erişim sağlanamaz. Uygulama silindiğinde internal storage temizlenir.  External Storage  Her zaman erişilebilir durumda olmayabilir. External storage cihaza dahili olarak bulunabileceği gibi USB cihazı olarak sonradan takılmış bir cihaz da olabilir. Bu nedenle erişebilir olup olmadığı kontrol edilmelidir (getExternalStorageState()). External Storage&#39;a kayıt edilen dosyalar başka uygulamalar tarafından okunabilir ve görülebilir durumda olabilir.</description>
     </item>
     
     <item>
       <title>Android DataBinding</title>
-      <link>software/post/android-databinding/</link>
+      <link>https://aykuttasil.github.io/software/post/android-databinding/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:27 +0300</pubDate>
       
-      <guid>software/post/android-databinding/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-databinding/</guid>
       <description>Android DataBinding Android dünyasında temiz kod(Clean Code) günümüzde çokça konuşulan konular arasında yer almakta ve neden temiz kod yazmalıyız ile alakalı bir çok makale yazılmaktadır.
 Temiz kod yazmak için MVP, MVVM vs. kod tasarım mimarilerinden birini seçerek yazılan kodların ve etkileşimlerinin birbirinden ayrımını sağlamaktayız. Bu kod tasarım kalıpları ile beraber bize çok faydası olacak bir mimari daha bulunmakta: DataBinding
 DataBinding Uygulamanın arayüzünü tasarlamak için kullandığımız layout dosyamızın içerisine Uygulamamızın arayüzünü oluşturmak için kullandığımız layout xml dosyalarına gerekli datayı doğrudan entegre ederek, arayüz değişikliği ile ilgili tüm akışların harici müdahaleye gerek kalmadan otomatik olarak gerçekleşmesini sağlayabiliriz.</description>
@@ -54,10 +54,10 @@ DataBinding Uygulamanın arayüzünü tasarlamak için kullandığımız layout 
     
     <item>
       <title>Android Service</title>
-      <link>software/post/android-service/</link>
+      <link>https://aykuttasil.github.io/software/post/android-service/</link>
       <pubDate>Thu, 14 Feb 2019 13:10:18 +0300</pubDate>
       
-      <guid>software/post/android-service/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-service/</guid>
       <description>Android Service Android&#39;in temel bileşenlerinden biri olan Service&amp;lsquo;ler kısaca UI(arayüz) olmayan Activity&amp;lsquo;lere benzetebiliriz. Tabi ki kendine göre ek özellikleri bulunmaktadır. Service tanımlaması AndroidManifest.xml içerisinde tanımlı olmalıdır. Aksi takdirde çalışmaz. &amp;lt;service&amp;gt; elementinin alabileceği özellikler aşağıdaki gibidir.
 Niçin kullanılır? Temel olarak ifade etmek gerekirse Service&amp;lsquo;lerin kullanım amacı uzun süren ve arka planda(background) çalışan taskler oluşturmaktır. Bununla birlikte diğer uygulamalar tarafından çağırılabilen iletişim imkanı sağlar.
 Service tanımlanması &amp;lt;service android:description=&amp;#34;string resource&amp;#34; android:directBootAware=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:enabled=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:exported=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:icon=&amp;#34;drawable resource&amp;#34; android:isolatedProcess=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:label=&amp;#34;string resource&amp;#34; android:name=&amp;#34;string&amp;#34; android:permission=&amp;#34;string&amp;#34; android:process=&amp;#34;string&amp;#34; &amp;gt; .</description>
@@ -65,10 +65,10 @@ Service tanımlanması &amp;lt;service android:description=&amp;#34;string resou
     
     <item>
       <title>Android Kotlin Test - Final Type Problem</title>
-      <link>software/post/android-kotlin-test-final-type-problem/</link>
+      <link>https://aykuttasil.github.io/software/post/android-kotlin-test-final-type-problem/</link>
       <pubDate>Tue, 29 Jan 2019 15:38:29 +0300</pubDate>
       
-      <guid>software/post/android-kotlin-test-final-type-problem/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-kotlin-test-final-type-problem/</guid>
       <description>Sorun Kotlin dili ile geliştirilen Android projelerinin test yazımı sırasında sınıfların veya metodların mocklanması, Java ile geliştirilen projelere göre bazı farklılıklar göstermektedir. Bu farklılığın sebeplerinden biri Kotlin ile oluşturulan sınıf veya metodların default olarak final olarak işaretlenmiş olmasıdır. Ve final tipindeki sınıfların mocklanması bazı sorunlar çıkarmaktadır.
 Çözüm Final tipindeki sınıfların veya metodların mocklama işlemi sırasında çıkan sorunu çözmenin birkaç farklı yöntemi vardır.
 Çözüm 1 (open ClassName) Test edeceğimiz sınıf ve metodun başına open ifadesini ekleyerek extend edilebilir hale getirmek.</description>
@@ -76,19 +76,19 @@ Service tanımlanması &amp;lt;service android:description=&amp;#34;string resou
     
     <item>
       <title>Android CircleCI Configuration</title>
-      <link>software/post/android-circleci-configuration/</link>
+      <link>https://aykuttasil.github.io/software/post/android-circleci-configuration/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>software/post/android-circleci-configuration/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-circleci-configuration/</guid>
       <description>CircleCI Android Yapılandırması .circleci/config.yml version: 2 jobs: build: working_directory: ~/code docker: - image: circleci/android:api-28-alpha environment: JVM_OPTS: -Xmx3200m steps: - checkout - run: name: Initialize Keystore File command: echo $KEYSTORE_BASE64 | base64 --decode &amp;gt; app/aykutasilkeystore - run: name: Initialize Fabric Properties command: | echo &amp;#34;apiKey=$FABRIC_API_KEY&amp;#34; &amp;gt;&amp;gt; app/fabric.properties echo &amp;#34;apiSecret=$FABRIC_API_SECRET&amp;#34; &amp;gt;&amp;gt; app/fabric.properties cat app/fabric.properties - run: name: Initialize Keystore File command: | echo &amp;#34;signingKeyAlias=$KEYSTORE_KEY_ALIAS&amp;#34; &amp;gt;&amp;gt; keystore.properties echo &amp;#34;signingKeyAliasPassword=$KEYSTORE_KEY_ALIAS_PASSWORD&amp;#34; &amp;gt;&amp;gt; keystore.properties echo &amp;#34;signingStoreFile=$KEYSTORE_STORE_FILE&amp;#34; &amp;gt;&amp;gt; keystore.</description>
     </item>
     
     <item>
       <title>Android Dagger</title>
-      <link>software/post/android-dagger/</link>
+      <link>https://aykuttasil.github.io/software/post/android-dagger/</link>
       <pubDate>Fri, 12 Oct 2018 11:48:08 +0300</pubDate>
       
-      <guid>software/post/android-dagger/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-dagger/</guid>
       <description>@BindsInstance Bağımlılıklarınızı oluşturma esnasında belirtmeniz gereken bir değişkenininiz var ve bu değişkeni diğer module leriniz içerisinde kullanıcaksınız. Aşağıdaki gibi @BindsInstance kullanarak bu bağımlılığınızı dependency graph içerisine ekleyerek diğer modüller içerisinde kullanımını sağlayabilirsiniz.
 @Component(modules = AppModule.class) interface AppComponent { App app(); @Component.Builder interface Builder { @BindsInstance Builder apiUrl(@ApiUrl String apiUrl); AppComponent build(); } } Component build edilirken apiUrl değeri bind edilir.
 App app = DaggerAppComponent .builder() .apiUrl(&amp;#34;http://....&amp;#34;) .build()  </description>
@@ -96,10 +96,10 @@ App app = DaggerAppComponent .builder() .apiUrl(&amp;#34;http://....&amp;#34;) .
     
     <item>
       <title>Android Test</title>
-      <link>software/post/android-test/</link>
+      <link>https://aykuttasil.github.io/software/post/android-test/</link>
       <pubDate>Tue, 18 Sep 2018 11:51:07 +0300</pubDate>
       
-      <guid>software/post/android-test/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-test/</guid>
       <description>Not: Bu yazıyı hazırlarken ben de öğrenme sürecinde olucam. Araştırdığım ve öğrendiğim tüm teknik bilgileri ve yöntemleri, best-practice leri gelişi güzel(karmakarışık değil) bir şekilde yazıcam. Sonrasında zaman bulduğum vakit bir düzenleme yapıcam.
  Unit Test ve Instrumentation Test Unit Test Unit Test: Android framework ünden bağımsız olan sınıfları/metodları test etmek için kullanılır. Robolectric ve JUnit popüler unit test araçlarıdır.
  If you run local unit tests, a special version of the android.</description>
@@ -107,20 +107,20 @@ App app = DaggerAppComponent .builder() .apiUrl(&amp;#34;http://....&amp;#34;) .
     
     <item>
       <title>Android Backstack Navigate</title>
-      <link>software/post/android-backstack-navigate/</link>
+      <link>https://aykuttasil.github.io/software/post/android-backstack-navigate/</link>
       <pubDate>Fri, 04 May 2018 17:38:15 +0300</pubDate>
       
-      <guid>software/post/android-backstack-navigate/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-backstack-navigate/</guid>
       <description>Android Navigate Örnek Senaryo Kullanıcıya bir ürün ile ilgili notification yolladınız. Kullanıcı bu notification a tıkladığında direk olarak Ürün Detay sayfasına yönlendiriliyor. Kullanıcı sayfada işi bittiğinde geri tuşuna basıyor ve siz bu durumda kullanıcıyı uygulamanın Anasayfasına yönlendirmek istiyorsunuz. Ek bir geliştirme yapmadığınız takdirde bu senaryo için geri tuşuna basıldığında uygulama kapanır. Çünkü geri gidecek ekranı yoktur. Direk olarak Detay sayfası açılmıştır.
  Çözüm İlk olarak yapmamız gereken Manifest.xml dosyasında DetailActivity tanımlamasını yaptığımız yerde parentActivityName i belirtmek.</description>
     </item>
     
     <item>
       <title>Android Architecture Components</title>
-      <link>software/post/android-architecture-components/</link>
+      <link>https://aykuttasil.github.io/software/post/android-architecture-components/</link>
       <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>software/post/android-architecture-components/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-architecture-components/</guid>
       <description>Android Architecture Components Öncelikle şu linkleri verelim:
  https://developer.android.com/topic/libraries/architecture/index.html Lifecycle LiveData ViewModel  LifeCycle Daha önce Android uygulaması geliştirenler çok iyi bilirler ki bir activity veya fragment ın yaşam döngüsünü yönetmek sıkıntılı bir süreçtir. Activity&#39;nin arka planda mı yoksa görünür vaziyette mi oluşuna göre düzenlenen akışlar çoğu zaman yoğun dikkat gerektiren süreçlerdir. Yukarıda ki Lifecycle linkine tıklarsanınz çok güzel bir örnek ile durumu açıklamışlar.
 Oluşturduğumuz nesneler eğer activity&#39;nin yaşam döngüsüne bağlı ise bunu yönetmek için activity&#39;mizin genelde onCreate ve onStop metodları içerisinde bu nesnelere ait fonksiyonları çağırıyorduk.</description>
@@ -128,10 +128,10 @@ Oluşturduğumuz nesneler eğer activity&#39;nin yaşam döngüsüne bağlı ise
     
     <item>
       <title>Kotlin @JvmOverloads</title>
-      <link>software/post/kotlin-jvmoverloads/</link>
+      <link>https://aykuttasil.github.io/software/post/kotlin-jvmoverloads/</link>
       <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>software/post/kotlin-jvmoverloads/</guid>
+      <guid>https://aykuttasil.github.io/software/post/kotlin-jvmoverloads/</guid>
       <description>Kotlin @JvmOverloads Kotlin ile uygulama geliştirmeyi teşvik eden en büyük etkenlerden biri şüphesiz Java dili uyumlu yapısıdır. Her iki tarafdan da birbirlerine referanslar verilebilir.
 Kotlin dilinin Java&#39;dan ayıran özelliklerinden biri Java compiler ından daha zeki olmasıdır. Nitekim java dili yaşlanıyor :). Kotlin ile oluşturulan bazı yapıların Java tarafına uyumlu hale getirilmesi için bazen ufak düzenlemelere gerek duyulabiliyor. Bu düzenlemelerden bir tanesi de @JvmOverloads annotation kullanımı.
 fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View { return LayoutInflater.</description>
@@ -139,20 +139,20 @@ fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View { return 
     
     <item>
       <title>Kotlin Sealed Class</title>
-      <link>software/post/kotlin-sealed-class/</link>
+      <link>https://aykuttasil.github.io/software/post/kotlin-sealed-class/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>software/post/kotlin-sealed-class/</guid>
+      <guid>https://aykuttasil.github.io/software/post/kotlin-sealed-class/</guid>
       <description>Kotlin Sealed Class Enum yapısına benzer bir yapıya sahiptir. Ve benzer görevler için kullanılır. Aradaki fark enum lar sabit değer ifade etmek için kullanılırken sealed yapısı normal sınıf gibi fakat enum mantığıyla kullanılır. Yani belli bir duruma ait fonksiyonları bir arada tutmak ve when() gibi fonksiyonlar ile birlikte kullanımını sağlamak için kullanılır.
 // Sealed class enum yapısına benzer  // Bir durum için belli başlı akışları bir arada tutmamızı sağlar ve bu akışların yönetimini kolaylaştırır.</description>
     </item>
     
     <item>
       <title>Retrofit Oauth</title>
-      <link>software/post/retrofit-oauth/</link>
+      <link>https://aykuttasil.github.io/software/post/retrofit-oauth/</link>
       <pubDate>Wed, 17 May 2017 11:58:43 +0300</pubDate>
       
-      <guid>software/post/retrofit-oauth/</guid>
+      <guid>https://aykuttasil.github.io/software/post/retrofit-oauth/</guid>
       <description>Retrofit Oauth Entegrasyonu Oauth, kısaca anlatmak gerekirse; Kullanıcı ile ilgili her türlü (izin,yetki,güvenlik vs.) etkileşimi standartlaştıran bir yapı diyebiliriz. Google amcaya sorarsanız neler yapabileceğiniz ile ilgili birçok kaynak bulabilirsiniz. Veya buraya bakabilirsiniz.
 Burada bahsedecek olduğumuz şey Android mobil uygulamanızdan bir istek yaptığınızda tüm bu oauth işlemlerinizi otomatize etmek üzerine olacak.
 Nasıl Çalışıyor? Kısaca anlatılan bu yazıyı okuduğunuzda günün sonunda elimizde bir token olduğunu ve bu tokenı request headerımıza ekleyerek backend kısmında kontrolünü sağladığımızı ve duruma göre cevap döndüğümüzü göreceksiniz.</description>
@@ -160,10 +160,10 @@ Nasıl Çalışıyor? Kısaca anlatılan bu yazıyı okuduğunuzda günün sonun
     
     <item>
       <title>Android ile WebView Etkileşimi</title>
-      <link>software/android-webview-etkilesimi/</link>
+      <link>https://aykuttasil.github.io/software/android-webview-etkilesimi/</link>
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
-      <guid>software/android-webview-etkilesimi/</guid>
+      <guid>https://aykuttasil.github.io/software/android-webview-etkilesimi/</guid>
       <description>Kısa Hikaye : Üstünde çalışmakta olduğum bir projede kredi kartı ile ödeme yapısı kurmam gerekti. Kısaca projenin yapısından bahsedecek olursak
  Backend : .Net Client : Android (Java) Ödeme altyapısı : İyzico  Client tarafında rest isteğiyle tüm işlemlerimizi backend tarafında yapıyoruz. Ödeme yapımızı da bu doğrultuda geliştirdik.
 Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine bankanın bize telefonumuza gelen şifreyi girmemiz için göndermiş olduğu web sayfası vs. giriyor.</description>
@@ -171,10 +171,10 @@ Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine
     
     <item>
       <title>RxJava range() Kullanımı</title>
-      <link>software/post/rxjava-range-kullan%C4%B1m%C4%B1/</link>
+      <link>https://aykuttasil.github.io/software/post/rxjava-range-kullan%C4%B1m%C4%B1/</link>
       <pubDate>Wed, 11 Jan 2017 18:52:51 +0300</pubDate>
       
-      <guid>software/post/rxjava-range-kullan%C4%B1m%C4%B1/</guid>
+      <guid>https://aykuttasil.github.io/software/post/rxjava-range-kullan%C4%B1m%C4%B1/</guid>
       <description>RxJava range() Kullanımı **Örnek kod:&amp;ndash;
 private void range() { Observable.range(3, 5).subscribeOn(Schedulers.io()) .subscribe(success -&amp;gt; { Log.i(TAG, &amp;#34;val: &amp;#34; + success.toString()); }); } Açıklama:
 İlk değer 3 kabul edilerek sonraki 5 sayı için teker teker onNext() çağırılır. Yani 3 , 4, 5, 6, 7
@@ -184,20 +184,20 @@ I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActiv
     
     <item>
       <title>RxJava scan() Kullanımı</title>
-      <link>software/post/rxjava-scan-kullan%C4%B1m%C4%B1/</link>
+      <link>https://aykuttasil.github.io/software/post/rxjava-scan-kullan%C4%B1m%C4%B1/</link>
       <pubDate>Wed, 11 Jan 2017 18:49:21 +0300</pubDate>
       
-      <guid>software/post/rxjava-scan-kullan%C4%B1m%C4%B1/</guid>
+      <guid>https://aykuttasil.github.io/software/post/rxjava-scan-kullan%C4%B1m%C4%B1/</guid>
       <description>RxJava scan() Kullanımı RxJava da scan() kullanımı iki şekilde olur.
    İlk değer ataması yapılarak    private void scan() { Observable.just(3, 5, 7, 9) .scan(10,(val1, val2) -&amp;gt; { //  Log.i(TAG, &amp;#34;val1: &amp;#34; + val1.toString()); Log.i(TAG, &amp;#34;val2: &amp;#34; + val2.toString()); return val1 + val2; }).subscribeOn(Schedulers.io()) .subscribe(success -&amp;gt; { Log.i(TAG, &amp;#34;Sonuc:&amp;#34; + success.toString()); }); }   İlk değer ataması yapılmadan    private void scan() { Observable.</description>
     </item>
     
     <item>
       <title>RxJava reduce() Kullanımı</title>
-      <link>software/post/rxjava-reduce-kullan%C4%B1m%C4%B1/</link>
+      <link>https://aykuttasil.github.io/software/post/rxjava-reduce-kullan%C4%B1m%C4%B1/</link>
       <pubDate>Wed, 11 Jan 2017 18:42:04 +0300</pubDate>
       
-      <guid>software/post/rxjava-reduce-kullan%C4%B1m%C4%B1/</guid>
+      <guid>https://aykuttasil.github.io/software/post/rxjava-reduce-kullan%C4%B1m%C4%B1/</guid>
       <description>RxJava reduce() Kullanımı reduce() fonskyionu iki şekilde çalışır;
  1  .reduce(new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } })  2  .reduce(10,new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } }) 1 ile 2 nin farkı, 2 de görüldüğü üzere fonksiyona başlangıç değeri atanabilmesidir.
 Aşağıdaki örneklerde daha net görebilirsiniz.</description>
@@ -205,10 +205,10 @@ Aşağıdaki örneklerde daha net görebilirsiniz.</description>
     
     <item>
       <title>Android Library &amp; Bintray</title>
-      <link>software/post/android-library-bintray/</link>
+      <link>https://aykuttasil.github.io/software/post/android-library-bintray/</link>
       <pubDate>Wed, 11 Jan 2017 17:27:29 +0300</pubDate>
       
-      <guid>software/post/android-library-bintray/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-library-bintray/</guid>
       <description>Android uygulaması yazarken bazı oluşturmuş olduğunuz yapıları tekrar tekrar yazmak durumunda kalıyorsanız, sizin de artık kendi kütüphanenizi yazmanızın zamanı gelmiş geçiyor demektir. Böyle bir durum söz konusu olmak zorunda değil tabi library oluşturmak için 🙂
 Bu yazının konusu Android Library oluşturmak, oluşturmuş olduğumuz bu kütüphaneyi maven ve jcenter repository e deploy etmek olucak.
 Ve başlayabiliriz.
@@ -217,10 +217,10 @@ Ve başlayabiliriz.
     
     <item>
       <title>Android Runtime Permission</title>
-      <link>software/post/android-runtime-permission/</link>
+      <link>https://aykuttasil.github.io/software/post/android-runtime-permission/</link>
       <pubDate>Wed, 11 Jan 2017 17:24:52 +0300</pubDate>
       
-      <guid>software/post/android-runtime-permission/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-runtime-permission/</guid>
       <description>Yavaş yavaş mevcut android cihazlarının API level düzeyi doğal olarak yükselmekte ve bizlerinde tabi ki buna ayak uydurması gerekmekte.
 Bunlardan biri de Android M – Marshmallow (23) ile gelen Runtime Permissions olayı.
 Kullanıcı açısından bakıldığında oldukça yararlı birşey gibi duruyor ama tabi ki biz kullanıcılar runtime sırasında çıkan permission dialog daki yazıyı ne kadar okuruz ve buna göre onay veririz meçhul. Aslına bakarsanız çok da okunacağını düşünmüyorum ama olsun yine de güzel.</description>
@@ -228,10 +228,10 @@ Kullanıcı açısından bakıldığında oldukça yararlı birşey gibi duruyor
     
     <item>
       <title>Android Glide ve Palette Kullanımı</title>
-      <link>software/post/android-glide-ve-palette-kullan%C4%B1m%C4%B1/</link>
+      <link>https://aykuttasil.github.io/software/post/android-glide-ve-palette-kullan%C4%B1m%C4%B1/</link>
       <pubDate>Wed, 11 Jan 2017 17:11:30 +0300</pubDate>
       
-      <guid>software/post/android-glide-ve-palette-kullan%C4%B1m%C4%B1/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-glide-ve-palette-kullan%C4%B1m%C4%B1/</guid>
       <description>Google ın resim işlemleri için geliştirmiş olduğu Glide kütüphanesi Android kaynaklarını, cache mekanizmasını vs. verimli şekilde kullanarak uygulamanıza hız ve kalite kazandırır.
 Sizde projenizde resimlerle ilgili herhangi bir işlem yapıyorsanız bu kütüphaneyi incelemenizi tavsiye ediyorum.
   Github : https://github.com/bumptech/glide
@@ -241,30 +241,30 @@ Sizde projenizde resimlerle ilgili herhangi bir işlem yapıyorsanız bu kütüp
     
     <item>
       <title>Android ViewPager</title>
-      <link>software/post/android-viewpager/</link>
+      <link>https://aykuttasil.github.io/software/post/android-viewpager/</link>
       <pubDate>Wed, 11 Jan 2017 17:07:51 +0300</pubDate>
       
-      <guid>software/post/android-viewpager/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-viewpager/</guid>
       <description>Android ViewPager yapısı içerisinde birçok hazır fonksiyonu, animasyonu ve özelleştirilebilir kontrolleri barındırır.
 İhtiyaçlarımız doğrultusunda bu yapıyı özelleştirebilir ve ViewPager ın bize sunmuş olduğu rahatlığı kullanabiliriz.</description>
     </item>
     
     <item>
       <title>Java Collections</title>
-      <link>software/post/java-collections/</link>
+      <link>https://aykuttasil.github.io/software/post/java-collections/</link>
       <pubDate>Wed, 11 Jan 2017 16:10:10 +0300</pubDate>
       
-      <guid>software/post/java-collections/</guid>
+      <guid>https://aykuttasil.github.io/software/post/java-collections/</guid>
       <description>Collections.swap Swap kelime anlamı ile takas anlamına gelmektedir. Mevcut dizimiz içerisinde elemanların yerlerini değiştirmeye yarar.
 private static final String[] STRINGS = new String[]{ &amp;#34;1&amp;#34;, &amp;#34;2&amp;#34;, &amp;#34;3&amp;#34;, &amp;#34;4&amp;#34;, &amp;#34;5&amp;#34; }; private final List mItems = new ArrayList&amp;lt;&amp;gt;(); public void setArray() { mItems.addAll(Arrays.asList(STRINGS)); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 1,2,3,4,5  private void elemanYerDegistir() { Collections.swap(mItems, 0, 4); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 5,2,3,4,1 </description>
     </item>
     
     <item>
       <title>Android Custom Toolbar Title</title>
-      <link>software/post/android-custom-toolbar-title/</link>
+      <link>https://aykuttasil.github.io/software/post/android-custom-toolbar-title/</link>
       <pubDate>Wed, 11 Jan 2017 16:01:33 +0300</pubDate>
       
-      <guid>software/post/android-custom-toolbar-title/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-custom-toolbar-title/</guid>
       <description>Android Toolbar bileşeni çok yönlü bir yapıya sahiptir. Android Design Library kullanarak ve AppBarLayout içerisinde tanımlanarak oldukça farklı şekillere bürünebilir.
 Genel kullanımı aşağıdaki gibidir.
 &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt; &amp;lt;android.support.design.widget.CoordinatorLayout xmlns:android=&amp;#34;http://schemas.android.com/apk/res/android&amp;#34; xmlns:app=&amp;#34;http://schemas.android.com/apk/res-auto&amp;#34; xmlns:tools=&amp;#34;http://schemas.android.com/tools&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;match_parent&amp;#34; android:background=&amp;#34;@color/primary_dark&amp;#34; tools:context=&amp;#34;.MainActivity&amp;#34;&amp;gt; &amp;lt;FrameLayout android:id=&amp;#34;@+id/container&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;match_parent&amp;#34;&amp;gt; &amp;lt;/FrameLayout&amp;gt; &amp;lt;android.support.design.widget.FloatingActionButton android:id=&amp;#34;@+id/fab&amp;#34; android:layout_width=&amp;#34;wrap_content&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; android:layout_gravity=&amp;#34;bottom|end&amp;#34; android:layout_margin=&amp;#34;@dimen/fab_margin&amp;#34; android:src=&amp;#34;@android:drawable/ic_dialog_email&amp;#34; /&amp;gt; &amp;lt;android.support.design.widget.AppBarLayout android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; app:elevation=&amp;#34;0dp&amp;#34;&amp;gt; &amp;lt;android.support.v7.widget.Toolbar android:id=&amp;#34;@+id/toolbar&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; android:background=&amp;#34;@color/primary_dark&amp;#34; android:minHeight=&amp;#34;?attr/actionBarSize&amp;#34; app:popupTheme=&amp;#34;@style/AppTheme.PopupOverlay&amp;#34;/&amp;gt; &amp;lt;/android.support.design.widget.AppBarLayout&amp;gt; &amp;lt;/android.support.design.widget.CoordinatorLayout&amp;gt; app:elevation=&amp;quot;0dp&amp;quot; // AppBarLayout içerisinde ki bu tanımlama default olarak tanımlanmış gölgeyi kaldırır.</description>
@@ -272,10 +272,10 @@ Genel kullanımı aşağıdaki gibidir.
     
     <item>
       <title>Foreground Service ile FusedLocationApi Kullanımı</title>
-      <link>software/post/foreground-service-ile-fusedlocationapi-kullan%C4%B1m%C4%B1/</link>
+      <link>https://aykuttasil.github.io/software/post/foreground-service-ile-fusedlocationapi-kullan%C4%B1m%C4%B1/</link>
       <pubDate>Wed, 11 Jan 2017 15:27:59 +0300</pubDate>
       
-      <guid>software/post/foreground-service-ile-fusedlocationapi-kullan%C4%B1m%C4%B1/</guid>
+      <guid>https://aykuttasil.github.io/software/post/foreground-service-ile-fusedlocationapi-kullan%C4%B1m%C4%B1/</guid>
       <description>Android service yapısı, Android’in temel bileşenlerinden olup genel kullanım amacı yan iş parçacığı oluşturmaktır. Uzun süren işlemler (download vb.) için olmazsa olmaz bileşendir. Android in service bileşenini kendi ihtiyaçlarınız doğrultusunda özelleştirebilir ve uygulamanızı modern bir yapıya kavuşturabilirsiniz.
 Burada yapacağımız örnekte kısaca şu aşamaları görücez;
  Service i foreground olarak başlatmak Ongoing(devamlı gözüken) notification oluşturmak GoogleApiClient a bağlanmak Location bilgisini notification da göstermek  İlk olarak Service imiz kodlarını yazalım. Gerekli açıklamalar kodların arasında mevcuttur.</description>
@@ -283,19 +283,19 @@ Burada yapacağımız örnekte kısaca şu aşamaları görücez;
     
     <item>
       <title>Retrofit Multipart File Upload</title>
-      <link>software/post/retrofit-multipart-file-upload/</link>
+      <link>https://aykuttasil.github.io/software/post/retrofit-multipart-file-upload/</link>
       <pubDate>Wed, 11 Jan 2017 01:50:51 +0300</pubDate>
       
-      <guid>software/post/retrofit-multipart-file-upload/</guid>
+      <guid>https://aykuttasil.github.io/software/post/retrofit-multipart-file-upload/</guid>
       <description>Retrofit Multipart File Upload @DebugLog public BelgeResponse BelgeSync(BelgeRequest request, String apiVersion, String appVersion) { try { Map&amp;lt;String, RequestBody&amp;gt; map = new HashMap&amp;lt;&amp;gt;(); String belgeDirPath = SuperHelper.getInternalIztopBelgeDir(mContext, request.getGonderiNo()); File belgeDir = new File(belgeDirPath); boolean isDir = belgeDir.isDirectory(); if (isDir) { File[] files = belgeDir.listFiles(); for (File file : files) { RequestBody requestBody = RequestBody.create(MediaType.parse(&amp;#34;image/jpg&amp;#34;), file); map.put(&amp;#34;file\&amp;#34;; filename=\&amp;#34;&amp;#34; + file.getName(), requestBody); } } //RequestBody requestBodyGonderiNo = RequestBody.create(MediaType.parse(&amp;#34;text/plain&amp;#34;), request.getGonderiNo());  //RequestBody requestBodyMusId = RequestBody.</description>
     </item>
     
     <item>
       <title>Android GcmNetworkManager Kullanımı</title>
-      <link>software/post/android-gcmnetworkmanager-kullan%C4%B1m%C4%B1/</link>
+      <link>https://aykuttasil.github.io/software/post/android-gcmnetworkmanager-kullan%C4%B1m%C4%B1/</link>
       <pubDate>Wed, 11 Jan 2017 01:43:53 +0300</pubDate>
       
-      <guid>software/post/android-gcmnetworkmanager-kullan%C4%B1m%C4%B1/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-gcmnetworkmanager-kullan%C4%B1m%C4%B1/</guid>
       <description>GcmNetworkManager kullanarak Android de network tabanlı işlemlerinizi olabildiğince kontrollü bir şekide yapabilirsiniz.
 GcmNetworkManager ın kullanım alanı daha çok asenkron ve periodic network işlemlerinizi yapılandırmaktır.
 Tek sefer çalışacak veya Periodic olarak çalışacak işlemleriniz için 2 tip belirlenmiştir.
@@ -305,10 +305,10 @@ OneoffTask oneoff = new OneoffTask.Builder() // Uygulamanızı kapatsanız bile 
     
     <item>
       <title>Android SMS Receiver</title>
-      <link>software/post/android-sms-receiver/</link>
+      <link>https://aykuttasil.github.io/software/post/android-sms-receiver/</link>
       <pubDate>Wed, 11 Jan 2017 01:42:54 +0300</pubDate>
       
-      <guid>software/post/android-sms-receiver/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-sms-receiver/</guid>
       <description>Android SMS Receiver Android de gelen sms leri dinlemek ve uygulamanızın akışını gelen sms lere göre şekillendirmek için aşağıdaki yapıyı kullanabilirsiniz.
 İlk olarak AndroidManifest.xml dosyanızda receiver tanımlamalısınız. Fakat biz bu receiver ı dinamik olarak tanımlıcaz. Bunu yapmamızın sebebi SMS i dinledikten sonra bu receiver ı silmek ve daha sonra gelen SMS lerin dinlenmesini önlemek.
 Siz uygulamınız da sürekli bir SMS dinlemeye ihtiyaç duyarsanız receiver ı AndroidManifest.xml dosyanızda tanımlamalısınız.
@@ -317,10 +317,10 @@ Biz burda SMS dinlemesi yaparken önlem amaçlı olarak CPU nun uyumasını önl
     
     <item>
       <title>Android Internet Connection Receiver </title>
-      <link>software/post/android-internet-connection-receiver/</link>
+      <link>https://aykuttasil.github.io/software/post/android-internet-connection-receiver/</link>
       <pubDate>Wed, 11 Jan 2017 01:42:36 +0300</pubDate>
       
-      <guid>software/post/android-internet-connection-receiver/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-internet-connection-receiver/</guid>
       <description>Uygulamanızın akışını internet kontrolü yaparak yönetmeniz gerekebilir.
 Bunun için ilk olarak AndroidManifest.xml dosyasına receiver tanımı yapmalısınız.
 &amp;lt;receiver android:name=&amp;#34;.InternetConnectionReceiver&amp;#34;&amp;gt; &amp;lt;intent-filter&amp;gt; &amp;lt;action android:name=&amp;#34;android.net.conn.CONNECTIVITY_CHANGE&amp;#34; /&amp;gt; &amp;lt;/intent-filter&amp;gt; &amp;lt;/receiver&amp;gt; InternetConnectionReceiver
@@ -330,10 +330,10 @@ CheckConnection</description>
     
     <item>
       <title>Android ActiveAndroid Kullanımı</title>
-      <link>software/post/android-activeandroid-kullan%C4%B1m%C4%B1/</link>
+      <link>https://aykuttasil.github.io/software/post/android-activeandroid-kullan%C4%B1m%C4%B1/</link>
       <pubDate>Wed, 11 Jan 2017 01:00:19 +0300</pubDate>
       
-      <guid>software/post/android-activeandroid-kullan%C4%B1m%C4%B1/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-activeandroid-kullan%C4%B1m%C4%B1/</guid>
       <description>Anroid ile ORM (Object Relational Mapping) kullanarak veritabanı işlemlerinizi oldukça kolay yapabilirsiniz.
 ActiveAndroid kütüphanesi ORM kütüphanelerinden biridir.
 Kütüphaneyi buradan indirebilirsiniz.
@@ -344,10 +344,10 @@ Aşağıda kısaca Tablo oluşturmaktan ve gerektiğinde Tablo yu nasıl güncel
     
     <item>
       <title>Robolectric ile UnitTest Yazımı</title>
-      <link>software/post/robolectric-ile-unittest-yaz%C4%B1m%C4%B1/</link>
+      <link>https://aykuttasil.github.io/software/post/robolectric-ile-unittest-yaz%C4%B1m%C4%B1/</link>
       <pubDate>Wed, 11 Jan 2017 00:31:52 +0300</pubDate>
       
-      <guid>software/post/robolectric-ile-unittest-yaz%C4%B1m%C4%B1/</guid>
+      <guid>https://aykuttasil.github.io/software/post/robolectric-ile-unittest-yaz%C4%B1m%C4%B1/</guid>
       <description>Unit Test birçok yazıılımcı tarafından es geçillen ama bir o kadar da önemli ve yapılması gerekli olan bir durumdur.
 Proje büyüdükçe ve ilerledikçe teste duyulan ihtiyaç ta doğru orantılı olarak artmaktadır.
 Unit Test neden yapılır sorusunun daha ayrıntılı cevabı için unit test nedir nicin ve nasil yapilir bu yazıyı okuyabilirsiniz.
@@ -357,10 +357,10 @@ Aşağıdaki adımları sırası ile ve düzgün bir şekilde uygularsanız herh
     
     <item>
       <title>Android Key Hashes &amp; SHA1</title>
-      <link>software/post/android-key-hashes-sha1/</link>
+      <link>https://aykuttasil.github.io/software/post/android-key-hashes-sha1/</link>
       <pubDate>Tue, 10 Jan 2017 23:56:35 +0300</pubDate>
       
-      <guid>software/post/android-key-hashes-sha1/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-key-hashes-sha1/</guid>
       <description>Android Key Hashes &amp;amp; SHA1 Windows komut satırına aşağıdaki komutu yazarak ulaşabilirsiniz.
 keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%\.android\debug.keystore | openssl sha1 -binary | openssl base64 openssl hatası alırsanız https://code.google.com/p/openssl-for-windows/downloads/detail?name=openssl-0.9.8k_X64.zip adresindeki dosyayı indirdikten sonra çıkan dosyadaki bin klasörünü ortam değişkenlerindeki PATH kısmına eklerseniz sorun ortadan kalkacaktır.
 Ortam değişkenlerine ulaşmak için : Denetim Masası &amp;gt; Sistem &amp;gt; Gelişmiş Sİstem Ayarları
@@ -370,10 +370,10 @@ your_user_name yerine kendi kullanıcı adınızı yazmayı unutmayın.</descrip
     
     <item>
       <title>Android Spinner Text Güncelleme</title>
-      <link>software/post/android-spinner-text-g%C3%BCncelleme/</link>
+      <link>https://aykuttasil.github.io/software/post/android-spinner-text-g%C3%BCncelleme/</link>
       <pubDate>Tue, 10 Jan 2017 23:00:03 +0300</pubDate>
       
-      <guid>software/post/android-spinner-text-g%C3%BCncelleme/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-spinner-text-g%C3%BCncelleme/</guid>
       <description>Dinamik Olarak Spinner Text Güncelleme Android de Spinner yapısı açılır menü (dropdown) olarak kullanlan kullanışlı bir componenttir.
 Farklı ihtiyaçlarınız doğrultusunda Spinner ınızın elemanlarının değerini değiştirmek isteyebilirsiniz.
 Örneğin bir ListView iniz var.Ve içerisinde aynı kategoriden ama değişik durumlara sahip itemlar var ve siz bu itemları durumuna göre gruplandırıp sayısını Spinner da göstermek istiyorsunuz. Bunun için aşağıda belirtecek olduğum yapıyı kullanabilirsiniz.

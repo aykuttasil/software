@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>arduino on </title>
-    <link>software/tags/arduino/</link>
+    <link>https://aykuttasil.github.io/software/tags/arduino/</link>
     <description>Recent content in arduino on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 03 Aug 2018 22:21:48 +0300</lastBuildDate>
     
-	<atom:link href="software/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aykuttasil.github.io/software/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Step Motor Nedir?</title>
-      <link>software/post/step-motor-nedir/</link>
+      <link>https://aykuttasil.github.io/software/post/step-motor-nedir/</link>
       <pubDate>Fri, 03 Aug 2018 22:21:48 +0300</pubDate>
       
-      <guid>software/post/step-motor-nedir/</guid>
+      <guid>https://aykuttasil.github.io/software/post/step-motor-nedir/</guid>
       <description>Step motoru bir diğer adıyla adım motorları; hızlı, Doğrusal ve kademeli hareket istenilen uygulamalarda kullanılan fırçasız DC elektrik motorudur.
  Kademeli motorlar düşük devirlerde yüksek tork ve düşük titreşim ve hassasiyetle çalışmaktadırlar. Step motorları rotor denilen sabit bir manyetik dönen şafta ve stator olarak adlandırılan motoru çevreleyen sabit kısımdaki elektromıknatıslardan oluşur. step motorlar, yarim adim modunda çalistiklarin da hassasiyetleri daha da artar.
 STEP MOTORUN SÜRÜCÜ İLE ÇALIŞTIRILMASI Step motorlar mikro denetleyici, arduino ve step motor sürücü yardımı yöntemi ile sürülmektedir.</description>
@@ -24,19 +24,19 @@ STEP MOTORUN SÜRÜCÜ İLE ÇALIŞTIRILMASI Step motorlar mikro denetleyici, ar
     
     <item>
       <title>Arduino HC-06 Bluetooth Kullanımı</title>
-      <link>software/post/arduino-hc-06-bluetooth-kullan%C4%B1m%C4%B1/</link>
+      <link>https://aykuttasil.github.io/software/post/arduino-hc-06-bluetooth-kullan%C4%B1m%C4%B1/</link>
       <pubDate>Sun, 12 Mar 2017 23:40:36 +0300</pubDate>
       
-      <guid>software/post/arduino-hc-06-bluetooth-kullan%C4%B1m%C4%B1/</guid>
+      <guid>https://aykuttasil.github.io/software/post/arduino-hc-06-bluetooth-kullan%C4%B1m%C4%B1/</guid>
       <description>HC-06 Bluetooth  Aşağıdaki kodu Arduino kartınıza yükleyiniz Bluetooth Terminal uygulamasını telefonunuza indirin HC-06 modulünün TX-RX çıkışlarını Arduino kartınızın RX-TX girişlerine entegre edin. (Ters sıralamaya dikkat) Cihazınızdan normal bluetooh bağlantısı kurar gibi HC-06 modülü ile bağlantı kurun ve şifre olarak 1234 girin. Aşağıdaki kodda görebileceğiniz gibi 0,1,2,3,4 için farklı işlemler yapılmasını sağladık. Siz de ihtiyacınıza göre ayarlayın. Ben led parlaklığını düzenledim ya da motor hızı olarak da düşünebiliriz.  const int LED_PIN = 9; char veri; void setup() { Serial.</description>
     </item>
     
     <item>
       <title>Mac OS Arduino Uno (Klon) Kurulumu</title>
-      <link>software/post/mac-os-arduino-uno-klon-kurulumu/</link>
+      <link>https://aykuttasil.github.io/software/post/mac-os-arduino-uno-klon-kurulumu/</link>
       <pubDate>Wed, 11 Jan 2017 17:22:38 +0300</pubDate>
       
-      <guid>software/post/mac-os-arduino-uno-klon-kurulumu/</guid>
+      <guid>https://aykuttasil.github.io/software/post/mac-os-arduino-uno-klon-kurulumu/</guid>
       <description>Sizde benim gibi klon Arduino Uno kartınızı çalıştıramayıp bozuk zannettiyseniz doğru yerdesiniz.
 Arduino Uno klon kartlarında orijinal Arduino Uno kartına göre farklı bir işlemci kullanılmış ( daha ucuz olanından 😉 ) ve bu yüzden Mac OS kullanıyorsanız ayrı bir driver dosyası indirmeniz gerekmekte.
 Orijinal Arduino Kartlarının yapımı iki koldan yürüyor. Bir taraf open source u destekleyen diğer taraf parayı destekleyen insanlardan oluşuyor(muş).

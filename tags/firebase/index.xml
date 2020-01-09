@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>firebase on </title>
-    <link>software/tags/firebase/</link>
+    <link>https://aykuttasil.github.io/software/tags/firebase/</link>
     <description>Recent content in firebase on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 17 Apr 2017 01:53:03 +0300</lastBuildDate>
     
-	<atom:link href="software/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aykuttasil.github.io/software/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Firebase Dynamic Links</title>
-      <link>software/post/firebase-dynamic-links/</link>
+      <link>https://aykuttasil.github.io/software/post/firebase-dynamic-links/</link>
       <pubDate>Mon, 17 Apr 2017 01:53:03 +0300</pubDate>
       
-      <guid>software/post/firebase-dynamic-links/</guid>
+      <guid>https://aykuttasil.github.io/software/post/firebase-dynamic-links/</guid>
       <description>Firebase Dynamic Links Öyle bir link olsun ki;
  Bilgisayarımda ki browserdan linke tıkladığımda kişisel web sitem açılsın, Eğer mobil cihazımda ki browserdan linke tıklarsan;  Uygulama cihazda yüklü ise uygulamam açılsın (Belirtmiş olduğum Activity vs.), Uygulama cihazda yüklü değilse Google Play Store veya App Store açılsın, Uygulama cihazda yüklü olsa bile eğer belirttiğim versiyon kodundan eski bir sürüm varsa yine Google Play Store vs. açılsın, &amp;hellip;    gibi sorulara tek bir link ile cevap verebilirsiniz.</description>
     </item>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shell on </title>
-    <link>software/tags/shell/</link>
+    <link>https://aykuttasil.github.io/software/tags/shell/</link>
     <description>Recent content in shell on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 20 Jul 2019 01:04:53 +0300</lastBuildDate>
     
-	<atom:link href="software/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aykuttasil.github.io/software/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ADB Komutu ile Cihaz IP&#39;sini Öğren</title>
-      <link>software/post/adb-komutu-ile-cihaz-ipsini-%C3%B6%C4%9Fren/</link>
+      <link>https://aykuttasil.github.io/software/post/adb-komutu-ile-cihaz-ipsini-%C3%B6%C4%9Fren/</link>
       <pubDate>Sat, 20 Jul 2019 01:04:53 +0300</pubDate>
       
-      <guid>software/post/adb-komutu-ile-cihaz-ipsini-%C3%B6%C4%9Fren/</guid>
+      <guid>https://aykuttasil.github.io/software/post/adb-komutu-ile-cihaz-ipsini-%C3%B6%C4%9Fren/</guid>
       <description>Aşağıdaki komutu çalıştırarak android cihaz ip&#39;sini öğrenebilirsiniz.
 &amp;gt; adb shell ip -f inet addr show wlan0 </description>
     </item>

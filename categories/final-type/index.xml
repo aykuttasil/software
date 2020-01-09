@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>final-type on </title>
-    <link>software/categories/final-type/</link>
+    <link>https://aykuttasil.github.io/software/categories/final-type/</link>
     <description>Recent content in final-type on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 29 Jan 2019 15:38:29 +0300</lastBuildDate>
     
-	<atom:link href="software/categories/final-type/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aykuttasil.github.io/software/categories/final-type/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Android Kotlin Test - Final Type Problem</title>
-      <link>software/post/android-kotlin-test-final-type-problem/</link>
+      <link>https://aykuttasil.github.io/software/post/android-kotlin-test-final-type-problem/</link>
       <pubDate>Tue, 29 Jan 2019 15:38:29 +0300</pubDate>
       
-      <guid>software/post/android-kotlin-test-final-type-problem/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-kotlin-test-final-type-problem/</guid>
       <description>Sorun Kotlin dili ile geliştirilen Android projelerinin test yazımı sırasında sınıfların veya metodların mocklanması, Java ile geliştirilen projelere göre bazı farklılıklar göstermektedir. Bu farklılığın sebeplerinden biri Kotlin ile oluşturulan sınıf veya metodların default olarak final olarak işaretlenmiş olmasıdır. Ve final tipindeki sınıfların mocklanması bazı sorunlar çıkarmaktadır.
 Çözüm Final tipindeki sınıfların veya metodların mocklama işlemi sırasında çıkan sorunu çözmenin birkaç farklı yöntemi vardır.
 Çözüm 1 (open ClassName) Test edeceğimiz sınıf ve metodun başına open ifadesini ekleyerek extend edilebilir hale getirmek.</description>

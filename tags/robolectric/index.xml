@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>robolectric on </title>
-    <link>software/tags/robolectric/</link>
+    <link>https://aykuttasil.github.io/software/tags/robolectric/</link>
     <description>Recent content in robolectric on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 11 Jan 2017 00:31:52 +0300</lastBuildDate>
     
-	<atom:link href="software/tags/robolectric/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aykuttasil.github.io/software/tags/robolectric/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Robolectric ile UnitTest Yazımı</title>
-      <link>software/post/robolectric-ile-unittest-yaz%C4%B1m%C4%B1/</link>
+      <link>https://aykuttasil.github.io/software/post/robolectric-ile-unittest-yaz%C4%B1m%C4%B1/</link>
       <pubDate>Wed, 11 Jan 2017 00:31:52 +0300</pubDate>
       
-      <guid>software/post/robolectric-ile-unittest-yaz%C4%B1m%C4%B1/</guid>
+      <guid>https://aykuttasil.github.io/software/post/robolectric-ile-unittest-yaz%C4%B1m%C4%B1/</guid>
       <description>Unit Test birçok yazıılımcı tarafından es geçillen ama bir o kadar da önemli ve yapılması gerekli olan bir durumdur.
 Proje büyüdükçe ve ilerledikçe teste duyulan ihtiyaç ta doğru orantılı olarak artmaktadır.
 Unit Test neden yapılır sorusunun daha ayrıntılı cevabı için unit test nedir nicin ve nasil yapilir bu yazıyı okuyabilirsiniz.

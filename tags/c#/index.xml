@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>c# on </title>
-    <link>software/tags/c#/</link>
+    <link>https://aykuttasil.github.io/software/tags/c#/</link>
     <description>Recent content in c# on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 16 Jan 2017 11:13:16 +0300</lastBuildDate>
     
-	<atom:link href="software/tags/c#/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aykuttasil.github.io/software/tags/c#/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CSharp Null Kontrolü</title>
-      <link>software/post/csharp-null-kontrol%C3%BC/</link>
+      <link>https://aykuttasil.github.io/software/post/csharp-null-kontrol%C3%BC/</link>
       <pubDate>Mon, 16 Jan 2017 11:13:16 +0300</pubDate>
       
-      <guid>software/post/csharp-null-kontrol%C3%BC/</guid>
+      <guid>https://aykuttasil.github.io/software/post/csharp-null-kontrol%C3%BC/</guid>
       <description>C# ? ve ?? Operator Kullanımı Kısaca bahsedilecek olursa ? operatörü null kontrolü yapılmasını sağlar.
 Yazılım geliştirme sırasında en çok rastlanan hatanın sebebi null dönen ifadelerdir. Bu bazen bir değişken bazen parametre vs. olabilir. Ama sebep ifadenin null olmasıdır.
 Önceden şu şekilde kontrol ediyorduk.

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>backstack on </title>
-    <link>software/tags/backstack/</link>
+    <link>https://aykuttasil.github.io/software/tags/backstack/</link>
     <description>Recent content in backstack on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 04 May 2018 17:38:15 +0300</lastBuildDate>
     
-	<atom:link href="software/tags/backstack/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aykuttasil.github.io/software/tags/backstack/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Android Backstack Navigate</title>
-      <link>software/post/android-backstack-navigate/</link>
+      <link>https://aykuttasil.github.io/software/post/android-backstack-navigate/</link>
       <pubDate>Fri, 04 May 2018 17:38:15 +0300</pubDate>
       
-      <guid>software/post/android-backstack-navigate/</guid>
+      <guid>https://aykuttasil.github.io/software/post/android-backstack-navigate/</guid>
       <description>Android Navigate Örnek Senaryo Kullanıcıya bir ürün ile ilgili notification yolladınız. Kullanıcı bu notification a tıkladığında direk olarak Ürün Detay sayfasına yönlendiriliyor. Kullanıcı sayfada işi bittiğinde geri tuşuna basıyor ve siz bu durumda kullanıcıyı uygulamanın Anasayfasına yönlendirmek istiyorsunuz. Ek bir geliştirme yapmadığınız takdirde bu senaryo için geri tuşuna basıldığında uygulama kapanır. Çünkü geri gidecek ekranı yoktur. Direk olarak Detay sayfası açılmıştır.
  Çözüm İlk olarak yapmamız gereken Manifest.xml dosyasında DetailActivity tanımlamasını yaptığımız yerde parentActivityName i belirtmek.</description>
     </item>

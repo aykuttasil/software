@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>script on </title>
-    <link>software/tags/script/</link>
+    <link>https://aykuttasil.github.io/software/tags/script/</link>
     <description>Recent content in script on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 10 Dec 2018 00:47:41 +0300</lastBuildDate>
     
-	<atom:link href="software/tags/script/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aykuttasil.github.io/software/tags/script/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bash Scripts</title>
-      <link>software/post/bash-scripts/</link>
+      <link>https://aykuttasil.github.io/software/post/bash-scripts/</link>
       <pubDate>Mon, 10 Dec 2018 00:47:41 +0300</pubDate>
       
-      <guid>software/post/bash-scripts/</guid>
+      <guid>https://aykuttasil.github.io/software/post/bash-scripts/</guid>
       <description>cat &amp;laquo;EOF cat &amp;lt;&amp;lt;EOF komutu ile multiline bash script yazabiliriz. Son satır EOF oluncaya kadar satır oluşturulmaya devam eder.
 EOF yerine herhangi bir belirteç yazılabilir. Genelde EOF veya STOP yazılır.
 $ sql=$(cat &amp;lt;&amp;lt;EOF SELECT foo, bar FROM db WHERE foo=&amp;#39;baz&amp;#39; EOF ) $ cat &amp;lt;&amp;lt;EOF &amp;gt; print.sh #!/bin/bash echo \$PWD echo $PWD EOF Yukarıda ki bash çalıştırıldığında print.sh adında ve içeriği

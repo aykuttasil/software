@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>macos mssql connection on </title>
-    <link>software/tags/macos-mssql-connection/</link>
+    <link>https://aykuttasil.github.io/software/tags/macos-mssql-connection/</link>
     <description>Recent content in macos mssql connection on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 11 Jan 2017 15:50:10 +0300</lastBuildDate>
     
-	<atom:link href="software/tags/macos-mssql-connection/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aykuttasil.github.io/software/tags/macos-mssql-connection/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mac OS ile MSSQL Bağlantısı Kurmak</title>
-      <link>software/post/mac-os-ile-mssql-ba%C4%9Flant%C4%B1s%C4%B1-kurmak/</link>
+      <link>https://aykuttasil.github.io/software/post/mac-os-ile-mssql-ba%C4%9Flant%C4%B1s%C4%B1-kurmak/</link>
       <pubDate>Wed, 11 Jan 2017 15:50:10 +0300</pubDate>
       
-      <guid>software/post/mac-os-ile-mssql-ba%C4%9Flant%C4%B1s%C4%B1-kurmak/</guid>
+      <guid>https://aykuttasil.github.io/software/post/mac-os-ile-mssql-ba%C4%9Flant%C4%B1s%C4%B1-kurmak/</guid>
       <description>MSSQL oldukça gelişmiş ve birçok firma – kişi tarafından kullanılan bir veritabanın sistemidir. Oldukça büyük miktarda verinizi, doğru şekilde tasarlayarak tatmin edici derecede hızlı bir şekilde kontrol edebilirsiniz.
 Senaryomuz şu şekilde;
 Mac OS yüklü bilgisayarımızdan MSSQL yüklü sunucumuza bağlantı kurmak istiyoruz.

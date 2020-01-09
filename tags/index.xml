@@ -2,1533 +2,1533 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
-    <link>software/tags/</link>
+    <link>https://aykuttasil.github.io/software/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 03 Jan 2020 17:19:13 +0300</lastBuildDate>
     
-	<atom:link href="software/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aykuttasil.github.io/software/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>dsl</title>
-      <link>software/tags/dsl/</link>
+      <link>https://aykuttasil.github.io/software/tags/dsl/</link>
       <pubDate>Fri, 03 Jan 2020 17:19:13 +0300</pubDate>
       
-      <guid>software/tags/dsl/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/dsl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>json</title>
-      <link>software/tags/json/</link>
+      <link>https://aykuttasil.github.io/software/tags/json/</link>
       <pubDate>Fri, 03 Jan 2020 17:19:13 +0300</pubDate>
       
-      <guid>software/tags/json/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/json/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kotlin</title>
-      <link>software/tags/kotlin/</link>
+      <link>https://aykuttasil.github.io/software/tags/kotlin/</link>
       <pubDate>Fri, 03 Jan 2020 17:19:13 +0300</pubDate>
       
-      <guid>software/tags/kotlin/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/kotlin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>aspnetcore</title>
-      <link>software/tags/aspnetcore/</link>
+      <link>https://aykuttasil.github.io/software/tags/aspnetcore/</link>
       <pubDate>Tue, 12 Nov 2019 10:17:17 +0300</pubDate>
       
-      <guid>software/tags/aspnetcore/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/aspnetcore/</guid>
       <description></description>
     </item>
     
     <item>
       <title>session</title>
-      <link>software/tags/session/</link>
+      <link>https://aykuttasil.github.io/software/tags/session/</link>
       <pubDate>Tue, 12 Nov 2019 10:17:17 +0300</pubDate>
       
-      <guid>software/tags/session/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/session/</guid>
       <description></description>
     </item>
     
     <item>
       <title>webapi</title>
-      <link>software/tags/webapi/</link>
+      <link>https://aykuttasil.github.io/software/tags/webapi/</link>
       <pubDate>Tue, 12 Nov 2019 10:17:17 +0300</pubDate>
       
-      <guid>software/tags/webapi/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/webapi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>android</title>
-      <link>software/tags/android/</link>
+      <link>https://aykuttasil.github.io/software/tags/android/</link>
       <pubDate>Sat, 03 Aug 2019 03:14:28 +0300</pubDate>
       
-      <guid>software/tags/android/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/android/</guid>
       <description></description>
     </item>
     
     <item>
       <title>debugging</title>
-      <link>software/tags/debugging/</link>
+      <link>https://aykuttasil.github.io/software/tags/debugging/</link>
       <pubDate>Sat, 03 Aug 2019 03:14:28 +0300</pubDate>
       
-      <guid>software/tags/debugging/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/debugging/</guid>
       <description></description>
     </item>
     
     <item>
       <title>local-web-server</title>
-      <link>software/tags/local-web-server/</link>
+      <link>https://aykuttasil.github.io/software/tags/local-web-server/</link>
       <pubDate>Sat, 03 Aug 2019 03:14:28 +0300</pubDate>
       
-      <guid>software/tags/local-web-server/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/local-web-server/</guid>
       <description></description>
     </item>
     
     <item>
       <title>windows</title>
-      <link>software/tags/windows/</link>
+      <link>https://aykuttasil.github.io/software/tags/windows/</link>
       <pubDate>Sat, 03 Aug 2019 03:14:28 +0300</pubDate>
       
-      <guid>software/tags/windows/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/windows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>abd</title>
-      <link>software/tags/abd/</link>
+      <link>https://aykuttasil.github.io/software/tags/abd/</link>
       <pubDate>Sat, 20 Jul 2019 01:04:53 +0300</pubDate>
       
-      <guid>software/tags/abd/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/abd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ip</title>
-      <link>software/tags/ip/</link>
+      <link>https://aykuttasil.github.io/software/tags/ip/</link>
       <pubDate>Sat, 20 Jul 2019 01:04:53 +0300</pubDate>
       
-      <guid>software/tags/ip/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/ip/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shell</title>
-      <link>software/tags/shell/</link>
+      <link>https://aykuttasil.github.io/software/tags/shell/</link>
       <pubDate>Sat, 20 Jul 2019 01:04:53 +0300</pubDate>
       
-      <guid>software/tags/shell/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/shell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fileprovider</title>
-      <link>software/tags/fileprovider/</link>
+      <link>https://aykuttasil.github.io/software/tags/fileprovider/</link>
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
-      <guid>software/tags/fileprovider/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/fileprovider/</guid>
       <description></description>
     </item>
     
     <item>
       <title>filesystem</title>
-      <link>software/tags/filesystem/</link>
+      <link>https://aykuttasil.github.io/software/tags/filesystem/</link>
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
-      <guid>software/tags/filesystem/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/filesystem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>permission</title>
-      <link>software/tags/permission/</link>
+      <link>https://aykuttasil.github.io/software/tags/permission/</link>
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
-      <guid>software/tags/permission/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/permission/</guid>
       <description></description>
     </item>
     
     <item>
       <title>security</title>
-      <link>software/tags/security/</link>
+      <link>https://aykuttasil.github.io/software/tags/security/</link>
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
-      <guid>software/tags/security/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/security/</guid>
       <description></description>
     </item>
     
     <item>
       <title>share-data</title>
-      <link>software/tags/share-data/</link>
+      <link>https://aykuttasil.github.io/software/tags/share-data/</link>
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
-      <guid>software/tags/share-data/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/share-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>uri</title>
-      <link>software/tags/uri/</link>
+      <link>https://aykuttasil.github.io/software/tags/uri/</link>
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
-      <guid>software/tags/uri/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/uri/</guid>
       <description></description>
     </item>
     
     <item>
       <title>filters</title>
-      <link>software/tags/filters/</link>
+      <link>https://aykuttasil.github.io/software/tags/filters/</link>
       <pubDate>Mon, 29 Apr 2019 10:05:05 +0300</pubDate>
       
-      <guid>software/tags/filters/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/filters/</guid>
       <description></description>
     </item>
     
     <item>
       <title>netcore</title>
-      <link>software/tags/netcore/</link>
+      <link>https://aykuttasil.github.io/software/tags/netcore/</link>
       <pubDate>Mon, 29 Apr 2019 10:05:05 +0300</pubDate>
       
-      <guid>software/tags/netcore/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/netcore/</guid>
       <description></description>
     </item>
     
     <item>
       <title>api</title>
-      <link>software/tags/api/</link>
+      <link>https://aykuttasil.github.io/software/tags/api/</link>
       <pubDate>Mon, 15 Apr 2019 22:08:14 +0300</pubDate>
       
-      <guid>software/tags/api/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>csharp</title>
-      <link>software/tags/csharp/</link>
+      <link>https://aykuttasil.github.io/software/tags/csharp/</link>
       <pubDate>Mon, 15 Apr 2019 22:08:14 +0300</pubDate>
       
-      <guid>software/tags/csharp/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/csharp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>databinding</title>
-      <link>software/tags/databinding/</link>
+      <link>https://aykuttasil.github.io/software/tags/databinding/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:27 +0300</pubDate>
       
-      <guid>software/tags/databinding/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/databinding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mobile</title>
-      <link>software/tags/mobile/</link>
+      <link>https://aykuttasil.github.io/software/tags/mobile/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:27 +0300</pubDate>
       
-      <guid>software/tags/mobile/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/mobile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>service</title>
-      <link>software/tags/service/</link>
+      <link>https://aykuttasil.github.io/software/tags/service/</link>
       <pubDate>Thu, 14 Feb 2019 13:10:18 +0300</pubDate>
       
-      <guid>software/tags/service/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/service/</guid>
       <description></description>
     </item>
     
     <item>
       <title>test</title>
-      <link>software/tags/test/</link>
+      <link>https://aykuttasil.github.io/software/tags/test/</link>
       <pubDate>Tue, 29 Jan 2019 15:38:29 +0300</pubDate>
       
-      <guid>software/tags/test/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bash</title>
-      <link>software/tags/bash/</link>
+      <link>https://aykuttasil.github.io/software/tags/bash/</link>
       <pubDate>Mon, 10 Dec 2018 00:47:41 +0300</pubDate>
       
-      <guid>software/tags/bash/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/bash/</guid>
       <description></description>
     </item>
     
     <item>
       <title>script</title>
-      <link>software/tags/script/</link>
+      <link>https://aykuttasil.github.io/software/tags/script/</link>
       <pubDate>Mon, 10 Dec 2018 00:47:41 +0300</pubDate>
       
-      <guid>software/tags/script/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/script/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sh</title>
-      <link>software/tags/sh/</link>
+      <link>https://aykuttasil.github.io/software/tags/sh/</link>
       <pubDate>Mon, 10 Dec 2018 00:47:41 +0300</pubDate>
       
-      <guid>software/tags/sh/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/sh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>build</title>
-      <link>software/tags/build/</link>
+      <link>https://aykuttasil.github.io/software/tags/build/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>software/tags/build/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/build/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cd</title>
-      <link>software/tags/cd/</link>
+      <link>https://aykuttasil.github.io/software/tags/cd/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>software/tags/cd/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/cd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ci</title>
-      <link>software/tags/ci/</link>
+      <link>https://aykuttasil.github.io/software/tags/ci/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>software/tags/ci/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/ci/</guid>
       <description></description>
     </item>
     
     <item>
       <title>circleci</title>
-      <link>software/tags/circleci/</link>
+      <link>https://aykuttasil.github.io/software/tags/circleci/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>software/tags/circleci/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/circleci/</guid>
       <description></description>
     </item>
     
     <item>
       <title>continuous-deployment</title>
-      <link>software/tags/continuous-deployment/</link>
+      <link>https://aykuttasil.github.io/software/tags/continuous-deployment/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>software/tags/continuous-deployment/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/continuous-deployment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>continuous-integration</title>
-      <link>software/tags/continuous-integration/</link>
+      <link>https://aykuttasil.github.io/software/tags/continuous-integration/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>software/tags/continuous-integration/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/continuous-integration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>deployment</title>
-      <link>software/tags/deployment/</link>
+      <link>https://aykuttasil.github.io/software/tags/deployment/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
-      <guid>software/tags/deployment/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/deployment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ssh</title>
-      <link>software/tags/ssh/</link>
+      <link>https://aykuttasil.github.io/software/tags/ssh/</link>
       <pubDate>Fri, 26 Oct 2018 01:04:21 +0300</pubDate>
       
-      <guid>software/tags/ssh/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/ssh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dagger</title>
-      <link>software/tags/dagger/</link>
+      <link>https://aykuttasil.github.io/software/tags/dagger/</link>
       <pubDate>Fri, 12 Oct 2018 11:48:08 +0300</pubDate>
       
-      <guid>software/tags/dagger/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/dagger/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dependency-injection</title>
-      <link>software/tags/dependency-injection/</link>
+      <link>https://aykuttasil.github.io/software/tags/dependency-injection/</link>
       <pubDate>Fri, 12 Oct 2018 11:48:08 +0300</pubDate>
       
-      <guid>software/tags/dependency-injection/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/dependency-injection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>di</title>
-      <link>software/tags/di/</link>
+      <link>https://aykuttasil.github.io/software/tags/di/</link>
       <pubDate>Fri, 12 Oct 2018 11:48:08 +0300</pubDate>
       
-      <guid>software/tags/di/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/di/</guid>
       <description></description>
     </item>
     
     <item>
       <title>amp</title>
-      <link>software/tags/amp/</link>
+      <link>https://aykuttasil.github.io/software/tags/amp/</link>
       <pubDate>Wed, 10 Oct 2018 11:57:46 +0300</pubDate>
       
-      <guid>software/tags/amp/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/amp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>espresso</title>
-      <link>software/tags/espresso/</link>
+      <link>https://aykuttasil.github.io/software/tags/espresso/</link>
       <pubDate>Tue, 18 Sep 2018 11:51:07 +0300</pubDate>
       
-      <guid>software/tags/espresso/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/espresso/</guid>
       <description></description>
     </item>
     
     <item>
       <title>junit</title>
-      <link>software/tags/junit/</link>
+      <link>https://aykuttasil.github.io/software/tags/junit/</link>
       <pubDate>Tue, 18 Sep 2018 11:51:07 +0300</pubDate>
       
-      <guid>software/tags/junit/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/junit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mock</title>
-      <link>software/tags/mock/</link>
+      <link>https://aykuttasil.github.io/software/tags/mock/</link>
       <pubDate>Tue, 18 Sep 2018 11:51:07 +0300</pubDate>
       
-      <guid>software/tags/mock/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/mock/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mockito</title>
-      <link>software/tags/mockito/</link>
+      <link>https://aykuttasil.github.io/software/tags/mockito/</link>
       <pubDate>Tue, 18 Sep 2018 11:51:07 +0300</pubDate>
       
-      <guid>software/tags/mockito/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/mockito/</guid>
       <description></description>
     </item>
     
     <item>
       <title>roboloectric</title>
-      <link>software/tags/roboloectric/</link>
+      <link>https://aykuttasil.github.io/software/tags/roboloectric/</link>
       <pubDate>Tue, 18 Sep 2018 11:51:07 +0300</pubDate>
       
-      <guid>software/tags/roboloectric/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/roboloectric/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dns</title>
-      <link>software/tags/dns/</link>
+      <link>https://aykuttasil.github.io/software/tags/dns/</link>
       <pubDate>Mon, 13 Aug 2018 00:50:25 +0300</pubDate>
       
-      <guid>software/tags/dns/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/dns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dns-over-tls</title>
-      <link>software/tags/dns-over-tls/</link>
+      <link>https://aykuttasil.github.io/software/tags/dns-over-tls/</link>
       <pubDate>Mon, 13 Aug 2018 00:50:25 +0300</pubDate>
       
-      <guid>software/tags/dns-over-tls/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/dns-over-tls/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ssl</title>
-      <link>software/tags/ssl/</link>
+      <link>https://aykuttasil.github.io/software/tags/ssl/</link>
       <pubDate>Mon, 13 Aug 2018 00:50:25 +0300</pubDate>
       
-      <guid>software/tags/ssl/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/ssl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tls</title>
-      <link>software/tags/tls/</link>
+      <link>https://aykuttasil.github.io/software/tags/tls/</link>
       <pubDate>Mon, 13 Aug 2018 00:50:25 +0300</pubDate>
       
-      <guid>software/tags/tls/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/tls/</guid>
       <description></description>
     </item>
     
     <item>
       <title>encrypted-data</title>
-      <link>software/tags/encrypted-data/</link>
+      <link>https://aykuttasil.github.io/software/tags/encrypted-data/</link>
       <pubDate>Sun, 12 Aug 2018 23:12:07 +0300</pubDate>
       
-      <guid>software/tags/encrypted-data/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/encrypted-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>network</title>
-      <link>software/tags/network/</link>
+      <link>https://aykuttasil.github.io/software/tags/network/</link>
       <pubDate>Sun, 12 Aug 2018 23:12:07 +0300</pubDate>
       
-      <guid>software/tags/network/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/network/</guid>
       <description></description>
     </item>
     
     <item>
       <title>arduino</title>
-      <link>software/tags/arduino/</link>
+      <link>https://aykuttasil.github.io/software/tags/arduino/</link>
       <pubDate>Fri, 03 Aug 2018 22:21:48 +0300</pubDate>
       
-      <guid>software/tags/arduino/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/arduino/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iot</title>
-      <link>software/tags/iot/</link>
+      <link>https://aykuttasil.github.io/software/tags/iot/</link>
       <pubDate>Fri, 03 Aug 2018 22:21:48 +0300</pubDate>
       
-      <guid>software/tags/iot/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/iot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>motor</title>
-      <link>software/tags/motor/</link>
+      <link>https://aykuttasil.github.io/software/tags/motor/</link>
       <pubDate>Fri, 03 Aug 2018 22:21:48 +0300</pubDate>
       
-      <guid>software/tags/motor/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/motor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>backstack</title>
-      <link>software/tags/backstack/</link>
+      <link>https://aykuttasil.github.io/software/tags/backstack/</link>
       <pubDate>Fri, 04 May 2018 17:38:15 +0300</pubDate>
       
-      <guid>software/tags/backstack/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/backstack/</guid>
       <description></description>
     </item>
     
     <item>
       <title>navigate</title>
-      <link>software/tags/navigate/</link>
+      <link>https://aykuttasil.github.io/software/tags/navigate/</link>
       <pubDate>Fri, 04 May 2018 17:38:15 +0300</pubDate>
       
-      <guid>software/tags/navigate/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/navigate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>android-architecure</title>
-      <link>software/tags/android-architecure/</link>
+      <link>https://aykuttasil.github.io/software/tags/android-architecure/</link>
       <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>software/tags/android-architecure/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/android-architecure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lifecycle</title>
-      <link>software/tags/lifecycle/</link>
+      <link>https://aykuttasil.github.io/software/tags/lifecycle/</link>
       <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>software/tags/lifecycle/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/lifecycle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>livedata</title>
-      <link>software/tags/livedata/</link>
+      <link>https://aykuttasil.github.io/software/tags/livedata/</link>
       <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>software/tags/livedata/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/livedata/</guid>
       <description></description>
     </item>
     
     <item>
       <title>software</title>
-      <link>software/tags/software/</link>
+      <link>https://aykuttasil.github.io/software/tags/software/</link>
       <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>software/tags/software/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>viewmodel</title>
-      <link>software/tags/viewmodel/</link>
+      <link>https://aykuttasil.github.io/software/tags/viewmodel/</link>
       <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>software/tags/viewmodel/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/viewmodel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cloud</title>
-      <link>software/tags/cloud/</link>
+      <link>https://aykuttasil.github.io/software/tags/cloud/</link>
       <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>software/tags/cloud/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/cloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cloud-dns</title>
-      <link>software/tags/cloud-dns/</link>
+      <link>https://aykuttasil.github.io/software/tags/cloud-dns/</link>
       <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>software/tags/cloud-dns/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/cloud-dns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>custom-dns</title>
-      <link>software/tags/custom-dns/</link>
+      <link>https://aykuttasil.github.io/software/tags/custom-dns/</link>
       <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>software/tags/custom-dns/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/custom-dns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>domain</title>
-      <link>software/tags/domain/</link>
+      <link>https://aykuttasil.github.io/software/tags/domain/</link>
       <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>software/tags/domain/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/domain/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gcloud</title>
-      <link>software/tags/gcloud/</link>
+      <link>https://aykuttasil.github.io/software/tags/gcloud/</link>
       <pubDate>Wed, 12 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>software/tags/gcloud/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/gcloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>annotations</title>
-      <link>software/tags/annotations/</link>
+      <link>https://aykuttasil.github.io/software/tags/annotations/</link>
       <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>software/tags/annotations/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/annotations/</guid>
       <description></description>
     </item>
     
     <item>
       <title>jvmoverloads</title>
-      <link>software/tags/jvmoverloads/</link>
+      <link>https://aykuttasil.github.io/software/tags/jvmoverloads/</link>
       <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>software/tags/jvmoverloads/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/jvmoverloads/</guid>
       <description></description>
     </item>
     
     <item>
       <title>enum</title>
-      <link>software/tags/enum/</link>
+      <link>https://aykuttasil.github.io/software/tags/enum/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>software/tags/enum/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/enum/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sealed</title>
-      <link>software/tags/sealed/</link>
+      <link>https://aykuttasil.github.io/software/tags/sealed/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>software/tags/sealed/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/sealed/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lambda</title>
-      <link>software/tags/lambda/</link>
+      <link>https://aykuttasil.github.io/software/tags/lambda/</link>
       <pubDate>Sun, 18 Jun 2017 02:24:37 +0300</pubDate>
       
-      <guid>software/tags/lambda/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/lambda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>apply</title>
-      <link>software/tags/apply/</link>
+      <link>https://aykuttasil.github.io/software/tags/apply/</link>
       <pubDate>Tue, 06 Jun 2017 10:47:58 +0300</pubDate>
       
-      <guid>software/tags/apply/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/apply/</guid>
       <description></description>
     </item>
     
     <item>
       <title>extensin function</title>
-      <link>software/tags/extensin-function/</link>
+      <link>https://aykuttasil.github.io/software/tags/extensin-function/</link>
       <pubDate>Tue, 06 Jun 2017 10:47:58 +0300</pubDate>
       
-      <guid>software/tags/extensin-function/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/extensin-function/</guid>
       <description></description>
     </item>
     
     <item>
       <title>when</title>
-      <link>software/tags/when/</link>
+      <link>https://aykuttasil.github.io/software/tags/when/</link>
       <pubDate>Tue, 06 Jun 2017 04:42:56 +0300</pubDate>
       
-      <guid>software/tags/when/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/when/</guid>
       <description></description>
     </item>
     
     <item>
       <title>let</title>
-      <link>software/tags/let/</link>
+      <link>https://aykuttasil.github.io/software/tags/let/</link>
       <pubDate>Tue, 06 Jun 2017 04:33:06 +0300</pubDate>
       
-      <guid>software/tags/let/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/let/</guid>
       <description></description>
     </item>
     
     <item>
       <title>oauth</title>
-      <link>software/tags/oauth/</link>
+      <link>https://aykuttasil.github.io/software/tags/oauth/</link>
       <pubDate>Wed, 17 May 2017 11:58:43 +0300</pubDate>
       
-      <guid>software/tags/oauth/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/oauth/</guid>
       <description></description>
     </item>
     
     <item>
       <title>okhttp</title>
-      <link>software/tags/okhttp/</link>
+      <link>https://aykuttasil.github.io/software/tags/okhttp/</link>
       <pubDate>Wed, 17 May 2017 11:58:43 +0300</pubDate>
       
-      <guid>software/tags/okhttp/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/okhttp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>retrofit</title>
-      <link>software/tags/retrofit/</link>
+      <link>https://aykuttasil.github.io/software/tags/retrofit/</link>
       <pubDate>Wed, 17 May 2017 11:58:43 +0300</pubDate>
       
-      <guid>software/tags/retrofit/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/retrofit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dynamiclink</title>
-      <link>software/tags/dynamiclink/</link>
+      <link>https://aykuttasil.github.io/software/tags/dynamiclink/</link>
       <pubDate>Mon, 17 Apr 2017 01:53:03 +0300</pubDate>
       
-      <guid>software/tags/dynamiclink/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/dynamiclink/</guid>
       <description></description>
     </item>
     
     <item>
       <title>firebase</title>
-      <link>software/tags/firebase/</link>
+      <link>https://aykuttasil.github.io/software/tags/firebase/</link>
       <pubDate>Mon, 17 Apr 2017 01:53:03 +0300</pubDate>
       
-      <guid>software/tags/firebase/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/firebase/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bluetooth</title>
-      <link>software/tags/bluetooth/</link>
+      <link>https://aykuttasil.github.io/software/tags/bluetooth/</link>
       <pubDate>Sun, 12 Mar 2017 23:40:36 +0300</pubDate>
       
-      <guid>software/tags/bluetooth/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/bluetooth/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hc-06</title>
-      <link>software/tags/hc-06/</link>
+      <link>https://aykuttasil.github.io/software/tags/hc-06/</link>
       <pubDate>Sun, 12 Mar 2017 23:40:36 +0300</pubDate>
       
-      <guid>software/tags/hc-06/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/hc-06/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hc06</title>
-      <link>software/tags/hc06/</link>
+      <link>https://aykuttasil.github.io/software/tags/hc06/</link>
       <pubDate>Sun, 12 Mar 2017 23:40:36 +0300</pubDate>
       
-      <guid>software/tags/hc06/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/hc06/</guid>
       <description></description>
     </item>
     
     <item>
       <title>yeoman</title>
-      <link>software/tags/yeoman/</link>
+      <link>https://aykuttasil.github.io/software/tags/yeoman/</link>
       <pubDate>Wed, 18 Jan 2017 12:09:26 +0300</pubDate>
       
-      <guid>software/tags/yeoman/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/yeoman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>c#</title>
-      <link>software/tags/c#/</link>
+      <link>https://aykuttasil.github.io/software/tags/c#/</link>
       <pubDate>Mon, 16 Jan 2017 11:13:16 +0300</pubDate>
       
-      <guid>software/tags/c#/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/c#/</guid>
       <description></description>
     </item>
     
     <item>
       <title>null condition</title>
-      <link>software/tags/null-condition/</link>
+      <link>https://aykuttasil.github.io/software/tags/null-condition/</link>
       <pubDate>Mon, 16 Jan 2017 11:13:16 +0300</pubDate>
       
-      <guid>software/tags/null-condition/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/null-condition/</guid>
       <description></description>
     </item>
     
     <item>
       <title>operator</title>
-      <link>software/tags/operator/</link>
+      <link>https://aykuttasil.github.io/software/tags/operator/</link>
       <pubDate>Mon, 16 Jan 2017 11:13:16 +0300</pubDate>
       
-      <guid>software/tags/operator/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/operator/</guid>
       <description></description>
     </item>
     
     <item>
       <title>soru isareti</title>
-      <link>software/tags/soru-isareti/</link>
+      <link>https://aykuttasil.github.io/software/tags/soru-isareti/</link>
       <pubDate>Mon, 16 Jan 2017 11:13:16 +0300</pubDate>
       
-      <guid>software/tags/soru-isareti/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/soru-isareti/</guid>
       <description></description>
     </item>
     
     <item>
       <title>addJavascriptInterface</title>
-      <link>software/tags/addjavascriptinterface/</link>
+      <link>https://aykuttasil.github.io/software/tags/addjavascriptinterface/</link>
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
-      <guid>software/tags/addjavascriptinterface/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/addjavascriptinterface/</guid>
       <description></description>
     </item>
     
     <item>
       <title>java</title>
-      <link>software/tags/java/</link>
+      <link>https://aykuttasil.github.io/software/tags/java/</link>
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
-      <guid>software/tags/java/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JavascriptInterface</title>
-      <link>software/tags/javascriptinterface/</link>
+      <link>https://aykuttasil.github.io/software/tags/javascriptinterface/</link>
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
-      <guid>software/tags/javascriptinterface/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/javascriptinterface/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sofware</title>
-      <link>software/tags/sofware/</link>
+      <link>https://aykuttasil.github.io/software/tags/sofware/</link>
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
-      <guid>software/tags/sofware/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/sofware/</guid>
       <description></description>
     </item>
     
     <item>
       <title>webview</title>
-      <link>software/tags/webview/</link>
+      <link>https://aykuttasil.github.io/software/tags/webview/</link>
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
-      <guid>software/tags/webview/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/webview/</guid>
       <description></description>
     </item>
     
     <item>
       <title>WebViewClient</title>
-      <link>software/tags/webviewclient/</link>
+      <link>https://aykuttasil.github.io/software/tags/webviewclient/</link>
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
-      <guid>software/tags/webviewclient/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/webviewclient/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bash script</title>
-      <link>software/tags/bash-script/</link>
+      <link>https://aykuttasil.github.io/software/tags/bash-script/</link>
       <pubDate>Wed, 11 Jan 2017 19:56:08 +0300</pubDate>
       
-      <guid>software/tags/bash-script/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/bash-script/</guid>
       <description></description>
     </item>
     
     <item>
       <title>docker</title>
-      <link>software/tags/docker/</link>
+      <link>https://aykuttasil.github.io/software/tags/docker/</link>
       <pubDate>Wed, 11 Jan 2017 19:56:08 +0300</pubDate>
       
-      <guid>software/tags/docker/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>execute</title>
-      <link>software/tags/execute/</link>
+      <link>https://aykuttasil.github.io/software/tags/execute/</link>
       <pubDate>Wed, 11 Jan 2017 19:26:49 +0300</pubDate>
       
-      <guid>software/tags/execute/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/execute/</guid>
       <description></description>
     </item>
     
     <item>
       <title>executorservice</title>
-      <link>software/tags/executorservice/</link>
+      <link>https://aykuttasil.github.io/software/tags/executorservice/</link>
       <pubDate>Wed, 11 Jan 2017 19:26:49 +0300</pubDate>
       
-      <guid>software/tags/executorservice/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/executorservice/</guid>
       <description></description>
     </item>
     
     <item>
       <title>submit</title>
-      <link>software/tags/submit/</link>
+      <link>https://aykuttasil.github.io/software/tags/submit/</link>
       <pubDate>Wed, 11 Jan 2017 19:26:49 +0300</pubDate>
       
-      <guid>software/tags/submit/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/submit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>callable</title>
-      <link>software/tags/callable/</link>
+      <link>https://aykuttasil.github.io/software/tags/callable/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>software/tags/callable/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/callable/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Executors</title>
-      <link>software/tags/executors/</link>
+      <link>https://aykuttasil.github.io/software/tags/executors/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>software/tags/executors/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/executors/</guid>
       <description></description>
     </item>
     
     <item>
       <title>multithread</title>
-      <link>software/tags/multithread/</link>
+      <link>https://aykuttasil.github.io/software/tags/multithread/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>software/tags/multithread/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/multithread/</guid>
       <description></description>
     </item>
     
     <item>
       <title>newCachedThreadPool</title>
-      <link>software/tags/newcachedthreadpool/</link>
+      <link>https://aykuttasil.github.io/software/tags/newcachedthreadpool/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>software/tags/newcachedthreadpool/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/newcachedthreadpool/</guid>
       <description></description>
     </item>
     
     <item>
       <title>newFixedThreadPool</title>
-      <link>software/tags/newfixedthreadpool/</link>
+      <link>https://aykuttasil.github.io/software/tags/newfixedthreadpool/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>software/tags/newfixedthreadpool/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/newfixedthreadpool/</guid>
       <description></description>
     </item>
     
     <item>
       <title>newSingleThreadExecutor</title>
-      <link>software/tags/newsinglethreadexecutor/</link>
+      <link>https://aykuttasil.github.io/software/tags/newsinglethreadexecutor/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>software/tags/newsinglethreadexecutor/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/newsinglethreadexecutor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>runnable</title>
-      <link>software/tags/runnable/</link>
+      <link>https://aykuttasil.github.io/software/tags/runnable/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>software/tags/runnable/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/runnable/</guid>
       <description></description>
     </item>
     
     <item>
       <title>thread</title>
-      <link>software/tags/thread/</link>
+      <link>https://aykuttasil.github.io/software/tags/thread/</link>
       <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
       
-      <guid>software/tags/thread/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/thread/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rxjava</title>
-      <link>software/tags/rxjava/</link>
+      <link>https://aykuttasil.github.io/software/tags/rxjava/</link>
       <pubDate>Wed, 11 Jan 2017 18:52:51 +0300</pubDate>
       
-      <guid>software/tags/rxjava/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/rxjava/</guid>
       <description></description>
     </item>
     
     <item>
       <title>reduce</title>
-      <link>software/tags/reduce/</link>
+      <link>https://aykuttasil.github.io/software/tags/reduce/</link>
       <pubDate>Wed, 11 Jan 2017 18:42:04 +0300</pubDate>
       
-      <guid>software/tags/reduce/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/reduce/</guid>
       <description></description>
     </item>
     
     <item>
       <title>express</title>
-      <link>software/tags/express/</link>
+      <link>https://aykuttasil.github.io/software/tags/express/</link>
       <pubDate>Wed, 11 Jan 2017 18:14:05 +0300</pubDate>
       
-      <guid>software/tags/express/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/express/</guid>
       <description></description>
     </item>
     
     <item>
       <title>intellisense</title>
-      <link>software/tags/intellisense/</link>
+      <link>https://aykuttasil.github.io/software/tags/intellisense/</link>
       <pubDate>Wed, 11 Jan 2017 18:14:05 +0300</pubDate>
       
-      <guid>software/tags/intellisense/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/intellisense/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nodejs</title>
-      <link>software/tags/nodejs/</link>
+      <link>https://aykuttasil.github.io/software/tags/nodejs/</link>
       <pubDate>Wed, 11 Jan 2017 18:14:05 +0300</pubDate>
       
-      <guid>software/tags/nodejs/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/nodejs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>typescript</title>
-      <link>software/tags/typescript/</link>
+      <link>https://aykuttasil.github.io/software/tags/typescript/</link>
       <pubDate>Wed, 11 Jan 2017 18:14:05 +0300</pubDate>
       
-      <guid>software/tags/typescript/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/typescript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vscode</title>
-      <link>software/tags/vscode/</link>
+      <link>https://aykuttasil.github.io/software/tags/vscode/</link>
       <pubDate>Wed, 11 Jan 2017 18:14:05 +0300</pubDate>
       
-      <guid>software/tags/vscode/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/vscode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tcp</title>
-      <link>software/tags/tcp/</link>
+      <link>https://aykuttasil.github.io/software/tags/tcp/</link>
       <pubDate>Wed, 11 Jan 2017 18:05:02 +0300</pubDate>
       
-      <guid>software/tags/tcp/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/tcp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tcp/ip</title>
-      <link>software/tags/tcp/ip/</link>
+      <link>https://aykuttasil.github.io/software/tags/tcp/ip/</link>
       <pubDate>Wed, 11 Jan 2017 18:05:02 +0300</pubDate>
       
-      <guid>software/tags/tcp/ip/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/tcp/ip/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bintray</title>
-      <link>software/tags/bintray/</link>
+      <link>https://aykuttasil.github.io/software/tags/bintray/</link>
       <pubDate>Wed, 11 Jan 2017 17:27:29 +0300</pubDate>
       
-      <guid>software/tags/bintray/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/bintray/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gradle</title>
-      <link>software/tags/gradle/</link>
+      <link>https://aykuttasil.github.io/software/tags/gradle/</link>
       <pubDate>Wed, 11 Jan 2017 17:27:29 +0300</pubDate>
       
-      <guid>software/tags/gradle/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/gradle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>library</title>
-      <link>software/tags/library/</link>
+      <link>https://aykuttasil.github.io/software/tags/library/</link>
       <pubDate>Wed, 11 Jan 2017 17:27:29 +0300</pubDate>
       
-      <guid>software/tags/library/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/library/</guid>
       <description></description>
     </item>
     
     <item>
       <title>runtime permission</title>
-      <link>software/tags/runtime-permission/</link>
+      <link>https://aykuttasil.github.io/software/tags/runtime-permission/</link>
       <pubDate>Wed, 11 Jan 2017 17:24:52 +0300</pubDate>
       
-      <guid>software/tags/runtime-permission/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/runtime-permission/</guid>
       <description></description>
     </item>
     
     <item>
       <title>klon</title>
-      <link>software/tags/klon/</link>
+      <link>https://aykuttasil.github.io/software/tags/klon/</link>
       <pubDate>Wed, 11 Jan 2017 17:22:38 +0300</pubDate>
       
-      <guid>software/tags/klon/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/klon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>uno</title>
-      <link>software/tags/uno/</link>
+      <link>https://aykuttasil.github.io/software/tags/uno/</link>
       <pubDate>Wed, 11 Jan 2017 17:22:38 +0300</pubDate>
       
-      <guid>software/tags/uno/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/uno/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mssql</title>
-      <link>software/tags/mssql/</link>
+      <link>https://aykuttasil.github.io/software/tags/mssql/</link>
       <pubDate>Wed, 11 Jan 2017 17:20:37 +0300</pubDate>
       
-      <guid>software/tags/mssql/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/mssql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sql</title>
-      <link>software/tags/sql/</link>
+      <link>https://aykuttasil.github.io/software/tags/sql/</link>
       <pubDate>Wed, 11 Jan 2017 17:20:37 +0300</pubDate>
       
-      <guid>software/tags/sql/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/sql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sql_scope_identity</title>
-      <link>software/tags/sql_scope_identity/</link>
+      <link>https://aykuttasil.github.io/software/tags/sql_scope_identity/</link>
       <pubDate>Wed, 11 Jan 2017 17:20:37 +0300</pubDate>
       
-      <guid>software/tags/sql_scope_identity/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/sql_scope_identity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>javascript</title>
-      <link>software/tags/javascript/</link>
+      <link>https://aykuttasil.github.io/software/tags/javascript/</link>
       <pubDate>Wed, 11 Jan 2017 17:14:22 +0300</pubDate>
       
-      <guid>software/tags/javascript/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>glide</title>
-      <link>software/tags/glide/</link>
+      <link>https://aykuttasil.github.io/software/tags/glide/</link>
       <pubDate>Wed, 11 Jan 2017 17:11:30 +0300</pubDate>
       
-      <guid>software/tags/glide/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/glide/</guid>
       <description></description>
     </item>
     
     <item>
       <title>palette</title>
-      <link>software/tags/palette/</link>
+      <link>https://aykuttasil.github.io/software/tags/palette/</link>
       <pubDate>Wed, 11 Jan 2017 17:11:30 +0300</pubDate>
       
-      <guid>software/tags/palette/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/palette/</guid>
       <description></description>
     </item>
     
     <item>
       <title>viewpager</title>
-      <link>software/tags/viewpager/</link>
+      <link>https://aykuttasil.github.io/software/tags/viewpager/</link>
       <pubDate>Wed, 11 Jan 2017 17:07:51 +0300</pubDate>
       
-      <guid>software/tags/viewpager/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/viewpager/</guid>
       <description></description>
     </item>
     
     <item>
       <title>collections</title>
-      <link>software/tags/collections/</link>
+      <link>https://aykuttasil.github.io/software/tags/collections/</link>
       <pubDate>Wed, 11 Jan 2017 16:10:10 +0300</pubDate>
       
-      <guid>software/tags/collections/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/collections/</guid>
       <description></description>
     </item>
     
     <item>
       <title>swap</title>
-      <link>software/tags/swap/</link>
+      <link>https://aykuttasil.github.io/software/tags/swap/</link>
       <pubDate>Wed, 11 Jan 2017 16:10:10 +0300</pubDate>
       
-      <guid>software/tags/swap/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/swap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>toolbar</title>
-      <link>software/tags/toolbar/</link>
+      <link>https://aykuttasil.github.io/software/tags/toolbar/</link>
       <pubDate>Wed, 11 Jan 2017 16:01:33 +0300</pubDate>
       
-      <guid>software/tags/toolbar/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/toolbar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dbeaver</title>
-      <link>software/tags/dbeaver/</link>
+      <link>https://aykuttasil.github.io/software/tags/dbeaver/</link>
       <pubDate>Wed, 11 Jan 2017 15:50:10 +0300</pubDate>
       
-      <guid>software/tags/dbeaver/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/dbeaver/</guid>
       <description></description>
     </item>
     
     <item>
       <title>macos mssql connection</title>
-      <link>software/tags/macos-mssql-connection/</link>
+      <link>https://aykuttasil.github.io/software/tags/macos-mssql-connection/</link>
       <pubDate>Wed, 11 Jan 2017 15:50:10 +0300</pubDate>
       
-      <guid>software/tags/macos-mssql-connection/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/macos-mssql-connection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>custom script</title>
-      <link>software/tags/custom-script/</link>
+      <link>https://aykuttasil.github.io/software/tags/custom-script/</link>
       <pubDate>Wed, 11 Jan 2017 15:39:47 +0300</pubDate>
       
-      <guid>software/tags/custom-script/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/custom-script/</guid>
       <description></description>
     </item>
     
     <item>
       <title>foreground service</title>
-      <link>software/tags/foreground-service/</link>
+      <link>https://aykuttasil.github.io/software/tags/foreground-service/</link>
       <pubDate>Wed, 11 Jan 2017 15:27:59 +0300</pubDate>
       
-      <guid>software/tags/foreground-service/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/foreground-service/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fusedlocationapi</title>
-      <link>software/tags/fusedlocationapi/</link>
+      <link>https://aykuttasil.github.io/software/tags/fusedlocationapi/</link>
       <pubDate>Wed, 11 Jan 2017 15:27:59 +0300</pubDate>
       
-      <guid>software/tags/fusedlocationapi/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/fusedlocationapi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>file upload</title>
-      <link>software/tags/file-upload/</link>
+      <link>https://aykuttasil.github.io/software/tags/file-upload/</link>
       <pubDate>Wed, 11 Jan 2017 01:50:51 +0300</pubDate>
       
-      <guid>software/tags/file-upload/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/file-upload/</guid>
       <description></description>
     </item>
     
     <item>
       <title>multipart</title>
-      <link>software/tags/multipart/</link>
+      <link>https://aykuttasil.github.io/software/tags/multipart/</link>
       <pubDate>Wed, 11 Jan 2017 01:50:51 +0300</pubDate>
       
-      <guid>software/tags/multipart/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/multipart/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gcmnetworkmanager</title>
-      <link>software/tags/gcmnetworkmanager/</link>
+      <link>https://aykuttasil.github.io/software/tags/gcmnetworkmanager/</link>
       <pubDate>Wed, 11 Jan 2017 01:43:53 +0300</pubDate>
       
-      <guid>software/tags/gcmnetworkmanager/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/gcmnetworkmanager/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sms</title>
-      <link>software/tags/sms/</link>
+      <link>https://aykuttasil.github.io/software/tags/sms/</link>
       <pubDate>Wed, 11 Jan 2017 01:42:54 +0300</pubDate>
       
-      <guid>software/tags/sms/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/sms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sms-receiver</title>
-      <link>software/tags/sms-receiver/</link>
+      <link>https://aykuttasil.github.io/software/tags/sms-receiver/</link>
       <pubDate>Wed, 11 Jan 2017 01:42:54 +0300</pubDate>
       
-      <guid>software/tags/sms-receiver/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/sms-receiver/</guid>
       <description></description>
     </item>
     
     <item>
       <title>broadcast receiver</title>
-      <link>software/tags/broadcast-receiver/</link>
+      <link>https://aykuttasil.github.io/software/tags/broadcast-receiver/</link>
       <pubDate>Wed, 11 Jan 2017 01:42:36 +0300</pubDate>
       
-      <guid>software/tags/broadcast-receiver/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/broadcast-receiver/</guid>
       <description></description>
     </item>
     
     <item>
       <title>internet control</title>
-      <link>software/tags/internet-control/</link>
+      <link>https://aykuttasil.github.io/software/tags/internet-control/</link>
       <pubDate>Wed, 11 Jan 2017 01:42:36 +0300</pubDate>
       
-      <guid>software/tags/internet-control/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/internet-control/</guid>
       <description></description>
     </item>
     
     <item>
       <title>api test</title>
-      <link>software/tags/api-test/</link>
+      <link>https://aykuttasil.github.io/software/tags/api-test/</link>
       <pubDate>Wed, 11 Jan 2017 01:09:39 +0300</pubDate>
       
-      <guid>software/tags/api-test/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/api-test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>postman</title>
-      <link>software/tags/postman/</link>
+      <link>https://aykuttasil.github.io/software/tags/postman/</link>
       <pubDate>Wed, 11 Jan 2017 01:09:39 +0300</pubDate>
       
-      <guid>software/tags/postman/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/postman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>activeandroid</title>
-      <link>software/tags/activeandroid/</link>
+      <link>https://aykuttasil.github.io/software/tags/activeandroid/</link>
       <pubDate>Wed, 11 Jan 2017 01:00:19 +0300</pubDate>
       
-      <guid>software/tags/activeandroid/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/activeandroid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>orm</title>
-      <link>software/tags/orm/</link>
+      <link>https://aykuttasil.github.io/software/tags/orm/</link>
       <pubDate>Wed, 11 Jan 2017 01:00:19 +0300</pubDate>
       
-      <guid>software/tags/orm/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/orm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sqlite</title>
-      <link>software/tags/sqlite/</link>
+      <link>https://aykuttasil.github.io/software/tags/sqlite/</link>
       <pubDate>Wed, 11 Jan 2017 01:00:19 +0300</pubDate>
       
-      <guid>software/tags/sqlite/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/sqlite/</guid>
       <description></description>
     </item>
     
     <item>
       <title>android test</title>
-      <link>software/tags/android-test/</link>
+      <link>https://aykuttasil.github.io/software/tags/android-test/</link>
       <pubDate>Wed, 11 Jan 2017 00:31:52 +0300</pubDate>
       
-      <guid>software/tags/android-test/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/android-test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>robolectric</title>
-      <link>software/tags/robolectric/</link>
+      <link>https://aykuttasil.github.io/software/tags/robolectric/</link>
       <pubDate>Wed, 11 Jan 2017 00:31:52 +0300</pubDate>
       
-      <guid>software/tags/robolectric/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/robolectric/</guid>
       <description></description>
     </item>
     
     <item>
       <title>unit test</title>
-      <link>software/tags/unit-test/</link>
+      <link>https://aykuttasil.github.io/software/tags/unit-test/</link>
       <pubDate>Wed, 11 Jan 2017 00:27:54 +0300</pubDate>
       
-      <guid>software/tags/unit-test/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/unit-test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>azure</title>
-      <link>software/tags/azure/</link>
+      <link>https://aykuttasil.github.io/software/tags/azure/</link>
       <pubDate>Wed, 11 Jan 2017 00:21:36 +0300</pubDate>
       
-      <guid>software/tags/azure/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/azure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>notification hubs</title>
-      <link>software/tags/notification-hubs/</link>
+      <link>https://aykuttasil.github.io/software/tags/notification-hubs/</link>
       <pubDate>Wed, 11 Jan 2017 00:21:36 +0300</pubDate>
       
-      <guid>software/tags/notification-hubs/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/notification-hubs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>recaptcha</title>
-      <link>software/tags/recaptcha/</link>
+      <link>https://aykuttasil.github.io/software/tags/recaptcha/</link>
       <pubDate>Wed, 11 Jan 2017 00:14:08 +0300</pubDate>
       
-      <guid>software/tags/recaptcha/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/recaptcha/</guid>
       <description></description>
     </item>
     
     <item>
       <title>keyhashes</title>
-      <link>software/tags/keyhashes/</link>
+      <link>https://aykuttasil.github.io/software/tags/keyhashes/</link>
       <pubDate>Tue, 10 Jan 2017 23:56:35 +0300</pubDate>
       
-      <guid>software/tags/keyhashes/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/keyhashes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sha1</title>
-      <link>software/tags/sha1/</link>
+      <link>https://aykuttasil.github.io/software/tags/sha1/</link>
       <pubDate>Tue, 10 Jan 2017 23:56:35 +0300</pubDate>
       
-      <guid>software/tags/sha1/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/sha1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hosts</title>
-      <link>software/tags/hosts/</link>
+      <link>https://aykuttasil.github.io/software/tags/hosts/</link>
       <pubDate>Tue, 10 Jan 2017 23:20:12 +0300</pubDate>
       
-      <guid>software/tags/hosts/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/hosts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iis</title>
-      <link>software/tags/iis/</link>
+      <link>https://aykuttasil.github.io/software/tags/iis/</link>
       <pubDate>Tue, 10 Jan 2017 23:20:12 +0300</pubDate>
       
-      <guid>software/tags/iis/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/iis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>localwebserver</title>
-      <link>software/tags/localwebserver/</link>
+      <link>https://aykuttasil.github.io/software/tags/localwebserver/</link>
       <pubDate>Tue, 10 Jan 2017 23:20:12 +0300</pubDate>
       
-      <guid>software/tags/localwebserver/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/localwebserver/</guid>
       <description></description>
     </item>
     
     <item>
       <title>site</title>
-      <link>software/tags/site/</link>
+      <link>https://aykuttasil.github.io/software/tags/site/</link>
       <pubDate>Tue, 10 Jan 2017 23:20:12 +0300</pubDate>
       
-      <guid>software/tags/site/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/site/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nullif</title>
-      <link>software/tags/nullif/</link>
+      <link>https://aykuttasil.github.io/software/tags/nullif/</link>
       <pubDate>Tue, 10 Jan 2017 23:08:34 +0300</pubDate>
       
-      <guid>software/tags/nullif/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/nullif/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tsql</title>
-      <link>software/tags/tsql/</link>
+      <link>https://aykuttasil.github.io/software/tags/tsql/</link>
       <pubDate>Tue, 10 Jan 2017 23:08:34 +0300</pubDate>
       
-      <guid>software/tags/tsql/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/tsql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>spinner</title>
-      <link>software/tags/spinner/</link>
+      <link>https://aykuttasil.github.io/software/tags/spinner/</link>
       <pubDate>Tue, 10 Jan 2017 23:00:03 +0300</pubDate>
       
-      <guid>software/tags/spinner/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/spinner/</guid>
       <description></description>
     </item>
     
     <item>
       <title>container</title>
-      <link>software/tags/container/</link>
+      <link>https://aykuttasil.github.io/software/tags/container/</link>
       <pubDate>Sun, 25 Dec 2016 03:51:49 +0300</pubDate>
       
-      <guid>software/tags/container/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/container/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>software/tags/linux/</link>
+      <link>https://aykuttasil.github.io/software/tags/linux/</link>
       <pubDate>Sun, 25 Dec 2016 03:51:49 +0300</pubDate>
       
-      <guid>software/tags/linux/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nano</title>
-      <link>software/tags/nano/</link>
+      <link>https://aykuttasil.github.io/software/tags/nano/</link>
       <pubDate>Sun, 25 Dec 2016 03:51:49 +0300</pubDate>
       
-      <guid>software/tags/nano/</guid>
+      <guid>https://aykuttasil.github.io/software/tags/nano/</guid>
       <description></description>
     </item>
     
