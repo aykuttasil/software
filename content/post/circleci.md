@@ -15,7 +15,7 @@ postMetaInFooter: true
 hiddenFromHomePage: false
 ---
 
-# CI/CD
+## CI/CD
 
 Uygulamaların **build/test/depleyment** süreçlerini **otomatize** etmemizi sağlayan **CI/CD** kavramları günümüz yazılım dünyasında olmazsa olmaz, bilinmezse ayıp olurlar arasına girmiş bulunmaktadır. Manuel yapılan bu işlemlerin otomatize edilmesi bize ve takım üyelerine çeşitli konularda fayda sağlayacak ve eğer manuel yöntemler ile ilerlendiği takdirde oluşabilecek hataları minimuma indirecektir. Projenizin **build/test/deployment** adımlarında çeşitli sorunlar yaşamaya başlamışsanız ya da başlamadan bitirmek istiyorsanız bu kavramları öğrenmekte fayda var.
 
@@ -36,7 +36,7 @@ Uygulamaların **build/test/depleyment** süreçlerini **otomatize** etmemizi sa
 
 ---
 
-# CircleCI
+## CircleCI
 
 Circle CI, çeşitli pricing modelleri ile birlikte belli kısıtlamalar dahilinde ücretsiz **CI/CD** araçları sunan bir ortam sunar. Hazırlanan konfigurasyon dosyası(**.yml**) ile tüm süreçler(**build/test/deployment**) otomatik olarak işletilebilir.
 

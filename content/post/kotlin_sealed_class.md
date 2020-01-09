@@ -19,11 +19,11 @@ date = 2017-07-01
 
 +++
 
-# Kotlin Sealed Class
+## Kotlin Sealed Class
 
 **Enum** yapısına benzer bir yapıya sahiptir. Ve benzer görevler için kullanılır. Aradaki fark enum lar sabit değer ifade etmek için kullanılırken **sealed** yapısı normal sınıf gibi fakat enum mantığıyla kullanılır. Yani belli bir duruma ait fonksiyonları bir arada tutmak ve **when()** gibi fonksiyonlar ile birlikte kullanımını sağlamak için kullanılır.
 
-```java 
+```java
     // Sealed class enum yapısına benzer
     // Bir durum için belli başlı akışları bir arada tutmamızı sağlar ve bu akışların yönetimini kolaylaştırır.
     // abstract fonksiyon tanımlanamabilir
@@ -82,5 +82,5 @@ date = 2017-07-01
     }
 ```
 
-
 şeklinde kullanılabilir.
+

@@ -25,8 +25,6 @@ draft = false
 +++
 
 
-# Runnable() & Callable()
+## Runnable() & Callable()
 
 Ayrıntılı açıklama için [bu siteyi](http://www.java67.com/2013/01/difference-between-callable-and-runnable-java.html) kullanabilirsiniz.
-
-

@@ -25,8 +25,8 @@ title = "Firebase Dynamic Links"
 
 Öyle bir link olsun ki;
 
- - Bilgisayarımda ki browserdan linke tıkladığımda kişisel web sitem açılsın,
- - Eğer mobil cihazımda ki browserdan linke tıklarsan;
+- Bilgisayarımda ki browserdan linke tıkladığımda kişisel web sitem açılsın,
+- Eğer mobil cihazımda ki browserdan linke tıklarsan;
     * Uygulama cihazda yüklü ise uygulamam açılsın (Belirtmiş olduğum Activity vs.),
     * Uygulama cihazda yüklü değilse Google Play Store veya  App Store açılsın,
     * Uygulama cihazda yüklü olsa bile eğer belirttiğim versiyon kodundan eski bir sürüm varsa yine Google Play Store vs. açılsın,
@@ -52,9 +52,9 @@ Dynamic Links tabına tıkladığımızda https://abcd.app.goo.gl/ benzeri bir a
 
 gibi bir linkte gerekli parametreleri uygun şekilde değiştirerek dynamic linkimizi oluşturabiliriz.
 
-- 
+---
 
-```
+```json
 POST https://firebasedynamiclinks.googleapis.com/v1/shortLinks?key=api_key
 Content-Type: application/json
 
@@ -78,13 +78,16 @@ Content-Type: application/json
     }
 }
 ```
+
 şeklinde bir REST isteği göndererek dynamic linkimizi aşağıdaki response şeklinde elde edebiliriz.
-```
+
+```json
 {
   "shortLink": "https://c49ss.app.goo.gl/5TI3",
   "previewLink": "https://c49ss.app.goo.gl/?link=https://play.google.com/store/apps/details?id%3Dcom.coderockets.referandumproject&al=http://referandum?questionId%3Dxyz&apn=com.coderockets.referandumproject&amv=21&st=Question+text&sd=Hemen+Referandum+toplulu%C4%9Funa+kat%C4%B1larak+cevap+verebilirsin.&si=Question+Image+Url&d=1"
 }
 ``` 
+
 **shortLink** ile **previewLink** aynı görevi üstlenir. Aralarında bir fark yok. 
 
 ---
@@ -92,7 +95,8 @@ Content-Type: application/json
 ## Android Uygulamamızı Yapılandıralım
 
 - AndroidManifest.xml dosyamızda ilgili Activity tanımı içerisinde aşağıdaki gibi düzenleme yapıyoruz.
-```
+
+```xml
         <activity
             android:name=".activity.UniqueQuestionActivity"
             android:parentActivityName=".activity.MainActivity">
@@ -109,9 +113,11 @@ Content-Type: application/json
             <meta-data android:name="android.support.PARENT_ACTIVITY"
              android:value=".activity.MainActivity" />
         </activity>
-```         
-- İlgili Activity içerisinde aşağıdaki tanımlamaları yapıyoruz. 
 ```
+
+- İlgili Activity içerisinde aşağıdaki tanımlamaları yapıyoruz. 
+
+```java
 @Override
 protected void onCreate(Bundle savedInstanceState) {
     // ...
@@ -146,16 +152,17 @@ protected void onCreate(Bundle savedInstanceState) {
                         }
                     });
 }
-``` 
+```
 
 Yukarıda ki kodu dynamic link ile açılabilen her Activity içerisinde tanımlamalısınız.
 
 Aslında aşağıda ki gibi de link ve parametrelere ulaşabilirsiniz.
-``` 
+
+``` java
 @Override
 protected void onCreate(Bundle savedInstanceState) {
  if (getIntent() != null && getIntent().getAction() != null) {
-            
+
             // Link : http://referandum/?questionId=xxx
             String questionId = "";
             switch (getIntent().getAction()) {
@@ -167,8 +174,8 @@ protected void onCreate(Bundle savedInstanceState) {
                 }
             }
         }
-}        
-``` 
+}
+```
 
 Ama ilk durumda ki gibi **getInvitation()** ile dynamic linki işlerseniz Firebase arka tarafta başka işlemlerde yapıyor olacaktır. Mesela Firebase Analytics tanımlamışsanız Firebase Console undan;
 
@@ -182,13 +189,6 @@ parametrelerine ait istatistikleri görebilirsiniz.
 
 Kaynaklar:
 
-- https://firebase.google.com/docs/dynamic-links/
-- https://firebase.google.com/docs/dynamic-links/rest
-- https://firebase.google.com/docs/dynamic-links/android/receive
-
-
-
-
-
-
-
+- <https://firebase.google.com/docs/dynamic-links/>
+- <https://firebase.google.com/docs/dynamic-links/rest>
+- <https://firebase.google.com/docs/dynamic-links/android/receive>

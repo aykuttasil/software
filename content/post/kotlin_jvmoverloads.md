@@ -20,18 +20,18 @@ draft = false
 
 +++
 
-# Kotlin @JvmOverloads
+## Kotlin @JvmOverloads
 
 Kotlin ile uygulama geliştirmeyi teşvik eden en büyük etkenlerden biri şüphesiz **Java** dili uyumlu yapısıdır. Her iki tarafdan da birbirlerine referanslar verilebilir.
 
 Kotlin dilinin Java'dan ayıran özelliklerinden biri Java compiler ından daha zeki olmasıdır. Nitekim java dili yaşlanıyor :). Kotlin ile oluşturulan bazı yapıların Java tarafına uyumlu hale getirilmesi için bazen ufak düzenlemelere gerek duyulabiliyor.
 Bu düzenlemelerden bir tanesi de `@JvmOverloads` annotation kullanımı.
 
-```java 
+```java
 fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View {
     return LayoutInflater.from(context).inflate(resId, this, attachToRoot)
 }
-``` 
+```
 
 Yukarıda ki gibi **kotlin extension** yapısı kullanılarak **ViewGroup** nesnesine ek bir özellik kazandırdık.
 
@@ -72,7 +72,6 @@ View v = UtilsKt.inflate(parent, R.layout.view_item);
 
 şeklinde kullanım sağlayabiliriz.
 
-
 ---
 
 Java içerisinden **UtilsKt** sınıfını başka bir isimlendirme ile çağırmak için **UtilsKt** sınıfı içerisinde **package** tanımlamasından önce `@file:JvmName("AndroidUtils"` şeklinde bir ekleme yapabiliriz.
@@ -84,6 +83,3 @@ View v = AndroidUtils.inflate(parent, R.layout.view_item, false);
 ```
 
 Yukarıda ki gibi **UtilsKt** sınıfına erişim sağlayabiliriz.
-
-
-

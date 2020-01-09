@@ -19,7 +19,7 @@ hiddenFromHomePage: false
 
 ---
 
-# Dependency Injection
+## Dependency Injection
 
 Dependency Injection nedir sorusununun cevabını arayanları google a davet ediyorum. .Net Core ile birlikte gelen Dependency Injection yapısı nasıl kullanılır cevabı için okumaya devam edebilirsiniz.
 

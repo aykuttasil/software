@@ -22,13 +22,13 @@ date = "2017-06-18T02:24:37+03:00"
 +++
 
 
-# Kotlin Lambda Kullanımı
+## Kotlin Lambda Kullanımı
 
 Kotlin dili ile geliştirme yaparken fonksiyonel programlama nimetlerinden faydalanmamızı sağlayan **lambda** birçok konuda bize yardımcı olacaktır. Doğru kullanımını öğrendiğimiz ölçüde nimetlerinin farkına varabiliriz.
 
 Belli başlı lambda kullanımları için aşağıdaki örneği inceleyebilirsiniz.
 
-```
+```kotlin
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_kotlin_lambda)
@@ -69,6 +69,4 @@ Belli başlı lambda kullanımları için aşağıdaki örneği inceleyebilirsin
         }
 
     }
-```     
-
-
+```

@@ -15,11 +15,11 @@ postMetaInFooter: true
 hiddenFromHomePage: false
 ---
 
-# Problem
+## Problem
 
 Domain'i barındıran server'ın IP'sini bulmak istiyoruz.
 
-# Çözüm
+## Çözüm
 
 ## Linux
 

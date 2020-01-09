@@ -22,7 +22,7 @@ autoThumbnailImage = false
 
 +++
 
-**Kısaca özetlemek gerekirse :** insert ile kayıt edilen tablo satırının id sini getirir.
+**Kısaca özetlemek gerekirse :** insert ile kayıt edilen tablo satırının id'sini getirir.
 
 Yapılan son kaydın id sini almak için uzun  yol olarak insert sorgusunu çalıştırdıktan sonra bir select sorgusu atarak ve order by id desc diyerek ilk sıradaki kaydı okuyabilir ve bu kaydın id sini alabiliriz.
 

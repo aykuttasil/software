@@ -22,11 +22,12 @@ tags = [
 ]
 
 +++
-# RxJava reduce() Kullanımı
+
+## RxJava reduce() Kullanımı
 
 **reduce()** fonskyionu iki şekilde çalışır;
 
-- 1
+- 1.Kullanım
 
 ```java
 .reduce(new BiFunction<Integer, Integer, Integer>() {
@@ -36,7 +37,8 @@ tags = [
     }
 })
 ```
-- 2 
+
+- 2.Kullanım
 
 ```java
 .reduce(10,new BiFunction<Integer, Integer, Integer>() {
@@ -46,6 +48,7 @@ tags = [
     }
 })
 ```
+
 1 ile 2 nin farkı, 2 de görüldüğü üzere fonksiyona başlangıç değeri atanabilmesidir.
 
 Aşağıdaki örneklerde daha net görebilirsiniz.
@@ -53,7 +56,6 @@ Aşağıdaki örneklerde daha net görebilirsiniz.
 RxJava’nın reduce fonksiyonunu tanımlıcak olursak;
 
 Observable nesnesine ait her bir item a (1 , 3, 5) fonksiyon uygulanmasını sağlar. Bunu map() gibi fonksiyonlarda sağlıyor. Ama tabi reduce bunu farklı bir şekilde yapıyor.
- 
 
 Eğer ilk değer (seed) atanmamış ise ilk değer olarak (val1) ilk item ı (1) alıyor.
 
@@ -61,7 +63,6 @@ Daha sonra biz her item a yapması gereken işlem olarak iki değeri toplamasın
 
 Tüm item lar ile işlem yapıncaya kadar devam ediyor ve sonuç subscribe.onSuccess in içine düşüyor.
 
- 
 ```java
 private void reduce() {
     Observable.just(1, 3, 5)
@@ -79,19 +80,16 @@ private void reduce() {
 
 **Çıktı:**
 
-```
+```bash
 I/MainActivity: val1: 1
 I/MainActivity: val2: 3
 I/MainActivity: val1: 4
 I/MainActivity: val2: 5
 I/MainActivity: Sonuc:9
-``` 
-
- 
+```
 
 Burda yukarıda ki işlemden farklı olarak ek bir iterasyon daha yapılıyor. Çünkü ilk değer atamasını biz kendimiz yapıyoruz. İkinci değer olarak da her item sırayla bu görevi üstleniyor. Ve toplama işlemi yapılıp, toplam sonucunu ilk değer olarak atadıktan sonra döngü devam ediyor. Ve sonuç subscribe.onSuccess e düşüyor.
 
- 
 ```java
 private void reduce() {
     Observable.just(1, 3, 5).reduce(10, (val1, val2) -> {
@@ -108,7 +106,7 @@ private void reduce() {
 
 Çıktı:
 
-```
+```bash
 I/MainActivity: val1: 10
 I/MainActivity: val2: 1
 I/MainActivity: val1: 11
@@ -116,6 +114,6 @@ I/MainActivity: val2: 3
 I/MainActivity: val1: 14
 I/MainActivity: val2: 5
 I/MainActivity: Sonuc:19
-``` 
+```
 
 RxJava candır 😉
