@@ -3,9 +3,9 @@ title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
-keywords: []
+keywords: ["aykuttasil","software"]
 description: ""
-tags: []
+tags: ["software"]
 categories: []
 author: "Aykut Asil"
 comment: true
