@@ -187,77 +187,8 @@
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/android-sms-receiver/">
-      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/4.jpg)"></div>
-    </a>    
-    
-
-    <div class="post-card-content">
-      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/android-sms-receiver/">
-          <header class="post-card-header">
-              <span class="post-card-tags">
-              #software 
-              #android 
-              #java 
-              #sms 
-              #sms-receiver  </span>
-              
-              <h2 class="post-card-title">Android SMS Receiver</h2>
-          </header>
-          <section class="post-card-excerpt">
-               
-                <p>Android Test</p>
-              
-          </section>
-      </a>
-
-      <footer class="post-card-meta">
-          <img class="author-profile-image" src="https://aykuttasil.github.io/software/img/aykutasil.jpg" alt="Author" />
-          <span class="post-card-author"><a href="https://aykuttasil.github.io/software/">Aykut Asil</a></span>
-      </footer>
-    </div>
-</article>
- 
-
-<article class="post-card post"> 
-    
-    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/java-collections/">
-      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/6.jpg)"></div>
-    </a>    
-    
-
-    <div class="post-card-content">
-      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/java-collections/">
-          <header class="post-card-header">
-              <span class="post-card-tags">
-              #software 
-              #android 
-              #java 
-              #collections 
-              #swap  </span>
-              
-              <h2 class="post-card-title">Java Collections</h2>
-          </header>
-          <section class="post-card-excerpt">
-              
-                <p>Collections.swap Swap kelime anlamı ile takas anlamına gelmektedir. Mevcut dizimiz içerisinde elemanların yerlerini değiştirmeye yarar.
-private static final String[] STRINGS = new String[]{ &#34;1&#34;, &#34;2&#34;, &#34;3&#34;, &#34;4&#34;, &#34;5&#34; }; private final List mItems = new ArrayList&lt;&gt;(); public void setArray() { mItems.addAll(Arrays.asList(STRINGS)); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 1,2,3,4,5  private void elemanYerDegistir() { Collections.swap(mItems, 0, 4); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 5,2,3,4,1  </p>
-              
-          </section>
-      </a>
-
-      <footer class="post-card-meta">
-          <img class="author-profile-image" src="https://aykuttasil.github.io/software/img/aykutasil.jpg" alt="Author" />
-          <span class="post-card-author"><a href="https://aykuttasil.github.io/software/">Aykut Asil</a></span>
-      </footer>
-    </div>
-</article>
- 
-
-<article class="post-card post"> 
-    
     <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/tsql-nullif-fonksiyonu-nedir-ve-nas%C4%B1l-kullan%C4%B1l%C4%B1r/">
-      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/7.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/1.jpg)"></div>
     </a>    
     
 
@@ -279,6 +210,76 @@ private static final String[] STRINGS = new String[]{ &#34;1&#34;, &#34;2&#34;, 
 Kullanimi ve anlamasi kolay bir fonksiyon oldugu için basit bir örnekle anlatmaya çalisalim.
 Ilk olarak kullanacagimiz geçici tabloyu asagidaki gibi çalistirip içine insert komutu ile veri kaydedelim.
 CREATE TABLE #Urun ( UrunID TINYINT, ListeFiyati DECIMAL NULL); GO INSERT #Urun VALUES(1,100); INSERT #Urun VALUES(2,NULL); INSERT #Urun VALUES(3,0); INSERT #Urun VALUES(7,250); INSERT #Urun VALUES(9,458); ListeFiyati kolonuna göre count yaparsak sonuç olarak 4 dönecegini görürsünüz, çünkü UrunID’si 2 olan ürünün liste fiyati girilmemistir. ...  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://aykuttasil.github.io/software/img/aykutasil.jpg" alt="Author" />
+          <span class="post-card-author"><a href="https://aykuttasil.github.io/software/">Aykut Asil</a></span>
+      </footer>
+    </div>
+</article>
+ 
+
+<article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/kotlin-apply-kullan%C4%B1m%C4%B1/">
+      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/3.jpg)"></div>
+    </a>    
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/kotlin-apply-kullan%C4%B1m%C4%B1/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #software 
+              #kotlin 
+              #apply 
+              #extensin function  </span>
+              
+              <h2 class="post-card-title">Kotlin apply Kullanımı</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>fun &lt;T&gt; T.apply(f: T.() -&gt; Unit): T { f(); return this } apply() tüm tipler için belirlenmiş bir extension function dır. apply() fonksiyonu uygulanan nesnenin özelliklerine direk olarak apply kod bloğu içerisinden erişilebilir.
+var file = File(dir) file.mkdirs() veya Java ile yazacak olursak
+File makeDir(String path) { File result = new File(path); result.mkdirs(); return result; } Bu kodu aşağıdaki yapıya çevirebiliriz.
+File(dir).apply { mkdirs() }  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://aykuttasil.github.io/software/img/aykutasil.jpg" alt="Author" />
+          <span class="post-card-author"><a href="https://aykuttasil.github.io/software/">Aykut Asil</a></span>
+      </footer>
+    </div>
+</article>
+ 
+
+<article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="https://aykuttasil.github.io/software/post/circleci-configuration/">
+      <div class="post-card-image" style="background-image: url(https://aykuttasil.github.io/software/defimg/7.jpg)"></div>
+    </a>    
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://aykuttasil.github.io/software/post/circleci-configuration/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #ci 
+              #cd 
+              #continuous-integration 
+              #continuous-deployment 
+              #circleci  </span>
+              
+              <h2 class="post-card-title">CircleCI Configuration</h2>
+          </header>
+          <section class="post-card-excerpt">
+               
+                <p>Circle CI/CD</p>
               
           </section>
       </a>
