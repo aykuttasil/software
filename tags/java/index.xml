@@ -18,8 +18,8 @@
       
       <guid>https://yazilim.aykutasil.com/android-webview-etkilesimi/</guid>
       <description>Kısa Hikaye : Üstünde çalışmakta olduğum bir projede kredi kartı ile ödeme yapısı kurmam gerekti. Kısaca projenin yapısından bahsedecek olursak
- Backend : .Net Client : Android (Java) Ödeme altyapısı : İyzico  Client tarafında rest isteğiyle tüm işlemlerimizi backend tarafında yapıyoruz. Ödeme yapımızı da bu doğrultuda geliştirdik.
-Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine bankanın bize telefonumuza gelen şifreyi girmemiz için göndermiş olduğu web sayfası vs. giriyor.</description>
+  Backend : .Net Client : Android (Java) Ödeme altyapısı : İyzico  Client tarafında rest isteğiyle tüm işlemlerimizi backend tarafında yapıyoruz. Ödeme yapımızı da bu doğrultuda geliştirdik.
+Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine bankanın bize telefonumuza gelen şifreyi girmemiz için göndermiş olduğu web sayfası vs.</description>
     </item>
     
     <item>
@@ -136,7 +136,7 @@ private static final String[] STRINGS = new String[]{ &amp;#34;1&amp;#34;, &amp;
       <pubDate>Wed, 11 Jan 2017 16:01:33 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-custom-toolbar/</guid>
-      <description>Android Toolbar bileşeni çok yönlü bir yapıya sahiptir. Android Design Library kullanarak ve AppBarLayout içerisinde tanımlanarak oldukça farklı şekillere bürünebilir.
+      <description>Android Toolbar Android Toolbar bileşeni çok yönlü bir yapıya sahiptir. Android Design Library kullanarak ve AppBarLayout içerisinde tanımlanarak oldukça farklı şekillere bürünebilir.
 Genel kullanımı aşağıdaki gibidir.
 &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt; &amp;lt;android.support.design.widget.CoordinatorLayout xmlns:android=&amp;#34;http://schemas.android.com/apk/res/android&amp;#34; xmlns:app=&amp;#34;http://schemas.android.com/apk/res-auto&amp;#34; xmlns:tools=&amp;#34;http://schemas.android.com/tools&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;match_parent&amp;#34; android:background=&amp;#34;@color/primary_dark&amp;#34; tools:context=&amp;#34;.MainActivity&amp;#34;&amp;gt; &amp;lt;FrameLayout android:id=&amp;#34;@+id/container&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;match_parent&amp;#34;&amp;gt; &amp;lt;/FrameLayout&amp;gt; &amp;lt;android.support.design.widget.FloatingActionButton android:id=&amp;#34;@+id/fab&amp;#34; android:layout_width=&amp;#34;wrap_content&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; android:layout_gravity=&amp;#34;bottom|end&amp;#34; android:layout_margin=&amp;#34;@dimen/fab_margin&amp;#34; android:src=&amp;#34;@android:drawable/ic_dialog_email&amp;#34; /&amp;gt; &amp;lt;android.support.design.widget.AppBarLayout android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; app:elevation=&amp;#34;0dp&amp;#34;&amp;gt; &amp;lt;android.support.v7.widget.Toolbar android:id=&amp;#34;@+id/toolbar&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; android:background=&amp;#34;@color/primary_dark&amp;#34; android:minHeight=&amp;#34;?attr/actionBarSize&amp;#34; app:popupTheme=&amp;#34;@style/AppTheme.PopupOverlay&amp;#34;/&amp;gt; &amp;lt;/android.support.design.widget.AppBarLayout&amp;gt; &amp;lt;/android.support.design.widget.CoordinatorLayout&amp;gt; app:elevation=&amp;quot;0dp&amp;quot; // AppBarLayout içerisinde ki bu tanımlama default olarak tanımlanmış gölgeyi kaldırır.</description>
     </item>

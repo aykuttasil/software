@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="https://yazilim.aykutasil.com/favicon.ico" />
     <link rel="canonical" href="https://yazilim.aykutasil.com/android-kotlin-test-final-type-problem/" />
 
-     <meta name="description" content="Sorun Kotlin dili ile geliştirilen Android projelerinin test yazımı sırasında sınıfların veya metodların mocklanması, Java ile geliştirilen projelere göre bazı " /> 
+     <meta name="description" content="Android Kotlin ile test yazarken karşılaşılan final type problemi ve çözümü" /> 
 
      
     
@@ -20,7 +20,7 @@
     
  
     <meta name="twitter:title" content="Android Kotlin Test - Final Type Problem"/>
-    <meta name="twitter:description" content="Sorun Kotlin dili ile geliştirilen Android projelerinin test yazımı sırasında sınıfların veya metodların mocklanması, Java ile geliştirilen projelere göre bazı "/>
+    <meta name="twitter:description" content="Android Kotlin ile test yazarken karşılaşılan final type problemi ve çözümü"/>
     <meta name="twitter:url" content="https://yazilim.aykutasil.com/android-kotlin-test-final-type-problem" />
     <meta name="twitter:site" content="@aykuttasil"/>
 
@@ -30,7 +30,7 @@
     <meta property="article:publisher" content="https://www.facebook.com/aykuttasil" />
 
     <meta property="og:type" content="article" />
-    <meta property="og:description" content="Sorun Kotlin dili ile geliştirilen Android projelerinin test yazımı sırasında sınıfların veya metodların mocklanması, Java ile geliştirilen projelere göre bazı " />
+    <meta property="og:description" content="Android Kotlin ile test yazarken karşılaşılan final type problemi ve çözümü" />
 
     <meta property="article:published_time" content="2019-01-29T15:38:29&#43;03:00" />
     <meta property="article:tag" content="android" /><meta property="article:tag" content="kotlin" /><meta property="article:tag" content="test" />
@@ -113,14 +113,14 @@
         <h1 class="post-full-title">Android Kotlin Test - Final Type Problem</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
-        <h1 id="sorun">Sorun</h1>
+        <h2 id="sorun">Sorun</h2>
 <p><strong>Kotlin</strong> dili ile geliştirilen <strong>Android</strong> projelerinin test yazımı sırasında sınıfların veya metodların <strong>mock</strong>lanması, <strong>Java</strong> ile geliştirilen projelere göre bazı farklılıklar göstermektedir. Bu farklılığın sebeplerinden biri <strong>Kotlin</strong> ile oluşturulan sınıf veya metodların default olarak <strong>final</strong> olarak işaretlenmiş olmasıdır. Ve <strong>final</strong> tipindeki sınıfların <strong>mock</strong>lanması bazı sorunlar çıkarmaktadır.</p>
-<h1 id="zm">Çözüm</h1>
+<h2 id="zm">Çözüm</h2>
 <p><strong>Final</strong> tipindeki sınıfların veya metodların mocklama işlemi sırasında çıkan sorunu çözmenin birkaç farklı yöntemi vardır.</p>
 <h2 id="zm-1-open-classname">Çözüm 1 (open ClassName)</h2>
 <p>Test edeceğimiz sınıf ve metodun başına <strong>open</strong> ifadesini ekleyerek <strong>extend</strong> edilebilir hale getirmek. Böylece <strong>mock</strong> kütüphaneleri kotlin final problemine yakalanmadan mocklama işlemini başarıyla gerçekleştirebilecekler.</p>
@@ -231,13 +231,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/macos-arduino-uno-klon-kurulum/">Mac OS Arduino Uno (Klon) Kurulumu</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/sql-nullif-fonksiyonu-kullanimi/">TSQL NULLIF Fonksiyonu Nedir ve Nasıl Kullanılır</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/rxjava-reduce/">RxJava reduce() Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/deviceip-with-adb/">ADB Komutu ile Cihaz IP&#39;sini Öğren</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/arduino_hc06_kullanimi/">Arduino HC-06 Bluetooth Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-debugging-local-server/">Android Debugging With Local Web Server</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/kotlin-let/">Kotlin Let Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-backstack-navigate/">Android Backstack Navigate</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -251,7 +251,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-service/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
     </a>    
     
 
@@ -265,10 +265,10 @@ s.setAttribute('data-timestamp', +new Date());
               <h2 class="post-card-title">Android Service</h2>
           </header>
           <section class="post-card-excerpt">
-              
-                <p>Android Service Android'in temel bileşenlerinden biri olan Service&lsquo;ler kısaca UI(arayüz) olmayan Activity&lsquo;lere benzetebiliriz. Tabi ki kendine göre ek özellikleri bulunmaktadır. Service tanımlaması AndroidManifest.xml içerisinde tanımlı olmalıdır. Aksi takdirde çalışmaz. &lt;service&gt; elementinin alabileceği özellikler aşağıdaki gibidir.
-Niçin kullanılır? Temel olarak ifade etmek gerekirse Service&lsquo;lerin kullanım amacı uzun süren ve arka planda(background) çalışan taskler oluşturmaktır. Bununla birlikte diğer uygulamalar tarafından çağırılabilen iletişim imkanı sağlar.
-Service tanımlanması &lt;service android:description=&#34;string resource&#34; android:directBootAware=[&#34;true&#34; | &#34;false&#34;] android:enabled=[&#34;true&#34; | &#34;false&#34;] android:exported=[&#34;true&#34; | &#34;false&#34;] android:icon=&#34;drawable resource&#34; android:isolatedProcess=[&#34;true&#34; | &#34;false&#34;] android:label=&#34;string resource&#34; android:name=&#34;string&#34; android:permission=&#34;string&#34; android:process=&#34;string&#34; &gt; . ...  </p>
+               
+                <p><p>Android Service Nedir? Nasıl Kullanılır?</p>
+<p>Android'in temel bileşenlerinden biri olan Service'ler kısaca UI(arayüz) olmayan Activity'lere benzetebiliriz.</p>
+</p>
               
           </section>
       </a>
@@ -284,7 +284,7 @@ Service tanımlanması &lt;service android:description=&#34;string resource&#34;
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/server-ip/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
     </a>    
     
 

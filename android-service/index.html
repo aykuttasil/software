@@ -12,7 +12,9 @@
     <link rel="shortcut icon" href="https://yazilim.aykutasil.com/favicon.ico" />
     <link rel="canonical" href="https://yazilim.aykutasil.com/android-service/" />
 
-     <meta name="description" content="Android Service Android&#39;in temel bileşenlerinden biri olan Service&amp;lsquo;ler kısaca UI(arayüz) olmayan Activity&amp;lsquo;lere benzetebiliriz. Tabi ki kendine göre " /> 
+     <meta name="description" content="Android Service Nedir? Nasıl Kullanılır? 
+
+ Android&#39;in temel bileşenlerinden biri olan Service&#39;ler kısaca UI(arayüz) olmayan Activity&#39;lere benzetebiliriz." /> 
 
      
     
@@ -20,7 +22,9 @@
     
  
     <meta name="twitter:title" content="Android Service"/>
-    <meta name="twitter:description" content="Android Service Android&#39;in temel bileşenlerinden biri olan Service&amp;lsquo;ler kısaca UI(arayüz) olmayan Activity&amp;lsquo;lere benzetebiliriz. Tabi ki kendine göre "/>
+    <meta name="twitter:description" content="Android Service Nedir? Nasıl Kullanılır? 
+
+ Android&#39;in temel bileşenlerinden biri olan Service&#39;ler kısaca UI(arayüz) olmayan Activity&#39;lere benzetebiliriz."/>
     <meta name="twitter:url" content="https://yazilim.aykutasil.com/android-service" />
     <meta name="twitter:site" content="@aykuttasil"/>
 
@@ -30,7 +34,9 @@
     <meta property="article:publisher" content="https://www.facebook.com/aykuttasil" />
 
     <meta property="og:type" content="article" />
-    <meta property="og:description" content="Android Service Android&#39;in temel bileşenlerinden biri olan Service&amp;lsquo;ler kısaca UI(arayüz) olmayan Activity&amp;lsquo;lere benzetebiliriz. Tabi ki kendine göre " />
+    <meta property="og:description" content="Android Service Nedir? Nasıl Kullanılır? 
+
+ Android&#39;in temel bileşenlerinden biri olan Service&#39;ler kısaca UI(arayüz) olmayan Activity&#39;lere benzetebiliriz." />
 
     <meta property="article:published_time" content="2019-02-14T13:10:18&#43;03:00" />
     <meta property="article:tag" content="android" /><meta property="article:tag" content="service" />
@@ -113,14 +119,15 @@
         <h1 class="post-full-title">Android Service</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
-        <h1 id="android-service">Android Service</h1>
+        <blockquote>
 <p>Android'in temel bileşenlerinden biri olan <strong>Service</strong>&lsquo;ler kısaca <strong>UI(arayüz)</strong> olmayan <strong>Activity</strong>&lsquo;lere benzetebiliriz. Tabi ki kendine göre ek özellikleri bulunmaktadır.
 <strong>Service</strong> tanımlaması <strong>AndroidManifest.xml</strong> içerisinde tanımlı olmalıdır. Aksi takdirde çalışmaz. <strong>&lt;service&gt;</strong> elementinin alabileceği özellikler aşağıdaki gibidir.</p>
+</blockquote>
 <h2 id="niin-kullanlr">Niçin kullanılır?</h2>
 <p>Temel olarak ifade etmek gerekirse <strong>Service</strong>&lsquo;lerin kullanım amacı uzun süren ve arka planda(background) çalışan taskler oluşturmaktır. Bununla birlikte diğer uygulamalar tarafından çağırılabilen iletişim imkanı sağlar.</p>
 <h2 id="service-tanmlanmas">Service tanımlanması</h2>
@@ -160,7 +167,7 @@ Eğer <strong>true</strong> olarak belirlenmiş ise başka uygulamalar tarafınd
 <h3 id="androidlabel">android:label</h3>
 <p>Kullanıcı tarafından gözükecek olan service adını belirlemek için kullanılır. Eğer atama yapılmaz ise <strong>application</strong> elementi içerisindeki <strong>label</strong> özelliği değeri default olarak atanır.</p>
 <h3 id="androidname">android:name</h3>
-<p>Service class name'i bu etiket altında belirlenir. Örneğin: com.example.project.MyService</p>
+<p>Service class name'i bu etiket altında belirlenir. Örneğin: <code>com.example.project.MyService</code></p>
 <h3 id="androidpermission">android:permission</h3>
 <p>Service çağırıldığında uygulama tarafından bu etiket altın belirtilen izinlerin sağlanmış olması gerekmektedir. Aksi takdirde ilgili service çalışmayacaktır.
 Örneğin, service içerisinde location API'si kullanılıyor ise <code>android:permission=&quot;android.permission.ACCESS_FINE_LOCATION&quot;</code> şeklinde tanımlama yapılması ilgili servisi koruma altına alacak yani ilgili iznin sağlanması dahilinde çalışacağını garanti etmiş olacaktır.</p>
@@ -168,7 +175,7 @@ Eğer <strong>true</strong> olarak belirlenmiş ise başka uygulamalar tarafınd
 <p>Normalde uygulamanın tüm bileşenleri, <strong>uygulama.package.name</strong> adında tek bir process'de çalışır. Fakat componentler bu default özelliği ezerek kendi process'inde koşabilir ve bu sayede uygulama işlemlerinin birden fazla process'de çalışmasını sağlayabilir.</p>
 <p>Bu özelliğe atama yapılır iken <code>android:process=&quot;:MyServiceProcess&quot;</code> şeklinde <strong>:</strong> ile başlayan bir ifade girilecek olursa, yeni oluşturulacak process sadece kendi uygulamamız tafafından kullanılabilir olacaktır.</p>
 <p>Fakat <code>android:process=&quot;myServiceProcess&quot;</code> şeklinde yani <strong>:</strong> olmadan ve küçük harfle başlayan bir değer girilmesi durumunda, yeni oluşturulacak process başka uygulamalar tarafından da kullanılabilir olacaktır. Bu sayede kaynak kullanımı azaltılmış olup ilgili bileşenlerin aynı process'i paylaşmaları sağlabilir.</p>
-<h1 id="kaynaklar">Kaynaklar</h1>
+<h2 id="kaynaklar">Kaynaklar</h2>
 <ul>
 <li><a href="https://developer.android.com/guide/topics/manifest/service-element">https://developer.android.com/guide/topics/manifest/service-element</a></li>
 </ul>
@@ -232,13 +239,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/android-pendingintent-flags/">PendingIntent Flags</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/kotlin-apply/">Kotlin apply Kullanımı</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-spinner-dynamic-text/">Android Spinner Text Güncelleme</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/docker-nano-setup/">Docker Container Install nano</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/java-executorservice-submit-and-execute/">ExecutorService submit() – execute()</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/kotlin-sealed-class/">Kotlin Sealed Class</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/postman-api-test/">Postman ile API Test Yazımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/ssh-surekli-parola-isteme-problemi/">SSH Sürekli Parola İstemesi Sorunu</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -252,7 +259,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-databinding/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
     </a>    
     
 
@@ -284,7 +291,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-kotlin-test-final-type-problem/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)"></div>
     </a>    
     
 
@@ -299,10 +306,8 @@ s.setAttribute('data-timestamp', +new Date());
               <h2 class="post-card-title">Android Kotlin Test - Final Type Problem</h2>
           </header>
           <section class="post-card-excerpt">
-              
-                <p>Sorun Kotlin dili ile geliştirilen Android projelerinin test yazımı sırasında sınıfların veya metodların mocklanması, Java ile geliştirilen projelere göre bazı farklılıklar göstermektedir. Bu farklılığın sebeplerinden biri Kotlin ile oluşturulan sınıf veya metodların default olarak final olarak işaretlenmiş olmasıdır. Ve final tipindeki sınıfların mocklanması bazı sorunlar çıkarmaktadır.
-Çözüm Final tipindeki sınıfların veya metodların mocklama işlemi sırasında çıkan sorunu çözmenin birkaç farklı yöntemi vardır.
-Çözüm 1 (open ClassName) Test edeceğimiz sınıf ve metodun başına open ifadesini ekleyerek extend edilebilir hale getirmek. ...  </p>
+               
+                <p>Android Kotlin ile test yazarken karşılaşılan final type problemi ve çözümü</p>
               
           </section>
       </a>

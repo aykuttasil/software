@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="https://yazilim.aykutasil.com/favicon.ico" />
     <link rel="canonical" href="https://yazilim.aykutasil.com/android-test/" />
 
-     <meta name="description" content="Android Test" /> 
+     <meta name="description" content="Android&#39;e ait tüm bileşenlerin testi nasıl hazırlanır? **Unit Test** ve **Instrumentation Test** arasındaki farklar nedir ve nasıl hazırlanır?" /> 
 
      
     
@@ -20,7 +20,7 @@
     
  
     <meta name="twitter:title" content="Android Test"/>
-    <meta name="twitter:description" content="Android Test"/>
+    <meta name="twitter:description" content="Android&#39;e ait tüm bileşenlerin testi nasıl hazırlanır? **Unit Test** ve **Instrumentation Test** arasındaki farklar nedir ve nasıl hazırlanır?"/>
     <meta name="twitter:url" content="https://yazilim.aykutasil.com/android-test" />
     <meta name="twitter:site" content="@aykuttasil"/>
 
@@ -30,7 +30,7 @@
     <meta property="article:publisher" content="https://www.facebook.com/aykuttasil" />
 
     <meta property="og:type" content="article" />
-    <meta property="og:description" content="Android Test" />
+    <meta property="og:description" content="Android&#39;e ait tüm bileşenlerin testi nasıl hazırlanır? **Unit Test** ve **Instrumentation Test** arasındaki farklar nedir ve nasıl hazırlanır?" />
 
     <meta property="article:published_time" content="2018-09-18T11:51:07&#43;03:00" />
     <meta property="article:tag" content="android" /><meta property="article:tag" content="test" /><meta property="article:tag" content="junit" /><meta property="article:tag" content="roboloectric" /><meta property="article:tag" content="mockito" /><meta property="article:tag" content="mock" /><meta property="article:tag" content="espresso" />
@@ -113,7 +113,7 @@
         <h1 class="post-full-title">Android Test</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)">
     </figure>
 
     <section class="post-full-content">
@@ -121,7 +121,7 @@
         <blockquote>
 <p><strong>Not:</strong> Bu yazıyı hazırlarken ben de öğrenme sürecinde olucam. Araştırdığım ve öğrendiğim tüm teknik bilgileri ve yöntemleri, best-practice leri gelişi güzel(karmakarışık değil) bir şekilde yazıcam. Sonrasında zaman bulduğum vakit bir düzenleme yapıcam.</p>
 </blockquote>
-<h1 id="unit-test-ve-instrumentation-test">Unit Test ve Instrumentation Test</h1>
+<h2 id="unit-test-ve-instrumentation-test">Unit Test ve Instrumentation Test</h2>
 <h2 id="unit-test">Unit Test</h2>
 <p><strong>Unit Test:</strong> Android framework ünden bağımsız olan sınıfları/metodları test etmek için kullanılır. <strong>Robolectric</strong> ve <strong>JUnit</strong> popüler unit test araçlarıdır.</p>
 <blockquote>
@@ -337,15 +337,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/windows-local-iis-kurulumu/">Local IIS Site Kurulumu</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-custom-toolbar/">Android Custom Toolbar Title</a></li>            
         
-                      
+          <li><a href="https://yazilim.aykutasil.com/ssh-surekli-parola-isteme-problemi/">SSH Sürekli Parola İstemesi Sorunu</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/java-runnable-and-callable/">Runnable() &amp; Callable()</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/yeoman-kullanimi/">Yeoman Kullanımı</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-kotlin-test-final-type-problem/">Android Kotlin Test - Final Type Problem</a></li>            
-        
-          <li><a href="https://yazilim.aykutasil.com/aspnetcore-filters/">ASP.NET Core Filters</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/tls-ssl/">TLS vs SSL</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -372,9 +370,8 @@ s.setAttribute('data-timestamp', +new Date());
               <h2 class="post-card-title">AMP</h2>
           </header>
           <section class="post-card-excerpt">
-              
-                <p>Not: Bu yazı öğrenme sürecinde hazırlanmış olup kısa kısa notlar içerir.
- Nedir bu AMP Kurallar  &lt;!doctype html&gt; ile başlamalı &lt;html amp&gt; şeklinde düzenlenmeli &lt;head&gt; tagı içerisine ilk sırada &lt;meta charset=&quot;utf-8&quot;&gt; şeklinde meta tagı eklenmeli &lt;head&gt; tagı içerisine mümkün olduğunda erken sırada &lt;script async src=&quot;https://cdn.ampproject.org/v0.js&quot;&gt;&lt;/script&gt; script tagı eklenmeli &lt;head&gt; tagı içerisine sayfanın AMP olmayan halinin linkini ya da sadece AMP li hali var ise kendi url i &lt;link rel=&quot;canonical&quot; href=&quot;$SOME_URL&quot;&gt; şeklinde belirtilmeli &lt;head&gt; tagı içerisine &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,minimum-scale=1&quot;&gt; meta tagı eklenmeli AMP js dosyası yüklenene kadar mevcut içeriği gizlemek için &lt;style amp-boilerplate&gt;body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}&lt;/style&gt;&lt;noscript&gt;&lt;style amp-boilerplate&gt;body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}&lt;/style&gt;&lt;/noscript&gt; tagı eklenmeli     Bir çok HTMl tagı direk olarak AMP HTML içerisinde kullanılabilir fakat bazılarının (img gibi) AMP için özel versiyonları bulunmaktadır. ...  </p>
+               
+                <p>AMP nedir ve nasıl kullanılır?</p>
               
           </section>
       </a>
@@ -390,7 +387,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/dns-over-tls/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
     </a>    
     
 

@@ -112,8 +112,8 @@ DataBinding Uygulamanın arayüzünü tasarlamak için kullandığımız layout 
       <pubDate>Thu, 14 Feb 2019 13:10:18 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-service/</guid>
-      <description>Android Service Android&#39;in temel bileşenlerinden biri olan Service&amp;lsquo;ler kısaca UI(arayüz) olmayan Activity&amp;lsquo;lere benzetebiliriz. Tabi ki kendine göre ek özellikleri bulunmaktadır. Service tanımlaması AndroidManifest.xml içerisinde tanımlı olmalıdır. Aksi takdirde çalışmaz. &amp;lt;service&amp;gt; elementinin alabileceği özellikler aşağıdaki gibidir.
-Niçin kullanılır? Temel olarak ifade etmek gerekirse Service&amp;lsquo;lerin kullanım amacı uzun süren ve arka planda(background) çalışan taskler oluşturmaktır. Bununla birlikte diğer uygulamalar tarafından çağırılabilen iletişim imkanı sağlar.
+      <description>Android&#39;in temel bileşenlerinden biri olan Service&amp;lsquo;ler kısaca UI(arayüz) olmayan Activity&amp;lsquo;lere benzetebiliriz. Tabi ki kendine göre ek özellikleri bulunmaktadır. Service tanımlaması AndroidManifest.xml içerisinde tanımlı olmalıdır. Aksi takdirde çalışmaz. &amp;lt;service&amp;gt; elementinin alabileceği özellikler aşağıdaki gibidir.
+ Niçin kullanılır? Temel olarak ifade etmek gerekirse Service&amp;lsquo;lerin kullanım amacı uzun süren ve arka planda(background) çalışan taskler oluşturmaktır. Bununla birlikte diğer uygulamalar tarafından çağırılabilen iletişim imkanı sağlar.
 Service tanımlanması &amp;lt;service android:description=&amp;#34;string resource&amp;#34; android:directBootAware=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:enabled=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:exported=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:icon=&amp;#34;drawable resource&amp;#34; android:isolatedProcess=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:label=&amp;#34;string resource&amp;#34; android:name=&amp;#34;string&amp;#34; android:permission=&amp;#34;string&amp;#34; android:process=&amp;#34;string&amp;#34; &amp;gt; .</description>
     </item>
     
@@ -261,7 +261,7 @@ STEP MOTORUN SÜRÜCÜ İLE ÇALIŞTIRILMASI Step motorlar mikro denetleyici, ar
       
       <guid>https://yazilim.aykutasil.com/android-architecture-components/</guid>
       <description>Android Architecture Components Öncelikle şu linkleri verelim:
- https://developer.android.com/topic/libraries/architecture/index.html Lifecycle LiveData ViewModel  LifeCycle Daha önce Android uygulaması geliştirenler çok iyi bilirler ki bir activity veya fragment ın yaşam döngüsünü yönetmek sıkıntılı bir süreçtir. Activity&#39;nin arka planda mı yoksa görünür vaziyette mi oluşuna göre düzenlenen akışlar çoğu zaman yoğun dikkat gerektiren süreçlerdir. Yukarıda ki Lifecycle linkine tıklarsanınz çok güzel bir örnek ile durumu açıklamışlar.
+ https://developer.android.com/topic/libraries/architecture/index.html Lifecycle LiveData ViewModel  LifeCycle Daha önce Android uygulaması geliştirenler çok iyi bilirler ki bir activity veya fragment&#39;ın yaşam döngüsünü yönetmek sıkıntılı bir süreçtir. Activity&#39;nin arka planda mı yoksa görünür vaziyette mi oluşuna göre düzenlenen akışlar çoğu zaman yoğun dikkat gerektiren süreçlerdir. Yukarıda ki Lifecycle linkine tıklarsanınz çok güzel bir örnek ile durumu açıklamışlar.
 Oluşturduğumuz nesneler eğer activity&#39;nin yaşam döngüsüne bağlı ise bunu yönetmek için activity&#39;mizin genelde onCreate ve onStop metodları içerisinde bu nesnelere ait fonksiyonları çağırıyorduk.</description>
     </item>
     
@@ -326,7 +326,7 @@ File(dir).apply { mkdirs() } </description>
       <pubDate>Tue, 06 Jun 2017 04:42:56 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/kotlin-when/</guid>
-      <description>Kotlin&#39;de when operatörü oldukça işimizi kolaylaştıran operatörlerden biridir.
+      <description>Kotlin&#39;de when operatörü işimizi oldukça kolaylaştıran operatörlerden biridir.
 if- else if yapısı yerine kullanılabileceği gibi bazı yardımcı operatörler ile birçok marifet kazanabilir.
 val i = 10 when { i &amp;lt; 7 -&amp;gt; println(&amp;#34;first block&amp;#34;) fooString.startsWith(&amp;#34;hello&amp;#34;) -&amp;gt; println(&amp;#34;second block&amp;#34;) else -&amp;gt; println(&amp;#34;else block&amp;#34;) } Yukarıda ki örnek if-else if-else yapısının aynısıdır.
  when (i) { 0, 21 -&amp;gt; println(&amp;#34;0 or 21&amp;#34;) in 1..20 -&amp;gt; println(&amp;#34;in the range 1 to 20&amp;#34;) else -&amp;gt; println(&amp;#34;none of the above&amp;#34;) } Yukarıda ki gibi aralıklar tanımlanabilir ve bu aralıklara uyum kontrolü yapılarak ilgili işlemlerin yapılması sağlanılabilir.</description>
@@ -405,8 +405,8 @@ var a; Console.Write(a ?? &amp;#34;boş değer&amp;#34;); Yukarıdaki söz dizim
       
       <guid>https://yazilim.aykutasil.com/android-webview-etkilesimi/</guid>
       <description>Kısa Hikaye : Üstünde çalışmakta olduğum bir projede kredi kartı ile ödeme yapısı kurmam gerekti. Kısaca projenin yapısından bahsedecek olursak
- Backend : .Net Client : Android (Java) Ödeme altyapısı : İyzico  Client tarafında rest isteğiyle tüm işlemlerimizi backend tarafında yapıyoruz. Ödeme yapımızı da bu doğrultuda geliştirdik.
-Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine bankanın bize telefonumuza gelen şifreyi girmemiz için göndermiş olduğu web sayfası vs. giriyor.</description>
+  Backend : .Net Client : Android (Java) Ödeme altyapısı : İyzico  Client tarafında rest isteğiyle tüm işlemlerimizi backend tarafında yapıyoruz. Ödeme yapımızı da bu doğrultuda geliştirdik.
+Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine bankanın bize telefonumuza gelen şifreyi girmemiz için göndermiş olduğu web sayfası vs.</description>
     </item>
     
     <item>
@@ -625,7 +625,7 @@ private static final String[] STRINGS = new String[]{ &amp;#34;1&amp;#34;, &amp;
       <pubDate>Wed, 11 Jan 2017 16:01:33 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-custom-toolbar/</guid>
-      <description>Android Toolbar bileşeni çok yönlü bir yapıya sahiptir. Android Design Library kullanarak ve AppBarLayout içerisinde tanımlanarak oldukça farklı şekillere bürünebilir.
+      <description>Android Toolbar Android Toolbar bileşeni çok yönlü bir yapıya sahiptir. Android Design Library kullanarak ve AppBarLayout içerisinde tanımlanarak oldukça farklı şekillere bürünebilir.
 Genel kullanımı aşağıdaki gibidir.
 &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt; &amp;lt;android.support.design.widget.CoordinatorLayout xmlns:android=&amp;#34;http://schemas.android.com/apk/res/android&amp;#34; xmlns:app=&amp;#34;http://schemas.android.com/apk/res-auto&amp;#34; xmlns:tools=&amp;#34;http://schemas.android.com/tools&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;match_parent&amp;#34; android:background=&amp;#34;@color/primary_dark&amp;#34; tools:context=&amp;#34;.MainActivity&amp;#34;&amp;gt; &amp;lt;FrameLayout android:id=&amp;#34;@+id/container&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;match_parent&amp;#34;&amp;gt; &amp;lt;/FrameLayout&amp;gt; &amp;lt;android.support.design.widget.FloatingActionButton android:id=&amp;#34;@+id/fab&amp;#34; android:layout_width=&amp;#34;wrap_content&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; android:layout_gravity=&amp;#34;bottom|end&amp;#34; android:layout_margin=&amp;#34;@dimen/fab_margin&amp;#34; android:src=&amp;#34;@android:drawable/ic_dialog_email&amp;#34; /&amp;gt; &amp;lt;android.support.design.widget.AppBarLayout android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; app:elevation=&amp;#34;0dp&amp;#34;&amp;gt; &amp;lt;android.support.v7.widget.Toolbar android:id=&amp;#34;@+id/toolbar&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; android:background=&amp;#34;@color/primary_dark&amp;#34; android:minHeight=&amp;#34;?attr/actionBarSize&amp;#34; app:popupTheme=&amp;#34;@style/AppTheme.PopupOverlay&amp;#34;/&amp;gt; &amp;lt;/android.support.design.widget.AppBarLayout&amp;gt; &amp;lt;/android.support.design.widget.CoordinatorLayout&amp;gt; app:elevation=&amp;quot;0dp&amp;quot; // AppBarLayout içerisinde ki bu tanımlama default olarak tanımlanmış gölgeyi kaldırır.</description>
     </item>
@@ -787,9 +787,7 @@ Oluşturduğunuz Mobile Service tıkladınız ve çıkan ekranda Push tabına gi
       <description>ReCaptcha Sitenize gelebilecek saldıralara karşı bir önlem olarak kullanılacak eklentilerden biridir ReCaptcha.
 Kolay bir şekilde entegre edilir ve kolay bir şekilde güvenlik sağlanır.
 Bunun için aşağıdaki adımları uygulamanız yeterli olacaktır.
-  https://www.google.com/recaptcha/admin#list sitesine gidiniz.Ve gerekli yerleri doldurunuz.
-  Label kısmına ReCaptcha i hangi sayfada kullanacaksınız,(örneğin giriş sayfası için) GirişCaptcha diyin.
-  Domain kısmına sitenizin domain i ekleyin.Her biri bir satır olacak şekilde.Birden fazla domain girerek aynı kodu farklı domainlerde çalıştırabilirsiniz.</description>
+ https://www.google.com/recaptcha/admin#list sitesine gidiniz.Ve gerekli yerleri doldurunuz. Label kısmına ReCaptcha i hangi sayfada kullanacaksınız,(örneğin giriş sayfası için) GirişCaptcha diyin. Domain kısmına sitenizin domain i ekleyin.Her biri bir satır olacak şekilde.Birden fazla domain girerek aynı kodu farklı domainlerde çalıştırabilirsiniz. Owner kısmına ise Adınız yazın.</description>
     </item>
     
     <item>

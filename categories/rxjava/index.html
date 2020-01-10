@@ -114,7 +114,7 @@
 <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/rxjava-range/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
     </a>    
     
 
@@ -130,12 +130,8 @@
               <h2 class="post-card-title">RxJava range() Kullanımı</h2>
           </header>
           <section class="post-card-excerpt">
-              
-                <p>RxJava range() Kullanımı **Örnek kod:&ndash;
-private void range() { Observable.range(3, 5).subscribeOn(Schedulers.io()) .subscribe(success -&gt; { Log.i(TAG, &#34;val: &#34; + success.toString()); }); } Açıklama:
-İlk değer 3 kabul edilerek sonraki 5 sayı için teker teker onNext() çağırılır. Yani 3 , 4, 5, 6, 7
-Yukarıda ki kodun çıktısı aşağıdaki gibidir.
-I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActivity: val: 6 I/MainActivity: val: 7 RxJava candır. 😉 </p>
+               
+                <p>RxJava range() Kullanımı</p>
               
           </section>
       </a>
@@ -151,7 +147,7 @@ I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActiv
 <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/rxjava-scan/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
     </a>    
     
 
@@ -167,9 +163,8 @@ I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActiv
               <h2 class="post-card-title">RxJava scan() Kullanımı</h2>
           </header>
           <section class="post-card-excerpt">
-              
-                <p>RxJava scan() Kullanımı RxJava da scan() kullanımı iki şekilde olur.
-   İlk değer ataması yapılarak    private void scan() { Observable.just(3, 5, 7, 9) .scan(10,(val1, val2) -&gt; { //  Log.i(TAG, &#34;val1: &#34; + val1.toString()); Log.i(TAG, &#34;val2: &#34; + val2.toString()); return val1 + val2; }).subscribeOn(Schedulers.io()) .subscribe(success -&gt; { Log.i(TAG, &#34;Sonuc:&#34; + success.toString()); }); }   İlk değer ataması yapılmadan    private void scan() { Observable. ...  </p>
+               
+                <p>RxJava scan() Kullanımı</p>
               
           </section>
       </a>
@@ -185,7 +180,7 @@ I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActiv
 <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/rxjava-reduce/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
     </a>    
     
 
@@ -202,10 +197,8 @@ I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActiv
               <h2 class="post-card-title">RxJava reduce() Kullanımı</h2>
           </header>
           <section class="post-card-excerpt">
-              
-                <p>RxJava reduce() Kullanımı reduce() fonskyionu iki şekilde çalışır;
- 1.Kullanım  .reduce(new BiFunction&lt;Integer, Integer, Integer&gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } })  2.Kullanım  .reduce(10,new BiFunction&lt;Integer, Integer, Integer&gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } }) 1 ile 2 nin farkı, 2 de görüldüğü üzere fonksiyona başlangıç değeri atanabilmesidir.
-Aşağıdaki örneklerde daha net görebilirsiniz. ...  </p>
+               
+                <p>RxJava reduce() Kullanımı</p>
               
           </section>
       </a>

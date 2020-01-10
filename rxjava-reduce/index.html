@@ -12,8 +12,7 @@
     <link rel="shortcut icon" href="https://yazilim.aykutasil.com/favicon.ico" />
     <link rel="canonical" href="https://yazilim.aykutasil.com/rxjava-reduce/" />
 
-     <meta name="description" content="RxJava reduce() Kullanımı reduce() fonskyionu iki şekilde çalışır;
- 1.Kullanım  .reduce(new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Int" /> 
+     <meta name="description" content="RxJava reduce() Kullanımı" /> 
 
      
     
@@ -21,8 +20,7 @@
     
  
     <meta name="twitter:title" content="RxJava reduce() Kullanımı"/>
-    <meta name="twitter:description" content="RxJava reduce() Kullanımı reduce() fonskyionu iki şekilde çalışır;
- 1.Kullanım  .reduce(new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Int"/>
+    <meta name="twitter:description" content="RxJava reduce() Kullanımı"/>
     <meta name="twitter:url" content="https://yazilim.aykutasil.com/rxjava-reduce" />
     <meta name="twitter:site" content="@aykuttasil"/>
 
@@ -32,8 +30,7 @@
     <meta property="article:publisher" content="https://www.facebook.com/aykuttasil" />
 
     <meta property="og:type" content="article" />
-    <meta property="og:description" content="RxJava reduce() Kullanımı reduce() fonskyionu iki şekilde çalışır;
- 1.Kullanım  .reduce(new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Int" />
+    <meta property="og:description" content="RxJava reduce() Kullanımı" />
 
     <meta property="article:published_time" content="2017-01-11T18:42:04&#43;03:00" />
     <meta property="article:tag" content="software" /><meta property="article:tag" content="android" /><meta property="article:tag" content="java" /><meta property="article:tag" content="rxjava" /><meta property="article:tag" content="reduce" />
@@ -146,7 +143,7 @@
 <p>RxJava’nın reduce fonksiyonunu tanımlıcak olursak;</p>
 <p>Observable nesnesine ait her bir item a (1 , 3, 5) fonksiyon uygulanmasını sağlar. Bunu map() gibi fonksiyonlarda sağlıyor. Ama tabi reduce bunu farklı bir şekilde yapıyor.</p>
 <p>Eğer ilk değer (seed) atanmamış ise ilk değer olarak (val1) ilk item ı (1) alıyor.</p>
-<p>Daha sonra biz her item a yapması gereken işlem olarak iki değeri toplamasını söylediğimiz için, ilk değer ve ikinci değeri toplayıp bunu bir sonraki işlem için ilk değer olarak atıyor. İkinci iterasyonda kaldığı yerden devam ederek, ilk değer olarak bir önceki işlemin sonucu ve ikinci değer olarak 2. item ı alıyor. Yine toplama işlemi yaparak bir sonraki işlem için ilk değer ataması yapıyor.</p>
+<p>Daha sonra biz her item'a yapması gereken işlem olarak iki değeri toplamasını söylediğimiz için, ilk değer ve ikinci değeri toplayıp bunu bir sonraki işlem için ilk değer olarak atıyor. İkinci iterasyonda kaldığı yerden devam ederek, ilk değer olarak bir önceki işlemin sonucu ve ikinci değer olarak 2. item ı alıyor. Yine toplama işlemi yaparak bir sonraki işlem için ilk değer ataması yapıyor.</p>
 <p>Tüm item lar ile işlem yapıncaya kadar devam ediyor ve sonuç subscribe.onSuccess in içine düşüyor.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">reduce</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
     Observable<span style="color:#f92672">.</span><span style="color:#a6e22e">just</span><span style="color:#f92672">(</span>1<span style="color:#f92672">,</span> 3<span style="color:#f92672">,</span> 5<span style="color:#f92672">)</span>
@@ -247,13 +244,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/android-debugging-local-server/">Android Debugging With Local Web Server</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/google_cloud_dns/">Google Cloud DNS</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-backstack-navigate/">Android Backstack Navigate</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-create-library-upload-bintray/">Android Library &amp; Bintray</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/aspnetcore-session/">Asp.Net Core Session</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-circleci/">Android CircleCI Configuration</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/kotlin-when/">Kotlin when kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/sql-scope-identity/">SQL SCOPE_IDENTITY()</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -267,7 +264,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/rxjava-scan/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
     </a>    
     
 
@@ -283,9 +280,8 @@ s.setAttribute('data-timestamp', +new Date());
               <h2 class="post-card-title">RxJava scan() Kullanımı</h2>
           </header>
           <section class="post-card-excerpt">
-              
-                <p>RxJava scan() Kullanımı RxJava da scan() kullanımı iki şekilde olur.
-   İlk değer ataması yapılarak    private void scan() { Observable.just(3, 5, 7, 9) .scan(10,(val1, val2) -&gt; { //  Log.i(TAG, &#34;val1: &#34; + val1.toString()); Log.i(TAG, &#34;val2: &#34; + val2.toString()); return val1 + val2; }).subscribeOn(Schedulers.io()) .subscribe(success -&gt; { Log.i(TAG, &#34;Sonuc:&#34; + success.toString()); }); }   İlk değer ataması yapılmadan    private void scan() { Observable. ...  </p>
+               
+                <p>RxJava scan() Kullanımı</p>
               
           </section>
       </a>

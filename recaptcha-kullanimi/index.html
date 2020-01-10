@@ -116,48 +116,27 @@ Kolay bir şekilde entegre edilir ve kolay bir şe" />
         <h1 class="post-full-title">ReCaptcha Kullanımı</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
-        <h1 id="recaptcha">ReCaptcha</h1>
+        <h2 id="recaptcha">ReCaptcha</h2>
 <p>Sitenize gelebilecek saldıralara karşı bir önlem olarak kullanılacak eklentilerden biridir ReCaptcha.</p>
 <p>Kolay bir şekilde entegre edilir ve kolay bir şekilde güvenlik sağlanır.</p>
 <p>Bunun için aşağıdaki adımları uygulamanız yeterli olacaktır.</p>
 <ul>
-<li>
-<p><a href="https://www.google.com/recaptcha/admin#list">https://www.google.com/recaptcha/admin#list</a> sitesine gidiniz.Ve gerekli yerleri doldurunuz.</p>
-</li>
-<li>
-<p>Label kısmına ReCaptcha i hangi sayfada kullanacaksınız,(örneğin giriş sayfası için) GirişCaptcha diyin.</p>
-</li>
-<li>
-<p>Domain kısmına sitenizin domain i ekleyin.Her biri bir satır olacak şekilde.Birden fazla domain girerek aynı kodu farklı domainlerde çalıştırabilirsiniz.</p>
-</li>
-<li>
-<p>Owner kısmına ise Adınız yazın.</p>
-</li>
-<li>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-</li>
-<li>
-<p>div kısmını ReCaptcha nın nerede gözükmesini istiyorsanız oraya koyun.(form elementinin içersinde olmalıdır.)</p>
-</li>
-<li>
-<p>script kısmını site kodunuzun en altına, body tagınızın bi üstüne koyun.</p>
-</li>
-<li>
-<p>Client tarafında yapacaklarınız bu kadar.</p>
-</li>
-<li>
-<p>Server tarafına geçtiğimizde ise Client tarafındaki formdan gönderilen bilgileri alır gibi “g-recaptcha-response” parametresiyle değeri alıyoruz.Ve ReCaptcha api sinin kullanarak eşleşmenin sağlanığ sağlanmadığına bakıyoruz.</p>
-</li>
-<li>
-<p>Bunun için server kısmına</p>
-</li>
+<li><a href="https://www.google.com/recaptcha/admin#list">https://www.google.com/recaptcha/admin#list</a> sitesine gidiniz.Ve gerekli yerleri doldurunuz.</li>
+<li>Label kısmına ReCaptcha i hangi sayfada kullanacaksınız,(örneğin giriş sayfası için) GirişCaptcha diyin.</li>
+<li>Domain kısmına sitenizin domain i ekleyin.Her biri bir satır olacak şekilde.Birden fazla domain girerek aynı kodu farklı domainlerde çalıştırabilirsiniz.</li>
+<li>Owner kısmına ise Adınız yazın.</li>
+<li><strong>div</strong> kısmını ReCaptcha'nın nerede gözükmesini istiyorsanız oraya koyun.(form elementinin içersinde olmalıdır.)</li>
+<li><strong>script</strong> kısmını site kodunuzun en altına, body tagınızın bi üstüne koyun.</li>
+<li>Client tarafında yapacaklarınız bu kadar.</li>
+<li>Server tarafına geçtiğimizde ise Client tarafındaki formdan gönderilen bilgileri alır gibi “g-recaptcha-response” parametresiyle değeri alıyoruz.Ve ReCaptcha api sinin kullanarak eşleşmenin sağlanığ sağlanmadığına bakıyoruz.</li>
+<li>Bunun için server kısmına</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#">       <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">bool</span> ControlReCaptcha(<span style="color:#66d9ef">string</span> secretKey, <span style="color:#66d9ef">string</span> reCaptcha, <span style="color:#66d9ef">string</span> remoteIp)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-csharp" data-lang="csharp">       <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">bool</span> ControlReCaptcha(<span style="color:#66d9ef">string</span> secretKey, <span style="color:#66d9ef">string</span> reCaptcha, <span style="color:#66d9ef">string</span> remoteIp)
        {
            <span style="color:#66d9ef">var</span> secretkey = secretKey;
            <span style="color:#66d9ef">var</span> recaptcha = reCaptcha;
@@ -234,13 +213,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/tcpip-nedir_nasil_calisir/">TCP/IP Nasıl Çalışır ?</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-test/">Android Test</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/csharp-soru-isareti-syntax/">CSharp Null Kontrolü</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/sql-nullif-fonksiyonu-kullanimi/">TSQL NULLIF Fonksiyonu Nedir ve Nasıl Kullanılır</a></li>            
         
           <li><a href="https://yazilim.aykutasil.com/ssh-surekli-parola-isteme-problemi/">SSH Sürekli Parola İstemesi Sorunu</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-internet-connection-receiver/">Android Internet Connection Receiver</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/javascript-gariplikleri/">Javascript Gariplikleri</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -254,7 +233,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/azure-notification-hubs-kullanimi/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
     </a>    
     
 
@@ -290,7 +269,7 @@ Oluşturduğunuz Mobile Service tıkladınız ve çıkan ekranda Push tabına gi
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-keyhashes-sha1/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)"></div>
     </a>    
     
 
