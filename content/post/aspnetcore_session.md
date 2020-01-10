@@ -5,7 +5,7 @@ date: 2019-11-12T10:17:17+03:00
 lastmod: 2019-11-12T10:17:17+03:00
 draft: false
 keywords: ["aspnetcore","webapi","session"]
-description: ""
+description: "Asp.Net Core Session Kullanımı"
 tags: ["aspnetcore","webapi","session"]
 categories: ["aspnetcore","web","api"]
 author: "Aykut Asil"

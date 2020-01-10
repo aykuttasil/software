@@ -1,7 +1,7 @@
 +++
 title = "Kotlin Sealed Class"
 url = "kotlin-sealed-class"
-desciption = "Kotlin Sealed Class"
+description = "**Enum** yapısına benzer bir yapıya sahiptir ve benzer görevler için kullanılır. Aradaki fark enum lar sabit değer ifade etmek için kullanılırken **sealed** yapısı normal sınıf gibi fakat enum mantığıyla kullanılır."
 metaAlignment = "center"
 categories = [
   "yazilim","kotlin","android"

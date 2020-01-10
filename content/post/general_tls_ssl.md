@@ -5,7 +5,7 @@ date: 2018-08-12T23:12:07+03:00
 lastmod: 2018-08-12T23:12:07+03:00
 draft: false
 keywords: ["tls","ssl","encrypted","security"]
-description: "What is TLS/SSL"
+description: "**TLS (Transport Layer Securtiy)** , **SSL(Secure Sockets Layer)**'ın modernize edilmiş halidir diyebiliriz. Yani günümüzde SSL den bahsedildiğinde aslında TLS den bahsediliyor olduğunu söyleyebiliriz."
 tags: ["ssl","tls","encrypted-data","network"]
 categories: ["genel","network"]
 author: "Aykut Asil"
@@ -16,7 +16,7 @@ postMetaInFooter: true
 hiddenFromHomePage: false
 ---
 
-# TLS/SSL nedir?
+## TLS/SSL nedir?
 
 **TLS (Transport Layer Securtiy)** , **SSL(Secure Sockets Layer)**'ın modernize edilmiş halidir diyebiliriz. Yani günümüzde SSL den bahsedildiğinde aslında TLS den bahsediliyor olduğunu söyleyebiliriz.
 

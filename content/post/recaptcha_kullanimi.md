@@ -1,6 +1,6 @@
 +++
 metaAlignment = "center"
-desciption = ""
+desciption = "Recaptcha Kullanımı"
 categories = [
   "yazilim",
 ]
@@ -11,10 +11,7 @@ tags = [
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 title = "ReCaptcha Kullanımı"
 url = "recaptcha-kullanimi"
-thumbnailImagePosition = "top"
-thumbnailImage = ""
 date = "2017-01-11T00:14:08+03:00"
-autoThumbnailImage = false
 keywords = [
   "yazilim",
   "sofware",
@@ -23,7 +20,7 @@ keywords = [
 
 +++
 
-# ReCaptcha
+## ReCaptcha
 
 Sitenize gelebilecek saldıralara karşı bir önlem olarak kullanılacak eklentilerden biridir ReCaptcha.
 
@@ -35,15 +32,13 @@ Bunun için aşağıdaki adımları uygulamanız yeterli olacaktır.
 - Label kısmına ReCaptcha i hangi sayfada kullanacaksınız,(örneğin giriş sayfası için) GirişCaptcha diyin.
 - Domain kısmına sitenizin domain i ekleyin.Her biri bir satır olacak şekilde.Birden fazla domain girerek aynı kodu farklı domainlerde çalıştırabilirsiniz.
 - Owner kısmına ise Adınız yazın.
-
-- <a href="http://imgur.com/sQRkz2S"><img src="http://i.imgur.com/sQRkz2S.jpg" title="source: imgur.com" /></a>
-- div kısmını ReCaptcha nın nerede gözükmesini istiyorsanız oraya koyun.(form elementinin içersinde olmalıdır.)
-- script kısmını site kodunuzun en altına, body tagınızın bi üstüne koyun.
+- **div** kısmını ReCaptcha'nın nerede gözükmesini istiyorsanız oraya koyun.(form elementinin içersinde olmalıdır.)
+- **script** kısmını site kodunuzun en altına, body tagınızın bi üstüne koyun.
 - Client tarafında yapacaklarınız bu kadar.
 - Server tarafına geçtiğimizde ise Client tarafındaki formdan gönderilen bilgileri alır gibi “g-recaptcha-response” parametresiyle değeri alıyoruz.Ve ReCaptcha api sinin kullanarak eşleşmenin sağlanığ sağlanmadığına bakıyoruz.
 - Bunun için server kısmına
- 
- ```c#
+
+ ```csharp
         private static bool ControlReCaptcha(string secretKey, string reCaptcha, string remoteIp)
         {
             var secretkey = secretKey;
@@ -61,7 +56,5 @@ Bunun için aşağıdaki adımları uygulamanız yeterli olacaktır.
             return sonuc == "true";
         }
 ```
-  
-fonksiyonunu ekliyoruz.Ve gerekli parametreleri girdiğimizde fonksiyon bize true – false olacak şekilde sonucu döndürüyor.
- 
 
+fonksiyonunu ekliyoruz.Ve gerekli parametreleri girdiğimizde fonksiyon bize true – false olacak şekilde sonucu döndürüyor.

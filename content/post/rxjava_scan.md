@@ -1,11 +1,9 @@
 +++
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-title = "RxJava scan() Kullanımı"
-url = "rxjava-scan"
-thumbnailImage = ""
-thumbnailImagePosition = "top"
 date = "2017-01-11T18:49:21+03:00"
-metaAlignment = "center"
+title = "RxJava scan() Kullanımı"
+description = "RxJava scan() Kullanımı"
+url = "rxjava-scan"
+
 tags = [
   "software","android","java","rxjava"
 ]
@@ -13,14 +11,11 @@ keywords = [
   "yazilim",
   "sofware","android","java","rxjava"
 ]
-autoThumbnailImage = false
-desciption = ""
 categories = [
   "yazilim",
   "android",
   "rxjava"
 ]
-
 +++
 
 # RxJava scan() Kullanımı

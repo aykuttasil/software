@@ -1,8 +1,9 @@
 +++
-title = "Docker Container Install nano"
-url = "docker-nano-setup"
-metaAlignment = "center"
 date = "2016-12-25T03:51:49+03:00"
+title = "Docker Container Install nano"
+description = "Docker Nano kurulumu nasıl yapılır?"
+url = "docker-nano-setup"
+
 categories = [
   "yazilim","docker"
 ]
@@ -12,16 +13,11 @@ tags = [
 keywords = [
   "yazilim","sofware","docker","nano","komut penceresi","apt-get","kitematic","container","linux"
 ]
-autoThumbnailImage = true
-thumbnailImagePosition = "top"
-thumbnailImage = "DockerLogo.png"
-coverImage = "DockerLogo.png"
-
 +++
 
 Docker ile ayağa kaldırmış olduğunuz bir container olduğunu varsayalım ve bu docker container a erişerek komut satırı çalıştırmanız gerekiyor.
 
-https://docs.docker.com/engine/reference/commandline/exec/
+<https://docs.docker.com/engine/reference/commandline/exec/>
 
 Yukarıdaki linki takip ederek nasıl komut çalıştıracağınızı öğrenebilirsiniz.
 Ya da *Kitematic* gibi bir uygulama yüklü ise bu uygulamayı açarak ve çalışan image e tıklayarak exe butonuna basmamız yeterli olucaktır.

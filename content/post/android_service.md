@@ -5,20 +5,13 @@ date: 2019-02-14T13:10:18+03:00
 lastmod: 2019-02-14T13:10:18+03:00
 draft: false
 keywords: ["android","service"]
-description: ""
+description: "Android Service Nedir? Nasıl Kullanılır? \n\n Android'in temel bileşenlerinden biri olan Service'ler kısaca UI(arayüz) olmayan Activity'lere benzetebiliriz."
 tags: ["android","service"]
 categories: ["android","mobile"]
 author: "Aykut Asil"
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: true
-hiddenFromHomePage: false
 ---
 
-# Android Service
-
-Android'in temel bileşenlerinden biri olan **Service**'ler kısaca **UI(arayüz)** olmayan **Activity**'lere benzetebiliriz. Tabi ki kendine göre ek özellikleri bulunmaktadır.
+> Android'in temel bileşenlerinden biri olan **Service**'ler kısaca **UI(arayüz)** olmayan **Activity**'lere benzetebiliriz. Tabi ki kendine göre ek özellikleri bulunmaktadır.
 **Service** tanımlaması **AndroidManifest.xml** içerisinde tanımlı olmalıdır. Aksi takdirde çalışmaz. **\<service\>** elementinin alabileceği özellikler aşağıdaki gibidir.
 
 ## Niçin kullanılır?
@@ -80,7 +73,7 @@ Kullanıcı tarafından gözükecek olan service adını belirlemek için kullan
 
 ### android:name
 
-Service class name'i bu etiket altında belirlenir. Örneğin: com.example.project.MyService
+Service class name'i bu etiket altında belirlenir. Örneğin: `com.example.project.MyService`
 
 ### android:permission
 
@@ -95,6 +88,6 @@ Bu özelliğe atama yapılır iken `android:process=":MyServiceProcess"` şeklin
 
 Fakat `android:process="myServiceProcess"` şeklinde yani **:** olmadan ve küçük harfle başlayan bir değer girilmesi durumunda, yeni oluşturulacak process başka uygulamalar tarafından da kullanılabilir olacaktır. Bu sayede kaynak kullanımı azaltılmış olup ilgili bileşenlerin aynı process'i paylaşmaları sağlabilir.
 
-# Kaynaklar
+## Kaynaklar
 
 - <https://developer.android.com/guide/topics/manifest/service-element>

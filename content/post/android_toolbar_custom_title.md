@@ -6,7 +6,7 @@ tags = [
   "software","android","java","toolbar"
 ]
 date = "2017-01-11T16:01:33+03:00"
-desciption = ""
+desciption = "Android Toolbar Özelleştirme nasıl yapılır?"
 categories = [
   "yazilim",
   "android",
@@ -22,12 +22,12 @@ coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 
 +++
 
+## Android Toolbar
 
 Android Toolbar bileşeni çok yönlü bir yapıya sahiptir. Android Design Library  kullanarak ve AppBarLayout içerisinde tanımlanarak oldukça farklı şekillere bürünebilir.
 
 Genel kullanımı aşağıdaki gibidir.
 
- 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -78,9 +78,7 @@ Genel kullanımı aşağıdaki gibidir.
 
 Tanımlamış olduğumuz Toolbar a Activity içerisinden (ya da Fragment vb) erişerek gerekli tanımlamaları vs yapabilirsiniz.
 
- 
-
-**Toolbar Custom Title**
+### Toolbar Custom Title
 
 Toolbarınızı tanımladığınız yerde aşağıdaki değişiklikleri yaparak Title ınızı istediğiniz gibi özelleştirebilirsiniz.
 
@@ -110,7 +108,7 @@ Toolbarınızı tanımladığınız yerde aşağıdaki değişiklikleri yaparak 
 </android.support.design.widget.AppBarLayout>
 ```
 
-**FragmentX**
+### FragmentX
 
 ```java
  private void setToolbar() {
@@ -122,4 +120,3 @@ Toolbarınızı tanımladığınız yerde aşağıdaki değişiklikleri yaparak 
  ((TextView) toolbar.findViewById(R.id.toolbar_title)).setText("SORU SOR"); // Custom olarak belirlenmiş TextView e text ataması yapıyoruz.
 }
 ```
- 

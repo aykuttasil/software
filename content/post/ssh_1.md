@@ -5,7 +5,7 @@ date: 2018-10-26T01:04:21+03:00
 lastmod: 2018-10-26T01:04:21+03:00
 draft: false
 keywords: ["ssh"]
-description: ""
+description: "SSH sürekli parola isstemesi problemi ve çözümü"
 tags: ["ssh"]
 categories: ["genel"]
 author: "Aykut Asil"

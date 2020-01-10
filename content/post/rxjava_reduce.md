@@ -1,22 +1,18 @@
 +++
-desciption = ""
+date = "2017-01-11T18:42:04+03:00"
+title = "RxJava reduce() Kullanımı"
+description = "RxJava reduce() Kullanımı"
+url = "rxjava-reduce"
+
 categories = [
   "yazilim",
   "android",
   "rxjava"
 ]
-title = "RxJava reduce() Kullanımı"
-url = "rxjava-reduce"
-autoThumbnailImage = false
-thumbnailImage = ""
-date = "2017-01-11T18:42:04+03:00"
-thumbnailImagePosition = "top"
 keywords = [
   "yazilim",
   "sofware","android","java","rxjava","reduce"
 ]
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-metaAlignment = "center"
 tags = [
   "software","android","java","rxjava","reduce"
 ]
@@ -59,7 +55,7 @@ Observable nesnesine ait her bir item a (1 , 3, 5) fonksiyon uygulanmasını sa�
 
 Eğer ilk değer (seed) atanmamış ise ilk değer olarak (val1) ilk item ı (1) alıyor.
 
-Daha sonra biz her item a yapması gereken işlem olarak iki değeri toplamasını söylediğimiz için, ilk değer ve ikinci değeri toplayıp bunu bir sonraki işlem için ilk değer olarak atıyor. İkinci iterasyonda kaldığı yerden devam ederek, ilk değer olarak bir önceki işlemin sonucu ve ikinci değer olarak 2. item ı alıyor. Yine toplama işlemi yaparak bir sonraki işlem için ilk değer ataması yapıyor.
+Daha sonra biz her item'a yapması gereken işlem olarak iki değeri toplamasını söylediğimiz için, ilk değer ve ikinci değeri toplayıp bunu bir sonraki işlem için ilk değer olarak atıyor. İkinci iterasyonda kaldığı yerden devam ederek, ilk değer olarak bir önceki işlemin sonucu ve ikinci değer olarak 2. item ı alıyor. Yine toplama işlemi yaparak bir sonraki işlem için ilk değer ataması yapıyor.
 
 Tüm item lar ile işlem yapıncaya kadar devam ediyor ve sonuç subscribe.onSuccess in içine düşüyor.
 

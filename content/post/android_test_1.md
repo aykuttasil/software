@@ -5,7 +5,7 @@ date: 2018-09-18T11:51:07+03:00
 lastmod: 2019-03-01T11:51:07+03:00
 draft: false
 keywords: ["android","test","junit","roboloectric","mockito","mock","espresso"]
-description: "Android Test"
+description: "Android'e ait tüm bileşenlerin testi nasıl hazırlanır? **Unit Test** ve **Instrumentation Test** arasındaki farklar nedir ve nasıl hazırlanır?"
 tags: ["android","test","junit","roboloectric","mockito","mock","espresso"]
 categories: ["android","test"]
 author: "Aykut Asil"
@@ -18,7 +18,7 @@ hiddenFromHomePage: false
 
 > **Not:** Bu yazıyı hazırlarken ben de öğrenme sürecinde olucam. Araştırdığım ve öğrendiğim tüm teknik bilgileri ve yöntemleri, best-practice leri gelişi güzel(karmakarışık değil) bir şekilde yazıcam. Sonrasında zaman bulduğum vakit bir düzenleme yapıcam.
 
-# Unit Test ve Instrumentation Test
+## Unit Test ve Instrumentation Test
 
 ## Unit Test
 

@@ -1,9 +1,9 @@
 +++
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-autoThumbnailImage = false
-desciption = "Kotlin when kullanımı"
-metaAlignment = "center"
+date = "2017-06-06T04:42:56+03:00"
+title = "Kotlin when kullanımı"
+description = "Kotlin'de `when` operatörü işimizi oldukça kolaylaştıran operatörlerden biridir. `if- else if` yapısı yerine kullanılabileceği gibi bazı yardımcı operatörler ile birçok marifet kazanabilir."
 url = "kotlin-when"
+
 categories = [
   "yazilim","kotlin"
 ]
@@ -11,17 +11,12 @@ keywords = [
   "yazilim",
   "sofware","kotlin","android","when"
 ]
-date = "2017-06-06T04:42:56+03:00"
-title = "Kotlin when kullanımı"
 tags = [
   "software","kotlin","android","when"
 ]
-thumbnailImagePosition = "top"
-thumbnailImage = ""
-
 +++
 
-Kotlin'de `when` operatörü oldukça işimizi kolaylaştıran operatörlerden biridir.
+Kotlin'de `when` operatörü işimizi oldukça kolaylaştıran operatörlerden biridir.
 
 `if- else if` yapısı yerine kullanılabileceği gibi bazı yardımcı operatörler ile birçok marifet kazanabilir.
 

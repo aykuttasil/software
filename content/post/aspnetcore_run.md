@@ -5,7 +5,7 @@ date: 2019-04-15T22:08:14+03:00
 lastmod: 2019-04-15T22:08:14+03:00
 draft: false
 keywords: ["netcore",".net",",netcore","aspnet","aspnetcore"]
-description: ""
+description: "**ASP.NET Core** ile birlikte gelen **middleware** konsepti sayesinde **request-response** süreçleri arasına girerek kendi mantıksal devremizi yazmamız çok kolay hale gelmiştir."
 tags: ["netcore","aspnetcore","csharp","webapi","api"]
 categories: ["netcore","csharp","aspnetcore","webapi"]
 author: "Aykut Asil"

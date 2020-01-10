@@ -1,13 +1,11 @@
 +++
 title = "Android Library & Bintray"
 url = "android-create-library-upload-bintray"
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 keywords = [
   "yazilim",
   "sofware","android","java","library","bintray","gradle"
 ]
 date = "2017-01-11T17:27:29+03:00"
-metaAlignment = "center"
 tags = [
   "software","android","java","library","bintray","gradle"
 ]
@@ -15,10 +13,7 @@ categories = [
   "yazilim",
   "android",
 ]
-autoThumbnailImage = false
-thumbnailImagePosition = "top"
-thumbnailImage = ""
-desciption = ""
+description = "Android uygulaması yazarken bazı oluşturmuş olduğunuz yapıları tekrar tekrar yazmak durumunda kalıyorsanız, sizin de artık kendi kütüphanenizi yazmanızın zamanı gelmiş geçiyor demektir. Böyle bir durum söz konusu olmak zorunda değil tabi library oluşturmak için 🙂"
 
 +++
 

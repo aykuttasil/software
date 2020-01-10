@@ -1,22 +1,20 @@
 +++
+date = "2017-06-06T04:33:06+03:00"
 title = "Kotlin Let Kullanımı"
-desciption = "Kotlin let kullanımı "
+description = "`let()` temel olarak, belirli bir kapsam için bir **değişken/kod bloğu** oluşturmamızı sağlayan bir kapsamlayıcı işlevdir. Yani `let()` bir sarmalıyıcı fonksiyondur."
+url = "kotlin-let"
+
+categories = [
+  "yazilim","kotlin"
+]
 keywords = [
   "yazilim",
   "sofware","kotlin","let","android"
 ]
-thumbnailImagePosition = "top"
-url = "kotlin-let"
-autoThumbnailImage = false
-date = "2017-06-06T04:33:06+03:00"
 tags = [
   "software","kotlin","let","android"
 ]
-thumbnailImage = ""
-metaAlignment = "center"
-categories = [
-  "yazilim","kotlin"
-]
+
 +++
 
 ## Kotlin

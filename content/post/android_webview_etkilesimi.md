@@ -1,25 +1,20 @@
 +++
+date = "2017-01-11T19:59:08+03:00"
+title = "Android ile WebView Etkileşimi"
+description = "Android WebView Etkileşimi nasıl yapılır?"
+url = "android-webview-etkilesimi"
 categories = [
   "yazilim","android","java"
 ]
 keywords = [
   "software","android","java","webview","addJavascriptInterface","WebViewClient","JavascriptInterface"
 ]
-autoThumbnailImage = false
-thumbnailImagePosition = "top"
-metaAlignment = "center"
-title = "Android ile WebView Etkileşimi"
-url = "android-webview-etkilesimi"
-date = "2017-01-11T19:59:08+03:00"
 tags = [
   "sofware","android","java","webview","addJavascriptInterface","WebViewClient","JavascriptInterface"
 ]
-thumbnailImage = ""
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-
 +++
 
-Kısa Hikaye : Üstünde çalışmakta olduğum bir projede kredi kartı ile ödeme yapısı kurmam gerekti. Kısaca projenin yapısından bahsedecek olursak
+> Kısa Hikaye : Üstünde çalışmakta olduğum bir projede kredi kartı ile ödeme yapısı kurmam gerekti. Kısaca projenin yapısından bahsedecek olursak
 
 - Backend : .Net
 - Client : Android (Java)
@@ -29,7 +24,7 @@ Client tarafında rest isteğiyle tüm işlemlerimizi backend tarafında yapıyo
 
 Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine bankanın bize telefonumuza gelen şifreyi girmemiz için göndermiş olduğu web sayfası vs. giriyor. Bu durumda client ile web sayfası iletişimini de bir şekilde sağlamamız gerekiyor.
 
---- 
+---
 
 Yukarıda ki hikayeyi anlatarak kafanızda bir problemi canlandırmaya çalıştım. Benzer bir çok durum ile karşı karşıya kalabilirsiniz.
 

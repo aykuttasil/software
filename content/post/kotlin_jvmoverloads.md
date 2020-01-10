@@ -2,7 +2,7 @@
 title = "Kotlin @JvmOverloads"
 date = 2017-07-09
 url = "kotlin-jvmoverloads"
-desciption = "Kotlin JvmOverloads Annotations"
+description = "Kotlin JvmOverloads Annotations"
 metaAlignment = "center"
 categories = [
   "yazilim","kotlin","android"

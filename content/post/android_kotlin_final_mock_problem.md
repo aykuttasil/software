@@ -1,11 +1,12 @@
 ---
 title: "Android Kotlin Test - Final Type Problem"
+description: "Android Kotlin ile test yazarken karşılaşılan final type problemi ve çözümü"
 url : "android-kotlin-test-final-type-problem"
 date: 2019-01-29T15:38:29+03:00
 lastmod: 2019-01-29T15:38:29+03:00
 draft: false
 keywords: ["android","kotlin","final-type","mock","kotlin","test"]
-description: ""
+
 tags: ["android","kotlin","test"]
 categories: ["android","kotlin","final-type","mock","kotlin","test"]
 author: "Aykut Asil"
@@ -16,11 +17,11 @@ postMetaInFooter: true
 hiddenFromHomePage: false
 ---
 
-# Sorun
+## Sorun
 
 **Kotlin** dili ile geliştirilen **Android** projelerinin test yazımı sırasında sınıfların veya metodların **mock**lanması, **Java** ile geliştirilen projelere göre bazı farklılıklar göstermektedir. Bu farklılığın sebeplerinden biri **Kotlin** ile oluşturulan sınıf veya metodların default olarak **final** olarak işaretlenmiş olmasıdır. Ve **final** tipindeki sınıfların **mock**lanması bazı sorunlar çıkarmaktadır.
 
-# Çözüm
+## Çözüm
 
 **Final** tipindeki sınıfların veya metodların mocklama işlemi sırasında çıkan sorunu çözmenin birkaç farklı yöntemi vardır.
 

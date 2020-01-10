@@ -1,4 +1,9 @@
 +++
+date = "2017-01-11T18:52:51+03:00"
+title = "RxJava range() Kullanımı"
+description = "RxJava range() Kullanımı"
+url = "rxjava-range"
+
 keywords = [
   "yazilim",
   "sofware","android","java","rxjava"
@@ -11,16 +16,6 @@ categories = [
 tags = [
   "software","android","java","rxjava"
 ]
-title = "RxJava range() Kullanımı"
-url = "rxjava-range"
-autoThumbnailImage = false
-thumbnailImagePosition = "top"
-thumbnailImage = ""
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-desciption = ""
-metaAlignment = "center"
-date = "2017-01-11T18:52:51+03:00"
-
 +++
 
 ## RxJava range() Kullanımı

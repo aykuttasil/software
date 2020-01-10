@@ -5,7 +5,7 @@ date: 2020-01-03T17:19:13+03:00
 lastmod: 2020-01-03T17:19:13+03:00
 draft: false
 keywords: ["kotlin","dsl","json"]
-description: ""
+description: "Kotlin DSL kullanarak Json Objesi nasıl oluşturulur ?"
 tags: ["kotlin","dsl","json"]
 categories: ["kotlin"]
 author: "Aykut Asil"

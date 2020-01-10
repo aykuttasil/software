@@ -4,7 +4,7 @@ date: 2018-10-10T11:57:46+03:00
 lastmod: 2018-10-10T11:57:46+03:00
 draft: false
 keywords: ["amp"]
-description: ""
+description: "AMP nedir ve nasıl kullanılır?"
 tags: ["amp"]
 categories: ["amp"]
 author: "Aykut Asil"
