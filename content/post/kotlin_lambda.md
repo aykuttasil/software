@@ -10,17 +10,11 @@ keywords = [
   "sofware","kotlin","lambda","functional programming"
 ]
 url = "kotlin-lambda"
-metaAlignment = "center"
-autoThumbnailImage = false
-thumbnailImage = ""
 title = "Kotlin Lambda"
-desciption = "Kotlin Lambda"
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-thumbnailImagePosition = "top"
+description = "Kotlin Lambda Kullanımı"
 date = "2017-06-18T02:24:37+03:00"
 
 +++
-
 
 ## Kotlin Lambda Kullanımı
 
