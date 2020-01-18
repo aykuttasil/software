@@ -21,6 +21,7 @@
 Kullanımı oldukça kolay olmakla beraber ilk bir kaç adımı gerçekleştirmek bazen can sıkıcı olabilmekte.
 Bunun için ufak bir örnekle bu ilk birkaç adımı beraber atıcaz.
 https://azure.microsoft.com/tr-tr/ adresinden portal a girdiniz.Ve mobile services tab ından new diyerek yeni bir mobile services oluşturdunuz.
+
 Oluşturduğunuz Mobile Service tıkladınız ve çıkan ekranda Push tabına girdiniz.</description>
     </item>
     

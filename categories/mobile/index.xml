@@ -6,10 +6,20 @@
     <description>Recent content in mobile on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 25 Feb 2019 00:00:27 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jan 2020 18:13:00 +0300</lastBuildDate>
     
 	<atom:link href="https://yazilim.aykutasil.com/categories/mobile/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Andoroid 10 Background Location</title>
+      <link>https://yazilim.aykutasil.com/android-background-location/</link>
+      <pubDate>Fri, 17 Jan 2020 18:13:00 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-background-location/</guid>
+      <description>Android 10 ile birlikte gelen değişiklerden biri de Location dinleme ile alakalıdır. Uygulamamız arka plandayken (background) ve ön plandayken (foreground) konum dinleme şekilleri farklılık göstermektedir. Uygulamımız bize görünür vaziyette ise yani foreground&amp;lsquo;da ise her hangi bir değişiklik yapmamıza gerek yoktur. Fakat Home tuşuna basarak veya başka bir uygulama açarak uygulamamızı arka plana atıyorsak ve bu sırada konum dinlemesinin devam etmesini istiyorsak bazı düzenlemeler yapmamız gerekmektedir.
+İki şekilde background konum dinlemesi yapılabilir.</description>
+    </item>
     
     <item>
       <title>Android DataBinding</title>

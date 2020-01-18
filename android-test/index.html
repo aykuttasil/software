@@ -113,7 +113,7 @@
         <h1 class="post-full-title">Android Test</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)">
     </figure>
 
     <section class="post-full-content">
@@ -135,7 +135,7 @@
 <li><strong>app/src/test/java</strong> - for any unit test which can run on the JVM</li>
 <li><strong>app/src/androidTest/java</strong> -&gt; for any test which should run on an Android device</li>
 </ul>
-<p><!-- raw HTML omitted --></p>
+<p><img src="/img/unit_vs_instrumential.png" height="400px" /></p>
 <blockquote>
 <p>Android bağımlılıklarını mock edemiyorsak Instrumentation Test yazılır. Eğer mock edebileceğimiz bir yapıya sahip ise unit test yazılır. Bu sayede hızlı bir şekilde testler koşturulabilir.</p>
 </blockquote>
@@ -164,7 +164,7 @@ It also gives access to the life cycle via the ActivityLifecycleMonitorRegistry.
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">Activity activity <span style="color:#f92672">=</span> Robolectric<span style="color:#f92672">.</span><span style="color:#a6e22e">buildActivity</span><span style="color:#f92672">(</span>MyAwesomeActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
 </code></pre></div><p>şeklinde test edeceğimiz <strong>Activity</strong> nin oluşturulmasını sağlıyoruz.</p>
 <p>Aşağıdaki gibi activity nin lifecycle'ına uygun testler yazılabilir. Burada <strong>onResume</strong> sonrası çalışan kod bloğu için test yazımını görebiliriz.</p>
-<!-- raw HTML omitted -->
+<script src="https://gist.github.com/aykuttasil/3bd879a909ba1fe1567e0480833db476.js"></script>
 <blockquote>
 <p><strong>visible()</strong></p>
 </blockquote>
@@ -175,13 +175,13 @@ It also gives access to the life cycle via the ActivityLifecycleMonitorRegistry.
 <p>gradle.properties</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">android.enableUnitTestBinaryResources<span style="color:#f92672">=</span>true
 </code></pre></div><p>build.gradle</p>
-<!-- raw HTML omitted -->
+<script src="https://gist.github.com/aykuttasil/a2e40a8dcf6bdc7d0297d8660da56b4b.js"></script>
 <p>test.kt (test package'ı altında)</p>
-<!-- raw HTML omitted -->
+<script src="https://gist.github.com/aykuttasil/e79486683816af6b2358a5d77bae9a7a.js"></script>
 <p>Yukarıda <strong>RobolectricRunner</strong> yerine <strong>AndroidJunit4</strong> kullanılmıştır. Ve <strong>Espreesso</strong>&lsquo;nun tüm yetenekleri kullanılabilir. Normalde <strong>Espresso</strong> testi yazılması için <strong>androidTest</strong> package'ı altında tanımlama yapmak ve gerçek bir cihazda ya da emülatör de çalıştırmamız gerekecekti.</p>
 <hr>
 <h1 id="mockito">Mockito</h1>
-<!-- raw HTML omitted -->
+<script src="https://gist.github.com/aykuttasil/73b847750cedb0d63f818706d7165655.js"></script>
 <ul>
 <li>Yukarıda ki bağımlılıklar eklenir.</li>
 <li><strong>@RunWith(MockitoJUnitRunner.class)</strong> ile sınıf etiketlenir. Bu sayade mock objelerinin(@Mock) otomatik olarak inject edilmesi sağlanır.</li>
@@ -208,7 +208,7 @@ It also gives access to the life cycle via the ActivityLifecycleMonitorRegistry.
 </ul>
 <hr>
 <h2 id="test-piramit">Test Piramit</h2>
-<p><!-- raw HTML omitted --></p>
+<p><img src="/img/test_piramid.jpeg" height="400px" /></p>
 <blockquote>
 <p>Unit Tests</p>
 </blockquote>
@@ -235,25 +235,25 @@ It also gives access to the life cycle via the ActivityLifecycleMonitorRegistry.
 <li><a href="https://github.com/square/okhttp/blob/master/mockwebserver/README.md">https://github.com/square/okhttp/blob/master/mockwebserver/README.md</a></li>
 </ul>
 <p>Mockito gibi bir kullanım şekli vardır.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<script src="https://gist.github.com/aykuttasil/8c4367fa073b6e92b24c34e11fe7e814.js"></script>
+<script src="https://gist.github.com/aykuttasil/7c85a90aed4c0cefe92cc66889f40401.js"></script>
 <p>SocketTimeoutException testi çalıştırılırken aşağıdaki düzenlemeler de yapılmalıdır:</p>
 <ul>
 <li><code>mockResponse.throttleBody(1024, 1, TimeUnit.SECONDS)</code> Her saniye için sadece 1024 bayt göndermesini söylüyoruz.</li>
 <li>Client için okuma/yazma zaman sürelerini düzenliyoruz.</li>
 </ul>
-<!-- raw HTML omitted -->
+<script src="https://gist.github.com/aykuttasil/dcf702649fdd1f1b97a52fc03d50eae3.js"></script>
 <blockquote>
 <p>getJson(path = &ldquo;json/blog/blogs.json&rdquo;) ?</p>
 </blockquote>
 <p><img src="/img/mockwebserber.png" alt="Mock Web Server" title="Mock Web Server"></p>
 <h2 id="dispatcher">Dispatcher</h2>
 <p>Her bir response'u ayrı ayrı mocklamak yerine aşağıdaki gibi bir yapıda kullanılabilir.</p>
-<!-- raw HTML omitted -->
+<script src="https://gist.github.com/aykuttasil/fc8e49413b7d5cc4e8857102796cea0e.js"></script>
 <hr>
 <h1 id="gradle-yaplandrmalar">Gradle Yapılandırmaları</h1>
 <p>Unit testlerin yazımı sırasında mocklanmaya gerek olmayan nesnelerin default değerini dönmesini belirtmek için aşağıdaki şekilde düzenleme yapılmalıdır.</p>
-<!-- raw HTML omitted -->
+<script src="https://gist.github.com/aykuttasil/108d9400fb421101d852c287da2afe01.js"></script>
 <hr>
 <blockquote>
 <p>Kaynaklar</p>
@@ -337,13 +337,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/android-custom-toolbar/">Android Custom Toolbar Title</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-create-library-upload-bintray/">Android Library &amp; Bintray</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/ssh-surekli-parola-isteme-problemi/">SSH Sürekli Parola İstemesi Sorunu</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-glide-ve-palette-kullanimi/">Android Glide ve Palette Kullanımı</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/yeoman-kullanimi/">Yeoman Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/activeandroid/">Android ActiveAndroid Kullanımı</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/tls-ssl/">TLS vs SSL</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/post/"></a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -357,7 +357,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/post/amp/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
     </a>    
     
 
@@ -387,7 +387,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/dns-over-tls/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
     </a>    
     
 

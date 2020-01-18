@@ -6,10 +6,20 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jan 2020 17:19:13 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jan 2020 18:13:00 +0300</lastBuildDate>
     
 	<atom:link href="https://yazilim.aykutasil.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Andoroid 10 Background Location</title>
+      <link>https://yazilim.aykutasil.com/android-background-location/</link>
+      <pubDate>Fri, 17 Jan 2020 18:13:00 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-background-location/</guid>
+      <description>Android 10 ile birlikte gelen değişiklerden biri de Location dinleme ile alakalıdır. Uygulamamız arka plandayken (background) ve ön plandayken (foreground) konum dinleme şekilleri farklılık göstermektedir. Uygulamımız bize görünür vaziyette ise yani foreground&amp;lsquo;da ise her hangi bir değişiklik yapmamıza gerek yoktur. Fakat Home tuşuna basarak veya başka bir uygulama açarak uygulamamızı arka plana atıyorsak ve bu sırada konum dinlemesinin devam etmesini istiyorsak bazı düzenlemeler yapmamız gerekmektedir.
+İki şekilde background konum dinlemesi yapılabilir.</description>
+    </item>
     
     <item>
       <title>Kotlin DSL ile Json</title>
@@ -30,7 +40,7 @@ class Json() : JSONObject() { constructor(json: Json.() -&amp;gt; Unit) : this()
       
       <guid>https://yazilim.aykutasil.com/aspnetcore-session/</guid>
       <description>Asp.Net Core Session Kullanımı Asp.Net Core 2.1 ve üstü sürüme sahip projelerinizde Session kullanmak için Startup.cs dosyanızı aşağıdaki yöntemlerden birini seçerek güncellemeniz gerekmektedir.
-Yöntem 1 Yöntem 2 Neden Asp.Net Core 2.1 ve sonrası? 2018&#39;de uygulanması zorunlu hale gelen Avrupa Veri Koruma Kanunu ile birlikte, şirketlere kişisel verileri kullanması konusunda bazı kısıtlamalar ve uygulaması gereken bazı zorunluluklar getirilmiştir. Bu zorunluluklardan şu an için bizi ilgilendiren kısmı cookielerin kullanımı. Web siteleri cookie kullanımı için son kullanıcının onayını almak zorundadır.</description>
+Yöntem 1   Yöntem 2   Neden Asp.Net Core 2.1 ve sonrası? 2018&#39;de uygulanması zorunlu hale gelen Avrupa Veri Koruma Kanunu ile birlikte, şirketlere kişisel verileri kullanması konusunda bazı kısıtlamalar ve uygulaması gereken bazı zorunluluklar getirilmiştir. Bu zorunluluklardan şu an için bizi ilgilendiren kısmı cookielerin kullanımı.</description>
     </item>
     
     <item>
@@ -81,9 +91,9 @@ Filter Tipleri Authorization Filters İlk çalışan filter&amp;lsquo;dır. İlg
       
       <guid>https://yazilim.aykutasil.com/aspnetcore-run-middleware/</guid>
       <description>ASP.NET Core Run Method ASP.NET Core ile birlikte gelen middleware konsepti sayesinde request-response süreçleri arasına girerek kendi mantıksal devremizi yazmamız çok kolay hale gelmiştir.
-Yukarıda ki gibi Startup.cs sınıfı içerisindeki Configure fonksiyonuna app.Run() diyerek middleware&amp;lsquo;ımızı ekleyebiliriz.
+ Yukarıda ki gibi Startup.cs sınıfı içerisindeki Configure fonksiyonuna app.Run() diyerek middleware&amp;lsquo;ımızı ekleyebiliriz.
 Peki tam olarak app.Run() metodu nasıl çalışıyor? app.Run() middlaware&#39;ı ile istenilen bir kod bloğunu çalıştırabilir ve uygulamamıza kısa devre yaptırabiliriz. Yani pipeline akışı eğer Run() içerisine girerse, sonraki kod blokları çalışmayacaktır.
-Yukarıda ki kodun çıktısı sadece Response 1 olacak ve sonraki kod bloğu çalışmayacaktır.</description>
+ Yukarıda ki kodun çıktısı sadece Response 1 olacak ve sonraki kod bloğu çalışmayacaktır.</description>
     </item>
     
     <item>
@@ -597,7 +607,8 @@ Sizde projenizde resimlerle ilgili herhangi bir işlem yapıyorsanız bu kütüp
       
       <guid>https://yazilim.aykutasil.com/android-viewpager/</guid>
       <description>Android ViewPager yapısı içerisinde birçok hazır fonksiyonu, animasyonu ve özelleştirilebilir kontrolleri barındırır.
-İhtiyaçlarımız doğrultusunda bu yapıyı özelleştirebilir ve ViewPager ın bize sunmuş olduğu rahatlığı kullanabiliriz.</description>
+İhtiyaçlarımız doğrultusunda bu yapıyı özelleştirebilir ve ViewPager ın bize sunmuş olduğu rahatlığı kullanabiliriz.
+ </description>
     </item>
     
     <item>
@@ -714,6 +725,7 @@ CheckConnection</description>
 Bu linkten Chrome a ekleyebilirsiniz.
 Postman kullanarak API lerinizi test edebilirsiniz..
 Tek bir butona tıklayarak istediğiniz kadar Request i çalıştırabilir ve bu Requst lerden gelen değerleri başka bir Requestinize parametre olarak gönderebilrsiniz.
+
 Yukarıdaki ekran Postman i yüklediğinizde açılan ilk ekrandır.
 Enter request URL here yazan kutucuğa End Point yani istek yapacağımız adres yazılır.
 Şuan GET olarak gözüken yerden yapılacak olan istediğin cinsi seçilir.</description>
@@ -766,6 +778,7 @@ Yıl olmuş 2014 hala birim test makalesi mi yazıyorsun diye düşünüyor olab
 Kullanımı oldukça kolay olmakla beraber ilk bir kaç adımı gerçekleştirmek bazen can sıkıcı olabilmekte.
 Bunun için ufak bir örnekle bu ilk birkaç adımı beraber atıcaz.
 https://azure.microsoft.com/tr-tr/ adresinden portal a girdiniz.Ve mobile services tab ından new diyerek yeni bir mobile services oluşturdunuz.
+
 Oluşturduğunuz Mobile Service tıkladınız ve çıkan ekranda Push tabına girdiniz.</description>
     </item>
     
@@ -802,6 +815,7 @@ your_user_name yerine kendi kullanıcı adınızı yazmayı unutmayın.</descrip
       <guid>https://yazilim.aykutasil.com/windows-local-iis-kurulumu/</guid>
       <description>Uygulamanızı geliştirme sırasında Local IIS e sitenizi tanımlamanız gerekebilir. Sanki uzak sunucuda sitenizi custom domain ile host eder gibi (yani site kodlarınızı uzaktaki hostunuzda çalıştırır gibi) çalıştırabilirsiniz. İstediğiniz domain adresini belirtebilir, işlemlerinizi bu domaini kullanarak gerçekleştirebilirsiniz. Eğer bu yazıyı okuyor iseniz muhtemelen bunu yapmaya gerek duymuşsunuzdur.
 İlk olarak windows yüklü bilgisayarımızın başlat menüsüne tıklayarak “Windows özellikleriniz Aç veya Kapat” yazıp arama yapıyoruz.
+
 Yukarıda ki resimde görmüş olduğunuz gibi gerekli kutucukları işaretleyip kurulumu sağıyoruz.</description>
     </item>
     

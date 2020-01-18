@@ -6,10 +6,46 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Jan 2020 17:19:13 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jan 2020 18:13:00 +0300</lastBuildDate>
     
 	<atom:link href="https://yazilim.aykutasil.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>android</title>
+      <link>https://yazilim.aykutasil.com/tags/android/</link>
+      <pubDate>Fri, 17 Jan 2020 18:13:00 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>location</title>
+      <link>https://yazilim.aykutasil.com/tags/location/</link>
+      <pubDate>Fri, 17 Jan 2020 18:13:00 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/location/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mobile</title>
+      <link>https://yazilim.aykutasil.com/tags/mobile/</link>
+      <pubDate>Fri, 17 Jan 2020 18:13:00 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://yazilim.aykutasil.com/tags/software/</link>
+      <pubDate>Fri, 17 Jan 2020 18:13:00 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/software/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>dsl</title>
@@ -62,15 +98,6 @@
       <pubDate>Tue, 12 Nov 2019 10:17:17 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/tags/webapi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>android</title>
-      <link>https://yazilim.aykutasil.com/tags/android/</link>
-      <pubDate>Sat, 03 Aug 2019 03:14:28 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/tags/android/</guid>
       <description></description>
     </item>
     
@@ -224,15 +251,6 @@
       <pubDate>Mon, 25 Feb 2019 00:00:27 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/tags/databinding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mobile</title>
-      <link>https://yazilim.aykutasil.com/tags/mobile/</link>
-      <pubDate>Mon, 25 Feb 2019 00:00:27 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/tags/mobile/</guid>
       <description></description>
     </item>
     
@@ -557,15 +575,6 @@
       <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://yazilim.aykutasil.com/tags/livedata/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software</title>
-      <link>https://yazilim.aykutasil.com/tags/software/</link>
-      <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/tags/software/</guid>
       <description></description>
     </item>
     

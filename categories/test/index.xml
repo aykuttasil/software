@@ -43,6 +43,7 @@
 Bu linkten Chrome a ekleyebilirsiniz.
 Postman kullanarak API lerinizi test edebilirsiniz..
 Tek bir butona tıklayarak istediğiniz kadar Request i çalıştırabilir ve bu Requst lerden gelen değerleri başka bir Requestinize parametre olarak gönderebilrsiniz.
+
 Yukarıdaki ekran Postman i yüklediğinizde açılan ilk ekrandır.
 Enter request URL here yazan kutucuğa End Point yani istek yapacağımız adres yazılır.
 Şuan GET olarak gözüken yerden yapılacak olan istediğin cinsi seçilir.</description>

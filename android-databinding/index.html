@@ -113,7 +113,7 @@
         <h1 class="post-full-title">Android DataBinding</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)">
     </figure>
 
     <section class="post-full-content">
@@ -141,20 +141,20 @@ Uygulamamızın arayüzünü oluşturmak için kullandığımız <strong>layout<
 <hr>
 <p>Şimdi ne gibi düzenlemeler yapmamız gerekiyor kod üzerinden görelim.</p>
 <p><strong>app/build.gradle</strong> dosyamızı aşağıdaki gibi düzenleyelim.</p>
-<!-- raw HTML omitted -->
+<script src="https://gist.github.com/aykuttasil/4c92b3b4f770d1a64ae3e5de0eaba102.js"></script>
 <p>Activity kodlarımız aşağıdaki gibi olacak şekilde düzenlemeleri yapalım.</p>
-<!-- raw HTML omitted -->
+<script src="https://gist.github.com/aykuttasil/5a1c82abaa5e8638880c8a552e5fd1c4.js"></script>
 <blockquote>
 <p><code>binding.lifecycleOwner = this</code> satırını eklediğimizden emin olalım. Bu kodu <strong>LiveData</strong> kullanarak <strong>DataBinding</strong> yapmak istiyorsak eklemek zorundayız.</p>
 </blockquote>
 <p>Yukarıda ki kodda bulunan <strong>bind&lt;&gt;()</strong> fonksiyonu kotlin extension fonksiyonudur.</p>
-<!-- raw HTML omitted -->
+<script src="https://gist.github.com/aykuttasil/6117974f91a0312b248d976e6479aa76.js"></script>
 <p><strong>LoginViewModel.kt</strong> dosyamızı aşağıdaki gibi düzenleyelim.</p>
-<!-- raw HTML omitted -->
+<script src="https://gist.github.com/aykuttasil/063671e6353b61954daeeef52c12eed5.js"></script>
 <p>Kalıtım aldığımız <strong>RxAwareViewModel.kt</strong> sınıfının kodları aşağıdaki gibidir. Bu sınıfı <strong>Rx</strong> fonksiyonları çağırırken her defasında <strong>CompositeDisposable</strong> nesnesi oluşturmamak için kullanıyoruz.</p>
-<!-- raw HTML omitted -->
+<script src="https://gist.github.com/aykuttasil/ff97723de6f9182f00369f1eb64adb8b.js"></script>
 <p><strong>Login</strong> ekranımızın <strong>layout</strong>&lsquo;unu aşağıdaki gibi düzenleyelim.</p>
-<!-- raw HTML omitted -->
+<script src="https://gist.github.com/aykuttasil/064ab78950d9a62bedd2228a70b67903.js"></script>
 <p><strong>Layout</strong> kodumuzu incelicek olursak</p>
 <ul>
 <li><code>android:text=&quot;@={viewmodel.liveEmail}&quot;</code> satırını çift yönlü binding yapmak için kullanıyoruz. Çift yönlü <strong>binding</strong> için <strong>=&rdquo;@={}&quot;</strong> yapısını kullanıyoruz.
@@ -244,13 +244,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/android-internet-connection-receiver/">Android Internet Connection Receiver</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/activeandroid/">Android ActiveAndroid Kullanımı</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/rxjava-reduce/">RxJava reduce() Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/aspnetcore-session/">Asp.Net Core Session</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-glide-ve-palette-kullanimi/">Android Glide ve Palette Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/dns-over-tls/">DNS over TLS Nedir?</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/postman-api-test/">Postman ile API Test Yazımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/kotlin-sealed-class/">Kotlin Sealed Class</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -264,7 +264,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/aspnetcore-run-middleware/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
     </a>    
     
 
@@ -298,7 +298,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-service/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
     </a>    
     
 

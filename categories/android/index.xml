@@ -6,10 +6,20 @@
     <description>Recent content in android on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 03 Aug 2019 03:14:28 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jan 2020 18:13:00 +0300</lastBuildDate>
     
 	<atom:link href="https://yazilim.aykutasil.com/categories/android/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Andoroid 10 Background Location</title>
+      <link>https://yazilim.aykutasil.com/android-background-location/</link>
+      <pubDate>Fri, 17 Jan 2020 18:13:00 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-background-location/</guid>
+      <description>Android 10 ile birlikte gelen değişiklerden biri de Location dinleme ile alakalıdır. Uygulamamız arka plandayken (background) ve ön plandayken (foreground) konum dinleme şekilleri farklılık göstermektedir. Uygulamımız bize görünür vaziyette ise yani foreground&amp;lsquo;da ise her hangi bir değişiklik yapmamıza gerek yoktur. Fakat Home tuşuna basarak veya başka bir uygulama açarak uygulamamızı arka plana atıyorsak ve bu sırada konum dinlemesinin devam etmesini istiyorsak bazı düzenlemeler yapmamız gerekmektedir.
+İki şekilde background konum dinlemesi yapılabilir.</description>
+    </item>
     
     <item>
       <title>Android Debugging With Local Web Server</title>
@@ -246,7 +256,8 @@ Sizde projenizde resimlerle ilgili herhangi bir işlem yapıyorsanız bu kütüp
       
       <guid>https://yazilim.aykutasil.com/android-viewpager/</guid>
       <description>Android ViewPager yapısı içerisinde birçok hazır fonksiyonu, animasyonu ve özelleştirilebilir kontrolleri barındırır.
-İhtiyaçlarımız doğrultusunda bu yapıyı özelleştirebilir ve ViewPager ın bize sunmuş olduğu rahatlığı kullanabiliriz.</description>
+İhtiyaçlarımız doğrultusunda bu yapıyı özelleştirebilir ve ViewPager ın bize sunmuş olduğu rahatlığı kullanabiliriz.
+ </description>
     </item>
     
     <item>

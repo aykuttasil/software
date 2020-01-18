@@ -6,10 +6,20 @@
     <description>Recent content in software on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 27 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jan 2020 18:13:00 +0300</lastBuildDate>
     
 	<atom:link href="https://yazilim.aykutasil.com/tags/software/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Andoroid 10 Background Location</title>
+      <link>https://yazilim.aykutasil.com/android-background-location/</link>
+      <pubDate>Fri, 17 Jan 2020 18:13:00 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-background-location/</guid>
+      <description>Android 10 ile birlikte gelen değişiklerden biri de Location dinleme ile alakalıdır. Uygulamamız arka plandayken (background) ve ön plandayken (foreground) konum dinleme şekilleri farklılık göstermektedir. Uygulamımız bize görünür vaziyette ise yani foreground&amp;lsquo;da ise her hangi bir değişiklik yapmamıza gerek yoktur. Fakat Home tuşuna basarak veya başka bir uygulama açarak uygulamamızı arka plana atıyorsak ve bu sırada konum dinlemesinin devam etmesini istiyorsak bazı düzenlemeler yapmamız gerekmektedir.
+İki şekilde background konum dinlemesi yapılabilir.</description>
+    </item>
     
     <item>
       <title>Android Architecture Components</title>
@@ -312,7 +322,8 @@ Sizde projenizde resimlerle ilgili herhangi bir işlem yapıyorsanız bu kütüp
       
       <guid>https://yazilim.aykutasil.com/android-viewpager/</guid>
       <description>Android ViewPager yapısı içerisinde birçok hazır fonksiyonu, animasyonu ve özelleştirilebilir kontrolleri barındırır.
-İhtiyaçlarımız doğrultusunda bu yapıyı özelleştirebilir ve ViewPager ın bize sunmuş olduğu rahatlığı kullanabiliriz.</description>
+İhtiyaçlarımız doğrultusunda bu yapıyı özelleştirebilir ve ViewPager ın bize sunmuş olduğu rahatlığı kullanabiliriz.
+ </description>
     </item>
     
     <item>
@@ -429,6 +440,7 @@ CheckConnection</description>
 Bu linkten Chrome a ekleyebilirsiniz.
 Postman kullanarak API lerinizi test edebilirsiniz..
 Tek bir butona tıklayarak istediğiniz kadar Request i çalıştırabilir ve bu Requst lerden gelen değerleri başka bir Requestinize parametre olarak gönderebilrsiniz.
+
 Yukarıdaki ekran Postman i yüklediğinizde açılan ilk ekrandır.
 Enter request URL here yazan kutucuğa End Point yani istek yapacağımız adres yazılır.
 Şuan GET olarak gözüken yerden yapılacak olan istediğin cinsi seçilir.</description>
@@ -481,6 +493,7 @@ Yıl olmuş 2014 hala birim test makalesi mi yazıyorsun diye düşünüyor olab
 Kullanımı oldukça kolay olmakla beraber ilk bir kaç adımı gerçekleştirmek bazen can sıkıcı olabilmekte.
 Bunun için ufak bir örnekle bu ilk birkaç adımı beraber atıcaz.
 https://azure.microsoft.com/tr-tr/ adresinden portal a girdiniz.Ve mobile services tab ından new diyerek yeni bir mobile services oluşturdunuz.
+
 Oluşturduğunuz Mobile Service tıkladınız ve çıkan ekranda Push tabına girdiniz.</description>
     </item>
     
@@ -517,6 +530,7 @@ your_user_name yerine kendi kullanıcı adınızı yazmayı unutmayın.</descrip
       <guid>https://yazilim.aykutasil.com/windows-local-iis-kurulumu/</guid>
       <description>Uygulamanızı geliştirme sırasında Local IIS e sitenizi tanımlamanız gerekebilir. Sanki uzak sunucuda sitenizi custom domain ile host eder gibi (yani site kodlarınızı uzaktaki hostunuzda çalıştırır gibi) çalıştırabilirsiniz. İstediğiniz domain adresini belirtebilir, işlemlerinizi bu domaini kullanarak gerçekleştirebilirsiniz. Eğer bu yazıyı okuyor iseniz muhtemelen bunu yapmaya gerek duymuşsunuzdur.
 İlk olarak windows yüklü bilgisayarımızın başlat menüsüne tıklayarak “Windows özellikleriniz Aç veya Kapat” yazıp arama yapıyoruz.
+
 Yukarıda ki resimde görmüş olduğunuz gibi gerekli kutucukları işaretleyip kurulumu sağıyoruz.</description>
     </item>
     
