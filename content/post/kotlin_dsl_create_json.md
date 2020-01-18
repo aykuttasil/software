@@ -10,10 +10,6 @@ tags: ["kotlin","dsl","json"]
 categories: ["kotlin"]
 author: "Aykut Asil"
 comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: true
-hiddenFromHomePage: false
 ---
 
 ## Kotlin DSL kullanarak Json Objesi nasıl oluşturulur ?

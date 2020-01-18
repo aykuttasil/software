@@ -67,4 +67,7 @@ canonifyurls    = false
   url = "/categories/"
   weight = 99
 
-
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
