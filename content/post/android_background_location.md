@@ -4,7 +4,7 @@ date: 2020-01-17T18:13:00+03:00
 lastmod: 2020-01-17T18:13:00+03:00
 next: /tutorials/github-pages-blog
 prev: /tutorials/automated-deployments
-title: "Andoroid 10 Background Location"
+title: "Android Background Location"
 url: "android-background-location"
 weight: 10
 keywords: ["aykuttasil","software"]
