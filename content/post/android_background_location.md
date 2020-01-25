@@ -91,7 +91,12 @@ Uygulama arka planda iken **location** isteğinde bulunur ise **bildirim ekranı
 
 <img src="/img/location-access-reminder.svg" width="300" />
 
+---
+
+> [Codelab](https://codelabs.developers.google.com/codelabs/while-in-use-location/index.html?index=..%2F..index#0) olarak hazırlanmış bu sayfayı ziyaret edebilirsiniz.
+
 ## Kaynaklar
 
 - <https://developer.android.com/about/versions/10/privacy/changes>
 - <https://developer.android.com/training/location/receive-location-updates>
+- <https://codelabs.developers.google.com/codelabs/while-in-use-location/index.html?index=..%2F..index#0>
