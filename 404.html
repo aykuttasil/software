@@ -82,25 +82,22 @@
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/yeoman-kullanimi/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
+    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/server-ip/">
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/yeoman-kullanimi/">
+      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/server-ip/">
           <header class="post-card-header">
               <span class="post-card-tags">
-              #software 
-              #yeoman  </span>
+              #ip  </span>
               
-              <h2 class="post-card-title">Yeoman Kullanımı</h2>
+              <h2 class="post-card-title">Server Ip</h2>
           </header>
           <section class="post-card-excerpt">
-              
-                <p>Yeoman Kullanımı Yeoman ile kendi proje yapımızı kurgulayabilir ve opsiyonlar belirleyerek ona göre dosya içeriğimizi vs. düzenleyebiliriz. Ya da oluşturduğumuz projeye önceden belirlediğimiz bir dosyayı ekleyebilir ve gerekli ayarlamaları otomatik olarak yapmasını sağlayabiliriz. (yeni bir Controller eklemek gibi vs.)
-Ve hazırladığımız bu proje yapısını paket yönetim sistemlerine yollayarak diğer kişilerin kullanımına açabilir veyahut kendimizin de istediğimiz yerden erişebilmesini sağlayabiliriz.
-Öncelikle bilgisayarınız da nodejs yüklü olduğunu varsayıyoruz. Eğer yüklü değilse buradan gerekli işlemleri yaparak kurabiliriz. ...  </p>
+               
+                <p>Find Server IP</p>
               
           </section>
       </a>
@@ -115,25 +112,25 @@ Ve hazırladığımız bu proje yapısını paket yönetim sistemlerine yollayar
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-service/">
+    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/rxjava-scan/">
       <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/android-service/">
+      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/rxjava-scan/">
           <header class="post-card-header">
               <span class="post-card-tags">
+              #software 
               #android 
-              #service  </span>
+              #java 
+              #rxjava  </span>
               
-              <h2 class="post-card-title">Android Service</h2>
+              <h2 class="post-card-title">RxJava scan() Kullanımı</h2>
           </header>
           <section class="post-card-excerpt">
                
-                <p><p>Android Service Nedir? Nasıl Kullanılır?</p>
-<p>Android'in temel bileşenlerinden biri olan Service'ler kısaca UI(arayüz) olmayan Activity'lere benzetebiliriz.</p>
-</p>
+                <p>RxJava scan() Kullanımı</p>
               
           </section>
       </a>
@@ -148,26 +145,30 @@ Ve hazırladığımız bu proje yapısını paket yönetim sistemlerine yollayar
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/kotlin-jvmoverloads/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
+    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-internet-connection-receiver/">
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/kotlin-jvmoverloads/">
+      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/android-internet-connection-receiver/">
           <header class="post-card-header">
               <span class="post-card-tags">
               #software 
-              #kotlin 
-              #jvmoverloads 
+              #java 
               #android 
-              #annotations  </span>
+              #broadcast receiver 
+              #internet control  </span>
               
-              <h2 class="post-card-title">Kotlin @JvmOverloads</h2>
+              <h2 class="post-card-title">Android Internet Connection Receiver</h2>
           </header>
           <section class="post-card-excerpt">
-               
-                <p>Kotlin JvmOverloads Annotations</p>
+              
+                <p>Uygulamanızın akışını internet kontrolü yaparak yönetmeniz gerekebilir.
+Bunun için ilk olarak AndroidManifest.xml dosyasına receiver tanımı yapmalısınız.
+&lt;receiver android:name=&#34;.InternetConnectionReceiver&#34;&gt; &lt;intent-filter&gt; &lt;action android:name=&#34;android.net.conn.CONNECTIVITY_CHANGE&#34; /&gt; &lt;/intent-filter&gt; &lt;/receiver&gt; InternetConnectionReceiver
+public class InternetConnectionReceiver extends BroadcastReceiver { @Override public void onReceive(Context context, Intent intent) { if (CheckConnection(context)) { } } } Yukarıda tanımlanmış olan receiver, cihazın ağ yapısında herhangi bir değişiklik olduğunda bunu yakalar. Örneğin wireless açıkken kapattığınız da veya kapalıyken açtığınız da bunu yakayabilirsiniz.
+CheckConnection ...  </p>
               
           </section>
       </a>
