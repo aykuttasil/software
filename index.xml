@@ -6,10 +6,21 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Apr 2020 11:12:12 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2020 15:13:51 +0300</lastBuildDate>
     
 	<atom:link href="https://yazilim.aykutasil.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Javascript Hoisting</title>
+      <link>https://yazilim.aykutasil.com/javascript_hoisting/</link>
+      <pubDate>Fri, 03 Apr 2020 15:13:51 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/javascript_hoisting/</guid>
+      <description>Javascript dilinin nasıl yorumlandığı ile alakalı bir durum olan Hoisting kavramını bilmekte fayda var diye düşünüyorum. Örneğin aşağıdaki gibi bir kod yazdığımızda;
+console.log(username); var username = &amp;#34;aykuttasil&amp;#34;; alacağımız çıktı undefined şeklinde olur. Normal şartlarda beklediğimiz sonuç hata fırlatmasıdır. Çünkü username değişkeni tanımlanmadan önce yazdırılmaya çalışılmıştır. Ama beklediğimiz şekilde olmaz ve ekrana undefined yazılır.
+Peki Neden? Yukarıdaki gibi bir kod bloğu çalıştırılmadan önce javacsript tarafından hoisting işlemi uygulanır ve tüm var değişkenleri kod bloğunun(scope) en üstüne taşınır ve default olarak undefined atanır.</description>
+    </item>
     
     <item>
       <title>Docker Series - 1</title>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hoisting on </title>
+    <link>https://yazilim.aykutasil.com/tags/hoisting/</link>
+    <description>Recent content in hoisting on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 03 Apr 2020 15:13:51 +0300</lastBuildDate>
+    
+	<atom:link href="https://yazilim.aykutasil.com/tags/hoisting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Javascript Hoisting</title>
+      <link>https://yazilim.aykutasil.com/javascript_hoisting/</link>
+      <pubDate>Fri, 03 Apr 2020 15:13:51 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/javascript_hoisting/</guid>
+      <description>Javascript dilinin nasıl yorumlandığı ile alakalı bir durum olan Hoisting kavramını bilmekte fayda var diye düşünüyorum. Örneğin aşağıdaki gibi bir kod yazdığımızda;
+console.log(username); var username = &amp;#34;aykuttasil&amp;#34;; alacağımız çıktı undefined şeklinde olur. Normal şartlarda beklediğimiz sonuç hata fırlatmasıdır. Çünkü username değişkeni tanımlanmadan önce yazdırılmaya çalışılmıştır. Ama beklediğimiz şekilde olmaz ve ekrana undefined yazılır.
+Peki Neden? Yukarıdaki gibi bir kod bloğu çalıştırılmadan önce javacsript tarafından hoisting işlemi uygulanır ve tüm var değişkenleri kod bloğunun(scope) en üstüne taşınır ve default olarak undefined atanır.</description>
+    </item>
+    
+  </channel>
+</rss>
