@@ -23,36 +23,33 @@ coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 
 Docker aldı başını gidiyor. Yeni bir devrim açıyor.
 
-E haliyle yazılım dünyası buna sessiz kalmamakla beraber bir çok Docker nedir? örnekleri vs. hazırlanıyor.
+E haliyle yazılım dünyası buna sessiz kalmamakla beraber bir çok **Docker** nedir? örnekleri vs. hazırlanıyor.
 
-Bu nedenle biz Docker nedir?  tanımlamasından daha çok hızlı ilerlemeler şeklinde ufak uygulamalar geliştiricez. Bende bu yazı serisiyle paralel şekilde öğrenimimi sağlayacağımı belirtmek isterim ! 🙂
-
- 
+Bu nedenle biz Docker nedir?  tanımlamasından daha çok hızlı ilerlemeler şeklinde ufak uygulamalar geliştiricez. Ben de bu yazı serisiyle paralel şekilde öğrenimimi sağlayacağımı belirtmek isterim ! 🙂
 
 Başlıyoruz..
 
 İlk olarak makinemize Docker ı kuralım.
 
-- Mac: https://docs.docker.com/docker-for-mac/
-
-- Windows : https://docs.docker.com/docker-for-windows/
+- Mac: <https://docs.docker.com/docker-for-mac/>
+- Windows : <https://docs.docker.com/docker-for-windows/>
 
 İndirip kurulumu sağladıktan sonra terminali açarak
-
 
 `> docker run hello-world`
 
 komutunu çalıştırıyoruz ve Docker a merhaba diyoruz.
 
-```
+```text
 Cannot connect to the Docker daemon. Is the docker daemon running on this host?
 ```
+
 Yukarıda ki mesajı alanlar için;
 
 ```bash
-$ docker-machine start # start virtual machine for docker
-$ docker-machine env  # it's helps to get environment variables
-$ eval "$(docker-machine env default)" #set environment variables
+docker-machine start # start virtual machine for docker
+docker-machine env  # it's helps to get environment variables
+eval "$(docker-machine env default)" #set environment variables
 ```
 
 Komutlarını çalıştırarak Docker ın sistemimize tanıtıyoruz ve sonrasında tekrar **docker run Hello-World** komutunu çalıştırıyoruz.
@@ -61,4 +58,6 @@ Komutlarını çalıştırarak Docker ın sistemimize tanıtıyoruz ve sonrasın
 
 Hadi bakalım hayırlı olsun.. 😉
 
-Ek Kaynak için : http://www.enterprisecoding.com/post/yeni-baslayanlar-icin-docker
+### Kaynaklar
+
+- <http://www.enterprisecoding.com/post/yeni-baslayanlar-icin-docker>
