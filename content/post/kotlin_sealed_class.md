@@ -1,21 +1,15 @@
 +++
+autoThumbnailImage = false
+categories = ["yazilim", "kotlin", "android"]
+date = "2017-07-01T00:00:00+03:00"
+description = "**Enum** yapısına benzer bir yapıya sahiptir ve benzer görevler için kullanılır. Aradaki fark enum lar sabit değer ifade etmek için kullanılırken **sealed** yapısı normal sınıf gibi fakat enum mantığıyla kullanılır."
+keywords = ["yazilim", "sofware", "kotlin", "sealed-class", "android"]
+metaAlignment = "center"
+tags = ["software", "kotlin", "android", "sealed", "enum"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "Kotlin Sealed Class"
 url = "kotlin-sealed-class"
-description = "**Enum** yapısına benzer bir yapıya sahiptir ve benzer görevler için kullanılır. Aradaki fark enum lar sabit değer ifade etmek için kullanılırken **sealed** yapısı normal sınıf gibi fakat enum mantığıyla kullanılır."
-metaAlignment = "center"
-categories = [
-  "yazilim","kotlin","android"
-]
-tags = [
-  "software","kotlin","android","sealed","enum"
-]
-keywords = [
-  "yazilim","sofware","kotlin","sealed-class","android"
-]
-autoThumbnailImage = false
-thumbnailImagePosition = "top"
-thumbnailImage = ""
-date = 2017-07-01
 
 +++
 

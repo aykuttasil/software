@@ -1,24 +1,16 @@
 +++
 autoThumbnailImage = false
-desciption = ""
-tags = [
-  "software","Executors","newCachedThreadPool","newFixedThreadPool","newSingleThreadExecutor","thread","multithread"
-]
-keywords = [
-  "yazilim",
-  "sofware","Executors","newCachedThreadPool","newFixedThreadPool","newSingleThreadExecutor","thread","multithread"
-]
-date = "2017-01-11T18:55:08+03:00"
-metaAlignment = "center"
-categories = [
-  "yazilim",
-  "java"
-]
-thumbnailImage = ""
+categories = ["yazilim", "java"]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
+date = "2017-01-11T18:55:08+03:00"
+desciption = ""
+keywords = ["yazilim", "sofware", "Executors", "newCachedThreadPool", "newFixedThreadPool", "newSingleThreadExecutor", "thread", "multithread"]
+metaAlignment = "center"
+tags = ["software", "Executors", "newCachedThreadPool", "newFixedThreadPool", "newSingleThreadExecutor", "thread", "multithread"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "Executor newCachedThreadPool() newFixedThreadPool(n) newSingleThreadExecutor()"
 url = "java-executorservice"
-thumbnailImagePosition = "top"
 
 +++
 

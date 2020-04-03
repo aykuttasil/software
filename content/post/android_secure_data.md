@@ -1,20 +1,21 @@
----
-title: "Android Secure Data"
-url : "android-cryptograghy"
-date: 2018-10-24T19:40:08+03:00
-lastmod: 2018-10-24T19:40:08+03:00
-draft: true
-keywords: ["android","secure-data","encrypt","decrypt","cryptography"]
-description: "Android Secure Data"
-tags: ["cryptography","secure-data","android"]
-categories: ["android","cryptography","secure-data"]
-author: "Aykut Asil"
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: true
-hiddenFromHomePage: false
----
++++
+author = "Aykut Asil"
+autoCollapseToc = false
+categories = ["android", "cryptography", "secure-data"]
+comment = true
+date = "2018-10-24T19:40:08+03:00"
+description = "Android Secure Data"
+draft = true
+hiddenFromHomePage = false
+keywords = ["android", "secure-data", "encrypt", "decrypt", "cryptography"]
+lastmod = "2018-10-24T19:40:08+03:00"
+postMetaInFooter = true
+tags = ["cryptography", "secure-data", "android"]
+title = "Android Secure Data"
+toc = true
+url = "android-cryptograghy"
+
++++
 
 # Android Cryptography
 

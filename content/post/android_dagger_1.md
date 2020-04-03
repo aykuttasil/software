@@ -1,20 +1,21 @@
----
-title: "Android Dagger"
-url : "android-dagger"
-date: 2018-10-12T11:48:08+03:00
-lastmod: 2018-10-12T11:48:08+03:00
-draft: false
-keywords: ["dagger","di","dependency-injection","android"]
-description: "Android Dagger Kullanımı"
-tags: ["dagger","di","dependency-injection","android"]
-categories: ["dependency-injection","android"]
-author: "Aykut Asil"
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: true
-hiddenFromHomePage: false
----
++++
+author = "Aykut Asil"
+autoCollapseToc = false
+categories = ["dependency-injection", "android"]
+comment = true
+date = "2018-10-12T11:48:08+03:00"
+description = "Android Dagger Kullanımı"
+draft = false
+hiddenFromHomePage = false
+keywords = ["dagger", "di", "dependency-injection", "android"]
+lastmod = "2018-10-12T11:48:08+03:00"
+postMetaInFooter = true
+tags = ["dagger", "di", "dependency-injection", "android"]
+title = "Android Dagger"
+toc = true
+url = "android-dagger"
+
++++
 
 ## @BindsInstance
 

@@ -1,27 +1,16 @@
 +++
-tags = [
-  "software","sql","mssql","custom script"
-]
-thumbnailImagePosition = "top"
+autoThumbnailImage = false
+categories = ["yazilim", "sql"]
+coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
+date = "2017-01-11T15:39:47+03:00"
+desciption = ""
+keywords = ["yazilim", "sofware", "sql", "mssqi", "sql management studio"]
 metaAlignment = "center"
+tags = ["software", "sql", "mssql", "custom script"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "SQL Management Studio Custom Generate Scripts"
 url = "sqlmanagement-custom-generate-scripts"
-date = "2017-01-11T15:39:47+03:00"
-keywords = [
-  "yazilim",
-  "sofware",
-  "sql",
-  "mssqi",
-  "sql management studio"
-]
-autoThumbnailImage = false
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-desciption = ""
-categories = [
-  "yazilim",
-  "sql",
-]
-thumbnailImage = ""
 
 +++
 

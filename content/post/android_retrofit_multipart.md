@@ -1,27 +1,16 @@
 +++
-metaAlignment = "center"
-thumbnailImage = ""
-tags = [
-  "software","retrofit","multipart","file upload"
-]
 autoThumbnailImage = false
-desciption = ""
+categories = ["yazilim", "android"]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
+date = "2017-01-11T01:50:51+03:00"
+desciption = ""
+keywords = ["yazilim", "sofware", "retrofit", "multipart", "file upload"]
+metaAlignment = "center"
+tags = ["software", "retrofit", "multipart", "file upload"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "Retrofit Multipart File Upload"
 url = "retrofit-multipart-file-upload"
-categories = [
-  "yazilim",
-  "android",
-]
-keywords = [
-  "yazilim",
-  "sofware",
-  "retrofit",
-  "multipart",
-  "file upload"
-]
-thumbnailImagePosition = "top"
-date = "2017-01-11T01:50:51+03:00"
 
 +++
 

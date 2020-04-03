@@ -1,25 +1,16 @@
 +++
+autoThumbnailImage = false
+categories = ["yazilim", "java", "android"]
+coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
+date = "2017-01-11T15:27:59+03:00"
+desciption = ""
+keywords = ["yazilim", "sofware", "android", "java", "fusedlocationapi", "foreground service"]
+metaAlignment = "center"
+tags = ["software", "android", "java", "fusedlocationapi", "foreground service"]
+thumbnailImage = ""
 thumbnailImagePosition = "top"
 title = "Foreground Service ile FusedLocationApi Kullanımı"
 url = "foregroundservice-ve-fusedlocationapi-kullanimi"
-metaAlignment = "center"
-categories = [
-  "yazilim",
-  "java",
-  "android"
-]
-tags = [
-  "software","android","java","fusedlocationapi","foreground service"
-]
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-desciption = ""
-autoThumbnailImage = false
-date = "2017-01-11T15:27:59+03:00"
-thumbnailImage = ""
-keywords = [
-  "yazilim",
-  "sofware","android","java","fusedlocationapi","foreground service"
-]
 
 +++
 

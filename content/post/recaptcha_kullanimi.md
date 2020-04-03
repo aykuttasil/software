@@ -1,22 +1,13 @@
 +++
-metaAlignment = "center"
-desciption = "Recaptcha Kullanımı"
-categories = [
-  "yazilim",
-]
-tags = [
-  "software",
-  "recaptcha"
-]
+categories = ["yazilim"]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
+date = "2017-01-11T00:14:08+03:00"
+desciption = "Recaptcha Kullanımı"
+keywords = ["yazilim", "sofware", "recaptcha"]
+metaAlignment = "center"
+tags = ["software", "recaptcha"]
 title = "ReCaptcha Kullanımı"
 url = "recaptcha-kullanimi"
-date = "2017-01-11T00:14:08+03:00"
-keywords = [
-  "yazilim",
-  "sofware",
-  "recaptcha"
-]
 
 +++
 

@@ -1,30 +1,16 @@
 +++
-thumbnailImagePosition = "top"
+autoThumbnailImage = false
+categories = ["yazilim", "java", "android"]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 date = "2017-01-11T01:43:53+03:00"
-autoThumbnailImage = false
+desciption = ""
+keywords = ["yazilim", "sofware", "gcmnetworkmanager", "oneoftask", "periodictas", "internet", "charge"]
+metaAlignment = "center"
+tags = ["software", "java", "android", "gcmnetworkmanager"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "Android GcmNetworkManager Kullanımı"
 url = "android-gcmnetworkmanager-kullanimi"
-metaAlignment = "center"
-categories = [
-  "yazilim",
-  "java",
-  "android",
-]
-desciption = ""
-tags = [
-  "software","java","android","gcmnetworkmanager"
-]
-thumbnailImage = ""
-keywords = [
-  "yazilim",
-  "sofware",
-  "gcmnetworkmanager",
-  "oneoftask",
-  "periodictas",
-  "internet",
-  "charge"
-]
 
 +++
 

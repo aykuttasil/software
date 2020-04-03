@@ -1,24 +1,16 @@
 +++
-thumbnailImage = ""
+autoThumbnailImage = false
+categories = ["yazilim", "javascript"]
+coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 date = "2017-01-11T17:14:22+03:00"
+desciption = ""
+keywords = ["yazilim", "sofware", "javascript"]
+metaAlignment = "center"
+tags = ["software", "javascript"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "Javascript Gariplikleri"
 url = "javascript-gariplikleri"
-keywords = [
-  "yazilim",
-  "sofware","javascript"
-]
-desciption = ""
-categories = [
-  "yazilim",
-  "javascript",
-]
-autoThumbnailImage = false
-thumbnailImagePosition = "top"
-metaAlignment = "center"
-tags = [
-  "software","javascript"
-]
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 
 +++
 

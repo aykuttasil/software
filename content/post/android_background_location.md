@@ -1,17 +1,18 @@
----
-author: "Aykut Asil"
-date: 2020-01-17T18:13:00+03:00
-lastmod: 2020-01-17T18:13:00+03:00
-next: /tutorials/github-pages-blog
-prev: /tutorials/automated-deployments
-title: "Android Background Location"
-url: "android-background-location"
-weight: 10
-keywords: ["aykuttasil","software"]
-description: "Android 10 Background Location kısıtlaması nedir ve nasıl "
-tags: ["software","android","mobile","location"]
-categories: ["android","mobile","location"]
----
++++
+author = "Aykut Asil"
+categories = ["android", "mobile", "location"]
+date = "2020-01-17T18:13:00+03:00"
+description = "Android 10 Background Location kısıtlaması nedir ve nasıl "
+keywords = ["aykuttasil", "software"]
+lastmod = "2020-01-17T18:13:00+03:00"
+next = "/tutorials/github-pages-blog"
+prev = "/tutorials/automated-deployments"
+tags = ["software", "android", "mobile", "location"]
+title = "Android Background Location"
+url = "android-background-location"
+weight = 10
+
++++
 
 **Android 10** ile birlikte gelen [değişiklerden](https://developer.android.com/about/versions/10/privacy/changes) biri de **Location** dinleme ile alakalıdır. Uygulamamız arka plandayken **(background)** ve ön plandayken **(foreground)** konum dinleme şekilleri farklılık göstermektedir. Uygulamımız bize görünür vaziyette ise yani **foreground**'da ise her hangi bir değişiklik yapmamıza gerek yoktur. Fakat **Home** tuşuna basarak veya başka bir uygulama açarak uygulamamızı arka plana atıyorsak ve bu sırada konum dinlemesinin devam etmesini istiyorsak bazı düzenlemeler yapmamız gerekmektedir.
 

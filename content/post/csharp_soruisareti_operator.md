@@ -1,24 +1,16 @@
 +++
-thumbnailImage = ""
-desciption = ""
 autoThumbnailImage = false
+categories = ["yazilim", "c#"]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 date = "2017-01-16T11:13:16+03:00"
-keywords = [
-  "yazilim",
-  "sofware","c#","csharp","operator","soru isareti","null condition"
-]
+desciption = ""
+keywords = ["yazilim", "sofware", "c#", "csharp", "operator", "soru isareti", "null condition"]
+metaAlignment = "center"
+tags = ["software", "c#", "csharp", "operator", "soru isareti", "null condition"]
+thumbnailImage = ""
 thumbnailImagePosition = "top"
-tags = [
-  "software","c#","csharp","operator","soru isareti","null condition"
-]
 title = "CSharp Null Kontrolü"
 url = "csharp-soru-isareti-syntax"
-categories = [
-  "yazilim",
-  "c#",
-]
-metaAlignment = "center"
 
 +++
 

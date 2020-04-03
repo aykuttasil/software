@@ -1,20 +1,21 @@
----
-title: "Android SMS Receiver"
-url : "android-smsreceiver"
-date: 2017-01-11T01:42:54+03:00
-lastmod: 2018-09-25T11:51:07+03:00
-draft: false
-keywords: ["yazilim","sofware","sms-receiver","android","java"]
-description: "Android Test"
-tags: ["software","android","java","sms","sms-receiver"]
-categories: ["yazilim","java","android"]
-author: "Aykut Asil"
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: true
-hiddenFromHomePage: false
----
++++
+author = "Aykut Asil"
+autoCollapseToc = false
+categories = ["yazilim", "java", "android"]
+comment = true
+date = "2017-01-11T01:42:54+03:00"
+description = "Android Test"
+draft = false
+hiddenFromHomePage = false
+keywords = ["yazilim", "sofware", "sms-receiver", "android", "java"]
+lastmod = "2018-09-25T11:51:07+03:00"
+postMetaInFooter = true
+tags = ["software", "android", "java", "sms", "sms-receiver"]
+title = "Android SMS Receiver"
+toc = true
+url = "android-smsreceiver"
+
++++
 
 ## Android SMS Receiver
 

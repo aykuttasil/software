@@ -1,24 +1,16 @@
 +++
-metaAlignment = "center"
-keywords = [
-  "yazilim",
-  "sofware","android","java","palette","glide"
-]
 autoThumbnailImage = false
-thumbnailImagePosition = "top"
-tags = [
-  "software","android","java","palette","glide"
-]
+categories = ["yazilim", "android", "java"]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-title = "Android Glide ve Palette Kullanımı"
-url = "android-glide-ve-palette-kullanimi"
-categories = [
-  "yazilim",
-  "android","java"
-]
-thumbnailImage = ""
 date = "2017-01-11T17:11:30+03:00"
 desciption = ""
+keywords = ["yazilim", "sofware", "android", "java", "palette", "glide"]
+metaAlignment = "center"
+tags = ["software", "android", "java", "palette", "glide"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
+title = "Android Glide ve Palette Kullanımı"
+url = "android-glide-ve-palette-kullanimi"
 
 +++
 

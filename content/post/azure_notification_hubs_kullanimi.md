@@ -1,27 +1,14 @@
 +++
-desciption = ""
-thumbnailImage = ""
 autoThumbnailImage = false
-thumbnailImagePosition = "top"
-metaAlignment = "center"
+categories = ["yazilim", "azure"]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-keywords = [
-  "yazilim",
-  "sofware",
-  "azure",
-  "notification",
-  "notification hubs"
-]
 date = "2017-01-11T00:21:36+03:00"
-categories = [
-  "yazilim",
-  "azure"
-]
-tags = [
-  "software",
-  "azure",
-  "notification hubs"
-]
+desciption = ""
+keywords = ["yazilim", "sofware", "azure", "notification", "notification hubs"]
+metaAlignment = "center"
+tags = ["software", "azure", "notification hubs"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "Azure Mobile Services ve Notification Hubs Kullanımı"
 url = "azure-notification-hubs-kullanimi"
 

@@ -1,29 +1,18 @@
----
-date : "2017-01-11T01:00:19+03:00"
-title : "Android ActiveAndroid Kullanımı"
-url : "activeandroid"
-metaAlignment : "center"
-tags : [
-  "software","android","java","sqlite","activeandroid","orm"
-]
-autoThumbnailImage : false
-thumbnailImagePosition : "top"
-thumbnailImage : ""
-categories : [
-  "yazilim",
-  "android",
-  "orm"
-]
-desciption : ""
-keywords : [
-  "yazilim",
-  "sofware",
-  "activeandroid",
-  "sqlite",
-  "orm"
-]
-coverImage : "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
----
++++
+autoThumbnailImage = false
+categories = ["yazilim", "android", "orm"]
+coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
+date = "2017-01-11T01:00:19+03:00"
+desciption = ""
+keywords = ["yazilim", "sofware", "activeandroid", "sqlite", "orm"]
+metaAlignment = "center"
+tags = ["software", "android", "java", "sqlite", "activeandroid", "orm"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
+title = "Android ActiveAndroid Kullanımı"
+url = "activeandroid"
+
++++
 
 Anroid ile ORM (Object Relational Mapping) kullanarak veritabanı işlemlerinizi oldukça kolay yapabilirsiniz.
 

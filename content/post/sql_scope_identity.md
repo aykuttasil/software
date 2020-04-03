@@ -1,24 +1,16 @@
 +++
-date = "2017-01-11T17:20:37+03:00"
-metaAlignment = "center"
-categories = [
-  "yazilim",
-  "sql",
-]
-tags = [
-  "software","sql","sql_scope_identity","mssql"
-]
-thumbnailImage = ""
-keywords = [
-  "yazilim",
-  "sofware","sql","sql_scope_identity","mssql"
-]
-thumbnailImagePosition = "top"
+autoThumbnailImage = false
+categories = ["yazilim", "sql"]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
+date = "2017-01-11T17:20:37+03:00"
+desciption = ""
+keywords = ["yazilim", "sofware", "sql", "sql_scope_identity", "mssql"]
+metaAlignment = "center"
+tags = ["software", "sql", "sql_scope_identity", "mssql"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "SQL SCOPE_IDENTITY()"
 url = "sql-scope-identity"
-desciption = ""
-autoThumbnailImage = false
 
 +++
 

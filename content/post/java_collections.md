@@ -1,25 +1,16 @@
 +++
-metaAlignment = "center"
 autoThumbnailImage = false
-desciption = ""
-date = "2017-01-11T16:10:10+03:00"
-thumbnailImage = ""
+categories = ["yazilim", "android", "java"]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-categories = [
-  "yazilim",
-  "android",
-  "java"
-]
-keywords = [
-  "yazilim",
-  "sofware","android","java","collections","swap"
-]
+date = "2017-01-11T16:10:10+03:00"
+desciption = ""
+keywords = ["yazilim", "sofware", "android", "java", "collections", "swap"]
+metaAlignment = "center"
+tags = ["software", "android", "java", "collections", "swap"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "Java Collections"
 url = "java-collections"
-tags = [
-  "software","android","java","collections","swap"
-]
-thumbnailImagePosition = "top"
 
 +++
 

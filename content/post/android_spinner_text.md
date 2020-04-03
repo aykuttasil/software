@@ -1,29 +1,14 @@
 +++
-thumbnailImagePosition = "top"
-thumbnailImage = ""
-metaAlignment = "center"
-tags = [
-  "software",
-  "android",
-  "java",
-  "spinner"
-
-]
-desciption = "Dinamik Olarak Spinner Text Güncelleme"
+autoThumbnailImage = false
+categories = ["yazilim", "android"]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 date = "2017-01-10T23:00:03+03:00"
-categories = [
-  "yazilim",
-  "android"
-]
-keywords = [
-  "yazilim",
-  "sofware",
-  "android",
-  "java",
-  "spinner"
-]
-autoThumbnailImage = false
+desciption = "Dinamik Olarak Spinner Text Güncelleme"
+keywords = ["yazilim", "sofware", "android", "java", "spinner"]
+metaAlignment = "center"
+tags = ["software", "android", "java", "spinner"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "Android Spinner Text Güncelleme"
 url = "android-spinner-dynamic-text"
 

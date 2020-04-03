@@ -1,20 +1,21 @@
----
-title: "Android CircleCI Configuration"
-url : "android-circleci"
-date: 2018-12-01T14:20:45+03:00
-lastmod: 2018-12-03T14:20:45+03:00
-draft: false
-keywords: ["android","ci","cd","continuous-integration","continuous-deployment","circleci","build","test","deployment"]
-description: "Android Circle CI/CD"
-tags: ["android","ci","cd","continuous-integration","continuous-deployment","circleci","build","test","deployment"]
-categories: ["CI/CD","android","mobile"]
-author: "Aykut Asil"
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: true
-hiddenFromHomePage: false
----
++++
+author = "Aykut Asil"
+autoCollapseToc = false
+categories = ["CI/CD", "android", "mobile"]
+comment = true
+date = "2018-12-01T14:20:45+03:00"
+description = "Android Circle CI/CD"
+draft = false
+hiddenFromHomePage = false
+keywords = ["android", "ci", "cd", "continuous-integration", "continuous-deployment", "circleci", "build", "test", "deployment"]
+lastmod = "2018-12-03T14:20:45+03:00"
+postMetaInFooter = true
+tags = ["android", "ci", "cd", "continuous-integration", "continuous-deployment", "circleci", "build", "test", "deployment"]
+title = "Android CircleCI Configuration"
+toc = true
+url = "android-circleci"
+
++++
 
 ## CircleCI Android Yapılandırması
 

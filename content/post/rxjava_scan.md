@@ -1,21 +1,12 @@
 +++
+categories = ["yazilim", "android", "rxjava"]
 date = "2017-01-11T18:49:21+03:00"
-title = "RxJava scan() Kullanımı"
 description = "RxJava scan() Kullanımı"
+keywords = ["yazilim", "sofware", "android", "java", "rxjava"]
+tags = ["software", "android", "java", "rxjava"]
+title = "RxJava scan() Kullanımı"
 url = "rxjava-scan"
 
-tags = [
-  "software","android","java","rxjava"
-]
-keywords = [
-  "yazilim",
-  "sofware","android","java","rxjava"
-]
-categories = [
-  "yazilim",
-  "android",
-  "rxjava"
-]
 +++
 
 # RxJava scan() Kullanımı

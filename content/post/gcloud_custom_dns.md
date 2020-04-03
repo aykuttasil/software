@@ -1,21 +1,16 @@
 +++
+autoThumbnailImage = false
+categories = ["genel"]
+date = "2017-07-12T00:00:00+03:00"
+desciption = "Google Cloud DNS"
+keywords = ["gcloud", "custom-dns", "custom-domain", "google-cloud", "cloud-dns"]
+metaAlignment = "center"
+tags = ["cloud", "gcloud", "dns", "custom-dns", "domain", "cloud-dns"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "Google Cloud DNS"
 url = "google_cloud_dns"
-desciption = "Google Cloud DNS"
-metaAlignment = "center"
-categories = [
-  "genel"
-]
-tags = [
-  "cloud","gcloud","dns","custom-dns","domain","cloud-dns"
-]
-keywords = [
-  "gcloud","custom-dns","custom-domain","google-cloud","cloud-dns"
-]
-autoThumbnailImage = false
-thumbnailImagePosition = "top"
-thumbnailImage = ""
-date = 2017-07-12
+
 +++
 
 # Google Cloud Platform Cloud DNS

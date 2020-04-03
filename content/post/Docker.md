@@ -1,21 +1,15 @@
 +++
-categories = [
-  "yazilim","docker"
-]
-keywords = [
-  "software","docker"
-]
 autoThumbnailImage = false
-thumbnailImagePosition = "top"
+categories = ["yazilim", "docker"]
+coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
+date = "2017-01-11T19:55:08+03:00"
+keywords = ["software", "docker"]
 metaAlignment = "center"
+tags = ["sofware", "docker"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "Docker"
 url = "docker"
-date = "2017-01-11T19:55:08+03:00"
-tags = [
-  "sofware","docker"
-]
-thumbnailImage = ""
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 
 +++
 

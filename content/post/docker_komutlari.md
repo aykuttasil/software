@@ -1,21 +1,15 @@
 +++
-date = "2017-01-11T19:56:08+03:00"
-keywords = [
-  "software","docker","command","docker ps","docker images","bash"
-]
 autoThumbnailImage = false
+categories = ["yazilim", "docker"]
+coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
+date = "2017-01-11T19:56:08+03:00"
+keywords = ["software", "docker", "command", "docker ps", "docker images", "bash"]
+metaAlignment = "center"
+tags = ["sofware", "docker", "bash script"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "Docker Komutları"
 url = "docker-komutlari"
-tags = [
-  "sofware","docker","bash script"
-]
-thumbnailImagePosition = "top"
-thumbnailImage = ""
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-metaAlignment = "center"
-categories = [
-  "yazilim","docker"
-]
 
 +++
 

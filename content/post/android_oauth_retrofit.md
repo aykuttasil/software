@@ -1,23 +1,16 @@
 +++
-metaAlignment = "center"
 autoThumbnailImage = false
-title = "Retrofit Oauth"
-desciption = "Retrofit Oauth Entegrasyonu"
-thumbnailImage = ""
-date = "2017-05-17T11:58:43+03:00"
-url = "retrofit_oauth"
-tags = [
-  "software","oauth","retrofit","okhttp"
-]
-thumbnailImagePosition = "top"
+categories = ["yazilim", "android"]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-categories = [
-  "yazilim","android"
-]
-keywords = [
-  "yazilim",
-  "sofware","oauth","retrofit","okhttp","android","oauth2"
-]
+date = "2017-05-17T11:58:43+03:00"
+desciption = "Retrofit Oauth Entegrasyonu"
+keywords = ["yazilim", "sofware", "oauth", "retrofit", "okhttp", "android", "oauth2"]
+metaAlignment = "center"
+tags = ["software", "oauth", "retrofit", "okhttp"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
+title = "Retrofit Oauth"
+url = "retrofit_oauth"
 
 +++
 

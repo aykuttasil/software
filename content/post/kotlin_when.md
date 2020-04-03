@@ -1,19 +1,12 @@
 +++
+categories = ["yazilim", "kotlin"]
 date = "2017-06-06T04:42:56+03:00"
-title = "Kotlin when kullanımı"
 description = "Kotlin'de `when` operatörü işimizi oldukça kolaylaştıran operatörlerden biridir. `if- else if` yapısı yerine kullanılabileceği gibi bazı yardımcı operatörler ile birçok marifet kazanabilir."
+keywords = ["yazilim", "sofware", "kotlin", "android", "when"]
+tags = ["software", "kotlin", "android", "when"]
+title = "Kotlin when kullanımı"
 url = "kotlin-when"
 
-categories = [
-  "yazilim","kotlin"
-]
-keywords = [
-  "yazilim",
-  "sofware","kotlin","android","when"
-]
-tags = [
-  "software","kotlin","android","when"
-]
 +++
 
 Kotlin'de `when` operatörü işimizi oldukça kolaylaştıran operatörlerden biridir.

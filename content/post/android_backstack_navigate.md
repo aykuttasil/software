@@ -1,22 +1,21 @@
----
-title: "Android Backstack Navigate"
-url : "android-backstack-navigate"
-date: 2018-05-04T17:38:15+03:00
-lastmod: 2018-05-04T17:38:15+03:00
-draft: false
-keywords: ["android","navigate","backstack"]
-description: "Android BackStack Control"
-tags: ["android","backstack","navigate"]
-categories: ["android"]
-author: "Aykut Asil"
++++
+author = "Aykut Asil"
+autoCollapseToc = false
+categories = ["android"]
+comment = true
+date = "2018-05-04T17:38:15+03:00"
+description = "Android BackStack Control"
+draft = false
+hiddenFromHomePage = false
+keywords = ["android", "navigate", "backstack"]
+lastmod = "2018-05-04T17:38:15+03:00"
+postMetaInFooter = false
+tags = ["android", "backstack", "navigate"]
+title = "Android Backstack Navigate"
+toc = true
+url = "android-backstack-navigate"
 
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: false
-hiddenFromHomePage: false
-
----
++++
 ## Android Navigate
 
 ### Örnek Senaryo

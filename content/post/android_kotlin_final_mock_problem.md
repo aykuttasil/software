@@ -1,21 +1,21 @@
----
-title: "Android Kotlin Test - Final Type Problem"
-description: "Android Kotlin ile test yazarken karşılaşılan final type problemi ve çözümü"
-url : "android-kotlin-test-final-type-problem"
-date: 2019-01-29T15:38:29+03:00
-lastmod: 2019-01-29T15:38:29+03:00
-draft: false
-keywords: ["android","kotlin","final-type","mock","kotlin","test"]
++++
+author = "Aykut Asil"
+autoCollapseToc = false
+categories = ["android", "kotlin", "final-type", "mock", "kotlin", "test"]
+comment = true
+date = "2019-01-29T15:38:29+03:00"
+description = "Android Kotlin ile test yazarken karşılaşılan final type problemi ve çözümü"
+draft = false
+hiddenFromHomePage = false
+keywords = ["android", "kotlin", "final-type", "mock", "kotlin", "test"]
+lastmod = "2019-01-29T15:38:29+03:00"
+postMetaInFooter = true
+tags = ["android", "kotlin", "test"]
+title = "Android Kotlin Test - Final Type Problem"
+toc = true
+url = "android-kotlin-test-final-type-problem"
 
-tags: ["android","kotlin","test"]
-categories: ["android","kotlin","final-type","mock","kotlin","test"]
-author: "Aykut Asil"
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: true
-hiddenFromHomePage: false
----
++++
 
 ## Sorun
 

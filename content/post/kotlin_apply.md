@@ -1,23 +1,16 @@
 +++
-categories = [
-  "yazilim","kotlin"
-]
-metaAlignment = "center"
-tags = [
-  "software","kotlin","apply","extensin function"
-]
-date = "2017-06-06T10:47:58+03:00"
 autoThumbnailImage = false
+categories = ["yazilim", "kotlin"]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-keywords = [
-  "yazilim",
-  "sofware","kotlin","apply"
-]
+date = "2017-06-06T10:47:58+03:00"
+desciption = ""
+keywords = ["yazilim", "sofware", "kotlin", "apply"]
+metaAlignment = "center"
+tags = ["software", "kotlin", "apply", "extensin function"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "Kotlin apply Kullanımı"
 url = "kotlin-apply"
-desciption = ""
-thumbnailImagePosition = "top"
-thumbnailImage = ""
 
 +++
 

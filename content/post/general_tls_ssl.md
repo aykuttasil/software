@@ -1,20 +1,21 @@
----
-title: "TLS vs SSL"
-url : "tls-ssl"
-date: 2018-08-12T23:12:07+03:00
-lastmod: 2018-08-12T23:12:07+03:00
-draft: false
-keywords: ["tls","ssl","encrypted","security"]
-description: "**TLS (Transport Layer Securtiy)** , **SSL(Secure Sockets Layer)**'ın modernize edilmiş halidir diyebiliriz. Yani günümüzde SSL den bahsedildiğinde aslında TLS den bahsediliyor olduğunu söyleyebiliriz."
-tags: ["ssl","tls","encrypted-data","network"]
-categories: ["genel","network"]
-author: "Aykut Asil"
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: true
-hiddenFromHomePage: false
----
++++
+author = "Aykut Asil"
+autoCollapseToc = false
+categories = ["genel", "network"]
+comment = true
+date = "2018-08-12T23:12:07+03:00"
+description = "**TLS (Transport Layer Securtiy)** , **SSL(Secure Sockets Layer)**'ın modernize edilmiş halidir diyebiliriz. Yani günümüzde SSL den bahsedildiğinde aslında TLS den bahsediliyor olduğunu söyleyebiliriz."
+draft = false
+hiddenFromHomePage = false
+keywords = ["tls", "ssl", "encrypted", "security"]
+lastmod = "2018-08-12T23:12:07+03:00"
+postMetaInFooter = true
+tags = ["ssl", "tls", "encrypted-data", "network"]
+title = "TLS vs SSL"
+toc = true
+url = "tls-ssl"
+
++++
 
 ## TLS/SSL nedir?
 

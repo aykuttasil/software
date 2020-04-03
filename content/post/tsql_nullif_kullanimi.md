@@ -1,30 +1,16 @@
 +++
-thumbnailImage = ""
-desciption = "TSQL NULLIF Fonksiyonu Nedir ve Nasil Kullanilir"
-thumbnailImagePosition = "top"
-keywords = [
-  "yazilim",
-  "sofware",
-  "sql",
-  "nullif"
-]
 autoThumbnailImage = false
+categories = ["yazilim", "sql"]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
+date = "2017-01-10T23:08:34+03:00"
+desciption = "TSQL NULLIF Fonksiyonu Nedir ve Nasil Kullanilir"
+keywords = ["yazilim", "sofware", "sql", "nullif"]
+metaAlignment = "center"
+tags = ["software", "sql", "mssql", "tsql", "nullif"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "TSQL NULLIF Fonksiyonu Nedir ve Nasıl Kullanılır"
 url = "sql-nullif-fonksiyonu-kullanimi"
-metaAlignment = "center"
-categories = [
-  "yazilim",
-  "sql",
-]
-date = "2017-01-10T23:08:34+03:00"
-tags = [
-  "software",
-  "sql",
-  "mssql",
-  "tsql",
-  "nullif"
-]
 
 +++
 

@@ -1,34 +1,16 @@
 +++
+autoThumbnailImage = false
+categories = ["genel", "yazilim", "windows", "iis"]
+coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
+date = "2017-01-10T23:20:12+03:00"
+desciption = ""
+keywords = ["yazilim", "sofware", "iis", "site", "localwebserver", "hosts"]
+metaAlignment = "center"
+tags = ["software", "iis", "site", "localwebserver", "hosts"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "Local IIS Site Kurulumu"
 url = "windows-local-iis-kurulumu"
-thumbnailImage = ""
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-metaAlignment = "center"
-thumbnailImagePosition = "top"
-date = "2017-01-10T23:20:12+03:00"
-categories = [
-  "genel",
-  "yazilim",
-  "windows",
-  "iis"
-]
-tags = [
-  "software",
-  "iis",
-  "site",
-  "localwebserver",
-  "hosts"
-]
-desciption = ""
-keywords = [
-  "yazilim",
-  "sofware",
-  "iis",
-  "site",
-  "localwebserver",
-  "hosts"
-]
-autoThumbnailImage = false
 
 +++
 

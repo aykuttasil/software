@@ -1,24 +1,21 @@
----
-title: "Step Motor Nedir?"
-url : "step-motor-nedir"
-date: 2018-08-03T22:21:48+03:00
-lastmod: 2018-08-03T22:21:48+03:00
-draft: false
-keywords: ["motor","step-motor","iot"]
-description: "Step Motor Nedir?"
-tags: ["arduino","iot","motor"]
-categories: ["iot","motor"]
-author: "Aykut Asil"
++++
+author = "Aykut Asil"
+autoCollapseToc = false
+categories = ["iot", "motor"]
+comment = true
+date = "2018-08-03T22:21:48+03:00"
+description = "Step Motor Nedir?"
+draft = false
+hiddenFromHomePage = false
+keywords = ["motor", "step-motor", "iot"]
+lastmod = "2018-08-03T22:21:48+03:00"
+postMetaInFooter = true
+tags = ["arduino", "iot", "motor"]
+title = "Step Motor Nedir?"
+toc = true
+url = "step-motor-nedir"
 
-# You can also close(false) or open(true) something for this content.
-# P.S. comment can only be closed
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: true
-hiddenFromHomePage: false
-
----
++++
 
 > **Step motoru** bir diğer adıyla adım motorları; hızlı,  Doğrusal ve kademeli hareket istenilen uygulamalarda kullanılan fırçasız  DC elektrik motorudur.
 

@@ -1,30 +1,14 @@
 +++
-keywords = [
-  "yazilim",
-  "sofware",
-  "sha1",
-  "keyhashes",
-  "bash"
-]
 autoThumbnailImage = false
+categories = ["yazilim", "android"]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 date = "2017-01-10T23:56:35+03:00"
-categories = [
-  "yazilim",
-  "android",
-]
-tags = [
-  "software",
-  "android",
-  "java",
-  "sha1",
-  "keyhashes",
-  "bash"
-]
 desciption = ""
+keywords = ["yazilim", "sofware", "sha1", "keyhashes", "bash"]
 metaAlignment = "center"
-thumbnailImagePosition = "top"
+tags = ["software", "android", "java", "sha1", "keyhashes", "bash"]
 thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "Android Key Hashes & SHA1"
 url = "android-keyhashes-sha1"
 

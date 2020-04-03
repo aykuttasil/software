@@ -1,21 +1,14 @@
 +++
-categories = [
-  "yazilim"
-]
-tags = [
-  "software","firebase","dynamiclink"
-]
+autoThumbnailImage = false
+categories = ["yazilim"]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
+date = "2017-04-17T01:53:03+03:00"
 desciption = ""
+keywords = ["yazilim", "sofware", "firebase", "dynamiclink"]
+metaAlignment = "center"
+tags = ["software", "firebase", "dynamiclink"]
 thumbnailImage = ""
 thumbnailImagePosition = "top"
-metaAlignment = "center"
-keywords = [
-  "yazilim",
-  "sofware","firebase","dynamiclink"
-]
-autoThumbnailImage = false
-date = "2017-04-17T01:53:03+03:00"
 title = "Firebase Dynamic Links"
 url = "firebase_dynamiclink"
 

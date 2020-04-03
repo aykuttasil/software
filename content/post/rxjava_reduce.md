@@ -1,21 +1,11 @@
 +++
+categories = ["yazilim", "android", "rxjava"]
 date = "2017-01-11T18:42:04+03:00"
-title = "RxJava reduce() Kullanımı"
 description = "RxJava reduce() Kullanımı"
+keywords = ["yazilim", "sofware", "android", "java", "rxjava", "reduce"]
+tags = ["software", "android", "java", "rxjava", "reduce"]
+title = "RxJava reduce() Kullanımı"
 url = "rxjava-reduce"
-
-categories = [
-  "yazilim",
-  "android",
-  "rxjava"
-]
-keywords = [
-  "yazilim",
-  "sofware","android","java","rxjava","reduce"
-]
-tags = [
-  "software","android","java","rxjava","reduce"
-]
 
 +++
 

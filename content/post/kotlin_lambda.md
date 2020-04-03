@@ -1,18 +1,11 @@
 +++
-categories = [
-  "yazilim","kotlin"
-]
-tags = [
-   "software","kotlin","lambda"
-]
-keywords = [
-  "yazilim",
-  "sofware","kotlin","lambda","functional programming"
-]
-url = "kotlin-lambda"
-title = "Kotlin Lambda"
-description = "Kotlin Lambda Kullanımı"
+categories = ["yazilim", "kotlin"]
 date = "2017-06-18T02:24:37+03:00"
+description = "Kotlin Lambda Kullanımı"
+keywords = ["yazilim", "sofware", "kotlin", "lambda", "functional programming"]
+tags = ["software", "kotlin", "lambda"]
+title = "Kotlin Lambda"
+url = "kotlin-lambda"
 
 +++
 

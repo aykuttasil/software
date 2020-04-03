@@ -1,20 +1,21 @@
----
-title: "ASP.Net Core app.Run() Middleware"
-url : "aspnetcore-run-middleware"
-date: 2019-04-15T22:08:14+03:00
-lastmod: 2019-04-15T22:08:14+03:00
-draft: false
-keywords: ["netcore",".net",",netcore","aspnet","aspnetcore"]
-description: "**ASP.NET Core** ile birlikte gelen **middleware** konsepti sayesinde **request-response** süreçleri arasına girerek kendi mantıksal devremizi yazmamız çok kolay hale gelmiştir."
-tags: ["netcore","aspnetcore","csharp","webapi","api"]
-categories: ["netcore","csharp","aspnetcore","webapi"]
-author: "Aykut Asil"
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: true
-hiddenFromHomePage: false
----
++++
+author = "Aykut Asil"
+autoCollapseToc = false
+categories = ["netcore", "csharp", "aspnetcore", "webapi"]
+comment = true
+date = "2019-04-15T22:08:14+03:00"
+description = "**ASP.NET Core** ile birlikte gelen **middleware** konsepti sayesinde **request-response** süreçleri arasına girerek kendi mantıksal devremizi yazmamız çok kolay hale gelmiştir."
+draft = false
+hiddenFromHomePage = false
+keywords = ["netcore", ".net", ",netcore", "aspnet", "aspnetcore"]
+lastmod = "2019-04-15T22:08:14+03:00"
+postMetaInFooter = true
+tags = ["netcore", "aspnetcore", "csharp", "webapi", "api"]
+title = "ASP.Net Core app.Run() Middleware"
+toc = true
+url = "aspnetcore-run-middleware"
+
++++
 
 ## ASP.NET Core Run Method
 

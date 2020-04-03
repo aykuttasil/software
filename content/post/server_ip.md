@@ -1,20 +1,21 @@
----
-title: "Server Ip"
-url : "server-ip"
-date: 2019-01-08T23:20:28+03:00
-lastmod: 2019-01-08T23:20:28+03:00
-draft: false
-keywords: ["ip","server","find-ip"]
-description: "Find Server IP"
-tags: ["ip"]
-categories: []
-author: "Aykut Asil"
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: true
-hiddenFromHomePage: false
----
++++
+author = "Aykut Asil"
+autoCollapseToc = false
+categories = []
+comment = true
+date = "2019-01-08T23:20:28+03:00"
+description = "Find Server IP"
+draft = false
+hiddenFromHomePage = false
+keywords = ["ip", "server", "find-ip"]
+lastmod = "2019-01-08T23:20:28+03:00"
+postMetaInFooter = true
+tags = ["ip"]
+title = "Server Ip"
+toc = true
+url = "server-ip"
+
++++
 
 ## Problem
 

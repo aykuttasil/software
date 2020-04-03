@@ -1,20 +1,21 @@
----
-title: "Bash Scripts"
-url : "bash-scripts"
-date: 2018-12-10T00:47:41+03:00
-lastmod: 2018-12-10T00:47:41+03:00
-draft: false
-keywords: ["bash","script","sh","zsh","komut","command"]
-description: "Bash Scripts"
-tags: ["bash","script","sh"]
-categories: ["bash","script"]
-author: "Aykut Asil"
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: true
-hiddenFromHomePage: false
----
++++
+author = "Aykut Asil"
+autoCollapseToc = false
+categories = ["bash", "script"]
+comment = true
+date = "2018-12-10T00:47:41+03:00"
+description = "Bash Scripts"
+draft = false
+hiddenFromHomePage = false
+keywords = ["bash", "script", "sh", "zsh", "komut", "command"]
+lastmod = "2018-12-10T00:47:41+03:00"
+postMetaInFooter = true
+tags = ["bash", "script", "sh"]
+title = "Bash Scripts"
+toc = true
+url = "bash-scripts"
+
++++
 
 # cat <<EOF
 

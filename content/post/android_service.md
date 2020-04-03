@@ -1,15 +1,16 @@
----
-title: "Android Service"
-url : "android-service"
-date: 2019-02-14T13:10:18+03:00
-lastmod: 2019-02-14T13:10:18+03:00
-draft: false
-keywords: ["android","service"]
-description: "Android Service Nedir? Nasıl Kullanılır? \n\n Android'in temel bileşenlerinden biri olan Service'ler kısaca UI(arayüz) olmayan Activity'lere benzetebiliriz."
-tags: ["android","service"]
-categories: ["android","mobile"]
-author: "Aykut Asil"
----
++++
+author = "Aykut Asil"
+categories = ["android", "mobile"]
+date = "2019-02-14T13:10:18+03:00"
+description = "Android Service Nedir? Nasıl Kullanılır? \n\n Android'in temel bileşenlerinden biri olan Service'ler kısaca UI(arayüz) olmayan Activity'lere benzetebiliriz."
+draft = false
+keywords = ["android", "service"]
+lastmod = "2019-02-14T13:10:18+03:00"
+tags = ["android", "service"]
+title = "Android Service"
+url = "android-service"
+
++++
 
 > Android'in temel bileşenlerinden biri olan **Service**'ler kısaca **UI(arayüz)** olmayan **Activity**'lere benzetebiliriz. Tabi ki kendine göre ek özellikleri bulunmaktadır.
 **Service** tanımlaması **AndroidManifest.xml** içerisinde tanımlı olmalıdır. Aksi takdirde çalışmaz. **\<service\>** elementinin alabileceği özellikler aşağıdaki gibidir.

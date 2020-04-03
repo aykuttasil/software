@@ -1,25 +1,18 @@
 +++
-desciption = ""
 autoThumbnailImage = false
-categories = [
-  "yazilim",
-  "android","java"
-]
+categories = ["yazilim", "android", "java"]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
+date = "2017-01-11T16:39:33+03:00"
+desciption = ""
+draft = true
+keywords = ["yazilim", "sofware", "android", "java", "recyclerview"]
+metaAlignment = "center"
+tags = ["software", "android", "java", "recyclerview"]
 thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "Android RecyclerView"
 url = "android-recyclerview"
-tags = [
-  "software","android","java","recyclerview"
-]
-keywords = [
-  "yazilim",
-  "sofware","android","java","recyclerview"
-]
-date = "2017-01-11T16:39:33+03:00"
-thumbnailImagePosition = "top"
-metaAlignment = "center"
-draft = true
+
 +++
 
 

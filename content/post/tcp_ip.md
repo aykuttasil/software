@@ -1,24 +1,16 @@
 +++
+autoThumbnailImage = false
+categories = ["yazilim", "genel"]
+coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
+date = "2017-01-11T18:05:02+03:00"
+desciption = ""
+keywords = ["yazilim", "sofware", "tcp", "ip"]
+metaAlignment = "center"
+tags = ["software", "tcp", "ip", "tcp/ip"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "TCP/IP Nasıl Çalışır ?"
 url = "tcpip-nedir_nasil_calisir"
-date = "2017-01-11T18:05:02+03:00"
-metaAlignment = "center"
-thumbnailImagePosition = "top"
-thumbnailImage = ""
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-tags = [
-  "software","tcp","ip","tcp/ip"
-]
-keywords = [
-  "yazilim",
-  "sofware","tcp","ip"
-]
-autoThumbnailImage = false
-desciption = ""
-categories = [
-  "yazilim",
-  "genel",
-]
 
 +++
 

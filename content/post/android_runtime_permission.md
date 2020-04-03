@@ -1,24 +1,16 @@
 +++
+autoThumbnailImage = false
+categories = ["yazilim", "java", "android"]
+coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
+date = "2017-01-11T17:24:52+03:00"
 desciption = ""
+keywords = ["yazilim", "sofware", "java", "android", "permission", "runtime permission"]
+metaAlignment = "center"
+tags = ["software", "java", "android", "permission", "runtime permission"]
+thumbnailImage = ""
 thumbnailImagePosition = "top"
 title = "Android Runtime Permission"
 url = "android-runtime-permission"
-categories = [
-  "yazilim",
-  "java","android"
-]
-tags = [
-  "software","java","android","permission","runtime permission"
-]
-thumbnailImage = ""
-date = "2017-01-11T17:24:52+03:00"
-keywords = [
-  "yazilim",
-  "sofware","java","android","permission","runtime permission"
-]
-autoThumbnailImage = false
-metaAlignment = "center"
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 
 +++
 

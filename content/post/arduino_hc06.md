@@ -1,23 +1,16 @@
 +++
+autoThumbnailImage = false
+categories = ["yazilim", "arduino"]
+coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 date = "2017-03-12T23:40:36+03:00"
 desciption = "arduino,hc06,bluetooth,led,pwm"
-thumbnailImage = ""
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-title = "Arduino HC-06 Bluetooth Kullanımı"
+keywords = ["yazilim", "sofware", "arduino", "hc06", "hc-06", "bluetooth"]
 metaAlignment = "center"
-categories = [
-  "yazilim","arduino"
-]
-tags = [
-  "software","arduino","hc06","hc-06","bluetooth"
-]
-keywords = [
-  "yazilim",
-  "sofware","arduino","hc06","hc-06","bluetooth"
-]
-url = "arduino_hc06_kullanimi"
-autoThumbnailImage = false
+tags = ["software", "arduino", "hc06", "hc-06", "bluetooth"]
+thumbnailImage = ""
 thumbnailImagePosition = "top"
+title = "Arduino HC-06 Bluetooth Kullanımı"
+url = "arduino_hc06_kullanimi"
 
 +++
 

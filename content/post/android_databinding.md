@@ -1,20 +1,21 @@
----
-title: "Android DataBinding"
-url : "android-databinding"
-date: 2019-02-25T00:00:27+03:00
-lastmod: 2019-02-25T00:00:27+03:00
-draft: false
-keywords: ["android","databinding","twoway-binding"]
-description: "Android DataBinding"
-tags: ["mobile","android","databinding"]
-categories: ["mobile","android"]
-author: "Aykut Asil"
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: true
-hiddenFromHomePage: false
----
++++
+author = "Aykut Asil"
+autoCollapseToc = false
+categories = ["mobile", "android"]
+comment = true
+date = "2019-02-25T00:00:27+03:00"
+description = "Android DataBinding"
+draft = false
+hiddenFromHomePage = false
+keywords = ["android", "databinding", "twoway-binding"]
+lastmod = "2019-02-25T00:00:27+03:00"
+postMetaInFooter = true
+tags = ["mobile", "android", "databinding"]
+title = "Android DataBinding"
+toc = true
+url = "android-databinding"
+
++++
 
 ## Android DataBinding
 

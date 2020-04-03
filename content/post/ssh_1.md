@@ -1,20 +1,21 @@
----
-title: "SSH Sürekli Parola İstemesi Sorunu"
-url : "ssh-surekli-parola-isteme-problemi"
-date: 2018-10-26T01:04:21+03:00
-lastmod: 2018-10-26T01:04:21+03:00
-draft: false
-keywords: ["ssh"]
-description: "SSH sürekli parola isstemesi problemi ve çözümü"
-tags: ["ssh"]
-categories: ["genel"]
-author: "Aykut Asil"
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: true
-hiddenFromHomePage: false
----
++++
+author = "Aykut Asil"
+autoCollapseToc = false
+categories = ["genel"]
+comment = true
+date = "2018-10-26T01:04:21+03:00"
+description = "SSH sürekli parola isstemesi problemi ve çözümü"
+draft = false
+hiddenFromHomePage = false
+keywords = ["ssh"]
+lastmod = "2018-10-26T01:04:21+03:00"
+postMetaInFooter = true
+tags = ["ssh"]
+title = "SSH Sürekli Parola İstemesi Sorunu"
+toc = true
+url = "ssh-surekli-parola-isteme-problemi"
+
++++
 
 ## Problem
 

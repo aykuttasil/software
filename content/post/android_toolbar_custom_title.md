@@ -1,24 +1,16 @@
 +++
-thumbnailImage = ""
-title = "Android Custom Toolbar Title"
-url = "android-custom-toolbar"
-tags = [
-  "software","android","java","toolbar"
-]
+autoThumbnailImage = false
+categories = ["yazilim", "android"]
+coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 date = "2017-01-11T16:01:33+03:00"
 desciption = "Android Toolbar Özelleştirme nasıl yapılır?"
-categories = [
-  "yazilim",
-  "android",
-]
-keywords = [
-  "yazilim",
-  "sofware","android","java","toolbar"
-]
-autoThumbnailImage = false
+keywords = ["yazilim", "sofware", "android", "java", "toolbar"]
 metaAlignment = "center"
+tags = ["software", "android", "java", "toolbar"]
+thumbnailImage = ""
 thumbnailImagePosition = "top"
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
+title = "Android Custom Toolbar Title"
+url = "android-custom-toolbar"
 
 +++
 

@@ -1,19 +1,20 @@
----
-title: "AMP"
-date: 2018-10-10T11:57:46+03:00
-lastmod: 2018-10-10T11:57:46+03:00
-draft: false
-keywords: ["amp"]
-description: "AMP nedir ve nasıl kullanılır?"
-tags: ["amp"]
-categories: ["amp"]
-author: "Aykut Asil"
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: true
-hiddenFromHomePage: false
----
++++
+author = "Aykut Asil"
+autoCollapseToc = false
+categories = ["amp"]
+comment = true
+date = "2018-10-10T11:57:46+03:00"
+description = "AMP nedir ve nasıl kullanılır?"
+draft = false
+hiddenFromHomePage = false
+keywords = ["amp"]
+lastmod = "2018-10-10T11:57:46+03:00"
+postMetaInFooter = true
+tags = ["amp"]
+title = "AMP"
+toc = true
+
++++
 
 > Not: Bu yazı öğrenme sürecinde hazırlanmış olup kısa kısa notlar içerir.
 

@@ -1,19 +1,11 @@
 +++
+categories = ["yazilim", "android"]
+date = "2017-01-11T17:27:29+03:00"
+description = "Android uygulaması yazarken bazı oluşturmuş olduğunuz yapıları tekrar tekrar yazmak durumunda kalıyorsanız, sizin de artık kendi kütüphanenizi yazmanızın zamanı gelmiş geçiyor demektir. Böyle bir durum söz konusu olmak zorunda değil tabi library oluşturmak için 🙂"
+keywords = ["yazilim", "sofware", "android", "java", "library", "bintray", "gradle"]
+tags = ["software", "android", "java", "library", "bintray", "gradle"]
 title = "Android Library & Bintray"
 url = "android-create-library-upload-bintray"
-keywords = [
-  "yazilim",
-  "sofware","android","java","library","bintray","gradle"
-]
-date = "2017-01-11T17:27:29+03:00"
-tags = [
-  "software","android","java","library","bintray","gradle"
-]
-categories = [
-  "yazilim",
-  "android",
-]
-description = "Android uygulaması yazarken bazı oluşturmuş olduğunuz yapıları tekrar tekrar yazmak durumunda kalıyorsanız, sizin de artık kendi kütüphanenizi yazmanızın zamanı gelmiş geçiyor demektir. Böyle bir durum söz konusu olmak zorunda değil tabi library oluşturmak için 🙂"
 
 +++
 

@@ -1,23 +1,16 @@
 +++
-thumbnailImage = ""
-metaAlignment = "center"
-categories = ["yazilim","test"]
 autoThumbnailImage = false
-thumbnailImagePosition = "top"
-desciption = ""
+categories = ["yazilim", "test"]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
+date = "2017-01-11T00:27:54+03:00"
+desciption = ""
+keywords = ["yazilim", "sofware", "unit test"]
+metaAlignment = "center"
+tags = ["software", "unit test"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "Unit Test Nedir ? Niçin ve Nasıl Yapılır ?"
 url = "unittest-nedir"
-tags = [
-  "software",
-  "unit test"
-]
-keywords = [
-  "yazilim",
-  "sofware",
-  "unit test"
-]
-date = "2017-01-11T00:27:54+03:00"
 
 +++
 

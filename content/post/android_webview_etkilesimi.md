@@ -1,17 +1,12 @@
 +++
+categories = ["yazilim", "android", "java"]
 date = "2017-01-11T19:59:08+03:00"
-title = "Android ile WebView Etkileşimi"
 description = "Android WebView Etkileşimi nasıl yapılır?"
+keywords = ["software", "android", "java", "webview", "addJavascriptInterface", "WebViewClient", "JavascriptInterface"]
+tags = ["sofware", "android", "java", "webview", "addJavascriptInterface", "WebViewClient", "JavascriptInterface"]
+title = "Android ile WebView Etkileşimi"
 url = "android-webview-etkilesimi"
-categories = [
-  "yazilim","android","java"
-]
-keywords = [
-  "software","android","java","webview","addJavascriptInterface","WebViewClient","JavascriptInterface"
-]
-tags = [
-  "sofware","android","java","webview","addJavascriptInterface","WebViewClient","JavascriptInterface"
-]
+
 +++
 
 > Kısa Hikaye : Üstünde çalışmakta olduğum bir projede kredi kartı ile ödeme yapısı kurmam gerekti. Kısaca projenin yapısından bahsedecek olursak

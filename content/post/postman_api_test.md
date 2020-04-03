@@ -1,27 +1,16 @@
 +++
-thumbnailImagePosition = "top"
-categories = [
-  "yazilim",
-  "test"
-]
+autoThumbnailImage = false
+categories = ["yazilim", "test"]
+coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 date = "2017-01-11T01:09:39+03:00"
+desciption = ""
+keywords = ["yazilim", "sofware", "postman", "test", "api"]
+metaAlignment = "center"
+tags = ["software", "postman", "api test"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "Postman ile API Test Yazımı"
 url = "postman-api-test"
-keywords = [
-  "yazilim",
-  "sofware",
-  "postman",
-  "test",
-  "api"
-]
-autoThumbnailImage = false
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-desciption = ""
-metaAlignment = "center"
-thumbnailImage = ""
-tags = [
-  "software","postman","api test"
-]
 
 +++
 

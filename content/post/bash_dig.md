@@ -1,16 +1,17 @@
----
-author: "Aykut Asil"
-date: 2020-03-16T15:17:03+03:00
-lastmod: 2020-03-16T15:17:03+03:00
-title: "Bash Dig Command"
-url: "bash-dig-command"
-weight: 10
-keywords: ["aykuttasil","software"]
-description: "Bash 'dig' command"
-tags: ["software"]
-categories: ["bash","dig","unix"]
-draft: true
----
++++
+author = "Aykut Asil"
+categories = ["bash", "dig", "unix"]
+date = "2020-03-16T15:17:03+03:00"
+description = "Bash 'dig' command"
+draft = true
+keywords = ["aykuttasil", "software"]
+lastmod = "2020-03-16T15:17:03+03:00"
+tags = ["software"]
+title = "Bash Dig Command"
+url = "bash-dig-command"
+weight = 10
+
++++
 
 > `dig google.com`
 

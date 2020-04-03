@@ -1,18 +1,12 @@
 +++
+categories = ["yazilim", "docker"]
 date = "2016-12-25T03:51:49+03:00"
-title = "Docker Container Install nano"
 description = "Docker Nano kurulumu nasıl yapılır?"
+keywords = ["yazilim", "sofware", "docker", "nano", "komut penceresi", "apt-get", "kitematic", "container", "linux"]
+tags = ["docker", "nano", "container", "linux"]
+title = "Docker Container Install nano"
 url = "docker-nano-setup"
 
-categories = [
-  "yazilim","docker"
-]
-tags = [
-  "docker","nano","container","linux"
-]
-keywords = [
-  "yazilim","sofware","docker","nano","komut penceresi","apt-get","kitematic","container","linux"
-]
 +++
 
 Docker ile ayağa kaldırmış olduğunuz bir container olduğunu varsayalım ve bu docker container a erişerek komut satırı çalıştırmanız gerekiyor.

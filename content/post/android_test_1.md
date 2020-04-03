@@ -1,20 +1,21 @@
----
-title: "Android Test"
-url : "android-test"
-date: 2018-09-18T11:51:07+03:00
-lastmod: 2019-03-01T11:51:07+03:00
-draft: false
-keywords: ["android","test","junit","roboloectric","mockito","mock","espresso"]
-description: "Android'e ait tüm bileşenlerin testi nasıl hazırlanır? **Unit Test** ve **Instrumentation Test** arasındaki farklar nedir ve nasıl hazırlanır?"
-tags: ["android","test","junit","roboloectric","mockito","mock","espresso"]
-categories: ["android","test"]
-author: "Aykut Asil"
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: true
-hiddenFromHomePage: false
----
++++
+author = "Aykut Asil"
+autoCollapseToc = false
+categories = ["android", "test"]
+comment = true
+date = "2018-09-18T11:51:07+03:00"
+description = "Android'e ait tüm bileşenlerin testi nasıl hazırlanır? **Unit Test** ve **Instrumentation Test** arasındaki farklar nedir ve nasıl hazırlanır?"
+draft = false
+hiddenFromHomePage = false
+keywords = ["android", "test", "junit", "roboloectric", "mockito", "mock", "espresso"]
+lastmod = "2019-03-01T11:51:07+03:00"
+postMetaInFooter = true
+tags = ["android", "test", "junit", "roboloectric", "mockito", "mock", "espresso"]
+title = "Android Test"
+toc = true
+url = "android-test"
+
++++
 
 > **Not:** Bu yazıyı hazırlarken ben de öğrenme sürecinde olucam. Araştırdığım ve öğrendiğim tüm teknik bilgileri ve yöntemleri, best-practice leri gelişi güzel(karmakarışık değil) bir şekilde yazıcam. Sonrasında zaman bulduğum vakit bir düzenleme yapıcam.
 

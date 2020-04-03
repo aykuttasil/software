@@ -1,22 +1,16 @@
 +++
-title = "Kotlin @JvmOverloads"
-date = 2017-07-09
-url = "kotlin-jvmoverloads"
-description = "Kotlin JvmOverloads Annotations"
-metaAlignment = "center"
-categories = [
-  "yazilim","kotlin","android"
-]
-tags = [
-  "software","kotlin","jvmoverloads","android","annotations"
-]
-keywords = [
-  "yazilim","sofware","kotlin","jvmoverloads"
-]
 autoThumbnailImage = false
-thumbnailImagePosition = "top"
-thumbnailImage = ""
+categories = ["yazilim", "kotlin", "android"]
+date = "2017-07-09T00:00:00+03:00"
+description = "Kotlin JvmOverloads Annotations"
 draft = false
+keywords = ["yazilim", "sofware", "kotlin", "jvmoverloads"]
+metaAlignment = "center"
+tags = ["software", "kotlin", "jvmoverloads", "android", "annotations"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
+title = "Kotlin @JvmOverloads"
+url = "kotlin-jvmoverloads"
 
 +++
 

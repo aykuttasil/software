@@ -1,24 +1,16 @@
 +++
 autoThumbnailImage = false
-date = "2017-01-11T18:14:05+03:00"
-keywords = [
-  "yazilim",
-  "sofware","vscode","typescript","express","nodejs","intellisense"
-]
-title = "VS Code & Express & TypeScript & IntelliSense"
-url = "vscode-intellisense"
-desciption = ""
-metaAlignment = "center"
-categories = [
-  "yazilim",
-  "vscode"
-]
-tags = [
-  "software","vscode","typescript","express","nodejs","intellisense"
-]
+categories = ["yazilim", "vscode"]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
+date = "2017-01-11T18:14:05+03:00"
+desciption = ""
+keywords = ["yazilim", "sofware", "vscode", "typescript", "express", "nodejs", "intellisense"]
+metaAlignment = "center"
+tags = ["software", "vscode", "typescript", "express", "nodejs", "intellisense"]
 thumbnailImage = ""
 thumbnailImagePosition = "top"
+title = "VS Code & Express & TypeScript & IntelliSense"
+url = "vscode-intellisense"
 
 +++
 # VS Code & Express & TypeScript & IntelliSense

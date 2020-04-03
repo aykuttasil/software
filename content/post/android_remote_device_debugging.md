@@ -1,20 +1,21 @@
----
-title: "Android Debugging With Local Web Server"
-url : "android-debugging-local-server"
-date: 2019-08-03T03:14:28+03:00
-lastmod: 2019-08-03T03:14:28+03:00
-draft: false
-keywords: ["android","debugging","local-web-server","windows"]
-description: "Android Debugging With Local Web Server"
-tags: ["android","debugging","local-web-server","windows"]
-categories: ["android","debugging"]
-author: "Aykut Asil"
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: true
-hiddenFromHomePage: false
----
++++
+author = "Aykut Asil"
+autoCollapseToc = false
+categories = ["android", "debugging"]
+comment = true
+date = "2019-08-03T03:14:28+03:00"
+description = "Android Debugging With Local Web Server"
+draft = false
+hiddenFromHomePage = false
+keywords = ["android", "debugging", "local-web-server", "windows"]
+lastmod = "2019-08-03T03:14:28+03:00"
+postMetaInFooter = true
+tags = ["android", "debugging", "local-web-server", "windows"]
+title = "Android Debugging With Local Web Server"
+toc = true
+url = "android-debugging-local-server"
+
++++
 
 Fiziksel Android cihazımızla localimizde çalışan web server'a erişmek, development aşamasında eminim ihtiyaç duyduğunuz veya duyacağınız gereksinimlerden biridir. Bununla beraber local makinenizde bulunan VM üzerinde koşan web server'a erişmek.. Ah harika..
 

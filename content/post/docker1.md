@@ -1,15 +1,16 @@
----
-author: "Aykut Asil"
-date: 2020-04-03T11:12:12+03:00
-lastmod: 2020-04-03T11:12:12+03:00
-title: "Docker Series - 1"
-url: "docker-series-1"
-weight: 10
-keywords: ["aykuttasil","software"]
-description: "Kısa kısa docker"
-tags: ["software","docker","container"]
-categories: ["docker"]
----
++++
+author = "Aykut Asil"
+categories = ["docker"]
+date = "2020-04-03T11:12:12+03:00"
+description = "Kısa kısa docker"
+keywords = ["aykuttasil", "software"]
+lastmod = "2020-04-03T11:12:12+03:00"
+tags = ["software", "docker", "container"]
+title = "Docker Series - 1"
+url = "docker-series-1"
+weight = 10
+
++++
 
 > Docker ile ilgili komut listesine erişmek için komut satırına `docker --help` ya da sadece `docker` yazabilirsiniz.
 

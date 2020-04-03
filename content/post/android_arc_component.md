@@ -1,19 +1,13 @@
----
-title: "Android Architecture Components"
-description: "Android Architecture Components nedir ve nasıl kullanılır?"
-url: "android-architecture-components"
++++
+categories = ["yazilim", "android"]
+date = "2017-08-27"
+description = "Android Architecture Components nedir ve nasıl kullanılır?"
+keywords = ["yazilim", "sofware", "android", "kotlin", "android-architecure", "viewmodel", "livedata", "lifecycle"]
+tags = ["software", "android", "kotlin", "android-architecure", "viewmodel", "livedata", "lifecycle"]
+title = "Android Architecture Components"
+url = "android-architecture-components"
 
-categories: [
-  "yazilim","android"
-]
-tags: [
-  "software","android","kotlin","android-architecure","viewmodel","livedata","lifecycle"
-]
-keywords: [
-  "yazilim","sofware","android","kotlin","android-architecure","viewmodel","livedata","lifecycle"
-]
-date: 2017-08-27
----
++++
 
 ## Android Architecture Components
 

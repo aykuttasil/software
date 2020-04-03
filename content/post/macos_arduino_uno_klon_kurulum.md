@@ -1,24 +1,16 @@
 +++
-categories = [
-  "yazilim",
-  "arduino",
-]
-thumbnailImagePosition = "top"
-thumbnailImage = ""
+autoThumbnailImage = false
+categories = ["yazilim", "arduino"]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 date = "2017-01-11T17:22:38+03:00"
 desciption = ""
+keywords = ["yazilim", "sofware", "arduino", "uno", "klon"]
 metaAlignment = "center"
-keywords = [
-  "yazilim",
-  "sofware","arduino","uno","klon"
-]
+tags = ["software", "arduino", "uno", "klon"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "Mac OS Arduino Uno (Klon) Kurulumu"
 url = "macos-arduino-uno-klon-kurulum"
-tags = [
-  "software","arduino","uno","klon"
-]
-autoThumbnailImage = false
 
 +++
 

@@ -1,23 +1,16 @@
 +++
+autoThumbnailImage = false
+categories = ["yazilim"]
+coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
+date = "2017-01-18T12:09:26+03:00"
 desciption = ""
-tags = [
-  "software","yeoman"
-]
-keywords = [
-  "yazilim",
-  "sofware","yeoman","yeoman scaffolding"
-]
+keywords = ["yazilim", "sofware", "yeoman", "yeoman scaffolding"]
+metaAlignment = "center"
+tags = ["software", "yeoman"]
+thumbnailImage = ""
 thumbnailImagePosition = "top"
 title = "Yeoman Kullanımı"
 url = "yeoman-kullanimi"
-thumbnailImage = ""
-metaAlignment = "center"
-categories = [
-  "yazilim"
-]
-autoThumbnailImage = false
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-date = "2017-01-18T12:09:26+03:00"
 
 +++
 

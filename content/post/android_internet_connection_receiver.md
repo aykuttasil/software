@@ -1,30 +1,16 @@
 +++
-title = "Android Internet Connection Receiver"
-url = "android-internet-connection-receiver"
-metaAlignment = "center"
-categories = [
-  "yazilim",
-  "java",
-  "android"
-]
+autoThumbnailImage = false
+categories = ["yazilim", "java", "android"]
+coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 date = "2017-01-11T01:42:36+03:00"
 desciption = ""
-keywords = [
-  "yazilim",
-  "sofware",
-  "java",
-  "android",
-  "receiver",
-  "broadcast receiver",
-  "internet connection"
-]
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-tags = [
-  "software","java","android","broadcast receiver","internet control"
-]
-autoThumbnailImage = false
-thumbnailImagePosition = "top"
+keywords = ["yazilim", "sofware", "java", "android", "receiver", "broadcast receiver", "internet connection"]
+metaAlignment = "center"
+tags = ["software", "java", "android", "broadcast receiver", "internet control"]
 thumbnailImage = ""
+thumbnailImagePosition = "top"
+title = "Android Internet Connection Receiver"
+url = "android-internet-connection-receiver"
 
 +++
 

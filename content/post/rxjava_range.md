@@ -1,21 +1,12 @@
 +++
+categories = ["yazilim", "android", "rxjava"]
 date = "2017-01-11T18:52:51+03:00"
-title = "RxJava range() Kullanımı"
 description = "RxJava range() Kullanımı"
+keywords = ["yazilim", "sofware", "android", "java", "rxjava"]
+tags = ["software", "android", "java", "rxjava"]
+title = "RxJava range() Kullanımı"
 url = "rxjava-range"
 
-keywords = [
-  "yazilim",
-  "sofware","android","java","rxjava"
-]
-categories = [
-  "yazilim",
-  "android",
-  "rxjava"
-]
-tags = [
-  "software","android","java","rxjava"
-]
 +++
 
 ## RxJava range() Kullanımı

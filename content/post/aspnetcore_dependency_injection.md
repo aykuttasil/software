@@ -1,15 +1,16 @@
----
-title: "Asp.Net Core Dependency Injection"
-url : "aspnetcore-dependency-injection"
-date: 2018-08-11T14:58:39+03:00
-lastmod: 2018-08-11T14:58:39+03:00
-draft: true
-keywords: ["dotnet-core","dotnet","netcore","dependency-injection","di"]
-description: "Asp.Net Core Dependency Injection nasıl kullanılır?"
-tags: ["dotnetcore","dependency-injcection"]
-categories: ["dotnet-core",".netcore"]
-author: "Aykut Asil"
----
++++
+author = "Aykut Asil"
+categories = ["dotnet-core", ".netcore"]
+date = "2018-08-11T14:58:39+03:00"
+description = "Asp.Net Core Dependency Injection nasıl kullanılır?"
+draft = true
+keywords = ["dotnet-core", "dotnet", "netcore", "dependency-injection", "di"]
+lastmod = "2018-08-11T14:58:39+03:00"
+tags = ["dotnetcore", "dependency-injcection"]
+title = "Asp.Net Core Dependency Injection"
+url = "aspnetcore-dependency-injection"
+
++++
 
 ## Dependency Injection
 

@@ -1,16 +1,17 @@
----
-title: "Kotlin DSL ile Json"
-url: "create-json-with-kotlin-dsl"
-date: 2020-01-03T17:19:13+03:00
-lastmod: 2020-01-03T17:19:13+03:00
-draft: false
-keywords: ["kotlin","dsl","json"]
-description: "Kotlin DSL kullanarak Json Objesi nasıl oluşturulur ?"
-tags: ["kotlin","dsl","json"]
-categories: ["kotlin"]
-author: "Aykut Asil"
-comment: true
----
++++
+author = "Aykut Asil"
+categories = ["kotlin"]
+comment = true
+date = "2020-01-03T17:19:13+03:00"
+description = "Kotlin DSL kullanarak Json Objesi nasıl oluşturulur ?"
+draft = false
+keywords = ["kotlin", "dsl", "json"]
+lastmod = "2020-01-03T17:19:13+03:00"
+tags = ["kotlin", "dsl", "json"]
+title = "Kotlin DSL ile Json"
+url = "create-json-with-kotlin-dsl"
+
++++
 
 ## Kotlin DSL kullanarak Json Objesi nasıl oluşturulur ?
 

@@ -1,21 +1,13 @@
 +++
-coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
-desciption = ""
-metaAlignment = "center"
 autoThumbnailImage = false
+categories = ["yazilim", "sql"]
+coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
 date = "2017-01-11T15:50:10+03:00"
-categories = [
-  "yazilim",
-  "sql",
-]
+desciption = ""
+keywords = ["yazilim", "sofware", "mssql", "dbeaver", "macos mssql connection"]
+metaAlignment = "center"
+tags = ["software", "mssql", "dbeaver", "macos mssql connection"]
 thumbnailImage = ""
-tags = [
-  "software","mssql","dbeaver","macos mssql connection"
-]
-keywords = [
-  "yazilim",
-  "sofware","mssql","dbeaver","macos mssql connection"
-]
 thumbnailImagePosition = "top"
 title = "Mac OS ile MSSQL Bağlantısı Kurmak"
 url = "macos-mssql-connection"

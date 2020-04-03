@@ -1,24 +1,16 @@
 +++
-metaAlignment = "center"
-keywords = [
-  "yazilim",
-  "sofware","android","java","viewpager"
-]
-categories = [
-  "yazilim",
-  "android","java"
-]
-tags = [
-  "software","android","java","viewpager"
-]
-thumbnailImagePosition = "top"
-thumbnailImage = ""
-date = "2017-01-11T17:07:51+03:00"
+autoThumbnailImage = false
+categories = ["yazilim", "android", "java"]
 coverImage = "https://c8.staticflickr.com/8/7421/9339731831_9ba94f287c_k.jpg"
+date = "2017-01-11T17:07:51+03:00"
+desciption = ""
+keywords = ["yazilim", "sofware", "android", "java", "viewpager"]
+metaAlignment = "center"
+tags = ["software", "android", "java", "viewpager"]
+thumbnailImage = ""
+thumbnailImagePosition = "top"
 title = "Android ViewPager"
 url = "android-viewpager"
-desciption = ""
-autoThumbnailImage = false
 
 +++
 

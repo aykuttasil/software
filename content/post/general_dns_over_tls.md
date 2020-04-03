@@ -1,20 +1,21 @@
----
-title: "DNS over TLS Nedir?"
-url : "dns-over-tls"
-date: 2018-08-13T00:50:25+03:00
-lastmod: 2018-08-13T00:50:25+03:00
-draft: false
-keywords: ["dns","tls","ssl","dns-over-tls"]
-description: "DNS over TLC nedir?"
-tags: ["dns","tls","ssl","dns-over-tls"]
-categories: ["network"]
-author: "Aykut Asil"
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: true
-hiddenFromHomePage: false
----
++++
+author = "Aykut Asil"
+autoCollapseToc = false
+categories = ["network"]
+comment = true
+date = "2018-08-13T00:50:25+03:00"
+description = "DNS over TLC nedir?"
+draft = false
+hiddenFromHomePage = false
+keywords = ["dns", "tls", "ssl", "dns-over-tls"]
+lastmod = "2018-08-13T00:50:25+03:00"
+postMetaInFooter = true
+tags = ["dns", "tls", "ssl", "dns-over-tls"]
+title = "DNS over TLS Nedir?"
+toc = true
+url = "dns-over-tls"
+
++++
 
 # DNS over TLS Nedir?
 

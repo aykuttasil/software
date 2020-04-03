@@ -1,20 +1,21 @@
----
-title: "CircleCI Configuration"
-url : "circleci-configuration"
-date: 2018-11-27T14:20:45+03:00
-lastmod: 2018-11-27T14:20:45+03:00
-draft: false
-keywords: ["ci","cd","continuous-integration","continuous-deployment","circleci","build","test","deployment"]
-description: "Circle CI/CD"
-tags: ["ci","cd","continuous-integration","continuous-deployment","circleci"]
-categories: ["CI/CD"]
-author: "Aykut Asil"
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: true
-hiddenFromHomePage: false
----
++++
+author = "Aykut Asil"
+autoCollapseToc = false
+categories = ["CI/CD"]
+comment = true
+date = "2018-11-27T14:20:45+03:00"
+description = "Circle CI/CD"
+draft = false
+hiddenFromHomePage = false
+keywords = ["ci", "cd", "continuous-integration", "continuous-deployment", "circleci", "build", "test", "deployment"]
+lastmod = "2018-11-27T14:20:45+03:00"
+postMetaInFooter = true
+tags = ["ci", "cd", "continuous-integration", "continuous-deployment", "circleci"]
+title = "CircleCI Configuration"
+toc = true
+url = "circleci-configuration"
+
++++
 
 ## CI/CD
 

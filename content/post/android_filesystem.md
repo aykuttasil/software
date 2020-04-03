@@ -1,20 +1,21 @@
----
-title: "Android File System"
-url : "android-filesystem"
-date: 2019-06-27T14:00:59+03:00
-lastmod: 2019-06-27T14:00:59+03:00
-draft: false
-keywords: ["android","fileprovider","filesystem","uri","share-data","permission","security","file-system"]
-description: "Android FileProvider"
-tags: ["android","fileprovider","filesystem","uri","share-data","permission","security"]
-categories: ["android","security"]
-author: "Aykut Asil"
-comment: true
-toc: true
-autoCollapseToc: false
-postMetaInFooter: true
-hiddenFromHomePage: false
----
++++
+author = "Aykut Asil"
+autoCollapseToc = false
+categories = ["android", "security"]
+comment = true
+date = "2019-06-27T14:00:59+03:00"
+description = "Android FileProvider"
+draft = false
+hiddenFromHomePage = false
+keywords = ["android", "fileprovider", "filesystem", "uri", "share-data", "permission", "security", "file-system"]
+lastmod = "2019-06-27T14:00:59+03:00"
+postMetaInFooter = true
+tags = ["android", "fileprovider", "filesystem", "uri", "share-data", "permission", "security"]
+title = "Android File System"
+toc = true
+url = "android-filesystem"
+
++++
 
 ## Internal Storage vs External Storage
 
