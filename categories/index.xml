@@ -6,10 +6,19 @@
     <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 Jan 2020 18:13:00 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2020 11:12:12 +0300</lastBuildDate>
     
 	<atom:link href="https://yazilim.aykutasil.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>docker</title>
+      <link>https://yazilim.aykutasil.com/categories/docker/</link>
+      <pubDate>Fri, 03 Apr 2020 11:12:12 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/categories/docker/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>android</title>
@@ -260,15 +269,6 @@
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/categories/java/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>https://yazilim.aykutasil.com/categories/docker/</link>
-      <pubDate>Wed, 11 Jan 2017 19:56:08 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/categories/docker/</guid>
       <description></description>
     </item>
     

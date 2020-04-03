@@ -6,10 +6,21 @@
     <description>Recent content in docker on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 11 Jan 2017 19:56:08 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2020 11:12:12 +0300</lastBuildDate>
     
 	<atom:link href="https://yazilim.aykutasil.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Docker Series - 1</title>
+      <link>https://yazilim.aykutasil.com/docker-series-1/</link>
+      <pubDate>Fri, 03 Apr 2020 11:12:12 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/docker-series-1/</guid>
+      <description>Docker ile ilgili komut listesine erişmek için komut satırına docker --help ya da sadece docker yazabilirsiniz.
+ docker run Docker ile ilgili bir çok temel fonksiyonu docker run komutu ile sağlayabilirsiniz.
+ Hızlıca Docker Hub&amp;lsquo;da bulunan bir image&#39;i makinemize kurmak istiyorsak aşağıdaki komut işimizi görecektir.  docker run ubuntu Yukarıda ki komutu yazdığınızda ilk önce ilgili image dosyasının makinenizde olup olmadığına bakılır ve sonrasında eğer varsa zaten inmiş olan image çalıştırılılr.</description>
+    </item>
     
     <item>
       <title>Docker Komutları</title>
@@ -32,12 +43,10 @@ Local de verilen isimde bir image bulamaz ise cloud da arama yapar, bulur, local
       <guid>https://yazilim.aykutasil.com/docker/</guid>
       <description>DOCKER Docker aldı başını gidiyor. Yeni bir devrim açıyor.
 E haliyle yazılım dünyası buna sessiz kalmamakla beraber bir çok Docker nedir? örnekleri vs. hazırlanıyor.
-Bu nedenle biz Docker nedir? tanımlamasından daha çok hızlı ilerlemeler şeklinde ufak uygulamalar geliştiricez. Bende bu yazı serisiyle paralel şekilde öğrenimimi sağlayacağımı belirtmek isterim ! 🙂
+Bu nedenle biz Docker nedir? tanımlamasından daha çok hızlı ilerlemeler şeklinde ufak uygulamalar geliştiricez. Ben de bu yazı serisiyle paralel şekilde öğrenimimi sağlayacağımı belirtmek isterim ! 🙂
 Başlıyoruz..
 İlk olarak makinemize Docker ı kuralım.
-  Mac: https://docs.docker.com/docker-for-mac/
-  Windows : https://docs.docker.com/docker-for-windows/
-  İndirip kurulumu sağladıktan sonra terminali açarak</description>
+ Mac: https://docs.docker.com/docker-for-mac/ Windows : https://docs.docker.com/docker-for-windows/  İndirip kurulumu sağladıktan sonra terminali açarak</description>
     </item>
     
     <item>

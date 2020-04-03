@@ -6,10 +6,21 @@
     <description>Recent content in software on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 Jan 2020 18:13:00 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2020 11:12:12 +0300</lastBuildDate>
     
 	<atom:link href="https://yazilim.aykutasil.com/tags/software/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Docker Series - 1</title>
+      <link>https://yazilim.aykutasil.com/docker-series-1/</link>
+      <pubDate>Fri, 03 Apr 2020 11:12:12 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/docker-series-1/</guid>
+      <description>Docker ile ilgili komut listesine erişmek için komut satırına docker --help ya da sadece docker yazabilirsiniz.
+ docker run Docker ile ilgili bir çok temel fonksiyonu docker run komutu ile sağlayabilirsiniz.
+ Hızlıca Docker Hub&amp;lsquo;da bulunan bir image&#39;i makinemize kurmak istiyorsak aşağıdaki komut işimizi görecektir.  docker run ubuntu Yukarıda ki komutu yazdığınızda ilk önce ilgili image dosyasının makinenizde olup olmadığına bakılır ve sonrasında eğer varsa zaten inmiş olan image çalıştırılılr.</description>
+    </item>
     
     <item>
       <title>Android Background Location</title>

@@ -6,10 +6,37 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 17 Jan 2020 18:13:00 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2020 11:12:12 +0300</lastBuildDate>
     
 	<atom:link href="https://yazilim.aykutasil.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>container</title>
+      <link>https://yazilim.aykutasil.com/tags/container/</link>
+      <pubDate>Fri, 03 Apr 2020 11:12:12 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/container/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://yazilim.aykutasil.com/tags/docker/</link>
+      <pubDate>Fri, 03 Apr 2020 11:12:12 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://yazilim.aykutasil.com/tags/software/</link>
+      <pubDate>Fri, 03 Apr 2020 11:12:12 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/software/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>android</title>
@@ -35,15 +62,6 @@
       <pubDate>Fri, 17 Jan 2020 18:13:00 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/tags/mobile/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software</title>
-      <link>https://yazilim.aykutasil.com/tags/software/</link>
-      <pubDate>Fri, 17 Jan 2020 18:13:00 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/tags/software/</guid>
       <description></description>
     </item>
     
@@ -894,15 +912,6 @@
     </item>
     
     <item>
-      <title>docker</title>
-      <link>https://yazilim.aykutasil.com/tags/docker/</link>
-      <pubDate>Wed, 11 Jan 2017 19:56:08 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>execute</title>
       <link>https://yazilim.aykutasil.com/tags/execute/</link>
       <pubDate>Wed, 11 Jan 2017 19:26:49 +0300</pubDate>
@@ -1511,15 +1520,6 @@
       <pubDate>Tue, 10 Jan 2017 23:00:03 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/tags/spinner/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>container</title>
-      <link>https://yazilim.aykutasil.com/tags/container/</link>
-      <pubDate>Sun, 25 Dec 2016 03:51:49 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/tags/container/</guid>
       <description></description>
     </item>
     

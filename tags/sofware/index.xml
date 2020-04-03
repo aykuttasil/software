@@ -43,12 +43,10 @@ Local de verilen isimde bir image bulamaz ise cloud da arama yapar, bulur, local
       <guid>https://yazilim.aykutasil.com/docker/</guid>
       <description>DOCKER Docker aldı başını gidiyor. Yeni bir devrim açıyor.
 E haliyle yazılım dünyası buna sessiz kalmamakla beraber bir çok Docker nedir? örnekleri vs. hazırlanıyor.
-Bu nedenle biz Docker nedir? tanımlamasından daha çok hızlı ilerlemeler şeklinde ufak uygulamalar geliştiricez. Bende bu yazı serisiyle paralel şekilde öğrenimimi sağlayacağımı belirtmek isterim ! 🙂
+Bu nedenle biz Docker nedir? tanımlamasından daha çok hızlı ilerlemeler şeklinde ufak uygulamalar geliştiricez. Ben de bu yazı serisiyle paralel şekilde öğrenimimi sağlayacağımı belirtmek isterim ! 🙂
 Başlıyoruz..
 İlk olarak makinemize Docker ı kuralım.
-  Mac: https://docs.docker.com/docker-for-mac/
-  Windows : https://docs.docker.com/docker-for-windows/
-  İndirip kurulumu sağladıktan sonra terminali açarak</description>
+ Mac: https://docs.docker.com/docker-for-mac/ Windows : https://docs.docker.com/docker-for-windows/  İndirip kurulumu sağladıktan sonra terminali açarak</description>
     </item>
     
   </channel>
