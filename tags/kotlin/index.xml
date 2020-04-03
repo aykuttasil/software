@@ -48,7 +48,7 @@ Oluşturduğumuz nesneler eğer activity&#39;nin yaşam döngüsüne bağlı ise
     <item>
       <title>Kotlin @JvmOverloads</title>
       <link>https://yazilim.aykutasil.com/kotlin-jvmoverloads/</link>
-      <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 09 Jul 2017 00:00:00 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/kotlin-jvmoverloads/</guid>
       <description>Kotlin @JvmOverloads Kotlin ile uygulama geliştirmeyi teşvik eden en büyük etkenlerden biri şüphesiz Java dili uyumlu yapısıdır. Her iki tarafdan da birbirlerine referanslar verilebilir.
@@ -59,7 +59,7 @@ fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View { return 
     <item>
       <title>Kotlin Sealed Class</title>
       <link>https://yazilim.aykutasil.com/kotlin-sealed-class/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/kotlin-sealed-class/</guid>
       <description>Kotlin Sealed Class Enum yapısına benzer bir yapıya sahiptir. Ve benzer görevler için kullanılır. Aradaki fark enum lar sabit değer ifade etmek için kullanılırken sealed yapısı normal sınıf gibi fakat enum mantığıyla kullanılır. Yani belli bir duruma ait fonksiyonları bir arada tutmak ve when() gibi fonksiyonlar ile birlikte kullanımını sağlamak için kullanılır.

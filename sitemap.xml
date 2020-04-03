@@ -63,12 +63,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/docker/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/docker/</loc>
     <lastmod>2020-04-03T11:12:12+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/docker/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/docker/</loc>
     <lastmod>2020-04-03T11:12:12+03:00</lastmod>
   </url>
   
@@ -93,12 +93,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/mobile/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/mobile/</loc>
     <lastmod>2020-01-17T18:13:00+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/mobile/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/mobile/</loc>
     <lastmod>2020-01-17T18:13:00+03:00</lastmod>
   </url>
   
@@ -233,12 +233,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/security/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/security/</loc>
     <lastmod>2019-06-27T14:00:59+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/security/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/security/</loc>
     <lastmod>2019-06-27T14:00:59+03:00</lastmod>
   </url>
   
@@ -333,12 +333,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/test/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/test/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/test/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/test/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
   </url>
   
@@ -473,12 +473,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/amp/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/amp/</loc>
     <lastmod>2018-10-10T11:57:46+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/amp/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/amp/</loc>
     <lastmod>2018-10-10T11:57:46+03:00</lastmod>
   </url>
   
@@ -634,62 +634,62 @@
   
   <url>
     <loc>https://yazilim.aykutasil.com/tags/cloud/</loc>
-    <lastmod>2017-07-12T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-12T00:00:00+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://yazilim.aykutasil.com/tags/cloud-dns/</loc>
-    <lastmod>2017-07-12T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-12T00:00:00+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://yazilim.aykutasil.com/tags/custom-dns/</loc>
-    <lastmod>2017-07-12T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-12T00:00:00+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://yazilim.aykutasil.com/tags/domain/</loc>
-    <lastmod>2017-07-12T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-12T00:00:00+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://yazilim.aykutasil.com/tags/gcloud/</loc>
-    <lastmod>2017-07-12T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-12T00:00:00+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://yazilim.aykutasil.com/google_cloud_dns/</loc>
-    <lastmod>2017-07-12T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-12T00:00:00+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://yazilim.aykutasil.com/tags/annotations/</loc>
-    <lastmod>2017-07-09T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-09T00:00:00+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://yazilim.aykutasil.com/tags/jvmoverloads/</loc>
-    <lastmod>2017-07-09T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-09T00:00:00+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://yazilim.aykutasil.com/kotlin-jvmoverloads/</loc>
-    <lastmod>2017-07-09T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-09T00:00:00+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://yazilim.aykutasil.com/tags/enum/</loc>
-    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-01T00:00:00+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://yazilim.aykutasil.com/kotlin-sealed-class/</loc>
-    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-01T00:00:00+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://yazilim.aykutasil.com/tags/sealed/</loc>
-    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-01T00:00:00+03:00</lastmod>
   </url>
   
   <url>
@@ -808,12 +808,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/c#/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/c#/</loc>
     <lastmod>2017-01-16T11:13:16+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/c#/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/c#/</loc>
     <lastmod>2017-01-16T11:13:16+03:00</lastmod>
   </url>
   
@@ -963,12 +963,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/rxjava/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/rxjava/</loc>
     <lastmod>2017-01-11T18:52:51+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/rxjava/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/rxjava/</loc>
     <lastmod>2017-01-11T18:52:51+03:00</lastmod>
   </url>
   
@@ -1018,12 +1018,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/vscode/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/vscode/</loc>
     <lastmod>2017-01-11T18:14:05+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/vscode/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/vscode/</loc>
     <lastmod>2017-01-11T18:14:05+03:00</lastmod>
   </url>
   
@@ -1093,12 +1093,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/sql/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/sql/</loc>
     <lastmod>2017-01-11T17:20:37+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/sql/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/sql/</loc>
     <lastmod>2017-01-11T17:20:37+03:00</lastmod>
   </url>
   
@@ -1454,7 +1454,6 @@
   
   <url>
     <loc>https://yazilim.aykutasil.com/post/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
