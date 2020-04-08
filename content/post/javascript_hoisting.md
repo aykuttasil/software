@@ -7,7 +7,7 @@ keywords = ["aykuttasil", "software", "javascript", "hoisting"]
 lastmod = "2020-04-03T15:13:51+03:00"
 tags = ["software", "javascript", "hoisting"]
 title = "Javascript Hoisting"
-url = "javascript_hoisting"
+url = "javascript-hoisting"
 weight = 10
 
 +++
@@ -31,7 +31,7 @@ console.log(username);
 username = "aykuttasil";
 ```
 
-Bu nedenle ekrana `undefined` ,yani **username** değişkeni diye bir değişken var ama henüz tanımlama yapılmamış, yazılır.
+Bu nedenle ekrana `undefined` yazılır. Yani **username** değişkeni diye bir değişken var ama henüz bir değer ataması yapılmamış.
 
 ## Peki ne yapmak gerekir?
 
