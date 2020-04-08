@@ -82,25 +82,31 @@
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-dagger/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
+    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/java-executorservice/">
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/android-dagger/">
+      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/java-executorservice/">
           <header class="post-card-header">
               <span class="post-card-tags">
-              #dagger 
-              #di 
-              #dependency-injection 
-              #android  </span>
+              #software 
+              #Executors 
+              #newCachedThreadPool 
+              #newFixedThreadPool 
+              #newSingleThreadExecutor 
+              #thread 
+              #multithread  </span>
               
-              <h2 class="post-card-title">Android Dagger</h2>
+              <h2 class="post-card-title">Executor newCachedThreadPool() newFixedThreadPool(n) newSingleThreadExecutor()</h2>
           </header>
           <section class="post-card-excerpt">
-               
-                <p>Android Dagger Kullanımı</p>
+              
+                <p>Executor newCachedThreadPool() newFixedThreadPool(n) newSingleThreadExecutor() Thread kullanımı, Java ile multi-threading yazılım geliştiriyorsanız mutlaka ama mutlaka bilmeniz gereken konulardan biridir.
+ThreadPool Gün geldi çattı ve uygulamanız ilk kurulduğu amacın evrimleşmesi sonucu bambaşka bir hale büründü 🙂
+Yani birçok uygulamada gidişat bu yöndedir ve olması gerekende budur.
+Aynı anda 1000 den fazla kullanıcıya cevap verme gereksinimiz var artık. Sadece patron kullanmıyor sonuçta. Ya da patron öyle bir uygulama istemişki ağır işler gerektiriyor. Uzun süreler gerektiren işlemler sonucunda akış tamamlanıyor vs. ...  </p>
               
           </section>
       </a>
@@ -115,28 +121,28 @@
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-test/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)"></div>
+    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/kotlin-apply/">
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/android-test/">
+      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/kotlin-apply/">
           <header class="post-card-header">
               <span class="post-card-tags">
-              #android 
-              #test 
-              #junit 
-              #roboloectric 
-              #mockito 
-              #mock 
-              #espresso  </span>
+              #software 
+              #kotlin 
+              #apply 
+              #extensin function  </span>
               
-              <h2 class="post-card-title">Android Test</h2>
+              <h2 class="post-card-title">Kotlin apply Kullanımı</h2>
           </header>
           <section class="post-card-excerpt">
-               
-                <p>Android'e ait tüm bileşenlerin testi nasıl hazırlanır? <strong>Unit Test</strong> ve <strong>Instrumentation Test</strong> arasındaki farklar nedir ve nasıl hazırlanır?</p>
+              
+                <p>fun &lt;T&gt; T.apply(f: T.() -&gt; Unit): T { f(); return this } apply() tüm tipler için belirlenmiş bir extension function dır. apply() fonksiyonu uygulanan nesnenin özelliklerine direk olarak apply kod bloğu içerisinden erişilebilir.
+var file = File(dir) file.mkdirs() veya Java ile yazacak olursak
+File makeDir(String path) { File result = new File(path); result.mkdirs(); return result; } Bu kodu aşağıdaki yapıya çevirebiliriz.
+File(dir).apply { mkdirs() }  </p>
               
           </section>
       </a>
@@ -152,7 +158,7 @@
 <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-filesystem/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
     </a>    
     
 
