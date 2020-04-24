@@ -68,22 +68,22 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/docker/</loc>
-    <lastmod>2020-04-03T11:12:12+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yazilim.aykutasil.com/categories/docker/</loc>
     <lastmod>2020-04-03T11:12:12+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/android/</loc>
-    <lastmod>2020-01-17T18:13:00+03:00</lastmod>
+    <loc>https://yazilim.aykutasil.com/tags/docker/</loc>
+    <lastmod>2020-04-03T11:12:12+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://yazilim.aykutasil.com/tags/android/</loc>
+    <lastmod>2020-01-17T18:13:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yazilim.aykutasil.com/categories/android/</loc>
     <lastmod>2020-01-17T18:13:00+03:00</lastmod>
   </url>
   
@@ -148,12 +148,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/aspnetcore/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/aspnetcore/</loc>
     <lastmod>2019-11-12T10:17:17+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/aspnetcore/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/aspnetcore/</loc>
     <lastmod>2019-11-12T10:17:17+03:00</lastmod>
   </url>
   
@@ -178,12 +178,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/debugging/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/debugging/</loc>
     <lastmod>2019-08-03T03:14:28+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/debugging/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/debugging/</loc>
     <lastmod>2019-08-03T03:14:28+03:00</lastmod>
   </url>
   
@@ -338,12 +338,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/test/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/test/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/test/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/test/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
   </url>
   
@@ -368,12 +368,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/script/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/script/</loc>
     <lastmod>2018-12-10T00:47:41+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/script/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/script/</loc>
     <lastmod>2018-12-10T00:47:41+03:00</lastmod>
   </url>
   
@@ -458,12 +458,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/dependency-injection/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/dependency-injection/</loc>
     <lastmod>2018-10-12T11:48:08+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/dependency-injection/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/dependency-injection/</loc>
     <lastmod>2018-10-12T11:48:08+03:00</lastmod>
   </url>
   
@@ -568,12 +568,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/iot/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/iot/</loc>
     <lastmod>2018-08-03T22:21:48+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/iot/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/iot/</loc>
     <lastmod>2018-08-03T22:21:48+03:00</lastmod>
   </url>
   
@@ -813,12 +813,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/c#/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/c#/</loc>
     <lastmod>2017-01-16T11:13:16+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/c#/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/c#/</loc>
     <lastmod>2017-01-16T11:13:16+03:00</lastmod>
   </url>
   
@@ -1023,12 +1023,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/vscode/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/vscode/</loc>
     <lastmod>2017-01-11T18:14:05+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/vscode/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/vscode/</loc>
     <lastmod>2017-01-11T18:14:05+03:00</lastmod>
   </url>
   
@@ -1293,12 +1293,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/orm/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/orm/</loc>
     <lastmod>2017-01-11T01:00:19+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/orm/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/orm/</loc>
     <lastmod>2017-01-11T01:00:19+03:00</lastmod>
   </url>
   
@@ -1383,12 +1383,12 @@
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/tags/iis/</loc>
+    <loc>https://yazilim.aykutasil.com/categories/iis/</loc>
     <lastmod>2017-01-10T23:20:12+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yazilim.aykutasil.com/categories/iis/</loc>
+    <loc>https://yazilim.aykutasil.com/tags/iis/</loc>
     <lastmod>2017-01-10T23:20:12+03:00</lastmod>
   </url>
   
