@@ -14,7 +14,7 @@ weight = 10
 
 ### Docker Container'ı Detach modda çalıştırmak
 
-Uygulamanızı yazarken eğer **thread**'ler ile biraz derin bir ilişki kurmuşsanız **daemon** kavramıyla karşılaşmış olabilirsiniz. Kısaca, arka tarafa git ve sessiz sedasız çalışmaya devam et demek diyebiliriz. Ayrıntılı bilgi için -> Google :)
+Uygulamanızı yazarken eğer **thread**'ler ile biraz derin bir ilişki kurmuşsanız **daemon** kavramıyla karşılaşmış olabilirsiniz. Kısaca, "arka tarafa git ve sessiz sedasız çalışmaya devam et" demek diyebiliriz. Ayrıntılı bilgi için -> Google :)
 
 Aynı mantık ile **container**'ımızın arka planda sesiz sedasız çalışmasını isteyebiliriz. **Örneğin** web sitemizi bir container'a kurduk, yerleştirdik ve belli bir port üzerinden dışarıya açtık. Ve artık bu **container** kapanmadan sürekli çalışması gerekiyor ki web sitemize erişebilelim. Bunun için **container**'ımızın arka planda sürekli çalışır modda yani **detach** modda çalışması gerekmektedir. Aşağıdaki komut satırı ile bunu gerçekleştirebiliriz.
 
