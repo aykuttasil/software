@@ -1,27 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>newFixedThreadPool on </title>
-    <link>https://yazilim.aykutasil.com/tags/newfixedthreadpool/</link>
-    <description>Recent content in newFixedThreadPool on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Wed, 11 Jan 2017 18:55:08 +0300</lastBuildDate>
-    
-	<atom:link href="https://yazilim.aykutasil.com/tags/newfixedthreadpool/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Executor newCachedThreadPool() newFixedThreadPool(n) newSingleThreadExecutor()</title>
-      <link>https://yazilim.aykutasil.com/java-executorservice/</link>
-      <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/java-executorservice/</guid>
-      <description>Executor newCachedThreadPool() newFixedThreadPool(n) newSingleThreadExecutor() Thread kullanımı, Java ile multi-threading yazılım geliştiriyorsanız mutlaka ama mutlaka bilmeniz gereken konulardan biridir.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>newFixedThreadPool on</title><link>https://yazilim.aykutasil.com/tags/newfixedthreadpool/</link><description>Recent content in newFixedThreadPool on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Wed, 11 Jan 2017 18:55:08 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/newfixedthreadpool/index.xml" rel="self" type="application/rss+xml"/><item><title>Executor newCachedThreadPool() newFixedThreadPool(n) newSingleThreadExecutor()</title><link>https://yazilim.aykutasil.com/java-executorservice/</link><pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate><guid>https://yazilim.aykutasil.com/java-executorservice/</guid><description>Executor newCachedThreadPool() newFixedThreadPool(n) newSingleThreadExecutor() Thread kullanımı, Java ile multi-threading yazılım geliştiriyorsanız mutlaka ama mutlaka bilmeniz gereken konulardan biridir.
 ThreadPool Gün geldi çattı ve uygulamanız ilk kurulduğu amacın evrimleşmesi sonucu bambaşka bir hale büründü 🙂
 Yani birçok uygulamada gidişat bu yöndedir ve olması gerekende budur.
-Aynı anda 1000 den fazla kullanıcıya cevap verme gereksinimiz var artık. Sadece patron kullanmıyor sonuçta. Ya da patron öyle bir uygulama istemişki ağır işler gerektiriyor. Uzun süreler gerektiren işlemler sonucunda akış tamamlanıyor vs.</description>
-    </item>
-    
-  </channel>
-</rss>
+Aynı anda 1000 den fazla kullanıcıya cevap verme gereksinimiz var artık. Sadece patron kullanmıyor sonuçta. Ya da patron öyle bir uygulama istemişki ağır işler gerektiriyor. Uzun süreler gerektiren işlemler sonucunda akış tamamlanıyor vs.</description></item></channel></rss>

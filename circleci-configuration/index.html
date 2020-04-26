@@ -1,577 +1,85 @@
-<!DOCTYPE html>
-<html lang="en-US" />
-<head>
-    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-
-    <title>CircleCI Configuration &middot; </title>
-
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="shortcut icon" href="https://yazilim.aykutasil.com/favicon.ico" />
-    <link rel="canonical" href="https://yazilim.aykutasil.com/circleci-configuration/" />
-
-     <meta name="description" content="Circle CI/CD" /> 
-
-     
-    
-    <meta name="twitter:card" content="summary"/>
-    
- 
-    <meta name="twitter:title" content="CircleCI Configuration"/>
-    <meta name="twitter:description" content="Circle CI/CD"/>
-    <meta name="twitter:url" content="https://yazilim.aykutasil.com/circleci-configuration" />
-    <meta name="twitter:site" content="@aykuttasil"/>
-
-    <meta property="og:site_name" content="" />
-    <meta property="og:title" content="CircleCI Configuration &middot; My Book" />
-    <meta property="og:url" content="https://yazilim.aykutasil.com/circleci-configuration/" />
-    <meta property="article:publisher" content="https://www.facebook.com/aykuttasil" />
-
-    <meta property="og:type" content="article" />
-    <meta property="og:description" content="Circle CI/CD" />
-
-    <meta property="article:published_time" content="2018-11-27T14:20:45&#43;03:00" />
-    <meta property="article:tag" content="ci" /><meta property="article:tag" content="cd" /><meta property="article:tag" content="continuous-integration" /><meta property="article:tag" content="continuous-deployment" /><meta property="article:tag" content="circleci" />
-
-    <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
-
-    <meta name="generator" content="Hugo 0.69.2" />
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
-    <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/css/casper-two.css" /> 
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
-    
-
-     
-
-</head>
-
-
-<body class="post-template">
-  <div class="site-wrapper"> 
-
-<header class="site-header outer">
-  <div class="inner">
-    <nav class="site-nav">
-      <div class="site-nav-left">
-        <a class="site-nav-logo" href="#"><img src="https://yazilim.aykutasil.com/img/aykutasil.jpg" alt="My Book" /></a>
-
-        <ul class="nav" role="menu">
-        
-        
-        
-            <li class="" role="menuitem">
-              <a href="/">Home</a>
-            </li>
-        
-            <li class="" role="menuitem">
-              <a href="/about/">About me</a>
-            </li>
-        
-            <li class="" role="menuitem">
-              <a href="/tags/android/">Android</a>
-            </li>
-        
-            <li class="" role="menuitem">
-              <a href="/categories/">Categories</a>
-            </li>
-        
-      </ul></div>
-
-      <div class="site-nav-right">
-        <div class="social-links">
-                    <a class="social-link social-link-fb" href="https://www.facebook.com/aykuttasil" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg></a>
-
-                    <a class="social-link social-link-tw" href="https://twitter.com/aykuttasil" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg></a>
-
-                    <a class="social-link" href="https://github.com/aykuttasil" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
-
-                    <a class="social-link" href="https://www.linkedin.com/in/aykuttasil" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 50 512 512"><path d="M150.65,100.682c0,27.992-22.508,50.683-50.273,50.683c-27.765,0-50.273-22.691-50.273-50.683 C50.104,72.691,72.612,50,100.377,50C128.143,50,150.65,72.691,150.65,100.682z M143.294,187.333H58.277V462h85.017V187.333z M279.195,187.333h-81.541V462h81.541c0,0,0-101.877,0-144.181c0-38.624,17.779-61.615,51.807-61.615 c31.268,0,46.289,22.071,46.289,61.615c0,39.545,0,144.181,0,144.181h84.605c0,0,0-100.344,0-173.915 s-41.689-109.131-99.934-109.131s-82.768,45.369-82.768,45.369V187.333z" /></svg></a>
-
-                    <a class="social-link" href="https://medium.com/@aykuttasil" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 195 195"><path d="M46.5340803,65.2157554 C46.6968378,63.6076572 46.0836,62.018231 44.8828198,60.93592 L32.6512605,46.2010582 L32.6512605,44 L70.6302521,44 L99.9859944,108.380952 L125.794585,44 L162,44 L162,46.2010582 L151.542017,56.2281011 C150.640424,56.9153477 150.193188,58.0448862 150.380019,59.1628454 L150.380019,132.837155 C150.193188,133.955114 150.640424,135.084652 151.542017,135.771899 L161.755369,145.798942 L161.755369,148 L110.38282,148 L110.38282,145.798942 L120.963119,135.527337 C122.002801,134.487948 122.002801,134.182246 122.002801,132.592593 L122.002801,73.0417402 L92.585901,147.755438 L88.6106443,147.755438 L54.3622782,73.0417402 L54.3622782,123.115814 C54.0767278,125.221069 54.7759199,127.3406 56.2581699,128.863022 L70.0186741,145.55438 L70.0186741,147.755438 L31,147.755438 L31,145.55438 L44.7605042,128.863022 C46.2319621,127.338076 46.8903838,125.204485 46.5340803,123.115814 L46.5340803,65.2157554 Z"/></svg></a>
-        </div>  
-            
-      </div>
-
-    </nav>  
-
-  </div>
-</header>
-
-<main id="site-main" class="site-main outer" role="main">
-  <div class="inner">
-    
-      <article class="post-full post"> 
-    <header class="post-full-header">
-        <section class="post-full-meta">
-            <time class="post-full-meta-date" datetime="2018-11-27">27 November 2018</time>
-                <span class="date-divider">/</span> <a href="https://yazilim.aykutasil.com/tags/ci/">#ci</a>&nbsp;<a href="https://yazilim.aykutasil.com/tags/cd/">#cd</a>&nbsp;
-        </section>
-        <h1 class="post-full-title">CircleCI Configuration</h1>
-    </header>
-    
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)">
-    </figure>
-
-    <section class="post-full-content">
-        <div class="kg-card-markdown">
-        <h2 id="cicd">CI/CD</h2>
-<p>Uygulamaların <strong>build/test/depleyment</strong> süreçlerini <strong>otomatize</strong> etmemizi sağlayan <strong>CI/CD</strong> kavramları günümüz yazılım dünyasında olmazsa olmaz, bilinmezse ayıp olurlar arasına girmiş bulunmaktadır. Manuel yapılan bu işlemlerin otomatize edilmesi bize ve takım üyelerine çeşitli konularda fayda sağlayacak ve eğer manuel yöntemler ile ilerlendiği takdirde oluşabilecek hataları minimuma indirecektir. Projenizin <strong>build/test/deployment</strong> adımlarında çeşitli sorunlar yaşamaya başlamışsanız ya da başlamadan bitirmek istiyorsanız bu kavramları öğrenmekte fayda var.</p>
-<p>Çeşitli <strong>CI/CD</strong> araçları bulunmaktadır. <strong>Travis, Bitrise, AppCenter, CircleCI</strong> bunlardan bazılarıdır.</p>
-<blockquote>
-<p><strong>Continuous Integration (CI)</strong></p>
-</blockquote>
-<blockquote>
-<p>Sürekli entegrasyon, geliştiricilerin kodlarını erken ve sık olarak, paylaşılan bir reponun master dalına entegre etmelerini teşvik eden bir düşünce sistemidir. Geliştirme yapılan kod sürecin en sonunda entegre edilmektense, gün içerisinde sık sık entegre edilerek testlerin çalıştırılması ve eğer varsa hataların önceden fark edilerek düzeltilmesi sağlanır. Sürekli Entegrasyon, dijital dönüşüm için önemli bir adımdır.</p>
-</blockquote>
-<p><strong>Nedir?</strong></p>
-<ul>
-<li>Her geliştirici, günlük olarak commit yapar. Her commit otomatik olarak build ve testi tetikler. Build ve test başarısız olursa, hızlı bir şekilde onarılır.</li>
-</ul>
-<p><strong>Neden ihtiyaç var?</strong></p>
-<ul>
-<li>Takım verimliliğini ve mutluluğunu geliştir.</li>
-<li>Sorunları bul ve çabuk çöz. Daha yüksek kalite, daha kararlı ürünler bırakın.</li>
-</ul>
-<hr>
-<h2 id="circleci">CircleCI</h2>
-<p>Circle CI, çeşitli pricing modelleri ile birlikte belli kısıtlamalar dahilinde ücretsiz <strong>CI/CD</strong> araçları sunan bir ortam sunar. Hazırlanan konfigurasyon dosyası(<strong>.yml</strong>) ile tüm süreçler(<strong>build/test/deployment</strong>) otomatik olarak işletilebilir.</p>
-<h2 id="configyml">config.yml</h2>
-<h3 id="jobs"><strong>jobs</strong></h3>
-<p>Jobs bloğunun içerisinde ki tüm komutlar circleci konteynerini kullanan tek bir ünitede gerçekleştirilir.</p>
-<p>Jobs ve Steps blokları, konfigurasyon aşamasında daha fazla kontrol ve daha sık geri bildirim sağlayarak sürece hakim olmamız için bir ortam sunar.</p>
-<blockquote>
-<p><strong>workspace</strong></p>
-<ul>
-<li>Tek bir <strong>workflow</strong> içerisindeki <strong>job</strong>&lsquo;lar arasında veri taşımamıza olanak sağlar.</li>
-</ul>
-<p><strong>cache</strong></p>
-<ul>
-<li><strong>Workflow</strong> arasında veri taşınması için cache&rsquo;leme mekanizması kullanılır.</li>
-</ul>
-<p><strong>artifacts</strong></p>
-<ul>
-<li><strong>Workflow</strong> çalışmasını bitirdikten sonra verilerin kalıcı olarak saklanmasını sağlar.</li>
-</ul>
-</blockquote>
-<h4 id="steps"><strong>steps</strong></h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">...
+<!doctype html><html lang=en-us><head><meta http-equiv=content-type content="text/html" charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge,chrome=1"><title>CircleCI Configuration &#183;</title><meta name=HandheldFriendly content="True"><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" href=https://yazilim.aykutasil.com/favicon.ico><link rel=canonical href=https://yazilim.aykutasil.com/circleci-configuration/><meta name=description content="Circle CI/CD"><meta name=twitter:card content="summary"><meta name=twitter:title content="CircleCI Configuration"><meta name=twitter:description content="Circle CI/CD"><meta name=twitter:url content="https://yazilim.aykutasil.com/circleci-configuration"><meta name=twitter:site content="@aykuttasil"><meta property="og:site_name" content><meta property="og:title" content="CircleCI Configuration &#183; My Book"><meta property="og:url" content="https://yazilim.aykutasil.com/circleci-configuration/"><meta property="article:publisher" content="https://www.facebook.com/aykuttasil"><meta property="og:type" content="article"><meta property="og:description" content="Circle CI/CD"><meta property="article:published_time" content="2018-11-27T14:20:45+03:00"><meta property="article:tag" content="ci"><meta property="article:tag" content="cd"><meta property="article:tag" content="continuous-integration"><meta property="article:tag" content="continuous-deployment"><meta property="article:tag" content="circleci"><meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"><meta name=generator content="Hugo 0.69.2"><link rel=stylesheet type=text/css href=https://yazilim.aykutasil.com/built/screen.css><link rel=stylesheet type=text/css href=https://yazilim.aykutasil.com/css/casper-two.css><link rel=stylesheet href=//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css></head><body class=post-template><div class=site-wrapper><header class="site-header outer"><div class=inner><nav class=site-nav><div class=site-nav-left><a class=site-nav-logo href=#><img src=https://yazilim.aykutasil.com/img/aykutasil.jpg alt="My Book"></a><ul class=nav role=menu><li role=menuitem><a href=/>Home</a></li><li role=menuitem><a href=/about/>About me</a></li><li role=menuitem><a href=/tags/android/>Android</a></li><li role=menuitem><a href=/categories/>Categories</a></li></ul></div><div class=site-nav-right><div class=social-links><a class="social-link social-link-fb" href=https://www.facebook.com/aykuttasil target=_blank rel=noopener><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86.0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg></a><a class="social-link social-link-tw" href=https://twitter.com/aykuttasil target=_blank rel=noopener><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088.0 01-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015.0 01-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25.0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688.0 5.063-.875 7.188-2.5-1.25.0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5.0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673.0 01-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228.0 01-1.875-2c-.5-.875-.688-1.813-.688-2.75.0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579.0 011.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48.0 003.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg></a><a class=social-link href=https://github.com/aykuttasil target=_blank rel=noopener><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63.0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577.0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93.0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176.0.0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22.0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22.0 1.606-.015 2.896-.015 3.286.0.315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a><a class=social-link href=https://www.linkedin.com/in/aykuttasil target=_blank rel=noopener><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 50 512 512"><path d="M150.65 100.682c0 27.992-22.508 50.683-50.273 50.683-27.765.0-50.273-22.691-50.273-50.683C50.104 72.691 72.612 50 100.377 50 128.143 50 150.65 72.691 150.65 100.682zM143.294 187.333H58.277V462h85.017V187.333zM279.195 187.333h-81.541V462h81.541s0-101.877.0-144.181c0-38.624 17.779-61.615 51.807-61.615 31.268.0 46.289 22.071 46.289 61.615.0 39.545.0 144.181.0 144.181h84.605s0-100.344.0-173.915-41.689-109.131-99.934-109.131-82.768 45.369-82.768 45.369V187.333z" /></svg></a><a class=social-link href=https://medium.com/@aykuttasil target=_blank rel=noopener><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 195 195"><path d="M46.5340803 65.2157554C46.6968378 63.6076572 46.0836 62.018231 44.8828198 60.93592L32.6512605 46.2010582V44H70.6302521L99.9859944 108.380952 125.794585 44H162V46.2010582L151.542017 56.2281011C150.640424 56.9153477 150.193188 58.0448862 150.380019 59.1628454V132.837155C150.193188 133.955114 150.640424 135.084652 151.542017 135.771899L161.755369 145.798942V148H110.38282V145.798942L120.963119 135.527337C122.002801 134.487948 122.002801 134.182246 122.002801 132.592593V73.0417402L92.585901 147.755438H88.6106443L54.3622782 73.0417402V123.115814C54.0767278 125.221069 54.7759199 127.3406 56.2581699 128.863022L70.0186741 145.55438V147.755438H31V145.55438L44.7605042 128.863022C46.2319621 127.338076 46.8903838 125.204485 46.5340803 123.115814V65.2157554z"/></svg></a></div></div></nav></div></header><main id=site-main class="site-main outer" role=main><div class=inner><article class="post-full post"><header class=post-full-header><section class=post-full-meta><time class=post-full-meta-date datetime=2018-11-27>27 November 2018</time>
+<span class=date-divider>/</span> <a href=https://yazilim.aykutasil.com/tags/ci/>#ci</a>&nbsp;<a href=https://yazilim.aykutasil.com/tags/cd/>#cd</a>&nbsp;</section><h1 class=post-full-title>CircleCI Configuration</h1></header><figure class=post-full-image style=background-image:url(https://yazilim.aykutasil.com/defimg/4.jpg)></figure><section class=post-full-content><div class=kg-card-markdown><h2 id=cicd>CI/CD</h2><p>Uygulamaların <strong>build/test/depleyment</strong> süreçlerini <strong>otomatize</strong> etmemizi sağlayan <strong>CI/CD</strong> kavramları günümüz yazılım dünyasında olmazsa olmaz, bilinmezse ayıp olurlar arasına girmiş bulunmaktadır. Manuel yapılan bu işlemlerin otomatize edilmesi bize ve takım üyelerine çeşitli konularda fayda sağlayacak ve eğer manuel yöntemler ile ilerlendiği takdirde oluşabilecek hataları minimuma indirecektir. Projenizin <strong>build/test/deployment</strong> adımlarında çeşitli sorunlar yaşamaya başlamışsanız ya da başlamadan bitirmek istiyorsanız bu kavramları öğrenmekte fayda var.</p><p>Çeşitli <strong>CI/CD</strong> araçları bulunmaktadır. <strong>Travis, Bitrise, AppCenter, CircleCI</strong> bunlardan bazılarıdır.</p><blockquote><p><strong>Continuous Integration (CI)</strong></p></blockquote><blockquote><p>Sürekli entegrasyon, geliştiricilerin kodlarını erken ve sık olarak, paylaşılan bir reponun master dalına entegre etmelerini teşvik eden bir düşünce sistemidir. Geliştirme yapılan kod sürecin en sonunda entegre edilmektense, gün içerisinde sık sık entegre edilerek testlerin çalıştırılması ve eğer varsa hataların önceden fark edilerek düzeltilmesi sağlanır. Sürekli Entegrasyon, dijital dönüşüm için önemli bir adımdır.</p></blockquote><p><strong>Nedir?</strong></p><ul><li>Her geliştirici, günlük olarak commit yapar. Her commit otomatik olarak build ve testi tetikler. Build ve test başarısız olursa, hızlı bir şekilde onarılır.</li></ul><p><strong>Neden ihtiyaç var?</strong></p><ul><li>Takım verimliliğini ve mutluluğunu geliştir.</li><li>Sorunları bul ve çabuk çöz. Daha yüksek kalite, daha kararlı ürünler bırakın.</li></ul><hr><h2 id=circleci>CircleCI</h2><p>Circle CI, çeşitli pricing modelleri ile birlikte belli kısıtlamalar dahilinde ücretsiz <strong>CI/CD</strong> araçları sunan bir ortam sunar. Hazırlanan konfigurasyon dosyası(<strong>.yml</strong>) ile tüm süreçler(<strong>build/test/deployment</strong>) otomatik olarak işletilebilir.</p><h2 id=configyml>config.yml</h2><h3 id=jobs><strong>jobs</strong></h3><p>Jobs bloğunun içerisinde ki tüm komutlar circleci konteynerini kullanan tek bir ünitede gerçekleştirilir.</p><p>Jobs ve Steps blokları, konfigurasyon aşamasında daha fazla kontrol ve daha sık geri bildirim sağlayarak sürece hakim olmamız için bir ortam sunar.</p><blockquote><p><strong>workspace</strong></p><ul><li>Tek bir <strong>workflow</strong> içerisindeki <strong>job</strong>&lsquo;lar arasında veri taşımamıza olanak sağlar.</li></ul><p><strong>cache</strong></p><ul><li><strong>Workflow</strong> arasında veri taşınması için cache&rsquo;leme mekanizması kullanılır.</li></ul><p><strong>artifacts</strong></p><ul><li><strong>Workflow</strong> çalışmasını bitirdikten sonra verilerin kalıcı olarak saklanmasını sağlar.</li></ul></blockquote><h4 id=steps><strong>steps</strong></h4><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>...
     steps:
-      - checkout <span style="color:#75715e"># Special step to checkout your source code</span>
-      - run: <span style="color:#75715e"># Run step to execute commands, see</span>
-          <span style="color:#75715e"># circleci.com/docs/2.0/configuration-reference/#run</span>
+      - checkout <span style=color:#75715e># Special step to checkout your source code</span>
+      - run: <span style=color:#75715e># Run step to execute commands, see</span>
+          <span style=color:#75715e># circleci.com/docs/2.0/configuration-reference/#run</span>
           name: Running tests
-          command: make test <span style="color:#75715e"># executable command run in</span>
-          <span style="color:#75715e"># non-login shell with /bin/bash -eo pipefail option</span>
-          <span style="color:#75715e"># by default.</span>
-<span style="color:#75715e">#...</span>
-</code></pre></div><p><strong>steps</strong> bloğu genelde projede bir job oluşturmak için gereken adımları/komutları belirtmemizi sağlar. <strong>checkout</strong> özel bir komuttur ve SSH ile uygulamamızın kaynak kodunun kopyasını alır(<strong>Github,Bitbucket</strong>). <strong>run</strong> bölümünde ise çalıştırılacak komutlar belirtilir.</p>
-<h5 id="checkout"><strong>checkout</strong></h5>
-<p><strong>checkout</strong> komutu proje kaynak kodlarını ilgili repodan(github,bitbucket) çekerek circleci container ı içerisinde klonlar.</p>
-<h5 id="run"><strong>run</strong></h5>
-<p><strong>run</strong> bloğu altında tek bir komut çalıştırılabileceği gibi birden fazla komutun da işlenmesi sağlanabilir. Bunun için aşağıdaki gibi bir düzenlemeye ihtiyaç vardır:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">      - <span style="color:#66d9ef">run</span>:
-          <span style="color:#66d9ef">name</span>: Initialize Keystore File
-          <span style="color:#66d9ef">command</span>: <span style="color:#e6db74">|
-</span><span style="color:#e6db74">             echo &#34;signingKeyAlias=$KEYSTORE_KEY_ALIAS&#34; &gt;&gt; keystore.properties</span>
-             echo <span style="color:#e6db74">&#34;signingKeyAliasPassword=$KEYSTORE_KEY_ALIAS_PASSWORD&#34;</span> &gt;<span style="color:#e6db74">&gt;  keystore.properties</span>
-             echo <span style="color:#e6db74">&#34;signingStoreFile=$KEYSTORE_STORE_FILE&#34;</span> &gt;<span style="color:#e6db74">&gt;  keystore.properties</span>
-             echo <span style="color:#e6db74">&#34;signingStorePassword=$KEYSTORE_STORE_PASSWORD&#34;</span> &gt;<span style="color:#e6db74">&gt;  keystore.properties</span>
+          command: make test <span style=color:#75715e># executable command run in</span>
+          <span style=color:#75715e># non-login shell with /bin/bash -eo pipefail option</span>
+          <span style=color:#75715e># by default.</span>
+<span style=color:#75715e>#...</span>
+</code></pre></div><p><strong>steps</strong> bloğu genelde projede bir job oluşturmak için gereken adımları/komutları belirtmemizi sağlar. <strong>checkout</strong> özel bir komuttur ve SSH ile uygulamamızın kaynak kodunun kopyasını alır(<strong>Github,Bitbucket</strong>). <strong>run</strong> bölümünde ise çalıştırılacak komutlar belirtilir.</p><h5 id=checkout><strong>checkout</strong></h5><p><strong>checkout</strong> komutu proje kaynak kodlarını ilgili repodan(github,bitbucket) çekerek circleci container ı içerisinde klonlar.</p><h5 id=run><strong>run</strong></h5><p><strong>run</strong> bloğu altında tek bir komut çalıştırılabileceği gibi birden fazla komutun da işlenmesi sağlanabilir. Bunun için aşağıdaki gibi bir düzenlemeye ihtiyaç vardır:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yml data-lang=yml>      - <span style=color:#66d9ef>run</span>:
+          <span style=color:#66d9ef>name</span>: Initialize Keystore File
+          <span style=color:#66d9ef>command</span>: <span style=color:#e6db74>|
+</span><span style=color:#e6db74>             echo &#34;signingKeyAlias=$KEYSTORE_KEY_ALIAS&#34; &gt;&gt; keystore.properties</span>
+             echo <span style=color:#e6db74>&#34;signingKeyAliasPassword=$KEYSTORE_KEY_ALIAS_PASSWORD&#34;</span> &gt;<span style=color:#e6db74>&gt;  keystore.properties</span>
+             echo <span style=color:#e6db74>&#34;signingStoreFile=$KEYSTORE_STORE_FILE&#34;</span> &gt;<span style=color:#e6db74>&gt;  keystore.properties</span>
+             echo <span style=color:#e6db74>&#34;signingStorePassword=$KEYSTORE_STORE_PASSWORD&#34;</span> &gt;<span style=color:#e6db74>&gt;  keystore.properties</span>
              cat keystore.properties
-</code></pre></div><h5 id="save_cache"><strong>save_cache</strong></h5>
-<p>Uygulama bağımlılık/dependency dosyalarını cache&rsquo;lemek için kullanılır.</p>
-<h5 id="restore_cache"><strong>restore_cache</strong></h5>
-<p><strong>save_cache</strong> bloğunda cache&rsquo;lenen bağımlılıkların tekrar indirilmeden kullanılmasını sağlar. Bu sayede yalnızca bir kez indirilen bağımlılıklar sayesinde uygun ortamın oluşturulma süresi minumuma inmiş olur.</p>
-<h5 id="store_artifacts"><strong>store_artifacts</strong></h5>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">      - <span style="color:#66d9ef">store_artifacts</span>:
-          <span style="color:#66d9ef">path</span>: app/build/reports
-          <span style="color:#66d9ef">destination</span>: reports
-</code></pre></div><p>Proje dosyalarının derlenmesi sonrasında <strong>app/build/reports</strong> klasörü altında oluşan dosyaların kalıcı olarak saklanmasını sağlar. <strong>CircleCI</strong> panelinde ilgili proje ve derleme bölümünde <strong>artifacts</strong> tabı altında <strong>reports</strong> klasörü içerisinden erişim sağlanabilir.</p>
-<h5 id="store_test_results"><strong>store_test_results</strong></h5>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">      - <span style="color:#66d9ef">store_test_results</span>:
-          <span style="color:#66d9ef">path</span>: app/build/test-results
-</code></pre></div><p>Projenin derlenmesi sonrasında <strong>app/build/test-results</strong> klasörü altında oluşan test dosyalarını saklamak için özel bi komuttur.</p>
-<hr>
-<h2 id="orbs">orbs</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">version: 2.1
+</code></pre></div><h5 id=save_cache><strong>save_cache</strong></h5><p>Uygulama bağımlılık/dependency dosyalarını cache&rsquo;lemek için kullanılır.</p><h5 id=restore_cache><strong>restore_cache</strong></h5><p><strong>save_cache</strong> bloğunda cache&rsquo;lenen bağımlılıkların tekrar indirilmeden kullanılmasını sağlar. Bu sayede yalnızca bir kez indirilen bağımlılıklar sayesinde uygun ortamın oluşturulma süresi minumuma inmiş olur.</p><h5 id=store_artifacts><strong>store_artifacts</strong></h5><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yml data-lang=yml>      - <span style=color:#66d9ef>store_artifacts</span>:
+          <span style=color:#66d9ef>path</span>: app/build/reports
+          <span style=color:#66d9ef>destination</span>: reports
+</code></pre></div><p>Proje dosyalarının derlenmesi sonrasında <strong>app/build/reports</strong> klasörü altında oluşan dosyaların kalıcı olarak saklanmasını sağlar. <strong>CircleCI</strong> panelinde ilgili proje ve derleme bölümünde <strong>artifacts</strong> tabı altında <strong>reports</strong> klasörü içerisinden erişim sağlanabilir.</p><h5 id=store_test_results><strong>store_test_results</strong></h5><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yml data-lang=yml>      - <span style=color:#66d9ef>store_test_results</span>:
+          <span style=color:#66d9ef>path</span>: app/build/test-results
+</code></pre></div><p>Projenin derlenmesi sonrasında <strong>app/build/test-results</strong> klasörü altında oluşan test dosyalarını saklamak için özel bi komuttur.</p><hr><h2 id=orbs>orbs</h2><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>version: 2.1
 orbs:
     hello: circleci/hello-build@0.0.5
 workflows:
-    <span style="color:#e6db74">&#34;Hello Workflow&#34;</span>:
+    <span style=color:#e6db74>&#34;Hello Workflow&#34;</span>:
         jobs:
           - hello/hello-build
-</code></pre></div><p>Önceden hazırlanmış konfigurasyon dosyasını mevcut dosyamıza import ederek hızlıca kullanmamızı sağlar.</p>
-<p>Orblar, yapılandırmanızın basitleştirilmesi, paylaşılması ve projelerin içinde ve genelinde yeniden yapılandırılması için name ile içe aktardığınız veya inline yapılandırdığınız yapılandırma paketleridir.</p>
-<p><strong>Not:</strong> <strong>orgs</strong> bloğunu kullanabilmemiz için version numarası min <strong>2.1</strong> olmalıdır.</p>
-<hr>
-<h2 id="workflows">workflows</h2>
-<p><strong>workflows</strong> bloğu, job ların hazırlanmasını ve bunların çalışma sırasını tanımlamak için kullanılır. <strong>Workflows</strong>&lsquo;lar, hataları daha hızlı çözmenize yardımcı olmak için basit bir yapılandırma anahtarları seti kullanarak karmaşık iş düzenlemesini destekler.</p>
-<ul>
-<li>Gerçek zamanlı durum geri bildirimi ile işleri bağımsız olarak çalıştırma ve sorunları giderme,</li>
-<li>Yalnızca periyodik olarak çalışması gereken işler için iş akışları planlama,</li>
-<li>Verimli sürüm testi için birden çok işi paralel olarak çalıştırma,</li>
-<li>Birden çok platforma hızla dağıtım yapma.</li>
-</ul>
-<hr>
-<h2 id="executor-type">Executor Type</h2>
-<p>CircleCI, Jobs&rsquo;ları üç ortamdan birinde çalıştırmanıza olanak tanır:</p>
-<ul>
-<li>docker</li>
-<li>machine</li>
-<li>macos</li>
-</ul>
-<blockquote>
-<p><strong>Docker</strong> ve <strong>Machine</strong> ortamları arasındaki farklara göz atmak isterseniz &gt; <a href="https://circleci.com/docs/2.0/executor-types/">https://circleci.com/docs/2.0/executor-types/</a></p>
-</blockquote>
-<h3 id="docker">docker</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">jobs:
+</code></pre></div><p>Önceden hazırlanmış konfigurasyon dosyasını mevcut dosyamıza import ederek hızlıca kullanmamızı sağlar.</p><p>Orblar, yapılandırmanızın basitleştirilmesi, paylaşılması ve projelerin içinde ve genelinde yeniden yapılandırılması için name ile içe aktardığınız veya inline yapılandırdığınız yapılandırma paketleridir.</p><p><strong>Not:</strong> <strong>orgs</strong> bloğunu kullanabilmemiz için version numarası min <strong>2.1</strong> olmalıdır.</p><hr><h2 id=workflows>workflows</h2><p><strong>workflows</strong> bloğu, job ların hazırlanmasını ve bunların çalışma sırasını tanımlamak için kullanılır. <strong>Workflows</strong>&lsquo;lar, hataları daha hızlı çözmenize yardımcı olmak için basit bir yapılandırma anahtarları seti kullanarak karmaşık iş düzenlemesini destekler.</p><ul><li>Gerçek zamanlı durum geri bildirimi ile işleri bağımsız olarak çalıştırma ve sorunları giderme,</li><li>Yalnızca periyodik olarak çalışması gereken işler için iş akışları planlama,</li><li>Verimli sürüm testi için birden çok işi paralel olarak çalıştırma,</li><li>Birden çok platforma hızla dağıtım yapma.</li></ul><hr><h2 id=executor-type>Executor Type</h2><p>CircleCI, Jobs&rsquo;ları üç ortamdan birinde çalıştırmanıza olanak tanır:</p><ul><li>docker</li><li>machine</li><li>macos</li></ul><blockquote><p><strong>Docker</strong> ve <strong>Machine</strong> ortamları arasındaki farklara göz atmak isterseniz > <a href=https://circleci.com/docs/2.0/executor-types/>https://circleci.com/docs/2.0/executor-types/</a></p></blockquote><h3 id=docker>docker</h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>jobs:
   build:
     docker:
       - image: buildpack-deps:trusty
-</code></pre></div><h3 id="machine">machine</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">version: <span style="color:#ae81ff">2</span>
+</code></pre></div><h3 id=machine>machine</h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>version: <span style=color:#ae81ff>2</span>
 jobs:
   build:
     machine: true
-</code></pre></div><ul>
-<li><strong>true</strong> = <strong>circleci/classic:latest</strong> : haftada bir güncelleme alır.</li>
-<li><strong>image: circleci/classic:2017-01</strong> : güncelleme almaz. Sabit versiyon.</li>
-<li><strong>circleci/classic:edge</strong> : sık sık güncelle alır.</li>
-</ul>
-<p>Yukarıda ki üç değerden biri olmak zorundadır.</p>
-<p><strong>machine</strong> ile <strong>jobs</strong>&lsquo;lar aşağıdaki özelliklere sahip özel ve geçici bir VM&rsquo;de çalıştırır:</p>
-<table>
-<thead>
-<tr>
-<th>CPUs</th>
-<th>Processor</th>
-<th>RAM</th>
-<th>HD</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2</td>
-<td>Intel(R) Xeon(R) @ 2.3GHz</td>
-<td>8GB</td>
-<td>100GB</td>
-</tr>
-</tbody>
-</table>
-<p><strong>machine</strong> yürütücüsünü kullanmak, uygulamanıza OS kaynaklarına tam erişim sağlar ve <strong>job</strong> ortamı üzerinde tam kontrol sağlar. Bu denetim, <strong>ping</strong> kullanmanız veya sistemi <strong>sysctl</strong> komutlarıyla değiştirmeniz gereken durumlarda yararlı olabilir.</p>
-<p><strong>machine</strong> yürütücüsünü kullanmak, Ruby ve PHP gibi diller için ek paketler indirmeden bir Docker görüntüsü oluşturmanıza da olanak tanır.</p>
-<p><strong>Not:</strong> <strong>machine</strong> kullanmak, gelecekteki fiyatlandırma güncellemesinde ek ücretler gerektirebilir.</p>
-<h3 id="macos">macos</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">jobs:
+</code></pre></div><ul><li><strong>true</strong> = <strong>circleci/classic:latest</strong> : haftada bir güncelleme alır.</li><li><strong>image: circleci/classic:2017-01</strong> : güncelleme almaz. Sabit versiyon.</li><li><strong>circleci/classic:edge</strong> : sık sık güncelle alır.</li></ul><p>Yukarıda ki üç değerden biri olmak zorundadır.</p><p><strong>machine</strong> ile <strong>jobs</strong>&lsquo;lar aşağıdaki özelliklere sahip özel ve geçici bir VM&rsquo;de çalıştırır:</p><table><thead><tr><th>CPUs</th><th>Processor</th><th>RAM</th><th>HD</th></tr></thead><tbody><tr><td>2</td><td>Intel(R) Xeon(R) @ 2.3GHz</td><td>8GB</td><td>100GB</td></tr></tbody></table><p><strong>machine</strong> yürütücüsünü kullanmak, uygulamanıza OS kaynaklarına tam erişim sağlar ve <strong>job</strong> ortamı üzerinde tam kontrol sağlar. Bu denetim, <strong>ping</strong> kullanmanız veya sistemi <strong>sysctl</strong> komutlarıyla değiştirmeniz gereken durumlarda yararlı olabilir.</p><p><strong>machine</strong> yürütücüsünü kullanmak, Ruby ve PHP gibi diller için ek paketler indirmeden bir Docker görüntüsü oluşturmanıza da olanak tanır.</p><p><strong>Not:</strong> <strong>machine</strong> kullanmak, gelecekteki fiyatlandırma güncellemesinde ek ücretler gerektirebilir.</p><h3 id=macos>macos</h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>jobs:
   build:
     macos:
-      xcode: <span style="color:#e6db74">&#34;9.0&#34;</span>
+      xcode: <span style=color:#e6db74>&#34;9.0&#34;</span>
     steps:
-      <span style="color:#75715e"># Commands will execute in macOS container</span>
-      <span style="color:#75715e"># with Xcode 9.0 installed</span>
+      <span style=color:#75715e># Commands will execute in macOS container</span>
+      <span style=color:#75715e># with Xcode 9.0 installed</span>
       - run: xcodebuild -version
-</code></pre></div><p>macOS işletim sistemi ve XCode gerektiren süreçler için <strong>macos</strong> ortamı kullanılabilir.</p>
-<h3 id="multiple-docker-images">Multiple Docker Images</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">jobs:
+</code></pre></div><p>macOS işletim sistemi ve XCode gerektiren süreçler için <strong>macos</strong> ortamı kullanılabilir.</p><h3 id=multiple-docker-images>Multiple Docker Images</h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>jobs:
   build:
     docker:
-    <span style="color:#75715e"># Primary container image where all steps run.</span>
+    <span style=color:#75715e># Primary container image where all steps run.</span>
      - image: buildpack-deps:trusty
-    <span style="color:#75715e"># Secondary container image on common network.</span> 
+    <span style=color:#75715e># Secondary container image on common network.</span> 
      - image: mongo:2.6.8-jessie
-       command: <span style="color:#f92672">[</span>mongod, --smallfiles<span style="color:#f92672">]</span>
+       command: <span style=color:#f92672>[</span>mongod, --smallfiles<span style=color:#f92672>]</span>
 
     working_directory: ~/
 
     steps:
-      <span style="color:#75715e"># command will execute in trusty container</span>
-      <span style="color:#75715e"># and can access mongo on localhost</span>
-      - run: sleep <span style="color:#ae81ff">5</span> <span style="color:#f92672">&amp;&amp;</span> nc -vz localhost <span style="color:#ae81ff">27017</span>
-</code></pre></div><p>Birden çok image belirtilmiş ise ilk belirtilen image ana ortamı sağlar. <strong>steps</strong> bloğu içerisinde belirtilen tüm komutlar ilk <strong>image</strong> ortamı içerisinde çalıştırılır. Tüm <strong>container</strong> lar ortak bir ağ içerisinde çalıştırılır ve ilk container içerisinden <strong>localhost</strong> ile erişim sağlanabilir.</p>
-<hr>
-<h1 id="kaynaklar">Kaynaklar</h1>
-<ul>
-<li><a href="https://circleci.com/docs/2.0/">https://circleci.com/docs/2.0/</a></li>
-</ul>
-    
-        </div>
-    </section>
-
-    <footer class="post-full-footer">
-      <section class="author-card">
-        <img class="author-profile-image" src="https://yazilim.aykutasil.com/img/aykutasil.jpg" alt="Author" />
-        <section class="author-card-content">
-            <h4 class="author-card-name"><a href="https://yazilim.aykutasil.com/">Aykut Asil</a></h4>
-                <p>Software Developer</p>
-        </section>
-      </section>
-    </footer>
-</article>
-    
-    
-    
-
-<div id="disqus_thread"></div>
-<script>
-
-
-
-
-var disqus_config = function () {
-this.page.url = "https:\/\/yazilim.aykutasil.com\/circleci-configuration\/";  
-this.page.identifier = "https:\/\/yazilim.aykutasil.com\/circleci-configuration\/"; 
-};
-
-(function() { 
-var d = document, s = d.createElement('script');
-s.src = 'https://yazilimaykutasil.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
-  </div>
-</main>
-
-
-<aside class="read-next outer">
-  <div class="inner">
-    <div class="read-next-feed">      
-      
-<article class="read-next-card" 
-            style="background-image: url(https://yazilim.aykutasil.com/img/istanbul_marti.jpg);" >
-    <header class="read-next-card-header">
-        <small class="read-next-card-header-sitetitle">&mdash; My Book &mdash;</small>
-        
-        <h3 class="read-next-card-header-title"><a href="https://yazilim.aykutasil.com/tags/ci/">#ci</a></h3>
-    </header>
-    <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
-    </div>
-
-    <div class="read-next-card-content">
-      
-        <ul>
-          <li><a href="https://yazilim.aykutasil.com/android-robolectric/">Robolectric ile UnitTest Yazımı</a></li>            
-        
-          <li><a href="https://yazilim.aykutasil.com/sql-nullif-fonksiyonu-kullanimi/">TSQL NULLIF Fonksiyonu Nedir ve Nasıl Kullanılır</a></li>            
-        
-          <li><a href="https://yazilim.aykutasil.com/docker-series-2/">Docker Series - 2</a></li>            
-        
-          <li><a href="https://yazilim.aykutasil.com/rxjava-reduce/">RxJava reduce() Kullanımı</a></li>            
-        </ul>
-    </div>
-    <footer class="read-next-card-footer">
-      
-        <a href="https://yazilim.aykutasil.com/tags/ci/">See all related posts →</a>
-    </footer>
-</article>
-
-
-      
-      <article class="post-card post"> 
-    
-    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-circleci/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
-    </a>    
-    
-
-    <div class="post-card-content">
-      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/android-circleci/">
-          <header class="post-card-header">
-              <span class="post-card-tags">
-              #android 
-              #ci 
-              #cd 
-              #continuous-integration 
-              #continuous-deployment 
-              #circleci 
-              #build 
-              #test 
-              #deployment  </span>
-              
-              <h2 class="post-card-title">Android CircleCI Configuration</h2>
-          </header>
-          <section class="post-card-excerpt">
-               
-                <p>Android Circle CI/CD</p>
-              
-          </section>
-      </a>
-
-      <footer class="post-card-meta">
-          <img class="author-profile-image" src="https://yazilim.aykutasil.com/img/aykutasil.jpg" alt="Author" />
-          <span class="post-card-author"><a href="/">Aykut Asil</a></span>
-      </footer>
-    </div>
-</article>
-      
-      
-      <article class="post-card post"> 
-    
-    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/ssh-surekli-parola-isteme-problemi/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
-    </a>    
-    
-
-    <div class="post-card-content">
-      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/ssh-surekli-parola-isteme-problemi/">
-          <header class="post-card-header">
-              <span class="post-card-tags">
-              #ssh  </span>
-              
-              <h2 class="post-card-title">SSH Sürekli Parola İstemesi Sorunu</h2>
-          </header>
-          <section class="post-card-excerpt">
-               
-                <p>SSH sürekli parola isstemesi problemi ve çözümü</p>
-              
-          </section>
-      </a>
-
-      <footer class="post-card-meta">
-          <img class="author-profile-image" src="https://yazilim.aykutasil.com/img/aykutasil.jpg" alt="Author" />
-          <span class="post-card-author"><a href="/">Aykut Asil</a></span>
-      </footer>
-    </div>
-</article>
-      
-    </div>
-  </div>
-</aside>
-
-<div class="floating-header">
-  <div class="floating-header-logo">
-    <a href="https://yazilim.aykutasil.com/">
-      <img src="https://yazilim.aykutasil.com/img/aykutasil.jpg" alt="" />
-      <span></span>
-    </a>
-  </div>
-  <span class="floating-header-divider">&mdash;</span>
-  <div class="floating-header-title">CircleCI Configuration</div>
-  <div class="floating-header-share">
-    <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/></svg>
-    </div>
-    
-    <a class="floating-header-share-tw" href="https://twitter.com/share?text=CircleCI%20Configuration&amp;url=https%3a%2f%2fyazilim.aykutasil.com%2fcircleci-configuration%2f"
-          onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
-      </a>
-      <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fyazilim.aykutasil.com%2fcircleci-configuration%2f"
-          onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
-      </a>
-  </div>
-
-  <progress class="progress" value="0">
-    <div class="progress-container">
-      <span class="progress-bar"></span>
-    </div>
-  </progress>
-</div>
-
-
-
-<footer class="site-footer outer">
-  <div class="site-footer-content inner">
-    <section class="copyright" style="line-height: 1.3em;">
-      <a href="/">AA</a> © 2018 <br>
-      <span style="font-size: 0.8em; color: #555;">Hugo port of <a href="https://github.com/TryGhost/Casper">Casper 2.1.7</a> by <a href="https://www.telematika.org">EM</a></span>
-    </section>
-    <nav class="site-footer-nav">
-        <a href="/">Latest Posts</a>
-        <a href="https://www.facebook.com/aykuttasil" target="_blank" rel="noopener">Facebook</a>
-        <a href="https://twitter.com/aykuttasil" target="_blank" rel="noopener">Twitter</a>
-        <a href="https://github.com/aykuttasil" target="_blank" rel="noopener">Github</a>
-        <a href="https://www.linkedin.com/in/aykuttasil" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="https://medium.com/@aykuttasil" target="_blank" rel="noopener">Medium</a>
-    </nav>  
-  </div>
-</footer>
-
-</div>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="https://yazilim.aykutasil.com/js/jquery.fitvids.js"></script>
-
-<script>hljs.initHighlightingOnLoad();</script>
-
-
-  <!-- Google Analytics -->
-  <script>
-    var _gaq=[['_setAccount','UA-42457939-6'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g,s)}(document,'script'));
-  </script>
-
-
-    <script>
-
-
-
-
-
-$(document).ready(function () {
-    
-    var $postContent = $(".post-full-content");
-    $postContent.fitVids();
-    
-
-    var progressBar = document.querySelector('progress');
-    var header = document.querySelector('.floating-header');
-    var title = document.querySelector('.post-full-title');
-
-    var lastScrollY = window.scrollY;
-    var lastWindowHeight = window.innerHeight;
-    var lastDocumentHeight = $(document).height();
-    var ticking = false;
-
-    function onScroll() {
-        lastScrollY = window.scrollY;
-        requestTick();
-    }
-
-    function onResize() {
-        lastWindowHeight = window.innerHeight;
-        lastDocumentHeight = $(document).height();
-        requestTick();
-    }
-
-    function requestTick() {
-        if (!ticking) {
-            requestAnimationFrame(update);
-        }
-        ticking = true;
-    }
-
-    function update() {
-        var trigger = title.getBoundingClientRect().top + window.scrollY;
-        var triggerOffset = title.offsetHeight + 35;
-        var progressMax = lastDocumentHeight - lastWindowHeight;
-
-        
-        if (lastScrollY >= trigger + triggerOffset) {
-            header.classList.add('floating-active');
-        } else {
-            header.classList.remove('floating-active');
-        }
-
-        progressBar.setAttribute('max', progressMax);
-        progressBar.setAttribute('value', lastScrollY);
-
-        ticking = false;
-    }
-
-    window.addEventListener('scroll', onScroll, {passive: true});
-    window.addEventListener('resize', onResize, false);
-
-    update();
-});
-</script>
-</body></html>
+      <span style=color:#75715e># command will execute in trusty container</span>
+      <span style=color:#75715e># and can access mongo on localhost</span>
+      - run: sleep <span style=color:#ae81ff>5</span> <span style=color:#f92672>&amp;&amp;</span> nc -vz localhost <span style=color:#ae81ff>27017</span>
+</code></pre></div><p>Birden çok image belirtilmiş ise ilk belirtilen image ana ortamı sağlar. <strong>steps</strong> bloğu içerisinde belirtilen tüm komutlar ilk <strong>image</strong> ortamı içerisinde çalıştırılır. Tüm <strong>container</strong> lar ortak bir ağ içerisinde çalıştırılır ve ilk container içerisinden <strong>localhost</strong> ile erişim sağlanabilir.</p><hr><h1 id=kaynaklar>Kaynaklar</h1><ul><li><a href=https://circleci.com/docs/2.0/>https://circleci.com/docs/2.0/</a></li></ul></div></section><footer class=post-full-footer><section class=author-card><img class=author-profile-image src=https://yazilim.aykutasil.com/img/aykutasil.jpg alt=Author><section class=author-card-content><h4 class=author-card-name><a href=https://yazilim.aykutasil.com/>Aykut Asil</a></h4><p>Software Developer</p></section></section></footer></article><div id=disqus_thread></div><script>var disqus_config=function(){this.page.url="https:\/\/yazilim.aykutasil.com\/circleci-configuration\/";this.page.identifier="https:\/\/yazilim.aykutasil.com\/circleci-configuration\/";};(function(){var d=document,s=d.createElement('script');s.src='https://yazilimaykutasil.disqus.com/embed.js';s.setAttribute('data-timestamp',+new Date());(d.head||d.body).appendChild(s);})();</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript></div></main><aside class="read-next outer"><div class=inner><div class=read-next-feed><article class=read-next-card style=background-image:url(https://yazilim.aykutasil.com/img/istanbul_marti.jpg)><header class=read-next-card-header><small class=read-next-card-header-sitetitle>&mdash; My Book &mdash;</small><h3 class=read-next-card-header-title><a href=https://yazilim.aykutasil.com/tags/ci/>#ci</a></h3></header><div class=read-next-divider><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg></div><div class=read-next-card-content><ul><li><a href=https://yazilim.aykutasil.com/postman-api-test/>Postman ile API Test Yazımı</a></li><li><a href=https://yazilim.aykutasil.com/docker-series-1/>Docker Series - 1</a></li><li><a href=https://yazilim.aykutasil.com/android-internet-connection-receiver/>Android Internet Connection Receiver</a></li><li><a href=https://yazilim.aykutasil.com/android-runtime-permission/>Android Runtime Permission</a></li></ul></div><footer class=read-next-card-footer><a href=https://yazilim.aykutasil.com/tags/ci/>See all related posts →</a></footer></article><article class="post-card post"><a class=post-card-image-link href=https://yazilim.aykutasil.com/android-circleci/><div class=post-card-image style=background-image:url(https://yazilim.aykutasil.com/defimg/7.jpg)></div></a><div class=post-card-content><a class=post-card-content-link href=https://yazilim.aykutasil.com/android-circleci/><header class=post-card-header><span class=post-card-tags>#android
+#ci
+#cd
+#continuous-integration
+#continuous-deployment
+#circleci
+#build
+#test
+#deployment</span><h2 class=post-card-title>Android CircleCI Configuration</h2></header><section class=post-card-excerpt><p>Android Circle CI/CD</p></section></a><footer class=post-card-meta><img class=author-profile-image src=https://yazilim.aykutasil.com/img/aykutasil.jpg alt=Author>
+<span class=post-card-author><a href=/>Aykut Asil</a></span></footer></div></article><article class="post-card post"><a class=post-card-image-link href=https://yazilim.aykutasil.com/ssh-surekli-parola-isteme-problemi/><div class=post-card-image style=background-image:url(https://yazilim.aykutasil.com/defimg/5.jpg)></div></a><div class=post-card-content><a class=post-card-content-link href=https://yazilim.aykutasil.com/ssh-surekli-parola-isteme-problemi/><header class=post-card-header><span class=post-card-tags>#ssh</span><h2 class=post-card-title>SSH Sürekli Parola İstemesi Sorunu</h2></header><section class=post-card-excerpt><p>SSH sürekli parola isstemesi problemi ve çözümü</p></section></a><footer class=post-card-meta><img class=author-profile-image src=https://yazilim.aykutasil.com/img/aykutasil.jpg alt=Author>
+<span class=post-card-author><a href=/>Aykut Asil</a></span></footer></div></article></div></div></aside><div class=floating-header><div class=floating-header-logo><a href=https://yazilim.aykutasil.com/><img src=https://yazilim.aykutasil.com/img/aykutasil.jpg alt>
+<span></span></a></div><span class=floating-header-divider>&mdash;</span><div class=floating-header-title>CircleCI Configuration</div><div class=floating-header-share><div class=floating-header-share-label>Share this<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.5 15.5V4a1.5 1.5.0 113 0v4.5h2a1 1 0 011 1h2a1 1 0 011 1H18a1.5 1.5.0 011.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2.0 011.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/></svg></div><a class=floating-header-share-tw href="https://twitter.com/share?text=CircleCI%20Configuration&url=https%3a%2f%2fyazilim.aykutasil.com%2fcircleci-configuration%2f" onclick="window.open(this.href,'share-twitter','width=550,height=235');return false;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088.0 01-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015.0 01-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25.0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688.0 5.063-.875 7.188-2.5-1.25.0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5.0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673.0 01-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228.0 01-1.875-2c-.5-.875-.688-1.813-.688-2.75.0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579.0 011.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48.0 003.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg></a><a class=floating-header-share-fb href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fyazilim.aykutasil.com%2fcircleci-configuration%2f" onclick="window.open(this.href,'share-facebook','width=580,height=296');return false;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86.0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg></a></div><progress class=progress value=0><div class=progress-container><span class=progress-bar></span></div></progress></div><footer class="site-footer outer"><div class="site-footer-content inner"><section class=copyright style=line-height:1.3em><a href=/>AA</a> © 2018<br><span style=font-size:.8em;color:#555>Hugo port of <a href=https://github.com/TryGhost/Casper>Casper 2.1.7</a> by <a href=https://www.telematika.org>EM</a></span></section><nav class=site-footer-nav><a href=/>Latest Posts</a>
+<a href=https://www.facebook.com/aykuttasil target=_blank rel=noopener>Facebook</a>
+<a href=https://twitter.com/aykuttasil target=_blank rel=noopener>Twitter</a>
+<a href=https://github.com/aykuttasil target=_blank rel=noopener>Github</a>
+<a href=https://www.linkedin.com/in/aykuttasil target=_blank rel=noopener>LinkedIn</a>
+<a href=https://medium.com/@aykuttasil target=_blank rel=noopener>Medium</a></nav></div></footer></div><script type=text/javascript src=//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js></script><script type=text/javascript src=//code.jquery.com/jquery-3.2.1.min.js></script><script type=text/javascript src=https://yazilim.aykutasil.com/js/jquery.fitvids.js></script><script>hljs.initHighlightingOnLoad();</script><script>var _gaq=[['_setAccount','UA-42457939-6'],['_trackPageview']];(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'));</script><script>$(document).ready(function(){var $postContent=$(".post-full-content");$postContent.fitVids();var progressBar=document.querySelector('progress');var header=document.querySelector('.floating-header');var title=document.querySelector('.post-full-title');var lastScrollY=window.scrollY;var lastWindowHeight=window.innerHeight;var lastDocumentHeight=$(document).height();var ticking=false;function onScroll(){lastScrollY=window.scrollY;requestTick();}
+function onResize(){lastWindowHeight=window.innerHeight;lastDocumentHeight=$(document).height();requestTick();}
+function requestTick(){if(!ticking){requestAnimationFrame(update);}
+ticking=true;}
+function update(){var trigger=title.getBoundingClientRect().top+window.scrollY;var triggerOffset=title.offsetHeight+35;var progressMax=lastDocumentHeight-lastWindowHeight;if(lastScrollY>=trigger+triggerOffset){header.classList.add('floating-active');}else{header.classList.remove('floating-active');}
+progressBar.setAttribute('max',progressMax);progressBar.setAttribute('value',lastScrollY);ticking=false;}
+window.addEventListener('scroll',onScroll,{passive:true});window.addEventListener('resize',onResize,false);update();});</script></body></html>

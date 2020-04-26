@@ -1,35 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>retrofit on </title>
-    <link>https://yazilim.aykutasil.com/tags/retrofit/</link>
-    <description>Recent content in retrofit on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Wed, 17 May 2017 11:58:43 +0300</lastBuildDate>
-    
-	<atom:link href="https://yazilim.aykutasil.com/tags/retrofit/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Retrofit Oauth</title>
-      <link>https://yazilim.aykutasil.com/retrofit_oauth/</link>
-      <pubDate>Wed, 17 May 2017 11:58:43 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/retrofit_oauth/</guid>
-      <description>Retrofit Oauth Entegrasyonu Oauth, kısaca anlatmak gerekirse; Kullanıcı ile ilgili her türlü (izin,yetki,güvenlik vs.) etkileşimi standartlaştıran bir yapı diyebiliriz. Google amcaya sorarsanız neler yapabileceğiniz ile ilgili birçok kaynak bulabilirsiniz. Veya buraya bakabilirsiniz.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>retrofit on</title><link>https://yazilim.aykutasil.com/tags/retrofit/</link><description>Recent content in retrofit on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Wed, 17 May 2017 11:58:43 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/retrofit/index.xml" rel="self" type="application/rss+xml"/><item><title>Retrofit Oauth</title><link>https://yazilim.aykutasil.com/retrofit_oauth/</link><pubDate>Wed, 17 May 2017 11:58:43 +0300</pubDate><guid>https://yazilim.aykutasil.com/retrofit_oauth/</guid><description>Retrofit Oauth Entegrasyonu Oauth, kısaca anlatmak gerekirse; Kullanıcı ile ilgili her türlü (izin,yetki,güvenlik vs.) etkileşimi standartlaştıran bir yapı diyebiliriz. Google amcaya sorarsanız neler yapabileceğiniz ile ilgili birçok kaynak bulabilirsiniz. Veya buraya bakabilirsiniz.
 Burada bahsedecek olduğumuz şey Android mobil uygulamanızdan bir istek yaptığınızda tüm bu oauth işlemlerinizi otomatize etmek üzerine olacak.
-Nasıl Çalışıyor? Kısaca anlatılan bu yazıyı okuduğunuzda günün sonunda elimizde bir token olduğunu ve bu tokenı request headerımıza ekleyerek backend kısmında kontrolünü sağladığımızı ve duruma göre cevap döndüğümüzü göreceksiniz.</description>
-    </item>
-    
-    <item>
-      <title>Retrofit Multipart File Upload</title>
-      <link>https://yazilim.aykutasil.com/retrofit-multipart-file-upload/</link>
-      <pubDate>Wed, 11 Jan 2017 01:50:51 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/retrofit-multipart-file-upload/</guid>
-      <description>Retrofit Multipart File Upload @DebugLog public BelgeResponse BelgeSync(BelgeRequest request, String apiVersion, String appVersion) { try { Map&amp;lt;String, RequestBody&amp;gt; map = new HashMap&amp;lt;&amp;gt;(); String belgeDirPath = SuperHelper.getInternalIztopBelgeDir(mContext, request.getGonderiNo()); File belgeDir = new File(belgeDirPath); boolean isDir = belgeDir.isDirectory(); if (isDir) { File[] files = belgeDir.listFiles(); for (File file : files) { RequestBody requestBody = RequestBody.create(MediaType.parse(&amp;#34;image/jpg&amp;#34;), file); map.put(&amp;#34;file\&amp;#34;; filename=\&amp;#34;&amp;#34; + file.getName(), requestBody); } } //RequestBody requestBodyGonderiNo = RequestBody.create(MediaType.parse(&amp;#34;text/plain&amp;#34;), request.getGonderiNo());  //RequestBody requestBodyMusId = RequestBody.</description>
-    </item>
-    
-  </channel>
-</rss>
+Nasıl Çalışıyor? Kısaca anlatılan bu yazıyı okuduğunuzda günün sonunda elimizde bir token olduğunu ve bu tokenı request headerımıza ekleyerek backend kısmında kontrolünü sağladığımızı ve duruma göre cevap döndüğümüzü göreceksiniz.</description></item><item><title>Retrofit Multipart File Upload</title><link>https://yazilim.aykutasil.com/retrofit-multipart-file-upload/</link><pubDate>Wed, 11 Jan 2017 01:50:51 +0300</pubDate><guid>https://yazilim.aykutasil.com/retrofit-multipart-file-upload/</guid><description>Retrofit Multipart File Upload @DebugLog public BelgeResponse BelgeSync(BelgeRequest request, String apiVersion, String appVersion) { try { Map&amp;lt;String, RequestBody&amp;gt; map = new HashMap&amp;lt;&amp;gt;(); String belgeDirPath = SuperHelper.getInternalIztopBelgeDir(mContext, request.getGonderiNo()); File belgeDir = new File(belgeDirPath); boolean isDir = belgeDir.isDirectory(); if (isDir) { File[] files = belgeDir.listFiles(); for (File file : files) { RequestBody requestBody = RequestBody.create(MediaType.parse(&amp;#34;image/jpg&amp;#34;), file); map.put(&amp;#34;file\&amp;#34;; filename=\&amp;#34;&amp;#34; + file.getName(), requestBody); } } //RequestBody requestBodyGonderiNo = RequestBody.create(MediaType.parse(&amp;#34;text/plain&amp;#34;), request.getGonderiNo()); //RequestBody requestBodyMusId = RequestBody.</description></item></channel></rss>

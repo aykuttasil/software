@@ -1,64 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>mssql on </title>
-    <link>https://yazilim.aykutasil.com/tags/mssql/</link>
-    <description>Recent content in mssql on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Wed, 11 Jan 2017 17:20:37 +0300</lastBuildDate>
-    
-	<atom:link href="https://yazilim.aykutasil.com/tags/mssql/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>SQL SCOPE_IDENTITY()</title>
-      <link>https://yazilim.aykutasil.com/sql-scope-identity/</link>
-      <pubDate>Wed, 11 Jan 2017 17:20:37 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/sql-scope-identity/</guid>
-      <description>Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id&amp;rsquo;sini getirir.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mssql on</title><link>https://yazilim.aykutasil.com/tags/mssql/</link><description>Recent content in mssql on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Wed, 11 Jan 2017 17:20:37 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/mssql/index.xml" rel="self" type="application/rss+xml"/><item><title>SQL SCOPE_IDENTITY()</title><link>https://yazilim.aykutasil.com/sql-scope-identity/</link><pubDate>Wed, 11 Jan 2017 17:20:37 +0300</pubDate><guid>https://yazilim.aykutasil.com/sql-scope-identity/</guid><description>Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id&amp;rsquo;sini getirir.
 Yapılan son kaydın id sini almak için uzun yol olarak insert sorgusunu çalıştırdıktan sonra bir select sorgusu atarak ve order by id desc diyerek ilk sıradaki kaydı okuyabilir ve bu kaydın id sini alabiliriz.
 Tüm bunları yapmaktansa:
-DECLARE @son_satir_id INT; INSERT INTO tbQwerty ( Ad , Soyad ) VALUES ( &amp;#39;Aykut&amp;#39; &amp;#39;Asil&amp;#39; ) SET @son_satir_id = SCOPE_IDENTITY(); Ayrıntılı Bilgi : https://technet.</description>
-    </item>
-    
-    <item>
-      <title>Mac OS ile MSSQL Bağlantısı Kurmak</title>
-      <link>https://yazilim.aykutasil.com/macos-mssql-connection/</link>
-      <pubDate>Wed, 11 Jan 2017 15:50:10 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/macos-mssql-connection/</guid>
-      <description>MSSQL oldukça gelişmiş ve birçok firma – kişi tarafından kullanılan bir veritabanın sistemidir. Oldukça büyük miktarda verinizi, doğru şekilde tasarlayarak tatmin edici derecede hızlı bir şekilde kontrol edebilirsiniz.
+DECLARE @son_satir_id INT; INSERT INTO tbQwerty ( Ad , Soyad ) VALUES ( &amp;#39;Aykut&amp;#39; &amp;#39;Asil&amp;#39; ) SET @son_satir_id = SCOPE_IDENTITY(); Ayrıntılı Bilgi : https://technet.</description></item><item><title>Mac OS ile MSSQL Bağlantısı Kurmak</title><link>https://yazilim.aykutasil.com/macos-mssql-connection/</link><pubDate>Wed, 11 Jan 2017 15:50:10 +0300</pubDate><guid>https://yazilim.aykutasil.com/macos-mssql-connection/</guid><description>MSSQL oldukça gelişmiş ve birçok firma – kişi tarafından kullanılan bir veritabanın sistemidir. Oldukça büyük miktarda verinizi, doğru şekilde tasarlayarak tatmin edici derecede hızlı bir şekilde kontrol edebilirsiniz.
 Senaryomuz şu şekilde;
 Mac OS yüklü bilgisayarımızdan MSSQL yüklü sunucumuza bağlantı kurmak istiyoruz.
 Not : Aşağıda bahsedecek olduğum uygulamayı Windows yüklü bilgisayarınızda da SQL Management Studio alternatifi olarak kullanabilirsiniz.
 Dbeaver http://dbeaver.jkiss.org/download/
-Tüm işletim sistemleri için sürüm mevcuttur. Kendi işletim sisteminize göre olanı indirip kullanmaya başlayabilirsiniz.</description>
-    </item>
-    
-    <item>
-      <title>SQL Management Studio Custom Generate Scripts</title>
-      <link>https://yazilim.aykutasil.com/sqlmanagement-custom-generate-scripts/</link>
-      <pubDate>Wed, 11 Jan 2017 15:39:47 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/sqlmanagement-custom-generate-scripts/</guid>
-      <description>SQL Management Studio kullanarak MSSQL e erişim yapmanız size birçok fayda sağlayacaktır. Tabi dezavantajları da yok değil !.
+Tüm işletim sistemleri için sürüm mevcuttur. Kendi işletim sisteminize göre olanı indirip kullanmaya başlayabilirsiniz.</description></item><item><title>SQL Management Studio Custom Generate Scripts</title><link>https://yazilim.aykutasil.com/sqlmanagement-custom-generate-scripts/</link><pubDate>Wed, 11 Jan 2017 15:39:47 +0300</pubDate><guid>https://yazilim.aykutasil.com/sqlmanagement-custom-generate-scripts/</guid><description>SQL Management Studio kullanarak MSSQL e erişim yapmanız size birçok fayda sağlayacaktır. Tabi dezavantajları da yok değil !.
 Senaryomuz şu şekilde; Test veritabanında çalışarak kendinizi production veritabanında izole ettiniz ve güvenlik konusunda bir adım öne geçtiniz. Test veritabanı ile işlemleriniz bittikten sonra artık sıra geldi oluşturmuş olduğumuz tüm yapıları taşımaya ! Bu kısım biraz sıkıcı olsa da SQL Management Studio nun buna getirmiş olduğu kolaylıklar var.
-Oluşturmuş olduğumuz tabloların sadece şemasını yani içiindeki veriler olmaksızın taşımak istersek, ( ki bu durum default olarak yapılandıırlmış durumdur ) işimiz oldukça kolay.</description>
-    </item>
-    
-    <item>
-      <title>TSQL NULLIF Fonksiyonu Nedir ve Nasıl Kullanılır</title>
-      <link>https://yazilim.aykutasil.com/sql-nullif-fonksiyonu-kullanimi/</link>
-      <pubDate>Tue, 10 Jan 2017 23:08:34 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/sql-nullif-fonksiyonu-kullanimi/</guid>
-      <description>TSQL NULLIF fonksiyonu NULLIF fonksiyonu verilen iki parametre birbirine esit ise NULL deger döndürür eger degerleri fakli iki parametre verilirse sonuç olarak birinci parametrenin degerini döndürür.
+Oluşturmuş olduğumuz tabloların sadece şemasını yani içiindeki veriler olmaksızın taşımak istersek, ( ki bu durum default olarak yapılandıırlmış durumdur ) işimiz oldukça kolay.</description></item><item><title>TSQL NULLIF Fonksiyonu Nedir ve Nasıl Kullanılır</title><link>https://yazilim.aykutasil.com/sql-nullif-fonksiyonu-kullanimi/</link><pubDate>Tue, 10 Jan 2017 23:08:34 +0300</pubDate><guid>https://yazilim.aykutasil.com/sql-nullif-fonksiyonu-kullanimi/</guid><description>TSQL NULLIF fonksiyonu NULLIF fonksiyonu verilen iki parametre birbirine esit ise NULL deger döndürür eger degerleri fakli iki parametre verilirse sonuç olarak birinci parametrenin degerini döndürür.
 Kullanimi ve anlamasi kolay bir fonksiyon oldugu için basit bir örnekle anlatmaya çalisalim.
 Ilk olarak kullanacagimiz geçici tabloyu asagidaki gibi çalistirip içine insert komutu ile veri kaydedelim.
-CREATE TABLE #Urun ( UrunID TINYINT, ListeFiyati DECIMAL NULL); GO INSERT #Urun VALUES(1,100); INSERT #Urun VALUES(2,NULL); INSERT #Urun VALUES(3,0); INSERT #Urun VALUES(7,250); INSERT #Urun VALUES(9,458); ListeFiyati kolonuna göre count yaparsak sonuç olarak 4 dönecegini görürsünüz, çünkü UrunID’si 2 olan ürünün liste fiyati girilmemistir.</description>
-    </item>
-    
-  </channel>
-</rss>
+CREATE TABLE #Urun ( UrunID TINYINT, ListeFiyati DECIMAL NULL); GO INSERT #Urun VALUES(1,100); INSERT #Urun VALUES(2,NULL); INSERT #Urun VALUES(3,0); INSERT #Urun VALUES(7,250); INSERT #Urun VALUES(9,458); ListeFiyati kolonuna göre count yaparsak sonuç olarak 4 dönecegini görürsünüz, çünkü UrunID’si 2 olan ürünün liste fiyati girilmemistir.</description></item></channel></rss>

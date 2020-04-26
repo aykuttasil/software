@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>sealed on </title>
-    <link>https://yazilim.aykutasil.com/tags/sealed/</link>
-    <description>Recent content in sealed on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0300</lastBuildDate>
-    
-	<atom:link href="https://yazilim.aykutasil.com/tags/sealed/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Kotlin Sealed Class</title>
-      <link>https://yazilim.aykutasil.com/kotlin-sealed-class/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/kotlin-sealed-class/</guid>
-      <description>Kotlin Sealed Class Enum yapısına benzer bir yapıya sahiptir. Ve benzer görevler için kullanılır. Aradaki fark enum lar sabit değer ifade etmek için kullanılırken sealed yapısı normal sınıf gibi fakat enum mantığıyla kullanılır. Yani belli bir duruma ait fonksiyonları bir arada tutmak ve when() gibi fonksiyonlar ile birlikte kullanımını sağlamak için kullanılır.
-// Sealed class enum yapısına benzer  // Bir durum için belli başlı akışları bir arada tutmamızı sağlar ve bu akışların yönetimini kolaylaştırır.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>sealed on</title><link>https://yazilim.aykutasil.com/tags/sealed/</link><description>Recent content in sealed on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/sealed/index.xml" rel="self" type="application/rss+xml"/><item><title>Kotlin Sealed Class</title><link>https://yazilim.aykutasil.com/kotlin-sealed-class/</link><pubDate>Sat, 01 Jul 2017 00:00:00 +0300</pubDate><guid>https://yazilim.aykutasil.com/kotlin-sealed-class/</guid><description>Kotlin Sealed Class Enum yapısına benzer bir yapıya sahiptir. Ve benzer görevler için kullanılır. Aradaki fark enum lar sabit değer ifade etmek için kullanılırken sealed yapısı normal sınıf gibi fakat enum mantığıyla kullanılır. Yani belli bir duruma ait fonksiyonları bir arada tutmak ve when() gibi fonksiyonlar ile birlikte kullanımını sağlamak için kullanılır.
+// Sealed class enum yapısına benzer // Bir durum için belli başlı akışları bir arada tutmamızı sağlar ve bu akışların yönetimini kolaylaştırır.</description></item></channel></rss>

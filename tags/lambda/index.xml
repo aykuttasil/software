@@ -1,26 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>lambda on </title>
-    <link>https://yazilim.aykutasil.com/tags/lambda/</link>
-    <description>Recent content in lambda on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Sun, 18 Jun 2017 02:24:37 +0300</lastBuildDate>
-    
-	<atom:link href="https://yazilim.aykutasil.com/tags/lambda/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Kotlin Lambda</title>
-      <link>https://yazilim.aykutasil.com/kotlin-lambda/</link>
-      <pubDate>Sun, 18 Jun 2017 02:24:37 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/kotlin-lambda/</guid>
-      <description>Kotlin Lambda Kullanımı Kotlin dili ile geliştirme yaparken fonksiyonel programlama nimetlerinden faydalanmamızı sağlayan lambda birçok konuda bize yardımcı olacaktır. Doğru kullanımını öğrendiğimiz ölçüde nimetlerinin farkına varabiliriz.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>lambda on</title><link>https://yazilim.aykutasil.com/tags/lambda/</link><description>Recent content in lambda on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sun, 18 Jun 2017 02:24:37 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/lambda/index.xml" rel="self" type="application/rss+xml"/><item><title>Kotlin Lambda</title><link>https://yazilim.aykutasil.com/kotlin-lambda/</link><pubDate>Sun, 18 Jun 2017 02:24:37 +0300</pubDate><guid>https://yazilim.aykutasil.com/kotlin-lambda/</guid><description>Kotlin Lambda Kullanımı Kotlin dili ile geliştirme yaparken fonksiyonel programlama nimetlerinden faydalanmamızı sağlayan lambda birçok konuda bize yardımcı olacaktır. Doğru kullanımını öğrendiğimiz ölçüde nimetlerinin farkına varabiliriz.
 Belli başlı lambda kullanımları için aşağıdaki örneği inceleyebilirsiniz.
-override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_kotlin_lambda) // Normal Kullanım  ButtonPress.setOnClickListener(object : View.OnClickListener { override fun onClick(view: View?) { toast(&amp;#34;Press Me Click&amp;#34;) } }) // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz  ButtonPress.setOnClickListener({ v -&amp;gt; toast(&amp;#34;Press Me&amp;#34;) }) // Eğer son parametre lambda fonksiyonu ise bu fonksiyonu parantez &amp;#39;()&amp;#39; dışına çıkarabiliriz.</description>
-    </item>
-    
-  </channel>
-</rss>
+override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_kotlin_lambda) // Normal Kullanım ButtonPress.setOnClickListener(object : View.OnClickListener { override fun onClick(view: View?) { toast(&amp;#34;Press Me Click&amp;#34;) } }) // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz ButtonPress.setOnClickListener({ v -&amp;gt; toast(&amp;#34;Press Me&amp;#34;) }) // Eğer son parametre lambda fonksiyonu ise bu fonksiyonu parantez &amp;#39;()&amp;#39; dışına çıkarabiliriz.</description></item></channel></rss>

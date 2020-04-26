@@ -1,29 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>sqlite on </title>
-    <link>https://yazilim.aykutasil.com/tags/sqlite/</link>
-    <description>Recent content in sqlite on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Wed, 11 Jan 2017 01:00:19 +0300</lastBuildDate>
-    
-	<atom:link href="https://yazilim.aykutasil.com/tags/sqlite/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Android ActiveAndroid Kullanımı</title>
-      <link>https://yazilim.aykutasil.com/activeandroid/</link>
-      <pubDate>Wed, 11 Jan 2017 01:00:19 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/activeandroid/</guid>
-      <description>Anroid ile ORM (Object Relational Mapping) kullanarak veritabanı işlemlerinizi oldukça kolay yapabilirsiniz.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>sqlite on</title><link>https://yazilim.aykutasil.com/tags/sqlite/</link><description>Recent content in sqlite on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Wed, 11 Jan 2017 01:00:19 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/sqlite/index.xml" rel="self" type="application/rss+xml"/><item><title>Android ActiveAndroid Kullanımı</title><link>https://yazilim.aykutasil.com/activeandroid/</link><pubDate>Wed, 11 Jan 2017 01:00:19 +0300</pubDate><guid>https://yazilim.aykutasil.com/activeandroid/</guid><description>Anroid ile ORM (Object Relational Mapping) kullanarak veritabanı işlemlerinizi oldukça kolay yapabilirsiniz.
 ActiveAndroid kütüphanesi ORM kütüphanelerinden biridir.
 Kütüphaneyi buradan indirebilirsiniz.
 Kullanımı oldukça basittir. Sadece birkaç noktaya özellikle dikkat edilmesi gerekiyor. Bunlardan biri oluşturmuş olduğunuz tabloya yeni alanlar eklediğiniz de tablonuzu güncellemek. Veya herhangi bir sebeple tabloda çeşitli işlemler yapmak.
 Aşağıda kısaca Tablo oluşturmaktan ve gerektiğinde Tablo yu nasıl güncelleyeceğimizden bahsedicem.
-@Table(name = &amp;#34;Items&amp;#34;) public class ModelSampleItem extends Model { @Column(name = &amp;#34;Name&amp;#34;) public String name; @Column(name = &amp;#34;Surname&amp;#34;) public String surname; @Column(name = &amp;#34;Phone&amp;#34;) public String phoneNumber; @Column(name = &amp;#34;Xyz&amp;#34;) public String xyz; @Column(name = &amp;#34;EMail&amp;#34;) public String email; @Column(name = &amp;#34;TryColumn&amp;#34;) public String tryColumn; @Column(name = &amp;#34;Column3&amp;#34;) public String column3; public ModelSampleItem() { super(); } } Yukarıda ki yapıyı kullanarak istediğiniz Tablo yu oluşturmanız mümkün.</description>
-    </item>
-    
-  </channel>
-</rss>
+@Table(name = &amp;#34;Items&amp;#34;) public class ModelSampleItem extends Model { @Column(name = &amp;#34;Name&amp;#34;) public String name; @Column(name = &amp;#34;Surname&amp;#34;) public String surname; @Column(name = &amp;#34;Phone&amp;#34;) public String phoneNumber; @Column(name = &amp;#34;Xyz&amp;#34;) public String xyz; @Column(name = &amp;#34;EMail&amp;#34;) public String email; @Column(name = &amp;#34;TryColumn&amp;#34;) public String tryColumn; @Column(name = &amp;#34;Column3&amp;#34;) public String column3; public ModelSampleItem() { super(); } } Yukarıda ki yapıyı kullanarak istediğiniz Tablo yu oluşturmanız mümkün.</description></item></channel></rss>
