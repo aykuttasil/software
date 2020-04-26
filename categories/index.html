@@ -189,95 +189,99 @@
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/windows-local-iis-kurulumu/">
+    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-spinner-dynamic-text/">
       <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/windows-local-iis-kurulumu/">
+      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/android-spinner-dynamic-text/">
           <header class="post-card-header">
               <span class="post-card-tags">
               #software 
-              #iis 
-              #site 
-              #localwebserver 
-              #hosts  </span>
-              
-              <h2 class="post-card-title">Local IIS Site Kurulumu</h2>
-          </header>
-          <section class="post-card-excerpt">
-              
-                <p>Uygulamanızı geliştirme sırasında Local IIS e sitenizi tanımlamanız gerekebilir. Sanki uzak sunucuda sitenizi custom domain ile host eder gibi (yani site kodlarınızı uzaktaki hostunuzda çalıştırır gibi) çalıştırabilirsiniz. İstediğiniz domain adresini belirtebilir, işlemlerinizi bu domaini kullanarak gerçekleştirebilirsiniz. Eğer bu yazıyı okuyor iseniz muhtemelen bunu yapmaya gerek duymuşsunuzdur.
-İlk olarak windows yüklü bilgisayarımızın başlat menüsüne tıklayarak “Windows özellikleriniz Aç veya Kapat” yazıp arama yapıyoruz.
-
-Yukarıda ki resimde görmüş olduğunuz gibi gerekli kutucukları işaretleyip kurulumu sağıyoruz. ...  </p>
-              
-          </section>
-      </a>
-
-      <footer class="post-card-meta">
-          <img class="author-profile-image" src="https://yazilim.aykutasil.com/img/aykutasil.jpg" alt="Author" />
-          <span class="post-card-author"><a href="/">Aykut Asil</a></span>
-      </footer>
-    </div>
-</article>
- 
-
-<article class="post-card post"> 
-    
-    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/firebase_dynamiclink/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
-    </a>    
-    
-
-    <div class="post-card-content">
-      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/firebase_dynamiclink/">
-          <header class="post-card-header">
-              <span class="post-card-tags">
-              #software 
-              #firebase 
-              #dynamiclink  </span>
-              
-              <h2 class="post-card-title">Firebase Dynamic Links</h2>
-          </header>
-          <section class="post-card-excerpt">
-              
-                <p>Firebase Dynamic Links Öyle bir link olsun ki;
- Bilgisayarımda ki browserdan linke tıkladığımda kişisel web sitem açılsın, Eğer mobil cihazımda ki browserdan linke tıklarsan;  Uygulama cihazda yüklü ise uygulamam açılsın (Belirtmiş olduğum Activity vs.), Uygulama cihazda yüklü değilse Google Play Store veya App Store açılsın, Uygulama cihazda yüklü olsa bile eğer belirttiğim versiyon kodundan eski bir sürüm varsa yine Google Play Store vs. açılsın, &hellip;    gibi sorulara tek bir link ile cevap verebilirsiniz. ...  </p>
-              
-          </section>
-      </a>
-
-      <footer class="post-card-meta">
-          <img class="author-profile-image" src="https://yazilim.aykutasil.com/img/aykutasil.jpg" alt="Author" />
-          <span class="post-card-author"><a href="/">Aykut Asil</a></span>
-      </footer>
-    </div>
-</article>
- 
-
-<article class="post-card post"> 
-    
-    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/kotlin-when/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)"></div>
-    </a>    
-    
-
-    <div class="post-card-content">
-      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/kotlin-when/">
-          <header class="post-card-header">
-              <span class="post-card-tags">
-              #software 
-              #kotlin 
               #android 
-              #when  </span>
+              #java 
+              #spinner  </span>
               
-              <h2 class="post-card-title">Kotlin when kullanımı</h2>
+              <h2 class="post-card-title">Android Spinner Text Güncelleme</h2>
           </header>
           <section class="post-card-excerpt">
-               
-                <p>Kotlin'de <code>when</code> operatörü işimizi oldukça kolaylaştıran operatörlerden biridir. <code>if- else if</code> yapısı yerine kullanılabileceği gibi bazı yardımcı operatörler ile birçok marifet kazanabilir.</p>
+              
+                <p>Dinamik Olarak Spinner Text Güncelleme Android de Spinner yapısı açılır menü (dropdown) olarak kullanlan kullanışlı bir componenttir.
+Farklı ihtiyaçlarınız doğrultusunda Spinner ınızın elemanlarının değerini değiştirmek isteyebilirsiniz.
+Örneğin bir ListView iniz var.Ve içerisinde aynı kategoriden ama değişik durumlara sahip itemlar var ve siz bu itemları durumuna göre gruplandırıp sayısını Spinner da göstermek istiyorsunuz. Bunun için aşağıda belirtecek olduğum yapıyı kullanabilirsiniz.
+Öncellikle String.xml dosyasına Spinner ımızda göstereceğimiz elemanları tanımlıyoruz.
+String.xml
+&lt;string name=&#34;pazartesi&#34;&gt;Pazartesi&lt;/string&gt; &lt;string name=&#34;sali&#34;&gt;Salı&lt;/string&gt; &lt;string name=&#34;carsamba&#34;&gt;Çarşamba&lt;/string&gt; &lt;string name=&#34;persembe&#34;&gt;Perşembe&lt;/string&gt; &lt;string name=&#34;cuma&#34;&gt;Cuma&lt;/string&gt; &lt;string name=&#34;cumartesi&#34;&gt;Cumartesi&lt;/string&gt; &lt;string name=&#34;pazar&#34;&gt;Pazar&lt;/string&gt; &lt;string-array name=&#34;array_gonderi_list_haftalik&#34;&gt; &lt;item&gt;@string/pazartesi&lt;/item&gt; &lt;item&gt;@string/sali&lt;/item&gt; &lt;item&gt;@string/carsamba&lt;/item&gt; &lt;item&gt;@string/persembe&lt;/item&gt; &lt;item&gt;@string/cuma&lt;/item&gt; &lt;item&gt;@string/cumartesi&lt;/item&gt; &lt;item&gt;@string/pazar&lt;/item&gt; &lt;/string-array&gt; SpinnerHelper. ...  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://yazilim.aykutasil.com/img/aykutasil.jpg" alt="Author" />
+          <span class="post-card-author"><a href="/">Aykut Asil</a></span>
+      </footer>
+    </div>
+</article>
+ 
+
+<article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/azure-notification-hubs-kullanimi/">
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
+    </a>    
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/azure-notification-hubs-kullanimi/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #software 
+              #azure 
+              #notification hubs  </span>
+              
+              <h2 class="post-card-title">Azure Mobile Services ve Notification Hubs Kullanımı</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>Azure Mobile Services çok hızlı ve kolay bir şekilde uygulama geliştirmeniz için önceden veya uygulama yazımı sırasında yapılması gereken işlemleri minimize eden bir servistir.
+Kullanımı oldukça kolay olmakla beraber ilk bir kaç adımı gerçekleştirmek bazen can sıkıcı olabilmekte.
+Bunun için ufak bir örnekle bu ilk birkaç adımı beraber atıcaz.
+https://azure.microsoft.com/tr-tr/ adresinden portal a girdiniz.Ve mobile services tab ından new diyerek yeni bir mobile services oluşturdunuz.
+
+Oluşturduğunuz Mobile Service tıkladınız ve çıkan ekranda Push tabına girdiniz. ...  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://yazilim.aykutasil.com/img/aykutasil.jpg" alt="Author" />
+          <span class="post-card-author"><a href="/">Aykut Asil</a></span>
+      </footer>
+    </div>
+</article>
+ 
+
+<article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/unittest-nedir/">
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
+    </a>    
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/unittest-nedir/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #software 
+              #unit test  </span>
+              
+              <h2 class="post-card-title">Unit Test Nedir ? Niçin ve Nasıl Yapılır ?</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>Unit Test Nedir ? Niçin ve Nasıl Yapılır ?
+Yıl olmuş 2014 hala birim test makalesi mi yazıyorsun diye düşünüyor olabilirsiniz. Ancak, birim testi uzun zamandır kullanılan bir yöntem olmasına rağmen tam olarak ne işe yaradığı, neden yapıldığı ve nasıl yapılması gerektiği konusunda açıklayıcı bir Türkçe yazı bulmak malesef zor. Bu yüzden, yazılım mühendisi adaylarına ve kariyerine yeni başlayan arkadaşlara faydalı olabilmek adına bu yazıyı yazmak uygun olur diye düşündüm. ...  </p>
               
           </section>
       </a>
