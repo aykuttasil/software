@@ -39,7 +39,7 @@ Peki Neden? Yukarıdaki gibi bir kod bloğu çalıştırılmadan önce javacsrip
       <pubDate>Fri, 03 Apr 2020 11:12:12 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/docker-series-2/</guid>
-      <description>Docker Container&#39;ı Detach modda çalıştırmak Uygulamanızı yazarken eğer thread&amp;lsquo;ler ile biraz derin bir ilişki kurmuşsanız daemon kavramıyla karşılaşmış olabilirsiniz. Kısaca, arka tarafa git ve sessiz sedasız çalışmaya devam et demek diyebiliriz. Ayrıntılı bilgi için -&amp;gt; Google :)
+      <description>Docker Container&#39;ı Detach modda çalıştırmak Uygulamanızı yazarken eğer thread&amp;lsquo;ler ile biraz derin bir ilişki kurmuşsanız daemon kavramıyla karşılaşmış olabilirsiniz. Kısaca, &amp;ldquo;arka tarafa git ve sessiz sedasız çalışmaya devam et&amp;rdquo; demek diyebiliriz. Ayrıntılı bilgi için -&amp;gt; Google :)
 Aynı mantık ile container&amp;lsquo;ımızın arka planda sesiz sedasız çalışmasını isteyebiliriz. Örneğin web sitemizi bir container&#39;a kurduk, yerleştirdik ve belli bir port üzerinden dışarıya açtık. Ve artık bu container kapanmadan sürekli çalışması gerekiyor ki web sitemize erişebilelim.</description>
     </item>
     
