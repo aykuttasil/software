@@ -37,7 +37,7 @@
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -113,19 +113,19 @@
         <h1 class="post-full-title">Android Debugging With Local Web Server</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
-        <p>Fiziksel Android cihazımızla localimizde çalışan web server'a erişmek, development aşamasında eminim ihtiyaç duyduğunuz veya duyacağınız gereksinimlerden biridir. Bununla beraber local makinenizde bulunan VM üzerinde koşan web server'a erişmek.. Ah harika..</p>
+        <p>Fiziksel Android cihazımızla localimizde çalışan web server&rsquo;a erişmek, development aşamasında eminim ihtiyaç duyduğunuz veya duyacağınız gereksinimlerden biridir. Bununla beraber local makinenizde bulunan VM üzerinde koşan web server&rsquo;a erişmek.. Ah harika..</p>
 <p>Canlı bir örnek verirsem sanıyorum daha iyi olacak.</p>
 <blockquote>
 <p>Geliştirme yaptığınız makinenizinde <strong>MacOS</strong> işletim sistemi var. Bununla beraber çeşitli ihtiyaçlarınızdan ötürü windows kurmanız gerekti ve <strong>Virtual Machine</strong> kurarak içine windows yüklediniz. <strong>Windows</strong> üzerinde Visual Studio ile bir <strong>WebApi</strong> ayağa kaldırdınız ve bu <strong>api</strong>&lsquo;ye fiziksel <strong>Android</strong> cihazınızdan erişmek istiyorsunuz. Üstüne üstlük normal <strong>web adresi</strong> girer gibi yani <strong>myrestapi.local</strong> gibi bir adres üzerinden erişim sağlamak istiyorsunuz.</p>
 </blockquote>
 <h2 id="kurulum">Kurulum</h2>
 <p>Artık kuruluma geçebiliriz.</p>
-<h3 id="windows-iin-gerekli-dzenlemeler"><strong>Windows</strong> için gerekli düzenlemeler</h3>
+<h3 id="windows-için-gerekli-düzenlemeler"><strong>Windows</strong> için gerekli düzenlemeler</h3>
 <p>Eğer kurulu değilse ilk olarak <strong>IIS</strong>&lsquo;i etkinleştirmemiz gerekmektedir. Bunun için arama çubuğuna <strong>Turn Windows features on or off</strong> yazarak ilgili pencereyi açıyoruz. Ve aşağıda seçili olan kutucukları seçerek kurulumu tamamlıyoruz.</p>
 <p><img src="/img/iis_open.png" alt="iis"></p>
 <p>Daha sonra arama kutusuna <strong>IIS</strong> yazarak ilgili sayfaya gidiyoruz. <strong>Sites</strong> sağ tıklayarak <strong>Add Website</strong> diyoruz.</p>
@@ -135,14 +135,14 @@
 <p><img src="/img/iis_addwebsite2.png" alt="iis2"></p>
 <p>Sıra geldi <strong>hosts</strong> dosyasını düzenlemeye. Bunun için <a href="../local_iis_site_kurulumu/">şuraya</a> gidip gerekli ayarlamaları yapabilirsiniz.</p>
 <hr>
-<h3 id="mac-iin-gerekli-dzenlemeler">Mac için gerekli düzenlemeler</h3>
-<p>Ana işletim sistemi(Mac) üzerinden VM'deki local web server'a <strong>myrestapi.local</strong> adresi üzerinden erişim sağlamak için <strong>mac</strong> tarafında da <strong>host</strong> dosyasını düzenlememiz gerekmektedir. Bunun için <strong>terminal</strong>&lsquo;ı açarak ve <code>~ sudo nano /private/etc/hosts</code> komutunu girerek ilgili dosyayı açıyoruz. Ve <strong>VM</strong> üzerinde çalışan windows'umuzun <strong>IP</strong>&lsquo;sini öğrenerek aşağıdaki gibi en alt satıra ekliyoruz.</p>
+<h3 id="mac-için-gerekli-düzenlemeler">Mac için gerekli düzenlemeler</h3>
+<p>Ana işletim sistemi(Mac) üzerinden VM&rsquo;deki local web server&rsquo;a <strong>myrestapi.local</strong> adresi üzerinden erişim sağlamak için <strong>mac</strong> tarafında da <strong>host</strong> dosyasını düzenlememiz gerekmektedir. Bunun için <strong>terminal</strong>&lsquo;ı açarak ve <code>~ sudo nano /private/etc/hosts</code> komutunu girerek ilgili dosyayı açıyoruz. Ve <strong>VM</strong> üzerinde çalışan windows&rsquo;umuzun <strong>IP</strong>&lsquo;sini öğrenerek aşağıdaki gibi en alt satıra ekliyoruz.</p>
 <p><img src="/img/mac_host.png" alt="mac host"></p>
-<h3 id="chrome-iin-dzenlemeler">Chrome için düzenlemeler</h3>
-<p>Mac üzerinde bulunan <strong>Chrome</strong>&lsquo;u açıyoruz ve arama kutusuna <code>chrome://inspect</code> yazarak ilgili sayfayı açıyoruz. Bu sırada <strong>android</strong> cihazımızın <strong>usb</strong> kablosu ile mac'e bağlı olması gerekmektedir. Açılan sayfada cihazımızın bağlı olduğunu görüyor olmamız lazım.</p>
+<h3 id="chrome-için-düzenlemeler">Chrome için düzenlemeler</h3>
+<p>Mac üzerinde bulunan <strong>Chrome</strong>&lsquo;u açıyoruz ve arama kutusuna <code>chrome://inspect</code> yazarak ilgili sayfayı açıyoruz. Bu sırada <strong>android</strong> cihazımızın <strong>usb</strong> kablosu ile mac&rsquo;e bağlı olması gerekmektedir. Açılan sayfada cihazımızın bağlı olduğunu görüyor olmamız lazım.</p>
 <p><strong>Port forwarding</strong> butonuna basıyoruz ve aşağıdaki gibi giriş yapıyoruz.</p>
 <p><img src="/img/chrome_port_forwarding.png" alt="chrome_port_forwarding"></p>
-<h3 id="android-cihazmz-iin-dzenlemeler">Android Cihazımız için düzenlemeler</h3>
+<h3 id="android-cihazımız-için-düzenlemeler">Android Cihazımız için düzenlemeler</h3>
 <p><strong>Android</strong> cihazlarının farklılığından dolayı aşağıdaki ayarları yapma şekli farklılık gösterebilir ama muhtemelen benzer şekillerde olacaktır.</p>
 <p>Android cihazımız üzerinden <strong>Wi-Fi Settings</strong> sayfasını açıyoruz. Ve <strong>Proxy</strong> ayarlama kısmından <strong>Manuel</strong> seçerek aşağıdaki gibi giriş yapıyoruz. <strong>Chrome</strong> yapılandırma kısmında girmiş olduğumuz <strong>8080</strong> port numarasının buradaki ile aynı olmasına dikkat ediyoruz.</p>
 <p><img src="/img/android_proxy.jpeg" alt="android proxy"></p>
@@ -217,13 +217,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/windows-local-iis-kurulumu/">Local IIS Site Kurulumu</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/arduino_hc06_kullanimi/">Arduino HC-06 Bluetooth Kullanımı</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-smsreceiver/">Android SMS Receiver</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/post/"></a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/activeandroid/">Android ActiveAndroid Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-viewpager/">Android ViewPager</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/create-json-with-kotlin-dsl/">Kotlin DSL ile Json</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/macos-mssql-connection/">Mac OS ile MSSQL Bağlantısı Kurmak</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -237,7 +237,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/aspnetcore-session/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)"></div>
     </a>    
     
 
@@ -269,7 +269,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/deviceip-with-adb/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
     </a>    
     
 
@@ -286,7 +286,7 @@ s.setAttribute('data-timestamp', +new Date());
           </header>
           <section class="post-card-excerpt">
                
-                <p>ADB komutu ile cihaz IP'si nasıl öğrenilir?</p>
+                <p>ADB komutu ile cihaz IP&rsquo;si nasıl öğrenilir?</p>
               
           </section>
       </a>

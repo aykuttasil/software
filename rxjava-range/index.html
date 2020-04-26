@@ -37,7 +37,7 @@
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -113,18 +113,18 @@
         <h1 class="post-full-title">RxJava range() Kullanımı</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
-        <h2 id="rxjava-range-kullanm">RxJava range() Kullanımı</h2>
+        <h2 id="rxjava-range-kullanımı">RxJava range() Kullanımı</h2>
 <p>**Örnek kod:&ndash;</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">range</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-    Observable<span style="color:#f92672">.</span><span style="color:#a6e22e">range</span><span style="color:#f92672">(</span>3<span style="color:#f92672">,</span> 5<span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">subscribeOn</span><span style="color:#f92672">(</span>Schedulers<span style="color:#f92672">.</span><span style="color:#a6e22e">io</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span>
-            <span style="color:#f92672">.</span><span style="color:#a6e22e">subscribe</span><span style="color:#f92672">(</span>success <span style="color:#f92672">-</span><span style="color:#f92672">&gt;</span> <span style="color:#f92672">{</span>
-                Log<span style="color:#f92672">.</span><span style="color:#a6e22e">i</span><span style="color:#f92672">(</span>TAG<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;val: &#34;</span> <span style="color:#f92672">+</span> success<span style="color:#f92672">.</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-            <span style="color:#f92672">}</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">range</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+    Observable<span style="color:#f92672">.</span><span style="color:#a6e22e">range</span><span style="color:#f92672">(</span>3<span style="color:#f92672">,</span> 5<span style="color:#f92672">).</span><span style="color:#a6e22e">subscribeOn</span><span style="color:#f92672">(</span>Schedulers<span style="color:#f92672">.</span><span style="color:#a6e22e">io</span><span style="color:#f92672">())</span>
+            <span style="color:#f92672">.</span><span style="color:#a6e22e">subscribe</span><span style="color:#f92672">(</span>success <span style="color:#f92672">-&gt;</span> <span style="color:#f92672">{</span>
+                Log<span style="color:#f92672">.</span><span style="color:#a6e22e">i</span><span style="color:#f92672">(</span>TAG<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;val: &#34;</span> <span style="color:#f92672">+</span> success<span style="color:#f92672">.</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">());</span>
+            <span style="color:#f92672">});</span>
 <span style="color:#f92672">}</span>
 </code></pre></div><p><strong>Açıklama:</strong></p>
 <p>İlk değer 3 kabul edilerek sonraki 5 sayı için teker teker onNext() çağırılır. Yani 3 , 4, 5, 6, 7</p>
@@ -195,13 +195,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/sqlmanagement-custom-generate-scripts/">SQL Management Studio Custom Generate Scripts</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/postman-api-test/">Postman ile API Test Yazımı</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/docker-series-1/">Docker Series - 1</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-background-location/">Android Background Location</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-dagger/">Android Dagger</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/kotlin-jvmoverloads/">Kotlin @JvmOverloads</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-custom-toolbar/">Android Custom Toolbar Title</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-architecture-components/">Android Architecture Components</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -215,7 +215,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/java-runnable-and-callable/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
     </a>    
     
 
@@ -249,7 +249,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/rxjava-scan/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
     </a>    
     
 

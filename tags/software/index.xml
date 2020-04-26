@@ -30,7 +30,7 @@ Peki Neden? Yukarıdaki gibi bir kod bloğu çalıştırılmadan önce javacsrip
       <guid>https://yazilim.aykutasil.com/docker-series-1/</guid>
       <description>Docker ile ilgili komut listesine erişmek için komut satırına docker --help ya da sadece docker yazabilirsiniz.
  docker run Docker ile ilgili bir çok temel fonksiyonu docker run komutu ile sağlayabilirsiniz.
- Hızlıca Docker Hub&amp;lsquo;da bulunan bir image&#39;i makinemize kurmak istiyorsak aşağıdaki komut işimizi görecektir.  docker run ubuntu Yukarıda ki komutu yazdığınızda ilk önce ilgili image dosyasının makinenizde olup olmadığına bakılır ve sonrasında eğer varsa zaten inmiş olan image çalıştırılılr.</description>
+ Hızlıca Docker Hub&amp;lsquo;da bulunan bir image&amp;rsquo;i makinemize kurmak istiyorsak aşağıdaki komut işimizi görecektir.  docker run ubuntu Yukarıda ki komutu yazdığınızda ilk önce ilgili image dosyasının makinenizde olup olmadığına bakılır ve sonrasında eğer varsa zaten inmiş olan image çalıştırılılr.</description>
     </item>
     
     <item>
@@ -39,8 +39,8 @@ Peki Neden? Yukarıdaki gibi bir kod bloğu çalıştırılmadan önce javacsrip
       <pubDate>Fri, 03 Apr 2020 11:12:12 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/docker-series-2/</guid>
-      <description>Docker Container&#39;ı Detach modda çalıştırmak Uygulamanızı yazarken eğer thread&amp;lsquo;ler ile biraz derin bir ilişki kurmuşsanız daemon kavramıyla karşılaşmış olabilirsiniz. Kısaca, &amp;ldquo;arka tarafa git ve sessiz sedasız çalışmaya devam et&amp;rdquo; demek diyebiliriz. Ayrıntılı bilgi için -&amp;gt; Google :)
-Aynı mantık ile container&amp;lsquo;ımızın arka planda sesiz sedasız çalışmasını isteyebiliriz. Örneğin web sitemizi bir container&#39;a kurduk, yerleştirdik ve belli bir port üzerinden dışarıya açtık. Ve artık bu container kapanmadan sürekli çalışması gerekiyor ki web sitemize erişebilelim.</description>
+      <description>Docker Container&amp;rsquo;ı Detach modda çalıştırmak Uygulamanızı yazarken eğer thread&amp;lsquo;ler ile biraz derin bir ilişki kurmuşsanız daemon kavramıyla karşılaşmış olabilirsiniz. Kısaca, &amp;ldquo;arka tarafa git ve sessiz sedasız çalışmaya devam et&amp;rdquo; demek diyebiliriz. Ayrıntılı bilgi için -&amp;gt; Google :)
+Aynı mantık ile container&amp;lsquo;ımızın arka planda sesiz sedasız çalışmasını isteyebiliriz. Örneğin web sitemizi bir container&amp;rsquo;a kurduk, yerleştirdik ve belli bir port üzerinden dışarıya açtık. Ve artık bu container kapanmadan sürekli çalışması gerekiyor ki web sitemize erişebilelim.</description>
     </item>
     
     <item>
@@ -60,8 +60,8 @@ Aynı mantık ile container&amp;lsquo;ımızın arka planda sesiz sedasız çal�
       
       <guid>https://yazilim.aykutasil.com/android-architecture-components/</guid>
       <description>Android Architecture Components Öncelikle şu linkleri verelim:
- https://developer.android.com/topic/libraries/architecture/index.html Lifecycle LiveData ViewModel  LifeCycle Daha önce Android uygulaması geliştirenler çok iyi bilirler ki bir activity veya fragment&#39;ın yaşam döngüsünü yönetmek sıkıntılı bir süreçtir. Activity&#39;nin arka planda mı yoksa görünür vaziyette mi oluşuna göre düzenlenen akışlar çoğu zaman yoğun dikkat gerektiren süreçlerdir. Yukarıda ki Lifecycle linkine tıklarsanınz çok güzel bir örnek ile durumu açıklamışlar.
-Oluşturduğumuz nesneler eğer activity&#39;nin yaşam döngüsüne bağlı ise bunu yönetmek için activity&#39;mizin genelde onCreate ve onStop metodları içerisinde bu nesnelere ait fonksiyonları çağırıyorduk.</description>
+ https://developer.android.com/topic/libraries/architecture/index.html Lifecycle LiveData ViewModel  LifeCycle Daha önce Android uygulaması geliştirenler çok iyi bilirler ki bir activity veya fragment&amp;rsquo;ın yaşam döngüsünü yönetmek sıkıntılı bir süreçtir. Activity&amp;rsquo;nin arka planda mı yoksa görünür vaziyette mi oluşuna göre düzenlenen akışlar çoğu zaman yoğun dikkat gerektiren süreçlerdir. Yukarıda ki Lifecycle linkine tıklarsanınz çok güzel bir örnek ile durumu açıklamışlar.
+Oluşturduğumuz nesneler eğer activity&amp;rsquo;nin yaşam döngüsüne bağlı ise bunu yönetmek için activity&amp;rsquo;mizin genelde onCreate ve onStop metodları içerisinde bu nesnelere ait fonksiyonları çağırıyorduk.</description>
     </item>
     
     <item>
@@ -71,7 +71,7 @@ Oluşturduğumuz nesneler eğer activity&#39;nin yaşam döngüsüne bağlı ise
       
       <guid>https://yazilim.aykutasil.com/kotlin-jvmoverloads/</guid>
       <description>Kotlin @JvmOverloads Kotlin ile uygulama geliştirmeyi teşvik eden en büyük etkenlerden biri şüphesiz Java dili uyumlu yapısıdır. Her iki tarafdan da birbirlerine referanslar verilebilir.
-Kotlin dilinin Java&#39;dan ayıran özelliklerinden biri Java compiler ından daha zeki olmasıdır. Nitekim java dili yaşlanıyor :). Kotlin ile oluşturulan bazı yapıların Java tarafına uyumlu hale getirilmesi için bazen ufak düzenlemelere gerek duyulabiliyor. Bu düzenlemelerden bir tanesi de @JvmOverloads annotation kullanımı.
+Kotlin dilinin Java&amp;rsquo;dan ayıran özelliklerinden biri Java compiler ından daha zeki olmasıdır. Nitekim java dili yaşlanıyor :). Kotlin ile oluşturulan bazı yapıların Java tarafına uyumlu hale getirilmesi için bazen ufak düzenlemelere gerek duyulabiliyor. Bu düzenlemelerden bir tanesi de @JvmOverloads annotation kullanımı.
 fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View { return LayoutInflater.</description>
     </item>
     
@@ -93,7 +93,7 @@ fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View { return 
       <guid>https://yazilim.aykutasil.com/kotlin-lambda/</guid>
       <description>Kotlin Lambda Kullanımı Kotlin dili ile geliştirme yaparken fonksiyonel programlama nimetlerinden faydalanmamızı sağlayan lambda birçok konuda bize yardımcı olacaktır. Doğru kullanımını öğrendiğimiz ölçüde nimetlerinin farkına varabiliriz.
 Belli başlı lambda kullanımları için aşağıdaki örneği inceleyebilirsiniz.
-override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_kotlin_lambda) // Normal Kullanım  ButtonPress.setOnClickListener(object :View.OnClickListener { override fun onClick(view: View?) { toast(&amp;#34;Press Me Click&amp;#34;) } }) // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz  ButtonPress.setOnClickListener({ v -&amp;gt; toast(&amp;#34;Press Me&amp;#34;) }) // Eğer son parametre lambda fonksiyonu ise bu fonksiyonu parantez &amp;#39;()&amp;#39; dışına çıkarabiliriz.</description>
+override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_kotlin_lambda) // Normal Kullanım  ButtonPress.setOnClickListener(object : View.OnClickListener { override fun onClick(view: View?) { toast(&amp;#34;Press Me Click&amp;#34;) } }) // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz  ButtonPress.setOnClickListener({ v -&amp;gt; toast(&amp;#34;Press Me&amp;#34;) }) // Eğer son parametre lambda fonksiyonu ise bu fonksiyonu parantez &amp;#39;()&amp;#39; dışına çıkarabiliriz.</description>
     </item>
     
     <item>
@@ -114,7 +114,7 @@ File(dir).apply { mkdirs() } </description>
       <pubDate>Tue, 06 Jun 2017 04:42:56 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/kotlin-when/</guid>
-      <description>Kotlin&#39;de when operatörü işimizi oldukça kolaylaştıran operatörlerden biridir.
+      <description>Kotlin&amp;rsquo;de when operatörü işimizi oldukça kolaylaştıran operatörlerden biridir.
 if- else if yapısı yerine kullanılabileceği gibi bazı yardımcı operatörler ile birçok marifet kazanabilir.
 val i = 10 when { i &amp;lt; 7 -&amp;gt; println(&amp;#34;first block&amp;#34;) fooString.startsWith(&amp;#34;hello&amp;#34;) -&amp;gt; println(&amp;#34;second block&amp;#34;) else -&amp;gt; println(&amp;#34;else block&amp;#34;) } Yukarıda ki örnek if-else if-else yapısının aynısıdır.
  when (i) { 0, 21 -&amp;gt; println(&amp;#34;0 or 21&amp;#34;) in 1..20 -&amp;gt; println(&amp;#34;in the range 1 to 20&amp;#34;) else -&amp;gt; println(&amp;#34;none of the above&amp;#34;) } Yukarıda ki gibi aralıklar tanımlanabilir ve bu aralıklara uyum kontrolü yapılarak ilgili işlemlerin yapılması sağlanılabilir.</description>
@@ -314,7 +314,7 @@ Orijinal Arduino Kartlarının yapımı iki koldan yürüyor. Bir taraf open sou
       <pubDate>Wed, 11 Jan 2017 17:20:37 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/sql-scope-identity/</guid>
-      <description>Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id&#39;sini getirir.
+      <description>Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id&amp;rsquo;sini getirir.
 Yapılan son kaydın id sini almak için uzun yol olarak insert sorgusunu çalıştırdıktan sonra bir select sorgusu atarak ve order by id desc diyerek ilk sıradaki kaydı okuyabilir ve bu kaydın id sini alabiliriz.
 Tüm bunları yapmaktansa:
 DECLARE @son_satir_id INT; INSERT INTO tbQwerty ( Ad , Soyad ) VALUES ( &amp;#39;Aykut&amp;#39; &amp;#39;Asil&amp;#39; ) SET @son_satir_id = SCOPE_IDENTITY(); Ayrıntılı Bilgi : https://technet.</description>

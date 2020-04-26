@@ -18,7 +18,7 @@
       
       <guid>https://yazilim.aykutasil.com/aspnetcore-session/</guid>
       <description>Asp.Net Core Session Kullanımı Asp.Net Core 2.1 ve üstü sürüme sahip projelerinizde Session kullanmak için Startup.cs dosyanızı aşağıdaki yöntemlerden birini seçerek güncellemeniz gerekmektedir.
-Yöntem 1   Yöntem 2   Neden Asp.Net Core 2.1 ve sonrası? 2018&#39;de uygulanması zorunlu hale gelen Avrupa Veri Koruma Kanunu ile birlikte, şirketlere kişisel verileri kullanması konusunda bazı kısıtlamalar ve uygulaması gereken bazı zorunluluklar getirilmiştir. Bu zorunluluklardan şu an için bizi ilgilendiren kısmı cookielerin kullanımı.</description>
+Yöntem 1   Yöntem 2   Neden Asp.Net Core 2.1 ve sonrası? 2018&amp;rsquo;de uygulanması zorunlu hale gelen Avrupa Veri Koruma Kanunu ile birlikte, şirketlere kişisel verileri kullanması konusunda bazı kısıtlamalar ve uygulaması gereken bazı zorunluluklar getirilmiştir. Bu zorunluluklardan şu an için bizi ilgilendiren kısmı cookielerin kullanımı.</description>
     </item>
     
     <item>
@@ -40,7 +40,7 @@ Filter Tipleri Authorization Filters İlk çalışan filter&amp;lsquo;dır. İlg
       <guid>https://yazilim.aykutasil.com/aspnetcore-run-middleware/</guid>
       <description>ASP.NET Core Run Method ASP.NET Core ile birlikte gelen middleware konsepti sayesinde request-response süreçleri arasına girerek kendi mantıksal devremizi yazmamız çok kolay hale gelmiştir.
  Yukarıda ki gibi Startup.cs sınıfı içerisindeki Configure fonksiyonuna app.Run() diyerek middleware&amp;lsquo;ımızı ekleyebiliriz.
-Peki tam olarak app.Run() metodu nasıl çalışıyor? app.Run() middlaware&#39;ı ile istenilen bir kod bloğunu çalıştırabilir ve uygulamamıza kısa devre yaptırabiliriz. Yani pipeline akışı eğer Run() içerisine girerse, sonraki kod blokları çalışmayacaktır.
+Peki tam olarak app.Run() metodu nasıl çalışıyor? app.Run() middlaware&amp;rsquo;ı ile istenilen bir kod bloğunu çalıştırabilir ve uygulamamıza kısa devre yaptırabiliriz. Yani pipeline akışı eğer Run() içerisine girerse, sonraki kod blokları çalışmayacaktır.
  Yukarıda ki kodun çıktısı sadece Response 1 olacak ve sonraki kod bloğu çalışmayacaktır.</description>
     </item>
     

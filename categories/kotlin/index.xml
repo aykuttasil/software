@@ -35,24 +35,13 @@ class Json() : JSONObject() { constructor(json: Json.() -&amp;gt; Unit) : this()
     </item>
     
     <item>
-      <title>Android Kotlin Test - Final Type Problem</title>
-      <link>https://yazilim.aykutasil.com/android-kotlin-test-final-type-problem/</link>
-      <pubDate>Tue, 29 Jan 2019 15:38:29 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/android-kotlin-test-final-type-problem/</guid>
-      <description>Sorun Kotlin dili ile geliştirilen Android projelerinin test yazımı sırasında sınıfların veya metodların mocklanması, Java ile geliştirilen projelere göre bazı farklılıklar göstermektedir. Bu farklılığın sebeplerinden biri Kotlin ile oluşturulan sınıf veya metodların default olarak final olarak işaretlenmiş olmasıdır. Ve final tipindeki sınıfların mocklanması bazı sorunlar çıkarmaktadır.
-Çözüm Final tipindeki sınıfların veya metodların mocklama işlemi sırasında çıkan sorunu çözmenin birkaç farklı yöntemi vardır.
-Çözüm 1 (open ClassName) Test edeceğimiz sınıf ve metodun başına open ifadesini ekleyerek extend edilebilir hale getirmek.</description>
-    </item>
-    
-    <item>
       <title>Kotlin @JvmOverloads</title>
       <link>https://yazilim.aykutasil.com/kotlin-jvmoverloads/</link>
       <pubDate>Sun, 09 Jul 2017 00:00:00 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/kotlin-jvmoverloads/</guid>
       <description>Kotlin @JvmOverloads Kotlin ile uygulama geliştirmeyi teşvik eden en büyük etkenlerden biri şüphesiz Java dili uyumlu yapısıdır. Her iki tarafdan da birbirlerine referanslar verilebilir.
-Kotlin dilinin Java&#39;dan ayıran özelliklerinden biri Java compiler ından daha zeki olmasıdır. Nitekim java dili yaşlanıyor :). Kotlin ile oluşturulan bazı yapıların Java tarafına uyumlu hale getirilmesi için bazen ufak düzenlemelere gerek duyulabiliyor. Bu düzenlemelerden bir tanesi de @JvmOverloads annotation kullanımı.
+Kotlin dilinin Java&amp;rsquo;dan ayıran özelliklerinden biri Java compiler ından daha zeki olmasıdır. Nitekim java dili yaşlanıyor :). Kotlin ile oluşturulan bazı yapıların Java tarafına uyumlu hale getirilmesi için bazen ufak düzenlemelere gerek duyulabiliyor. Bu düzenlemelerden bir tanesi de @JvmOverloads annotation kullanımı.
 fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View { return LayoutInflater.</description>
     </item>
     
@@ -74,7 +63,7 @@ fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View { return 
       <guid>https://yazilim.aykutasil.com/kotlin-lambda/</guid>
       <description>Kotlin Lambda Kullanımı Kotlin dili ile geliştirme yaparken fonksiyonel programlama nimetlerinden faydalanmamızı sağlayan lambda birçok konuda bize yardımcı olacaktır. Doğru kullanımını öğrendiğimiz ölçüde nimetlerinin farkına varabiliriz.
 Belli başlı lambda kullanımları için aşağıdaki örneği inceleyebilirsiniz.
-override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_kotlin_lambda) // Normal Kullanım  ButtonPress.setOnClickListener(object :View.OnClickListener { override fun onClick(view: View?) { toast(&amp;#34;Press Me Click&amp;#34;) } }) // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz  ButtonPress.setOnClickListener({ v -&amp;gt; toast(&amp;#34;Press Me&amp;#34;) }) // Eğer son parametre lambda fonksiyonu ise bu fonksiyonu parantez &amp;#39;()&amp;#39; dışına çıkarabiliriz.</description>
+override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_kotlin_lambda) // Normal Kullanım  ButtonPress.setOnClickListener(object : View.OnClickListener { override fun onClick(view: View?) { toast(&amp;#34;Press Me Click&amp;#34;) } }) // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz  ButtonPress.setOnClickListener({ v -&amp;gt; toast(&amp;#34;Press Me&amp;#34;) }) // Eğer son parametre lambda fonksiyonu ise bu fonksiyonu parantez &amp;#39;()&amp;#39; dışına çıkarabiliriz.</description>
     </item>
     
     <item>
@@ -95,7 +84,7 @@ File(dir).apply { mkdirs() } </description>
       <pubDate>Tue, 06 Jun 2017 04:42:56 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/kotlin-when/</guid>
-      <description>Kotlin&#39;de when operatörü işimizi oldukça kolaylaştıran operatörlerden biridir.
+      <description>Kotlin&amp;rsquo;de when operatörü işimizi oldukça kolaylaştıran operatörlerden biridir.
 if- else if yapısı yerine kullanılabileceği gibi bazı yardımcı operatörler ile birçok marifet kazanabilir.
 val i = 10 when { i &amp;lt; 7 -&amp;gt; println(&amp;#34;first block&amp;#34;) fooString.startsWith(&amp;#34;hello&amp;#34;) -&amp;gt; println(&amp;#34;second block&amp;#34;) else -&amp;gt; println(&amp;#34;else block&amp;#34;) } Yukarıda ki örnek if-else if-else yapısının aynısıdır.
  when (i) { 0, 21 -&amp;gt; println(&amp;#34;0 or 21&amp;#34;) in 1..20 -&amp;gt; println(&amp;#34;in the range 1 to 20&amp;#34;) else -&amp;gt; println(&amp;#34;none of the above&amp;#34;) } Yukarıda ki gibi aralıklar tanımlanabilir ve bu aralıklara uyum kontrolü yapılarak ilgili işlemlerin yapılması sağlanılabilir.</description>

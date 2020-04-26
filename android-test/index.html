@@ -37,7 +37,7 @@
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -113,7 +113,7 @@
         <h1 class="post-full-title">Android Test</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)">
     </figure>
 
     <section class="post-full-content">
@@ -128,10 +128,10 @@
 <p>If you run local unit tests, a special version of the android.jar (also known as the Android mockable jar) is created by the tooling. This modified JAR file is provided to the unit test so that all fields, methods and classes are available. Any call to the Android mockable JAR results, by default, in an exception, but you can configure Android to return default values. See Activating default return values for mocked methods in android.jar for details.</p>
 </blockquote>
 <h2 id="instrumentation-test-on-device">Instrumentation Test (on-device)</h2>
-<p>Android framework'ü ile gerçek anlamda etkileşime girmesi gereken sınıfların testi için <strong>Instrumentation Test</strong> yapılması gerekmektedir. <strong>Espresso</strong>, <strong>UIAutomator</strong>, <strong>Robotium</strong> popüler instrumentation test araçlarıdır.</p>
+<p>Android framework&rsquo;ü ile gerçek anlamda etkileşime girmesi gereken sınıfların testi için <strong>Instrumentation Test</strong> yapılması gerekmektedir. <strong>Espresso</strong>, <strong>UIAutomator</strong>, <strong>Robotium</strong> popüler instrumentation test araçlarıdır.</p>
 <ul>
-<li><strong>Unit Test</strong> sınıfları aşağıdaki resimde görülen <strong>test</strong> package'ı altına eklenir.</li>
-<li><strong>Instrumentation Test</strong> sınıfları resimde görülen <strong>androidTest</strong> package'ı altına eklenir.</li>
+<li><strong>Unit Test</strong> sınıfları aşağıdaki resimde görülen <strong>test</strong> package&rsquo;ı altına eklenir.</li>
+<li><strong>Instrumentation Test</strong> sınıfları resimde görülen <strong>androidTest</strong> package&rsquo;ı altına eklenir.</li>
 <li><strong>app/src/test/java</strong> - for any unit test which can run on the JVM</li>
 <li><strong>app/src/androidTest/java</strong> -&gt; for any test which should run on an Android device</li>
 </ul>
@@ -140,13 +140,13 @@
 <p>Android bağımlılıklarını mock edemiyorsak Instrumentation Test yazılır. Eğer mock edebileceğimiz bir yapıya sahip ise unit test yazılır. Bu sayede hızlı bir şekilde testler koşturulabilir.</p>
 </blockquote>
 <ul>
-<li>Instrumentation test yapılırken sınıf <strong>@AndroidJUnitRunner</strong> annotations'ı ile etiketlenmelidir.</li>
+<li>Instrumentation test yapılırken sınıf <strong>@AndroidJUnitRunner</strong> annotations&rsquo;ı ile etiketlenmelidir.</li>
 <li>Instrumentation testleri JVM yerine gerçek bir cihazda veya emülatör de koşturulur.</li>
 </ul>
 <p>AndroidJunitRunner provides access to the instrumentation API, via the InstrumentationRegistery.**</p>
 <ul>
 <li><strong>InstrumentationRegistry.getInstrumentation()</strong>, returns the Instrumentation currently running.</li>
-<li><strong>InstrumentationRegistry.getContext()</strong>, returns the Context of this Instrumentation's package.</li>
+<li><strong>InstrumentationRegistry.getContext()</strong>, returns the Context of this Instrumentation&rsquo;s package.</li>
 <li><strong>InstrumentationRegistry.getTargetContext()</strong>, returns the application Context of the target application.</li>
 <li><strong>InstrumentationRegistry.getArguments()</strong>, returns a copy of arguments Bundle that was passed to this Instrumentation.</li>
 </ul>
@@ -157,28 +157,28 @@ It also gives access to the life cycle via the ActivityLifecycleMonitorRegistry.
 <p>Uygulamanın arayüzü ile ilgli test yazımı için kullanılır.</p>
 <hr>
 <h1 id="roboloctric">Roboloctric</h1>
-<p>Robolectric, kodunuzu yerel JVM'de gerçek(sahte olmayan) Android JAR'lere karşı çalıştırır. Bu, düşük seviyeli sistem bileşenlerini (UI gibi) simüle etmek için baytkod manipülasyonu kullanılarak yapılabilir.</p>
+<p>Robolectric, kodunuzu yerel JVM&rsquo;de gerçek(sahte olmayan) Android JAR&rsquo;lere karşı çalıştırır. Bu, düşük seviyeli sistem bileşenlerini (UI gibi) simüle etmek için baytkod manipülasyonu kullanılarak yapılabilir.</p>
 <p>Sonuç, bir emülatöre ya da cihaza dağıtma yükü olmadan daha gerçekçi bir test tertibatıdır. Gerçek Android framework ünün çalışan bir sürümünü kullanmak, test yürütmeyi yavaşlatır ve saf unit testleri ile karşılaştırıldığında bir derece kırılganlık ekler.</p>
 <p>Roboloctric ile neredeyse her android componentinin <strong>shadow</strong> hali üretileblir. Ve bu üretilen shadow nesneleri normal componentlerin sahip olmadığı bazı fonksiyonlara sahiptir.</p>
 <p><strong>Mockito, Espresso</strong> gibi diğer test bileşenleri ile birlikte çalıştırılabilir.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">Activity activity <span style="color:#f92672">=</span> Robolectric<span style="color:#f92672">.</span><span style="color:#a6e22e">buildActivity</span><span style="color:#f92672">(</span>MyAwesomeActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">Activity activity <span style="color:#f92672">=</span> Robolectric<span style="color:#f92672">.</span><span style="color:#a6e22e">buildActivity</span><span style="color:#f92672">(</span>MyAwesomeActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">).</span><span style="color:#a6e22e">create</span><span style="color:#f92672">().</span><span style="color:#a6e22e">get</span><span style="color:#f92672">();</span>
 </code></pre></div><p>şeklinde test edeceğimiz <strong>Activity</strong> nin oluşturulmasını sağlıyoruz.</p>
-<p>Aşağıdaki gibi activity nin lifecycle'ına uygun testler yazılabilir. Burada <strong>onResume</strong> sonrası çalışan kod bloğu için test yazımını görebiliriz.</p>
+<p>Aşağıdaki gibi activity nin lifecycle&rsquo;ına uygun testler yazılabilir. Burada <strong>onResume</strong> sonrası çalışan kod bloğu için test yazımını görebiliriz.</p>
 <script src="https://gist.github.com/aykuttasil/3bd879a909ba1fe1567e0480833db476.js"></script>
 <blockquote>
 <p><strong>visible()</strong></p>
 </blockquote>
-<p>Gerçek bir Android uygulamasında, bir Etkinliğin görünüm hiyerarşisi, <strong>onCreate()</strong> çağrıldıktan sonraya kadar window'a eklenmez. Bu gerçekleşene kadar Activity'nin görünümleri görünür olarak bildirilmez. Bu, onları tıklayamayacağınız anlamına gelir. Ne zaman görünür olacağı varsayımları yapmak yerine, Robolectric testleri yazarken gücü geliştiricinin ellerine verir.</p>
+<p>Gerçek bir Android uygulamasında, bir Etkinliğin görünüm hiyerarşisi, <strong>onCreate()</strong> çağrıldıktan sonraya kadar window&rsquo;a eklenmez. Bu gerçekleşene kadar Activity&rsquo;nin görünümleri görünür olarak bildirilmez. Bu, onları tıklayamayacağınız anlamına gelir. Ne zaman görünür olacağı varsayımları yapmak yerine, Robolectric testleri yazarken gücü geliştiricinin ellerine verir.</p>
 <p>Ne zaman ihtiyacımız olacak? Activity içindeki görünümlerle etkileşime girdiğinizde.</p>
-<p><strong>Robolectric.clickOn()</strong> gibi yöntemler, işlev görmesi için view'in görünür olması ve düzgün şekilde eklenmesini gerektirir. Bunun için <strong>create()</strong> öğesinden sonra <strong>visible()</strong> öğesini çağırmalıyız.</p>
+<p><strong>Robolectric.clickOn()</strong> gibi yöntemler, işlev görmesi için view&rsquo;in görünür olması ve düzgün şekilde eklenmesini gerektirir. Bunun için <strong>create()</strong> öğesinden sonra <strong>visible()</strong> öğesini çağırmalıyız.</p>
 <h2 id="robolectric-4">Robolectric 4</h2>
 <p>gradle.properties</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">android.enableUnitTestBinaryResources<span style="color:#f92672">=</span>true
 </code></pre></div><p>build.gradle</p>
 <script src="https://gist.github.com/aykuttasil/a2e40a8dcf6bdc7d0297d8660da56b4b.js"></script>
-<p>test.kt (test package'ı altında)</p>
+<p>test.kt (test package&rsquo;ı altında)</p>
 <script src="https://gist.github.com/aykuttasil/e79486683816af6b2358a5d77bae9a7a.js"></script>
-<p>Yukarıda <strong>RobolectricRunner</strong> yerine <strong>AndroidJunit4</strong> kullanılmıştır. Ve <strong>Espreesso</strong>&lsquo;nun tüm yetenekleri kullanılabilir. Normalde <strong>Espresso</strong> testi yazılması için <strong>androidTest</strong> package'ı altında tanımlama yapmak ve gerçek bir cihazda ya da emülatör de çalıştırmamız gerekecekti.</p>
+<p>Yukarıda <strong>RobolectricRunner</strong> yerine <strong>AndroidJunit4</strong> kullanılmıştır. Ve <strong>Espreesso</strong>&lsquo;nun tüm yetenekleri kullanılabilir. Normalde <strong>Espresso</strong> testi yazılması için <strong>androidTest</strong> package&rsquo;ı altında tanımlama yapmak ve gerçek bir cihazda ya da emülatör de çalıştırmamız gerekecekti.</p>
 <hr>
 <h1 id="mockito">Mockito</h1>
 <script src="https://gist.github.com/aykuttasil/73b847750cedb0d63f818706d7165655.js"></script>
@@ -212,7 +212,7 @@ It also gives access to the life cycle via the ActivityLifecycleMonitorRegistry.
 <blockquote>
 <p>Unit Tests</p>
 </blockquote>
-<p>Birim testleri, yazabileceğiniz en hızlı ve en ucuz testlerdir. Uygulamanızın tüm mantığını (ancak bağımlılıklarını değil) çoğunu kapsamaları gerekir. Bağımlılıklar, mock objeler ile değiştirilmelidir. Unit testleri, yazılım geliştirme sürecinin düzenli bir parçası olarak sıkça çalıştırılabilir. <strong>Android JUnit, Mockito</strong> yerel JVM'de hızlı birim tarzı testler yapmak için güzel bir araç kombinasyonu sunuyor.</p>
+<p>Birim testleri, yazabileceğiniz en hızlı ve en ucuz testlerdir. Uygulamanızın tüm mantığını (ancak bağımlılıklarını değil) çoğunu kapsamaları gerekir. Bağımlılıklar, mock objeler ile değiştirilmelidir. Unit testleri, yazılım geliştirme sürecinin düzenli bir parçası olarak sıkça çalıştırılabilir. <strong>Android JUnit, Mockito</strong> yerel JVM&rsquo;de hızlı birim tarzı testler yapmak için güzel bir araç kombinasyonu sunuyor.</p>
 <blockquote>
 <p>Integration Tests</p>
 </blockquote>
@@ -220,13 +220,13 @@ It also gives access to the life cycle via the ActivityLifecycleMonitorRegistry.
 <blockquote>
 <p>UI Tests</p>
 </blockquote>
-<p>UI testleri, en yavaş ve en pahalı test türüdür. Bunlar yavaştır, çünkü uygulamanızı bir emülatöre veya cihaza dağıtmanız ve kullanıcı arayüzünü kullanarak sürmeniz gerekir. Bunlar pahalıdır çünkü bu genellikle dahili bir cihaz laboratuarını ve CI sunucusunu korumak veya bir bulut test hizmeti için ödeme yapmak anlamına gelir. Bununla birlikte, UI, donanım, ürün yazılımı ve geriye dönük uyumluluk ile ilgili sorunları ortaya çıkarabildiklerinden, otomatik UI testleri herhangi bir test stratejisinin önemli bir bileşeni olabilir. Android'de UI testleri için sahip olduğumuz başlıca araçlar <strong>Espresso, Robotium veya UI Automator</strong>&lsquo;dur. UI testleri, piramidin diğer katmanlarındaki çatlaklardan kaymış olabilecek sorunları yakalamak için değerli bir ikinci savunma hattı olabilir.</p>
+<p>UI testleri, en yavaş ve en pahalı test türüdür. Bunlar yavaştır, çünkü uygulamanızı bir emülatöre veya cihaza dağıtmanız ve kullanıcı arayüzünü kullanarak sürmeniz gerekir. Bunlar pahalıdır çünkü bu genellikle dahili bir cihaz laboratuarını ve CI sunucusunu korumak veya bir bulut test hizmeti için ödeme yapmak anlamına gelir. Bununla birlikte, UI, donanım, ürün yazılımı ve geriye dönük uyumluluk ile ilgili sorunları ortaya çıkarabildiklerinden, otomatik UI testleri herhangi bir test stratejisinin önemli bir bileşeni olabilir. Android&rsquo;de UI testleri için sahip olduğumuz başlıca araçlar <strong>Espresso, Robotium veya UI Automator</strong>&lsquo;dur. UI testleri, piramidin diğer katmanlarındaki çatlaklardan kaymış olabilecek sorunları yakalamak için değerli bir ikinci savunma hattı olabilir.</p>
 <hr>
 <h1 id="small---medium---large-tests">Small - Medium - Large Tests</h1>
 <p>Testler 3 başlık altında kategorilendirilebilir.</p>
 <p><strong>Small Test:</strong> Unit testleri bu kategori altına alabiliriz. <em>test</em> package ı altına yazılan ve çalışma süresi kısa olan testler de Android ve UI ile alakalı olmayan sınıfların/metodların testi yazılır. Dökümantasyon,filtreleme vs. için small testlerin çalıştırılacağı sınıf <strong>@SmallTest</strong> olarak etiketlenir.</p>
-<p><strong>Medium Test:</strong> Dosya sistemine, database'e vs erişimi olan sınıfların testini bu kategoriye koyabiliriz. Dökümantasyon,filtreleme vs. için medium testlerin çalıştırılacağı sınıf <strong>@MediumTest</strong> olarak etiketlenir.</p>
-<p><strong>Large Test:</strong> Medium'dan farkı ağ erişimi gibi dış kaynaklara erişim gerektiren sınıfları bu kategoriye koyabiliriz. Dökümantasyon,filtreleme vs. için large testlerin çalıştırılacağı sınıf <strong>@LargeTest</strong> olarak etiketlenir.</p>
+<p><strong>Medium Test:</strong> Dosya sistemine, database&rsquo;e vs erişimi olan sınıfların testini bu kategoriye koyabiliriz. Dökümantasyon,filtreleme vs. için medium testlerin çalıştırılacağı sınıf <strong>@MediumTest</strong> olarak etiketlenir.</p>
+<p><strong>Large Test:</strong> Medium&rsquo;dan farkı ağ erişimi gibi dış kaynaklara erişim gerektiren sınıfları bu kategoriye koyabiliriz. Dökümantasyon,filtreleme vs. için large testlerin çalıştırılacağı sınıf <strong>@LargeTest</strong> olarak etiketlenir.</p>
 <hr>
 <h1 id="mockwebserver">MockWebServer</h1>
 <p>Unit test yazarken api rest isteklerinin simüle edilmesini sağlar.</p>
@@ -248,10 +248,10 @@ It also gives access to the life cycle via the ActivityLifecycleMonitorRegistry.
 </blockquote>
 <p><img src="/img/mockwebserber.png" alt="Mock Web Server" title="Mock Web Server"></p>
 <h2 id="dispatcher">Dispatcher</h2>
-<p>Her bir response'u ayrı ayrı mocklamak yerine aşağıdaki gibi bir yapıda kullanılabilir.</p>
+<p>Her bir response&rsquo;u ayrı ayrı mocklamak yerine aşağıdaki gibi bir yapıda kullanılabilir.</p>
 <script src="https://gist.github.com/aykuttasil/fc8e49413b7d5cc4e8857102796cea0e.js"></script>
 <hr>
-<h1 id="gradle-yaplandrmalar">Gradle Yapılandırmaları</h1>
+<h1 id="gradle-yapılandırmaları">Gradle Yapılandırmaları</h1>
 <p>Unit testlerin yazımı sırasında mocklanmaya gerek olmayan nesnelerin default değerini dönmesini belirtmek için aşağıdaki şekilde düzenleme yapılmalıdır.</p>
 <script src="https://gist.github.com/aykuttasil/108d9400fb421101d852c287da2afe01.js"></script>
 <hr>
@@ -337,15 +337,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/rxjava-range/">RxJava range() Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/rxjava-scan/">RxJava scan() Kullanımı</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-databinding/">Android DataBinding</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/javascript-hoisting/">Javascript Hoisting</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/docker/">Docker</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/bash-scripts/">Bash Scripts</a></li>            
         
-                      
-        
-          <li><a href="https://yazilim.aykutasil.com/android-custom-toolbar/">Android Custom Toolbar Title</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/sqlmanagement-custom-generate-scripts/">SQL Management Studio Custom Generate Scripts</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -389,7 +387,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/dns-over-tls/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
     </a>    
     
 

@@ -40,7 +40,7 @@ Proje büyüdükçe ve ilerledikçe teste duyula" />
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -116,7 +116,7 @@ Proje büyüdükçe ve ilerledikçe teste duyula" />
         <h1 class="post-full-title">Robolectric ile UnitTest Yazımı</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)">
     </figure>
 
     <section class="post-full-content">
@@ -143,13 +143,13 @@ android <span style="color:#f92672">{</span>
     buildTypes <span style="color:#f92672">{</span>
         release <span style="color:#f92672">{</span>
             minifyEnabled <span style="color:#66d9ef">false</span>
-            proguardFiles <span style="color:#a6e22e">getDefaultProguardFile</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;proguard-android.txt&#39;</span><span style="color:#f92672">)</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#39;proguard-rules.pro&#39;</span>
+            proguardFiles <span style="color:#a6e22e">getDefaultProguardFile</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#39;proguard-android.txt&#39;</span><span style="color:#f92672">),</span> <span style="color:#e6db74">&#39;proguard-rules.pro&#39;</span>
         <span style="color:#f92672">}</span>
     <span style="color:#f92672">}</span>
 <span style="color:#f92672">}</span>
 
 dependencies <span style="color:#f92672">{</span>
-    compile <span style="color:#a6e22e">fileTree</span><span style="color:#f92672">(</span>dir: <span style="color:#e6db74">&#39;libs&#39;</span><span style="color:#f92672">,</span> include: <span style="color:#f92672">[</span><span style="color:#e6db74">&#39;*.jar&#39;</span><span style="color:#f92672">]</span><span style="color:#f92672">)</span>
+    compile <span style="color:#a6e22e">fileTree</span><span style="color:#f92672">(</span>dir: <span style="color:#e6db74">&#39;libs&#39;</span><span style="color:#f92672">,</span> include: <span style="color:#f92672">[</span><span style="color:#e6db74">&#39;*.jar&#39;</span><span style="color:#f92672">])</span>
     compile <span style="color:#e6db74">&#39;com.android.support:appcompat-v7:22.2.1&#39;</span>
     compile <span style="color:#e6db74">&#39;com.jakewharton:butterknife:7.0.1&#39;</span>
 
@@ -166,14 +166,14 @@ TextView textView<span style="color:#f92672">;</span>
 
 <span style="color:#a6e22e">@Override</span>
 <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>Bundle savedInstanceState<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-  <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>savedInstanceState<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-  setContentView<span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">layout</span><span style="color:#f92672">.</span><span style="color:#a6e22e">activity_main</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-  ButterKnife<span style="color:#f92672">.</span><span style="color:#a6e22e">bind</span><span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+  <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>savedInstanceState<span style="color:#f92672">);</span>
+  setContentView<span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">layout</span><span style="color:#f92672">.</span><span style="color:#a6e22e">activity_main</span><span style="color:#f92672">);</span>
+  ButterKnife<span style="color:#f92672">.</span><span style="color:#a6e22e">bind</span><span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">);</span>
 <span style="color:#f92672">}</span>
 
 <span style="color:#a6e22e">@OnClick</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">id</span><span style="color:#f92672">.</span><span style="color:#a6e22e">button</span><span style="color:#f92672">)</span>
 <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">buttonClick</span><span style="color:#f92672">(</span>View vi<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-  textView<span style="color:#f92672">.</span><span style="color:#a6e22e">setText</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;tiklandi&#34;</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+  textView<span style="color:#f92672">.</span><span style="color:#a6e22e">setText</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;tiklandi&#34;</span><span style="color:#f92672">);</span>
 <span style="color:#f92672">}</span>
 </code></pre></div><p>AndroidManifest.xml  dosyasında herhangi bir değişiklik yapmanıza gerek yok.</p>
 <p>Test sınıfımızı yazmaya başlayalım.</p>
@@ -209,29 +209,29 @@ TextView textView<span style="color:#f92672">;</span>
   Button button<span style="color:#f92672">;</span>
 
   <span style="color:#a6e22e">@Before</span>
-  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setUp</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-    activity <span style="color:#f92672">=</span> Robolectric<span style="color:#f92672">.</span><span style="color:#a6e22e">setupActivity</span><span style="color:#f92672">(</span>MainActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-    textView <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>TextView<span style="color:#f92672">)</span> activity<span style="color:#f92672">.</span><span style="color:#a6e22e">findViewById</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">id</span><span style="color:#f92672">.</span><span style="color:#a6e22e">textView</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-    button <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>Button<span style="color:#f92672">)</span> activity<span style="color:#f92672">.</span><span style="color:#a6e22e">findViewById</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">id</span><span style="color:#f92672">.</span><span style="color:#a6e22e">button</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setUp</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+    activity <span style="color:#f92672">=</span> Robolectric<span style="color:#f92672">.</span><span style="color:#a6e22e">setupActivity</span><span style="color:#f92672">(</span>MainActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">);</span>
+    textView <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>TextView<span style="color:#f92672">)</span> activity<span style="color:#f92672">.</span><span style="color:#a6e22e">findViewById</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">id</span><span style="color:#f92672">.</span><span style="color:#a6e22e">textView</span><span style="color:#f92672">);</span>
+    button <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>Button<span style="color:#f92672">)</span> activity<span style="color:#f92672">.</span><span style="color:#a6e22e">findViewById</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">id</span><span style="color:#f92672">.</span><span style="color:#a6e22e">button</span><span style="color:#f92672">);</span>
   <span style="color:#f92672">}</span>
 
   <span style="color:#a6e22e">@Test</span>
-  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">shouldMainActivityNotBeNull</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#66d9ef">throws</span> Exception <span style="color:#f92672">{</span>
-    Robolectric<span style="color:#f92672">.</span><span style="color:#a6e22e">buildActivity</span><span style="color:#f92672">(</span>MainActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">pause</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">resume</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-    assertTrue<span style="color:#f92672">(</span>Robolectric<span style="color:#f92672">.</span><span style="color:#a6e22e">buildActivity</span><span style="color:#f92672">(</span>MainActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">!</span><span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-    String hello <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> MainActivity<span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">getResources</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">string</span><span style="color:#f92672">.</span><span style="color:#a6e22e">hello_world</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-    assertEquals<span style="color:#f92672">(</span>hello<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Hello world!&#34;</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">shouldMainActivityNotBeNull</span><span style="color:#f92672">()</span> <span style="color:#66d9ef">throws</span> Exception <span style="color:#f92672">{</span>
+    Robolectric<span style="color:#f92672">.</span><span style="color:#a6e22e">buildActivity</span><span style="color:#f92672">(</span>MainActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">).</span><span style="color:#a6e22e">create</span><span style="color:#f92672">().</span><span style="color:#a6e22e">pause</span><span style="color:#f92672">().</span><span style="color:#a6e22e">resume</span><span style="color:#f92672">().</span><span style="color:#a6e22e">get</span><span style="color:#f92672">();</span>
+    assertTrue<span style="color:#f92672">(</span>Robolectric<span style="color:#f92672">.</span><span style="color:#a6e22e">buildActivity</span><span style="color:#f92672">(</span>MainActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">).</span><span style="color:#a6e22e">create</span><span style="color:#f92672">().</span><span style="color:#a6e22e">get</span><span style="color:#f92672">()</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">);</span>
+    String hello <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> MainActivity<span style="color:#f92672">().</span><span style="color:#a6e22e">getResources</span><span style="color:#f92672">().</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">string</span><span style="color:#f92672">.</span><span style="color:#a6e22e">hello_world</span><span style="color:#f92672">);</span>
+    assertEquals<span style="color:#f92672">(</span>hello<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Hello world!&#34;</span><span style="color:#f92672">);</span>
 
 
   <span style="color:#f92672">}</span>
 
   <span style="color:#a6e22e">@Test</span>
-  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">buttonClickChangeTextView</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#66d9ef">throws</span> Exception <span style="color:#f92672">{</span>
-    String text <span style="color:#f92672">=</span> textView<span style="color:#f92672">.</span><span style="color:#a6e22e">getText</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-    assertEquals<span style="color:#f92672">(</span>text<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Hello world!&#34;</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-    button<span style="color:#f92672">.</span><span style="color:#a6e22e">performClick</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-    text <span style="color:#f92672">=</span> textView<span style="color:#f92672">.</span><span style="color:#a6e22e">getText</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-    assertEquals<span style="color:#f92672">(</span>text<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;tiklandi&#34;</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">buttonClickChangeTextView</span><span style="color:#f92672">()</span> <span style="color:#66d9ef">throws</span> Exception <span style="color:#f92672">{</span>
+    String text <span style="color:#f92672">=</span> textView<span style="color:#f92672">.</span><span style="color:#a6e22e">getText</span><span style="color:#f92672">().</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">();</span>
+    assertEquals<span style="color:#f92672">(</span>text<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Hello world!&#34;</span><span style="color:#f92672">);</span>
+    button<span style="color:#f92672">.</span><span style="color:#a6e22e">performClick</span><span style="color:#f92672">();</span>
+    text <span style="color:#f92672">=</span> textView<span style="color:#f92672">.</span><span style="color:#a6e22e">getText</span><span style="color:#f92672">().</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">();</span>
+    assertEquals<span style="color:#f92672">(</span>text<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;tiklandi&#34;</span><span style="color:#f92672">);</span>
 
   <span style="color:#f92672">}</span>
 <span style="color:#f92672">}</span>
@@ -324,13 +324,15 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/android-databinding/">Android DataBinding</a></li>            
+                      
         
-          <li><a href="https://yazilim.aykutasil.com/java-collections/">Java Collections</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/step-motor-nedir/">Step Motor Nedir?</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-gcmnetworkmanager-kullanimi/">Android GcmNetworkManager Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/sql-nullif-fonksiyonu-kullanimi/">TSQL NULLIF Fonksiyonu Nedir ve Nasıl Kullanılır</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-custom-toolbar/">Android Custom Toolbar Title</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-webview-etkilesimi/">Android ile WebView Etkileşimi</a></li>            
+        
+          <li><a href="https://yazilim.aykutasil.com/android-circleci/">Android CircleCI Configuration</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -344,7 +346,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/activeandroid/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)"></div>
     </a>    
     
 
@@ -384,7 +386,7 @@ Aşağıda kısaca Tablo oluşturmaktan ve gerektiğinde Tablo yu nasıl güncel
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/unittest-nedir/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)"></div>
     </a>    
     
 

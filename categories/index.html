@@ -34,7 +34,7 @@
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -138,7 +138,7 @@
           
           <a href="https://yazilim.aykutasil.com/categories/javascript"> javascript </a> (2)&nbsp;&#x2F;&nbsp;
           
-          <a href="https://yazilim.aykutasil.com/categories/kotlin"> kotlin </a> (9)&nbsp;&#x2F;&nbsp;
+          <a href="https://yazilim.aykutasil.com/categories/kotlin"> kotlin </a> (8)&nbsp;&#x2F;&nbsp;
           
           <a href="https://yazilim.aykutasil.com/categories/location"> location </a> (1)&nbsp;&#x2F;&nbsp;
           
@@ -189,99 +189,98 @@
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-spinner-dynamic-text/">
+    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-robolectric/">
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
+    </a>    
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/android-robolectric/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #software 
+              #robolectric 
+              #android test  </span>
+              
+              <h2 class="post-card-title">Robolectric ile UnitTest Yazımı</h2>
+          </header>
+          <section class="post-card-excerpt">
+              
+                <p>Unit Test birçok yazıılımcı tarafından es geçillen ama bir o kadar da önemli ve yapılması gerekli olan bir durumdur.
+Proje büyüdükçe ve ilerledikçe teste duyulan ihtiyaç ta doğru orantılı olarak artmaktadır.
+Unit Test neden yapılır sorusunun daha ayrıntılı cevabı için unit test nedir nicin ve nasil yapilir bu yazıyı okuyabilirsiniz.
+Android Studio da Robolectric kullanarak Unit Test Yazımı
+Aşağıdaki adımları sırası ile ve düzgün bir şekilde uygularsanız herhangi bir sorun çıkmadan testi çalıştırabileceksiniz. ...  </p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://yazilim.aykutasil.com/img/aykutasil.jpg" alt="Author" />
+          <span class="post-card-author"><a href="/">Aykut Asil</a></span>
+      </footer>
+    </div>
+</article>
+ 
+
+<article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/kotlin-lambda/">
       <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
     </a>    
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/android-spinner-dynamic-text/">
+      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/kotlin-lambda/">
           <header class="post-card-header">
               <span class="post-card-tags">
               #software 
-              #android 
+              #kotlin 
+              #lambda  </span>
+              
+              <h2 class="post-card-title">Kotlin Lambda</h2>
+          </header>
+          <section class="post-card-excerpt">
+               
+                <p>Kotlin Lambda Kullanımı</p>
+              
+          </section>
+      </a>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://yazilim.aykutasil.com/img/aykutasil.jpg" alt="Author" />
+          <span class="post-card-author"><a href="/">Aykut Asil</a></span>
+      </footer>
+    </div>
+</article>
+ 
+
+<article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-internet-connection-receiver/">
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
+    </a>    
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/android-internet-connection-receiver/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #software 
               #java 
-              #spinner  </span>
+              #android 
+              #broadcast receiver 
+              #internet control  </span>
               
-              <h2 class="post-card-title">Android Spinner Text Güncelleme</h2>
+              <h2 class="post-card-title">Android Internet Connection Receiver</h2>
           </header>
           <section class="post-card-excerpt">
               
-                <p>Dinamik Olarak Spinner Text Güncelleme Android de Spinner yapısı açılır menü (dropdown) olarak kullanlan kullanışlı bir componenttir.
-Farklı ihtiyaçlarınız doğrultusunda Spinner ınızın elemanlarının değerini değiştirmek isteyebilirsiniz.
-Örneğin bir ListView iniz var.Ve içerisinde aynı kategoriden ama değişik durumlara sahip itemlar var ve siz bu itemları durumuna göre gruplandırıp sayısını Spinner da göstermek istiyorsunuz. Bunun için aşağıda belirtecek olduğum yapıyı kullanabilirsiniz.
-Öncellikle String.xml dosyasına Spinner ımızda göstereceğimiz elemanları tanımlıyoruz.
-String.xml
-&lt;string name=&#34;pazartesi&#34;&gt;Pazartesi&lt;/string&gt; &lt;string name=&#34;sali&#34;&gt;Salı&lt;/string&gt; &lt;string name=&#34;carsamba&#34;&gt;Çarşamba&lt;/string&gt; &lt;string name=&#34;persembe&#34;&gt;Perşembe&lt;/string&gt; &lt;string name=&#34;cuma&#34;&gt;Cuma&lt;/string&gt; &lt;string name=&#34;cumartesi&#34;&gt;Cumartesi&lt;/string&gt; &lt;string name=&#34;pazar&#34;&gt;Pazar&lt;/string&gt; &lt;string-array name=&#34;array_gonderi_list_haftalik&#34;&gt; &lt;item&gt;@string/pazartesi&lt;/item&gt; &lt;item&gt;@string/sali&lt;/item&gt; &lt;item&gt;@string/carsamba&lt;/item&gt; &lt;item&gt;@string/persembe&lt;/item&gt; &lt;item&gt;@string/cuma&lt;/item&gt; &lt;item&gt;@string/cumartesi&lt;/item&gt; &lt;item&gt;@string/pazar&lt;/item&gt; &lt;/string-array&gt; SpinnerHelper. ...  </p>
-              
-          </section>
-      </a>
-
-      <footer class="post-card-meta">
-          <img class="author-profile-image" src="https://yazilim.aykutasil.com/img/aykutasil.jpg" alt="Author" />
-          <span class="post-card-author"><a href="/">Aykut Asil</a></span>
-      </footer>
-    </div>
-</article>
- 
-
-<article class="post-card post"> 
-    
-    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/azure-notification-hubs-kullanimi/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
-    </a>    
-    
-
-    <div class="post-card-content">
-      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/azure-notification-hubs-kullanimi/">
-          <header class="post-card-header">
-              <span class="post-card-tags">
-              #software 
-              #azure 
-              #notification hubs  </span>
-              
-              <h2 class="post-card-title">Azure Mobile Services ve Notification Hubs Kullanımı</h2>
-          </header>
-          <section class="post-card-excerpt">
-              
-                <p>Azure Mobile Services çok hızlı ve kolay bir şekilde uygulama geliştirmeniz için önceden veya uygulama yazımı sırasında yapılması gereken işlemleri minimize eden bir servistir.
-Kullanımı oldukça kolay olmakla beraber ilk bir kaç adımı gerçekleştirmek bazen can sıkıcı olabilmekte.
-Bunun için ufak bir örnekle bu ilk birkaç adımı beraber atıcaz.
-https://azure.microsoft.com/tr-tr/ adresinden portal a girdiniz.Ve mobile services tab ından new diyerek yeni bir mobile services oluşturdunuz.
-
-Oluşturduğunuz Mobile Service tıkladınız ve çıkan ekranda Push tabına girdiniz. ...  </p>
-              
-          </section>
-      </a>
-
-      <footer class="post-card-meta">
-          <img class="author-profile-image" src="https://yazilim.aykutasil.com/img/aykutasil.jpg" alt="Author" />
-          <span class="post-card-author"><a href="/">Aykut Asil</a></span>
-      </footer>
-    </div>
-</article>
- 
-
-<article class="post-card post"> 
-    
-    <a class="post-card-image-link" href="https://yazilim.aykutasil.com/unittest-nedir/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
-    </a>    
-    
-
-    <div class="post-card-content">
-      <a class="post-card-content-link" href="https://yazilim.aykutasil.com/unittest-nedir/">
-          <header class="post-card-header">
-              <span class="post-card-tags">
-              #software 
-              #unit test  </span>
-              
-              <h2 class="post-card-title">Unit Test Nedir ? Niçin ve Nasıl Yapılır ?</h2>
-          </header>
-          <section class="post-card-excerpt">
-              
-                <p>Unit Test Nedir ? Niçin ve Nasıl Yapılır ?
-Yıl olmuş 2014 hala birim test makalesi mi yazıyorsun diye düşünüyor olabilirsiniz. Ancak, birim testi uzun zamandır kullanılan bir yöntem olmasına rağmen tam olarak ne işe yaradığı, neden yapıldığı ve nasıl yapılması gerektiği konusunda açıklayıcı bir Türkçe yazı bulmak malesef zor. Bu yüzden, yazılım mühendisi adaylarına ve kariyerine yeni başlayan arkadaşlara faydalı olabilmek adına bu yazıyı yazmak uygun olur diye düşündüm. ...  </p>
+                <p>Uygulamanızın akışını internet kontrolü yaparak yönetmeniz gerekebilir.
+Bunun için ilk olarak AndroidManifest.xml dosyasına receiver tanımı yapmalısınız.
+&lt;receiver android:name=&#34;.InternetConnectionReceiver&#34;&gt; &lt;intent-filter&gt; &lt;action android:name=&#34;android.net.conn.CONNECTIVITY_CHANGE&#34; /&gt; &lt;/intent-filter&gt; &lt;/receiver&gt; InternetConnectionReceiver
+public class InternetConnectionReceiver extends BroadcastReceiver { @Override public void onReceive(Context context, Intent intent) { if (CheckConnection(context)) { } } } Yukarıda tanımlanmış olan receiver, cihazın ağ yapısında herhangi bir değişiklik olduğunda bunu yakalar. Örneğin wireless açıkken kapattığınız da veya kapalıyken açtığınız da bunu yakayabilirsiniz.
+CheckConnection ...  </p>
               
           </section>
       </a>

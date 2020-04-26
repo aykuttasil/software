@@ -37,7 +37,7 @@
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -134,7 +134,7 @@
 <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setup</span>() {
   <span style="color:#a6e22e">Serial</span>.<span style="color:#a6e22e">begin</span>(<span style="color:#ae81ff">9600</span>);
   <span style="color:#a6e22e">pinMode</span>(LED_PIN, <span style="color:#66d9ef">OUTPUT</span>);
-  <span style="color:#a6e22e">Serial</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">HC-06 Kontrol Projesi</span><span style="color:#e6db74">&#34;</span>);
+  <span style="color:#a6e22e">Serial</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;HC-06 Kontrol Projesi&#34;</span>);
 }
 
 <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">loop</span>() {
@@ -142,32 +142,32 @@
 
     veri <span style="color:#f92672">=</span> <span style="color:#a6e22e">Serial</span>.<span style="color:#a6e22e">read</span>();
 
-    <span style="color:#66d9ef">if</span> (veri <span style="color:#f92672">=</span><span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">0</span><span style="color:#e6db74">&#39;</span>) {
+    <span style="color:#66d9ef">if</span> (veri <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;0&#39;</span>) {
       <span style="color:#a6e22e">digitalWrite</span>(LED_PIN, <span style="color:#66d9ef">LOW</span>);
-      <span style="color:#a6e22e">Serial</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">LED Sonduruldu.</span><span style="color:#e6db74">&#34;</span> );
+      <span style="color:#a6e22e">Serial</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;LED Sonduruldu.&#34;</span> );
     }
 
-    <span style="color:#66d9ef">if</span> (veri <span style="color:#f92672">=</span><span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">1</span><span style="color:#e6db74">&#39;</span>) {
+    <span style="color:#66d9ef">if</span> (veri <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;1&#39;</span>) {
       <span style="color:#a6e22e">digitalWrite</span>(LED_PIN, <span style="color:#66d9ef">HIGH</span>);
-      <span style="color:#a6e22e">Serial</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">LED Yakildi.</span><span style="color:#e6db74">&#34;</span>);
+      <span style="color:#a6e22e">Serial</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;LED Yakildi.&#34;</span>);
     }
     
-    <span style="color:#66d9ef">if</span> (veri <span style="color:#f92672">=</span><span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">2</span><span style="color:#e6db74">&#39;</span>) {
+    <span style="color:#66d9ef">if</span> (veri <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;2&#39;</span>) {
       <span style="color:#a6e22e">analogWrite</span>(LED_PIN, <span style="color:#ae81ff">200</span>);
-      <span style="color:#a6e22e">Serial</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">LED Yakildi.</span><span style="color:#e6db74">&#34;</span>);
+      <span style="color:#a6e22e">Serial</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;LED Yakildi.&#34;</span>);
     }
     
-    <span style="color:#66d9ef">if</span> (veri <span style="color:#f92672">=</span><span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">3</span><span style="color:#e6db74">&#39;</span>) {
+    <span style="color:#66d9ef">if</span> (veri <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;3&#39;</span>) {
       <span style="color:#75715e">//digitalWrite(LED_PIN, HIGH);
 </span><span style="color:#75715e"></span>      <span style="color:#a6e22e">analogWrite</span>(LED_PIN, <span style="color:#ae81ff">255</span>);
-      <span style="color:#a6e22e">Serial</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">LED Yakildi.</span><span style="color:#e6db74">&#34;</span>);
+      <span style="color:#a6e22e">Serial</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;LED Yakildi.&#34;</span>);
     }
 
-    <span style="color:#66d9ef">if</span> (veri <span style="color:#f92672">=</span><span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">4</span><span style="color:#e6db74">&#39;</span>) {
+    <span style="color:#66d9ef">if</span> (veri <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;4&#39;</span>) {
       <span style="color:#75715e">//digitalWrite(LED_PIN, HIGH);
 </span><span style="color:#75715e"></span>      <span style="color:#a6e22e">analogWrite</span>(LED_PIN, <span style="color:#ae81ff">50</span>);
 
-      <span style="color:#a6e22e">Serial</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">LED Yakildi.</span><span style="color:#e6db74">&#34;</span>);
+      <span style="color:#a6e22e">Serial</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;LED Yakildi.&#34;</span>);
     }
 
 
@@ -234,15 +234,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/csharp-soru-isareti-syntax/">CSharp Null Kontrolü</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/postman-api-test/">Postman ile API Test Yazımı</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-create-library-upload-bintray/">Android Library &amp; Bintray</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/macos-mssql-connection/">Mac OS ile MSSQL Bağlantısı Kurmak</a></li>            
         
-                      
+          <li><a href="https://yazilim.aykutasil.com/vscode-intellisense/">VS Code &amp; Express &amp; TypeScript &amp; IntelliSense</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-spinner-dynamic-text/">Android Spinner Text Güncelleme</a></li>            
-        
-          <li><a href="https://yazilim.aykutasil.com/rxjava-range/">RxJava range() Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/aspnetcore-run-middleware/">ASP.Net Core app.Run() Middleware</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -256,7 +254,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/firebase_dynamiclink/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
     </a>    
     
 
@@ -289,7 +287,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/yeoman-kullanimi/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
     </a>    
     
 

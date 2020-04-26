@@ -6,7 +6,7 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Apr 2020 15:13:51 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2020 22:17:00 +0000</lastBuildDate>
     
 	<atom:link href="https://yazilim.aykutasil.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,7 +30,7 @@ Peki Neden? Yukarıdaki gibi bir kod bloğu çalıştırılmadan önce javacsrip
       <guid>https://yazilim.aykutasil.com/docker-series-1/</guid>
       <description>Docker ile ilgili komut listesine erişmek için komut satırına docker --help ya da sadece docker yazabilirsiniz.
  docker run Docker ile ilgili bir çok temel fonksiyonu docker run komutu ile sağlayabilirsiniz.
- Hızlıca Docker Hub&amp;lsquo;da bulunan bir image&#39;i makinemize kurmak istiyorsak aşağıdaki komut işimizi görecektir.  docker run ubuntu Yukarıda ki komutu yazdığınızda ilk önce ilgili image dosyasının makinenizde olup olmadığına bakılır ve sonrasında eğer varsa zaten inmiş olan image çalıştırılılr.</description>
+ Hızlıca Docker Hub&amp;lsquo;da bulunan bir image&amp;rsquo;i makinemize kurmak istiyorsak aşağıdaki komut işimizi görecektir.  docker run ubuntu Yukarıda ki komutu yazdığınızda ilk önce ilgili image dosyasının makinenizde olup olmadığına bakılır ve sonrasında eğer varsa zaten inmiş olan image çalıştırılılr.</description>
     </item>
     
     <item>
@@ -39,8 +39,8 @@ Peki Neden? Yukarıdaki gibi bir kod bloğu çalıştırılmadan önce javacsrip
       <pubDate>Fri, 03 Apr 2020 11:12:12 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/docker-series-2/</guid>
-      <description>Docker Container&#39;ı Detach modda çalıştırmak Uygulamanızı yazarken eğer thread&amp;lsquo;ler ile biraz derin bir ilişki kurmuşsanız daemon kavramıyla karşılaşmış olabilirsiniz. Kısaca, &amp;ldquo;arka tarafa git ve sessiz sedasız çalışmaya devam et&amp;rdquo; demek diyebiliriz. Ayrıntılı bilgi için -&amp;gt; Google :)
-Aynı mantık ile container&amp;lsquo;ımızın arka planda sesiz sedasız çalışmasını isteyebiliriz. Örneğin web sitemizi bir container&#39;a kurduk, yerleştirdik ve belli bir port üzerinden dışarıya açtık. Ve artık bu container kapanmadan sürekli çalışması gerekiyor ki web sitemize erişebilelim.</description>
+      <description>Docker Container&amp;rsquo;ı Detach modda çalıştırmak Uygulamanızı yazarken eğer thread&amp;lsquo;ler ile biraz derin bir ilişki kurmuşsanız daemon kavramıyla karşılaşmış olabilirsiniz. Kısaca, &amp;ldquo;arka tarafa git ve sessiz sedasız çalışmaya devam et&amp;rdquo; demek diyebiliriz. Ayrıntılı bilgi için -&amp;gt; Google :)
+Aynı mantık ile container&amp;lsquo;ımızın arka planda sesiz sedasız çalışmasını isteyebiliriz. Örneğin web sitemizi bir container&amp;rsquo;a kurduk, yerleştirdik ve belli bir port üzerinden dışarıya açtık. Ve artık bu container kapanmadan sürekli çalışması gerekiyor ki web sitemize erişebilelim.</description>
     </item>
     
     <item>
@@ -81,7 +81,7 @@ class Json() : JSONObject() { constructor(json: Json.() -&amp;gt; Unit) : this()
       
       <guid>https://yazilim.aykutasil.com/aspnetcore-session/</guid>
       <description>Asp.Net Core Session Kullanımı Asp.Net Core 2.1 ve üstü sürüme sahip projelerinizde Session kullanmak için Startup.cs dosyanızı aşağıdaki yöntemlerden birini seçerek güncellemeniz gerekmektedir.
-Yöntem 1   Yöntem 2   Neden Asp.Net Core 2.1 ve sonrası? 2018&#39;de uygulanması zorunlu hale gelen Avrupa Veri Koruma Kanunu ile birlikte, şirketlere kişisel verileri kullanması konusunda bazı kısıtlamalar ve uygulaması gereken bazı zorunluluklar getirilmiştir. Bu zorunluluklardan şu an için bizi ilgilendiren kısmı cookielerin kullanımı.</description>
+Yöntem 1   Yöntem 2   Neden Asp.Net Core 2.1 ve sonrası? 2018&amp;rsquo;de uygulanması zorunlu hale gelen Avrupa Veri Koruma Kanunu ile birlikte, şirketlere kişisel verileri kullanması konusunda bazı kısıtlamalar ve uygulaması gereken bazı zorunluluklar getirilmiştir. Bu zorunluluklardan şu an için bizi ilgilendiren kısmı cookielerin kullanımı.</description>
     </item>
     
     <item>
@@ -90,7 +90,7 @@ Yöntem 1   Yöntem 2   Neden Asp.Net Core 2.1 ve sonrası? 2018&#39;de uygulanm
       <pubDate>Sat, 03 Aug 2019 03:14:28 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-debugging-local-server/</guid>
-      <description>Fiziksel Android cihazımızla localimizde çalışan web server&#39;a erişmek, development aşamasında eminim ihtiyaç duyduğunuz veya duyacağınız gereksinimlerden biridir. Bununla beraber local makinenizde bulunan VM üzerinde koşan web server&#39;a erişmek.. Ah harika..
+      <description>Fiziksel Android cihazımızla localimizde çalışan web server&amp;rsquo;a erişmek, development aşamasında eminim ihtiyaç duyduğunuz veya duyacağınız gereksinimlerden biridir. Bununla beraber local makinenizde bulunan VM üzerinde koşan web server&amp;rsquo;a erişmek.. Ah harika..
 Canlı bir örnek verirsem sanıyorum daha iyi olacak.
  Geliştirme yaptığınız makinenizinde MacOS işletim sistemi var. Bununla beraber çeşitli ihtiyaçlarınızdan ötürü windows kurmanız gerekti ve Virtual Machine kurarak içine windows yüklediniz. Windows üzerinde Visual Studio ile bir WebApi ayağa kaldırdınız ve bu api&amp;lsquo;ye fiziksel Android cihazınızdan erişmek istiyorsunuz.</description>
     </item>
@@ -101,7 +101,7 @@ Canlı bir örnek verirsem sanıyorum daha iyi olacak.
       <pubDate>Sat, 20 Jul 2019 01:04:53 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/deviceip-with-adb/</guid>
-      <description>Aşağıdaki komutu çalıştırarak android cihaz ip&#39;sini öğrenebilirsiniz.
+      <description>Aşağıdaki komutu çalıştırarak android cihaz ip&amp;rsquo;sini öğrenebilirsiniz.
 &amp;gt; adb shell ip -f inet addr show wlan0 </description>
     </item>
     
@@ -111,7 +111,7 @@ Canlı bir örnek verirsem sanıyorum daha iyi olacak.
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-filesystem/</guid>
-      <description>Internal Storage vs External Storage Internal Storage  Her zaman erişilebilir. Sadece uygulamanın kendisi tarafından erişebilir. Buraya kaydedilen dosyalar başka bir uygulama tarafından görünmez. USB ile bilgisayara bağlanıldığında bu dosyalara erişim sağlanamaz. Uygulama silindiğinde internal storage temizlenir.  External Storage  Her zaman erişilebilir durumda olmayabilir. External storage cihaza dahili olarak bulunabileceği gibi USB cihazı olarak sonradan takılmış bir cihaz da olabilir. Bu nedenle erişebilir olup olmadığı kontrol edilmelidir (getExternalStorageState()). External Storage&#39;a kayıt edilen dosyalar başka uygulamalar tarafından okunabilir ve görülebilir durumda olabilir.</description>
+      <description>Internal Storage vs External Storage Internal Storage  Her zaman erişilebilir. Sadece uygulamanın kendisi tarafından erişebilir. Buraya kaydedilen dosyalar başka bir uygulama tarafından görünmez. USB ile bilgisayara bağlanıldığında bu dosyalara erişim sağlanamaz. Uygulama silindiğinde internal storage temizlenir.  External Storage  Her zaman erişilebilir durumda olmayabilir. External storage cihaza dahili olarak bulunabileceği gibi USB cihazı olarak sonradan takılmış bir cihaz da olabilir. Bu nedenle erişebilir olup olmadığı kontrol edilmelidir (getExternalStorageState()). External Storage&amp;rsquo;a kayıt edilen dosyalar başka uygulamalar tarafından okunabilir ve görülebilir durumda olabilir.</description>
     </item>
     
     <item>
@@ -133,7 +133,7 @@ Filter Tipleri Authorization Filters İlk çalışan filter&amp;lsquo;dır. İlg
       <guid>https://yazilim.aykutasil.com/aspnetcore-run-middleware/</guid>
       <description>ASP.NET Core Run Method ASP.NET Core ile birlikte gelen middleware konsepti sayesinde request-response süreçleri arasına girerek kendi mantıksal devremizi yazmamız çok kolay hale gelmiştir.
  Yukarıda ki gibi Startup.cs sınıfı içerisindeki Configure fonksiyonuna app.Run() diyerek middleware&amp;lsquo;ımızı ekleyebiliriz.
-Peki tam olarak app.Run() metodu nasıl çalışıyor? app.Run() middlaware&#39;ı ile istenilen bir kod bloğunu çalıştırabilir ve uygulamamıza kısa devre yaptırabiliriz. Yani pipeline akışı eğer Run() içerisine girerse, sonraki kod blokları çalışmayacaktır.
+Peki tam olarak app.Run() metodu nasıl çalışıyor? app.Run() middlaware&amp;rsquo;ı ile istenilen bir kod bloğunu çalıştırabilir ve uygulamamıza kısa devre yaptırabiliriz. Yani pipeline akışı eğer Run() içerisine girerse, sonraki kod blokları çalışmayacaktır.
  Yukarıda ki kodun çıktısı sadece Response 1 olacak ve sonraki kod bloğu çalışmayacaktır.</description>
     </item>
     
@@ -154,7 +154,7 @@ DataBinding Uygulamanın arayüzünü tasarlamak için kullandığımız layout 
       <pubDate>Thu, 14 Feb 2019 13:10:18 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-service/</guid>
-      <description>Android&#39;in temel bileşenlerinden biri olan Service&amp;lsquo;ler kısaca UI(arayüz) olmayan Activity&amp;lsquo;lere benzetebiliriz. Tabi ki kendine göre ek özellikleri bulunmaktadır. Service tanımlaması AndroidManifest.xml içerisinde tanımlı olmalıdır. Aksi takdirde çalışmaz. &amp;lt;service&amp;gt; elementinin alabileceği özellikler aşağıdaki gibidir.
+      <description>Android&amp;rsquo;in temel bileşenlerinden biri olan Service&amp;lsquo;ler kısaca UI(arayüz) olmayan Activity&amp;lsquo;lere benzetebiliriz. Tabi ki kendine göre ek özellikleri bulunmaktadır. Service tanımlaması AndroidManifest.xml içerisinde tanımlı olmalıdır. Aksi takdirde çalışmaz. &amp;lt;service&amp;gt; elementinin alabileceği özellikler aşağıdaki gibidir.
  Niçin kullanılır? Temel olarak ifade etmek gerekirse Service&amp;lsquo;lerin kullanım amacı uzun süren ve arka planda(background) çalışan taskler oluşturmaktır. Bununla birlikte diğer uygulamalar tarafından çağırılabilen iletişim imkanı sağlar.
 Service tanımlanması &amp;lt;service android:description=&amp;#34;string resource&amp;#34; android:directBootAware=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:enabled=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:exported=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:icon=&amp;#34;drawable resource&amp;#34; android:isolatedProcess=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:label=&amp;#34;string resource&amp;#34; android:name=&amp;#34;string&amp;#34; android:permission=&amp;#34;string&amp;#34; android:process=&amp;#34;string&amp;#34; &amp;gt; .</description>
     </item>
@@ -176,8 +176,8 @@ Service tanımlanması &amp;lt;service android:description=&amp;#34;string resou
       <pubDate>Tue, 08 Jan 2019 23:20:28 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/server-ip/</guid>
-      <description>Problem Domain&#39;i barındıran server&#39;ın IP&#39;sini bulmak istiyoruz.
-Çözüm Linux  Terminali aç host www.aykutasil.com şeklinde istediğin domain&#39;i yaz Server IP:  www.aykutasil.com has address 104.24.114.254 www.aykutasil.com has address 104.24.115.254 www.aykutasil.com has IPv6 address 2606:4700:30::6818:73fe www.aykutasil.com has IPv6 address 2606:4700:30::6818:72fe Windows  Komut penceresini aç. (cmd.exe) nslookup www.aykutasil.com şeklinde istediğin domain&#39;i yaz Server IP:  Name: www.aykutasil.com Addresses: 2606:4700:30::6818:73fe 2606:4700:30::6818:72fe 104.24.115.254 104.24.114.254 </description>
+      <description>Problem Domain&amp;rsquo;i barındıran server&amp;rsquo;ın IP&amp;rsquo;sini bulmak istiyoruz.
+Çözüm Linux  Terminali aç host www.aykutasil.com şeklinde istediğin domain&amp;rsquo;i yaz Server IP:  www.aykutasil.com has address 104.24.114.254 www.aykutasil.com has address 104.24.115.254 www.aykutasil.com has IPv6 address 2606:4700:30::6818:73fe www.aykutasil.com has IPv6 address 2606:4700:30::6818:72fe Windows  Komut penceresini aç. (cmd.exe) nslookup www.aykutasil.com şeklinde istediğin domain&amp;rsquo;i yaz Server IP:  Name: www.aykutasil.com Addresses: 2606:4700:30::6818:73fe 2606:4700:30::6818:72fe 104.24.115.254 104.24.114.254 </description>
     </item>
     
     <item>
@@ -303,8 +303,8 @@ STEP MOTORUN SÜRÜCÜ İLE ÇALIŞTIRILMASI Step motorlar mikro denetleyici, ar
       
       <guid>https://yazilim.aykutasil.com/android-architecture-components/</guid>
       <description>Android Architecture Components Öncelikle şu linkleri verelim:
- https://developer.android.com/topic/libraries/architecture/index.html Lifecycle LiveData ViewModel  LifeCycle Daha önce Android uygulaması geliştirenler çok iyi bilirler ki bir activity veya fragment&#39;ın yaşam döngüsünü yönetmek sıkıntılı bir süreçtir. Activity&#39;nin arka planda mı yoksa görünür vaziyette mi oluşuna göre düzenlenen akışlar çoğu zaman yoğun dikkat gerektiren süreçlerdir. Yukarıda ki Lifecycle linkine tıklarsanınz çok güzel bir örnek ile durumu açıklamışlar.
-Oluşturduğumuz nesneler eğer activity&#39;nin yaşam döngüsüne bağlı ise bunu yönetmek için activity&#39;mizin genelde onCreate ve onStop metodları içerisinde bu nesnelere ait fonksiyonları çağırıyorduk.</description>
+ https://developer.android.com/topic/libraries/architecture/index.html Lifecycle LiveData ViewModel  LifeCycle Daha önce Android uygulaması geliştirenler çok iyi bilirler ki bir activity veya fragment&amp;rsquo;ın yaşam döngüsünü yönetmek sıkıntılı bir süreçtir. Activity&amp;rsquo;nin arka planda mı yoksa görünür vaziyette mi oluşuna göre düzenlenen akışlar çoğu zaman yoğun dikkat gerektiren süreçlerdir. Yukarıda ki Lifecycle linkine tıklarsanınz çok güzel bir örnek ile durumu açıklamışlar.
+Oluşturduğumuz nesneler eğer activity&amp;rsquo;nin yaşam döngüsüne bağlı ise bunu yönetmek için activity&amp;rsquo;mizin genelde onCreate ve onStop metodları içerisinde bu nesnelere ait fonksiyonları çağırıyorduk.</description>
     </item>
     
     <item>
@@ -325,7 +325,7 @@ Cloud DNS nedir? Google Cloud platformunun dns yapılandırması için vermiş o
       
       <guid>https://yazilim.aykutasil.com/kotlin-jvmoverloads/</guid>
       <description>Kotlin @JvmOverloads Kotlin ile uygulama geliştirmeyi teşvik eden en büyük etkenlerden biri şüphesiz Java dili uyumlu yapısıdır. Her iki tarafdan da birbirlerine referanslar verilebilir.
-Kotlin dilinin Java&#39;dan ayıran özelliklerinden biri Java compiler ından daha zeki olmasıdır. Nitekim java dili yaşlanıyor :). Kotlin ile oluşturulan bazı yapıların Java tarafına uyumlu hale getirilmesi için bazen ufak düzenlemelere gerek duyulabiliyor. Bu düzenlemelerden bir tanesi de @JvmOverloads annotation kullanımı.
+Kotlin dilinin Java&amp;rsquo;dan ayıran özelliklerinden biri Java compiler ından daha zeki olmasıdır. Nitekim java dili yaşlanıyor :). Kotlin ile oluşturulan bazı yapıların Java tarafına uyumlu hale getirilmesi için bazen ufak düzenlemelere gerek duyulabiliyor. Bu düzenlemelerden bir tanesi de @JvmOverloads annotation kullanımı.
 fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View { return LayoutInflater.</description>
     </item>
     
@@ -347,7 +347,7 @@ fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View { return 
       <guid>https://yazilim.aykutasil.com/kotlin-lambda/</guid>
       <description>Kotlin Lambda Kullanımı Kotlin dili ile geliştirme yaparken fonksiyonel programlama nimetlerinden faydalanmamızı sağlayan lambda birçok konuda bize yardımcı olacaktır. Doğru kullanımını öğrendiğimiz ölçüde nimetlerinin farkına varabiliriz.
 Belli başlı lambda kullanımları için aşağıdaki örneği inceleyebilirsiniz.
-override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_kotlin_lambda) // Normal Kullanım  ButtonPress.setOnClickListener(object :View.OnClickListener { override fun onClick(view: View?) { toast(&amp;#34;Press Me Click&amp;#34;) } }) // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz  ButtonPress.setOnClickListener({ v -&amp;gt; toast(&amp;#34;Press Me&amp;#34;) }) // Eğer son parametre lambda fonksiyonu ise bu fonksiyonu parantez &amp;#39;()&amp;#39; dışına çıkarabiliriz.</description>
+override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_kotlin_lambda) // Normal Kullanım  ButtonPress.setOnClickListener(object : View.OnClickListener { override fun onClick(view: View?) { toast(&amp;#34;Press Me Click&amp;#34;) } }) // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz  ButtonPress.setOnClickListener({ v -&amp;gt; toast(&amp;#34;Press Me&amp;#34;) }) // Eğer son parametre lambda fonksiyonu ise bu fonksiyonu parantez &amp;#39;()&amp;#39; dışına çıkarabiliriz.</description>
     </item>
     
     <item>
@@ -368,7 +368,7 @@ File(dir).apply { mkdirs() } </description>
       <pubDate>Tue, 06 Jun 2017 04:42:56 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/kotlin-when/</guid>
-      <description>Kotlin&#39;de when operatörü işimizi oldukça kolaylaştıran operatörlerden biridir.
+      <description>Kotlin&amp;rsquo;de when operatörü işimizi oldukça kolaylaştıran operatörlerden biridir.
 if- else if yapısı yerine kullanılabileceği gibi bazı yardımcı operatörler ile birçok marifet kazanabilir.
 val i = 10 when { i &amp;lt; 7 -&amp;gt; println(&amp;#34;first block&amp;#34;) fooString.startsWith(&amp;#34;hello&amp;#34;) -&amp;gt; println(&amp;#34;second block&amp;#34;) else -&amp;gt; println(&amp;#34;else block&amp;#34;) } Yukarıda ki örnek if-else if-else yapısının aynısıdır.
  when (i) { 0, 21 -&amp;gt; println(&amp;#34;0 or 21&amp;#34;) in 1..20 -&amp;gt; println(&amp;#34;in the range 1 to 20&amp;#34;) else -&amp;gt; println(&amp;#34;none of the above&amp;#34;) } Yukarıda ki gibi aralıklar tanımlanabilir ve bu aralıklara uyum kontrolü yapılarak ilgili işlemlerin yapılması sağlanılabilir.</description>
@@ -606,7 +606,7 @@ Orijinal Arduino Kartlarının yapımı iki koldan yürüyor. Bir taraf open sou
       <pubDate>Wed, 11 Jan 2017 17:20:37 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/sql-scope-identity/</guid>
-      <description>Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id&#39;sini getirir.
+      <description>Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id&amp;rsquo;sini getirir.
 Yapılan son kaydın id sini almak için uzun yol olarak insert sorgusunu çalıştırdıktan sonra bir select sorgusu atarak ve order by id desc diyerek ilk sıradaki kaydı okuyabilir ve bu kaydın id sini alabiliriz.
 Tüm bunları yapmaktansa:
 DECLARE @son_satir_id INT; INSERT INTO tbQwerty ( Ad , Soyad ) VALUES ( &amp;#39;Aykut&amp;#39; &amp;#39;Asil&amp;#39; ) SET @son_satir_id = SCOPE_IDENTITY(); Ayrıntılı Bilgi : https://technet.</description>

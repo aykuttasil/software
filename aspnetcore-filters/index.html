@@ -37,7 +37,7 @@
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -113,7 +113,7 @@
         <h1 class="post-full-title">ASP.NET Core Filters</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)">
     </figure>
 
     <section class="post-full-content">
@@ -127,28 +127,28 @@
 <h3 id="authorization-filters">Authorization Filters</h3>
 <p>İlk çalışan <strong>filter</strong>&lsquo;dır. İlgili mvc action metoduna erişmek için <strong>user</strong>&lsquo;ın yetkisi olup olmadığını kontrol eder. Eğer koşullar sağlanıyor ise ilgili <strong>mvc action</strong> metodu çalışır. Yetki problemi var ise <strong>short-circuit</strong> diye tabir edilen kısa devre yapılarak direk olarak bir <strong>response</strong> mesajı döndürülür. Yani kodun geri kalanının çalışmasına izin verilmez.</p>
 <h3 id="resource-filters">Resource Filters</h3>
-<p>Eğer ki kullanıcı <strong>Authorization Filter</strong>&lsquo;ından geçmiş ise <strong>filter pipeline</strong>&lsquo;nında ki diğer filter'lardan önce çalıştırılacak ilk <strong>filter</strong>dır. Ve aynı zamanda response yönü için <strong>filter pipeline</strong>&lsquo;nında ki diğer tüm filter'lardan sonra çalışacak filter'dır. Yani kod bloğuna ilk giriş ve son çıkış mekanizması kurulmasını sağlar. Genellikle <strong>short-circuit</strong> sağlamak için kullanılır. Örnek olarak <strong>caching</strong> akışını bu filter ile oluşturabiliriz.</p>
+<p>Eğer ki kullanıcı <strong>Authorization Filter</strong>&lsquo;ından geçmiş ise <strong>filter pipeline</strong>&lsquo;nında ki diğer filter&rsquo;lardan önce çalıştırılacak ilk <strong>filter</strong>dır. Ve aynı zamanda response yönü için <strong>filter pipeline</strong>&lsquo;nında ki diğer tüm filter&rsquo;lardan sonra çalışacak filter&rsquo;dır. Yani kod bloğuna ilk giriş ve son çıkış mekanizması kurulmasını sağlar. Genellikle <strong>short-circuit</strong> sağlamak için kullanılır. Örnek olarak <strong>caching</strong> akışını bu filter ile oluşturabiliriz.</p>
 <h3 id="action-filters">Action Filters</h3>
 <p>İlgili <strong>Action</strong> metodunun hemen öncesinde ve hemen sonrasında çalışacak olan <strong>filter</strong> tipidir. Genellikle <strong>Action</strong> metoduna gelen argüman değerlerinin ve response çıktısının <strong>manipülasyon</strong>&lsquo;u için kullanılır.</p>
 <h3 id="exception-filters">Exception Filters</h3>
 <h3 id="result-filters">Result Filters</h3>
 <hr>
 <h2 id="filter-scopes-and-order-of-execution">Filter scopes and order of execution</h2>
-<p>Filter'ların 3 farklı <strong>scope</strong> seçeneği vardır. <strong>Controller, Action</strong> ve <strong>Global</strong>. <strong>Controller</strong> scope'una sahip bir <strong>filter</strong>, ilgili controller'a gelen tüm isteklerde çalışacaktır. <strong>Action</strong> scope'una sahip bir filter sadece ilgili action'a gelen isteklerde ve <strong>Global</strong> scope'una sahip filter ise tüm controller ve action'lara gelen isteklerde çalışacaktır. Projenin ihtiyacına göre filter scope'ları belirlenir.</p>
+<p>Filter&rsquo;ların 3 farklı <strong>scope</strong> seçeneği vardır. <strong>Controller, Action</strong> ve <strong>Global</strong>. <strong>Controller</strong> scope&rsquo;una sahip bir <strong>filter</strong>, ilgili controller&rsquo;a gelen tüm isteklerde çalışacaktır. <strong>Action</strong> scope&rsquo;una sahip bir filter sadece ilgili action&rsquo;a gelen isteklerde ve <strong>Global</strong> scope&rsquo;una sahip filter ise tüm controller ve action&rsquo;lara gelen isteklerde çalışacaktır. Projenin ihtiyacına göre filter scope&rsquo;ları belirlenir.</p>
 <h3 id="global-filter-scope">Global Filter Scope</h3>
-<p>Tüm <strong>controller</strong> ve <strong>action</strong>&lsquo;larda çalışmasını istediğimiz filter'ların scope'unu <strong>global</strong> olarak kayıt etmeliyiz.</p>
-<p>Örneğin hangi controller çalışırsa çalışsın, response'a bir <strong>header</strong> eklemek istiyoruz. Ve bu <strong>filter</strong> kodunun ilgili tüm işlemler yapıldıktan sonra <strong>response</strong> döneceği sırada çalışmasını istiyoruz. Response dönmeden hemen önce ve hemen sonra yani tüm işlemler başarılı ise çalışmasını istediğimiz kodlar için filter tipi, <strong>IResultFilter</strong> olması gerekmektedir.</p>
+<p>Tüm <strong>controller</strong> ve <strong>action</strong>&lsquo;larda çalışmasını istediğimiz filter&rsquo;ların scope&rsquo;unu <strong>global</strong> olarak kayıt etmeliyiz.</p>
+<p>Örneğin hangi controller çalışırsa çalışsın, response&rsquo;a bir <strong>header</strong> eklemek istiyoruz. Ve bu <strong>filter</strong> kodunun ilgili tüm işlemler yapıldıktan sonra <strong>response</strong> döneceği sırada çalışmasını istiyoruz. Response dönmeden hemen önce ve hemen sonra yani tüm işlemler başarılı ise çalışmasını istediğimiz kodlar için filter tipi, <strong>IResultFilter</strong> olması gerekmektedir.</p>
 <blockquote>
-<p>Eğer kodumuzun ilgili <strong>action</strong>&lsquo;a istek gelir gelmez çalışmasını isteseydik o zaman filter'ımızın <strong>IActionFilter</strong> tipinde olması gerekecekti.</p>
+<p>Eğer kodumuzun ilgili <strong>action</strong>&lsquo;a istek gelir gelmez çalışmasını isteseydik o zaman filter&rsquo;ımızın <strong>IActionFilter</strong> tipinde olması gerekecekti.</p>
 </blockquote>
-<p>Oluşturduğumuz filter'ın <strong>global scope</strong>&lsquo;a sahip olduğunu belirtmek için aşağıdaki şekilde belirtmemiz gerekmektedir.</p>
+<p>Oluşturduğumuz filter&rsquo;ın <strong>global scope</strong>&lsquo;a sahip olduğunu belirtmek için aşağıdaki şekilde belirtmemiz gerekmektedir.</p>
 <script src="https://gist.github.com/aykuttasil/434979505600cda99bd4b84ccfa048f1.js"></script>
 <script src="https://gist.github.com/aykuttasil/ae2f921f38f8a2222b73b27c82e12ae7.js"></script>
 <script src="https://gist.github.com/aykuttasil/71b3a33f3ee562826efbc3dacf23001c.js"></script>
 <p><img src="/img/resultfiltersample.png" alt="resultfilter" title="Global Scope Result Filter"></p>
 <p>### Dependency injection</p>
-<p>Filter'lar <strong>type (typeOf())</strong> veya <strong>instance</strong> alınarak eklenebilir. Eğer <strong>instance</strong> alınarak eklenir ise tüm isteklerde bu instance çalışacaktır. Eğer <strong>type</strong> şeklinde eklenir ise <strong>type-activated</strong> olacak ve her request sonrası filter sınıfının <strong>constructer</strong>&lsquo;ı çağırılarak yeni bir instance'ı oluşturulacaktır. Ve bu sayede <strong>DI</strong> container'ından istenilen sınıflar <strong>inject</strong> edilebilir olacaktır. <strong>Type</strong> kullanılarak eklenen filter'lar <code>filters.Add(new TypeFilterAttribute(typeof(MyFilter)))</code> şeklinde container'a eklenmiş gibi davranacaktır.</p>
-<p>Eğer oluşturduğumuz <strong>Filter</strong> sınıfı <strong>DI</strong> container'ından bir bağımlılık içeriyor ise aşağıdaki yöntemlerden birini kullanarak <strong>controller</strong> veya <strong>action</strong> metoduna filter eklenebilir:</p>
+<p>Filter&rsquo;lar <strong>type (typeOf())</strong> veya <strong>instance</strong> alınarak eklenebilir. Eğer <strong>instance</strong> alınarak eklenir ise tüm isteklerde bu instance çalışacaktır. Eğer <strong>type</strong> şeklinde eklenir ise <strong>type-activated</strong> olacak ve her request sonrası filter sınıfının <strong>constructer</strong>&lsquo;ı çağırılarak yeni bir instance&rsquo;ı oluşturulacaktır. Ve bu sayede <strong>DI</strong> container&rsquo;ından istenilen sınıflar <strong>inject</strong> edilebilir olacaktır. <strong>Type</strong> kullanılarak eklenen filter&rsquo;lar <code>filters.Add(new TypeFilterAttribute(typeof(MyFilter)))</code> şeklinde container&rsquo;a eklenmiş gibi davranacaktır.</p>
+<p>Eğer oluşturduğumuz <strong>Filter</strong> sınıfı <strong>DI</strong> container&rsquo;ından bir bağımlılık içeriyor ise aşağıdaki yöntemlerden birini kullanarak <strong>controller</strong> veya <strong>action</strong> metoduna filter eklenebilir:</p>
 <ul>
 <li>ServiceFilterAttribute</li>
 <li>ServiceFilterAttribute</li>
@@ -219,13 +219,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/macos-arduino-uno-klon-kurulum/">Mac OS Arduino Uno (Klon) Kurulumu</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-service/">Android Service</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/step-motor-nedir/">Step Motor Nedir?</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/deviceip-with-adb/">ADB Komutu ile Cihaz IP&#39;sini Öğren</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/recaptcha-kullanimi/">ReCaptcha Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/dns-over-tls/">DNS over TLS Nedir?</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/docker-komutlari/">Docker Komutları</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-backstack-navigate/">Android Backstack Navigate</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -275,7 +275,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/aspnetcore-run-middleware/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
     </a>    
     
 

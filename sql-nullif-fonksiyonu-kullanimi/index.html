@@ -37,7 +37,7 @@
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -113,7 +113,7 @@
         <h1 class="post-full-title">TSQL NULLIF Fonksiyonu Nedir ve Nasıl Kullanılır</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)">
     </figure>
 
     <section class="post-full-content">
@@ -144,7 +144,7 @@ ListeFiyati DECIMAL <span style="color:#66d9ef">NULL</span>);
 <span style="color:#75715e">--sonuç 4
 </span></code></pre></div><p>Simdi gelelim NULLIF fonksiyonuna. Liste fiyati 0 olarak girilen ürünlerin sayiya dahil etmek istemiyorsak, Liste fiyati 0 olanlari NULL ‘a çevirerek count islemini yapabiliriz.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">select</span> <span style="color:#66d9ef">NULLIF</span>(ListeFiyati,<span style="color:#ae81ff">0</span>) <span style="color:#66d9ef">from</span> <span style="color:#f92672">#</span>Urun
-<span style="color:#75715e">/*</span><span style="color:#75715e">
+<span style="color:#75715e">/*
 </span><span style="color:#75715e">Liste Fiyati 0 olanlari NULL yap.
 </span><span style="color:#75715e">Sonuç:
 </span><span style="color:#75715e">100
@@ -152,12 +152,12 @@ ListeFiyati DECIMAL <span style="color:#66d9ef">NULL</span>);
 </span><span style="color:#75715e">NULL
 </span><span style="color:#75715e">250
 </span><span style="color:#75715e">458
-</span><span style="color:#75715e"></span><span style="color:#75715e">*/</span>
+</span><span style="color:#75715e">*/</span>
 
 <span style="color:#75715e">--Liste Fiyati 0 olanlar hariç sayiyi bulmak istiyorsak. (count fonksiyonunun NULL degerleri saymadigini unutmayalim)
 </span><span style="color:#75715e"></span><span style="color:#66d9ef">select</span> <span style="color:#66d9ef">count</span>(<span style="color:#66d9ef">NULLIF</span>(ListeFiyati,<span style="color:#ae81ff">0</span>)) <span style="color:#66d9ef">from</span> <span style="color:#f92672">#</span>Urun
 <span style="color:#75715e">--sonuç : 3.
-</span><span style="color:#75715e"></span><span style="color:#75715e">--Çünkü bir ürüne ait liste fiyati 0 di. Onu NULL’ a degistirdik ve ----sayisini getirdik.
+</span><span style="color:#75715e">--Çünkü bir ürüne ait liste fiyati 0 di. Onu NULL’ a degistirdik ve ----sayisini getirdik.
 </span></code></pre></div><p><a href="http://www.yazilimmutfagi.com/10170/veritabani/sql-server/tsql-nullif-fonksiyonu-nedir-ve-nasil-kullanilir.aspx">Kaynak</a></p>
     
         </div>
@@ -219,13 +219,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/macos-mssql-connection/">Mac OS ile MSSQL Bağlantısı Kurmak</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/activeandroid/">Android ActiveAndroid Kullanımı</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-keyhashes-sha1/">Android Key Hashes &amp; SHA1</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/server-ip/">Server Ip</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/sql-scope-identity/">SQL SCOPE_IDENTITY()</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/rxjava-scan/">RxJava scan() Kullanımı</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-circleci/">Android CircleCI Configuration</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/create-json-with-kotlin-dsl/">Kotlin DSL ile Json</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -239,7 +239,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/windows-local-iis-kurulumu/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
     </a>    
     
 
@@ -276,7 +276,7 @@ Yukarıda ki resimde görmüş olduğunuz gibi gerekli kutucukları işaretleyip
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-spinner-dynamic-text/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
     </a>    
     
 

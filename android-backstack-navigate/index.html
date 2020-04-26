@@ -37,7 +37,7 @@
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -113,30 +113,30 @@
         <h1 class="post-full-title">Android Backstack Navigate</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
         <h2 id="android-navigate">Android Navigate</h2>
-<h3 id="rnek-senaryo">Örnek Senaryo</h3>
+<h3 id="örnek-senaryo">Örnek Senaryo</h3>
 <p>Kullanıcıya bir ürün ile ilgili notification yolladınız. Kullanıcı bu notification a tıkladığında direk olarak <strong>Ürün Detay</strong> sayfasına yönlendiriliyor. Kullanıcı sayfada işi bittiğinde geri tuşuna basıyor ve siz bu durumda kullanıcıyı uygulamanın <strong>Anasayfa</strong>sına yönlendirmek istiyorsunuz. Ek bir geliştirme yapmadığınız takdirde bu senaryo için geri tuşuna basıldığında uygulama kapanır. Çünkü geri gidecek ekranı yoktur. Direk olarak <strong>Detay</strong> sayfası açılmıştır.</p>
 <hr>
-<h2 id="zm">Çözüm</h2>
-<p>İlk olarak yapmamız gereken <strong>Manifest.xml</strong> dosyasında <strong>DetailActivity</strong> tanımlamasını yaptığımız yerde <strong>parentActivityName</strong> i belirtmek. Yani geri tuşuna basıldığında hangi Activity'nin açılmasını istiyorsak <strong>parentActivityName</strong> alanına bu activity i yazıyoruz.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;application</span> <span style="color:#960050;background-color:#1e0010">.</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#960050;background-color:#1e0010">.</span> <span style="color:#f92672">&gt;</span>
+<h2 id="çözüm">Çözüm</h2>
+<p>İlk olarak yapmamız gereken <strong>Manifest.xml</strong> dosyasında <strong>DetailActivity</strong> tanımlamasını yaptığımız yerde <strong>parentActivityName</strong> i belirtmek. Yani geri tuşuna basıldığında hangi Activity&rsquo;nin açılmasını istiyorsak <strong>parentActivityName</strong> alanına bu activity i yazıyoruz.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;application</span> <span style="color:#960050;background-color:#1e0010">...</span> <span style="color:#f92672">&gt;</span>
     ...
-    <span style="color:#75715e">&lt;!--</span><span style="color:#75715e"> The main/home activity (it has no parent activity) </span><span style="color:#75715e">--&gt;</span>
+    <span style="color:#75715e">&lt;!-- The main/home activity (it has no parent activity) --&gt;</span>
     <span style="color:#f92672">&lt;activity</span>
-        <span style="color:#a6e22e">android:name=</span><span style="color:#e6db74">&#34;com.example.myfirstapp.MainActivity&#34;</span> <span style="color:#960050;background-color:#1e0010">.</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#960050;background-color:#1e0010">.</span><span style="color:#f92672">&gt;</span>
+        <span style="color:#a6e22e">android:name=</span><span style="color:#e6db74">&#34;com.example.myfirstapp.MainActivity&#34;</span> <span style="color:#960050;background-color:#1e0010">...</span><span style="color:#f92672">&gt;</span>
         ...
     <span style="color:#f92672">&lt;/activity&gt;</span>
-    <span style="color:#75715e">&lt;!--</span><span style="color:#75715e"> A child of the main activity </span><span style="color:#75715e">--&gt;</span>
+    <span style="color:#75715e">&lt;!-- A child of the main activity --&gt;</span>
     <span style="color:#f92672">&lt;activity</span>
         <span style="color:#a6e22e">android:name=</span><span style="color:#e6db74">&#34;com.example.myfirstapp.DetailActivity&#34;</span>
         <span style="color:#a6e22e">android:label=</span><span style="color:#e6db74">&#34;@string/title_activity_display_message&#34;</span>
         <span style="color:#a6e22e">android:parentActivityName=</span><span style="color:#e6db74">&#34;com.example.myfirstapp.MainActivity&#34;</span> <span style="color:#f92672">&gt;</span>
-        <span style="color:#75715e">&lt;!--</span><span style="color:#75715e"> Android uygulamamız 4.1 ve öncesini destekliyorsa meta</span><span style="color:#75715e">-</span><span style="color:#75715e">data ile de belirtmek durumundayız.</span><span style="color:#75715e">--&gt;</span>
+        <span style="color:#75715e">&lt;!-- Android uygulamamız 4.1 ve öncesini destekliyorsa meta-data ile de belirtmek durumundayız.--&gt;</span>
         <span style="color:#f92672">&lt;meta-data</span>
             <span style="color:#a6e22e">android:name=</span><span style="color:#e6db74">&#34;android.support.PARENT_ACTIVITY&#34;</span>
             <span style="color:#a6e22e">android:value=</span><span style="color:#e6db74">&#34;com.example.myfirstapp.MainActivity&#34;</span> <span style="color:#f92672">/&gt;</span>
@@ -144,17 +144,17 @@
 <span style="color:#f92672">&lt;/application&gt;</span>
 </code></pre></div><p>Sonrasında notification gösterimi için hazırladığımız kodu aşağıdaki şekilde düzenliyoruz.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#75715e">// Intent for the activity to open when user selects the notification
-</span><span style="color:#75715e"></span>Intent detailsIntent <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Intent<span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">,</span> DetailsActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span>Intent detailsIntent <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Intent<span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">,</span> DetailsActivity<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">);</span>
 
 <span style="color:#75715e">// Use TaskStackBuilder to build the back stack and get the PendingIntent
 </span><span style="color:#75715e"></span>PendingIntent pendingIntent <span style="color:#f92672">=</span> TaskStackBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">)</span>
                         <span style="color:#75715e">// add all of DetailsActivity&#39;s parents to the stack,
 </span><span style="color:#75715e"></span>                        <span style="color:#75715e">// followed by DetailsActivity itself
 </span><span style="color:#75715e"></span>                        <span style="color:#f92672">.</span><span style="color:#a6e22e">addNextIntentWithParentStack</span><span style="color:#f92672">(</span>detailsIntent<span style="color:#f92672">)</span>
-                        <span style="color:#f92672">.</span><span style="color:#a6e22e">getPendingIntent</span><span style="color:#f92672">(</span>0<span style="color:#f92672">,</span> PendingIntent<span style="color:#f92672">.</span><span style="color:#a6e22e">FLAG_UPDATE_CURRENT</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+                        <span style="color:#f92672">.</span><span style="color:#a6e22e">getPendingIntent</span><span style="color:#f92672">(</span>0<span style="color:#f92672">,</span> PendingIntent<span style="color:#f92672">.</span><span style="color:#a6e22e">FLAG_UPDATE_CURRENT</span><span style="color:#f92672">);</span>
 
-NotificationCompat<span style="color:#f92672">.</span><span style="color:#a6e22e">Builder</span> builder <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> NotificationCompat<span style="color:#f92672">.</span><span style="color:#a6e22e">Builder</span><span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-builder<span style="color:#f92672">.</span><span style="color:#a6e22e">setContentIntent</span><span style="color:#f92672">(</span>pendingIntent<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+NotificationCompat<span style="color:#f92672">.</span><span style="color:#a6e22e">Builder</span> builder <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> NotificationCompat<span style="color:#f92672">.</span><span style="color:#a6e22e">Builder</span><span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">);</span>
+builder<span style="color:#f92672">.</span><span style="color:#a6e22e">setContentIntent</span><span style="color:#f92672">(</span>pendingIntent<span style="color:#f92672">);</span>
 </code></pre></div><hr>
 <p>Artık notification ile açılan DetailsActivity sayfasında kullanıcı geri tuşuna bastığında Mainactivity sayfası açılacaktır.</p>
 <blockquote>
@@ -224,13 +224,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/deviceip-with-adb/">ADB Komutu ile Cihaz IP&#39;sini Öğren</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/tcpip-nedir_nasil_calisir/">TCP/IP Nasıl Çalışır ?</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/circleci-configuration/">CircleCI Configuration</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/java-executorservice/">Executor newCachedThreadPool() newFixedThreadPool(n) newSingleThreadExecutor()</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/docker-series-1/">Docker Series - 1</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/dns-over-tls/">DNS over TLS Nedir?</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/vscode-intellisense/">VS Code &amp; Express &amp; TypeScript &amp; IntelliSense</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-create-library-upload-bintray/">Android Library &amp; Bintray</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -244,7 +244,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/step-motor-nedir/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
     </a>    
     
 
@@ -276,7 +276,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-architecture-components/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
     </a>    
     
 

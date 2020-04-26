@@ -37,7 +37,7 @@
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -113,7 +113,7 @@
         <h1 class="post-full-title">Android Dagger</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)">
     </figure>
 
     <section class="post-full-content">
@@ -122,19 +122,19 @@
 <p>Bağımlılıklarınızı oluşturma esnasında belirtmeniz gereken bir değişkenininiz var ve bu değişkeni diğer module leriniz içerisinde kullanıcaksınız. Aşağıdaki gibi <code>@BindsInstance</code> kullanarak bu bağımlılığınızı dependency graph içerisine ekleyerek diğer modüller içerisinde kullanımını sağlayabilirsiniz.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#a6e22e">@Component</span><span style="color:#f92672">(</span>modules <span style="color:#f92672">=</span> AppModule<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">)</span>
 <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">AppComponent</span> <span style="color:#f92672">{</span>
-  App <span style="color:#a6e22e">app</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+  App <span style="color:#a6e22e">app</span><span style="color:#f92672">();</span>
 
   <span style="color:#a6e22e">@Component.Builder</span>
   <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">Builder</span> <span style="color:#f92672">{</span>
-    <span style="color:#a6e22e">@BindsInstance</span> Builder <span style="color:#a6e22e">apiUrl</span><span style="color:#f92672">(</span><span style="color:#a6e22e">@ApiUrl</span> String apiUrl<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-    AppComponent <span style="color:#a6e22e">build</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+    <span style="color:#a6e22e">@BindsInstance</span> Builder <span style="color:#a6e22e">apiUrl</span><span style="color:#f92672">(</span><span style="color:#a6e22e">@ApiUrl</span> String apiUrl<span style="color:#f92672">);</span>
+    AppComponent <span style="color:#a6e22e">build</span><span style="color:#f92672">();</span>
   <span style="color:#f92672">}</span>
 <span style="color:#f92672">}</span>
 </code></pre></div><p>Component build edilirken <code>apiUrl</code> değeri bind edilir.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"> App app <span style="color:#f92672">=</span> DaggerAppComponent
-      <span style="color:#f92672">.</span><span style="color:#a6e22e">builder</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span>
+      <span style="color:#f92672">.</span><span style="color:#a6e22e">builder</span><span style="color:#f92672">()</span>
       <span style="color:#f92672">.</span><span style="color:#a6e22e">apiUrl</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;http://....&#34;</span><span style="color:#f92672">)</span>
-      <span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span>
+      <span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">()</span>
 </code></pre></div><hr>
     
         </div>
@@ -196,13 +196,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/rxjava-reduce/">RxJava reduce() Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/rxjava-range/">RxJava range() Kullanımı</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-filesystem/">Android File System</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/kotlin-lambda/">Kotlin Lambda</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/retrofit-multipart-file-upload/">Retrofit Multipart File Upload</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/circleci-configuration/">CircleCI Configuration</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/java-executorservice-submit-and-execute/">ExecutorService submit() – execute()</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/aspnetcore-session/">Asp.Net Core Session</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -216,7 +216,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/ssh-surekli-parola-isteme-problemi/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
     </a>    
     
 
@@ -246,7 +246,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/post/amp/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
     </a>    
     
 

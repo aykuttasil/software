@@ -37,7 +37,7 @@
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -113,7 +113,7 @@
         <h1 class="post-full-title">Android SMS Receiver</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)">
     </figure>
 
     <section class="post-full-content">
@@ -125,29 +125,29 @@
 <p>Biz burda SMS dinlemesi yaparken önlem amaçlı olarak CPU nun uyumasını önlüyoruz. Eğer bir işlem sonucunda sms gelmesini bekliyorsak, beklediğimiz SMS  geciktiği takdirde ve bu sırada cihazın ekranını vs. kapattığımız da Android cihazımız kendini uyku moduna almak isteyecektir. Bunu önlemek için <strong>WakefulBroadcastReceiver</strong> yapısını kullanıyoruz. Bu yapı aslında Android in WakeLock özelliğini kullanan serviceler için özel olarak tasarlanmış  bir yapıdır. Cihazı uyanık tutar ve işimiz bittiği takdirde bu WakeLock u kaldırmamız gerekir. Bunu da service in içerisinde tanımlarız.</p>
 <p>Aşağıdaki fonksiyonu Activity miz içerisinde ihtiyacımız olan yerde çağırır ve SMS receiver ı çalıştırmıış oluruz.</p>
 <h3 id="loginactivity">LoginActivity</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">RegisterSmsReceiver</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-    SmsReceiver smsReceiver <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> SmsReceiver<span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-    IntentFilter intentFilter <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> IntentFilter<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;android.provider.Telephony.SMS_RECEIVED&#34;</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-    android<span style="color:#f92672">.</span><span style="color:#a6e22e">os</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Handler</span> handler <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> android<span style="color:#f92672">.</span><span style="color:#a6e22e">os</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Handler</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-    registerReceiver<span style="color:#f92672">(</span>smsReceiver<span style="color:#f92672">,</span> intentFilter<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;android.permission.GET_TASKS&#34;</span><span style="color:#f92672">,</span> handler<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">RegisterSmsReceiver</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+    SmsReceiver smsReceiver <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> SmsReceiver<span style="color:#f92672">();</span>
+    IntentFilter intentFilter <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> IntentFilter<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;android.provider.Telephony.SMS_RECEIVED&#34;</span><span style="color:#f92672">);</span>
+    android<span style="color:#f92672">.</span><span style="color:#a6e22e">os</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Handler</span> handler <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> android<span style="color:#f92672">.</span><span style="color:#a6e22e">os</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Handler</span><span style="color:#f92672">();</span>
+    registerReceiver<span style="color:#f92672">(</span>smsReceiver<span style="color:#f92672">,</span> intentFilter<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;android.permission.GET_TASKS&#34;</span><span style="color:#f92672">,</span> handler<span style="color:#f92672">);</span>
 <span style="color:#f92672">}</span>
 </code></pre></div><h3 id="smsreceiver">SmsReceiver</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">SmsReceiver</span> <span style="color:#66d9ef">extends</span> WakefulBroadcastReceiver <span style="color:#f92672">{</span>
 
     <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String TAG <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;SmsReceiver&#34;</span><span style="color:#f92672">;</span>
 
-    <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">SmsReceiver</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-        <span style="color:#66d9ef">super</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+    <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">SmsReceiver</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+        <span style="color:#66d9ef">super</span><span style="color:#f92672">();</span>
     <span style="color:#f92672">}</span>
 
     <span style="color:#a6e22e">@Override</span>
     <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onReceive</span><span style="color:#f92672">(</span>Context context<span style="color:#f92672">,</span> Intent intent<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
         Intent myIntent <span style="color:#f92672">=</span> intent<span style="color:#f92672">;</span>
-        myIntent<span style="color:#f92672">.</span><span style="color:#a6e22e">setClass</span><span style="color:#f92672">(</span>context<span style="color:#f92672">,</span> SmsReceiverService<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+        myIntent<span style="color:#f92672">.</span><span style="color:#a6e22e">setClass</span><span style="color:#f92672">(</span>context<span style="color:#f92672">,</span> SmsReceiverService<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">);</span>
 
         <span style="color:#75715e">// startWakeFulService ile AndroidManifest.xml dosyamız içerisinde tanımlamış olduğumuz Service e yönlendiriyoruz.
 </span><span style="color:#75715e"></span>        <span style="color:#75715e">// Ve cihazın uyanık kalmasını sağlıyoruz.
-</span><span style="color:#75715e"></span>        startWakefulService<span style="color:#f92672">(</span>context<span style="color:#f92672">,</span> myIntent<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span>        startWakefulService<span style="color:#f92672">(</span>context<span style="color:#f92672">,</span> myIntent<span style="color:#f92672">);</span>
 
     <span style="color:#f92672">}</span>
 <span style="color:#f92672">}</span>
@@ -162,14 +162,14 @@
     <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String TAG <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;SmsReceiverService&#34;</span><span style="color:#f92672">;</span>
     <span style="color:#66d9ef">private</span> Context context<span style="color:#f92672">;</span>
 
-    <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">SmsReceiverService</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-        <span style="color:#66d9ef">super</span><span style="color:#f92672">(</span>TAG<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+    <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">SmsReceiverService</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+        <span style="color:#66d9ef">super</span><span style="color:#f92672">(</span>TAG<span style="color:#f92672">);</span>
     <span style="color:#f92672">}</span>
 
     <span style="color:#a6e22e">@Override</span>
-    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-        <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-        context <span style="color:#f92672">=</span> getApplicationContext<span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+        <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onCreate</span><span style="color:#f92672">();</span>
+        context <span style="color:#f92672">=</span> getApplicationContext<span style="color:#f92672">();</span>
     <span style="color:#f92672">}</span>
 
 
@@ -178,19 +178,19 @@
 
         String msg_from <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
         String msgBody <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
-        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>intent<span style="color:#f92672">.</span><span style="color:#a6e22e">getAction</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equals</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;android.provider.Telephony.SMS_RECEIVED&#34;</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-            Bundle bundle <span style="color:#f92672">=</span> intent<span style="color:#f92672">.</span><span style="color:#a6e22e">getExtras</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>           <span style="color:#75715e">//---get the SMS message passed in---
-</span><span style="color:#75715e"></span>            SmsMessage<span style="color:#f92672">[</span><span style="color:#f92672">]</span> msgs <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
+        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>intent<span style="color:#f92672">.</span><span style="color:#a6e22e">getAction</span><span style="color:#f92672">().</span><span style="color:#a6e22e">equals</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;android.provider.Telephony.SMS_RECEIVED&#34;</span><span style="color:#f92672">))</span> <span style="color:#f92672">{</span>
+            Bundle bundle <span style="color:#f92672">=</span> intent<span style="color:#f92672">.</span><span style="color:#a6e22e">getExtras</span><span style="color:#f92672">();</span>           <span style="color:#75715e">//---get the SMS message passed in---
+</span><span style="color:#75715e"></span>            SmsMessage<span style="color:#f92672">[]</span> msgs <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
 
-            <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>bundle <span style="color:#f92672">!</span><span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+            <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>bundle <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
                 <span style="color:#75715e">//---retrieve the SMS message received---
 </span><span style="color:#75715e"></span>                <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-                    Object<span style="color:#f92672">[</span><span style="color:#f92672">]</span> pdus <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>Object<span style="color:#f92672">[</span><span style="color:#f92672">]</span><span style="color:#f92672">)</span> bundle<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;pdus&#34;</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-                    msgs <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> SmsMessage<span style="color:#f92672">[</span>pdus<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">]</span><span style="color:#f92672">;</span>
-                    <span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> i <span style="color:#f92672">&lt;</span> msgs<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span> i<span style="color:#f92672">+</span><span style="color:#f92672">+</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-                        msgs<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> SmsMessage<span style="color:#f92672">.</span><span style="color:#a6e22e">createFromPdu</span><span style="color:#f92672">(</span><span style="color:#f92672">(</span><span style="color:#66d9ef">byte</span><span style="color:#f92672">[</span><span style="color:#f92672">]</span><span style="color:#f92672">)</span> pdus<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-                        msg_from <span style="color:#f92672">=</span> msgs<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span><span style="color:#f92672">.</span><span style="color:#a6e22e">getOriginatingAddress</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-                        msgBody <span style="color:#f92672">=</span> msgs<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span><span style="color:#f92672">.</span><span style="color:#a6e22e">getMessageBody</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+                    Object<span style="color:#f92672">[]</span> pdus <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>Object<span style="color:#f92672">[])</span> bundle<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;pdus&#34;</span><span style="color:#f92672">);</span>
+                    msgs <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> SmsMessage<span style="color:#f92672">[</span>pdus<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">];</span>
+                    <span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> i <span style="color:#f92672">&lt;</span> msgs<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span> i<span style="color:#f92672">++)</span> <span style="color:#f92672">{</span>
+                        msgs<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> SmsMessage<span style="color:#f92672">.</span><span style="color:#a6e22e">createFromPdu</span><span style="color:#f92672">((</span><span style="color:#66d9ef">byte</span><span style="color:#f92672">[])</span> pdus<span style="color:#f92672">[</span>i<span style="color:#f92672">]);</span>
+                        msg_from <span style="color:#f92672">=</span> msgs<span style="color:#f92672">[</span>i<span style="color:#f92672">].</span><span style="color:#a6e22e">getOriginatingAddress</span><span style="color:#f92672">();</span>
+                        msgBody <span style="color:#f92672">=</span> msgs<span style="color:#f92672">[</span>i<span style="color:#f92672">].</span><span style="color:#a6e22e">getMessageBody</span><span style="color:#f92672">();</span>
 
                     <span style="color:#f92672">}</span>
                 <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>Exception e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
@@ -199,16 +199,16 @@
             <span style="color:#f92672">}</span>
         <span style="color:#f92672">}</span>
 
-        SmsEvent smsEvent <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> SmsEvent<span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-        smsEvent<span style="color:#f92672">.</span><span style="color:#a6e22e">setActivationCode</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;357&#34;</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-        smsEvent<span style="color:#f92672">.</span><span style="color:#a6e22e">setMsgBody</span><span style="color:#f92672">(</span>msgBody<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-        smsEvent<span style="color:#f92672">.</span><span style="color:#a6e22e">setMsgFrom</span><span style="color:#f92672">(</span>msg_from<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+        SmsEvent smsEvent <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> SmsEvent<span style="color:#f92672">();</span>
+        smsEvent<span style="color:#f92672">.</span><span style="color:#a6e22e">setActivationCode</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;357&#34;</span><span style="color:#f92672">);</span>
+        smsEvent<span style="color:#f92672">.</span><span style="color:#a6e22e">setMsgBody</span><span style="color:#f92672">(</span>msgBody<span style="color:#f92672">);</span>
+        smsEvent<span style="color:#f92672">.</span><span style="color:#a6e22e">setMsgFrom</span><span style="color:#f92672">(</span>msg_from<span style="color:#f92672">);</span>
 
         <span style="color:#75715e">// EventBus ile sonucu istediğimiz yere gönderebiliriz.
-</span><span style="color:#75715e"></span>        EventBus<span style="color:#f92672">.</span><span style="color:#a6e22e">getDefault</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">post</span><span style="color:#f92672">(</span>smsEvent<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span>        EventBus<span style="color:#f92672">.</span><span style="color:#a6e22e">getDefault</span><span style="color:#f92672">().</span><span style="color:#a6e22e">post</span><span style="color:#f92672">(</span>smsEvent<span style="color:#f92672">);</span>
 
         <span style="color:#75715e">// Service in işini tamamladığını ve artık cihazın WakeLock u serbest bırakabileceğini söylüyoruz.
-</span><span style="color:#75715e"></span>        SmsReceiver<span style="color:#f92672">.</span><span style="color:#a6e22e">completeWakefulIntent</span><span style="color:#f92672">(</span>intent<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span>        SmsReceiver<span style="color:#f92672">.</span><span style="color:#a6e22e">completeWakefulIntent</span><span style="color:#f92672">(</span>intent<span style="color:#f92672">);</span>
     <span style="color:#f92672">}</span>
 <span style="color:#f92672">}</span>
 </code></pre></div><p><strong>SmsEvent</strong></p>
@@ -218,7 +218,7 @@
     <span style="color:#66d9ef">private</span> String msgBody<span style="color:#f92672">;</span>
 
 
-    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">getActivationCode</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">getActivationCode</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
         <span style="color:#66d9ef">return</span> activationCode<span style="color:#f92672">;</span>
     <span style="color:#f92672">}</span>
 
@@ -226,7 +226,7 @@
         <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">activationCode</span> <span style="color:#f92672">=</span> activationCode<span style="color:#f92672">;</span>
     <span style="color:#f92672">}</span>
 
-    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">getMsgFrom</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">getMsgFrom</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
         <span style="color:#66d9ef">return</span> msgFrom<span style="color:#f92672">;</span>
     <span style="color:#f92672">}</span>
 
@@ -234,7 +234,7 @@
         <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">msgFrom</span> <span style="color:#f92672">=</span> msgFrom<span style="color:#f92672">;</span>
     <span style="color:#f92672">}</span>
 
-    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">getMsgBody</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">getMsgBody</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
         <span style="color:#66d9ef">return</span> msgBody<span style="color:#f92672">;</span>
     <span style="color:#f92672">}</span>
 
@@ -302,13 +302,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/activeandroid/">Android ActiveAndroid Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/yeoman-kullanimi/">Yeoman Kullanımı</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/kotlin-jvmoverloads/">Kotlin @JvmOverloads</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-test/">Android Test</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-viewpager/">Android ViewPager</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/javascript-hoisting/">Javascript Hoisting</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-architecture-components/">Android Architecture Components</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/step-motor-nedir/">Step Motor Nedir?</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -322,7 +322,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-gcmnetworkmanager-kullanimi/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
     </a>    
     
 
@@ -359,7 +359,7 @@ OneoffTask oneoff = new OneoffTask.Builder() // Uygulamanızı kapatsanız bile 
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-internet-connection-receiver/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
     </a>    
     
 

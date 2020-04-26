@@ -37,7 +37,7 @@
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -113,7 +113,7 @@
         <h1 class="post-full-title">Retrofit Multipart File Upload</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)">
     </figure>
 
     <section class="post-full-content">
@@ -123,32 +123,32 @@
     <span style="color:#66d9ef">public</span> BelgeResponse <span style="color:#a6e22e">BelgeSync</span><span style="color:#f92672">(</span>BelgeRequest request<span style="color:#f92672">,</span> String apiVersion<span style="color:#f92672">,</span> String appVersion<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
         <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
 
-            Map<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">,</span> RequestBody<span style="color:#f92672">&gt;</span> map <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> HashMap<span style="color:#f92672">&lt;</span><span style="color:#f92672">&gt;</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-            String belgeDirPath <span style="color:#f92672">=</span> SuperHelper<span style="color:#f92672">.</span><span style="color:#a6e22e">getInternalIztopBelgeDir</span><span style="color:#f92672">(</span>mContext<span style="color:#f92672">,</span> request<span style="color:#f92672">.</span><span style="color:#a6e22e">getGonderiNo</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-            File belgeDir <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> File<span style="color:#f92672">(</span>belgeDirPath<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-            <span style="color:#66d9ef">boolean</span> isDir <span style="color:#f92672">=</span> belgeDir<span style="color:#f92672">.</span><span style="color:#a6e22e">isDirectory</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+            Map<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">,</span> RequestBody<span style="color:#f92672">&gt;</span> map <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> HashMap<span style="color:#f92672">&lt;&gt;();</span>
+            String belgeDirPath <span style="color:#f92672">=</span> SuperHelper<span style="color:#f92672">.</span><span style="color:#a6e22e">getInternalIztopBelgeDir</span><span style="color:#f92672">(</span>mContext<span style="color:#f92672">,</span> request<span style="color:#f92672">.</span><span style="color:#a6e22e">getGonderiNo</span><span style="color:#f92672">());</span>
+            File belgeDir <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> File<span style="color:#f92672">(</span>belgeDirPath<span style="color:#f92672">);</span>
+            <span style="color:#66d9ef">boolean</span> isDir <span style="color:#f92672">=</span> belgeDir<span style="color:#f92672">.</span><span style="color:#a6e22e">isDirectory</span><span style="color:#f92672">();</span>
             <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>isDir<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-                File<span style="color:#f92672">[</span><span style="color:#f92672">]</span> files <span style="color:#f92672">=</span> belgeDir<span style="color:#f92672">.</span><span style="color:#a6e22e">listFiles</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+                File<span style="color:#f92672">[]</span> files <span style="color:#f92672">=</span> belgeDir<span style="color:#f92672">.</span><span style="color:#a6e22e">listFiles</span><span style="color:#f92672">();</span>
                 <span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span>File file <span style="color:#f92672">:</span> files<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-                    RequestBody requestBody <span style="color:#f92672">=</span> RequestBody<span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">(</span>MediaType<span style="color:#f92672">.</span><span style="color:#a6e22e">parse</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;image/jpg&#34;</span><span style="color:#f92672">)</span><span style="color:#f92672">,</span> file<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-                    map<span style="color:#f92672">.</span><span style="color:#a6e22e">put</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;file\&#34;; filename=\&#34;&#34;</span> <span style="color:#f92672">+</span> file<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">,</span> requestBody<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+                    RequestBody requestBody <span style="color:#f92672">=</span> RequestBody<span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">(</span>MediaType<span style="color:#f92672">.</span><span style="color:#a6e22e">parse</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;image/jpg&#34;</span><span style="color:#f92672">),</span> file<span style="color:#f92672">);</span>
+                    map<span style="color:#f92672">.</span><span style="color:#a6e22e">put</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;file\&#34;; filename=\&#34;&#34;</span> <span style="color:#f92672">+</span> file<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">(),</span> requestBody<span style="color:#f92672">);</span>
                 <span style="color:#f92672">}</span>
             <span style="color:#f92672">}</span>
 
             <span style="color:#75715e">//RequestBody requestBodyGonderiNo = RequestBody.create(MediaType.parse(&#34;text/plain&#34;), request.getGonderiNo());
 </span><span style="color:#75715e"></span>            <span style="color:#75715e">//RequestBody requestBodyMusId = RequestBody.create(MediaType.parse(&#34;text/plain&#34;), String.valueOf(request.getMusId()));
 </span><span style="color:#75715e"></span>
-            RestClient restClient <span style="color:#f92672">=</span> RestClient<span style="color:#f92672">.</span><span style="color:#a6e22e">getInstance</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-            Call<span style="color:#f92672">&lt;</span>BelgeResponse<span style="color:#f92672">&gt;</span> responseCall <span style="color:#f92672">=</span> restClient<span style="color:#f92672">.</span><span style="color:#a6e22e">getApiService</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Belge</span><span style="color:#f92672">(</span>
+            RestClient restClient <span style="color:#f92672">=</span> RestClient<span style="color:#f92672">.</span><span style="color:#a6e22e">getInstance</span><span style="color:#f92672">();</span>
+            Call<span style="color:#f92672">&lt;</span>BelgeResponse<span style="color:#f92672">&gt;</span> responseCall <span style="color:#f92672">=</span> restClient<span style="color:#f92672">.</span><span style="color:#a6e22e">getApiService</span><span style="color:#f92672">().</span><span style="color:#a6e22e">Belge</span><span style="color:#f92672">(</span>
                     apiVersion<span style="color:#f92672">,</span>
                     appVersion<span style="color:#f92672">,</span>
-                    request<span style="color:#f92672">.</span><span style="color:#a6e22e">getGonderiNo</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">,</span>
-                    String<span style="color:#f92672">.</span><span style="color:#a6e22e">valueOf</span><span style="color:#f92672">(</span>request<span style="color:#f92672">.</span><span style="color:#a6e22e">getMusId</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span><span style="color:#f92672">,</span>
-                    map<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-            BelgeResponse resp <span style="color:#f92672">=</span> responseCall<span style="color:#f92672">.</span><span style="color:#a6e22e">execute</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">body</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+                    request<span style="color:#f92672">.</span><span style="color:#a6e22e">getGonderiNo</span><span style="color:#f92672">(),</span>
+                    String<span style="color:#f92672">.</span><span style="color:#a6e22e">valueOf</span><span style="color:#f92672">(</span>request<span style="color:#f92672">.</span><span style="color:#a6e22e">getMusId</span><span style="color:#f92672">()),</span>
+                    map<span style="color:#f92672">);</span>
+            BelgeResponse resp <span style="color:#f92672">=</span> responseCall<span style="color:#f92672">.</span><span style="color:#a6e22e">execute</span><span style="color:#f92672">().</span><span style="color:#a6e22e">body</span><span style="color:#f92672">();</span>
             <span style="color:#66d9ef">return</span> resp<span style="color:#f92672">;</span>
         <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>Exception ex<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-            SuperHelper<span style="color:#f92672">.</span><span style="color:#a6e22e">CrashlyticsLog</span><span style="color:#f92672">(</span>ex<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+            SuperHelper<span style="color:#f92672">.</span><span style="color:#a6e22e">CrashlyticsLog</span><span style="color:#f92672">(</span>ex<span style="color:#f92672">);</span>
             <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
         <span style="color:#f92672">}</span>
     <span style="color:#f92672">}</span>
@@ -212,13 +212,15 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/android-dagger/">Android Dagger</a></li>            
+                      
         
-          <li><a href="https://yazilim.aykutasil.com/android-robolectric/">Robolectric ile UnitTest Yazımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/kotlin-let/">Kotlin Let Kullanımı</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/activeandroid/">Android ActiveAndroid Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/docker/">Docker</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/docker-series-1/">Docker Series - 1</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/step-motor-nedir/">Step Motor Nedir?</a></li>            
+        
+          <li><a href="https://yazilim.aykutasil.com/android-custom-toolbar/">Android Custom Toolbar Title</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -232,7 +234,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/foregroundservice-ve-fusedlocationapi-kullanimi/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
     </a>    
     
 
@@ -268,7 +270,7 @@ Burada yapacağımız örnekte kısaca şu aşamaları görücez;
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-gcmnetworkmanager-kullanimi/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
     </a>    
     
 

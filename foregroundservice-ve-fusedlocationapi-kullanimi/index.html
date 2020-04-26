@@ -37,7 +37,7 @@
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -113,7 +113,7 @@
         <h1 class="post-full-title">Foreground Service ile FusedLocationApi Kullanımı</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)">
     </figure>
 
     <section class="post-full-content">
@@ -141,10 +141,10 @@
 
 
  <span style="color:#a6e22e">@Override</span>
- <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
- <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+ <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onCreate</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+ <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onCreate</span><span style="color:#f92672">();</span>
  mContext <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span><span style="color:#f92672">;</span>
- mBuilder <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> NotificationCompat<span style="color:#f92672">.</span><span style="color:#a6e22e">Builder</span><span style="color:#f92672">(</span>mContext<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+ mBuilder <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> NotificationCompat<span style="color:#f92672">.</span><span style="color:#a6e22e">Builder</span><span style="color:#f92672">(</span>mContext<span style="color:#f92672">);</span>
  <span style="color:#f92672">}</span>
 
  <span style="color:#a6e22e">@Nullable</span>
@@ -158,31 +158,31 @@
 
 
  <span style="color:#75715e">// Eğer Service ilk defa çalıştırılıyor ise buildGoogleApiClient fonksiyonu ile GoogleApiClient build ediliyor
-</span><span style="color:#75715e"></span> <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>_googleApiClient <span style="color:#f92672">=</span><span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
- buildGoogleApiClient<span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span> <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>_googleApiClient <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+ buildGoogleApiClient<span style="color:#f92672">();</span>
  <span style="color:#f92672">}</span>
  <span style="color:#75715e">// GoogleApiClient a bağlanılıyor
-</span><span style="color:#75715e"></span> _googleApiClient<span style="color:#f92672">.</span><span style="color:#a6e22e">connect</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span> _googleApiClient<span style="color:#f92672">.</span><span style="color:#a6e22e">connect</span><span style="color:#f92672">();</span>
 
  <span style="color:#75715e">// Notificaiton gösteriyoruz
-</span><span style="color:#75715e"></span> LocationNotification<span style="color:#f92672">(</span><span style="color:#66d9ef">null</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Konum Bilgisi Yok&#34;</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span> LocationNotification<span style="color:#f92672">(</span><span style="color:#66d9ef">null</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Konum Bilgisi Yok&#34;</span><span style="color:#f92672">);</span>
 
  <span style="color:#75715e">// Service imizi foreground olarak başlatıyoruz
 </span><span style="color:#75715e"></span> <span style="color:#75715e">// Foreground service bizden bir notification parametresi ister. Bunun sebebi sürekli ayakta olduğunu kullanıcıya bildirmektir.
-</span><span style="color:#75715e"></span> startForeground<span style="color:#f92672">(</span>LOCATION_NOTIF_ID<span style="color:#f92672">,</span> notification<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span> startForeground<span style="color:#f92672">(</span>LOCATION_NOTIF_ID<span style="color:#f92672">,</span> notification<span style="color:#f92672">);</span>
 
  <span style="color:#75715e">// Herhangi bir sebeple service imizi durması halinde kendiliğinden tekrar başlaması için START_STICKY dönüyoruz.
 </span><span style="color:#75715e"></span> <span style="color:#66d9ef">return</span> START_STICKY<span style="color:#f92672">;</span>
  <span style="color:#f92672">}</span>
 
 
- <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">synchronized</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">buildGoogleApiClient</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
- <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>_googleApiClient <span style="color:#f92672">=</span><span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+ <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">synchronized</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">buildGoogleApiClient</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+ <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>_googleApiClient <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
  _googleApiClient <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GoogleApiClient<span style="color:#f92672">.</span><span style="color:#a6e22e">Builder</span><span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">)</span>
  <span style="color:#f92672">.</span><span style="color:#a6e22e">addConnectionCallbacks</span><span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">)</span>
  <span style="color:#f92672">.</span><span style="color:#a6e22e">addOnConnectionFailedListener</span><span style="color:#f92672">(</span><span style="color:#66d9ef">this</span><span style="color:#f92672">)</span>
  <span style="color:#f92672">.</span><span style="color:#a6e22e">addApi</span><span style="color:#f92672">(</span>LocationServices<span style="color:#f92672">.</span><span style="color:#a6e22e">API</span><span style="color:#f92672">)</span>
- <span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+ <span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">();</span>
  <span style="color:#f92672">}</span>
  <span style="color:#f92672">}</span>
 
@@ -190,7 +190,7 @@
  <span style="color:#a6e22e">@Override</span>
  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onConnected</span><span style="color:#f92672">(</span><span style="color:#a6e22e">@Nullable</span> Bundle bundle<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
  <span style="color:#75715e">// GoogleApiClient a bağlanıldığında Location isteğinde bulunuyoruz.
-</span><span style="color:#75715e"></span> LocationRequest<span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span> LocationRequest<span style="color:#f92672">();</span>
  <span style="color:#f92672">}</span>
 
 
@@ -203,20 +203,20 @@
  <span style="color:#a6e22e">@Override</span>
  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onConnectionFailed</span><span style="color:#f92672">(</span>ConnectionResult result<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
  <span style="color:#75715e">// tekrar bağlanmayı deniyoruz
-</span><span style="color:#75715e"></span> _googleApiClient<span style="color:#f92672">.</span><span style="color:#a6e22e">connect</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span> _googleApiClient<span style="color:#f92672">.</span><span style="color:#a6e22e">connect</span><span style="color:#f92672">();</span>
  <span style="color:#f92672">}</span>
 
 
- <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">LocationRequest</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+ <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">LocationRequest</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
 
 
  <span style="color:#75715e">// PRIORITY_BALANCED_POWER_ACCURACY -&gt; hassas konum bilgisine ihtiyacımız yok ise (Network, Cell Tower)
 </span><span style="color:#75715e"></span> <span style="color:#75715e">// PRIORITY_HIGH_ACCURACY -&gt; hassas konum bilgisine ihtiyacımız var ise (GPS)
 </span><span style="color:#75715e"></span>
- <span style="color:#66d9ef">final</span> LocationRequest locationRequest <span style="color:#f92672">=</span> LocationRequest<span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span>
+ <span style="color:#66d9ef">final</span> LocationRequest locationRequest <span style="color:#f92672">=</span> LocationRequest<span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">()</span>
  <span style="color:#f92672">.</span><span style="color:#a6e22e">setPriority</span><span style="color:#f92672">(</span>LocationRequest<span style="color:#f92672">.</span><span style="color:#a6e22e">PRIORITY_HIGH_ACCURACY</span><span style="color:#f92672">)</span>
- <span style="color:#f92672">.</span><span style="color:#a6e22e">setInterval</span><span style="color:#f92672">(</span><span style="color:#f92672">(</span>LocationPeriod <span style="color:#f92672">*</span> 1000<span style="color:#f92672">)</span><span style="color:#f92672">)</span> 
- <span style="color:#f92672">.</span><span style="color:#a6e22e">setFastestInterval</span><span style="color:#f92672">(</span>LOCATION_FASTEST_INTERVAL<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+ <span style="color:#f92672">.</span><span style="color:#a6e22e">setInterval</span><span style="color:#f92672">((</span>LocationPeriod <span style="color:#f92672">*</span> 1000<span style="color:#f92672">))</span> 
+ <span style="color:#f92672">.</span><span style="color:#a6e22e">setFastestInterval</span><span style="color:#f92672">(</span>LOCATION_FASTEST_INTERVAL<span style="color:#f92672">);</span>
 
 
  <span style="color:#75715e">//final LocationRequest locationRequest1 = LocationRequest.create()
@@ -228,37 +228,37 @@
 </span><span style="color:#75715e"></span> <span style="color:#75715e">// gerekli Dialog penceresinin çıkmasını sağlar ve Kullanıcının onayını ister
 </span><span style="color:#75715e"></span>
  <span style="color:#75715e">// Örnek olarak eğer PRIORITY_HIGH_ACCURACY olrarak belirlenmişse ve cihazın GPS i kapalı ise bir Dialog çıkartarak GPS i açmanızı ister
-</span><span style="color:#75715e"></span> LocationSettingsRequest locationSettingsRequest <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> LocationSettingsRequest<span style="color:#f92672">.</span><span style="color:#a6e22e">Builder</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span>
+</span><span style="color:#75715e"></span> LocationSettingsRequest locationSettingsRequest <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> LocationSettingsRequest<span style="color:#f92672">.</span><span style="color:#a6e22e">Builder</span><span style="color:#f92672">()</span>
  <span style="color:#f92672">.</span><span style="color:#a6e22e">addLocationRequest</span><span style="color:#f92672">(</span>locationRequest<span style="color:#f92672">)</span>
  <span style="color:#f92672">.</span><span style="color:#a6e22e">setAlwaysShow</span><span style="color:#f92672">(</span><span style="color:#66d9ef">true</span><span style="color:#f92672">)</span>
- <span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+ <span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">();</span>
 
  PendingResult<span style="color:#f92672">&lt;</span>LocationSettingsResult<span style="color:#f92672">&gt;</span> result <span style="color:#f92672">=</span>
- LocationServices<span style="color:#f92672">.</span><span style="color:#a6e22e">SettingsApi</span><span style="color:#f92672">.</span><span style="color:#a6e22e">checkLocationSettings</span><span style="color:#f92672">(</span>_googleApiClient<span style="color:#f92672">,</span> locationSettingsRequest<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+ LocationServices<span style="color:#f92672">.</span><span style="color:#a6e22e">SettingsApi</span><span style="color:#f92672">.</span><span style="color:#a6e22e">checkLocationSettings</span><span style="color:#f92672">(</span>_googleApiClient<span style="color:#f92672">,</span> locationSettingsRequest<span style="color:#f92672">);</span>
 
  <span style="color:#75715e">// Gösterilen Dilag penceresi ile Kullanıcının etkileşimi sonucunun yakalar
-</span><span style="color:#75715e"></span> result<span style="color:#f92672">.</span><span style="color:#a6e22e">setResultCallback</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> ResultCallback<span style="color:#f92672">&lt;</span>LocationSettingsResult<span style="color:#f92672">&gt;</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span><span style="color:#75715e"></span> result<span style="color:#f92672">.</span><span style="color:#a6e22e">setResultCallback</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> ResultCallback<span style="color:#f92672">&lt;</span>LocationSettingsResult<span style="color:#f92672">&gt;()</span> <span style="color:#f92672">{</span>
  <span style="color:#a6e22e">@DebugLog</span>
  <span style="color:#a6e22e">@Override</span>
  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onResult</span><span style="color:#f92672">(</span>LocationSettingsResult locationSettingsResult<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
 
  <span style="color:#75715e">// locationSettingsStates ile cihazın durumunu kontrol ederek akışımızı yönlendirebiliriz
-</span><span style="color:#75715e"></span> LocationSettingsStates locationSettingsStates <span style="color:#f92672">=</span> locationSettingsResult<span style="color:#f92672">.</span><span style="color:#a6e22e">getLocationSettingsStates</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span> LocationSettingsStates locationSettingsStates <span style="color:#f92672">=</span> locationSettingsResult<span style="color:#f92672">.</span><span style="color:#a6e22e">getLocationSettingsStates</span><span style="color:#f92672">();</span>
  
  <span style="color:#75715e">// Konum dinlenmeye başlanır
 </span><span style="color:#75715e"></span> <span style="color:#75715e">// mLocationListener ile konum değişikliği yakalanır.
-</span><span style="color:#75715e"></span> FusedLocationApi<span style="color:#f92672">.</span><span style="color:#a6e22e">requestLocationUpdates</span><span style="color:#f92672">(</span>_googleApiClient<span style="color:#f92672">,</span> locationRequest<span style="color:#f92672">,</span> mLocationListener<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span> FusedLocationApi<span style="color:#f92672">.</span><span style="color:#a6e22e">requestLocationUpdates</span><span style="color:#f92672">(</span>_googleApiClient<span style="color:#f92672">,</span> locationRequest<span style="color:#f92672">,</span> mLocationListener<span style="color:#f92672">);</span>
  
  <span style="color:#75715e">//FusedLocationApi.requestLocationUpdates(_googleApiClient, locationRequest1, mLocationListener);
 </span><span style="color:#75715e"></span> 
  <span style="color:#f92672">}</span>
- <span style="color:#f92672">}</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+ <span style="color:#f92672">});</span>
 
 
  <span style="color:#f92672">}</span>
 
 
- <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> LocationListener mLocationListener <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> LocationListener<span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+ <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> LocationListener mLocationListener <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> LocationListener<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
  <span style="color:#a6e22e">@Override</span>
  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onLocationChanged</span><span style="color:#f92672">(</span>Location location<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
 
@@ -266,18 +266,18 @@
  <span style="color:#75715e">// Location değişikliğini burada yakalayabiliriz.
 </span><span style="color:#75715e"></span> <span style="color:#75715e">// Belirlemiş olduğumuz periyodik zaman aralığında Location değişikliği kontrol edilecektir.
 </span><span style="color:#75715e"></span> <span style="color:#f92672">}</span>
- <span style="color:#f92672">}</span><span style="color:#f92672">;</span>
+ <span style="color:#f92672">};</span>
 
 
  
- <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">ForegroundService</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+ <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">ForegroundService</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
  <span style="color:#f92672">}</span>
 
  <span style="color:#75715e">// Bu fonksiyon yardımı ile başka bir sınıftan konum bilgisine erişebiliriz.
 </span><span style="color:#75715e"></span> <span style="color:#75715e">// static olarak tanımlanmış olması bize kolaylık sağlıcaktır.
-</span><span style="color:#75715e"></span> <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> Location <span style="color:#a6e22e">getLastLocation</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
- <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>_googleApiClient <span style="color:#f92672">!</span><span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
- <span style="color:#66d9ef">return</span> FusedLocationApi<span style="color:#f92672">.</span><span style="color:#a6e22e">getLastLocation</span><span style="color:#f92672">(</span>_googleApiClient<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span> <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> Location <span style="color:#a6e22e">getLastLocation</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+ <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>_googleApiClient <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+ <span style="color:#66d9ef">return</span> FusedLocationApi<span style="color:#f92672">.</span><span style="color:#a6e22e">getLastLocation</span><span style="color:#f92672">(</span>_googleApiClient<span style="color:#f92672">);</span>
  <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
  <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
  <span style="color:#f92672">}</span>
@@ -285,71 +285,71 @@
 
 
  <span style="color:#75715e">// GoogleApiClient nesnemize erişmek istersek bu kod bloğunu kullanabiliriz.
-</span><span style="color:#75715e"></span> <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> GoogleApiClient <span style="color:#a6e22e">getGoogleApiClient</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span><span style="color:#75715e"></span> <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> GoogleApiClient <span style="color:#a6e22e">getGoogleApiClient</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
  <span style="color:#66d9ef">return</span> _googleApiClient<span style="color:#f92672">;</span>
  <span style="color:#f92672">}</span>
 
  
- <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">removeLocationUpdates</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
- <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>_googleApiClient <span style="color:#f92672">!</span><span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
- FusedLocationApi<span style="color:#f92672">.</span><span style="color:#a6e22e">removeLocationUpdates</span><span style="color:#f92672">(</span>_googleApiClient<span style="color:#f92672">,</span> mLocationListener<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+ <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">removeLocationUpdates</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+ <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>_googleApiClient <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+ FusedLocationApi<span style="color:#f92672">.</span><span style="color:#a6e22e">removeLocationUpdates</span><span style="color:#f92672">(</span>_googleApiClient<span style="color:#f92672">,</span> mLocationListener<span style="color:#f92672">);</span>
  <span style="color:#f92672">}</span>
  <span style="color:#f92672">}</span>
 
  <span style="color:#a6e22e">@DebugLog</span>
  <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">LocationNotification</span><span style="color:#f92672">(</span>Location location<span style="color:#f92672">,</span> String subText<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
- NotificationManager notificationManager <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>NotificationManager<span style="color:#f92672">)</span> mContext<span style="color:#f92672">.</span><span style="color:#a6e22e">getSystemService</span><span style="color:#f92672">(</span>Context<span style="color:#f92672">.</span><span style="color:#a6e22e">NOTIFICATION_SERVICE</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+ NotificationManager notificationManager <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>NotificationManager<span style="color:#f92672">)</span> mContext<span style="color:#f92672">.</span><span style="color:#a6e22e">getSystemService</span><span style="color:#f92672">(</span>Context<span style="color:#f92672">.</span><span style="color:#a6e22e">NOTIFICATION_SERVICE</span><span style="color:#f92672">);</span>
  <span style="color:#75715e">//
 </span><span style="color:#75715e"></span>
- mBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">setSmallIcon</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">drawable</span><span style="color:#f92672">.</span><span style="color:#a6e22e">ic_stat_device_gps_fixed</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
- mBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">setTicker</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Konum&#34;</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+ mBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">setSmallIcon</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">drawable</span><span style="color:#f92672">.</span><span style="color:#a6e22e">ic_stat_device_gps_fixed</span><span style="color:#f92672">);</span>
+ mBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">setTicker</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Konum&#34;</span><span style="color:#f92672">);</span>
  <span style="color:#75715e">//.setSound(RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION))
-</span><span style="color:#75715e"></span> mBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">setSubText</span><span style="color:#f92672">(</span>subText<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
- mBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">setOnlyAlertOnce</span><span style="color:#f92672">(</span><span style="color:#66d9ef">true</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
- mBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">setPriority</span><span style="color:#f92672">(</span>Notification<span style="color:#f92672">.</span><span style="color:#a6e22e">PRIORITY_HIGH</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span> mBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">setSubText</span><span style="color:#f92672">(</span>subText<span style="color:#f92672">);</span>
+ mBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">setOnlyAlertOnce</span><span style="color:#f92672">(</span><span style="color:#66d9ef">true</span><span style="color:#f92672">);</span>
+ mBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">setPriority</span><span style="color:#f92672">(</span>Notification<span style="color:#f92672">.</span><span style="color:#a6e22e">PRIORITY_HIGH</span><span style="color:#f92672">);</span>
 
 
- <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>location <span style="color:#f92672">!</span><span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+ <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>location <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
  mBuilder
- <span style="color:#f92672">.</span><span style="color:#a6e22e">setContentTitle</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Sapma: &#34;</span> <span style="color:#f92672">+</span> String<span style="color:#f92672">.</span><span style="color:#a6e22e">valueOf</span><span style="color:#f92672">(</span>location<span style="color:#f92672">.</span><span style="color:#a6e22e">getAccuracy</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span>
- <span style="color:#f92672">.</span><span style="color:#a6e22e">setContentText</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Lat: &#34;</span> <span style="color:#f92672">+</span> String<span style="color:#f92672">.</span><span style="color:#a6e22e">valueOf</span><span style="color:#f92672">(</span>location<span style="color:#f92672">.</span><span style="color:#a6e22e">getLatitude</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; , &#34;</span> <span style="color:#f92672">+</span>
- <span style="color:#e6db74">&#34;Long: &#34;</span> <span style="color:#f92672">+</span> String<span style="color:#f92672">.</span><span style="color:#a6e22e">valueOf</span><span style="color:#f92672">(</span>location<span style="color:#f92672">.</span><span style="color:#a6e22e">getLongitude</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span>
- <span style="color:#f92672">.</span><span style="color:#a6e22e">setWhen</span><span style="color:#f92672">(</span>System<span style="color:#f92672">.</span><span style="color:#a6e22e">currentTimeMillis</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span>
+ <span style="color:#f92672">.</span><span style="color:#a6e22e">setContentTitle</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Sapma: &#34;</span> <span style="color:#f92672">+</span> String<span style="color:#f92672">.</span><span style="color:#a6e22e">valueOf</span><span style="color:#f92672">(</span>location<span style="color:#f92672">.</span><span style="color:#a6e22e">getAccuracy</span><span style="color:#f92672">()))</span>
+ <span style="color:#f92672">.</span><span style="color:#a6e22e">setContentText</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Lat: &#34;</span> <span style="color:#f92672">+</span> String<span style="color:#f92672">.</span><span style="color:#a6e22e">valueOf</span><span style="color:#f92672">(</span>location<span style="color:#f92672">.</span><span style="color:#a6e22e">getLatitude</span><span style="color:#f92672">())</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; , &#34;</span> <span style="color:#f92672">+</span>
+ <span style="color:#e6db74">&#34;Long: &#34;</span> <span style="color:#f92672">+</span> String<span style="color:#f92672">.</span><span style="color:#a6e22e">valueOf</span><span style="color:#f92672">(</span>location<span style="color:#f92672">.</span><span style="color:#a6e22e">getLongitude</span><span style="color:#f92672">()))</span>
+ <span style="color:#f92672">.</span><span style="color:#a6e22e">setWhen</span><span style="color:#f92672">(</span>System<span style="color:#f92672">.</span><span style="color:#a6e22e">currentTimeMillis</span><span style="color:#f92672">())</span>
  <span style="color:#f92672">.</span><span style="color:#a6e22e">setShowWhen</span><span style="color:#f92672">(</span><span style="color:#66d9ef">true</span><span style="color:#f92672">)</span>
  <span style="color:#f92672">.</span><span style="color:#a6e22e">setUsesChronometer</span><span style="color:#f92672">(</span><span style="color:#66d9ef">true</span><span style="color:#f92672">)</span>
- <span style="color:#f92672">.</span><span style="color:#a6e22e">setContentIntent</span><span style="color:#f92672">(</span>pendingIntent<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+ <span style="color:#f92672">.</span><span style="color:#a6e22e">setContentIntent</span><span style="color:#f92672">(</span>pendingIntent<span style="color:#f92672">);</span>
 
 
  <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
  mBuilder
  <span style="color:#f92672">.</span><span style="color:#a6e22e">setContentTitle</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">)</span>
- <span style="color:#f92672">.</span><span style="color:#a6e22e">setContentText</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+ <span style="color:#f92672">.</span><span style="color:#a6e22e">setContentText</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">);</span>
  <span style="color:#f92672">}</span>
 
 
- notification <span style="color:#f92672">=</span> mBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
- notificationManager<span style="color:#f92672">.</span><span style="color:#a6e22e">notify</span><span style="color:#f92672">(</span>LOCATION_NOTIF_ID<span style="color:#f92672">,</span> notification<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+ notification <span style="color:#f92672">=</span> mBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">();</span>
+ notificationManager<span style="color:#f92672">.</span><span style="color:#a6e22e">notify</span><span style="color:#f92672">(</span>LOCATION_NOTIF_ID<span style="color:#f92672">,</span> notification<span style="color:#f92672">);</span>
  <span style="color:#f92672">}</span>
 
  <span style="color:#a6e22e">@DebugLog</span>
  <span style="color:#a6e22e">@Override</span>
- <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onDestroy</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
- <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>_googleApiClient <span style="color:#f92672">!</span><span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
- <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>_googleApiClient<span style="color:#f92672">.</span><span style="color:#a6e22e">isConnected</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
- FusedLocationApi<span style="color:#f92672">.</span><span style="color:#a6e22e">removeLocationUpdates</span><span style="color:#f92672">(</span>_googleApiClient<span style="color:#f92672">,</span> mLocationListener<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
- _googleApiClient<span style="color:#f92672">.</span><span style="color:#a6e22e">disconnect</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+ <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onDestroy</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+ <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>_googleApiClient <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+ <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>_googleApiClient<span style="color:#f92672">.</span><span style="color:#a6e22e">isConnected</span><span style="color:#f92672">())</span> <span style="color:#f92672">{</span>
+ FusedLocationApi<span style="color:#f92672">.</span><span style="color:#a6e22e">removeLocationUpdates</span><span style="color:#f92672">(</span>_googleApiClient<span style="color:#f92672">,</span> mLocationListener<span style="color:#f92672">);</span>
+ _googleApiClient<span style="color:#f92672">.</span><span style="color:#a6e22e">disconnect</span><span style="color:#f92672">();</span>
  <span style="color:#f92672">}</span>
  <span style="color:#f92672">}</span>
- PeriodicHandler<span style="color:#f92672">.</span><span style="color:#a6e22e">removeMessages</span><span style="color:#f92672">(</span>1<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
- stopForeground<span style="color:#f92672">(</span><span style="color:#66d9ef">true</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
- <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onDestroy</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+ PeriodicHandler<span style="color:#f92672">.</span><span style="color:#a6e22e">removeMessages</span><span style="color:#f92672">(</span>1<span style="color:#f92672">);</span>
+ stopForeground<span style="color:#f92672">(</span><span style="color:#66d9ef">true</span><span style="color:#f92672">);</span>
+ <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onDestroy</span><span style="color:#f92672">();</span>
  <span style="color:#f92672">}</span>
 
 
 <span style="color:#f92672">}</span>
 </code></pre></div><p>Tanımlamış olduğumuz servisi başlatmak için istediğimiz yerden ( Activity , Fragment vb.) aşağıdaki kod bloğunu çalıştırmamız yeterli olucaktır.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">Intent serviceIntent <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Intent<span style="color:#f92672">(</span>context<span style="color:#f92672">,</span> ForegroundService<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-startService<span style="color:#f92672">(</span>serviceIntent<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">Intent serviceIntent <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Intent<span style="color:#f92672">(</span>context<span style="color:#f92672">,</span> ForegroundService<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">);</span>
+startService<span style="color:#f92672">(</span>serviceIntent<span style="color:#f92672">);</span>
 </code></pre></div>    
         </div>
     </section>
@@ -410,13 +410,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/java-executorservice-submit-and-execute/">ExecutorService submit() – execute()</a></li>            
-        
           <li><a href="https://yazilim.aykutasil.com/kotlin-when/">Kotlin when kullanımı</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/kotlin-let/">Kotlin Let Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/post/amp/">AMP</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/sql-nullif-fonksiyonu-kullanimi/">TSQL NULLIF Fonksiyonu Nedir ve Nasıl Kullanılır</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/docker-series-1/">Docker Series - 1</a></li>            
+        
+          <li><a href="https://yazilim.aykutasil.com/android-pendingintent-flags/">PendingIntent Flags</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -430,7 +430,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/sqlmanagement-custom-generate-scripts/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
     </a>    
     
 
@@ -465,7 +465,7 @@ Oluşturmuş olduğumuz tabloların sadece şemasını yani içiindeki veriler o
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/retrofit-multipart-file-upload/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
     </a>    
     
 

@@ -37,7 +37,7 @@
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -113,69 +113,69 @@
         <h1 class="post-full-title">Android CircleCI Configuration</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
-        <h2 id="circleci-android-yaplandrmas">CircleCI Android Yapılandırması</h2>
+        <h2 id="circleci-android-yapılandırması">CircleCI Android Yapılandırması</h2>
 <h2 id="circleciconfigyml">.circleci/config.yml</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">version: <span style="color:#ae81ff">2</span>
-jobs:
-  build:
-    working_directory: ~/code
-    docker:
-      - image: circleci/android:api<span style="color:#ae81ff">-28</span>-alpha
-    environment:
-      JVM_OPTS: -Xmx3200m
-    steps:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#66d9ef">version</span>: <span style="color:#ae81ff">2</span>
+<span style="color:#66d9ef">jobs</span>:
+  <span style="color:#66d9ef">build</span>:
+    <span style="color:#66d9ef">working_directory</span>: ~/code
+    <span style="color:#66d9ef">docker</span>:
+      - <span style="color:#66d9ef">image</span>: circleci/android:api<span style="color:#ae81ff">-28</span>-alpha
+    <span style="color:#66d9ef">environment</span>:
+      <span style="color:#66d9ef">JVM_OPTS</span>: -Xmx3200m
+    <span style="color:#66d9ef">steps</span>:
       - checkout
-      - run:
-          name: Initialize Keystore File
-          command: echo $KEYSTORE_BASE64 | base64 --decode &gt; app/aykutasilkeystore
-      - run:
-          name: Initialize Fabric Properties
-          command: <span style="color:#e6db74">|
-</span><span style="color:#e6db74">           </span><span style="color:#e6db74"> </span><span style="color:#e6db74">echo &#34;apiKey=$FABRIC_API_KEY&#34; &gt;&gt; app/fabric.properties</span>
+      - <span style="color:#66d9ef">run</span>:
+          <span style="color:#66d9ef">name</span>: Initialize Keystore File
+          <span style="color:#66d9ef">command</span>: echo $KEYSTORE_BASE64 | base64 --decode &gt; app/aykutasilkeystore
+      - <span style="color:#66d9ef">run</span>:
+          <span style="color:#66d9ef">name</span>: Initialize Fabric Properties
+          <span style="color:#66d9ef">command</span>: <span style="color:#e6db74">|
+</span><span style="color:#e6db74">            echo &#34;apiKey=$FABRIC_API_KEY&#34; &gt;&gt; app/fabric.properties</span>
             echo <span style="color:#e6db74">&#34;apiSecret=$FABRIC_API_SECRET&#34;</span> &gt;&gt; app/fabric.properties
             cat app/fabric.properties
-      - run:
-          name: Initialize Keystore File
-          command: <span style="color:#e6db74">|
-</span><span style="color:#e6db74">            </span><span style="color:#e6db74"> </span><span style="color:#e6db74">echo &#34;signingKeyAlias=$KEYSTORE_KEY_ALIAS&#34; &gt;&gt; keystore.properties</span>
-             echo <span style="color:#e6db74">&#34;signingKeyAliasPassword=$KEYSTORE_KEY_ALIAS_PASSWORD&#34;</span> &gt;<span style="color:#e6db74">&gt; </span><span style="color:#e6db74"> </span><span style="color:#e6db74">keystore.properties</span>
-             echo <span style="color:#e6db74">&#34;signingStoreFile=$KEYSTORE_STORE_FILE&#34;</span> &gt;<span style="color:#e6db74">&gt; </span><span style="color:#e6db74"> </span><span style="color:#e6db74">keystore.properties</span>
-             echo <span style="color:#e6db74">&#34;signingStorePassword=$KEYSTORE_STORE_PASSWORD&#34;</span> &gt;<span style="color:#e6db74">&gt; </span><span style="color:#e6db74"> </span><span style="color:#e6db74">keystore.properties</span>
+      - <span style="color:#66d9ef">run</span>:
+          <span style="color:#66d9ef">name</span>: Initialize Keystore File
+          <span style="color:#66d9ef">command</span>: <span style="color:#e6db74">|
+</span><span style="color:#e6db74">             echo &#34;signingKeyAlias=$KEYSTORE_KEY_ALIAS&#34; &gt;&gt; keystore.properties</span>
+             echo <span style="color:#e6db74">&#34;signingKeyAliasPassword=$KEYSTORE_KEY_ALIAS_PASSWORD&#34;</span> &gt;<span style="color:#e6db74">&gt;  keystore.properties</span>
+             echo <span style="color:#e6db74">&#34;signingStoreFile=$KEYSTORE_STORE_FILE&#34;</span> &gt;<span style="color:#e6db74">&gt;  keystore.properties</span>
+             echo <span style="color:#e6db74">&#34;signingStorePassword=$KEYSTORE_STORE_PASSWORD&#34;</span> &gt;<span style="color:#e6db74">&gt;  keystore.properties</span>
              cat keystore.properties
-      - restore_cache:
-          key: jars-{{ checksum <span style="color:#e6db74">&#34;build.gradle&#34;</span> }}-{{ checksum  <span style="color:#e6db74">&#34;app/build.gradle&#34;</span> }}
-      - run:
-          name: Download Dependencies
-          command: ./gradlew androidDependencies
-      - save_cache:
-          paths:
+      - <span style="color:#66d9ef">restore_cache</span>:
+          <span style="color:#66d9ef">key</span>: jars-{{ checksum <span style="color:#e6db74">&#34;build.gradle&#34;</span> }}-{{ checksum  <span style="color:#e6db74">&#34;app/build.gradle&#34;</span> }}
+      - <span style="color:#66d9ef">run</span>:
+          <span style="color:#66d9ef">name</span>: Download Dependencies
+          <span style="color:#66d9ef">command</span>: ./gradlew androidDependencies
+      - <span style="color:#66d9ef">save_cache</span>:
+          <span style="color:#66d9ef">paths</span>:
             - ~/.gradle
-          key: jars-{{ checksum <span style="color:#e6db74">&#34;build.gradle&#34;</span> }}-{{ checksum  <span style="color:#e6db74">&#34;app/build.gradle&#34;</span> }}
-      - store_artifacts:
-          path: app/build/reports
-          destination: reports
-      - store_test_results:
-          path: app/build/test-results
-      - run:
-          command: echo <span style="color:#e6db74">&#34;Current Branch:&#34;</span> ${CIRCLE_BRANCH}
-      - run:
-          name: Initial build
-          command: ./gradlew assembleDebug assembleRelease --no-daemon --stacktrace
-      - store_artifacts:
-          path: app/build/outputs/apk/
-          destination: apks/
-      - deploy:
-          name: Deploy to Fabric
-          command: ./gradlew crashlyticsUploadDistributionRelease --stacktrace --debug --no-daemon
-workflows:
-  version: <span style="color:#ae81ff">2</span>
-  workflow:
-    jobs:
+          <span style="color:#66d9ef">key</span>: jars-{{ checksum <span style="color:#e6db74">&#34;build.gradle&#34;</span> }}-{{ checksum  <span style="color:#e6db74">&#34;app/build.gradle&#34;</span> }}
+      - <span style="color:#66d9ef">store_artifacts</span>:
+          <span style="color:#66d9ef">path</span>: app/build/reports
+          <span style="color:#66d9ef">destination</span>: reports
+      - <span style="color:#66d9ef">store_test_results</span>:
+          <span style="color:#66d9ef">path</span>: app/build/test-results
+      - <span style="color:#66d9ef">run</span>:
+          <span style="color:#66d9ef">command</span>: echo <span style="color:#e6db74">&#34;Current Branch:&#34;</span> ${CIRCLE_BRANCH}
+      - <span style="color:#66d9ef">run</span>:
+          <span style="color:#66d9ef">name</span>: Initial build
+          <span style="color:#66d9ef">command</span>: ./gradlew assembleDebug assembleRelease --no-daemon --stacktrace
+      - <span style="color:#66d9ef">store_artifacts</span>:
+          <span style="color:#66d9ef">path</span>: app/build/outputs/apk/
+          <span style="color:#66d9ef">destination</span>: apks/
+      - <span style="color:#66d9ef">deploy</span>:
+          <span style="color:#66d9ef">name</span>: Deploy to Fabric
+          <span style="color:#66d9ef">command</span>: ./gradlew crashlyticsUploadDistributionRelease --stacktrace --debug --no-daemon
+<span style="color:#66d9ef">workflows</span>:
+  <span style="color:#66d9ef">version</span>: <span style="color:#ae81ff">2</span>
+  <span style="color:#66d9ef">workflow</span>:
+    <span style="color:#66d9ef">jobs</span>:
     - build
 </code></pre></div><h2 id="appbuildgradle">app/build.gradle</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">apply plugin: <span style="color:#e6db74">&#39;com.android.application&#39;</span>
@@ -188,9 +188,9 @@ android <span style="color:#f92672">{</span>
     compileSdkVersion <span style="color:#ae81ff">28</span>
 
     def fabricPropertiesFile <span style="color:#f92672">=</span> rootProject.file<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;app/fabric.properties&#34;</span><span style="color:#f92672">)</span>
-    def fabricProperties <span style="color:#f92672">=</span> new Properties<span style="color:#f92672">(</span><span style="color:#f92672">)</span>
-    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>fabricPropertiesFile.exists<span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-        fabricProperties.load<span style="color:#f92672">(</span>new FileInputStream<span style="color:#f92672">(</span>fabricPropertiesFile<span style="color:#f92672">)</span><span style="color:#f92672">)</span>
+    def fabricProperties <span style="color:#f92672">=</span> new Properties<span style="color:#f92672">()</span>
+    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>fabricPropertiesFile.exists<span style="color:#f92672">())</span> <span style="color:#f92672">{</span>
+        fabricProperties.load<span style="color:#f92672">(</span>new FileInputStream<span style="color:#f92672">(</span>fabricPropertiesFile<span style="color:#f92672">))</span>
     <span style="color:#f92672">}</span>
 
     defaultConfig <span style="color:#f92672">{</span>
@@ -207,16 +207,16 @@ android <span style="color:#f92672">{</span>
     <span style="color:#f92672">}</span>
 
     def keystorePropertiesFile <span style="color:#f92672">=</span> rootProject.file<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;keystore.properties&#34;</span><span style="color:#f92672">)</span>
-    def keystoreProperties <span style="color:#f92672">=</span> new Properties<span style="color:#f92672">(</span><span style="color:#f92672">)</span>
-    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>keystorePropertiesFile.exists<span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-        keystoreProperties.load<span style="color:#f92672">(</span>new FileInputStream<span style="color:#f92672">(</span>keystorePropertiesFile<span style="color:#f92672">)</span><span style="color:#f92672">)</span>
+    def keystoreProperties <span style="color:#f92672">=</span> new Properties<span style="color:#f92672">()</span>
+    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>keystorePropertiesFile.exists<span style="color:#f92672">())</span> <span style="color:#f92672">{</span>
+        keystoreProperties.load<span style="color:#f92672">(</span>new FileInputStream<span style="color:#f92672">(</span>keystorePropertiesFile<span style="color:#f92672">))</span>
     <span style="color:#f92672">}</span>
 
     signingConfigs <span style="color:#f92672">{</span>
         config <span style="color:#f92672">{</span>
             keyAlias keystoreProperties<span style="color:#f92672">[</span><span style="color:#e6db74">&#39;signingKeyAlias&#39;</span><span style="color:#f92672">]</span>
             keyPassword keystoreProperties<span style="color:#f92672">[</span><span style="color:#e6db74">&#39;signingKeyAliasPassword&#39;</span><span style="color:#f92672">]</span>
-            storeFile file<span style="color:#f92672">(</span>keystoreProperties<span style="color:#f92672">[</span><span style="color:#e6db74">&#39;signingStoreFile&#39;</span><span style="color:#f92672">]</span><span style="color:#f92672">)</span>
+            storeFile file<span style="color:#f92672">(</span>keystoreProperties<span style="color:#f92672">[</span><span style="color:#e6db74">&#39;signingStoreFile&#39;</span><span style="color:#f92672">])</span>
             storePassword keystoreProperties<span style="color:#f92672">[</span><span style="color:#e6db74">&#39;signingStorePassword&#39;</span><span style="color:#f92672">]</span>
         <span style="color:#f92672">}</span>
     <span style="color:#f92672">}</span>
@@ -232,7 +232,7 @@ android <span style="color:#f92672">{</span>
 
 dependencies <span style="color:#f92672">{</span>
     implementation fileTree<span style="color:#f92672">(</span>include: <span style="color:#f92672">[</span><span style="color:#e6db74">&#39;*.jar&#39;</span><span style="color:#f92672">]</span>, dir: <span style="color:#e6db74">&#39;libs&#39;</span><span style="color:#f92672">)</span>
-    implementation <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">org.jetbrains.kotlin:kotlin-stdlib-jdk7:</span>$kotlin_version<span style="color:#e6db74">&#34;</span>
+    implementation <span style="color:#e6db74">&#34;org.jetbrains.kotlin:kotlin-stdlib-jdk7:</span>$kotlin_version<span style="color:#e6db74">&#34;</span>
     implementation <span style="color:#e6db74">&#39;com.android.support:appcompat-v7:28.0.0&#39;</span>
     implementation <span style="color:#e6db74">&#39;com.android.support.constraint:constraint-layout:1.1.3&#39;</span>
     testImplementation <span style="color:#e6db74">&#39;junit:junit:4.12&#39;</span>
@@ -242,12 +242,12 @@ dependencies <span style="color:#f92672">{</span>
         transitive <span style="color:#f92672">=</span> true
     <span style="color:#f92672">}</span>
 <span style="color:#f92672">}</span>
-</code></pre></div><h2 id="ne-yaptk-">Ne Yaptık ?</h2>
+</code></pre></div><h2 id="ne-yaptık-">Ne Yaptık ?</h2>
 <p>Yukarıda ki örnek <strong>gradle</strong> dosyasında log için kullanılan <strong>Crashlytics</strong>&rsquo; apiKey bilgilerini ve <strong>apk</strong> imzalama için gerekli bilgileri başka dosyalardan okuyayarak gizliliği sağladığımızı görüyorsunuz.</p>
 <p>Bu bilgileri okuğumuz <strong>keystore.properties</strong> ve <strong>fabric.properties</strong> dosyalarını <strong>VCS</strong> içerisine eklemiyoruz. Yani <strong>.gitignore</strong> dosyamıza ekleyerek <strong>github, bitbucket</strong> gibi <strong>VCS</strong> platformlarına gönderimini engelliyoruz.</p>
 <p>Peki bu dosyaları <strong>VCS</strong> platformuna göndermemiş isek <strong>CI/CD</strong> platformu projemizi derlemeye çalışırken <strong>gradle</strong> dosyası içerisinde ki bu bilgileri nasıl okuyacak?</p>
 <p>İşte bunun için farklı yöntemler mevcut. Bunlardan ikisi yukarıda ki örnekte mevcut.</p>
-<h3 id="1-base64-yntemi">1. Base64 Yöntemi</h3>
+<h3 id="1-base64-yöntemi">1. Base64 Yöntemi</h3>
 <p>Yukarıda ki <strong>.yml</strong> dosyasını incelediğinizde <code>command: echo $KEYSTORE_BASE64 | base64 --decode &gt; app/aykutasilkeystore</code> şeklinde bir satır göreceksiniz. Burada yaptığımız şey mevcut <strong>keystore</strong> dosyamızın <strong>base64</strong> değerini alarak <strong>CI/CD</strong> platformuna <strong>environment variable</strong> olarak kayıt etmek. Ve daha sonra <strong>yml</strong> dosyasında bu <strong>environment variable ($KEYSTORE_BASE64)</strong> değerini okuyarak <code>base64 --decode</code> komutu ile <strong>decode</strong> ederek <code>&gt; app/aykutasilkeystore</code> yoluna bu dosyayı ekliyoruz. Ve artık <strong>gradle</strong> dosyamız ilgili dosyayı(keystore) bulacağı için sorun oluşmayacak ve düzgün bir şekilde projemiz derlenecektir.</p>
 <h3 id="2-environment-variable">2. Environment Variable</h3>
 <p>Aslında burada da bir öncekine benzer bir yapılandırma söz konusu. Tek fark okunan <strong>environment variable</strong> değerini ilgili dosyaya direk olarak yazmak.</p>
@@ -312,15 +312,15 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/circleci-configuration/">CircleCI Configuration</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/kotlin-jvmoverloads/">Kotlin @JvmOverloads</a></li>            
         
                       
         
-          <li><a href="https://yazilim.aykutasil.com/javascript-gariplikleri/">Javascript Gariplikleri</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/kotlin-sealed-class/">Kotlin Sealed Class</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/aspnetcore-filters/">ASP.NET Core Filters</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-custom-toolbar/">Android Custom Toolbar Title</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/post/amp/">AMP</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-robolectric/">Robolectric ile UnitTest Yazımı</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -334,7 +334,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/bash-scripts/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
     </a>    
     
 
@@ -366,7 +366,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/circleci-configuration/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
     </a>    
     
 

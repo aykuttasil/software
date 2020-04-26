@@ -37,7 +37,7 @@
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -113,7 +113,7 @@
         <h1 class="post-full-title">Android DataBinding</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)">
     </figure>
 
     <section class="post-full-content">
@@ -124,7 +124,7 @@
 <h2 id="databinding">DataBinding</h2>
 <p>Uygulamanın arayüzünü tasarlamak için kullandığımız <strong>layout</strong> dosyamızın içerisine
 Uygulamamızın arayüzünü oluşturmak için kullandığımız <strong>layout</strong> xml dosyalarına gerekli <strong>data</strong>yı doğrudan entegre ederek, arayüz değişikliği ile ilgili tüm akışların harici müdahaleye gerek kalmadan otomatik olarak gerçekleşmesini sağlayabiliriz. Bununla birlikte <strong>null</strong> kontrolü gibi kontrollerin de otomatik yapılmasını sağlayarak uygulamamızın milyon dolarlık hataya yakalanmasını engelleyebiliriz ;) ve bunun gibi bir çok faydası bulunmakta elbette.</p>
-<h3 id="nasl-kullanlr">Nasıl Kullanılır?</h3>
+<h3 id="nasıl-kullanılır">Nasıl Kullanılır?</h3>
 <p><strong>DataBinding</strong> mimarisinin nasıl kullanıldığını örnek bir <strong>Login</strong> sayfası üzerinde görelim.</p>
 <blockquote>
 <p><strong>Not:</strong> Birkaç farklı kullanma şekli olsa da burada en modern ve en kolay yaklaşımı ele alıcaz.</p>
@@ -166,7 +166,7 @@ Yani, <strong>EditText</strong>&lsquo;e yazılan değerler aynı anda <strong>Vi
 <ul>
 <li><code>android:text=&quot;@{viewmodel.displayName}&quot;</code> bu satırda tek yönlü binding yapıyoruz. Yani ViewModel sınıfımız içerisindeki <strong>displayName</strong> nesnesinin değerini bu <strong>TextView</strong> nesnemize text olarak gönderiyoruz. ViewModel içerisinde ki bu nesnenin değeri değiştiğinde <strong>TextView</strong> otomatik olarak güncellenecektir.</li>
 </ul>
-<p>Burada tek yönlü binding'den kastımız data akışı <strong>viewmodel -&gt; layout</strong> şeklinde olacak olmasıdır.</p>
+<p>Burada tek yönlü binding&rsquo;den kastımız data akışı <strong>viewmodel -&gt; layout</strong> şeklinde olacak olmasıdır.</p>
 <p>Çift yönlü binding de ise data akışı <strong>viewmodel &lt;-&gt; layout</strong> şeklinde olacaktır.</p>
 <ul>
 <li><code>android:enabled=&quot;@{!TextUtils.isEmpty(viewmodel.liveEmail) &amp;amp;&amp;amp; !TextUtils.isEmpty(viewmodel.livePass)}&quot;</code> satırında layout bileşenimizin, bizim durumumuz için <strong>Button</strong>, enable olup olmamasını bir koşula bağladık. Ve dinamik değişen değerler neticesinde eğer koşullar sağlanıyor ise <strong>enable</strong>, sağlanmıyor ise <strong>disable</strong> olacaktır. Burada <strong>TextUtils</strong> sınıfından bir fonksiyon kullandık. Bu şekilde harici bir sınıfa erişim sağlamak istiyorsak, bunu layout dosyamızda <strong>import</strong> ederek belirtmeliyiz.</li>
@@ -244,13 +244,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/rxjava-reduce/">RxJava reduce() Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-runtime-permission/">Android Runtime Permission</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-smsreceiver/">Android SMS Receiver</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/tls-ssl/">TLS vs SSL</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-kotlin-test-final-type-problem/">Android Kotlin Test - Final Type Problem</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/rxjava-scan/">RxJava scan() Kullanımı</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/docker-nano-setup/">Docker Container Install nano</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-custom-toolbar/">Android Custom Toolbar Title</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -264,7 +264,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/aspnetcore-run-middleware/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
     </a>    
     
 
@@ -298,7 +298,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-service/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
     </a>    
     
 
@@ -314,7 +314,7 @@ s.setAttribute('data-timestamp', +new Date());
           <section class="post-card-excerpt">
                
                 <p><p>Android Service Nedir? Nasıl Kullanılır?</p>
-<p>Android'in temel bileşenlerinden biri olan Service'ler kısaca UI(arayüz) olmayan Activity'lere benzetebiliriz.</p>
+<p>Android&rsquo;in temel bileşenlerinden biri olan Service&rsquo;ler kısaca UI(arayüz) olmayan Activity&rsquo;lere benzetebiliriz.</p>
 </p>
               
           </section>

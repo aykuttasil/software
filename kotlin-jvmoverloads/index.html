@@ -37,7 +37,7 @@
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -113,40 +113,40 @@
         <h1 class="post-full-title">Kotlin @JvmOverloads</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
         <h2 id="kotlin-jvmoverloads">Kotlin @JvmOverloads</h2>
 <p>Kotlin ile uygulama geliştirmeyi teşvik eden en büyük etkenlerden biri şüphesiz <strong>Java</strong> dili uyumlu yapısıdır. Her iki tarafdan da birbirlerine referanslar verilebilir.</p>
-<p>Kotlin dilinin Java'dan ayıran özelliklerinden biri Java compiler ından daha zeki olmasıdır. Nitekim java dili yaşlanıyor :). Kotlin ile oluşturulan bazı yapıların Java tarafına uyumlu hale getirilmesi için bazen ufak düzenlemelere gerek duyulabiliyor.
+<p>Kotlin dilinin Java&rsquo;dan ayıran özelliklerinden biri Java compiler ından daha zeki olmasıdır. Nitekim java dili yaşlanıyor :). Kotlin ile oluşturulan bazı yapıların Java tarafına uyumlu hale getirilmesi için bazen ufak düzenlemelere gerek duyulabiliyor.
 Bu düzenlemelerden bir tanesi de <code>@JvmOverloads</code> annotation kullanımı.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">fun ViewGroup<span style="color:#f92672">.</span><span style="color:#a6e22e">inflate</span><span style="color:#f92672">(</span>resId<span style="color:#f92672">:</span> Int<span style="color:#f92672">,</span> attachToRoot<span style="color:#f92672">:</span> Boolean <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">)</span><span style="color:#f92672">:</span> View <span style="color:#f92672">{</span>
-    <span style="color:#66d9ef">return</span> LayoutInflater<span style="color:#f92672">.</span><span style="color:#a6e22e">from</span><span style="color:#f92672">(</span>context<span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">inflate</span><span style="color:#f92672">(</span>resId<span style="color:#f92672">,</span> <span style="color:#66d9ef">this</span><span style="color:#f92672">,</span> attachToRoot<span style="color:#f92672">)</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">fun ViewGroup<span style="color:#f92672">.</span><span style="color:#a6e22e">inflate</span><span style="color:#f92672">(</span>resId<span style="color:#f92672">:</span> Int<span style="color:#f92672">,</span> attachToRoot<span style="color:#f92672">:</span> Boolean <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">):</span> View <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">return</span> LayoutInflater<span style="color:#f92672">.</span><span style="color:#a6e22e">from</span><span style="color:#f92672">(</span>context<span style="color:#f92672">).</span><span style="color:#a6e22e">inflate</span><span style="color:#f92672">(</span>resId<span style="color:#f92672">,</span> <span style="color:#66d9ef">this</span><span style="color:#f92672">,</span> attachToRoot<span style="color:#f92672">)</span>
 <span style="color:#f92672">}</span>
 </code></pre></div><p>Yukarıda ki gibi <strong>kotlin extension</strong> yapısı kullanılarak <strong>ViewGroup</strong> nesnesine ek bir özellik kazandırdık.</p>
 <p>Artık <strong>LinearLayout</strong> nesnemizden direk olarak <code>inflate</code> fonksiyonunu çağırabiliriz.</p>
 <p>Ve Kotlin ile geliştilen başka bir sınıftan da bu <strong>inflate</strong> fonksiyonu çağırabilir. Ayrıca <strong>default parametre ataması</strong> sayesinde sadece <code>ViewGroupObjesi.inflate(resId)</code> ile fonksiyon kullanılabilir. Yani <strong>attachToRoot</strong> parametresi girmediğimiz için defaut olarak <strong>false</strong> olacaktır.</p>
-<h2 id="peki-baka-bir-java-snfndan-inflate-fonksiyonu-arm-nasl-olacak-">Peki başka bir Java sınıfından inflate fonksiyonu çağırımı nasıl olacak ?</h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">View v <span style="color:#f92672">=</span> UtilsKt<span style="color:#f92672">.</span><span style="color:#a6e22e">inflate</span><span style="color:#f92672">(</span>parent<span style="color:#f92672">,</span> R<span style="color:#f92672">.</span><span style="color:#a6e22e">layout</span><span style="color:#f92672">.</span><span style="color:#a6e22e">view_item</span><span style="color:#f92672">,</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+<h2 id="peki-başka-bir-java-sınıfından-inflate-fonksiyonu-çağırımı-nasıl-olacak-">Peki başka bir Java sınıfından inflate fonksiyonu çağırımı nasıl olacak ?</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">View v <span style="color:#f92672">=</span> UtilsKt<span style="color:#f92672">.</span><span style="color:#a6e22e">inflate</span><span style="color:#f92672">(</span>parent<span style="color:#f92672">,</span> R<span style="color:#f92672">.</span><span style="color:#a6e22e">layout</span><span style="color:#f92672">.</span><span style="color:#a6e22e">view_item</span><span style="color:#f92672">,</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">);</span>
 </code></pre></div><p>Yukarı daki gibi <strong>inflate</strong> fonksiyonu kullanılablir. Fakat;</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">View v <span style="color:#f92672">=</span> UtilsKt<span style="color:#f92672">.</span><span style="color:#a6e22e">inflate</span><span style="color:#f92672">(</span>parent<span style="color:#f92672">,</span> R<span style="color:#f92672">.</span><span style="color:#a6e22e">layout</span><span style="color:#f92672">.</span><span style="color:#a6e22e">view_item</span><span style="color:#f92672">)</span>
 </code></pre></div><p>bu şekilde bir kullanım sonucundan <strong>Java</strong> abimiz kızacak ve hata verecektir. <strong>Default</strong> paramtere ataması <strong>Java</strong> tarafından tanınmaz.</p>
 <h2 id="jvmoverloads">@JvmOverloads</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#a6e22e">@JvmOverloads</span>
-fun ViewGroup<span style="color:#f92672">.</span><span style="color:#a6e22e">inflate</span><span style="color:#f92672">(</span>resId<span style="color:#f92672">:</span> Int<span style="color:#f92672">,</span> attachToRoot<span style="color:#f92672">:</span> Boolean <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">)</span><span style="color:#f92672">:</span> View <span style="color:#f92672">{</span>
-    <span style="color:#66d9ef">return</span> LayoutInflater<span style="color:#f92672">.</span><span style="color:#a6e22e">from</span><span style="color:#f92672">(</span>context<span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">inflate</span><span style="color:#f92672">(</span>resId<span style="color:#f92672">,</span> <span style="color:#66d9ef">this</span><span style="color:#f92672">,</span> attachToRoot<span style="color:#f92672">)</span>
+fun ViewGroup<span style="color:#f92672">.</span><span style="color:#a6e22e">inflate</span><span style="color:#f92672">(</span>resId<span style="color:#f92672">:</span> Int<span style="color:#f92672">,</span> attachToRoot<span style="color:#f92672">:</span> Boolean <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">):</span> View <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">return</span> LayoutInflater<span style="color:#f92672">.</span><span style="color:#a6e22e">from</span><span style="color:#f92672">(</span>context<span style="color:#f92672">).</span><span style="color:#a6e22e">inflate</span><span style="color:#f92672">(</span>resId<span style="color:#f92672">,</span> <span style="color:#66d9ef">this</span><span style="color:#f92672">,</span> attachToRoot<span style="color:#f92672">)</span>
 <span style="color:#f92672">}</span>
 </code></pre></div><p>Mevcut extension fonksiyonumuz başına <code>@JvmOverloads</code> ekleyerek default parametre atamamızın <strong>Java</strong> tarafından tanınmasını sağlayabilir.</p>
 <p>Ve artık Java sınıfı içerisinde,</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">View v <span style="color:#f92672">=</span> UtilsKt<span style="color:#f92672">.</span><span style="color:#a6e22e">inflate</span><span style="color:#f92672">(</span>parent<span style="color:#f92672">,</span> R<span style="color:#f92672">.</span><span style="color:#a6e22e">layout</span><span style="color:#f92672">.</span><span style="color:#a6e22e">view_item</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">View v <span style="color:#f92672">=</span> UtilsKt<span style="color:#f92672">.</span><span style="color:#a6e22e">inflate</span><span style="color:#f92672">(</span>parent<span style="color:#f92672">,</span> R<span style="color:#f92672">.</span><span style="color:#a6e22e">layout</span><span style="color:#f92672">.</span><span style="color:#a6e22e">view_item</span><span style="color:#f92672">);</span>
 </code></pre></div><p>şeklinde kullanım sağlayabiliriz.</p>
 <hr>
 <p>Java içerisinden <strong>UtilsKt</strong> sınıfını başka bir isimlendirme ile çağırmak için <strong>UtilsKt</strong> sınıfı içerisinde <strong>package</strong> tanımlamasından önce <code>@file:JvmName(&quot;AndroidUtils&quot;</code> şeklinde bir ekleme yapabiliriz.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">AndroidUtils<span style="color:#f92672">.</span><span style="color:#a6e22e">logD</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Debug&#34;</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-AndroidUtils<span style="color:#f92672">.</span><span style="color:#a6e22e">logE</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Error&#34;</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-View v <span style="color:#f92672">=</span> AndroidUtils<span style="color:#f92672">.</span><span style="color:#a6e22e">inflate</span><span style="color:#f92672">(</span>parent<span style="color:#f92672">,</span> R<span style="color:#f92672">.</span><span style="color:#a6e22e">layout</span><span style="color:#f92672">.</span><span style="color:#a6e22e">view_item</span><span style="color:#f92672">,</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">AndroidUtils<span style="color:#f92672">.</span><span style="color:#a6e22e">logD</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Debug&#34;</span><span style="color:#f92672">);</span>
+AndroidUtils<span style="color:#f92672">.</span><span style="color:#a6e22e">logE</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Error&#34;</span><span style="color:#f92672">);</span>
+View v <span style="color:#f92672">=</span> AndroidUtils<span style="color:#f92672">.</span><span style="color:#a6e22e">inflate</span><span style="color:#f92672">(</span>parent<span style="color:#f92672">,</span> R<span style="color:#f92672">.</span><span style="color:#a6e22e">layout</span><span style="color:#f92672">.</span><span style="color:#a6e22e">view_item</span><span style="color:#f92672">,</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">);</span>
 </code></pre></div><p>Yukarıda ki gibi <strong>UtilsKt</strong> sınıfına erişim sağlayabiliriz.</p>
     
         </div>
@@ -208,13 +208,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/csharp-soru-isareti-syntax/">CSharp Null Kontrolü</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/javascript-gariplikleri/">Javascript Gariplikleri</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/docker/">Docker</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/bash-scripts/">Bash Scripts</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/sqlmanagement-custom-generate-scripts/">SQL Management Studio Custom Generate Scripts</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-spinner-dynamic-text/">Android Spinner Text Güncelleme</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/rxjava-scan/">RxJava scan() Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/kotlin-lambda/">Kotlin Lambda</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -228,7 +228,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/google_cloud_dns/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
     </a>    
     
 
@@ -265,7 +265,7 @@ Cloud DNS nedir? Google Cloud platformunun dns yapılandırması için vermiş o
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/kotlin-sealed-class/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
     </a>    
     
 

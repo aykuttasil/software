@@ -40,7 +40,7 @@ GcmNetworkManager ın kullanım alanı dah" />
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -130,7 +130,7 @@ GcmNetworkManager ın kullanım alanı dah" />
 </ul>
 <hr>
 <p><strong>OneoffTask Kullanımı</strong></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">OneoffTask oneoff <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> OneoffTask<span style="color:#f92672">.</span><span style="color:#a6e22e">Builder</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">OneoffTask oneoff <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> OneoffTask<span style="color:#f92672">.</span><span style="color:#a6e22e">Builder</span><span style="color:#f92672">()</span>
         <span style="color:#75715e">// Uygulamanızı kapatsanız bile tekrar açtığınız da network işleminiz işleme konulur.
 </span><span style="color:#75715e"></span>        <span style="color:#75715e">// Yani isteğinizin kalıcı olup olmamasını bu parametre ile ayarlayabilirsiniz.
 </span><span style="color:#75715e"></span>        <span style="color:#f92672">.</span><span style="color:#a6e22e">setPersisted</span><span style="color:#f92672">(</span><span style="color:#66d9ef">true</span><span style="color:#f92672">)</span>
@@ -150,15 +150,15 @@ GcmNetworkManager ın kullanım alanı dah" />
         <span style="color:#75715e">// Bundle ile işleminiz için gerekli parametreleri belirleyebilirsiniz
 </span><span style="color:#75715e"></span>        <span style="color:#f92672">.</span><span style="color:#a6e22e">setExtras</span><span style="color:#f92672">(</span>bundle<span style="color:#f92672">)</span>
         <span style="color:#75715e">// build eder
-</span><span style="color:#75715e"></span>        <span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span>        <span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">();</span>
 
-GcmNetworkManager<span style="color:#f92672">.</span><span style="color:#a6e22e">getInstance</span><span style="color:#f92672">(</span>context<span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">schedule</span><span style="color:#f92672">(</span>oneoff<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+GcmNetworkManager<span style="color:#f92672">.</span><span style="color:#a6e22e">getInstance</span><span style="color:#f92672">(</span>context<span style="color:#f92672">).</span><span style="color:#a6e22e">schedule</span><span style="color:#f92672">(</span>oneoff<span style="color:#f92672">);</span>
 </code></pre></div><hr>
 <p><strong>MyGcmTaskService</strong></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#75715e">// Cihazınızı yeniden başlatma gibi durumlar da önceden belirlenmiş task lerinizin çalışmasını devam ettirmesini istiyorsanız
-</span><span style="color:#75715e"></span><span style="color:#75715e">// burada tekrar belirlemelisiniz.
+</span><span style="color:#75715e">// burada tekrar belirlemelisiniz.
 </span><span style="color:#75715e"></span><span style="color:#a6e22e">@Override</span>
-<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onInitializeTasks</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onInitializeTasks</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
     
 <span style="color:#f92672">}</span>
 
@@ -166,12 +166,12 @@ GcmNetworkManager<span style="color:#f92672">.</span><span style="color:#a6e22e"
 </span><span style="color:#75715e"></span><span style="color:#a6e22e">@Override</span>
 <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">onRunTask</span><span style="color:#f92672">(</span>TaskParams taskParams<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
     <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-        Bundle bundle <span style="color:#f92672">=</span> taskParams<span style="color:#f92672">.</span><span style="color:#a6e22e">getExtras</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-        <span style="color:#66d9ef">return</span> SchedulerRandevuTask<span style="color:#f92672">(</span>bundle<span style="color:#f92672">)</span><span style="color:#f92672">;</span>        
+        Bundle bundle <span style="color:#f92672">=</span> taskParams<span style="color:#f92672">.</span><span style="color:#a6e22e">getExtras</span><span style="color:#f92672">();</span>
+        <span style="color:#66d9ef">return</span> SchedulerRandevuTask<span style="color:#f92672">(</span>bundle<span style="color:#f92672">);</span>        
     <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>Exception e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-        ErrorEvent errorEvent <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ErrorEvent<span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-        errorEvent<span style="color:#f92672">.</span><span style="color:#a6e22e">setErrorContent</span><span style="color:#f92672">(</span>e<span style="color:#f92672">.</span><span style="color:#a6e22e">getMessage</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-        EventBus<span style="color:#f92672">.</span><span style="color:#a6e22e">getDefault</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">post</span><span style="color:#f92672">(</span>errorEvent<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+        ErrorEvent errorEvent <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ErrorEvent<span style="color:#f92672">();</span>
+        errorEvent<span style="color:#f92672">.</span><span style="color:#a6e22e">setErrorContent</span><span style="color:#f92672">(</span>e<span style="color:#f92672">.</span><span style="color:#a6e22e">getMessage</span><span style="color:#f92672">());</span>
+        EventBus<span style="color:#f92672">.</span><span style="color:#a6e22e">getDefault</span><span style="color:#f92672">().</span><span style="color:#a6e22e">post</span><span style="color:#f92672">(</span>errorEvent<span style="color:#f92672">);</span>
         <span style="color:#66d9ef">return</span> GcmNetworkManager<span style="color:#f92672">.</span><span style="color:#a6e22e">RESULT_RESCHEDULE</span><span style="color:#f92672">;</span>
     <span style="color:#f92672">}</span>
 <span style="color:#f92672">}</span>
@@ -179,12 +179,12 @@ GcmNetworkManager<span style="color:#f92672">.</span><span style="color:#a6e22e"
 <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">SchedulerZiyaretTask</span><span style="color:#f92672">(</span>Bundle bundle<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
     <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
         <span style="color:#75715e">// isteğimiz sırasında bundle olarak yüklemiş olduğumuz nesneyi burada yakalıyoruz
-</span><span style="color:#75715e"></span>        String jsonModel <span style="color:#f92672">=</span> bundle<span style="color:#f92672">.</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>Const<span style="color:#f92672">.</span><span style="color:#a6e22e">IZTOP_TASK_BUNDLE</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-        ZiyaretRequest request <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Gson<span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">fromJson</span><span style="color:#f92672">(</span>jsonModel<span style="color:#f92672">,</span> ZiyaretRequest<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-        ZiyaretResponse ziyaretResponse <span style="color:#f92672">=</span> sendZiyaretProcess<span style="color:#f92672">(</span>request<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-        <span style="color:#66d9ef">switch</span> <span style="color:#f92672">(</span>ziyaretResponse<span style="color:#f92672">.</span><span style="color:#a6e22e">getCode</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span><span style="color:#75715e"></span>        String jsonModel <span style="color:#f92672">=</span> bundle<span style="color:#f92672">.</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>Const<span style="color:#f92672">.</span><span style="color:#a6e22e">IZTOP_TASK_BUNDLE</span><span style="color:#f92672">);</span>
+        ZiyaretRequest request <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Gson<span style="color:#f92672">().</span><span style="color:#a6e22e">fromJson</span><span style="color:#f92672">(</span>jsonModel<span style="color:#f92672">,</span> ZiyaretRequest<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">);</span>
+        ZiyaretResponse ziyaretResponse <span style="color:#f92672">=</span> sendZiyaretProcess<span style="color:#f92672">(</span>request<span style="color:#f92672">);</span>
+        <span style="color:#66d9ef">switch</span> <span style="color:#f92672">(</span>ziyaretResponse<span style="color:#f92672">.</span><span style="color:#a6e22e">getCode</span><span style="color:#f92672">())</span> <span style="color:#f92672">{</span>
             <span style="color:#66d9ef">case</span> 0<span style="color:#f92672">:</span> <span style="color:#f92672">{</span>
-                EventBus<span style="color:#f92672">.</span><span style="color:#a6e22e">getDefault</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">post</span><span style="color:#f92672">(</span>ziyaretResponse<span style="color:#f92672">)</span><span style="color:#f92672">;</span>                
+                EventBus<span style="color:#f92672">.</span><span style="color:#a6e22e">getDefault</span><span style="color:#f92672">().</span><span style="color:#a6e22e">post</span><span style="color:#f92672">(</span>ziyaretResponse<span style="color:#f92672">);</span>                
                 <span style="color:#75715e">// işlemlerimiz başarılı bir şekilde gerçekleşmiş ise result değeri olarak RESULT_SUCCESS dönüyoruz.
 </span><span style="color:#75715e"></span>                <span style="color:#75715e">// GcmNetworkManager bu işlemi başarılı olduğu için listeden silecek ve tekrar çalıştırmayı denemicektir.
 </span><span style="color:#75715e"></span>                <span style="color:#66d9ef">return</span> GcmNetworkManager<span style="color:#f92672">.</span><span style="color:#a6e22e">RESULT_SUCCESS</span><span style="color:#f92672">;</span>
@@ -195,23 +195,23 @@ GcmNetworkManager<span style="color:#f92672">.</span><span style="color:#a6e22e"
             <span style="color:#f92672">}</span>
         <span style="color:#f92672">}</span>
     <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>Exception e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-        SuperHelper<span style="color:#f92672">.</span><span style="color:#a6e22e">CrashlyticsLog</span><span style="color:#f92672">(</span>e<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-        e<span style="color:#f92672">.</span><span style="color:#a6e22e">printStackTrace</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+        SuperHelper<span style="color:#f92672">.</span><span style="color:#a6e22e">CrashlyticsLog</span><span style="color:#f92672">(</span>e<span style="color:#f92672">);</span>
+        e<span style="color:#f92672">.</span><span style="color:#a6e22e">printStackTrace</span><span style="color:#f92672">();</span>
         <span style="color:#66d9ef">return</span> GcmNetworkManager<span style="color:#f92672">.</span><span style="color:#a6e22e">RESULT_RESCHEDULE</span><span style="color:#f92672">;</span>
     <span style="color:#f92672">}</span>
 
 
 <span style="color:#f92672">}</span>
 <span style="color:#66d9ef">private</span> ZiyaretResponse <span style="color:#a6e22e">sendZiyaretProcess</span><span style="color:#f92672">(</span>ZiyaretRequest request<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-    <span style="color:#66d9ef">return</span> ApiManager<span style="color:#f92672">.</span><span style="color:#a6e22e">getInstance</span><span style="color:#f92672">(</span>getApplicationContext<span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Ziyaret</span><span style="color:#f92672">(</span>request<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+    <span style="color:#66d9ef">return</span> ApiManager<span style="color:#f92672">.</span><span style="color:#a6e22e">getInstance</span><span style="color:#f92672">(</span>getApplicationContext<span style="color:#f92672">()).</span><span style="color:#a6e22e">Ziyaret</span><span style="color:#f92672">(</span>request<span style="color:#f92672">);</span>
 <span style="color:#f92672">}</span>
 
 </code></pre></div><p><strong>ApiManager / Ziyaret</strong></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> ZiyaretResponse <span style="color:#a6e22e">Ziyaret</span><span style="color:#f92672">(</span>ZiyaretRequest request<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
     <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-        RestClient restClient <span style="color:#f92672">=</span> RestClient<span style="color:#f92672">.</span><span style="color:#a6e22e">getInstance</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-        Call<span style="color:#f92672">&lt;</span>ZiyaretResponse<span style="color:#f92672">&gt;</span> responseCall <span style="color:#f92672">=</span> restClient<span style="color:#f92672">.</span><span style="color:#a6e22e">getApiService</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Ziyaret</span><span style="color:#f92672">(</span>request<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-        ZiyaretResponse ziyaretResponse <span style="color:#f92672">=</span> responseCall<span style="color:#f92672">.</span><span style="color:#a6e22e">execute</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">body</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+        RestClient restClient <span style="color:#f92672">=</span> RestClient<span style="color:#f92672">.</span><span style="color:#a6e22e">getInstance</span><span style="color:#f92672">();</span>
+        Call<span style="color:#f92672">&lt;</span>ZiyaretResponse<span style="color:#f92672">&gt;</span> responseCall <span style="color:#f92672">=</span> restClient<span style="color:#f92672">.</span><span style="color:#a6e22e">getApiService</span><span style="color:#f92672">().</span><span style="color:#a6e22e">Ziyaret</span><span style="color:#f92672">(</span>request<span style="color:#f92672">);</span>
+        ZiyaretResponse ziyaretResponse <span style="color:#f92672">=</span> responseCall<span style="color:#f92672">.</span><span style="color:#a6e22e">execute</span><span style="color:#f92672">().</span><span style="color:#a6e22e">body</span><span style="color:#f92672">();</span>
         <span style="color:#66d9ef">return</span> ziyaretResponse<span style="color:#f92672">;</span>
     <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>Exception ex<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
         <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">;</span>
@@ -219,7 +219,7 @@ GcmNetworkManager<span style="color:#f92672">.</span><span style="color:#a6e22e"
 <span style="color:#f92672">}</span>
 </code></pre></div><p><strong>Retrofit ApiService</strong></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#a6e22e">@POST</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;sunucu/ziyaret/api/adresi&#34;</span><span style="color:#f92672">)</span>
-Call<span style="color:#f92672">&lt;</span>ZiyaretResponse<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">Ziyaret</span><span style="color:#f92672">(</span><span style="color:#a6e22e">@Body</span> ZiyaretRequest ziyaretRequest<span style="color:#f92672">)</span><span style="color:#f92672">;</span><span style="color:#f92672">&lt;</span><span style="color:#f92672">/</span>pre<span style="color:#f92672">&gt;</span>
+Call<span style="color:#f92672">&lt;</span>ZiyaretResponse<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">Ziyaret</span><span style="color:#f92672">(</span><span style="color:#a6e22e">@Body</span> ZiyaretRequest ziyaretRequest<span style="color:#f92672">);&lt;/</span>pre<span style="color:#f92672">&gt;</span>
 </code></pre></div><hr>
     
         </div>
@@ -281,13 +281,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/vscode-intellisense/">VS Code &amp; Express &amp; TypeScript &amp; IntelliSense</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-create-library-upload-bintray/">Android Library &amp; Bintray</a></li>            
+        
+          <li><a href="https://yazilim.aykutasil.com/post/amp/">AMP</a></li>            
         
           <li><a href="https://yazilim.aykutasil.com/sql-scope-identity/">SQL SCOPE_IDENTITY()</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/azure-notification-hubs-kullanimi/">Azure Mobile Services ve Notification Hubs Kullanımı</a></li>            
-        
-          <li><a href="https://yazilim.aykutasil.com/foregroundservice-ve-fusedlocationapi-kullanimi/">Foreground Service ile FusedLocationApi Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/kotlin-jvmoverloads/">Kotlin @JvmOverloads</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -301,7 +301,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/retrofit-multipart-file-upload/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)"></div>
     </a>    
     
 
@@ -334,7 +334,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-smsreceiver/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
     </a>    
     
 

@@ -12,8 +12,8 @@
     <link rel="shortcut icon" href="https://yazilim.aykutasil.com/favicon.ico" />
     <link rel="canonical" href="https://yazilim.aykutasil.com/sql-scope-identity/" />
 
-     <meta name="description" content="Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id&#39;sini getirir.
-Yapılan son kaydın id sini almak için uzun yol olarak insert sorgusunu çal" /> 
+     <meta name="description" content="Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id&amp;rsquo;sini getirir.
+Yapılan son kaydın id sini almak için uzun yol olarak insert sorgusu" /> 
 
      
     
@@ -21,8 +21,8 @@ Yapılan son kaydın id sini almak için uzun yol olarak insert sorgusunu çal" 
     
  
     <meta name="twitter:title" content="SQL SCOPE_IDENTITY()"/>
-    <meta name="twitter:description" content="Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id&#39;sini getirir.
-Yapılan son kaydın id sini almak için uzun yol olarak insert sorgusunu çal"/>
+    <meta name="twitter:description" content="Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id&amp;rsquo;sini getirir.
+Yapılan son kaydın id sini almak için uzun yol olarak insert sorgusu"/>
     <meta name="twitter:url" content="https://yazilim.aykutasil.com/sql-scope-identity" />
     <meta name="twitter:site" content="@aykuttasil"/>
 
@@ -32,15 +32,15 @@ Yapılan son kaydın id sini almak için uzun yol olarak insert sorgusunu çal"/
     <meta property="article:publisher" content="https://www.facebook.com/aykuttasil" />
 
     <meta property="og:type" content="article" />
-    <meta property="og:description" content="Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id&#39;sini getirir.
-Yapılan son kaydın id sini almak için uzun yol olarak insert sorgusunu çal" />
+    <meta property="og:description" content="Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id&amp;rsquo;sini getirir.
+Yapılan son kaydın id sini almak için uzun yol olarak insert sorgusu" />
 
     <meta property="article:published_time" content="2017-01-11T17:20:37&#43;03:00" />
     <meta property="article:tag" content="software" /><meta property="article:tag" content="sql" /><meta property="article:tag" content="sql_scope_identity" /><meta property="article:tag" content="mssql" />
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -116,12 +116,12 @@ Yapılan son kaydın id sini almak için uzun yol olarak insert sorgusunu çal" 
         <h1 class="post-full-title">SQL SCOPE_IDENTITY()</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
-        <p><strong>Kısaca özetlemek gerekirse :</strong> insert ile kayıt edilen tablo satırının id'sini getirir.</p>
+        <p><strong>Kısaca özetlemek gerekirse :</strong> insert ile kayıt edilen tablo satırının id&rsquo;sini getirir.</p>
 <p>Yapılan son kaydın id sini almak için uzun  yol olarak insert sorgusunu çalıştırdıktan sonra bir select sorgusu atarak ve order by id desc diyerek ilk sıradaki kaydı okuyabilir ve bu kaydın id sini alabiliriz.</p>
 <p>Tüm bunları yapmaktansa:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">DECLARE</span> <span style="color:#f92672">@</span>son_satir_id INT;
@@ -132,8 +132,8 @@ Yapılan son kaydın id sini almak için uzun yol olarak insert sorgusunu çal" 
           Soyad
         )
 <span style="color:#66d9ef">VALUES</span>  ( 
-          <span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Aykut</span><span style="color:#e6db74">&#39;</span>
-          <span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Asil</span><span style="color:#e6db74">&#39;</span>
+          <span style="color:#e6db74">&#39;Aykut&#39;</span>
+          <span style="color:#e6db74">&#39;Asil&#39;</span>
         )
 <span style="color:#66d9ef">SET</span> <span style="color:#f92672">@</span>son_satir_id <span style="color:#f92672">=</span> SCOPE_IDENTITY();
 </code></pre></div><p>Ayrıntılı Bilgi  : <a href="https://technet.microsoft.com/tr-tr/library/ms190315(v=sql.110).aspx">https://technet.microsoft.com/tr-tr/library/ms190315(v=sql.110).aspx</a></p>
@@ -198,13 +198,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/postman-api-test/">Postman ile API Test Yazımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/kotlin-let/">Kotlin Let Kullanımı</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-internet-connection-receiver/">Android Internet Connection Receiver</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/docker-komutlari/">Docker Komutları</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/kotlin-jvmoverloads/">Kotlin @JvmOverloads</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-gcmnetworkmanager-kullanimi/">Android GcmNetworkManager Kullanımı</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/arduino_hc06_kullanimi/">Arduino HC-06 Bluetooth Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/aspnetcore-session/">Asp.Net Core Session</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -218,7 +218,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/macos-arduino-uno-klon-kurulum/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
     </a>    
     
 
@@ -255,7 +255,7 @@ Orijinal Arduino Kartlarının yapımı iki koldan yürüyor. Bir taraf open sou
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/javascript-gariplikleri/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
     </a>    
     
 

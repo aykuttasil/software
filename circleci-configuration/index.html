@@ -37,7 +37,7 @@
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -113,7 +113,7 @@
         <h1 class="post-full-title">CircleCI Configuration</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)">
     </figure>
 
     <section class="post-full-content">
@@ -150,7 +150,7 @@
 </ul>
 <p><strong>cache</strong></p>
 <ul>
-<li><strong>Workflow</strong> arasında veri taşınması için cache'leme mekanizması kullanılır.</li>
+<li><strong>Workflow</strong> arasında veri taşınması için cache&rsquo;leme mekanizması kullanılır.</li>
 </ul>
 <p><strong>artifacts</strong></p>
 <ul>
@@ -173,26 +173,26 @@
 <p><strong>checkout</strong> komutu proje kaynak kodlarını ilgili repodan(github,bitbucket) çekerek circleci container ı içerisinde klonlar.</p>
 <h5 id="run"><strong>run</strong></h5>
 <p><strong>run</strong> bloğu altında tek bir komut çalıştırılabileceği gibi birden fazla komutun da işlenmesi sağlanabilir. Bunun için aşağıdaki gibi bir düzenlemeye ihtiyaç vardır:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">      - run:
-          name: Initialize Keystore File
-          command: <span style="color:#e6db74">|
-</span><span style="color:#e6db74">            </span><span style="color:#e6db74"> </span><span style="color:#e6db74">echo &#34;signingKeyAlias=$KEYSTORE_KEY_ALIAS&#34; &gt;&gt; keystore.properties</span>
-             echo <span style="color:#e6db74">&#34;signingKeyAliasPassword=$KEYSTORE_KEY_ALIAS_PASSWORD&#34;</span> &gt;<span style="color:#e6db74">&gt; </span><span style="color:#e6db74"> </span><span style="color:#e6db74">keystore.properties</span>
-             echo <span style="color:#e6db74">&#34;signingStoreFile=$KEYSTORE_STORE_FILE&#34;</span> &gt;<span style="color:#e6db74">&gt; </span><span style="color:#e6db74"> </span><span style="color:#e6db74">keystore.properties</span>
-             echo <span style="color:#e6db74">&#34;signingStorePassword=$KEYSTORE_STORE_PASSWORD&#34;</span> &gt;<span style="color:#e6db74">&gt; </span><span style="color:#e6db74"> </span><span style="color:#e6db74">keystore.properties</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">      - <span style="color:#66d9ef">run</span>:
+          <span style="color:#66d9ef">name</span>: Initialize Keystore File
+          <span style="color:#66d9ef">command</span>: <span style="color:#e6db74">|
+</span><span style="color:#e6db74">             echo &#34;signingKeyAlias=$KEYSTORE_KEY_ALIAS&#34; &gt;&gt; keystore.properties</span>
+             echo <span style="color:#e6db74">&#34;signingKeyAliasPassword=$KEYSTORE_KEY_ALIAS_PASSWORD&#34;</span> &gt;<span style="color:#e6db74">&gt;  keystore.properties</span>
+             echo <span style="color:#e6db74">&#34;signingStoreFile=$KEYSTORE_STORE_FILE&#34;</span> &gt;<span style="color:#e6db74">&gt;  keystore.properties</span>
+             echo <span style="color:#e6db74">&#34;signingStorePassword=$KEYSTORE_STORE_PASSWORD&#34;</span> &gt;<span style="color:#e6db74">&gt;  keystore.properties</span>
              cat keystore.properties
-</code></pre></div><h5 id="save-cache"><strong>save_cache</strong></h5>
-<p>Uygulama bağımlılık/dependency dosyalarını cache'lemek için kullanılır.</p>
-<h5 id="restore-cache"><strong>restore_cache</strong></h5>
-<p><strong>save_cache</strong> bloğunda cache'lenen bağımlılıkların tekrar indirilmeden kullanılmasını sağlar. Bu sayede yalnızca bir kez indirilen bağımlılıklar sayesinde uygun ortamın oluşturulma süresi minumuma inmiş olur.</p>
-<h5 id="store-artifacts"><strong>store_artifacts</strong></h5>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">      - store_artifacts:
-          path: app/build/reports
-          destination: reports
+</code></pre></div><h5 id="save_cache"><strong>save_cache</strong></h5>
+<p>Uygulama bağımlılık/dependency dosyalarını cache&rsquo;lemek için kullanılır.</p>
+<h5 id="restore_cache"><strong>restore_cache</strong></h5>
+<p><strong>save_cache</strong> bloğunda cache&rsquo;lenen bağımlılıkların tekrar indirilmeden kullanılmasını sağlar. Bu sayede yalnızca bir kez indirilen bağımlılıklar sayesinde uygun ortamın oluşturulma süresi minumuma inmiş olur.</p>
+<h5 id="store_artifacts"><strong>store_artifacts</strong></h5>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">      - <span style="color:#66d9ef">store_artifacts</span>:
+          <span style="color:#66d9ef">path</span>: app/build/reports
+          <span style="color:#66d9ef">destination</span>: reports
 </code></pre></div><p>Proje dosyalarının derlenmesi sonrasında <strong>app/build/reports</strong> klasörü altında oluşan dosyaların kalıcı olarak saklanmasını sağlar. <strong>CircleCI</strong> panelinde ilgili proje ve derleme bölümünde <strong>artifacts</strong> tabı altında <strong>reports</strong> klasörü içerisinden erişim sağlanabilir.</p>
-<h5 id="store-test-results"><strong>store_test_results</strong></h5>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">      - store_test_results:
-          path: app/build/test-results
+<h5 id="store_test_results"><strong>store_test_results</strong></h5>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml">      - <span style="color:#66d9ef">store_test_results</span>:
+          <span style="color:#66d9ef">path</span>: app/build/test-results
 </code></pre></div><p>Projenin derlenmesi sonrasında <strong>app/build/test-results</strong> klasörü altında oluşan test dosyalarını saklamak için özel bi komuttur.</p>
 <hr>
 <h2 id="orbs">orbs</h2>
@@ -217,7 +217,7 @@ workflows:
 </ul>
 <hr>
 <h2 id="executor-type">Executor Type</h2>
-<p>CircleCI, Jobs'ları üç ortamdan birinde çalıştırmanıza olanak tanır:</p>
+<p>CircleCI, Jobs&rsquo;ları üç ortamdan birinde çalıştırmanıza olanak tanır:</p>
 <ul>
 <li>docker</li>
 <li>machine</li>
@@ -242,7 +242,7 @@ jobs:
 <li><strong>circleci/classic:edge</strong> : sık sık güncelle alır.</li>
 </ul>
 <p>Yukarıda ki üç değerden biri olmak zorundadır.</p>
-<p><strong>machine</strong> ile <strong>jobs</strong>&lsquo;lar aşağıdaki özelliklere sahip özel ve geçici bir VM'de çalıştırır:</p>
+<p><strong>machine</strong> ile <strong>jobs</strong>&lsquo;lar aşağıdaki özelliklere sahip özel ve geçici bir VM&rsquo;de çalıştırır:</p>
 <table>
 <thead>
 <tr>
@@ -356,13 +356,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/google_cloud_dns/">Google Cloud DNS</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-robolectric/">Robolectric ile UnitTest Yazımı</a></li>            
         
           <li><a href="https://yazilim.aykutasil.com/sql-nullif-fonksiyonu-kullanimi/">TSQL NULLIF Fonksiyonu Nedir ve Nasıl Kullanılır</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/macos-mssql-connection/">Mac OS ile MSSQL Bağlantısı Kurmak</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/docker-series-2/">Docker Series - 2</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/kotlin-when/">Kotlin when kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/rxjava-reduce/">RxJava reduce() Kullanımı</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -414,7 +414,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/ssh-surekli-parola-isteme-problemi/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
     </a>    
     
 

@@ -37,7 +37,7 @@
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -113,7 +113,7 @@
         <h1 class="post-full-title">Retrofit Oauth</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)">
     </figure>
 
     <section class="post-full-content">
@@ -121,7 +121,7 @@
         <h2 id="retrofit-oauth-entegrasyonu">Retrofit Oauth Entegrasyonu</h2>
 <p>Oauth, kısaca anlatmak gerekirse; Kullanıcı ile ilgili her türlü (izin,yetki,güvenlik vs.) etkileşimi standartlaştıran bir yapı diyebiliriz. Google amcaya sorarsanız neler yapabileceğiniz ile ilgili birçok kaynak bulabilirsiniz. Veya <a href="https://oauth.net/">buraya</a> bakabilirsiniz.</p>
 <p>Burada bahsedecek olduğumuz şey Android mobil uygulamanızdan bir istek yaptığınızda tüm bu oauth işlemlerinizi otomatize etmek üzerine olacak.</p>
-<h4 id="nasl-alyor">Nasıl Çalışıyor?</h4>
+<h4 id="nasıl-çalışıyor">Nasıl Çalışıyor?</h4>
 <p><a href="http://bahadir.almaci.com/2010/02/oauth-nedir-nasil-calisir/">Kısaca</a> anlatılan bu yazıyı okuduğunuzda günün sonunda elimizde bir token olduğunu ve bu tokenı request headerımıza ekleyerek backend kısmında kontrolünü sağladığımızı ve duruma göre cevap döndüğümüzü göreceksiniz. Bu tokenın işlevsellik ömürleri vardır. Yani 10 dakika süre ile bu tokenı yetkilendir deriz. Çünkü sonuçta asıl amacımız güvenlik. Kullanıcı ad ve şifre bilgisi birilerinin eline geçmesi ile token bilgisinin birilerinin eline geçmesi aynı anlama gelir. Tabi eğer tokena bir ömür biçmezsek.</p>
 <p><strong>Peki elimizde ki token ın bir ömrünün olması uygulamamıza nasıl bir akış olmasını gerektiriyor ?</strong></p>
 <ul>
@@ -143,88 +143,88 @@
     <span style="color:#a6e22e">@DebugLog</span>
     <span style="color:#66d9ef">private</span> <span style="color:#a6e22e">RestClient</span><span style="color:#f92672">(</span>Context context<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
 
-        HttpLoggingInterceptor httpLoggingInterceptor <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> HttpLoggingInterceptor<span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-        httpLoggingInterceptor<span style="color:#f92672">.</span><span style="color:#a6e22e">setLevel</span><span style="color:#f92672">(</span>HttpLoggingInterceptor<span style="color:#f92672">.</span><span style="color:#a6e22e">Level</span><span style="color:#f92672">.</span><span style="color:#a6e22e">BODY</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+        HttpLoggingInterceptor httpLoggingInterceptor <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> HttpLoggingInterceptor<span style="color:#f92672">();</span>
+        httpLoggingInterceptor<span style="color:#f92672">.</span><span style="color:#a6e22e">setLevel</span><span style="color:#f92672">(</span>HttpLoggingInterceptor<span style="color:#f92672">.</span><span style="color:#a6e22e">Level</span><span style="color:#f92672">.</span><span style="color:#a6e22e">BODY</span><span style="color:#f92672">);</span>
 
-        OkHttpClient<span style="color:#f92672">.</span><span style="color:#a6e22e">Builder</span> clientBuilder <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> OkHttpClient<span style="color:#f92672">.</span><span style="color:#a6e22e">Builder</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+        OkHttpClient<span style="color:#f92672">.</span><span style="color:#a6e22e">Builder</span> clientBuilder <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> OkHttpClient<span style="color:#f92672">.</span><span style="color:#a6e22e">Builder</span><span style="color:#f92672">();</span>
 
-        clientBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">addInterceptor</span><span style="color:#f92672">(</span>chain <span style="color:#f92672">-</span><span style="color:#f92672">&gt;</span> <span style="color:#f92672">{</span>
-            Request original <span style="color:#f92672">=</span> chain<span style="color:#f92672">.</span><span style="color:#a6e22e">request</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+        clientBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">addInterceptor</span><span style="color:#f92672">(</span>chain <span style="color:#f92672">-&gt;</span> <span style="color:#f92672">{</span>
+            Request original <span style="color:#f92672">=</span> chain<span style="color:#f92672">.</span><span style="color:#a6e22e">request</span><span style="color:#f92672">();</span>
 
-            Request request <span style="color:#f92672">=</span> original<span style="color:#f92672">.</span><span style="color:#a6e22e">newBuilder</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span>
+            Request request <span style="color:#f92672">=</span> original<span style="color:#f92672">.</span><span style="color:#a6e22e">newBuilder</span><span style="color:#f92672">()</span>
                     <span style="color:#f92672">.</span><span style="color:#a6e22e">addHeader</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Content-Type&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;application/json&#34;</span><span style="color:#f92672">)</span>
                     <span style="color:#f92672">.</span><span style="color:#a6e22e">addHeader</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;X-App-Name&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;Dokar&#34;</span><span style="color:#f92672">)</span> <span style="color:#75715e">// Optional
 </span><span style="color:#75715e"></span>                    <span style="color:#f92672">.</span><span style="color:#a6e22e">addHeader</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;X-api-version&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;1.0&#34;</span><span style="color:#f92672">)</span> <span style="color:#75715e">// Optional
-</span><span style="color:#75715e"></span>                    <span style="color:#f92672">.</span><span style="color:#a6e22e">method</span><span style="color:#f92672">(</span>original<span style="color:#f92672">.</span><span style="color:#a6e22e">method</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">,</span> original<span style="color:#f92672">.</span><span style="color:#a6e22e">body</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span>
-                    <span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span>                    <span style="color:#f92672">.</span><span style="color:#a6e22e">method</span><span style="color:#f92672">(</span>original<span style="color:#f92672">.</span><span style="color:#a6e22e">method</span><span style="color:#f92672">(),</span> original<span style="color:#f92672">.</span><span style="color:#a6e22e">body</span><span style="color:#f92672">())</span>
+                    <span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">();</span>
 
-            <span style="color:#66d9ef">return</span> chain<span style="color:#f92672">.</span><span style="color:#a6e22e">proceed</span><span style="color:#f92672">(</span>request<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-        <span style="color:#f92672">}</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+            <span style="color:#66d9ef">return</span> chain<span style="color:#f92672">.</span><span style="color:#a6e22e">proceed</span><span style="color:#f92672">(</span>request<span style="color:#f92672">);</span>
+        <span style="color:#f92672">});</span>
 
-        clientBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">addInterceptor</span><span style="color:#f92672">(</span>chain <span style="color:#f92672">-</span><span style="color:#f92672">&gt;</span> <span style="color:#f92672">{</span>
-            Request original <span style="color:#f92672">=</span> chain<span style="color:#f92672">.</span><span style="color:#a6e22e">request</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+        clientBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">addInterceptor</span><span style="color:#f92672">(</span>chain <span style="color:#f92672">-&gt;</span> <span style="color:#f92672">{</span>
+            Request original <span style="color:#f92672">=</span> chain<span style="color:#f92672">.</span><span style="color:#a6e22e">request</span><span style="color:#f92672">();</span>
 
-            Request<span style="color:#f92672">.</span><span style="color:#a6e22e">Builder</span> builder <span style="color:#f92672">=</span> original<span style="color:#f92672">.</span><span style="color:#a6e22e">newBuilder</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+            Request<span style="color:#f92672">.</span><span style="color:#a6e22e">Builder</span> builder <span style="color:#f92672">=</span> original<span style="color:#f92672">.</span><span style="color:#a6e22e">newBuilder</span><span style="color:#f92672">();</span>
 
             String tokenType <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Bearer&#34;</span><span style="color:#f92672">;</span>
-            String authToken <span style="color:#f92672">=</span> AppDataHelper<span style="color:#f92672">.</span><span style="color:#a6e22e">getInstance</span><span style="color:#f92672">(</span>context<span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">getAccessToken</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span> <span style="color:#75715e">// Veritabanından ya da SharedPreference vs. den tokenımızı çekiyoruz
+            String authToken <span style="color:#f92672">=</span> AppDataHelper<span style="color:#f92672">.</span><span style="color:#a6e22e">getInstance</span><span style="color:#f92672">(</span>context<span style="color:#f92672">).</span><span style="color:#a6e22e">getAccessToken</span><span style="color:#f92672">();</span> <span style="color:#75715e">// Veritabanından ya da SharedPreference vs. den tokenımızı çekiyoruz
 </span><span style="color:#75715e"></span>
             <span style="color:#75715e">// Eğer token bilgisi var ise request imizin header ına &#34;Authorization: Bearer tokenanahtari&#34; şeklinde ekleme yapıyoruz.
-</span><span style="color:#75715e"></span>            <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>authToken <span style="color:#f92672">!</span><span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-                builder<span style="color:#f92672">.</span><span style="color:#a6e22e">header</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Authorization&#34;</span><span style="color:#f92672">,</span> tokenType <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> authToken<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span>            <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>authToken <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+                builder<span style="color:#f92672">.</span><span style="color:#a6e22e">header</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Authorization&#34;</span><span style="color:#f92672">,</span> tokenType <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> authToken<span style="color:#f92672">);</span>
             <span style="color:#f92672">}</span>
 
             Request request <span style="color:#f92672">=</span> builder
-                    <span style="color:#f92672">.</span><span style="color:#a6e22e">method</span><span style="color:#f92672">(</span>original<span style="color:#f92672">.</span><span style="color:#a6e22e">method</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">,</span> original<span style="color:#f92672">.</span><span style="color:#a6e22e">body</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span>
-                    <span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+                    <span style="color:#f92672">.</span><span style="color:#a6e22e">method</span><span style="color:#f92672">(</span>original<span style="color:#f92672">.</span><span style="color:#a6e22e">method</span><span style="color:#f92672">(),</span> original<span style="color:#f92672">.</span><span style="color:#a6e22e">body</span><span style="color:#f92672">())</span>
+                    <span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">();</span>
 
-            <span style="color:#66d9ef">return</span> chain<span style="color:#f92672">.</span><span style="color:#a6e22e">proceed</span><span style="color:#f92672">(</span>request<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-        <span style="color:#f92672">}</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+            <span style="color:#66d9ef">return</span> chain<span style="color:#f92672">.</span><span style="color:#a6e22e">proceed</span><span style="color:#f92672">(</span>request<span style="color:#f92672">);</span>
+        <span style="color:#f92672">});</span>
 
         <span style="color:#75715e">// Yapılan istekleri loglamak için interceptor
-</span><span style="color:#75715e"></span>        clientBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">addInterceptor</span><span style="color:#f92672">(</span>httpLoggingInterceptor<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span>        clientBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">addInterceptor</span><span style="color:#f92672">(</span>httpLoggingInterceptor<span style="color:#f92672">);</span>
 
         <span style="color:#75715e">// *****************************
 </span><span style="color:#75715e"></span>        <span style="color:#75715e">// ÖNEMLİ
 </span><span style="color:#75715e"></span>        <span style="color:#75715e">// Otomatize ettiğimiz kısım burası
-</span><span style="color:#75715e"></span>        clientBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">authenticator</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> TokenAuthenticator<span style="color:#f92672">(</span>context<span style="color:#f92672">)</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span>        clientBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">authenticator</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> TokenAuthenticator<span style="color:#f92672">(</span>context<span style="color:#f92672">));</span>
 
         clientBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">connectTimeout</span><span style="color:#f92672">(</span>60<span style="color:#f92672">,</span> TimeUnit<span style="color:#f92672">.</span><span style="color:#a6e22e">SECONDS</span><span style="color:#f92672">)</span>
                 <span style="color:#f92672">.</span><span style="color:#a6e22e">readTimeout</span><span style="color:#f92672">(</span>60<span style="color:#f92672">,</span> TimeUnit<span style="color:#f92672">.</span><span style="color:#a6e22e">SECONDS</span><span style="color:#f92672">)</span>
-                <span style="color:#f92672">.</span><span style="color:#a6e22e">writeTimeout</span><span style="color:#f92672">(</span>60<span style="color:#f92672">,</span> TimeUnit<span style="color:#f92672">.</span><span style="color:#a6e22e">SECONDS</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+                <span style="color:#f92672">.</span><span style="color:#a6e22e">writeTimeout</span><span style="color:#f92672">(</span>60<span style="color:#f92672">,</span> TimeUnit<span style="color:#f92672">.</span><span style="color:#a6e22e">SECONDS</span><span style="color:#f92672">);</span>
 
-        Gson gson <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GsonBuilder<span style="color:#f92672">(</span><span style="color:#f92672">)</span>
+        Gson gson <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> GsonBuilder<span style="color:#f92672">()</span>
                 <span style="color:#f92672">.</span><span style="color:#a6e22e">setDateFormat</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;yyyy-MM-dd&#39;T&#39;HH:mm:ss&#34;</span><span style="color:#f92672">)</span>
-                <span style="color:#f92672">.</span><span style="color:#a6e22e">excludeFieldsWithoutExposeAnnotation</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#75715e">// Android 23 için düzenleme
-</span><span style="color:#75715e"></span>                <span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+                <span style="color:#f92672">.</span><span style="color:#a6e22e">excludeFieldsWithoutExposeAnnotation</span><span style="color:#f92672">()</span> <span style="color:#75715e">// Android 23 için düzenleme
+</span><span style="color:#75715e"></span>                <span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">();</span>
 
-        client <span style="color:#f92672">=</span> clientBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+        client <span style="color:#f92672">=</span> clientBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">();</span>
 
-        Retrofit retrofit <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Retrofit<span style="color:#f92672">.</span><span style="color:#a6e22e">Builder</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span>
-                <span style="color:#f92672">.</span><span style="color:#a6e22e">addConverterFactory</span><span style="color:#f92672">(</span>GsonConverterFactory<span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">(</span>gson<span style="color:#f92672">)</span><span style="color:#f92672">)</span>
-                <span style="color:#f92672">.</span><span style="color:#a6e22e">addCallAdapterFactory</span><span style="color:#f92672">(</span>RxJava2CallAdapterFactory<span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span>
+        Retrofit retrofit <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Retrofit<span style="color:#f92672">.</span><span style="color:#a6e22e">Builder</span><span style="color:#f92672">()</span>
+                <span style="color:#f92672">.</span><span style="color:#a6e22e">addConverterFactory</span><span style="color:#f92672">(</span>GsonConverterFactory<span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">(</span>gson<span style="color:#f92672">))</span>
+                <span style="color:#f92672">.</span><span style="color:#a6e22e">addCallAdapterFactory</span><span style="color:#f92672">(</span>RxJava2CallAdapterFactory<span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">())</span>
                 <span style="color:#f92672">.</span><span style="color:#a6e22e">baseUrl</span><span style="color:#f92672">(</span>BuildConfig<span style="color:#f92672">.</span><span style="color:#a6e22e">BACKEND_URL</span><span style="color:#f92672">)</span>
                 <span style="color:#f92672">.</span><span style="color:#a6e22e">client</span><span style="color:#f92672">(</span>client<span style="color:#f92672">)</span>
-                <span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+                <span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">();</span>
 
-        apiService <span style="color:#f92672">=</span> retrofit<span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">(</span>ApiService<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+        apiService <span style="color:#f92672">=</span> retrofit<span style="color:#f92672">.</span><span style="color:#a6e22e">create</span><span style="color:#f92672">(</span>ApiService<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span><span style="color:#f92672">);</span>
     <span style="color:#f92672">}</span>
 
     <span style="color:#a6e22e">@DebugLog</span>
     <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> RestClient <span style="color:#a6e22e">getInstance</span><span style="color:#f92672">(</span>Context context<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>_instance <span style="color:#f92672">=</span><span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-            _instance <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> RestClient<span style="color:#f92672">(</span>context<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>_instance <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+            _instance <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> RestClient<span style="color:#f92672">(</span>context<span style="color:#f92672">);</span>
         <span style="color:#f92672">}</span>
         <span style="color:#66d9ef">return</span> _instance<span style="color:#f92672">;</span>
     <span style="color:#f92672">}</span>
 
     <span style="color:#a6e22e">@DebugLog</span>
-    <span style="color:#66d9ef">public</span> ApiService <span style="color:#a6e22e">getApiService</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">public</span> ApiService <span style="color:#a6e22e">getApiService</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
         <span style="color:#66d9ef">return</span> apiService<span style="color:#f92672">;</span>
     <span style="color:#f92672">}</span>
 
     <span style="color:#a6e22e">@DebugLog</span>
-    <span style="color:#66d9ef">public</span> OkHttpClient <span style="color:#a6e22e">getOkHttpClient</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">public</span> OkHttpClient <span style="color:#a6e22e">getOkHttpClient</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
         <span style="color:#66d9ef">return</span> client<span style="color:#f92672">;</span>
     <span style="color:#f92672">}</span>
 <span style="color:#f92672">}</span>
@@ -249,32 +249,32 @@
 
         <span style="color:#75715e">// İlk başta tokenımızı nasıl elde ettiysek yine aynı şekilde ama senkron şekilde elde ediyoruz.
 </span><span style="color:#75715e"></span>        AccessTokenResponse accessTokenResponse <span style="color:#f92672">=</span> RestClient<span style="color:#f92672">.</span><span style="color:#a6e22e">getInstance</span><span style="color:#f92672">(</span>mContext<span style="color:#f92672">)</span>
-                <span style="color:#f92672">.</span><span style="color:#a6e22e">getApiService</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span>
-                <span style="color:#f92672">.</span><span style="color:#a6e22e">getAccessTokenImmediate</span><span style="color:#f92672">(</span>AccessTokenRequest<span style="color:#f92672">.</span><span style="color:#a6e22e">buildParams</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span>
-                <span style="color:#f92672">.</span><span style="color:#a6e22e">execute</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span>
-                <span style="color:#f92672">.</span><span style="color:#a6e22e">body</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+                <span style="color:#f92672">.</span><span style="color:#a6e22e">getApiService</span><span style="color:#f92672">()</span>
+                <span style="color:#f92672">.</span><span style="color:#a6e22e">getAccessTokenImmediate</span><span style="color:#f92672">(</span>AccessTokenRequest<span style="color:#f92672">.</span><span style="color:#a6e22e">buildParams</span><span style="color:#f92672">())</span>
+                <span style="color:#f92672">.</span><span style="color:#a6e22e">execute</span><span style="color:#f92672">()</span>
+                <span style="color:#f92672">.</span><span style="color:#a6e22e">body</span><span style="color:#f92672">();</span>
 
-        String accessToken <span style="color:#f92672">=</span> accessTokenResponse<span style="color:#f92672">.</span><span style="color:#a6e22e">getAccessToken</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+        String accessToken <span style="color:#f92672">=</span> accessTokenResponse<span style="color:#f92672">.</span><span style="color:#a6e22e">getAccessToken</span><span style="color:#f92672">();</span>
 
         <span style="color:#75715e">// Veritabanımızda ki token bilgisi güncelliyoruz
-</span><span style="color:#75715e"></span>        AppDataHelper<span style="color:#f92672">.</span><span style="color:#a6e22e">getInstance</span><span style="color:#f92672">(</span>mContext<span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">saveAccessToken</span><span style="color:#f92672">(</span>accessToken<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span>        AppDataHelper<span style="color:#f92672">.</span><span style="color:#a6e22e">getInstance</span><span style="color:#f92672">(</span>mContext<span style="color:#f92672">).</span><span style="color:#a6e22e">saveAccessToken</span><span style="color:#f92672">(</span>accessToken<span style="color:#f92672">);</span>
 
         String tokenType <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Bearer&#34;</span><span style="color:#f92672">;</span>
 
-        Request original <span style="color:#f92672">=</span> response<span style="color:#f92672">.</span><span style="color:#a6e22e">request</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-        Request<span style="color:#f92672">.</span><span style="color:#a6e22e">Builder</span> newRequestBuilder <span style="color:#f92672">=</span> original<span style="color:#f92672">.</span><span style="color:#a6e22e">newBuilder</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+        Request original <span style="color:#f92672">=</span> response<span style="color:#f92672">.</span><span style="color:#a6e22e">request</span><span style="color:#f92672">();</span>
+        Request<span style="color:#f92672">.</span><span style="color:#a6e22e">Builder</span> newRequestBuilder <span style="color:#f92672">=</span> original<span style="color:#f92672">.</span><span style="color:#a6e22e">newBuilder</span><span style="color:#f92672">();</span>
 
         <span style="color:#75715e">// Eski isteğimizde ki Authorization header alanını siliyoruz. Eğer silmezsek birden fazla aynı keye sahip header alanımız olur.
-</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>original<span style="color:#f92672">.</span><span style="color:#a6e22e">headers</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Authorization&#34;</span><span style="color:#f92672">)</span> <span style="color:#f92672">!</span><span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-            Logger<span style="color:#f92672">.</span><span style="color:#a6e22e">i</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Authorization Header is: &#34;</span> <span style="color:#f92672">+</span> original<span style="color:#f92672">.</span><span style="color:#a6e22e">headers</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Authorization&#34;</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-            newRequestBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">removeHeader</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Authorization&#34;</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>original<span style="color:#f92672">.</span><span style="color:#a6e22e">headers</span><span style="color:#f92672">().</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Authorization&#34;</span><span style="color:#f92672">)</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+            Logger<span style="color:#f92672">.</span><span style="color:#a6e22e">i</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Authorization Header is: &#34;</span> <span style="color:#f92672">+</span> original<span style="color:#f92672">.</span><span style="color:#a6e22e">headers</span><span style="color:#f92672">().</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Authorization&#34;</span><span style="color:#f92672">));</span>
+            newRequestBuilder<span style="color:#f92672">.</span><span style="color:#a6e22e">removeHeader</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Authorization&#34;</span><span style="color:#f92672">);</span>
         <span style="color:#f92672">}</span>
 
         <span style="color:#75715e">// Ve yeni token değeri ile tekrar Authorization headerı ekliyoruz.
 </span><span style="color:#75715e"></span>        Request newRequest <span style="color:#f92672">=</span> newRequestBuilder
                 <span style="color:#f92672">.</span><span style="color:#a6e22e">addHeader</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Authorization&#34;</span><span style="color:#f92672">,</span> tokenType <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; &#34;</span> <span style="color:#f92672">+</span> accessToken<span style="color:#f92672">)</span>
-                <span style="color:#f92672">.</span><span style="color:#a6e22e">method</span><span style="color:#f92672">(</span>original<span style="color:#f92672">.</span><span style="color:#a6e22e">method</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">,</span> original<span style="color:#f92672">.</span><span style="color:#a6e22e">body</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span>
-                <span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+                <span style="color:#f92672">.</span><span style="color:#a6e22e">method</span><span style="color:#f92672">(</span>original<span style="color:#f92672">.</span><span style="color:#a6e22e">method</span><span style="color:#f92672">(),</span> original<span style="color:#f92672">.</span><span style="color:#a6e22e">body</span><span style="color:#f92672">())</span>
+                <span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">();</span>
 
         <span style="color:#66d9ef">return</span> newRequest<span style="color:#f92672">;</span>
     <span style="color:#f92672">}</span>
@@ -350,13 +350,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/android-circleci/">Android CircleCI Configuration</a></li>            
-        
           <li><a href="https://yazilim.aykutasil.com/docker-series-1/">Docker Series - 1</a></li>            
+        
+          <li><a href="https://yazilim.aykutasil.com/android-viewpager/">Android ViewPager</a></li>            
         
           <li><a href="https://yazilim.aykutasil.com/android-robolectric/">Robolectric ile UnitTest Yazımı</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-filesystem/">Android File System</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/kotlin-sealed-class/">Kotlin Sealed Class</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -370,7 +370,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/kotlin-let/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)"></div>
     </a>    
     
 
@@ -403,7 +403,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/firebase_dynamiclink/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)"></div>
     </a>    
     
 

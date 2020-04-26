@@ -17,7 +17,7 @@
       <pubDate>Sat, 20 Jul 2019 01:04:53 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/deviceip-with-adb/</guid>
-      <description>Aşağıdaki komutu çalıştırarak android cihaz ip&#39;sini öğrenebilirsiniz.
+      <description>Aşağıdaki komutu çalıştırarak android cihaz ip&amp;rsquo;sini öğrenebilirsiniz.
 &amp;gt; adb shell ip -f inet addr show wlan0 </description>
     </item>
     

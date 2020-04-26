@@ -37,7 +37,7 @@
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -113,7 +113,7 @@
         <h1 class="post-full-title">Kotlin Sealed Class</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)">
     </figure>
 
     <section class="post-full-content">
@@ -124,51 +124,51 @@
 </span><span style="color:#75715e"></span>    <span style="color:#75715e">// Bir durum için belli başlı akışları bir arada tutmamızı sağlar ve bu akışların yönetimini kolaylaştırır.
 </span><span style="color:#75715e"></span>    <span style="color:#75715e">// abstract fonksiyon tanımlanamabilir
 </span><span style="color:#75715e"></span>    sealed <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Intention</span> <span style="color:#f92672">{</span>
-        object None <span style="color:#f92672">:</span> Intention<span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-            override fun <span style="color:#a6e22e">go</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+        object None <span style="color:#f92672">:</span> Intention<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+            override fun <span style="color:#a6e22e">go</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
 
             <span style="color:#f92672">}</span>
 
-            fun <span style="color:#a6e22e">xyc</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-
-            <span style="color:#f92672">}</span>
-        <span style="color:#f92672">}</span>
-
-        object Refresh <span style="color:#f92672">:</span> Intention<span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-            override fun <span style="color:#a6e22e">go</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+            fun <span style="color:#a6e22e">xyc</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
 
             <span style="color:#f92672">}</span>
         <span style="color:#f92672">}</span>
 
-        data <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Error</span><span style="color:#f92672">(</span>val reason<span style="color:#f92672">:</span> String<span style="color:#f92672">)</span> <span style="color:#f92672">:</span> Intention<span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-            override fun <span style="color:#a6e22e">go</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+        object Refresh <span style="color:#f92672">:</span> Intention<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+            override fun <span style="color:#a6e22e">go</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
 
             <span style="color:#f92672">}</span>
         <span style="color:#f92672">}</span>
 
-        data <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">LoadContent</span><span style="color:#f92672">(</span>val content<span style="color:#f92672">:</span> List<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;</span><span style="color:#f92672">)</span> <span style="color:#f92672">:</span> Intention<span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-            override fun <span style="color:#a6e22e">go</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+        data <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Error</span><span style="color:#f92672">(</span>val reason<span style="color:#f92672">:</span> String<span style="color:#f92672">)</span> <span style="color:#f92672">:</span> Intention<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+            override fun <span style="color:#a6e22e">go</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
 
             <span style="color:#f92672">}</span>
         <span style="color:#f92672">}</span>
 
-        <span style="color:#66d9ef">abstract</span> fun <span style="color:#a6e22e">go</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span>
+        data <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">LoadContent</span><span style="color:#f92672">(</span>val content<span style="color:#f92672">:</span> List<span style="color:#f92672">&lt;</span>String<span style="color:#f92672">&gt;)</span> <span style="color:#f92672">:</span> Intention<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+            override fun <span style="color:#a6e22e">go</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+
+            <span style="color:#f92672">}</span>
+        <span style="color:#f92672">}</span>
+
+        <span style="color:#66d9ef">abstract</span> fun <span style="color:#a6e22e">go</span><span style="color:#f92672">()</span>
     <span style="color:#f92672">}</span>
-</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"> override fun <span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>savedInstanceState<span style="color:#f92672">:</span> Bundle<span style="color:#f92672">?</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"> override fun <span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>savedInstanceState<span style="color:#f92672">:</span> Bundle<span style="color:#f92672">?)</span> <span style="color:#f92672">{</span>
         <span style="color:#66d9ef">super</span><span style="color:#f92672">.</span><span style="color:#a6e22e">onCreate</span><span style="color:#f92672">(</span>savedInstanceState<span style="color:#f92672">)</span>
         setContentView<span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">layout</span><span style="color:#f92672">.</span><span style="color:#a6e22e">activity_kotlin_sealed_class</span><span style="color:#f92672">)</span>
 
-        val intentation<span style="color:#f92672">:</span> Intention <span style="color:#f92672">=</span> Intention<span style="color:#f92672">.</span><span style="color:#a6e22e">LoadContent</span><span style="color:#f92672">(</span>emptyList<span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span>
+        val intentation<span style="color:#f92672">:</span> Intention <span style="color:#f92672">=</span> Intention<span style="color:#f92672">.</span><span style="color:#a6e22e">LoadContent</span><span style="color:#f92672">(</span>emptyList<span style="color:#f92672">())</span>
 
         when <span style="color:#f92672">(</span>intentation<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-            Intention<span style="color:#f92672">.</span><span style="color:#a6e22e">None</span> <span style="color:#f92672">-</span><span style="color:#f92672">&gt;</span> <span style="color:#f92672">{</span>
+            Intention<span style="color:#f92672">.</span><span style="color:#a6e22e">None</span> <span style="color:#f92672">-&gt;</span> <span style="color:#f92672">{</span>
                 Intention<span style="color:#f92672">.</span><span style="color:#a6e22e">None</span><span style="color:#f92672">.</span><span style="color:#a6e22e">apply</span> <span style="color:#f92672">{</span>
-                    <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">xyc</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span>
-                    <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">go</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span>
+                    <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">xyc</span><span style="color:#f92672">()</span>
+                    <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">go</span><span style="color:#f92672">()</span>
                 <span style="color:#f92672">}</span>
                 println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;none&#34;</span><span style="color:#f92672">)</span>
             <span style="color:#f92672">}</span>
-            Intention<span style="color:#f92672">.</span><span style="color:#a6e22e">Refresh</span> <span style="color:#f92672">-</span><span style="color:#f92672">&gt;</span> <span style="color:#f92672">{</span>
+            Intention<span style="color:#f92672">.</span><span style="color:#a6e22e">Refresh</span> <span style="color:#f92672">-&gt;</span> <span style="color:#f92672">{</span>
                 println<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;refresh&#34;</span><span style="color:#f92672">)</span>
             <span style="color:#f92672">}</span>
         <span style="color:#f92672">}</span>
@@ -234,13 +234,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/aspnetcore-filters/">ASP.NET Core Filters</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/docker-nano-setup/">Docker Container Install nano</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/retrofit_oauth/">Retrofit Oauth</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/server-ip/">Server Ip</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/sql-scope-identity/">SQL SCOPE_IDENTITY()</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/kotlin-when/">Kotlin when kullanımı</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/rxjava-range/">RxJava range() Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/tls-ssl/">TLS vs SSL</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -254,7 +254,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/kotlin-jvmoverloads/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
     </a>    
     
 
@@ -288,7 +288,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/kotlin-lambda/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)"></div>
     </a>    
     
 

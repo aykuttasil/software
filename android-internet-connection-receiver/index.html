@@ -43,7 +43,7 @@ Bunun için ilk olarak AndroidManifest.xml dosyasına receiver tanımı yapmalı
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -119,7 +119,7 @@ Bunun için ilk olarak AndroidManifest.xml dosyasına receiver tanımı yapmalı
         <h1 class="post-full-title">Android Internet Connection Receiver</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)">
     </figure>
 
     <section class="post-full-content">
@@ -127,7 +127,7 @@ Bunun için ilk olarak AndroidManifest.xml dosyasına receiver tanımı yapmalı
         <p>Uygulamanızın akışını internet kontrolü yaparak yönetmeniz gerekebilir.</p>
 <p>Bunun için ilk olarak AndroidManifest.xml dosyasına receiver tanımı yapmalısınız.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;receiver</span> <span style="color:#a6e22e">android:name=</span><span style="color:#e6db74">&#34;.InternetConnectionReceiver&#34;</span><span style="color:#f92672">&gt;</span>
-    <span style="color:#f92672">&lt;intent-filter</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;intent-filter&gt;</span>
         <span style="color:#f92672">&lt;action</span> <span style="color:#a6e22e">android:name=</span><span style="color:#e6db74">&#34;android.net.conn.CONNECTIVITY_CHANGE&#34;</span> <span style="color:#f92672">/&gt;</span>
     <span style="color:#f92672">&lt;/intent-filter&gt;</span>
 <span style="color:#f92672">&lt;/receiver&gt;</span>
@@ -138,7 +138,7 @@ Bunun için ilk olarak AndroidManifest.xml dosyasına receiver tanımı yapmalı
     <span style="color:#a6e22e">@Override</span>
     <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onReceive</span><span style="color:#f92672">(</span>Context context<span style="color:#f92672">,</span> Intent intent<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
 
-        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>CheckConnection<span style="color:#f92672">(</span>context<span style="color:#f92672">)</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>CheckConnection<span style="color:#f92672">(</span>context<span style="color:#f92672">))</span> <span style="color:#f92672">{</span>
 
         <span style="color:#f92672">}</span>
     <span style="color:#f92672">}</span>
@@ -146,9 +146,9 @@ Bunun için ilk olarak AndroidManifest.xml dosyasına receiver tanımı yapmalı
 </code></pre></div><p>Yukarıda tanımlanmış olan receiver, cihazın ağ yapısında herhangi bir değişiklik olduğunda bunu yakalar. Örneğin wireless açıkken kapattığınız da veya kapalıyken açtığınız da bunu yakayabilirsiniz.</p>
 <p><strong>CheckConnection</strong></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">checkConnection</span><span style="color:#f92672">(</span>Context con<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-    ConnectivityManager cm <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>ConnectivityManager<span style="color:#f92672">)</span> con<span style="color:#f92672">.</span><span style="color:#a6e22e">getSystemService</span><span style="color:#f92672">(</span>Context<span style="color:#f92672">.</span><span style="color:#a6e22e">CONNECTIVITY_SERVICE</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-    NetworkInfo netInfo <span style="color:#f92672">=</span> cm<span style="color:#f92672">.</span><span style="color:#a6e22e">getActiveNetworkInfo</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-    <span style="color:#66d9ef">return</span> netInfo <span style="color:#f92672">!</span><span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;</span><span style="color:#f92672">&amp;</span> netInfo<span style="color:#f92672">.</span><span style="color:#a6e22e">isConnectedOrConnecting</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+    ConnectivityManager cm <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>ConnectivityManager<span style="color:#f92672">)</span> con<span style="color:#f92672">.</span><span style="color:#a6e22e">getSystemService</span><span style="color:#f92672">(</span>Context<span style="color:#f92672">.</span><span style="color:#a6e22e">CONNECTIVITY_SERVICE</span><span style="color:#f92672">);</span>
+    NetworkInfo netInfo <span style="color:#f92672">=</span> cm<span style="color:#f92672">.</span><span style="color:#a6e22e">getActiveNetworkInfo</span><span style="color:#f92672">();</span>
+    <span style="color:#66d9ef">return</span> netInfo <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">&amp;&amp;</span> netInfo<span style="color:#f92672">.</span><span style="color:#a6e22e">isConnectedOrConnecting</span><span style="color:#f92672">();</span>
 <span style="color:#f92672">}</span>
 </code></pre></div><p>Yukarıda ki kod bloğu da cihazın internete bağlı olması durumunu kontrol eder.</p>
     
@@ -211,11 +211,11 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/rxjava-range/">RxJava range() Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/post/"></a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/bash-scripts/">Bash Scripts</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/java-collections/">Java Collections</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/rxjava-scan/">RxJava scan() Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-keyhashes-sha1/">Android Key Hashes &amp; SHA1</a></li>            
         
           <li><a href="https://yazilim.aykutasil.com/android-pendingintent-flags/">PendingIntent Flags</a></li>            
         </ul>
@@ -231,7 +231,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-smsreceiver/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
     </a>    
     
 
@@ -265,7 +265,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/postman-api-test/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
     </a>    
     
 

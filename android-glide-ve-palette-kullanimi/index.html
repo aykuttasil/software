@@ -37,7 +37,7 @@
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -113,7 +113,7 @@
         <h1 class="post-full-title">Android Glide ve Palette Kullanımı</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)">
     </figure>
 
     <section class="post-full-content">
@@ -138,10 +138,10 @@
 <ul>
 <li><strong>Github :</strong> <a href="https://github.com/florent37/GlidePalette">https://github.com/florent37/GlidePalette</a></li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"> Glide<span style="color:#f92672">.</span><span style="color:#a6e22e">with</span><span style="color:#f92672">(</span>mContext<span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">load</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;ImageAdress&#34;</span><span style="color:#f92672">)</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"> Glide<span style="color:#f92672">.</span><span style="color:#a6e22e">with</span><span style="color:#f92672">(</span>mContext<span style="color:#f92672">).</span><span style="color:#a6e22e">load</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;ImageAdress&#34;</span><span style="color:#f92672">)</span>
                          <span style="color:#75715e">// Her resim için farklı bir signature belirtmeliyiz. Bu sayede resimlerin tekrar tekrar yüklenmesini engellemiş oluruz.
-</span><span style="color:#75715e"></span>                        <span style="color:#f92672">.</span><span style="color:#a6e22e">signature</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> StringSignature<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;ImageSignature&#34;</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span>
-                        <span style="color:#f92672">.</span><span style="color:#a6e22e">centerCrop</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span>
+</span><span style="color:#75715e"></span>                        <span style="color:#f92672">.</span><span style="color:#a6e22e">signature</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> StringSignature<span style="color:#f92672">(</span><span style="color:#e6db74">&#34;ImageSignature&#34;</span><span style="color:#f92672">))</span>
+                        <span style="color:#f92672">.</span><span style="color:#a6e22e">centerCrop</span><span style="color:#f92672">()</span>
                         <span style="color:#f92672">.</span><span style="color:#a6e22e">listener</span><span style="color:#f92672">(</span>GlidePalette<span style="color:#f92672">.</span><span style="color:#a6e22e">with</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;ImageAdress&#34;</span><span style="color:#f92672">)</span>
                                         <span style="color:#f92672">.</span><span style="color:#a6e22e">use</span><span style="color:#f92672">(</span>GlidePalette<span style="color:#f92672">.</span><span style="color:#a6e22e">Profile</span><span style="color:#f92672">.</span><span style="color:#a6e22e">VIBRANT_LIGHT</span><span style="color:#f92672">)</span>
                                         <span style="color:#f92672">.</span><span style="color:#a6e22e">intoTextColor</span><span style="color:#f92672">(</span>txt<span style="color:#f92672">,</span> GlidePalette<span style="color:#f92672">.</span><span style="color:#a6e22e">Swatch</span><span style="color:#f92672">.</span><span style="color:#a6e22e">BODY_TEXT_COLOR</span><span style="color:#f92672">)</span>
@@ -150,12 +150,12 @@
                                          <span style="color:#75715e">// Belirttiğimiz ImageAdress den gelen resmimiz kullanılmaya hazır olduğunda burada yakalayabilir ve 
 </span><span style="color:#75715e"></span>                                         <span style="color:#75715e">// istediğimiz özelleştirmeyi yapabiliriz.
 </span><span style="color:#75715e"></span>                                         <span style="color:#75715e">// Biz burada yüklenen resmin palette.getDarkMutedColor(DefaultColor) fonksiyonu ile rengini yakalıyoruz ve CollapsingToolbar ın expand olduğu durumda ki title rengini değiştiriyoruz.
-</span><span style="color:#75715e"></span>                                        <span style="color:#f92672">.</span><span style="color:#a6e22e">intoCallBack</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> BitmapPalette<span style="color:#f92672">.</span><span style="color:#a6e22e">CallBack</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span><span style="color:#75715e"></span>                                        <span style="color:#f92672">.</span><span style="color:#a6e22e">intoCallBack</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> BitmapPalette<span style="color:#f92672">.</span><span style="color:#a6e22e">CallBack</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
                                             <span style="color:#a6e22e">@Override</span>
                                             <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onPaletteLoaded</span><span style="color:#f92672">(</span><span style="color:#a6e22e">@Nullable</span> Palette palette<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-                                                mCollapsingToolbar<span style="color:#f92672">.</span><span style="color:#a6e22e">setExpandedTitleColor</span><span style="color:#f92672">(</span>palette<span style="color:#f92672">.</span><span style="color:#a6e22e">getDarkMutedColor</span><span style="color:#f92672">(</span>Color<span style="color:#f92672">.</span><span style="color:#a6e22e">BLACK</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+                                                mCollapsingToolbar<span style="color:#f92672">.</span><span style="color:#a6e22e">setExpandedTitleColor</span><span style="color:#f92672">(</span>palette<span style="color:#f92672">.</span><span style="color:#a6e22e">getDarkMutedColor</span><span style="color:#f92672">(</span>Color<span style="color:#f92672">.</span><span style="color:#a6e22e">BLACK</span><span style="color:#f92672">));</span>
                                             <span style="color:#f92672">}</span>
-                                        <span style="color:#f92672">}</span><span style="color:#f92672">)</span>
+                                        <span style="color:#f92672">})</span>
                                         <span style="color:#75715e">/*
 </span><span style="color:#75715e">                                        .setGlideListener(new RequestListener&lt;String, GlideDrawable&gt;() {
 </span><span style="color:#75715e">                                            @Override
@@ -178,7 +178,7 @@
 </span><span style="color:#75715e">                                        })
 </span><span style="color:#75715e">                                        */</span>
                         <span style="color:#f92672">)</span>
-                        <span style="color:#f92672">.</span><span style="color:#a6e22e">into</span><span style="color:#f92672">(</span>mCollapsingImageView<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+                        <span style="color:#f92672">.</span><span style="color:#a6e22e">into</span><span style="color:#f92672">(</span>mCollapsingImageView<span style="color:#f92672">);</span>
 </code></pre></div>    
         </div>
     </section>
@@ -239,13 +239,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/android-robolectric/">Robolectric ile UnitTest Yazımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/docker-komutlari/">Docker Komutları</a></li>            
+        
+          <li><a href="https://yazilim.aykutasil.com/sqlmanagement-custom-generate-scripts/">SQL Management Studio Custom Generate Scripts</a></li>            
+        
+          <li><a href="https://yazilim.aykutasil.com/ssh-surekli-parola-isteme-problemi/">SSH Sürekli Parola İstemesi Sorunu</a></li>            
         
           <li><a href="https://yazilim.aykutasil.com/aspnetcore-session/">Asp.Net Core Session</a></li>            
-        
-          <li><a href="https://yazilim.aykutasil.com/aspnetcore-run-middleware/">ASP.Net Core app.Run() Middleware</a></li>            
-        
-          <li><a href="https://yazilim.aykutasil.com/recaptcha-kullanimi/">ReCaptcha Kullanımı</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -259,7 +259,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/javascript-gariplikleri/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)"></div>
     </a>    
     
 
@@ -295,7 +295,7 @@ $(&#39;#Iller &gt; option&#39;). ...  </p>
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-viewpager/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
     </a>    
     
 

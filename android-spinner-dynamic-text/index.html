@@ -40,7 +40,7 @@ Farklı ihtiyaçlarınız doğr" />
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -116,12 +116,12 @@ Farklı ihtiyaçlarınız doğr" />
         <h1 class="post-full-title">Android Spinner Text Güncelleme</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
-        <h2 id="dinamik-olarak-spinner-text-gncelleme">Dinamik Olarak Spinner Text Güncelleme</h2>
+        <h2 id="dinamik-olarak-spinner-text-güncelleme">Dinamik Olarak Spinner Text Güncelleme</h2>
 <p>Android de Spinner yapısı açılır menü (dropdown) olarak kullanlan kullanışlı bir componenttir.</p>
 <p>Farklı ihtiyaçlarınız doğrultusunda Spinner ınızın elemanlarının değerini değiştirmek isteyebilirsiniz.</p>
 <p>Örneğin bir ListView iniz var.Ve içerisinde aynı kategoriden ama değişik durumlara sahip itemlar var ve siz bu itemları durumuna göre gruplandırıp sayısını Spinner da göstermek istiyorsunuz. Bunun için aşağıda belirtecek olduğum yapıyı kullanabilirsiniz.</p>
@@ -137,40 +137,40 @@ Farklı ihtiyaçlarınız doğr" />
 
 
 <span style="color:#f92672">&lt;string-array</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;array_gonderi_list_haftalik&#34;</span><span style="color:#f92672">&gt;</span>
-    <span style="color:#f92672">&lt;item</span><span style="color:#f92672">&gt;</span>@string/pazartesi<span style="color:#f92672">&lt;/item&gt;</span>
-    <span style="color:#f92672">&lt;item</span><span style="color:#f92672">&gt;</span>@string/sali<span style="color:#f92672">&lt;/item&gt;</span>
-    <span style="color:#f92672">&lt;item</span><span style="color:#f92672">&gt;</span>@string/carsamba<span style="color:#f92672">&lt;/item&gt;</span>
-    <span style="color:#f92672">&lt;item</span><span style="color:#f92672">&gt;</span>@string/persembe<span style="color:#f92672">&lt;/item&gt;</span>
-    <span style="color:#f92672">&lt;item</span><span style="color:#f92672">&gt;</span>@string/cuma<span style="color:#f92672">&lt;/item&gt;</span>
-    <span style="color:#f92672">&lt;item</span><span style="color:#f92672">&gt;</span>@string/cumartesi<span style="color:#f92672">&lt;/item&gt;</span>
-    <span style="color:#f92672">&lt;item</span><span style="color:#f92672">&gt;</span>@string/pazar<span style="color:#f92672">&lt;/item&gt;</span>
+    <span style="color:#f92672">&lt;item&gt;</span>@string/pazartesi<span style="color:#f92672">&lt;/item&gt;</span>
+    <span style="color:#f92672">&lt;item&gt;</span>@string/sali<span style="color:#f92672">&lt;/item&gt;</span>
+    <span style="color:#f92672">&lt;item&gt;</span>@string/carsamba<span style="color:#f92672">&lt;/item&gt;</span>
+    <span style="color:#f92672">&lt;item&gt;</span>@string/persembe<span style="color:#f92672">&lt;/item&gt;</span>
+    <span style="color:#f92672">&lt;item&gt;</span>@string/cuma<span style="color:#f92672">&lt;/item&gt;</span>
+    <span style="color:#f92672">&lt;item&gt;</span>@string/cumartesi<span style="color:#f92672">&lt;/item&gt;</span>
+    <span style="color:#f92672">&lt;item&gt;</span>@string/pazar<span style="color:#f92672">&lt;/item&gt;</span>
 <span style="color:#f92672">&lt;/string-array&gt;</span>
 </code></pre></div><p><strong>SpinnerHelper.java</strong></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> String<span style="color:#f92672">[</span><span style="color:#f92672">]</span> <span style="color:#a6e22e">getChangedSpinnerItemText</span><span style="color:#f92672">(</span>Context context<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-    String<span style="color:#f92672">[</span><span style="color:#f92672">]</span> originalList <span style="color:#f92672">=</span> context<span style="color:#f92672">.</span><span style="color:#a6e22e">getResources</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">getStringArray</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">array</span><span style="color:#f92672">.</span><span style="color:#a6e22e">array_gonderi_list_haftalik</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> String<span style="color:#f92672">[]</span> <span style="color:#a6e22e">getChangedSpinnerItemText</span><span style="color:#f92672">(</span>Context context<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    String<span style="color:#f92672">[]</span> originalList <span style="color:#f92672">=</span> context<span style="color:#f92672">.</span><span style="color:#a6e22e">getResources</span><span style="color:#f92672">().</span><span style="color:#a6e22e">getStringArray</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">array</span><span style="color:#f92672">.</span><span style="color:#a6e22e">array_gonderi_list_haftalik</span><span style="color:#f92672">);</span>
 
-    Resources resources <span style="color:#f92672">=</span> context<span style="color:#f92672">.</span><span style="color:#a6e22e">getResources</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-    <span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> a <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> a <span style="color:#f92672">&lt;</span> originalList<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span> a<span style="color:#f92672">+</span><span style="color:#f92672">+</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    Resources resources <span style="color:#f92672">=</span> context<span style="color:#f92672">.</span><span style="color:#a6e22e">getResources</span><span style="color:#f92672">();</span>
+    <span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> a <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> a <span style="color:#f92672">&lt;</span> originalList<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span> a<span style="color:#f92672">++)</span> <span style="color:#f92672">{</span>
         <span style="color:#66d9ef">int</span> count <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>
-        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>originalList<span style="color:#f92672">[</span>a<span style="color:#f92672">]</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equals</span><span style="color:#f92672">(</span>resources<span style="color:#f92672">.</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">string</span><span style="color:#f92672">.</span><span style="color:#a6e22e">pazartesi</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+        <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>originalList<span style="color:#f92672">[</span>a<span style="color:#f92672">].</span><span style="color:#a6e22e">equals</span><span style="color:#f92672">(</span>resources<span style="color:#f92672">.</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">string</span><span style="color:#f92672">.</span><span style="color:#a6e22e">pazartesi</span><span style="color:#f92672">)))</span> <span style="color:#f92672">{</span>
             count <span style="color:#f92672">=</span> 2<span style="color:#f92672">;</span>
-            originalList<span style="color:#f92672">[</span>a<span style="color:#f92672">]</span> <span style="color:#f92672">+</span><span style="color:#f92672">=</span> <span style="color:#e6db74">&#34; ( &#34;</span> <span style="color:#f92672">+</span> count <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; )&#34;</span><span style="color:#f92672">;</span>
-        <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>originalList<span style="color:#f92672">[</span>a<span style="color:#f92672">]</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equals</span><span style="color:#f92672">(</span>resources<span style="color:#f92672">.</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">string</span><span style="color:#f92672">.</span><span style="color:#a6e22e">sali</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+            originalList<span style="color:#f92672">[</span>a<span style="color:#f92672">]</span> <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34; ( &#34;</span> <span style="color:#f92672">+</span> count <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; )&#34;</span><span style="color:#f92672">;</span>
+        <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>originalList<span style="color:#f92672">[</span>a<span style="color:#f92672">].</span><span style="color:#a6e22e">equals</span><span style="color:#f92672">(</span>resources<span style="color:#f92672">.</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">string</span><span style="color:#f92672">.</span><span style="color:#a6e22e">sali</span><span style="color:#f92672">)))</span> <span style="color:#f92672">{</span>
             count <span style="color:#f92672">=</span> 4<span style="color:#f92672">;</span>
-            originalList<span style="color:#f92672">[</span>a<span style="color:#f92672">]</span> <span style="color:#f92672">+</span><span style="color:#f92672">=</span> <span style="color:#e6db74">&#34; ( &#34;</span> <span style="color:#f92672">+</span> count <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; )&#34;</span><span style="color:#f92672">;</span>
-        <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>originalList<span style="color:#f92672">[</span>a<span style="color:#f92672">]</span><span style="color:#f92672">.</span><span style="color:#a6e22e">equals</span><span style="color:#f92672">(</span>resources<span style="color:#f92672">.</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">string</span><span style="color:#f92672">.</span><span style="color:#a6e22e">carsamba</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+            originalList<span style="color:#f92672">[</span>a<span style="color:#f92672">]</span> <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34; ( &#34;</span> <span style="color:#f92672">+</span> count <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; )&#34;</span><span style="color:#f92672">;</span>
+        <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>originalList<span style="color:#f92672">[</span>a<span style="color:#f92672">].</span><span style="color:#a6e22e">equals</span><span style="color:#f92672">(</span>resources<span style="color:#f92672">.</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">string</span><span style="color:#f92672">.</span><span style="color:#a6e22e">carsamba</span><span style="color:#f92672">)))</span> <span style="color:#f92672">{</span>
             count <span style="color:#f92672">=</span> 7<span style="color:#f92672">;</span>
-            originalList<span style="color:#f92672">[</span>a<span style="color:#f92672">]</span> <span style="color:#f92672">+</span><span style="color:#f92672">=</span> <span style="color:#e6db74">&#34; ( &#34;</span> <span style="color:#f92672">+</span> count <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; )&#34;</span><span style="color:#f92672">;</span>
+            originalList<span style="color:#f92672">[</span>a<span style="color:#f92672">]</span> <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34; ( &#34;</span> <span style="color:#f92672">+</span> count <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; )&#34;</span><span style="color:#f92672">;</span>
         <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
             count <span style="color:#f92672">=</span> 8
-            originalList<span style="color:#f92672">[</span>a<span style="color:#f92672">]</span> <span style="color:#f92672">+</span><span style="color:#f92672">=</span> <span style="color:#e6db74">&#34; ( &#34;</span> <span style="color:#f92672">+</span> count <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; )&#34;</span><span style="color:#f92672">;</span>
+            originalList<span style="color:#f92672">[</span>a<span style="color:#f92672">]</span> <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34; ( &#34;</span> <span style="color:#f92672">+</span> count <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; )&#34;</span><span style="color:#f92672">;</span>
         <span style="color:#f92672">}</span>
     <span style="color:#f92672">}</span>
     <span style="color:#66d9ef">return</span> originalList<span style="color:#f92672">;</span>
 <span style="color:#f92672">}</span>
 </code></pre></div><p>Daha sonra spinnerımızı tanımladığımız yere giderek spinnerımızı yapılandırıyoruz.</p>
 <p><strong>FragmentX.java</strong></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setSpinnerNavToolbar</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setSpinnerNavToolbar</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
 
  <span style="color:#75715e">// Guncelledikten sonra spinner görünümü örneği
 </span><span style="color:#75715e"></span> <span style="color:#75715e">// Pazartesi ( 2 )
@@ -178,31 +178,31 @@ Farklı ihtiyaçlarınız doğr" />
 </span><span style="color:#75715e"></span> <span style="color:#75715e">// ... 
 </span><span style="color:#75715e"></span> 
  <span style="color:#75715e">// Spinner itemlarının güncellenmiş halini barındıran listeyi getiriyoruz.
-</span><span style="color:#75715e"></span> String<span style="color:#f92672">[</span><span style="color:#f92672">]</span> changedList <span style="color:#f92672">=</span> getChangedSpinnerItemText<span style="color:#f92672">(</span>context<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span> String<span style="color:#f92672">[]</span> changedList <span style="color:#f92672">=</span> getChangedSpinnerItemText<span style="color:#f92672">(</span>context<span style="color:#f92672">);</span>
 
  <span style="color:#75715e">// Spinner adapterımıza eklemeler yapılmış String Arrayi veriyoruz.
-</span><span style="color:#75715e"></span> ArrayAdapter<span style="color:#f92672">&lt;</span>CharSequence<span style="color:#f92672">&gt;</span> adapter <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ArrayAdapter<span style="color:#f92672">&lt;</span>CharSequence<span style="color:#f92672">&gt;</span><span style="color:#f92672">(</span>mContext<span style="color:#f92672">,</span> R<span style="color:#f92672">.</span><span style="color:#a6e22e">layout</span><span style="color:#f92672">.</span><span style="color:#a6e22e">spinner_nav_item_layout</span><span style="color:#f92672">,</span>changedList<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
- Spinner spinner <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>Spinner<span style="color:#f92672">)</span> findViewById<span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">id</span><span style="color:#f92672">.</span><span style="color:#a6e22e">spinner_nav</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
- spiner<span style="color:#f92672">.</span><span style="color:#a6e22e">setAdapter</span><span style="color:#f92672">(</span>adapter<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
- spinner<span style="color:#f92672">.</span><span style="color:#a6e22e">setVisibility</span><span style="color:#f92672">(</span>NavigationView<span style="color:#f92672">.</span><span style="color:#a6e22e">VISIBLE</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
- spinner<span style="color:#f92672">.</span><span style="color:#a6e22e">setOnItemSelectedListener</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> AdapterView<span style="color:#f92672">.</span><span style="color:#a6e22e">OnItemSelectedListener</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span><span style="color:#75715e"></span> ArrayAdapter<span style="color:#f92672">&lt;</span>CharSequence<span style="color:#f92672">&gt;</span> adapter <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ArrayAdapter<span style="color:#f92672">&lt;</span>CharSequence<span style="color:#f92672">&gt;(</span>mContext<span style="color:#f92672">,</span> R<span style="color:#f92672">.</span><span style="color:#a6e22e">layout</span><span style="color:#f92672">.</span><span style="color:#a6e22e">spinner_nav_item_layout</span><span style="color:#f92672">,</span>changedList<span style="color:#f92672">);</span>
+ Spinner spinner <span style="color:#f92672">=</span> <span style="color:#f92672">(</span>Spinner<span style="color:#f92672">)</span> findViewById<span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">id</span><span style="color:#f92672">.</span><span style="color:#a6e22e">spinner_nav</span><span style="color:#f92672">);</span>
+ spiner<span style="color:#f92672">.</span><span style="color:#a6e22e">setAdapter</span><span style="color:#f92672">(</span>adapter<span style="color:#f92672">);</span>
+ spinner<span style="color:#f92672">.</span><span style="color:#a6e22e">setVisibility</span><span style="color:#f92672">(</span>NavigationView<span style="color:#f92672">.</span><span style="color:#a6e22e">VISIBLE</span><span style="color:#f92672">);</span>
+ spinner<span style="color:#f92672">.</span><span style="color:#a6e22e">setOnItemSelectedListener</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> AdapterView<span style="color:#f92672">.</span><span style="color:#a6e22e">OnItemSelectedListener</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
  <span style="color:#a6e22e">@Override</span>
- <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onItemSelected</span><span style="color:#f92672">(</span>AdapterView<span style="color:#f92672">&lt;</span><span style="color:#f92672">?</span><span style="color:#f92672">&gt;</span> parent<span style="color:#f92672">,</span> View view<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> position<span style="color:#f92672">,</span> <span style="color:#66d9ef">long</span> id<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+ <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onItemSelected</span><span style="color:#f92672">(</span>AdapterView<span style="color:#f92672">&lt;?&gt;</span> parent<span style="color:#f92672">,</span> View view<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> position<span style="color:#f92672">,</span> <span style="color:#66d9ef">long</span> id<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
 
  <span style="color:#75715e">// Original Liste elemanlarımızı getiriyoruz 
-</span><span style="color:#75715e"></span> String<span style="color:#f92672">[</span><span style="color:#f92672">]</span> originalList <span style="color:#f92672">=</span> context<span style="color:#f92672">.</span><span style="color:#a6e22e">getResources</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">getStringArray</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">array</span><span style="color:#f92672">.</span><span style="color:#a6e22e">array_gonderi_list_haftalik</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span> String<span style="color:#f92672">[]</span> originalList <span style="color:#f92672">=</span> context<span style="color:#f92672">.</span><span style="color:#a6e22e">getResources</span><span style="color:#f92672">().</span><span style="color:#a6e22e">getStringArray</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">array</span><span style="color:#f92672">.</span><span style="color:#a6e22e">array_gonderi_list_haftalik</span><span style="color:#f92672">);</span>
  
  <span style="color:#75715e">// Original Liste elemanını baz alarak işlem yapmak 
 </span><span style="color:#75715e"></span> <span style="color:#75715e">// Bu sayede Pazartesi , Salı gibi değerleri alıyoruz. Değiştirilmiş (güncellenmiş) değerleri sadece görünüm için kullanıyoruz.
-</span><span style="color:#75715e"></span> String secilendeger <span style="color:#f92672">=</span> originalList<span style="color:#f92672">[</span>position<span style="color:#f92672">]</span><span style="color:#f92672">;</span>
+</span><span style="color:#75715e"></span> String secilendeger <span style="color:#f92672">=</span> originalList<span style="color:#f92672">[</span>position<span style="color:#f92672">];</span>
 
 
  <span style="color:#75715e">// Pazartesi seçildiğinde yapmak istediğimiz işlemleri burada belirtebiliriz.
-</span><span style="color:#75715e"></span> <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>secilendeger<span style="color:#f92672">.</span><span style="color:#a6e22e">equals</span><span style="color:#f92672">(</span>getResources<span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">string</span><span style="color:#f92672">.</span><span style="color:#a6e22e">pazartesi</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span><span style="color:#75715e"></span> <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>secilendeger<span style="color:#f92672">.</span><span style="color:#a6e22e">equals</span><span style="color:#f92672">(</span>getResources<span style="color:#f92672">().</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">string</span><span style="color:#f92672">.</span><span style="color:#a6e22e">pazartesi</span><span style="color:#f92672">)))</span> <span style="color:#f92672">{</span>
 
  <span style="color:#f92672">}</span> 
  <span style="color:#75715e">// Salı seçildiğinde yapmak istediğimiz işlemleri burada belirtebiliriz.
-</span><span style="color:#75715e"></span> <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>secilendeger<span style="color:#f92672">.</span><span style="color:#a6e22e">equals</span><span style="color:#f92672">(</span>getResources<span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">.</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">string</span><span style="color:#f92672">.</span><span style="color:#a6e22e">pazartesi</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span><span style="color:#f92672">)</span>
+</span><span style="color:#75715e"></span> <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>secilendeger<span style="color:#f92672">.</span><span style="color:#a6e22e">equals</span><span style="color:#f92672">(</span>getResources<span style="color:#f92672">().</span><span style="color:#a6e22e">getString</span><span style="color:#f92672">(</span>R<span style="color:#f92672">.</span><span style="color:#a6e22e">string</span><span style="color:#f92672">.</span><span style="color:#a6e22e">pazartesi</span><span style="color:#f92672">)))</span>
  <span style="color:#f92672">{</span>
 
  <span style="color:#f92672">}</span>
@@ -210,10 +210,10 @@ Farklı ihtiyaçlarınız doğr" />
 
  <span style="color:#a6e22e">@DebugLog</span>
  <span style="color:#a6e22e">@Override</span>
- <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onNothingSelected</span><span style="color:#f92672">(</span>AdapterView<span style="color:#f92672">&lt;</span><span style="color:#f92672">?</span><span style="color:#f92672">&gt;</span> parent<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+ <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">onNothingSelected</span><span style="color:#f92672">(</span>AdapterView<span style="color:#f92672">&lt;?&gt;</span> parent<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
 
  <span style="color:#f92672">}</span>
- <span style="color:#f92672">}</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+ <span style="color:#f92672">});</span>
 <span style="color:#f92672">}</span>
 </code></pre></div>    
         </div>
@@ -275,15 +275,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/android-filesystem/">Android File System</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-kotlin-test-final-type-problem/">Android Kotlin Test - Final Type Problem</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/create-json-with-kotlin-dsl/">Kotlin DSL ile Json</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/docker-series-2/">Docker Series - 2</a></li>            
         
-                      
+          <li><a href="https://yazilim.aykutasil.com/csharp-soru-isareti-syntax/">CSharp Null Kontrolü</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/sqlmanagement-custom-generate-scripts/">SQL Management Studio Custom Generate Scripts</a></li>            
-        
-          <li><a href="https://yazilim.aykutasil.com/android-test/">Android Test</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/firebase_dynamiclink/">Firebase Dynamic Links</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -297,7 +295,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/sql-nullif-fonksiyonu-kullanimi/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/3.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)"></div>
     </a>    
     
 
@@ -334,7 +332,7 @@ CREATE TABLE #Urun ( UrunID TINYINT, ListeFiyati DECIMAL NULL); GO INSERT #Urun 
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-pendingintent-flags/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)"></div>
     </a>    
     
 

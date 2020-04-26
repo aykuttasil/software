@@ -37,7 +37,7 @@
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -113,20 +113,20 @@
         <h1 class="post-full-title">Docker Series - 2</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
-        <h3 id="docker-container-detach-modda-altrmak">Docker Container'ı Detach modda çalıştırmak</h3>
+        <h3 id="docker-containerı-detach-modda-çalıştırmak">Docker Container&rsquo;ı Detach modda çalıştırmak</h3>
 <p>Uygulamanızı yazarken eğer <strong>thread</strong>&lsquo;ler ile biraz derin bir ilişki kurmuşsanız <strong>daemon</strong> kavramıyla karşılaşmış olabilirsiniz. Kısaca, &ldquo;arka tarafa git ve sessiz sedasız çalışmaya devam et&rdquo; demek diyebiliriz. Ayrıntılı bilgi için -&gt; Google :)</p>
-<p>Aynı mantık ile <strong>container</strong>&lsquo;ımızın arka planda sesiz sedasız çalışmasını isteyebiliriz. <strong>Örneğin</strong> web sitemizi bir container'a kurduk, yerleştirdik ve belli bir port üzerinden dışarıya açtık. Ve artık bu <strong>container</strong> kapanmadan sürekli çalışması gerekiyor ki web sitemize erişebilelim. Bunun için <strong>container</strong>&lsquo;ımızın arka planda sürekli çalışır modda yani <strong>detach</strong> modda çalışması gerekmektedir. Aşağıdaki komut satırı ile bunu gerçekleştirebiliriz.</p>
+<p>Aynı mantık ile <strong>container</strong>&lsquo;ımızın arka planda sesiz sedasız çalışmasını isteyebiliriz. <strong>Örneğin</strong> web sitemizi bir container&rsquo;a kurduk, yerleştirdik ve belli bir port üzerinden dışarıya açtık. Ve artık bu <strong>container</strong> kapanmadan sürekli çalışması gerekiyor ki web sitemize erişebilelim. Bunun için <strong>container</strong>&lsquo;ımızın arka planda sürekli çalışır modda yani <strong>detach</strong> modda çalışması gerekmektedir. Aşağıdaki komut satırı ile bunu gerçekleştirebiliriz.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker run -d --name my-nginx-container nginx
 </code></pre></div><blockquote>
 <p><strong>-d</strong> parametresi ile <strong>container</strong>&lsquo;ımızın <strong>detach</strong> modda çalışmasını sağlıyoruz.
 <code>docker ps -a</code> komutu ile <strong>container</strong>&lsquo;ımızın çalıştığını görebiliriz.</p>
 </blockquote>
-<h3 id="detach-modda-altrlan-bir-container-tekrar-nyze-getirmek">Detach modda çalıştırılan bir Container'ı tekrar önyüze getirmek</h3>
+<h3 id="detach-modda-çalıştırılan-bir-containerı-tekrar-önyüze-getirmek">Detach modda çalıştırılan bir Container&rsquo;ı tekrar önyüze getirmek</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker attach my-nginx-container
 </code></pre></div><p>Yukarıda ki komut satırı ile arka planda çalışan <strong>container</strong>&lsquo;ımızı tekrar önyüze getirebiliriz.</p>
 <hr>
@@ -149,7 +149,7 @@
 </code></pre></div><hr>
 <h2 id="docker-exec-komutu">Docker exec komutu</h2>
 <p>Eğer <strong>çalışan</strong> bir <strong>container</strong>&lsquo;ın içerisinde bir komut çalıştırmak istersek <code>exec</code> komutunu kullanabiliriz.</p>
-<p>Örneğin <strong>nginx</strong> image'ini kullanarak bir <strong>container</strong> ayağa kaldırdık.</p>
+<p>Örneğin <strong>nginx</strong> image&rsquo;ini kullanarak bir <strong>container</strong> ayağa kaldırdık.</p>
 <blockquote>
 <p><code>docker run -d --name=web nginx</code></p>
 </blockquote>
@@ -227,13 +227,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/deviceip-with-adb/">ADB Komutu ile Cihaz IP&#39;sini Öğren</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-custom-toolbar/">Android Custom Toolbar Title</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-create-library-upload-bintray/">Android Library &amp; Bintray</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-pendingintent-flags/">PendingIntent Flags</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/kotlin-apply/">Kotlin apply Kullanımı</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/unittest-nedir/">Unit Test Nedir ? Niçin ve Nasıl Yapılır ?</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-runtime-permission/">Android Runtime Permission</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-test/">Android Test</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -247,7 +247,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/docker-series-1/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/7.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
     </a>    
     
 

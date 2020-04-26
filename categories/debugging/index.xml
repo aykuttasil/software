@@ -17,7 +17,7 @@
       <pubDate>Sat, 03 Aug 2019 03:14:28 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-debugging-local-server/</guid>
-      <description>Fiziksel Android cihazımızla localimizde çalışan web server&#39;a erişmek, development aşamasında eminim ihtiyaç duyduğunuz veya duyacağınız gereksinimlerden biridir. Bununla beraber local makinenizde bulunan VM üzerinde koşan web server&#39;a erişmek.. Ah harika..
+      <description>Fiziksel Android cihazımızla localimizde çalışan web server&amp;rsquo;a erişmek, development aşamasında eminim ihtiyaç duyduğunuz veya duyacağınız gereksinimlerden biridir. Bununla beraber local makinenizde bulunan VM üzerinde koşan web server&amp;rsquo;a erişmek.. Ah harika..
 Canlı bir örnek verirsem sanıyorum daha iyi olacak.
  Geliştirme yaptığınız makinenizinde MacOS işletim sistemi var. Bununla beraber çeşitli ihtiyaçlarınızdan ötürü windows kurmanız gerekti ve Virtual Machine kurarak içine windows yüklediniz. Windows üzerinde Visual Studio ile bir WebApi ayağa kaldırdınız ve bu api&amp;lsquo;ye fiziksel Android cihazınızdan erişmek istiyorsunuz.</description>
     </item>

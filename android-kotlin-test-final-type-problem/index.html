@@ -37,7 +37,7 @@
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -113,23 +113,23 @@
         <h1 class="post-full-title">Android Kotlin Test - Final Type Problem</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
         <h2 id="sorun">Sorun</h2>
 <p><strong>Kotlin</strong> dili ile geliştirilen <strong>Android</strong> projelerinin test yazımı sırasında sınıfların veya metodların <strong>mock</strong>lanması, <strong>Java</strong> ile geliştirilen projelere göre bazı farklılıklar göstermektedir. Bu farklılığın sebeplerinden biri <strong>Kotlin</strong> ile oluşturulan sınıf veya metodların default olarak <strong>final</strong> olarak işaretlenmiş olmasıdır. Ve <strong>final</strong> tipindeki sınıfların <strong>mock</strong>lanması bazı sorunlar çıkarmaktadır.</p>
-<h2 id="zm">Çözüm</h2>
+<h2 id="çözüm">Çözüm</h2>
 <p><strong>Final</strong> tipindeki sınıfların veya metodların mocklama işlemi sırasında çıkan sorunu çözmenin birkaç farklı yöntemi vardır.</p>
-<h2 id="zm-1-open-classname">Çözüm 1 (open ClassName)</h2>
+<h2 id="çözüm-1-open-classname">Çözüm 1 (open ClassName)</h2>
 <p>Test edeceğimiz sınıf ve metodun başına <strong>open</strong> ifadesini ekleyerek <strong>extend</strong> edilebilir hale getirmek. Böylece <strong>mock</strong> kütüphaneleri kotlin final problemine yakalanmadan mocklama işlemini başarıyla gerçekleştirebilecekler.</p>
-<h2 id="zm-2-all-open">Çözüm 2 (all-open)</h2>
+<h2 id="çözüm-2-all-open">Çözüm 2 (all-open)</h2>
 <p>Kotlin <strong>all-open</strong> pluginini kullanmak. Ki bu <strong>plugin</strong>&lsquo;de aslında sınıfların, metodların başında <strong>open</strong> ifadesi ekliyor.</p>
-<h2 id="zm-3-mockk">Çözüm 3 (Mockk)</h2>
+<h2 id="çözüm-3-mockk">Çözüm 3 (Mockk)</h2>
 <p><a href="https://mockk.io/">Mockk</a> kütüphanesini kullanmak.</p>
 <blockquote>
-<p><strong>Not:</strong> Eğer test sınıfımızı <strong>Instrumentation Test</strong> bağlamında yani <strong>androidTest</strong> package'ı altında yazıyorsak testi çalıştıracağımız emulator veya cihazın android versiyonuna göre bazı farklılıklar vardır.</p>
+<p><strong>Not:</strong> Eğer test sınıfımızı <strong>Instrumentation Test</strong> bağlamında yani <strong>androidTest</strong> package&rsquo;ı altında yazıyorsak testi çalıştıracağımız emulator veya cihazın android versiyonuna göre bazı farklılıklar vardır.</p>
 </blockquote>
 <blockquote>
 <ul>
@@ -139,9 +139,9 @@
 </ul>
 </blockquote>
 <p><strong>Not:</strong> Kişisel olarak <strong>Mockk</strong> kullanmanızı tavsiye ederim.</p>
-<h2 id="zm-4-mockito">Çözüm 4 (Mockito)</h2>
+<h2 id="çözüm-4-mockito">Çözüm 4 (Mockito)</h2>
 <p><a href="https://site.mockito.org/">Mockito</a> kütüphanesini kullanmak.</p>
-<h3 id="unit-test-iin"><strong>Unit Test için</strong></h3>
+<h3 id="unit-test-için"><strong>Unit Test için</strong></h3>
 <ul>
 <li>Mockito kütüphanesini eklerken <strong>mockito-core</strong> yerine <strong>mockito-inline</strong> bağımlılığını kullanmalısınız.</li>
 </ul>
@@ -155,7 +155,7 @@ testImplementation <span style="color:#e6db74">&#34;org.mockito:mockito-inline:2
 <p><strong>mockito-inline</strong> ile <strong>java byte code</strong> manipilasyonu sağlanır. Bu sayede <strong>final</strong> tanımlanmış sınıf veya metodlar mocklanabilir hale gelir. Yazdığımız <strong>Unit Test</strong>ler <strong>JVM</strong>&lsquo;de çalışacağı için bu yöntem işe yarar.
 Fakat <strong>Android runtime</strong>&lsquo;ı <strong>Dalvik Byte Code</strong> kullanır. Ve bu yüzden <strong>mockito-inline</strong> yöntemi işe yaramaz.</p>
 </blockquote>
-<h3 id="instrumentation-test-iin"><strong>Instrumentation Test için</strong></h3>
+<h3 id="instrumentation-test-için"><strong>Instrumentation Test için</strong></h3>
 <ul>
 <li><code>androidTestImplementation &quot;org.mockito:mockito-android:2.23.16&quot;</code> bağımlılığını eklemelisiniz.</li>
 <li><a href="https://github.com/mockito/mockito/issues/1082#issuecomment-301646307">Buradaki</a> yöntemlerden birini izleyebilirsiniz. Aslında burada bahsedilen yöntem de <strong>all-open</strong> pluginini aktifleştirmekten ibaret.</li>
@@ -164,7 +164,7 @@ Fakat <strong>Android runtime</strong>&lsquo;ı <strong>Dalvik Byte Code</strong
 <blockquote>
 <p><strong>Not</strong>: <strong>dexmaker-mockito</strong>&lsquo;nun çalışması için <strong>Android P</strong> ve sonrası gerekmektedir. Aşağıdaki tabloda görebilirsiniz.</p>
 </blockquote>
-<p>Eğer projenizi <strong>kotlin</strong> ile geliştirmiş ve test için <strong>Mockito</strong> kullanmaya karar vermişseniz <a href="https://github.com/nhaarman/mockito-kotlin">Mockito Kotlin</a> kütüphanesini kullanmanızda fayda var. Bu kütüphaneyi kullanarak daha hızlı ve kolay şekilde Mockito'yu kullanabilir ve bazı kotlin özelliklerinden dolayı alınacabilecek hataları (Kotlin NullPointerException hatası) engelleyebilirsiniz.</p>
+<p>Eğer projenizi <strong>kotlin</strong> ile geliştirmiş ve test için <strong>Mockito</strong> kullanmaya karar vermişseniz <a href="https://github.com/nhaarman/mockito-kotlin">Mockito Kotlin</a> kütüphanesini kullanmanızda fayda var. Bu kütüphaneyi kullanarak daha hızlı ve kolay şekilde Mockito&rsquo;yu kullanabilir ve bazı kotlin özelliklerinden dolayı alınacabilecek hataları (Kotlin NullPointerException hatası) engelleyebilirsiniz.</p>
 <hr>
 <p><img src="/img/mockito_benchmark.png" alt="Mockito Benchmark" title="Mockito Benchmark"></p>
 <h1 id="kaynaklar">Kaynaklar</h1>
@@ -231,13 +231,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/android-filesystem/">Android File System</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-smsreceiver/">Android SMS Receiver</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-dagger/">Android Dagger</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/dns-over-tls/">DNS over TLS Nedir?</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/post/"></a></li>            
+          <li><a href="https://yazilim.aykutasil.com/kotlin-sealed-class/">Kotlin Sealed Class</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/docker-komutlari/">Docker Komutları</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/azure-notification-hubs-kullanimi/">Azure Mobile Services ve Notification Hubs Kullanımı</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -251,7 +251,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-service/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)"></div>
     </a>    
     
 
@@ -267,7 +267,7 @@ s.setAttribute('data-timestamp', +new Date());
           <section class="post-card-excerpt">
                
                 <p><p>Android Service Nedir? Nasıl Kullanılır?</p>
-<p>Android'in temel bileşenlerinden biri olan Service'ler kısaca UI(arayüz) olmayan Activity'lere benzetebiliriz.</p>
+<p>Android&rsquo;in temel bileşenlerinden biri olan Service&rsquo;ler kısaca UI(arayüz) olmayan Activity&rsquo;lere benzetebiliriz.</p>
 </p>
               
           </section>
@@ -284,7 +284,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/server-ip/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/1.jpg)"></div>
     </a>    
     
 

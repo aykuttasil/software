@@ -40,7 +40,7 @@ private static final Str" />
 
     <meta property="og:image" content="https://yazilim.aykutasil.com/img/istanbul_marti.jpg"/>
 
-    <meta name="generator" content="Hugo 0.61.0" />
+    <meta name="generator" content="Hugo 0.69.2" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="https://yazilim.aykutasil.com/built/screen.css" /> 
@@ -116,29 +116,29 @@ private static final Str" />
         <h1 class="post-full-title">Java Collections</h1>
     </header>
     
-    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)">
+    <figure class="post-full-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/5.jpg)">
     </figure>
 
     <section class="post-full-content">
         <div class="kg-card-markdown">
         <h3 id="collectionsswap"><strong>Collections.swap</strong></h3>
 <p><strong>Swap</strong> kelime anlamı ile takas anlamına gelmektedir. Mevcut dizimiz içerisinde elemanların yerlerini değiştirmeye yarar.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String<span style="color:#f92672">[</span><span style="color:#f92672">]</span> STRINGS <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> String<span style="color:#f92672">[</span><span style="color:#f92672">]</span><span style="color:#f92672">{</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String<span style="color:#f92672">[]</span> STRINGS <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> String<span style="color:#f92672">[]{</span>
         <span style="color:#e6db74">&#34;1&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;2&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;3&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;4&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;5&#34;</span>
-<span style="color:#f92672">}</span><span style="color:#f92672">;</span>
+<span style="color:#f92672">};</span>
 
-<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">final</span> List mItems <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ArrayList<span style="color:#f92672">&lt;</span><span style="color:#f92672">&gt;</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
-<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setArray</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span>
+<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">final</span> List mItems <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ArrayList<span style="color:#f92672">&lt;&gt;();</span>
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setArray</span><span style="color:#f92672">()</span>
 <span style="color:#f92672">{</span>
-  mItems<span style="color:#f92672">.</span><span style="color:#a6e22e">addAll</span><span style="color:#f92672">(</span>Arrays<span style="color:#f92672">.</span><span style="color:#a6e22e">asList</span><span style="color:#f92672">(</span>STRINGS<span style="color:#f92672">)</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+  mItems<span style="color:#f92672">.</span><span style="color:#a6e22e">addAll</span><span style="color:#f92672">(</span>Arrays<span style="color:#f92672">.</span><span style="color:#a6e22e">asList</span><span style="color:#f92672">(</span>STRINGS<span style="color:#f92672">));</span>
 <span style="color:#f92672">}</span>
 mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır<span style="color:#f92672">.</span>
 
 <span style="color:#75715e">//  1,2,3,4,5
 </span><span style="color:#75715e"></span>
-<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">elemanYerDegistir</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span>
+<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">elemanYerDegistir</span><span style="color:#f92672">()</span>
 <span style="color:#f92672">{</span>
-  Collections<span style="color:#f92672">.</span><span style="color:#a6e22e">swap</span><span style="color:#f92672">(</span>mItems<span style="color:#f92672">,</span> 0<span style="color:#f92672">,</span> 4<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+  Collections<span style="color:#f92672">.</span><span style="color:#a6e22e">swap</span><span style="color:#f92672">(</span>mItems<span style="color:#f92672">,</span> 0<span style="color:#f92672">,</span> 4<span style="color:#f92672">);</span>
 <span style="color:#f92672">}</span>
 mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır<span style="color:#f92672">.</span>
 
@@ -203,13 +203,13 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="read-next-card-content">
       
         <ul>
-          <li><a href="https://yazilim.aykutasil.com/google_cloud_dns/">Google Cloud DNS</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-smsreceiver/">Android SMS Receiver</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/server-ip/">Server Ip</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/retrofit-multipart-file-upload/">Retrofit Multipart File Upload</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/android-test/">Android Test</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/bash-scripts/">Bash Scripts</a></li>            
         
-          <li><a href="https://yazilim.aykutasil.com/ssh-surekli-parola-isteme-problemi/">SSH Sürekli Parola İstemesi Sorunu</a></li>            
+          <li><a href="https://yazilim.aykutasil.com/android-background-location/">Android Background Location</a></li>            
         </ul>
     </div>
     <footer class="read-next-card-footer">
@@ -223,7 +223,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-viewpager/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/6.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
     </a>    
     
 
@@ -258,7 +258,7 @@ s.setAttribute('data-timestamp', +new Date());
       <article class="post-card post"> 
     
     <a class="post-card-image-link" href="https://yazilim.aykutasil.com/android-custom-toolbar/">
-      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/4.jpg)"></div>
+      <div class="post-card-image" style="background-image: url(https://yazilim.aykutasil.com/defimg/2.jpg)"></div>
     </a>    
     
 
