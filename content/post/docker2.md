@@ -97,7 +97,7 @@ docker exec -i -t web bash
 
 komutlarını kullanabiliriz.
 
-<img src="/img/docker_exec.png" />
+<img src="/img/docker_exec.png"/>
 
 ---
 
