@@ -8,9 +8,9 @@ paginate        = 20
 canonifyurls    = false
 
 [params]
-  title       = "My Book"
+  title       = "aykuttasil"
   subtitle    = "Software"
-  copyright   = "© 2018"
+  copyright   = "© 2020"
 
   cover       = "img/istanbul_marti.jpg"
   description = "Aykut Asil Software Notes"
@@ -26,7 +26,7 @@ canonifyurls    = false
   mediumName = "aykuttasil"
 
   logo = "img/aykutasil.jpg"
-  orgName = "AA"
+  orgName = "aykuttasil"
   orgWebsite = "https://aykutasil.com"
   orgDescription = ""
 
@@ -55,17 +55,22 @@ canonifyurls    = false
 [[menu.main]]
   name = "Home"
   url = "/"
-  weight = 200
+  weight = 100
 
 [[menu.main]]
   name = "Android"
   url = "/tags/android/"
-  weight = 100
+  weight = 99
+
+[[menu.main]]
+  name = "Flutter"
+  url = "/tags/flutter/"
+  weight = 98
 
 [[menu.main]]
   name = "Categories"
   url = "/categories/"
-  weight = 99
+  weight = 97
 
 [markup]
   [markup.goldmark]
