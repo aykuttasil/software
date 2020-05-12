@@ -2,7 +2,7 @@
 author: "Aykut Asil"
 date: 2020-04-17T21:02:16+03:00
 lastmod: 2020-04-17T21:02:16+03:00
-title: "AspNetCore launchSettings.json File"
+title: "Asp.Net Core launchSettings.json Kullanımı"
 url: "aspnetcore-launchsettings-file"
 weight: 10
 keywords: ["aykuttasil","software"]
