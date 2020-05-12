@@ -12,10 +12,10 @@ weight = 10
 draft = true
 +++
 
-## Docker Layer
+## Docker Layer
 
 
 
-### Kaynaklar
+### Kaynaklar
 
 - <https://medium.com/@jessgreb01/digging-into-docker-layers-c22f948ed612>

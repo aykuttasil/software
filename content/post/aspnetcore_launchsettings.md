@@ -14,7 +14,7 @@ draft: true
 
 > **launchSettings.json** dosyası **sadece local**'de **development** yaparken kullanılan bir dosyadır. **Visual Studio** veya **dotnet cli** ile birlikte kullanılır.
 
-**Not: Eğer** uygulamamızı sunucuyu deploy ettikten sonra ulaşmak istediğimiz ayarlar var ise bunun belirtilmesi gereken yer **launchSettings.json** dosyası değildir. Bu tür ayarlar genelde **appSettings.json** dosyası içerisinde tanımlanır.
+**Not: Eğer** uygulamamızı sunucuyu deploy ettikten sonra ulaşmak istediğimiz ayarlar var ise bunun belirtilmesi gereken yer **launchSettings.json** dosyası **değildir**. Bu tür ayarlar genelde **appSettings.json** dosyası içerisinde tanımlanır.
 
 <img src="/img/launchSettings.png" />
 
@@ -61,10 +61,9 @@ Yukarıdaki dosyayı inceleyecek olursak **profiles** tagı altında **IIS Expre
 2. IIS
 3. Project
 
+**InProcess**: IIS host the app (w3wp.exe or iisexpress.exe)
 
-InProcess : IIS host the app (w3wp.exe or iisexpress.exe)
-
-OutOfProcess: Kenstrel host the app, IIS is a proxy to kestrel.
+**OutOfProcess**: Kestrel host the app, IIS is a proxy to kestrel.
 
 ### Kaynaklar
 
