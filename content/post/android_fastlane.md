@@ -3,7 +3,7 @@ author: "Aykut Asil"
 date: 2020-11-04T13:14:18+03:00
 lastmod: 2020-11-04T13:14:18+03:00
 title: "Android Fastlane Kurulumu"
-url: "fastlane"
+url: "fastlane-setup"
 weight: 10
 keywords: ["software","android","mobil","fastlane","automation","ci/cd"]
 description: "Fastlane "
