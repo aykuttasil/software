@@ -82,7 +82,9 @@ Ya da daha hızlı çalıştırabilmek için `bundle exec fastlane test` şeklin
 
 Eğer **bundle exec** komutunda bir problem yaşarsanız komut satırında belirttiği şekilde **bundle** aracının güncellenmesini sağlayabilirsiniz. Sonrasında problem ortadan kalkacaktır.
 
+> Örnek proje için;
 
+- <https://github.com/aykuttasil/fastlane-sample>
 
 ### Kaynaklar
 

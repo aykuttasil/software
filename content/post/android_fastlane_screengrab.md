@@ -269,6 +269,10 @@ Ve aşağıdaki komut ile tüm akışı çalıştırabiliriz.
 bundle exec fastlane build_for_screengrab && bundle exec fastlane screengrab
 ```
 
+> Örnek proje için;
+
+- <https://github.com/aykuttasil/fastlane-sample>
+
 ### Kaynaklar
 
 - <https://fastlane.tools/>
