@@ -14,7 +14,7 @@
 <a href=https://yazilim.aykutasil.com/categories/docker>docker</a> (5)&nbsp;/&nbsp;
 <a href=https://yazilim.aykutasil.com/categories/dotnet>dotnet</a> (1)&nbsp;/&nbsp;
 <a href=https://yazilim.aykutasil.com/categories/final-type>final-type</a> (1)&nbsp;/&nbsp;
-<a href=https://yazilim.aykutasil.com/categories/genel>genel</a> (6)&nbsp;/&nbsp;
+<a href=https://yazilim.aykutasil.com/categories/genel>genel</a> (7)&nbsp;/&nbsp;
 <a href=https://yazilim.aykutasil.com/categories/iis>iis</a> (1)&nbsp;/&nbsp;
 <a href=https://yazilim.aykutasil.com/categories/iot>iot</a> (1)&nbsp;/&nbsp;
 <a href=https://yazilim.aykutasil.com/categories/java>java</a> (13)&nbsp;/&nbsp;
@@ -37,31 +37,26 @@
 <a href=https://yazilim.aykutasil.com/categories/web>web</a> (1)&nbsp;/&nbsp;
 <a href=https://yazilim.aykutasil.com/categories/webapi>webapi</a> (1)&nbsp;/&nbsp;
 <a href=https://yazilim.aykutasil.com/categories/windows>windows</a> (1)&nbsp;/&nbsp;
-<a href=https://yazilim.aykutasil.com/categories/yazilim>yazilim</a> (50)&nbsp;/&nbsp;</h2></div></div></header><main id=site-main class="site-main outer" role=main><div class=inner><div class=post-feed><article class="post-card post"><a class=post-card-image-link href=https://yazilim.aykutasil.com/circleci-configuration/><div class=post-card-image style=background-image:url(https://yazilim.aykutasil.com/defimg/2.jpg)></div></a><div class=post-card-content><a class=post-card-content-link href=https://yazilim.aykutasil.com/circleci-configuration/><header class=post-card-header><span class=post-card-tags>#ci
-#cd
-#continuous-integration
-#continuous-deployment
-#circleci</span><h2 class=post-card-title>CircleCI Configuration</h2></header><section class=post-card-excerpt><p>Circle CI/CD</p></section></a><footer class=post-card-meta><img class=author-profile-image src=https://yazilim.aykutasil.com/img/aykutasil.jpg alt=Author>
-<span class=post-card-author><a href=/>Aykut Asil</a></span></footer></div></article><article class="post-card post"><a class=post-card-image-link href=https://yazilim.aykutasil.com/android-glide-ve-palette-kullanimi/><div class=post-card-image style=background-image:url(https://yazilim.aykutasil.com/defimg/2.jpg)></div></a><div class=post-card-content><a class=post-card-content-link href=https://yazilim.aykutasil.com/android-glide-ve-palette-kullanimi/><header class=post-card-header><span class=post-card-tags>#software
+<a href=https://yazilim.aykutasil.com/categories/yazilim>yazilim</a> (50)&nbsp;/&nbsp;</h2></div></div></header><main id=site-main class="site-main outer" role=main><div class=inner><div class=post-feed><article class="post-card post"><a class=post-card-image-link href=https://yazilim.aykutasil.com/android-internet-connection-receiver/><div class=post-card-image style=background-image:url(https://yazilim.aykutasil.com/defimg/4.jpg)></div></a><div class=post-card-content><a class=post-card-content-link href=https://yazilim.aykutasil.com/android-internet-connection-receiver/><header class=post-card-header><span class=post-card-tags>#software
+#java
+#android
+#broadcast receiver
+#internet control</span><h2 class=post-card-title>Android Internet Connection Receiver</h2></header><section class=post-card-excerpt><p>Uygulamanızın akışını internet kontrolü yaparak yönetmeniz gerekebilir.
+Bunun için ilk olarak AndroidManifest.xml dosyasına receiver tanımı yapmalısınız.
+&lt;receiver android:name=".InternetConnectionReceiver"> &lt;intent-filter> &lt;action android:name="android.net.conn.CONNECTIVITY_CHANGE" /> &lt;/intent-filter> &lt;/receiver> InternetConnectionReceiver
+public class InternetConnectionReceiver extends BroadcastReceiver { @Override public void onReceive(Context context, Intent intent) { if (CheckConnection(context)) { } } } Yukarıda tanımlanmış olan receiver, cihazın ağ yapısında herhangi bir değişiklik olduğunda bunu yakalar. Örneğin wireless açıkken kapattığınız da veya kapalıyken açtığınız da bunu yakayabilirsiniz.
+CheckConnection ...</p></section></a><footer class=post-card-meta><img class=author-profile-image src=https://yazilim.aykutasil.com/img/aykutasil.jpg alt=Author>
+<span class=post-card-author><a href=/>Aykut Asil</a></span></footer></div></article><article class="post-card post"><a class=post-card-image-link href=https://yazilim.aykutasil.com/android-custom-toolbar/><div class=post-card-image style=background-image:url(https://yazilim.aykutasil.com/defimg/1.jpg)></div></a><div class=post-card-content><a class=post-card-content-link href=https://yazilim.aykutasil.com/android-custom-toolbar/><header class=post-card-header><span class=post-card-tags>#software
 #android
 #java
-#palette
-#glide</span><h2 class=post-card-title>Android Glide ve Palette Kullanımı</h2></header><section class=post-card-excerpt><p>Google ın resim işlemleri için geliştirmiş olduğu Glide kütüphanesi Android kaynaklarını, cache mekanizmasını vs. verimli şekilde kullanarak uygulamanıza hız ve kalite kazandırır.
-Sizde projenizde resimlerle ilgili herhangi bir işlem yapıyorsanız bu kütüphaneyi incelemenizi tavsiye ediyorum.
-Github : https://github.com/bumptech/glide
-Gradle : compile ‘com.github.florent37:glidepalette:1.0.6’
-Google ın geliştirmiş olduğu Palette kütüphanesi ise, resimlerinizin renkleriyle ilgilenir. Daha farklı işlemler içinde kullanılabilir resim boyutlandırma vs. gibi. Ama renklerle ilgili işlemler için oldukça güzel bir kütüphanedir. ...</p></section></a><footer class=post-card-meta><img class=author-profile-image src=https://yazilim.aykutasil.com/img/aykutasil.jpg alt=Author>
-<span class=post-card-author><a href=/>Aykut Asil</a></span></footer></div></article><article class="post-card post"><a class=post-card-image-link href=https://yazilim.aykutasil.com/csharp-soru-isareti-syntax/><div class=post-card-image style=background-image:url(https://yazilim.aykutasil.com/defimg/7.jpg)></div></a><div class=post-card-content><a class=post-card-content-link href=https://yazilim.aykutasil.com/csharp-soru-isareti-syntax/><header class=post-card-header><span class=post-card-tags>#software
-#c#
-#csharp
-#operator
-#soru isareti
-#null condition</span><h2 class=post-card-title>CSharp Null Kontrolü</h2></header><section class=post-card-excerpt><p>C# ? ve ?? Operator Kullanımı Kısaca bahsedilecek olursa ? operatörü null kontrolü yapılmasını sağlar.
-Yazılım geliştirme sırasında en çok rastlanan hatanın sebebi null dönen ifadelerdir. Bu bazen bir değişken bazen parametre vs. olabilir. Ama sebep ifadenin null olmasıdır.
-Önceden şu şekilde kontrol ediyorduk.
-var a; if(a != null) { Console.Write(a); } şimdi
-var a; Console.Write(a ?? "boş değer"); Yukarıdaki söz dizimi ile şunu söylüyoruz.
-Eğer a değeri null değil ise ekrana a nın değerini yaz. ...</p></section></a><footer class=post-card-meta><img class=author-profile-image src=https://yazilim.aykutasil.com/img/aykutasil.jpg alt=Author>
+#toolbar</span><h2 class=post-card-title>Android Custom Toolbar Title</h2></header><section class=post-card-excerpt><p>Android Toolbar Android Toolbar bileşeni çok yönlü bir yapıya sahiptir. Android Design Library kullanarak ve AppBarLayout içerisinde tanımlanarak oldukça farklı şekillere bürünebilir.
+Genel kullanımı aşağıdaki gibidir.
+&lt;?xml version="1.0" encoding="utf-8"?> &lt;android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/primary_dark" tools:context=".MainActivity"> &lt;FrameLayout android:id="@+id/container" android:layout_width="match_parent" android:layout_height="match_parent"> &lt;/FrameLayout> &lt;android.support.design.widget.FloatingActionButton android:id="@+id/fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="bottom|end" android:layout_margin="@dimen/fab_margin" android:src="@android:drawable/ic_dialog_email" /> &lt;android.support.design.widget.AppBarLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp"> &lt;android.support.v7.widget.Toolbar android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@color/primary_dark" android:minHeight="?attr/actionBarSize" app:popupTheme="@style/AppTheme.PopupOverlay"/> &lt;/android.support.design.widget.AppBarLayout> &lt;/android.support.design.widget.CoordinatorLayout> app:elevation="0dp" // AppBarLayout içerisinde ki bu tanımlama default olarak tanımlanmış gölgeyi kaldırır. ...</p></section></a><footer class=post-card-meta><img class=author-profile-image src=https://yazilim.aykutasil.com/img/aykutasil.jpg alt=Author>
+<span class=post-card-author><a href=/>Aykut Asil</a></span></footer></div></article><article class="post-card post"><a class=post-card-image-link href=https://yazilim.aykutasil.com/java-executorservice-submit-and-execute/><div class=post-card-image style=background-image:url(https://yazilim.aykutasil.com/defimg/5.jpg)></div></a><div class=post-card-content><a class=post-card-content-link href=https://yazilim.aykutasil.com/java-executorservice-submit-and-execute/><header class=post-card-header><span class=post-card-tags>#software
+#java
+#executorservice
+#submit
+#execute</span><h2 class=post-card-title>ExecutorService submit() – execute()</h2></header><section class=post-card-excerpt><p>ExecutorService submit() – execute() Link : http://javarevisited.blogspot.com.tr/2016/04/difference-between-ExecutorServie-submit-vs-Executor-execute-method-in-Java.html</p></section></a><footer class=post-card-meta><img class=author-profile-image src=https://yazilim.aykutasil.com/img/aykutasil.jpg alt=Author>
 <span class=post-card-author><a href=/>Aykut Asil</a></span></footer></div></article></div></div></main><footer class="site-footer outer"><div class="site-footer-content inner"><section class=copyright style=line-height:1.3em><a href=/>aykuttasil</a> © 2020<br><span style=font-size:.8em;color:#555>Hugo port of <a href=https://github.com/TryGhost/Casper>Casper 2.1.7</a> by <a href=https://www.telematika.org>EM</a></span></section><nav class=site-footer-nav><a href=/>Latest Posts</a>
 <a href=https://www.facebook.com/aykuttasil target=_blank rel=noopener>Facebook</a>
 <a href=https://twitter.com/aykuttasil target=_blank rel=noopener>Twitter</a>
