@@ -3,8 +3,8 @@ author = "Aykut Asil"
 autoCollapseToc = false
 categories = ["aspnetcore", "web", "webapi"]
 comment = true
-date = "2019-11-18T02:34:57+03:00"
-description = "Asp.Net Core Serilog Implementasyonu"
+date = "2020-11-03T02:34:57+03:00"
+description = "ASP.Net Core Serilog"
 draft = true
 hiddenFromHomePage = false
 keywords = ["aspnetcore", "netcore", "serilog", "log"]
@@ -17,4 +17,6 @@ url = "aspnetcore-serilog"
 
 +++
 
-## Asp.Net Core Serilog İmplementasyonu
+## Asp.Net Core Serilog
+
+

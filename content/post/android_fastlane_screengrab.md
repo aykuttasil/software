@@ -277,3 +277,5 @@ bundle exec fastlane build_for_screengrab && bundle exec fastlane screengrab
 
 - <https://fastlane.tools/>
 - <https://www.raywenderlich.com/10187451-fastlane-tutorial-for-android-getting-started>
+- <https://docs.fastlane.tools/getting-started/android/screenshots/>
+- <https://docs.fastlane.tools/actions/capture_android_screenshots/>
