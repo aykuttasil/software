@@ -21,10 +21,7 @@ Kendi sunucunuz üzerine kurmuş olduğunuz **Teamcity**'e **Slack** entegrasyon
 
 https://api.slack.com/apps adresine giriyoruz ve yeni bir **App** oluşturuyoruz.
 
-
-![Slack App](/video/slack_app_step1.mov "Slack App")
-
-
+<video src="/video/slack_app_step1.mov">
 
 ## Kaynaklar
 
