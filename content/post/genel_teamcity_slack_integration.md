@@ -5,9 +5,10 @@ lastmod: 2021-01-05T23:50:00+03:00
 title: "Teamcity Slack Entegrasyonu"
 url: "teamcity-slack-integration"
 weight: 10
-keywords: ["aykuttasil","software","ci","cd","automation","teamcity","slack"]
+keywords:
+  ["aykuttasil", "software", "ci", "cd", "automation", "teamcity", "slack"]
 description: "Teamcity Slack Entegrasyonu"
-tags: ["software","ci","cd","automation","teamcity","slack"]
+tags: ["software", "ci", "cd", "automation", "teamcity", "slack"]
 categories: ["genel"]
 ---
 
@@ -21,7 +22,9 @@ Kendi sunucunuz üzerine kurmuş olduğunuz **Teamcity**'e **Slack** entegrasyon
 
 https://api.slack.com/apps adresine giriyoruz ve yeni bir **App** oluşturuyoruz.
 
-<video src="/video/slack_app_step1.mov">
+<video controls>
+    <source src="/video/slack_app_step1.mov">
+</video>
 
 ## Kaynaklar
 
