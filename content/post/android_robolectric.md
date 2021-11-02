@@ -170,20 +170,13 @@ Run dediğiniz de Test çalışacaktır. Fakat aşağıdaki hataya benzer bir ha
 
 ```
 java.lang.RuntimeException: build\intermediates\bundles\debug\AndroidManifest.xml not found or not a file; it should point to your project's AndroidManifest.xml
-
 at org.robolectric.manifest.AndroidManifest.validate(AndroidManifest.java:121)
-
 at org.robolectric.manifest.AndroidManifest.getResourcePath(AndroidManifest.java:469)
-
 at org.robolectric.manifest.AndroidManifest.getIncludedResourcePaths(AndroidManifest.java:475)
-
 at org.robolectric.RobolectricTestRunner.createAppResourceLoader(RobolectricTestRunner.java:491)
-
 at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
-.
-
-.
-
+...
+..
 .
 ```
 
@@ -198,7 +191,6 @@ Resim de görüldüğü gibi **Edit Configurations** a tıklayın.
 Resim deki gibi **Working directory** yolunun sonuna **\app** ekleyin.
 
  
-
 Ve şimdi tekrar Test Sınıfına sağ tıklayarak Run diyin.
 
 Ve sonuç aşağıdaki gibi olmalıdır.
@@ -207,6 +199,6 @@ Ve sonuç aşağıdaki gibi olmalıdır.
 <a href="http://imgur.com/zIgjUDT"><img src="http://i.imgur.com/zIgjUDT.jpg" title="source: imgur.com" /></a>
  
 
-Kaynak kodlarını aşağıdkai linkten indirebilirsiniz.
+Kaynak kodlarını aşağıdaki linkten indirebilirsiniz.
 
 https://github.com/aykuttasil/RobolectricUnitTest

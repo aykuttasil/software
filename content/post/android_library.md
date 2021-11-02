@@ -31,7 +31,7 @@ Kodlarımızı yazdık. Sıra geldi module ümüzün gradle dosyasını düzenle
 
 Ama bundan önce Project düzeyindeki gradle dosyasını güncellememiz gerekli.
 
-```
+```gradle
 buildscript {
     repositories {
         jcenter()

@@ -84,48 +84,47 @@ Daha sonra spinnerımızı tanımladığımız yere giderek spinnerımızı yap�
 ```java
 public void setSpinnerNavToolbar() {
 
- // Guncelledikten sonra spinner görünümü örneği
- // Pazartesi ( 2 )
- // Salı ( 4 )
- // ... 
- 
- // Spinner itemlarının güncellenmiş halini barındıran listeyi getiriyoruz.
- String[] changedList = getChangedSpinnerItemText(context);
+    // Guncelledikten sonra spinner görünümü örneği
+    // Pazartesi ( 2 )
+    // Salı ( 4 )
+    // ... 
+    
+    // Spinner itemlarının güncellenmiş halini barındıran listeyi getiriyoruz.
+    String[] changedList = getChangedSpinnerItemText(context);
 
- // Spinner adapterımıza eklemeler yapılmış String Arrayi veriyoruz.
- ArrayAdapter<CharSequence> adapter = new ArrayAdapter<CharSequence>(mContext, R.layout.spinner_nav_item_layout,changedList);
- Spinner spinner = (Spinner) findViewById(R.id.spinner_nav);
- spiner.setAdapter(adapter);
- spinner.setVisibility(NavigationView.VISIBLE);
- spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
- @Override
- public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+    // Spinner adapterımıza eklemeler yapılmış String Arrayi veriyoruz.
+    ArrayAdapter<CharSequence> adapter = new ArrayAdapter<CharSequence>(mContext, R.layout.spinner_nav_item_layout,changedList);
+    Spinner spinner = (Spinner) findViewById(R.id.spinner_nav);
+    spiner.setAdapter(adapter);
+    spinner.setVisibility(NavigationView.VISIBLE);
+    spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        @Override
+        public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
- // Original Liste elemanlarımızı getiriyoruz 
- String[] originalList = context.getResources().getStringArray(R.array.array_gonderi_list_haftalik);
- 
- // Original Liste elemanını baz alarak işlem yapmak 
- // Bu sayede Pazartesi , Salı gibi değerleri alıyoruz. Değiştirilmiş (güncellenmiş) değerleri sadece görünüm için kullanıyoruz.
- String secilendeger = originalList[position];
+        // Original Liste elemanlarımızı getiriyoruz 
+            String[] originalList = context.getResources().getStringArray(R.array.array_gonderi_list_haftalik);
+            
+            // Original Liste elemanını baz alarak işlem yapmak 
+            // Bu sayede Pazartesi , Salı gibi değerleri alıyoruz. Değiştirilmiş (güncellenmiş) değerleri sadece görünüm için kullanıyoruz.
+            String secilendeger = originalList[position];
 
+            // Pazartesi seçildiğinde yapmak istediğimiz işlemleri burada belirtebiliriz.
+            if (secilendeger.equals(getResources().getString(R.string.pazartesi))) {
 
- // Pazartesi seçildiğinde yapmak istediğimiz işlemleri burada belirtebiliriz.
- if (secilendeger.equals(getResources().getString(R.string.pazartesi))) {
+            } 
+            // Salı seçildiğinde yapmak istediğimiz işlemleri burada belirtebiliriz.
+            else if(secilendeger.equals(getResources().getString(R.string.pazartesi)))
+            {
 
- } 
- // Salı seçildiğinde yapmak istediğimiz işlemleri burada belirtebiliriz.
- else if(secilendeger.equals(getResources().getString(R.string.pazartesi)))
- {
+            }
+        }
 
- }
- }
+        @DebugLog
+        @Override
+        public void onNothingSelected(AdapterView<?> parent) {
 
- @DebugLog
- @Override
- public void onNothingSelected(AdapterView<?> parent) {
-
- }
- });
+        }
+    });
 }
 ```
  
