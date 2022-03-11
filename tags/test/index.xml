@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>test on Aykut Asil</title>
     <link>https://yazilim.aykutasil.com/tags/test/</link>
     <description>Recent content in test on Aykut Asil</description>
+    <image>
+      <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 29 Jan 2019 15:38:29 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,9 +16,7 @@
       <pubDate>Tue, 29 Jan 2019 15:38:29 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-kotlin-test-final-type-problem/</guid>
-      <description>Sorun Kotlin dili ile geliştirilen Android projelerinin test yazımı sırasında sınıfların veya metodların mocklanması, Java ile geliştirilen projelere göre bazı farklılıklar göstermektedir. Bu farklılığın sebeplerinden biri Kotlin ile oluşturulan sınıf veya metodların default olarak final olarak işaretlenmiş olmasıdır. Ve final tipindeki sınıfların mocklanması bazı sorunlar çıkarmaktadır.
-Çözüm Final tipindeki sınıfların veya metodların mocklama işlemi sırasında çıkan sorunu çözmenin birkaç farklı yöntemi vardır.
-Çözüm 1 (open ClassName) Test edeceğimiz sınıf ve metodun başına open ifadesini ekleyerek extend edilebilir hale getirmek.</description>
+      <description>Android Kotlin ile test yazarken karşılaşılan final type problemi ve çözümü</description>
     </item>
     
     <item>
@@ -23,7 +25,7 @@
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-circleci/</guid>
-      <description>CircleCI Android Yapılandırması .circleci/config.yml version: 2 jobs:  build:  working_directory: ~/code  docker:  - image: circleci/android:api-28-alpha  environment:  JVM_OPTS: -Xmx3200m  steps:  - checkout  - run:  name: Initialize Keystore File  command: echo $KEYSTORE_BASE64 | base64 --decode &amp;gt; app/aykutasilkeystore  - run:  name: Initialize Fabric Properties  command: |echo &amp;#34;apiKey=$FABRIC_API_KEY&amp;#34; &amp;gt;&amp;gt; app/fabric.properties echo &amp;#34;apiSecret=$FABRIC_API_SECRET&amp;#34; &amp;gt;&amp;gt; app/fabric.properties cat app/fabric.properties  - run:  name: Initialize Keystore File  command: |echo &amp;#34;signingKeyAlias=$KEYSTORE_KEY_ALIAS&amp;#34; &amp;gt;&amp;gt; keystore.</description>
+      <description>Android Circle CI/CD</description>
     </item>
     
     <item>
@@ -32,9 +34,7 @@
       <pubDate>Tue, 18 Sep 2018 11:51:07 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-test/</guid>
-      <description>Not: Bu yazıyı hazırlarken ben de öğrenme sürecinde olucam. Araştırdığım ve öğrendiğim tüm teknik bilgileri ve yöntemleri, best-practice leri gelişi güzel(karmakarışık değil) bir şekilde yazıcam. Sonrasında zaman bulduğum vakit bir düzenleme yapıcam.
- Unit Test ve Instrumentation Test Unit Test Unit Test: Android framework ünden bağımsız olan sınıfları/metodları test etmek için kullanılır. Robolectric ve JUnit popüler unit test araçlarıdır.
- If you run local unit tests, a special version of the android.</description>
+      <description>Android&amp;#39;e ait tüm bileşenlerin testi nasıl hazırlanır? **Unit Test** ve **Instrumentation Test** arasındaki farklar nedir ve nasıl hazırlanır?</description>
     </item>
     
   </channel>

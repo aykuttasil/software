@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>git-cache on Aykut Asil</title>
     <link>https://yazilim.aykutasil.com/tags/git-cache/</link>
     <description>Recent content in git-cache on Aykut Asil</description>
+    <image>
+      <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 07 Dec 2020 14:32:26 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/git-cache/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,9 +16,7 @@
       <pubDate>Mon, 07 Dec 2020 14:32:26 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/reinitialize-project-with-gitignore/</guid>
-      <description>Problem Zaten halihazırda .gitignore dosyası eklenmiş şekilde bir git repunuz var. Sonradan .gitignore dosyasınızı yapılandırdınız fakat yine de bu dosyalar track(izlenmeye) devam ediyor.
-Sebep Proje dosyalarını ilk commit yaptığınızda mevcut .gitignore yapılandırmanız baz alınarak dosyalar cachelenir. Ve sonrasında bu dosyalarda yapılan tüm değişikler izlenmeye devam eder. Sonradan .gitignore dosyanızda değişiklik yapsanız dahi cachelenmiş dosyalarda değişiklik olmaz.
-Çözüm git cache&amp;rsquo;ini temizleyerek izlenenen tüm dosyaları yeni .gitignore yapılandırmanıza göre tekrardan cachelenmesini sağlayabilirsiniz.</description>
+      <description>Zaten halihazırda **.gitignore** dosyası eklenmiş şekilde bir **git** repunuz var. Sonradan **.gitignore** dosyasınızı yapılandırdınız fakat yine de bu dosyalar **track(izlenmeye)** devam ediyor.</description>
     </item>
     
   </channel>

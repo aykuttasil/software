@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>teamcity on Aykut Asil</title>
     <link>https://yazilim.aykutasil.com/tags/teamcity/</link>
     <description>Recent content in teamcity on Aykut Asil</description>
+    <image>
+      <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 05 Jan 2021 23:50:00 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/teamcity/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,9 +16,7 @@
       <pubDate>Tue, 05 Jan 2021 23:50:00 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/teamcity-slack-integration/</guid>
-      <description>Senaryo Kendi sunucunuz üzerine kurmuş olduğunuz Teamcity&amp;rsquo;e Slack entegrasyonu yaparak, build &amp;gt; deploy adımlarını Slack üzerinden nasıl izleriz?
-Çözüm  Öncelikle Slack yapılandırmaları ile başlayalım.  https://api.slack.com/apps adresine giriyoruz ve yeni bir App oluşturuyoruz.
- OAuth &amp;amp; Permissions tabına geçerek ilgili yetkilendirmeleri yapıyoruz.   Botumuza, ihtiyaç duyacağı tüm izinleri verdikten sonra Install to Workspace diyerek yetkilendirmeyi tamamlıyoruz. Oluşan tokenı Teamcity tarafında kullanıcaz.   Slack tarafında App&amp;lsquo;imizi oluşturduktan sonra şimdi Teamcity tarafında gerekli ayarlamaları yapabiliriz.</description>
+      <description>Teamcity Slack Entegrasyonu</description>
     </item>
     
   </channel>

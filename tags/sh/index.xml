@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>sh on Aykut Asil</title>
     <link>https://yazilim.aykutasil.com/tags/sh/</link>
     <description>Recent content in sh on Aykut Asil</description>
+    <image>
+      <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 10 Dec 2018 00:47:41 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/sh/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,10 +16,7 @@
       <pubDate>Mon, 10 Dec 2018 00:47:41 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/bash-scripts/</guid>
-      <description>cat &amp;laquo;EOF cat &amp;lt;&amp;lt;EOF komutu ile multiline bash script yazabiliriz. Son satır EOF oluncaya kadar satır oluşturulmaya devam eder.
-EOF yerine herhangi bir belirteç yazılabilir. Genelde EOF veya STOP yazılır.
-$ sql=$(cat &amp;lt;&amp;lt;EOF SELECT foo, bar FROM db WHERE foo=&amp;#39;baz&amp;#39; EOF ) $ cat &amp;lt;&amp;lt;EOF &amp;gt; print.sh #!/bin/bash echo \$PWD echo $PWD EOF Yukarıda ki bash çalıştırıldığında print.sh adında ve içeriği
-#!/bin/bash echo $PWD echo /home/user olan bir dosya oluşur.</description>
+      <description>Bash Scripts</description>
     </item>
     
   </channel>

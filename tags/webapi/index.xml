@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>webapi on Aykut Asil</title>
     <link>https://yazilim.aykutasil.com/tags/webapi/</link>
     <description>Recent content in webapi on Aykut Asil</description>
+    <image>
+      <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 12 Nov 2019 10:17:17 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/webapi/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,8 +16,7 @@
       <pubDate>Tue, 12 Nov 2019 10:17:17 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/aspnetcore-session/</guid>
-      <description>Asp.Net Core Session Kullanımı Asp.Net Core 2.1 ve üstü sürüme sahip projelerinizde Session kullanmak için Startup.cs dosyanızı aşağıdaki yöntemlerden birini seçerek güncellemeniz gerekmektedir.
-Yöntem 1 Yöntem 2 Neden Asp.Net Core 2.1 ve sonrası? 2018&amp;rsquo;de uygulanması zorunlu hale gelen Avrupa Veri Koruma Kanunu ile birlikte, şirketlere kişisel verileri kullanması konusunda bazı kısıtlamalar ve uygulaması gereken bazı zorunluluklar getirilmiştir. Bu zorunluluklardan şu an için bizi ilgilendiren kısmı cookielerin kullanımı. Web siteleri cookie kullanımı için son kullanıcının onayını almak zorundadır.</description>
+      <description>Asp.Net Core Session Kullanımı</description>
     </item>
     
     <item>
@@ -22,10 +25,7 @@ Yöntem 1 Yöntem 2 Neden Asp.Net Core 2.1 ve sonrası? 2018&amp;rsquo;de uygula
       <pubDate>Mon, 15 Apr 2019 22:08:14 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/aspnetcore-run-middleware/</guid>
-      <description>ASP.NET Core Run Method ASP.NET Core ile birlikte gelen middleware konsepti sayesinde request-response süreçleri arasına girerek kendi mantıksal devremizi yazmamız çok kolay hale gelmiştir.
-Yukarıda ki gibi Startup.cs sınıfı içerisindeki Configure fonksiyonuna app.Run() diyerek middleware&amp;lsquo;ımızı ekleyebiliriz.
-Peki tam olarak app.Run() metodu nasıl çalışıyor? app.Run() middlaware&amp;rsquo;ı ile istenilen bir kod bloğunu çalıştırabilir ve uygulamamıza kısa devre yaptırabiliriz. Yani pipeline akışı eğer Run() içerisine girerse, sonraki kod blokları çalışmayacaktır.
-Yukarıda ki kodun çıktısı sadece Response 1 olacak ve sonraki kod bloğu çalışmayacaktır.</description>
+      <description>**ASP.NET Core** ile birlikte gelen **middleware** konsepti sayesinde **request-response** süreçleri arasına girerek kendi mantıksal devremizi yazmamız çok kolay hale gelmiştir.</description>
     </item>
     
   </channel>

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>reduce on Aykut Asil</title>
     <link>https://yazilim.aykutasil.com/tags/reduce/</link>
     <description>Recent content in reduce on Aykut Asil</description>
+    <image>
+      <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 11 Jan 2017 18:42:04 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/reduce/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,8 +16,7 @@
       <pubDate>Wed, 11 Jan 2017 18:42:04 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/rxjava-reduce/</guid>
-      <description>RxJava reduce() Kullanımı reduce() fonskyionu iki şekilde çalışır;
- 1.Kullanım  .reduce(new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() {  @Override  public Integer apply(Integer val1, Integer val2) throws Exception {  return null;  } })  2.Kullanım  .reduce(10,new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() {  @Override  public Integer apply(Integer val1, Integer val2) throws Exception {  return null;  } }) 1 ile 2 nin farkı, 2 de görüldüğü üzere fonksiyona başlangıç değeri atanabilmesidir.</description>
+      <description>RxJava reduce() Kullanımı</description>
     </item>
     
   </channel>

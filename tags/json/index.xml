@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>json on Aykut Asil</title>
     <link>https://yazilim.aykutasil.com/tags/json/</link>
     <description>Recent content in json on Aykut Asil</description>
+    <image>
+      <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 03 Jan 2020 17:19:13 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/json/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,10 +16,7 @@
       <pubDate>Fri, 03 Jan 2020 17:19:13 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/create-json-with-kotlin-dsl/</guid>
-      <description>Kotlin DSL kullanarak Json Objesi nasıl oluşturulur ? Normalde Json objesi oluşturmak için aşağıdaki gibi bir yöntem izleriz.
-val jsonObject = JSONObject() jsonObject.put(&amp;#34;name&amp;#34;,&amp;#34;Aykut&amp;#34;) jsonObject.put(&amp;#34;age&amp;#34;,20) Bunu Kotlin DSL ile çok daha ergonomik bir şekilde hazırlayabiliriz.
-Öncelikle Json isminde bir sınıf oluşturuyoruz ve JsonObject sınıfından kalıtım alıyoruz. Ve DSL kullanabilmek için gerekli custom constructor fonksiyonumuzu yazıyoruz.
-class Json() : JSONObject() {  constructor(json: Json.() -&amp;gt; Unit) : this() {  this.init()  } } Json objemizi hazırlarken kolaylık olsun diye bir infix fonksiyonu ekliyoruz.</description>
+      <description>Kotlin DSL kullanarak Json Objesi nasıl oluşturulur ?</description>
     </item>
     
   </channel>

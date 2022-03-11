@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>java on Aykut Asil</title>
     <link>https://yazilim.aykutasil.com/tags/java/</link>
     <description>Recent content in java on Aykut Asil</description>
+    <image>
+      <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 11 Jan 2017 19:59:08 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,9 +16,7 @@
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-webview-etkilesimi/</guid>
-      <description>Kısa Hikaye : Üstünde çalışmakta olduğum bir projede kredi kartı ile ödeme yapısı kurmam gerekti. Kısaca projenin yapısından bahsedecek olursak
-  Backend : .Net Client : Android (Java) Ödeme altyapısı : İyzico  Client tarafında rest isteğiyle tüm işlemlerimizi backend tarafında yapıyoruz. Ödeme yapımızı da bu doğrultuda geliştirdik.
-Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine bankanın bize telefonumuza gelen şifreyi girmemiz için göndermiş olduğu web sayfası vs.</description>
+      <description>Android WebView Etkileşimi nasıl yapılır?</description>
     </item>
     
     <item>
@@ -41,11 +43,7 @@ Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine
       <pubDate>Wed, 11 Jan 2017 18:52:51 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/rxjava-range/</guid>
-      <description>RxJava range() Kullanımı **Örnek kod:&amp;ndash;
-private void range() {  Observable.range(3, 5).subscribeOn(Schedulers.io())  .subscribe(success -&amp;gt; {  Log.i(TAG, &amp;#34;val: &amp;#34; + success.toString());  }); } Açıklama:
-İlk değer 3 kabul edilerek sonraki 5 sayı için teker teker onNext() çağırılır. Yani 3 , 4, 5, 6, 7
-Yukarıda ki kodun çıktısı aşağıdaki gibidir.
-I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActivity: val: 6 I/MainActivity: val: 7 RxJava candır. 😉</description>
+      <description>RxJava range() Kullanımı</description>
     </item>
     
     <item>
@@ -54,8 +52,7 @@ I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActiv
       <pubDate>Wed, 11 Jan 2017 18:49:21 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/rxjava-scan/</guid>
-      <description>RxJava scan() Kullanımı RxJava da scan() kullanımı iki şekilde olur.
-   İlk değer ataması yapılarak    private void scan() {  Observable.just(3, 5, 7, 9)  .scan(10,(val1, val2) -&amp;gt; {  //  Log.i(TAG, &amp;#34;val1: &amp;#34; + val1.toString());  Log.i(TAG, &amp;#34;val2: &amp;#34; + val2.toString());  return val1 + val2;  }).subscribeOn(Schedulers.io())  .subscribe(success -&amp;gt; {  Log.i(TAG, &amp;#34;Sonuc:&amp;#34; + success.toString());  }); }   İlk değer ataması yapılmadan    private void scan() {  Observable.</description>
+      <description>RxJava scan() Kullanımı</description>
     </item>
     
     <item>
@@ -64,8 +61,7 @@ I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActiv
       <pubDate>Wed, 11 Jan 2017 18:42:04 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/rxjava-reduce/</guid>
-      <description>RxJava reduce() Kullanımı reduce() fonskyionu iki şekilde çalışır;
- 1.Kullanım  .reduce(new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() {  @Override  public Integer apply(Integer val1, Integer val2) throws Exception {  return null;  } })  2.Kullanım  .reduce(10,new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() {  @Override  public Integer apply(Integer val1, Integer val2) throws Exception {  return null;  } }) 1 ile 2 nin farkı, 2 de görüldüğü üzere fonksiyona başlangıç değeri atanabilmesidir.</description>
+      <description>RxJava reduce() Kullanımı</description>
     </item>
     
     <item>
@@ -74,10 +70,7 @@ I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActiv
       <pubDate>Wed, 11 Jan 2017 17:27:29 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-create-library-upload-bintray/</guid>
-      <description>Android uygulaması yazarken bazı oluşturmuş olduğunuz yapıları tekrar tekrar yazmak durumunda kalıyorsanız, sizin de artık kendi kütüphanenizi yazmanızın zamanı gelmiş geçiyor demektir. Böyle bir durum söz konusu olmak zorunda değil tabi library oluşturmak için 🙂
-Bu yazının konusu Android Library oluşturmak, oluşturmuş olduğumuz bu kütüphaneyi maven ve jcenter repository e deploy etmek olucak.
-Ve başlayabiliriz.
-İlk olarak Android Studio yu açarak File &amp;gt; New &amp;gt; New Project e tıklayıp yeni bir proje oluşturalım.</description>
+      <description>Android uygulaması yazarken bazı oluşturmuş olduğunuz yapıları tekrar tekrar yazmak durumunda kalıyorsanız, sizin de artık kendi kütüphanenizi yazmanızın zamanı gelmiş geçiyor demektir. Böyle bir durum söz konusu olmak zorunda değil tabi library oluşturmak için 🙂</description>
     </item>
     
     <item>
@@ -165,10 +158,7 @@ OneoffTask oneoff = new OneoffTask.Builder()  // Uygulamanızı kapatsanız bile
       <pubDate>Wed, 11 Jan 2017 01:42:54 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-smsreceiver/</guid>
-      <description>Android SMS Receiver Android de gelen sms leri dinlemek ve uygulamanızın akışını gelen sms lere göre şekillendirmek için aşağıdaki yapıyı kullanabilirsiniz.
-İlk olarak AndroidManifest.xml dosyanızda receiver tanımlamalısınız. Fakat biz bu receiver ı dinamik olarak tanımlıcaz. Bunu yapmamızın sebebi SMS i dinledikten sonra bu receiver ı silmek ve daha sonra gelen SMS lerin dinlenmesini önlemek.
-Siz uygulamınız da sürekli bir SMS dinlemeye ihtiyaç duyarsanız receiver ı AndroidManifest.xml dosyanızda tanımlamalısınız.
-Biz burda SMS dinlemesi yaparken önlem amaçlı olarak CPU nun uyumasını önlüyoruz.</description>
+      <description>Android Test</description>
     </item>
     
     <item>

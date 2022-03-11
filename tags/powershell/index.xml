@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>powershell on Aykut Asil</title>
     <link>https://yazilim.aykutasil.com/tags/powershell/</link>
     <description>Recent content in powershell on Aykut Asil</description>
+    <image>
+      <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 21 Dec 2020 13:01:16 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Mon, 21 Dec 2020 13:01:16 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/powershell-invokecommand-ile-uzak-bilgisayarda-komut-calistirma/</guid>
-      <description>Senaryo Şu anda çalışmış olduğum şirkette, kendi local sunucularımız üzerine kurmuş olduğumuz Teamcity ile projelerin derlenip sunulma aşamasını otomatize etmeye çalışıyoruz. Teamcity kurmuş olduğumuz sunucu ile projelerin deploy olacağı sunucular farklı. Biz şimdilik bu deploy sürecini teamcity built-in FTP özelliğini kullanarak hallediyoruz. Fakat .net core projelerinin deploy olma sürecinde yaşanan bir problem var. Eğer .net core projeniz IIS arkasında konuşlanma şeklinde ayarlanmış ise IIS, projenizin .exe dosyasını çalıştıyor olacak ve bu çalışma süresince siz bu dosyayı değiştirme, silme vb.</description>
+      <description>PowerShell Invoke-Command kullanımı. .Net Core projelerinin deploy edilebilmesi için app_offline.htm dosyasının oluşturulması</description>
     </item>
     
   </channel>

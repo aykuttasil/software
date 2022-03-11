@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>kotlin on Aykut Asil</title>
     <link>https://yazilim.aykutasil.com/categories/kotlin/</link>
     <description>Recent content in kotlin on Aykut Asil</description>
+    <image>
+      <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 03 Jan 2020 17:19:13 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/kotlin/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,10 +16,7 @@
       <pubDate>Fri, 03 Jan 2020 17:19:13 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/create-json-with-kotlin-dsl/</guid>
-      <description>Kotlin DSL kullanarak Json Objesi nasıl oluşturulur ? Normalde Json objesi oluşturmak için aşağıdaki gibi bir yöntem izleriz.
-val jsonObject = JSONObject() jsonObject.put(&amp;#34;name&amp;#34;,&amp;#34;Aykut&amp;#34;) jsonObject.put(&amp;#34;age&amp;#34;,20) Bunu Kotlin DSL ile çok daha ergonomik bir şekilde hazırlayabiliriz.
-Öncelikle Json isminde bir sınıf oluşturuyoruz ve JsonObject sınıfından kalıtım alıyoruz. Ve DSL kullanabilmek için gerekli custom constructor fonksiyonumuzu yazıyoruz.
-class Json() : JSONObject() {  constructor(json: Json.() -&amp;gt; Unit) : this() {  this.init()  } } Json objemizi hazırlarken kolaylık olsun diye bir infix fonksiyonu ekliyoruz.</description>
+      <description>Kotlin DSL kullanarak Json Objesi nasıl oluşturulur ?</description>
     </item>
     
     <item>
@@ -24,9 +25,7 @@ class Json() : JSONObject() {  constructor(json: Json.() -&amp;gt; Unit) : this(
       <pubDate>Tue, 29 Jan 2019 15:38:29 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-kotlin-test-final-type-problem/</guid>
-      <description>Sorun Kotlin dili ile geliştirilen Android projelerinin test yazımı sırasında sınıfların veya metodların mocklanması, Java ile geliştirilen projelere göre bazı farklılıklar göstermektedir. Bu farklılığın sebeplerinden biri Kotlin ile oluşturulan sınıf veya metodların default olarak final olarak işaretlenmiş olmasıdır. Ve final tipindeki sınıfların mocklanması bazı sorunlar çıkarmaktadır.
-Çözüm Final tipindeki sınıfların veya metodların mocklama işlemi sırasında çıkan sorunu çözmenin birkaç farklı yöntemi vardır.
-Çözüm 1 (open ClassName) Test edeceğimiz sınıf ve metodun başına open ifadesini ekleyerek extend edilebilir hale getirmek.</description>
+      <description>Android Kotlin ile test yazarken karşılaşılan final type problemi ve çözümü</description>
     </item>
     
     <item>
@@ -35,9 +34,7 @@ class Json() : JSONObject() {  constructor(json: Json.() -&amp;gt; Unit) : this(
       <pubDate>Sun, 09 Jul 2017 00:00:00 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/kotlin-jvmoverloads/</guid>
-      <description>Kotlin @JvmOverloads Kotlin ile uygulama geliştirmeyi teşvik eden en büyük etkenlerden biri şüphesiz Java dili uyumlu yapısıdır. Her iki tarafdan da birbirlerine referanslar verilebilir.
-Kotlin dilinin Java&amp;rsquo;dan ayıran özelliklerinden biri Java compiler ından daha zeki olmasıdır. Nitekim java dili yaşlanıyor :). Kotlin ile oluşturulan bazı yapıların Java tarafına uyumlu hale getirilmesi için bazen ufak düzenlemelere gerek duyulabiliyor. Bu düzenlemelerden bir tanesi de @JvmOverloads annotation kullanımı.
-fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View {  return LayoutInflater.</description>
+      <description>Kotlin JvmOverloads Annotations</description>
     </item>
     
     <item>
@@ -46,8 +43,7 @@ fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View {  return
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/kotlin-sealed-class/</guid>
-      <description>Kotlin Sealed Class Enum yapısına benzer bir yapıya sahiptir. Ve benzer görevler için kullanılır. Aradaki fark enum lar sabit değer ifade etmek için kullanılırken sealed yapısı normal sınıf gibi fakat enum mantığıyla kullanılır. Yani belli bir duruma ait fonksiyonları bir arada tutmak ve when() gibi fonksiyonlar ile birlikte kullanımını sağlamak için kullanılır.
- // Sealed class enum yapısına benzer  // Bir durum için belli başlı akışları bir arada tutmamızı sağlar ve bu akışların yönetimini kolaylaştırır.</description>
+      <description>**Enum** yapısına benzer bir yapıya sahiptir ve benzer görevler için kullanılır. Aradaki fark enum lar sabit değer ifade etmek için kullanılırken **sealed** yapısı normal sınıf gibi fakat enum mantığıyla kullanılır.</description>
     </item>
     
     <item>
@@ -56,9 +52,7 @@ fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View {  return
       <pubDate>Sun, 18 Jun 2017 02:24:37 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/kotlin-lambda/</guid>
-      <description>Kotlin Lambda Kullanımı Kotlin dili ile geliştirme yaparken fonksiyonel programlama nimetlerinden faydalanmamızı sağlayan lambda birçok konuda bize yardımcı olacaktır. Doğru kullanımını öğrendiğimiz ölçüde nimetlerinin farkına varabiliriz.
-Belli başlı lambda kullanımları için aşağıdaki örneği inceleyebilirsiniz.
- override fun onCreate(savedInstanceState: Bundle?) {  super.onCreate(savedInstanceState)  setContentView(R.layout.activity_kotlin_lambda)   // Normal Kullanım  ButtonPress.setOnClickListener(object : View.OnClickListener {  override fun onClick(view: View?) {  toast(&amp;#34;Press Me Click&amp;#34;)  }   })   // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz  ButtonPress.</description>
+      <description>Kotlin Lambda Kullanımı</description>
     </item>
     
     <item>
@@ -79,10 +73,7 @@ File(dir).apply { mkdirs() } </description>
       <pubDate>Tue, 06 Jun 2017 04:42:56 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/kotlin-when/</guid>
-      <description>Kotlin&amp;rsquo;de when operatörü işimizi oldukça kolaylaştıran operatörlerden biridir.
-if- else if yapısı yerine kullanılabileceği gibi bazı yardımcı operatörler ile birçok marifet kazanabilir.
- val i = 10  when {  i &amp;lt; 7 -&amp;gt; println(&amp;#34;first block&amp;#34;)  fooString.startsWith(&amp;#34;hello&amp;#34;) -&amp;gt; println(&amp;#34;second block&amp;#34;)  else -&amp;gt; println(&amp;#34;else block&amp;#34;)  } Yukarıda ki örnek if-else if-else yapısının aynısıdır.
-  when (i) {  0, 21 -&amp;gt; println(&amp;#34;0 or 21&amp;#34;)  in 1.</description>
+      <description>Kotlin&amp;#39;de `when` operatörü işimizi oldukça kolaylaştıran operatörlerden biridir. `if- else if` yapısı yerine kullanılabileceği gibi bazı yardımcı operatörler ile birçok marifet kazanabilir.</description>
     </item>
     
     <item>
@@ -91,9 +82,7 @@ if- else if yapısı yerine kullanılabileceği gibi bazı yardımcı operatörl
       <pubDate>Tue, 06 Jun 2017 04:33:06 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/kotlin-let/</guid>
-      <description>Kotlin fun &amp;lt;T, R&amp;gt; T.let(f: (T) -&amp;gt; R): R = f(this) let() temel olarak, belirli bir kapsam için bir değişken/kod bloğu oluşturmamızı sağlayan bir kapsamlayıcı işlevdir. Yani let() bir sarmalıyıcı fonksiyondur.
-Örneğin:
-private var mPhotoUrl: String? = null  fun uploadClicked() {  if (mPhotoUrl != null) {  uploadPhoto(mPhotoUrl!!)  } } Yukarıda ki if (mPhotoUrl != null) satırı ile null kontrolü yapılır ve eğer null değilse uploadPhoto(mPhotoUrl!!) kod bloğu çalıştırılır.</description>
+      <description>`let()` temel olarak, belirli bir kapsam için bir **değişken/kod bloğu** oluşturmamızı sağlayan bir kapsamlayıcı işlevdir. Yani `let()` bir sarmalıyıcı fonksiyondur.</description>
     </item>
     
   </channel>

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>continuous-integration on Aykut Asil</title>
     <link>https://yazilim.aykutasil.com/tags/continuous-integration/</link>
     <description>Recent content in continuous-integration on Aykut Asil</description>
+    <image>
+      <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 01 Dec 2018 14:20:45 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/continuous-integration/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +16,7 @@
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-circleci/</guid>
-      <description>CircleCI Android Yapılandırması .circleci/config.yml version: 2 jobs:  build:  working_directory: ~/code  docker:  - image: circleci/android:api-28-alpha  environment:  JVM_OPTS: -Xmx3200m  steps:  - checkout  - run:  name: Initialize Keystore File  command: echo $KEYSTORE_BASE64 | base64 --decode &amp;gt; app/aykutasilkeystore  - run:  name: Initialize Fabric Properties  command: |echo &amp;#34;apiKey=$FABRIC_API_KEY&amp;#34; &amp;gt;&amp;gt; app/fabric.properties echo &amp;#34;apiSecret=$FABRIC_API_SECRET&amp;#34; &amp;gt;&amp;gt; app/fabric.properties cat app/fabric.properties  - run:  name: Initialize Keystore File  command: |echo &amp;#34;signingKeyAlias=$KEYSTORE_KEY_ALIAS&amp;#34; &amp;gt;&amp;gt; keystore.</description>
+      <description>Android Circle CI/CD</description>
     </item>
     
     <item>
@@ -21,8 +25,7 @@
       <pubDate>Tue, 27 Nov 2018 14:20:45 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/circleci-configuration/</guid>
-      <description>CI/CD Uygulamaların build/test/depleyment süreçlerini otomatize etmemizi sağlayan CI/CD kavramları günümüz yazılım dünyasında olmazsa olmaz, bilinmezse ayıp olurlar arasına girmiş bulunmaktadır. Manuel yapılan bu işlemlerin otomatize edilmesi bize ve takım üyelerine çeşitli konularda fayda sağlayacak ve eğer manuel yöntemler ile ilerlendiği takdirde oluşabilecek hataları minimuma indirecektir. Projenizin build/test/deployment adımlarında çeşitli sorunlar yaşamaya başlamışsanız ya da başlamadan bitirmek istiyorsanız bu kavramları öğrenmekte fayda var.
-Çeşitli CI/CD araçları bulunmaktadır. Travis, Bitrise, AppCenter, CircleCI bunlardan bazılarıdır.</description>
+      <description>Circle CI/CD</description>
     </item>
     
   </channel>

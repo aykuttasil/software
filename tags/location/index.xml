@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>location on Aykut Asil</title>
     <link>https://yazilim.aykutasil.com/tags/location/</link>
     <description>Recent content in location on Aykut Asil</description>
+    <image>
+      <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 17 Jan 2020 18:13:00 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/location/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,8 +16,7 @@
       <pubDate>Fri, 17 Jan 2020 18:13:00 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-background-location/</guid>
-      <description>Android 10 ile birlikte gelen değişiklerden biri de Location dinleme ile alakalıdır. Uygulamamız arka plandayken (background) ve ön plandayken (foreground) konum dinleme şekilleri farklılık göstermektedir. Uygulamımız bize görünür vaziyette ise yani foreground&amp;lsquo;da ise her hangi bir değişiklik yapmamıza gerek yoktur. Fakat Home tuşuna basarak veya başka bir uygulama açarak uygulamamızı arka plana atıyorsak ve bu sırada konum dinlemesinin devam etmesini istiyorsak bazı düzenlemeler yapmamız gerekmektedir.
-İki şekilde background konum dinlemesi yapılabilir.</description>
+      <description>Android 10 Background Location kısıtlaması nedir ve nasıl </description>
     </item>
     
   </channel>

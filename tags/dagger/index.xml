@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>dagger on Aykut Asil</title>
     <link>https://yazilim.aykutasil.com/tags/dagger/</link>
     <description>Recent content in dagger on Aykut Asil</description>
+    <image>
+      <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 12 Oct 2018 11:48:08 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/dagger/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,9 +16,7 @@
       <pubDate>Fri, 12 Oct 2018 11:48:08 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-dagger/</guid>
-      <description>@BindsInstance Bağımlılıklarınızı oluşturma esnasında belirtmeniz gereken bir değişkenininiz var ve bu değişkeni diğer module leriniz içerisinde kullanıcaksınız. Aşağıdaki gibi @BindsInstance kullanarak bu bağımlılığınızı dependency graph içerisine ekleyerek diğer modüller içerisinde kullanımını sağlayabilirsiniz.
-@Component(modules = AppModule.class) interface AppComponent {  App app();   @Component.Builder  interface Builder {  @BindsInstance Builder apiUrl(@ApiUrl String apiUrl);  AppComponent build();  } } Component build edilirken apiUrl değeri bind edilir.
- App app = DaggerAppComponent  .</description>
+      <description>Android Dagger Kullanımı</description>
     </item>
     
   </channel>

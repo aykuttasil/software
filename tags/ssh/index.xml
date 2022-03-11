@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>ssh on Aykut Asil</title>
     <link>https://yazilim.aykutasil.com/tags/ssh/</link>
     <description>Recent content in ssh on Aykut Asil</description>
+    <image>
+      <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 26 Oct 2018 01:04:21 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,8 +16,7 @@
       <pubDate>Fri, 26 Oct 2018 01:04:21 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/ssh-surekli-parola-isteme-problemi/</guid>
-      <description>Problem ./ssh klasörünüzde id_rsa ve id_rsa.pub dosyanız var ve Github, Gitlab, DigitalOcean vs. gibi platformlara erişim için bu rsa keyini kullanıyorsunuz. Her biri için ayrı ayrı rsa key oluşturmuş da olabilirsiniz tabi. Fakat git clone git@gitlab.com:aykuttasil/test.git gibi bir komutu çalıştırdığınızda Enter passphrase for key &#39;/Users/aykutasil/.ssh/id_rsa&#39;: gibi bir uyarı karşınıza çıkıyor ve rsa keyinizin şifresini girmenizi istiyor. Her git komutunda aynı şey ile karşılaşıyorsunuz.
-Yukarıda ki durum ssh&amp;lsquo;ın kullanım amacına ters düştüğü için ortada bir problem var demektir.</description>
+      <description>SSH sürekli parola isstemesi problemi ve çözümü</description>
     </item>
     
   </channel>

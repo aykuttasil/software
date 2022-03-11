@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>yazilim on Aykut Asil</title>
     <link>https://yazilim.aykutasil.com/categories/yazilim/</link>
     <description>Recent content in yazilim on Aykut Asil</description>
+    <image>
+      <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 27 Aug 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/yazilim/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,9 +16,7 @@
       <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-architecture-components/</guid>
-      <description>Android Architecture Components Öncelikle şu linkleri verelim:
- https://developer.android.com/topic/libraries/architecture/index.html Lifecycle LiveData ViewModel  LifeCycle Daha önce Android uygulaması geliştirenler çok iyi bilirler ki bir activity veya fragment&amp;rsquo;ın yaşam döngüsünü yönetmek sıkıntılı bir süreçtir. Activity&amp;rsquo;nin arka planda mı yoksa görünür vaziyette mi oluşuna göre düzenlenen akışlar çoğu zaman yoğun dikkat gerektiren süreçlerdir. Yukarıda ki Lifecycle linkine tıklarsanınz çok güzel bir örnek ile durumu açıklamışlar.
-Oluşturduğumuz nesneler eğer activity&amp;rsquo;nin yaşam döngüsüne bağlı ise bunu yönetmek için activity&amp;rsquo;mizin genelde onCreate ve onStop metodları içerisinde bu nesnelere ait fonksiyonları çağırıyorduk.</description>
+      <description>Android Architecture Components nedir ve nasıl kullanılır?</description>
     </item>
     
     <item>
@@ -23,9 +25,7 @@ Oluşturduğumuz nesneler eğer activity&amp;rsquo;nin yaşam döngüsüne bağl
       <pubDate>Sun, 09 Jul 2017 00:00:00 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/kotlin-jvmoverloads/</guid>
-      <description>Kotlin @JvmOverloads Kotlin ile uygulama geliştirmeyi teşvik eden en büyük etkenlerden biri şüphesiz Java dili uyumlu yapısıdır. Her iki tarafdan da birbirlerine referanslar verilebilir.
-Kotlin dilinin Java&amp;rsquo;dan ayıran özelliklerinden biri Java compiler ından daha zeki olmasıdır. Nitekim java dili yaşlanıyor :). Kotlin ile oluşturulan bazı yapıların Java tarafına uyumlu hale getirilmesi için bazen ufak düzenlemelere gerek duyulabiliyor. Bu düzenlemelerden bir tanesi de @JvmOverloads annotation kullanımı.
-fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View {  return LayoutInflater.</description>
+      <description>Kotlin JvmOverloads Annotations</description>
     </item>
     
     <item>
@@ -34,8 +34,7 @@ fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View {  return
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/kotlin-sealed-class/</guid>
-      <description>Kotlin Sealed Class Enum yapısına benzer bir yapıya sahiptir. Ve benzer görevler için kullanılır. Aradaki fark enum lar sabit değer ifade etmek için kullanılırken sealed yapısı normal sınıf gibi fakat enum mantığıyla kullanılır. Yani belli bir duruma ait fonksiyonları bir arada tutmak ve when() gibi fonksiyonlar ile birlikte kullanımını sağlamak için kullanılır.
- // Sealed class enum yapısına benzer  // Bir durum için belli başlı akışları bir arada tutmamızı sağlar ve bu akışların yönetimini kolaylaştırır.</description>
+      <description>**Enum** yapısına benzer bir yapıya sahiptir ve benzer görevler için kullanılır. Aradaki fark enum lar sabit değer ifade etmek için kullanılırken **sealed** yapısı normal sınıf gibi fakat enum mantığıyla kullanılır.</description>
     </item>
     
     <item>
@@ -44,9 +43,7 @@ fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View {  return
       <pubDate>Sun, 18 Jun 2017 02:24:37 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/kotlin-lambda/</guid>
-      <description>Kotlin Lambda Kullanımı Kotlin dili ile geliştirme yaparken fonksiyonel programlama nimetlerinden faydalanmamızı sağlayan lambda birçok konuda bize yardımcı olacaktır. Doğru kullanımını öğrendiğimiz ölçüde nimetlerinin farkına varabiliriz.
-Belli başlı lambda kullanımları için aşağıdaki örneği inceleyebilirsiniz.
- override fun onCreate(savedInstanceState: Bundle?) {  super.onCreate(savedInstanceState)  setContentView(R.layout.activity_kotlin_lambda)   // Normal Kullanım  ButtonPress.setOnClickListener(object : View.OnClickListener {  override fun onClick(view: View?) {  toast(&amp;#34;Press Me Click&amp;#34;)  }   })   // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz  ButtonPress.</description>
+      <description>Kotlin Lambda Kullanımı</description>
     </item>
     
     <item>
@@ -67,10 +64,7 @@ File(dir).apply { mkdirs() } </description>
       <pubDate>Tue, 06 Jun 2017 04:42:56 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/kotlin-when/</guid>
-      <description>Kotlin&amp;rsquo;de when operatörü işimizi oldukça kolaylaştıran operatörlerden biridir.
-if- else if yapısı yerine kullanılabileceği gibi bazı yardımcı operatörler ile birçok marifet kazanabilir.
- val i = 10  when {  i &amp;lt; 7 -&amp;gt; println(&amp;#34;first block&amp;#34;)  fooString.startsWith(&amp;#34;hello&amp;#34;) -&amp;gt; println(&amp;#34;second block&amp;#34;)  else -&amp;gt; println(&amp;#34;else block&amp;#34;)  } Yukarıda ki örnek if-else if-else yapısının aynısıdır.
-  when (i) {  0, 21 -&amp;gt; println(&amp;#34;0 or 21&amp;#34;)  in 1.</description>
+      <description>Kotlin&amp;#39;de `when` operatörü işimizi oldukça kolaylaştıran operatörlerden biridir. `if- else if` yapısı yerine kullanılabileceği gibi bazı yardımcı operatörler ile birçok marifet kazanabilir.</description>
     </item>
     
     <item>
@@ -79,9 +73,7 @@ if- else if yapısı yerine kullanılabileceği gibi bazı yardımcı operatörl
       <pubDate>Tue, 06 Jun 2017 04:33:06 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/kotlin-let/</guid>
-      <description>Kotlin fun &amp;lt;T, R&amp;gt; T.let(f: (T) -&amp;gt; R): R = f(this) let() temel olarak, belirli bir kapsam için bir değişken/kod bloğu oluşturmamızı sağlayan bir kapsamlayıcı işlevdir. Yani let() bir sarmalıyıcı fonksiyondur.
-Örneğin:
-private var mPhotoUrl: String? = null  fun uploadClicked() {  if (mPhotoUrl != null) {  uploadPhoto(mPhotoUrl!!)  } } Yukarıda ki if (mPhotoUrl != null) satırı ile null kontrolü yapılır ve eğer null değilse uploadPhoto(mPhotoUrl!!) kod bloğu çalıştırılır.</description>
+      <description>`let()` temel olarak, belirli bir kapsam için bir **değişken/kod bloğu** oluşturmamızı sağlayan bir kapsamlayıcı işlevdir. Yani `let()` bir sarmalıyıcı fonksiyondur.</description>
     </item>
     
     <item>
@@ -145,9 +137,7 @@ var a; Console.Write(a ?? &amp;#34;boş değer&amp;#34;); Yukarıdaki söz dizim
       <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-webview-etkilesimi/</guid>
-      <description>Kısa Hikaye : Üstünde çalışmakta olduğum bir projede kredi kartı ile ödeme yapısı kurmam gerekti. Kısaca projenin yapısından bahsedecek olursak
-  Backend : .Net Client : Android (Java) Ödeme altyapısı : İyzico  Client tarafında rest isteğiyle tüm işlemlerimizi backend tarafında yapıyoruz. Ödeme yapımızı da bu doğrultuda geliştirdik.
-Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine bankanın bize telefonumuza gelen şifreyi girmemiz için göndermiş olduğu web sayfası vs.</description>
+      <description>Android WebView Etkileşimi nasıl yapılır?</description>
     </item>
     
     <item>
@@ -213,11 +203,7 @@ Aynı anda 1000 den fazla kullanıcıya cevap verme gereksinimiz var artık. Sad
       <pubDate>Wed, 11 Jan 2017 18:52:51 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/rxjava-range/</guid>
-      <description>RxJava range() Kullanımı **Örnek kod:&amp;ndash;
-private void range() {  Observable.range(3, 5).subscribeOn(Schedulers.io())  .subscribe(success -&amp;gt; {  Log.i(TAG, &amp;#34;val: &amp;#34; + success.toString());  }); } Açıklama:
-İlk değer 3 kabul edilerek sonraki 5 sayı için teker teker onNext() çağırılır. Yani 3 , 4, 5, 6, 7
-Yukarıda ki kodun çıktısı aşağıdaki gibidir.
-I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActivity: val: 6 I/MainActivity: val: 7 RxJava candır. 😉</description>
+      <description>RxJava range() Kullanımı</description>
     </item>
     
     <item>
@@ -226,8 +212,7 @@ I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActiv
       <pubDate>Wed, 11 Jan 2017 18:49:21 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/rxjava-scan/</guid>
-      <description>RxJava scan() Kullanımı RxJava da scan() kullanımı iki şekilde olur.
-   İlk değer ataması yapılarak    private void scan() {  Observable.just(3, 5, 7, 9)  .scan(10,(val1, val2) -&amp;gt; {  //  Log.i(TAG, &amp;#34;val1: &amp;#34; + val1.toString());  Log.i(TAG, &amp;#34;val2: &amp;#34; + val2.toString());  return val1 + val2;  }).subscribeOn(Schedulers.io())  .subscribe(success -&amp;gt; {  Log.i(TAG, &amp;#34;Sonuc:&amp;#34; + success.toString());  }); }   İlk değer ataması yapılmadan    private void scan() {  Observable.</description>
+      <description>RxJava scan() Kullanımı</description>
     </item>
     
     <item>
@@ -236,8 +221,7 @@ I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActiv
       <pubDate>Wed, 11 Jan 2017 18:42:04 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/rxjava-reduce/</guid>
-      <description>RxJava reduce() Kullanımı reduce() fonskyionu iki şekilde çalışır;
- 1.Kullanım  .reduce(new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() {  @Override  public Integer apply(Integer val1, Integer val2) throws Exception {  return null;  } })  2.Kullanım  .reduce(10,new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() {  @Override  public Integer apply(Integer val1, Integer val2) throws Exception {  return null;  } }) 1 ile 2 nin farkı, 2 de görüldüğü üzere fonksiyona başlangıç değeri atanabilmesidir.</description>
+      <description>RxJava reduce() Kullanımı</description>
     </item>
     
     <item>
@@ -268,10 +252,7 @@ Bunlardan en çok kullanılanı Açık Sistem Bağlantıları komitesi tarafınd
       <pubDate>Wed, 11 Jan 2017 17:27:29 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-create-library-upload-bintray/</guid>
-      <description>Android uygulaması yazarken bazı oluşturmuş olduğunuz yapıları tekrar tekrar yazmak durumunda kalıyorsanız, sizin de artık kendi kütüphanenizi yazmanızın zamanı gelmiş geçiyor demektir. Böyle bir durum söz konusu olmak zorunda değil tabi library oluşturmak için 🙂
-Bu yazının konusu Android Library oluşturmak, oluşturmuş olduğumuz bu kütüphaneyi maven ve jcenter repository e deploy etmek olucak.
-Ve başlayabiliriz.
-İlk olarak Android Studio yu açarak File &amp;gt; New &amp;gt; New Project e tıklayıp yeni bir proje oluşturalım.</description>
+      <description>Android uygulaması yazarken bazı oluşturmuş olduğunuz yapıları tekrar tekrar yazmak durumunda kalıyorsanız, sizin de artık kendi kütüphanenizi yazmanızın zamanı gelmiş geçiyor demektir. Böyle bir durum söz konusu olmak zorunda değil tabi library oluşturmak için 🙂</description>
     </item>
     
     <item>
@@ -432,10 +413,7 @@ OneoffTask oneoff = new OneoffTask.Builder()  // Uygulamanızı kapatsanız bile
       <pubDate>Wed, 11 Jan 2017 01:42:54 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-smsreceiver/</guid>
-      <description>Android SMS Receiver Android de gelen sms leri dinlemek ve uygulamanızın akışını gelen sms lere göre şekillendirmek için aşağıdaki yapıyı kullanabilirsiniz.
-İlk olarak AndroidManifest.xml dosyanızda receiver tanımlamalısınız. Fakat biz bu receiver ı dinamik olarak tanımlıcaz. Bunu yapmamızın sebebi SMS i dinledikten sonra bu receiver ı silmek ve daha sonra gelen SMS lerin dinlenmesini önlemek.
-Siz uygulamınız da sürekli bir SMS dinlemeye ihtiyaç duyarsanız receiver ı AndroidManifest.xml dosyanızda tanımlamalısınız.
-Biz burda SMS dinlemesi yaparken önlem amaçlı olarak CPU nun uyumasını önlüyoruz.</description>
+      <description>Android Test</description>
     </item>
     
     <item>
@@ -583,10 +561,7 @@ String.xml
       <pubDate>Sun, 25 Dec 2016 03:51:49 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/docker-nano-setup/</guid>
-      <description>Docker ile ayağa kaldırmış olduğunuz bir container olduğunu varsayalım ve bu docker container a erişerek komut satırı çalıştırmanız gerekiyor.
-https://docs.docker.com/engine/reference/commandline/exec/
-Yukarıdaki linki takip ederek nasıl komut çalıştıracağınızı öğrenebilirsiniz. Ya da Kitematic gibi bir uygulama yüklü ise bu uygulamayı açarak ve çalışan image e tıklayarak exe butonuna basmamız yeterli olucaktır.
-Bu sayfada anlatmak istediğim şey tüm bunları yaptınız ve container ın içindeyken bir dosya oluşturdunuz. Ve bu dosyanın içeriğini düzenlemeniz gerekmekte.</description>
+      <description>Docker Nano kurulumu nasıl yapılır?</description>
     </item>
     
   </channel>

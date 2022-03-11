@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>mockito on Aykut Asil</title>
     <link>https://yazilim.aykutasil.com/tags/mockito/</link>
     <description>Recent content in mockito on Aykut Asil</description>
+    <image>
+      <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 18 Sep 2018 11:51:07 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/mockito/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,9 +16,7 @@
       <pubDate>Tue, 18 Sep 2018 11:51:07 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-test/</guid>
-      <description>Not: Bu yazıyı hazırlarken ben de öğrenme sürecinde olucam. Araştırdığım ve öğrendiğim tüm teknik bilgileri ve yöntemleri, best-practice leri gelişi güzel(karmakarışık değil) bir şekilde yazıcam. Sonrasında zaman bulduğum vakit bir düzenleme yapıcam.
- Unit Test ve Instrumentation Test Unit Test Unit Test: Android framework ünden bağımsız olan sınıfları/metodları test etmek için kullanılır. Robolectric ve JUnit popüler unit test araçlarıdır.
- If you run local unit tests, a special version of the android.</description>
+      <description>Android&amp;#39;e ait tüm bileşenlerin testi nasıl hazırlanır? **Unit Test** ve **Instrumentation Test** arasındaki farklar nedir ve nasıl hazırlanır?</description>
     </item>
     
   </channel>

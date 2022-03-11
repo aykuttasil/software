@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>ssl on Aykut Asil</title>
     <link>https://yazilim.aykutasil.com/tags/ssl/</link>
     <description>Recent content in ssl on Aykut Asil</description>
+    <image>
+      <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 13 Aug 2018 00:50:25 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/ssl/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,10 +16,7 @@
       <pubDate>Mon, 13 Aug 2018 00:50:25 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/dns-over-tls/</guid>
-      <description>DNS over TLS Nedir? Kısaca açıklamak gerekirse, İnternet Servis Sağlayıcılarının, hangi siteye erişmek istediğimizi görmesini engelleme yöntemidir.
-TLS/SSL protokolü zaten bunu yapmıyor mu? TLS/SSL protokolüne sahip siteler üzerinden yapılan veri alış verişleri şifreli yapılır fakat hala hangi siteye erişmek istediğimiz açık/şifresiz bir şekilde bellidir ve internet servis sağlayıcıları bunu görebilir.
-Bunu engellemek için DNS over TLS kullanılır.
-Özet  TLS üzerinden DNS, tüm DNS isteklerinin güvenli bir şekilde yapılmasını sağlayan bir protokoldür.</description>
+      <description>DNS over TLC nedir?</description>
     </item>
     
     <item>
@@ -24,8 +25,7 @@ Bunu engellemek için DNS over TLS kullanılır.
       <pubDate>Sun, 12 Aug 2018 23:12:07 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/tls-ssl/</guid>
-      <description>TLS/SSL nedir? TLS (Transport Layer Securtiy) , SSL(Secure Sockets Layer)&amp;lsquo;ın modernize edilmiş halidir diyebiliriz. Yani günümüzde SSL den bahsedildiğinde aslında TLS den bahsediliyor olduğunu söyleyebiliriz.
-TLS protokolü, makinelerin web üzerindeki iletişimini kimlik doğrulama ve şifreleme mekanizmaları ile güvenli hale getirem bir standarttır. Günümüz dijital dünyasında güvenliğin önemi her geçen gün arttığı için iletişim yöntemleri ve güvenliği de beraberinde değişmekte ve gelişmektedir. Bu nedenle web iletişiminin güvenli hale gelmesi zorunluluk ve ihtiyaçtır.</description>
+      <description>**TLS (Transport Layer Securtiy)** , **SSL(Secure Sockets Layer)**&amp;#39;ın modernize edilmiş halidir diyebiliriz. Yani günümüzde SSL den bahsedildiğinde aslında TLS den bahsediliyor olduğunu söyleyebiliriz.</description>
     </item>
     
   </channel>
