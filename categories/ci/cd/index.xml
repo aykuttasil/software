@@ -4,18 +4,14 @@
     <title>CI/CD on Aykut Asil</title>
     <link>https://yazilim.aykutasil.com/categories/ci/cd/</link>
     <description>Recent content in CI/CD on Aykut Asil</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="https://yazilim.aykutasil.com/categories/ci/cd/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://yazilim.aykutasil.com/categories/ci/cd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android CircleCI Configuration</title>
       <link>https://yazilim.aykutasil.com/android-circleci/</link>
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-circleci/</guid>
-      <description>CircleCI Android Yapılandırması .circleci/config.yml version: 2 jobs: build: working_directory: ~/code docker: - image: circleci/android:api-28-alpha environment: JVM_OPTS: -Xmx3200m steps: - checkout - run: name: Initialize Keystore File command: echo $KEYSTORE_BASE64 | base64 --decode &amp;gt; app/aykutasilkeystore - run: name: Initialize Fabric Properties command: | echo &amp;#34;apiKey=$FABRIC_API_KEY&amp;#34; &amp;gt;&amp;gt; app/fabric.properties echo &amp;#34;apiSecret=$FABRIC_API_SECRET&amp;#34; &amp;gt;&amp;gt; app/fabric.properties cat app/fabric.properties - run: name: Initialize Keystore File command: | echo &amp;#34;signingKeyAlias=$KEYSTORE_KEY_ALIAS&amp;#34; &amp;gt;&amp;gt; keystore.properties echo &amp;#34;signingKeyAliasPassword=$KEYSTORE_KEY_ALIAS_PASSWORD&amp;#34; &amp;gt;&amp;gt; keystore.properties echo &amp;#34;signingStoreFile=$KEYSTORE_STORE_FILE&amp;#34; &amp;gt;&amp;gt; keystore.</description>
+      <description>CircleCI Android Yapılandırması .circleci/config.yml version: 2 jobs:  build:  working_directory: ~/code  docker:  - image: circleci/android:api-28-alpha  environment:  JVM_OPTS: -Xmx3200m  steps:  - checkout  - run:  name: Initialize Keystore File  command: echo $KEYSTORE_BASE64 | base64 --decode &amp;gt; app/aykutasilkeystore  - run:  name: Initialize Fabric Properties  command: |echo &amp;#34;apiKey=$FABRIC_API_KEY&amp;#34; &amp;gt;&amp;gt; app/fabric.properties echo &amp;#34;apiSecret=$FABRIC_API_SECRET&amp;#34; &amp;gt;&amp;gt; app/fabric.properties cat app/fabric.properties  - run:  name: Initialize Keystore File  command: |echo &amp;#34;signingKeyAlias=$KEYSTORE_KEY_ALIAS&amp;#34; &amp;gt;&amp;gt; keystore.</description>
     </item>
     
     <item>

@@ -5,11 +5,7 @@
     <link>https://yazilim.aykutasil.com/tags/dsl/</link>
     <description>Recent content in dsl on Aykut Asil</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 03 Jan 2020 17:19:13 +0300</lastBuildDate>
-    
-	<atom:link href="https://yazilim.aykutasil.com/tags/dsl/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 03 Jan 2020 17:19:13 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/dsl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kotlin DSL ile Json</title>
       <link>https://yazilim.aykutasil.com/create-json-with-kotlin-dsl/</link>
@@ -19,7 +15,7 @@
       <description>Kotlin DSL kullanarak Json Objesi nasıl oluşturulur ? Normalde Json objesi oluşturmak için aşağıdaki gibi bir yöntem izleriz.
 val jsonObject = JSONObject() jsonObject.put(&amp;#34;name&amp;#34;,&amp;#34;Aykut&amp;#34;) jsonObject.put(&amp;#34;age&amp;#34;,20) Bunu Kotlin DSL ile çok daha ergonomik bir şekilde hazırlayabiliriz.
 Öncelikle Json isminde bir sınıf oluşturuyoruz ve JsonObject sınıfından kalıtım alıyoruz. Ve DSL kullanabilmek için gerekli custom constructor fonksiyonumuzu yazıyoruz.
-class Json() : JSONObject() { constructor(json: Json.() -&amp;gt; Unit) : this() { this.init() } } Json objemizi hazırlarken kolaylık olsun diye bir infix fonksiyonu ekliyoruz.</description>
+class Json() : JSONObject() {  constructor(json: Json.() -&amp;gt; Unit) : this() {  this.init()  } } Json objemizi hazırlarken kolaylık olsun diye bir infix fonksiyonu ekliyoruz.</description>
     </item>
     
   </channel>

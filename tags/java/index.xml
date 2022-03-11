@@ -5,11 +5,7 @@
     <link>https://yazilim.aykutasil.com/tags/java/</link>
     <description>Recent content in java on Aykut Asil</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 03 Apr 2020 15:13:51 +0300</lastBuildDate>
-    
-	<atom:link href="https://yazilim.aykutasil.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 11 Jan 2017 19:59:08 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android ile WebView Etkileşimi</title>
       <link>https://yazilim.aykutasil.com/android-webview-etkilesimi/</link>
@@ -46,7 +42,7 @@ Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine
       
       <guid>https://yazilim.aykutasil.com/rxjava-range/</guid>
       <description>RxJava range() Kullanımı **Örnek kod:&amp;ndash;
-private void range() { Observable.range(3, 5).subscribeOn(Schedulers.io()) .subscribe(success -&amp;gt; { Log.i(TAG, &amp;#34;val: &amp;#34; + success.toString()); }); } Açıklama:
+private void range() {  Observable.range(3, 5).subscribeOn(Schedulers.io())  .subscribe(success -&amp;gt; {  Log.i(TAG, &amp;#34;val: &amp;#34; + success.toString());  }); } Açıklama:
 İlk değer 3 kabul edilerek sonraki 5 sayı için teker teker onNext() çağırılır. Yani 3 , 4, 5, 6, 7
 Yukarıda ki kodun çıktısı aşağıdaki gibidir.
 I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActivity: val: 6 I/MainActivity: val: 7 RxJava candır. 😉</description>
@@ -59,7 +55,7 @@ I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActiv
       
       <guid>https://yazilim.aykutasil.com/rxjava-scan/</guid>
       <description>RxJava scan() Kullanımı RxJava da scan() kullanımı iki şekilde olur.
-   İlk değer ataması yapılarak    private void scan() { Observable.just(3, 5, 7, 9) .scan(10,(val1, val2) -&amp;gt; { //  Log.i(TAG, &amp;#34;val1: &amp;#34; + val1.toString()); Log.i(TAG, &amp;#34;val2: &amp;#34; + val2.toString()); return val1 + val2; }).subscribeOn(Schedulers.io()) .subscribe(success -&amp;gt; { Log.i(TAG, &amp;#34;Sonuc:&amp;#34; + success.toString()); }); }   İlk değer ataması yapılmadan    private void scan() { Observable.</description>
+   İlk değer ataması yapılarak    private void scan() {  Observable.just(3, 5, 7, 9)  .scan(10,(val1, val2) -&amp;gt; {  //  Log.i(TAG, &amp;#34;val1: &amp;#34; + val1.toString());  Log.i(TAG, &amp;#34;val2: &amp;#34; + val2.toString());  return val1 + val2;  }).subscribeOn(Schedulers.io())  .subscribe(success -&amp;gt; {  Log.i(TAG, &amp;#34;Sonuc:&amp;#34; + success.toString());  }); }   İlk değer ataması yapılmadan    private void scan() {  Observable.</description>
     </item>
     
     <item>
@@ -69,8 +65,7 @@ I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActiv
       
       <guid>https://yazilim.aykutasil.com/rxjava-reduce/</guid>
       <description>RxJava reduce() Kullanımı reduce() fonskyionu iki şekilde çalışır;
- 1.Kullanım  .reduce(new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } })  2.Kullanım  .reduce(10,new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } }) 1 ile 2 nin farkı, 2 de görüldüğü üzere fonksiyona başlangıç değeri atanabilmesidir.
-Aşağıdaki örneklerde daha net görebilirsiniz.</description>
+ 1.Kullanım  .reduce(new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() {  @Override  public Integer apply(Integer val1, Integer val2) throws Exception {  return null;  } })  2.Kullanım  .reduce(10,new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() {  @Override  public Integer apply(Integer val1, Integer val2) throws Exception {  return null;  } }) 1 ile 2 nin farkı, 2 de görüldüğü üzere fonksiyona başlangıç değeri atanabilmesidir.</description>
     </item>
     
     <item>
@@ -126,7 +121,7 @@ Sizde projenizde resimlerle ilgili herhangi bir işlem yapıyorsanız bu kütüp
       
       <guid>https://yazilim.aykutasil.com/java-collections/</guid>
       <description>Collections.swap Swap kelime anlamı ile takas anlamına gelmektedir. Mevcut dizimiz içerisinde elemanların yerlerini değiştirmeye yarar.
-private static final String[] STRINGS = new String[]{ &amp;#34;1&amp;#34;, &amp;#34;2&amp;#34;, &amp;#34;3&amp;#34;, &amp;#34;4&amp;#34;, &amp;#34;5&amp;#34; }; private final List mItems = new ArrayList&amp;lt;&amp;gt;(); public void setArray() { mItems.addAll(Arrays.asList(STRINGS)); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 1,2,3,4,5  private void elemanYerDegistir() { Collections.swap(mItems, 0, 4); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 5,2,3,4,1 </description>
+private static final String[] STRINGS = new String[]{  &amp;#34;1&amp;#34;, &amp;#34;2&amp;#34;, &amp;#34;3&amp;#34;, &amp;#34;4&amp;#34;, &amp;#34;5&amp;#34; };  private final List mItems = new ArrayList&amp;lt;&amp;gt;(); public void setArray() {  mItems.addAll(Arrays.asList(STRINGS)); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır.  // 1,2,3,4,5  private void elemanYerDegistir() {  Collections.swap(mItems, 0, 4); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır.</description>
     </item>
     
     <item>
@@ -137,7 +132,7 @@ private static final String[] STRINGS = new String[]{ &amp;#34;1&amp;#34;, &amp;
       <guid>https://yazilim.aykutasil.com/android-custom-toolbar/</guid>
       <description>Android Toolbar Android Toolbar bileşeni çok yönlü bir yapıya sahiptir. Android Design Library kullanarak ve AppBarLayout içerisinde tanımlanarak oldukça farklı şekillere bürünebilir.
 Genel kullanımı aşağıdaki gibidir.
-&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt; &amp;lt;android.support.design.widget.CoordinatorLayout xmlns:android=&amp;#34;http://schemas.android.com/apk/res/android&amp;#34; xmlns:app=&amp;#34;http://schemas.android.com/apk/res-auto&amp;#34; xmlns:tools=&amp;#34;http://schemas.android.com/tools&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;match_parent&amp;#34; android:background=&amp;#34;@color/primary_dark&amp;#34; tools:context=&amp;#34;.MainActivity&amp;#34;&amp;gt; &amp;lt;FrameLayout android:id=&amp;#34;@+id/container&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;match_parent&amp;#34;&amp;gt; &amp;lt;/FrameLayout&amp;gt; &amp;lt;android.support.design.widget.FloatingActionButton android:id=&amp;#34;@+id/fab&amp;#34; android:layout_width=&amp;#34;wrap_content&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; android:layout_gravity=&amp;#34;bottom|end&amp;#34; android:layout_margin=&amp;#34;@dimen/fab_margin&amp;#34; android:src=&amp;#34;@android:drawable/ic_dialog_email&amp;#34; /&amp;gt; &amp;lt;android.support.design.widget.AppBarLayout android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; app:elevation=&amp;#34;0dp&amp;#34;&amp;gt; &amp;lt;android.support.v7.widget.Toolbar android:id=&amp;#34;@+id/toolbar&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; android:background=&amp;#34;@color/primary_dark&amp;#34; android:minHeight=&amp;#34;?attr/actionBarSize&amp;#34; app:popupTheme=&amp;#34;@style/AppTheme.PopupOverlay&amp;#34;/&amp;gt; &amp;lt;/android.support.design.widget.AppBarLayout&amp;gt; &amp;lt;/android.support.design.widget.CoordinatorLayout&amp;gt; app:elevation=&amp;quot;0dp&amp;quot; // AppBarLayout içerisinde ki bu tanımlama default olarak tanımlanmış gölgeyi kaldırır.</description>
+&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt; &amp;lt;android.support.design.widget.CoordinatorLayout xmlns:android=&amp;#34;http://schemas.android.com/apk/res/android&amp;#34;  xmlns:app=&amp;#34;http://schemas.android.com/apk/res-auto&amp;#34;  xmlns:tools=&amp;#34;http://schemas.android.com/tools&amp;#34;  android:layout_width=&amp;#34;match_parent&amp;#34;  android:layout_height=&amp;#34;match_parent&amp;#34;  android:background=&amp;#34;@color/primary_dark&amp;#34;  tools:context=&amp;#34;.MainActivity&amp;#34;&amp;gt;   &amp;lt;FrameLayout  android:id=&amp;#34;@+id/container&amp;#34;  android:layout_width=&amp;#34;match_parent&amp;#34;  android:layout_height=&amp;#34;match_parent&amp;#34;&amp;gt;   &amp;lt;/FrameLayout&amp;gt;    &amp;lt;android.support.design.widget.FloatingActionButton  android:id=&amp;#34;@+id/fab&amp;#34;  android:layout_width=&amp;#34;wrap_content&amp;#34;  android:layout_height=&amp;#34;wrap_content&amp;#34;  android:layout_gravity=&amp;#34;bottom|end&amp;#34;  android:layout_margin=&amp;#34;@dimen/fab_margin&amp;#34;  android:src=&amp;#34;@android:drawable/ic_dialog_email&amp;#34; /&amp;gt;    &amp;lt;android.</description>
     </item>
     
     <item>
@@ -161,7 +156,7 @@ Burada yapacağımız örnekte kısaca şu aşamaları görücez;
 GcmNetworkManager ın kullanım alanı daha çok asenkron ve periodic network işlemlerinizi yapılandırmaktır.
 Tek sefer çalışacak veya Periodic olarak çalışacak işlemleriniz için 2 tip belirlenmiştir.
  OneoffTask PeriodicTask   OneoffTask Kullanımı
-OneoffTask oneoff = new OneoffTask.Builder() // Uygulamanızı kapatsanız bile tekrar açtığınız da network işleminiz işleme konulur.  // Yani isteğinizin kalıcı olup olmamasını bu parametre ile ayarlayabilirsiniz.  .</description>
+OneoffTask oneoff = new OneoffTask.Builder()  // Uygulamanızı kapatsanız bile tekrar açtığınız da network işleminiz işleme konulur.  // Yani isteğinizin kalıcı olup olmamasını bu parametre ile ayarlayabilirsiniz.</description>
     </item>
     
     <item>
@@ -184,9 +179,8 @@ Biz burda SMS dinlemesi yaparken önlem amaçlı olarak CPU nun uyumasını önl
       <guid>https://yazilim.aykutasil.com/android-internet-connection-receiver/</guid>
       <description>Uygulamanızın akışını internet kontrolü yaparak yönetmeniz gerekebilir.
 Bunun için ilk olarak AndroidManifest.xml dosyasına receiver tanımı yapmalısınız.
-&amp;lt;receiver android:name=&amp;#34;.InternetConnectionReceiver&amp;#34;&amp;gt; &amp;lt;intent-filter&amp;gt; &amp;lt;action android:name=&amp;#34;android.net.conn.CONNECTIVITY_CHANGE&amp;#34; /&amp;gt; &amp;lt;/intent-filter&amp;gt; &amp;lt;/receiver&amp;gt; InternetConnectionReceiver
-public class InternetConnectionReceiver extends BroadcastReceiver { @Override public void onReceive(Context context, Intent intent) { if (CheckConnection(context)) { } } } Yukarıda tanımlanmış olan receiver, cihazın ağ yapısında herhangi bir değişiklik olduğunda bunu yakalar. Örneğin wireless açıkken kapattığınız da veya kapalıyken açtığınız da bunu yakayabilirsiniz.
-CheckConnection</description>
+&amp;lt;receiver android:name=&amp;#34;.InternetConnectionReceiver&amp;#34;&amp;gt;  &amp;lt;intent-filter&amp;gt;  &amp;lt;action android:name=&amp;#34;android.net.conn.CONNECTIVITY_CHANGE&amp;#34; /&amp;gt;  &amp;lt;/intent-filter&amp;gt; &amp;lt;/receiver&amp;gt; InternetConnectionReceiver
+public class InternetConnectionReceiver extends BroadcastReceiver {    @Override  public void onReceive(Context context, Intent intent) {   if (CheckConnection(context)) {   }  } } Yukarıda tanımlanmış olan receiver, cihazın ağ yapısında herhangi bir değişiklik olduğunda bunu yakalar. Örneğin wireless açıkken kapattığınız da veya kapalıyken açtığınız da bunu yakayabilirsiniz.</description>
     </item>
     
     <item>
@@ -200,7 +194,7 @@ ActiveAndroid kütüphanesi ORM kütüphanelerinden biridir.
 Kütüphaneyi buradan indirebilirsiniz.
 Kullanımı oldukça basittir. Sadece birkaç noktaya özellikle dikkat edilmesi gerekiyor. Bunlardan biri oluşturmuş olduğunuz tabloya yeni alanlar eklediğiniz de tablonuzu güncellemek. Veya herhangi bir sebeple tabloda çeşitli işlemler yapmak.
 Aşağıda kısaca Tablo oluşturmaktan ve gerektiğinde Tablo yu nasıl güncelleyeceğimizden bahsedicem.
-@Table(name = &amp;#34;Items&amp;#34;) public class ModelSampleItem extends Model { @Column(name = &amp;#34;Name&amp;#34;) public String name; @Column(name = &amp;#34;Surname&amp;#34;) public String surname; @Column(name = &amp;#34;Phone&amp;#34;) public String phoneNumber; @Column(name = &amp;#34;Xyz&amp;#34;) public String xyz; @Column(name = &amp;#34;EMail&amp;#34;) public String email; @Column(name = &amp;#34;TryColumn&amp;#34;) public String tryColumn; @Column(name = &amp;#34;Column3&amp;#34;) public String column3; public ModelSampleItem() { super(); } } Yukarıda ki yapıyı kullanarak istediğiniz Tablo yu oluşturmanız mümkün.</description>
+@Table(name = &amp;#34;Items&amp;#34;) public class ModelSampleItem extends Model {   @Column(name = &amp;#34;Name&amp;#34;)  public String name;   @Column(name = &amp;#34;Surname&amp;#34;)  public String surname;   @Column(name = &amp;#34;Phone&amp;#34;)  public String phoneNumber;   @Column(name = &amp;#34;Xyz&amp;#34;)  public String xyz;   @Column(name = &amp;#34;EMail&amp;#34;)  public String email;   @Column(name = &amp;#34;TryColumn&amp;#34;)  public String tryColumn;    @Column(name = &amp;#34;Column3&amp;#34;)  public String column3;     public ModelSampleItem() {  super();   } } Yukarıda ki yapıyı kullanarak istediğiniz Tablo yu oluşturmanız mümkün.</description>
     </item>
     
     <item>
@@ -227,7 +221,7 @@ Farklı ihtiyaçlarınız doğrultusunda Spinner ınızın elemanlarının değe
 Örneğin bir ListView iniz var.Ve içerisinde aynı kategoriden ama değişik durumlara sahip itemlar var ve siz bu itemları durumuna göre gruplandırıp sayısını Spinner da göstermek istiyorsunuz. Bunun için aşağıda belirtecek olduğum yapıyı kullanabilirsiniz.
 Öncellikle String.xml dosyasına Spinner ımızda göstereceğimiz elemanları tanımlıyoruz.
 String.xml
-&amp;lt;string name=&amp;#34;pazartesi&amp;#34;&amp;gt;Pazartesi&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;sali&amp;#34;&amp;gt;Salı&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;carsamba&amp;#34;&amp;gt;Çarşamba&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;persembe&amp;#34;&amp;gt;Perşembe&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;cuma&amp;#34;&amp;gt;Cuma&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;cumartesi&amp;#34;&amp;gt;Cumartesi&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;pazar&amp;#34;&amp;gt;Pazar&amp;lt;/string&amp;gt; &amp;lt;string-array name=&amp;#34;array_gonderi_list_haftalik&amp;#34;&amp;gt; &amp;lt;item&amp;gt;@string/pazartesi&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/sali&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/carsamba&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/persembe&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/cuma&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/cumartesi&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/pazar&amp;lt;/item&amp;gt; &amp;lt;/string-array&amp;gt; SpinnerHelper.</description>
+&amp;lt;string name=&amp;#34;pazartesi&amp;#34;&amp;gt;Pazartesi&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;sali&amp;#34;&amp;gt;Salı&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;carsamba&amp;#34;&amp;gt;Çarşamba&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;persembe&amp;#34;&amp;gt;Perşembe&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;cuma&amp;#34;&amp;gt;Cuma&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;cumartesi&amp;#34;&amp;gt;Cumartesi&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;pazar&amp;#34;&amp;gt;Pazar&amp;lt;/string&amp;gt;   &amp;lt;string-array name=&amp;#34;array_gonderi_list_haftalik&amp;#34;&amp;gt;  &amp;lt;item&amp;gt;@string/pazartesi&amp;lt;/item&amp;gt;  &amp;lt;item&amp;gt;@string/sali&amp;lt;/item&amp;gt;  &amp;lt;item&amp;gt;@string/carsamba&amp;lt;/item&amp;gt;  &amp;lt;item&amp;gt;@string/persembe&amp;lt;/item&amp;gt;  &amp;lt;item&amp;gt;@string/cuma&amp;lt;/item&amp;gt;  &amp;lt;item&amp;gt;@string/cumartesi&amp;lt;/item&amp;gt;  &amp;lt;item&amp;gt;@string/pazar&amp;lt;/item&amp;gt; &amp;lt;/string-array&amp;gt; SpinnerHelper.</description>
     </item>
     
   </channel>

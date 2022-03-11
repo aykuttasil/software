@@ -5,11 +5,7 @@
     <link>https://yazilim.aykutasil.com/tags/submit/</link>
     <description>Recent content in submit on Aykut Asil</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 11 Jan 2017 19:26:49 +0300</lastBuildDate>
-    
-	<atom:link href="https://yazilim.aykutasil.com/tags/submit/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 11 Jan 2017 19:26:49 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/submit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ExecutorService submit() – execute()</title>
       <link>https://yazilim.aykutasil.com/java-executorservice-submit-and-execute/</link>

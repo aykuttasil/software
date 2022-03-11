@@ -5,11 +5,7 @@
     <link>https://yazilim.aykutasil.com/tags/aspnetcore/</link>
     <description>Recent content in aspnetcore on Aykut Asil</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 24 Jun 2021 17:51:01 +0300</lastBuildDate>
-    
-	<atom:link href="https://yazilim.aykutasil.com/tags/aspnetcore/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 24 Jun 2021 17:51:01 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/aspnetcore/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>.Net Sqlite Konfigürasyonu</title>
       <link>https://yazilim.aykutasil.com/dotnet-sqlite-configuration/</link>
@@ -19,7 +15,7 @@
       <description>CLI ile Entity Framework işlemleri gerçekleştirmek için dotnet-ef toolunu yüklemelisiniz.
  dotnet tool install --global dotnet-ef dotnet add package Microsoft.EntityFrameworkCore.Design  SQLite provider&amp;rsquo;ı için ilgili paketi yüklemelisiniz
  dotnet add package Microsoft.EntityFrameworkCore dotnet add package Microsoft.EntityFrameworkCore.Sqlite  SQLite konfigürasyonu için startup.cs dosyasını aşağıdaki gibi güncellemelisiniz.
- public void ConfigureServices(IServiceCollection services) { services.AddDbContext&amp;lt;MainDbContext&amp;gt;(x =&amp;gt; x.UseSqlite(&amp;#34;DataSource=app.db&amp;#34;)); services.AddControllers(); services.AddSwaggerGen(c =&amp;gt; { c.SwaggerDoc(&amp;#34;v1&amp;#34;, new OpenApiInfo { Title = &amp;#34;ws_agt_ext_api&amp;#34;, Version = &amp;#34;v1&amp;#34; }); }); }  Users tablosunu oluşturmak için aşağıdaki gibi ilgili sınıfları oluşturmalısınız.</description>
+  public void ConfigureServices(IServiceCollection services)  {   services.AddDbContext&amp;lt;MainDbContext&amp;gt;(x =&amp;gt; x.UseSqlite(&amp;#34;DataSource=app.db&amp;#34;));   services.AddControllers();  services.AddSwaggerGen(c =&amp;gt;  {  c.SwaggerDoc(&amp;#34;v1&amp;#34;, new OpenApiInfo { Title = &amp;#34;ws_agt_ext_api&amp;#34;, Version = &amp;#34;v1&amp;#34; });  });  }  Users tablosunu oluşturmak için aşağıdaki gibi ilgili sınıfları oluşturmalısınız.</description>
     </item>
     
     <item>
@@ -30,7 +26,7 @@
       <guid>https://yazilim.aykutasil.com/aspnetcore-launchsettings-file/</guid>
       <description>launchSettings.json dosyası sadece local&amp;lsquo;de development yaparken kullanılan bir dosyadır. Visual Studio veya dotnet cli ile birlikte kullanılır.
  Not: Eğer uygulamamızı sunucuyu deploy ettikten sonra ulaşmak istediğimiz ayarlar var ise bunun belirtilmesi gereken yer launchSettings.json dosyası değildir. Bu tür ayarlar genelde appSettings.json dosyası içerisinde tanımlanır.
- launchSettings.json dosyası { &amp;#34;iisSettings&amp;#34;: { &amp;#34;windowsAuthentication&amp;#34;: false, &amp;#34;anonymousAuthentication&amp;#34;: true, &amp;#34;iisExpress&amp;#34;: { &amp;#34;applicationUrl&amp;#34;: &amp;#34;http://localhost:59119&amp;#34;, &amp;#34;sslPort&amp;#34;: 0 } }, &amp;#34;profiles&amp;#34;: { &amp;#34;IIS Express&amp;#34;: { &amp;#34;commandName&amp;#34;: &amp;#34;IISExpress&amp;#34;, &amp;#34;launchBrowser&amp;#34;: true, &amp;#34;environmentVariables&amp;#34;: { &amp;#34;ASPNETCORE_ENVIRONMENT&amp;#34;: &amp;#34;Development&amp;#34; } }, &amp;#34;FirstCoreWebApplication&amp;#34;: { &amp;#34;commandName&amp;#34;: &amp;#34;Project&amp;#34;, &amp;#34;launchBrowser&amp;#34;: true, &amp;#34;applicationUrl&amp;#34;: &amp;#34;http://localhost:5000,https://localhost:5000&amp;#34;, &amp;#34;environmentVariables&amp;#34;: { &amp;#34;ASPNETCORE_ENVIRONMENT&amp;#34;: &amp;#34;Development&amp;#34; } } } Yukarıdaki dosyayı inceleyecek olursak profiles tagı altında IIS Express ve FirstCoreWebApplication tagları olduğunu görürüz.</description>
+ launchSettings.json dosyası {  &amp;#34;iisSettings&amp;#34;: {  &amp;#34;windowsAuthentication&amp;#34;: false,  &amp;#34;anonymousAuthentication&amp;#34;: true,  &amp;#34;iisExpress&amp;#34;: {  &amp;#34;applicationUrl&amp;#34;: &amp;#34;http://localhost:59119&amp;#34;,  &amp;#34;sslPort&amp;#34;: 0  }  },  &amp;#34;profiles&amp;#34;: {  &amp;#34;IIS Express&amp;#34;: {  &amp;#34;commandName&amp;#34;: &amp;#34;IISExpress&amp;#34;,  &amp;#34;launchBrowser&amp;#34;: true,  &amp;#34;environmentVariables&amp;#34;: {  &amp;#34;ASPNETCORE_ENVIRONMENT&amp;#34;: &amp;#34;Development&amp;#34;  }  },  &amp;#34;FirstCoreWebApplication&amp;#34;: {  &amp;#34;commandName&amp;#34;: &amp;#34;Project&amp;#34;,  &amp;#34;launchBrowser&amp;#34;: true,  &amp;#34;applicationUrl&amp;#34;: &amp;#34;http://localhost:5000,https://localhost:5000&amp;#34;,  &amp;#34;environmentVariables&amp;#34;: {  &amp;#34;ASPNETCORE_ENVIRONMENT&amp;#34;: &amp;#34;Development&amp;#34;  }  }  } Yukarıdaki dosyayı inceleyecek olursak profiles tagı altında IIS Express ve FirstCoreWebApplication tagları olduğunu görürüz.</description>
     </item>
     
     <item>
@@ -50,7 +46,7 @@ Yöntem 1 Yöntem 2 Neden Asp.Net Core 2.1 ve sonrası? 2018&amp;rsquo;de uygula
       
       <guid>https://yazilim.aykutasil.com/aspnetcore-filters/</guid>
       <description>Not: Bu makale hazırlanırken kullanılan .net core versiyonu: 2.2
- ASP.NET Core&amp;lsquo;daki filter yapısı, middleware bileşenine benzer fakat bazı farklılıkları vardır. Filter&amp;lsquo;lar ile sadece request-response süreci arasına girilerek istenilen kod blokları çalıştırılabilir. Filter tipine göre request-response sürecinin hangi aşamasında çalıştırılacağı belirlenebilir. Oldukça özelleştirebilir bir yapı sunar bize Filter&amp;lsquo;lar.
+ ASP.NET Core&amp;lsquo;daki filter yapısı, middleware bileşenine benzer fakat bazı farklılıkları vardır. Filter&amp;rsquo;lar ile sadece request-response süreci arasına girilerek istenilen kod blokları çalıştırılabilir. Filter tipine göre request-response sürecinin hangi aşamasında çalıştırılacağı belirlenebilir. Oldukça özelleştirebilir bir yapı sunar bize Filter&amp;rsquo;lar.
 Filter Tipleri Authorization Filters İlk çalışan filter&amp;lsquo;dır. İlgili mvc action metoduna erişmek için user&amp;lsquo;ın yetkisi olup olmadığını kontrol eder. Eğer koşullar sağlanıyor ise ilgili mvc action metodu çalışır.</description>
     </item>
     

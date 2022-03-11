@@ -5,11 +5,7 @@
     <link>https://yazilim.aykutasil.com/categories/javascript/</link>
     <description>Recent content in javascript on Aykut Asil</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 03 Apr 2020 15:13:51 +0300</lastBuildDate>
-    
-	<atom:link href="https://yazilim.aykutasil.com/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 03 Apr 2020 15:13:51 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Javascript Hoisting</title>
       <link>https://yazilim.aykutasil.com/javascript-hoisting/</link>
@@ -32,7 +28,7 @@ Her dilde var olan Replace fonksiyonu Javascript de saçma sapan bir şekilde ya
 Örneğin elinizde
 var degisken = ‘İSTANBUL’ ;
 şeklinde bir değişkeniniz var. Ve siz ihtiyacınız doğrultusunda bu kelimeyi veritabanından çektiğiniz ‘istanbul’ kelimesi ile karşılaştırmak istiyorsunuz.
-$(&amp;#39;#Iller &amp;gt; option&amp;#39;).</description>
+ $(&amp;#39;#Iller &amp;gt; option&amp;#39;).</description>
     </item>
     
   </channel>

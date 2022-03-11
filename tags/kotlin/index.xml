@@ -5,11 +5,7 @@
     <link>https://yazilim.aykutasil.com/tags/kotlin/</link>
     <description>Recent content in kotlin on Aykut Asil</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 03 Jan 2020 17:19:13 +0300</lastBuildDate>
-    
-	<atom:link href="https://yazilim.aykutasil.com/tags/kotlin/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 03 Jan 2020 17:19:13 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/kotlin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kotlin DSL ile Json</title>
       <link>https://yazilim.aykutasil.com/create-json-with-kotlin-dsl/</link>
@@ -19,7 +15,7 @@
       <description>Kotlin DSL kullanarak Json Objesi nasıl oluşturulur ? Normalde Json objesi oluşturmak için aşağıdaki gibi bir yöntem izleriz.
 val jsonObject = JSONObject() jsonObject.put(&amp;#34;name&amp;#34;,&amp;#34;Aykut&amp;#34;) jsonObject.put(&amp;#34;age&amp;#34;,20) Bunu Kotlin DSL ile çok daha ergonomik bir şekilde hazırlayabiliriz.
 Öncelikle Json isminde bir sınıf oluşturuyoruz ve JsonObject sınıfından kalıtım alıyoruz. Ve DSL kullanabilmek için gerekli custom constructor fonksiyonumuzu yazıyoruz.
-class Json() : JSONObject() { constructor(json: Json.() -&amp;gt; Unit) : this() { this.init() } } Json objemizi hazırlarken kolaylık olsun diye bir infix fonksiyonu ekliyoruz.</description>
+class Json() : JSONObject() {  constructor(json: Json.() -&amp;gt; Unit) : this() {  this.init()  } } Json objemizi hazırlarken kolaylık olsun diye bir infix fonksiyonu ekliyoruz.</description>
     </item>
     
     <item>
@@ -52,7 +48,7 @@ Oluşturduğumuz nesneler eğer activity&amp;rsquo;nin yaşam döngüsüne bağl
       <guid>https://yazilim.aykutasil.com/kotlin-jvmoverloads/</guid>
       <description>Kotlin @JvmOverloads Kotlin ile uygulama geliştirmeyi teşvik eden en büyük etkenlerden biri şüphesiz Java dili uyumlu yapısıdır. Her iki tarafdan da birbirlerine referanslar verilebilir.
 Kotlin dilinin Java&amp;rsquo;dan ayıran özelliklerinden biri Java compiler ından daha zeki olmasıdır. Nitekim java dili yaşlanıyor :). Kotlin ile oluşturulan bazı yapıların Java tarafına uyumlu hale getirilmesi için bazen ufak düzenlemelere gerek duyulabiliyor. Bu düzenlemelerden bir tanesi de @JvmOverloads annotation kullanımı.
-fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View { return LayoutInflater.</description>
+fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View {  return LayoutInflater.</description>
     </item>
     
     <item>
@@ -62,7 +58,7 @@ fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View { return 
       
       <guid>https://yazilim.aykutasil.com/kotlin-sealed-class/</guid>
       <description>Kotlin Sealed Class Enum yapısına benzer bir yapıya sahiptir. Ve benzer görevler için kullanılır. Aradaki fark enum lar sabit değer ifade etmek için kullanılırken sealed yapısı normal sınıf gibi fakat enum mantığıyla kullanılır. Yani belli bir duruma ait fonksiyonları bir arada tutmak ve when() gibi fonksiyonlar ile birlikte kullanımını sağlamak için kullanılır.
-// Sealed class enum yapısına benzer  // Bir durum için belli başlı akışları bir arada tutmamızı sağlar ve bu akışların yönetimini kolaylaştırır.</description>
+ // Sealed class enum yapısına benzer  // Bir durum için belli başlı akışları bir arada tutmamızı sağlar ve bu akışların yönetimini kolaylaştırır.</description>
     </item>
     
     <item>
@@ -73,7 +69,7 @@ fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View { return 
       <guid>https://yazilim.aykutasil.com/kotlin-lambda/</guid>
       <description>Kotlin Lambda Kullanımı Kotlin dili ile geliştirme yaparken fonksiyonel programlama nimetlerinden faydalanmamızı sağlayan lambda birçok konuda bize yardımcı olacaktır. Doğru kullanımını öğrendiğimiz ölçüde nimetlerinin farkına varabiliriz.
 Belli başlı lambda kullanımları için aşağıdaki örneği inceleyebilirsiniz.
-override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_kotlin_lambda) // Normal Kullanım  ButtonPress.setOnClickListener(object : View.OnClickListener { override fun onClick(view: View?) { toast(&amp;#34;Press Me Click&amp;#34;) } }) // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz  ButtonPress.setOnClickListener({ v -&amp;gt; toast(&amp;#34;Press Me&amp;#34;) }) // Eğer son parametre lambda fonksiyonu ise bu fonksiyonu parantez &amp;#39;()&amp;#39; dışına çıkarabiliriz.</description>
+ override fun onCreate(savedInstanceState: Bundle?) {  super.onCreate(savedInstanceState)  setContentView(R.layout.activity_kotlin_lambda)   // Normal Kullanım  ButtonPress.setOnClickListener(object : View.OnClickListener {  override fun onClick(view: View?) {  toast(&amp;#34;Press Me Click&amp;#34;)  }   })   // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz  ButtonPress.</description>
     </item>
     
     <item>
@@ -84,7 +80,7 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
       <guid>https://yazilim.aykutasil.com/kotlin-apply/</guid>
       <description>fun &amp;lt;T&amp;gt; T.apply(f: T.() -&amp;gt; Unit): T { f(); return this } apply() tüm tipler için belirlenmiş bir extension function dır. apply() fonksiyonu uygulanan nesnenin özelliklerine direk olarak apply kod bloğu içerisinden erişilebilir.
 var file = File(dir) file.mkdirs() veya Java ile yazacak olursak
-File makeDir(String path) { File result = new File(path); result.mkdirs(); return result; } Bu kodu aşağıdaki yapıya çevirebiliriz.
+File makeDir(String path) {  File result = new File(path);  result.mkdirs();  return result; } Bu kodu aşağıdaki yapıya çevirebiliriz.
 File(dir).apply { mkdirs() } </description>
     </item>
     
@@ -96,8 +92,8 @@ File(dir).apply { mkdirs() } </description>
       <guid>https://yazilim.aykutasil.com/kotlin-when/</guid>
       <description>Kotlin&amp;rsquo;de when operatörü işimizi oldukça kolaylaştıran operatörlerden biridir.
 if- else if yapısı yerine kullanılabileceği gibi bazı yardımcı operatörler ile birçok marifet kazanabilir.
-val i = 10 when { i &amp;lt; 7 -&amp;gt; println(&amp;#34;first block&amp;#34;) fooString.startsWith(&amp;#34;hello&amp;#34;) -&amp;gt; println(&amp;#34;second block&amp;#34;) else -&amp;gt; println(&amp;#34;else block&amp;#34;) } Yukarıda ki örnek if-else if-else yapısının aynısıdır.
- when (i) { 0, 21 -&amp;gt; println(&amp;#34;0 or 21&amp;#34;) in 1..20 -&amp;gt; println(&amp;#34;in the range 1 to 20&amp;#34;) else -&amp;gt; println(&amp;#34;none of the above&amp;#34;) } Yukarıda ki gibi aralıklar tanımlanabilir ve bu aralıklara uyum kontrolü yapılarak ilgili işlemlerin yapılması sağlanılabilir.</description>
+ val i = 10  when {  i &amp;lt; 7 -&amp;gt; println(&amp;#34;first block&amp;#34;)  fooString.startsWith(&amp;#34;hello&amp;#34;) -&amp;gt; println(&amp;#34;second block&amp;#34;)  else -&amp;gt; println(&amp;#34;else block&amp;#34;)  } Yukarıda ki örnek if-else if-else yapısının aynısıdır.
+  when (i) {  0, 21 -&amp;gt; println(&amp;#34;0 or 21&amp;#34;)  in 1.</description>
     </item>
     
     <item>
@@ -108,7 +104,7 @@ val i = 10 when { i &amp;lt; 7 -&amp;gt; println(&amp;#34;first block&amp;#34;) 
       <guid>https://yazilim.aykutasil.com/kotlin-let/</guid>
       <description>Kotlin fun &amp;lt;T, R&amp;gt; T.let(f: (T) -&amp;gt; R): R = f(this) let() temel olarak, belirli bir kapsam için bir değişken/kod bloğu oluşturmamızı sağlayan bir kapsamlayıcı işlevdir. Yani let() bir sarmalıyıcı fonksiyondur.
 Örneğin:
-private var mPhotoUrl: String? = null fun uploadClicked() { if (mPhotoUrl != null) { uploadPhoto(mPhotoUrl!!) } } Yukarıda ki if (mPhotoUrl != null) satırı ile null kontrolü yapılır ve eğer null değilse uploadPhoto(mPhotoUrl!!) kod bloğu çalıştırılır. Bu kodu let() ile çok daha kolay ve anlaşılır hale getirebiliriz.</description>
+private var mPhotoUrl: String? = null  fun uploadClicked() {  if (mPhotoUrl != null) {  uploadPhoto(mPhotoUrl!!)  } } Yukarıda ki if (mPhotoUrl != null) satırı ile null kontrolü yapılır ve eğer null değilse uploadPhoto(mPhotoUrl!!) kod bloğu çalıştırılır.</description>
     </item>
     
   </channel>

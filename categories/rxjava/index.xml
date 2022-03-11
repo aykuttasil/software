@@ -5,11 +5,7 @@
     <link>https://yazilim.aykutasil.com/categories/rxjava/</link>
     <description>Recent content in rxjava on Aykut Asil</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 11 Jan 2017 18:52:51 +0300</lastBuildDate>
-    
-	<atom:link href="https://yazilim.aykutasil.com/categories/rxjava/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 11 Jan 2017 18:52:51 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/rxjava/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RxJava range() Kullanımı</title>
       <link>https://yazilim.aykutasil.com/rxjava-range/</link>
@@ -17,7 +13,7 @@
       
       <guid>https://yazilim.aykutasil.com/rxjava-range/</guid>
       <description>RxJava range() Kullanımı **Örnek kod:&amp;ndash;
-private void range() { Observable.range(3, 5).subscribeOn(Schedulers.io()) .subscribe(success -&amp;gt; { Log.i(TAG, &amp;#34;val: &amp;#34; + success.toString()); }); } Açıklama:
+private void range() {  Observable.range(3, 5).subscribeOn(Schedulers.io())  .subscribe(success -&amp;gt; {  Log.i(TAG, &amp;#34;val: &amp;#34; + success.toString());  }); } Açıklama:
 İlk değer 3 kabul edilerek sonraki 5 sayı için teker teker onNext() çağırılır. Yani 3 , 4, 5, 6, 7
 Yukarıda ki kodun çıktısı aşağıdaki gibidir.
 I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActivity: val: 6 I/MainActivity: val: 7 RxJava candır. 😉</description>
@@ -30,7 +26,7 @@ I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActiv
       
       <guid>https://yazilim.aykutasil.com/rxjava-scan/</guid>
       <description>RxJava scan() Kullanımı RxJava da scan() kullanımı iki şekilde olur.
-   İlk değer ataması yapılarak    private void scan() { Observable.just(3, 5, 7, 9) .scan(10,(val1, val2) -&amp;gt; { //  Log.i(TAG, &amp;#34;val1: &amp;#34; + val1.toString()); Log.i(TAG, &amp;#34;val2: &amp;#34; + val2.toString()); return val1 + val2; }).subscribeOn(Schedulers.io()) .subscribe(success -&amp;gt; { Log.i(TAG, &amp;#34;Sonuc:&amp;#34; + success.toString()); }); }   İlk değer ataması yapılmadan    private void scan() { Observable.</description>
+   İlk değer ataması yapılarak    private void scan() {  Observable.just(3, 5, 7, 9)  .scan(10,(val1, val2) -&amp;gt; {  //  Log.i(TAG, &amp;#34;val1: &amp;#34; + val1.toString());  Log.i(TAG, &amp;#34;val2: &amp;#34; + val2.toString());  return val1 + val2;  }).subscribeOn(Schedulers.io())  .subscribe(success -&amp;gt; {  Log.i(TAG, &amp;#34;Sonuc:&amp;#34; + success.toString());  }); }   İlk değer ataması yapılmadan    private void scan() {  Observable.</description>
     </item>
     
     <item>
@@ -40,8 +36,7 @@ I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActiv
       
       <guid>https://yazilim.aykutasil.com/rxjava-reduce/</guid>
       <description>RxJava reduce() Kullanımı reduce() fonskyionu iki şekilde çalışır;
- 1.Kullanım  .reduce(new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } })  2.Kullanım  .reduce(10,new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } }) 1 ile 2 nin farkı, 2 de görüldüğü üzere fonksiyona başlangıç değeri atanabilmesidir.
-Aşağıdaki örneklerde daha net görebilirsiniz.</description>
+ 1.Kullanım  .reduce(new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() {  @Override  public Integer apply(Integer val1, Integer val2) throws Exception {  return null;  } })  2.Kullanım  .reduce(10,new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() {  @Override  public Integer apply(Integer val1, Integer val2) throws Exception {  return null;  } }) 1 ile 2 nin farkı, 2 de görüldüğü üzere fonksiyona başlangıç değeri atanabilmesidir.</description>
     </item>
     
   </channel>

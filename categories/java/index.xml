@@ -5,11 +5,7 @@
     <link>https://yazilim.aykutasil.com/categories/java/</link>
     <description>Recent content in java on Aykut Asil</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 03 Apr 2020 15:13:51 +0300</lastBuildDate>
-    
-	<atom:link href="https://yazilim.aykutasil.com/categories/java/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 11 Jan 2017 19:59:08 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android ile WebView Etkileşimi</title>
       <link>https://yazilim.aykutasil.com/android-webview-etkilesimi/</link>
@@ -92,7 +88,7 @@ Sizde projenizde resimlerle ilgili herhangi bir işlem yapıyorsanız bu kütüp
       
       <guid>https://yazilim.aykutasil.com/java-collections/</guid>
       <description>Collections.swap Swap kelime anlamı ile takas anlamına gelmektedir. Mevcut dizimiz içerisinde elemanların yerlerini değiştirmeye yarar.
-private static final String[] STRINGS = new String[]{ &amp;#34;1&amp;#34;, &amp;#34;2&amp;#34;, &amp;#34;3&amp;#34;, &amp;#34;4&amp;#34;, &amp;#34;5&amp;#34; }; private final List mItems = new ArrayList&amp;lt;&amp;gt;(); public void setArray() { mItems.addAll(Arrays.asList(STRINGS)); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 1,2,3,4,5  private void elemanYerDegistir() { Collections.swap(mItems, 0, 4); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 5,2,3,4,1 </description>
+private static final String[] STRINGS = new String[]{  &amp;#34;1&amp;#34;, &amp;#34;2&amp;#34;, &amp;#34;3&amp;#34;, &amp;#34;4&amp;#34;, &amp;#34;5&amp;#34; };  private final List mItems = new ArrayList&amp;lt;&amp;gt;(); public void setArray() {  mItems.addAll(Arrays.asList(STRINGS)); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır.  // 1,2,3,4,5  private void elemanYerDegistir() {  Collections.swap(mItems, 0, 4); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır.</description>
     </item>
     
     <item>
@@ -116,7 +112,7 @@ Burada yapacağımız örnekte kısaca şu aşamaları görücez;
 GcmNetworkManager ın kullanım alanı daha çok asenkron ve periodic network işlemlerinizi yapılandırmaktır.
 Tek sefer çalışacak veya Periodic olarak çalışacak işlemleriniz için 2 tip belirlenmiştir.
  OneoffTask PeriodicTask   OneoffTask Kullanımı
-OneoffTask oneoff = new OneoffTask.Builder() // Uygulamanızı kapatsanız bile tekrar açtığınız da network işleminiz işleme konulur.  // Yani isteğinizin kalıcı olup olmamasını bu parametre ile ayarlayabilirsiniz.  .</description>
+OneoffTask oneoff = new OneoffTask.Builder()  // Uygulamanızı kapatsanız bile tekrar açtığınız da network işleminiz işleme konulur.  // Yani isteğinizin kalıcı olup olmamasını bu parametre ile ayarlayabilirsiniz.</description>
     </item>
     
     <item>
@@ -139,9 +135,8 @@ Biz burda SMS dinlemesi yaparken önlem amaçlı olarak CPU nun uyumasını önl
       <guid>https://yazilim.aykutasil.com/android-internet-connection-receiver/</guid>
       <description>Uygulamanızın akışını internet kontrolü yaparak yönetmeniz gerekebilir.
 Bunun için ilk olarak AndroidManifest.xml dosyasına receiver tanımı yapmalısınız.
-&amp;lt;receiver android:name=&amp;#34;.InternetConnectionReceiver&amp;#34;&amp;gt; &amp;lt;intent-filter&amp;gt; &amp;lt;action android:name=&amp;#34;android.net.conn.CONNECTIVITY_CHANGE&amp;#34; /&amp;gt; &amp;lt;/intent-filter&amp;gt; &amp;lt;/receiver&amp;gt; InternetConnectionReceiver
-public class InternetConnectionReceiver extends BroadcastReceiver { @Override public void onReceive(Context context, Intent intent) { if (CheckConnection(context)) { } } } Yukarıda tanımlanmış olan receiver, cihazın ağ yapısında herhangi bir değişiklik olduğunda bunu yakalar. Örneğin wireless açıkken kapattığınız da veya kapalıyken açtığınız da bunu yakayabilirsiniz.
-CheckConnection</description>
+&amp;lt;receiver android:name=&amp;#34;.InternetConnectionReceiver&amp;#34;&amp;gt;  &amp;lt;intent-filter&amp;gt;  &amp;lt;action android:name=&amp;#34;android.net.conn.CONNECTIVITY_CHANGE&amp;#34; /&amp;gt;  &amp;lt;/intent-filter&amp;gt; &amp;lt;/receiver&amp;gt; InternetConnectionReceiver
+public class InternetConnectionReceiver extends BroadcastReceiver {    @Override  public void onReceive(Context context, Intent intent) {   if (CheckConnection(context)) {   }  } } Yukarıda tanımlanmış olan receiver, cihazın ağ yapısında herhangi bir değişiklik olduğunda bunu yakalar. Örneğin wireless açıkken kapattığınız da veya kapalıyken açtığınız da bunu yakayabilirsiniz.</description>
     </item>
     
     <item>

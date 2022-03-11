@@ -5,11 +5,7 @@
     <link>https://yazilim.aykutasil.com/categories/mobile/</link>
     <description>Recent content in mobile on Aykut Asil</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 17 Jan 2020 18:13:00 +0300</lastBuildDate>
-    
-	<atom:link href="https://yazilim.aykutasil.com/categories/mobile/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 17 Jan 2020 18:13:00 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/mobile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android Background Location</title>
       <link>https://yazilim.aykutasil.com/android-background-location/</link>
@@ -37,9 +33,9 @@ DataBinding Uygulamanın arayüzünü tasarlamak için kullandığımız layout 
       <pubDate>Thu, 14 Feb 2019 13:10:18 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-service/</guid>
-      <description>Android&amp;rsquo;in temel bileşenlerinden biri olan Service&amp;lsquo;ler kısaca UI(arayüz) olmayan Activity&amp;lsquo;lere benzetebiliriz. Tabi ki kendine göre ek özellikleri bulunmaktadır. Service tanımlaması AndroidManifest.xml içerisinde tanımlı olmalıdır. Aksi takdirde çalışmaz. &amp;lt;service&amp;gt; elementinin alabileceği özellikler aşağıdaki gibidir.
- Niçin kullanılır? Temel olarak ifade etmek gerekirse Service&amp;lsquo;lerin kullanım amacı uzun süren ve arka planda(background) çalışan taskler oluşturmaktır. Bununla birlikte diğer uygulamalar tarafından çağırılabilen iletişim imkanı sağlar.
-Service tanımlanması &amp;lt;service android:description=&amp;#34;string resource&amp;#34; android:directBootAware=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:enabled=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:exported=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:icon=&amp;#34;drawable resource&amp;#34; android:isolatedProcess=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:label=&amp;#34;string resource&amp;#34; android:name=&amp;#34;string&amp;#34; android:permission=&amp;#34;string&amp;#34; android:process=&amp;#34;string&amp;#34; &amp;gt; .</description>
+      <description>Android&amp;rsquo;in temel bileşenlerinden biri olan Service&amp;rsquo;ler kısaca UI(arayüz) olmayan Activity&amp;rsquo;lere benzetebiliriz. Tabi ki kendine göre ek özellikleri bulunmaktadır. Service tanımlaması AndroidManifest.xml içerisinde tanımlı olmalıdır. Aksi takdirde çalışmaz. &amp;lt;service&amp;gt; elementinin alabileceği özellikler aşağıdaki gibidir.
+ Niçin kullanılır? Temel olarak ifade etmek gerekirse Service&amp;rsquo;lerin kullanım amacı uzun süren ve arka planda(background) çalışan taskler oluşturmaktır. Bununla birlikte diğer uygulamalar tarafından çağırılabilen iletişim imkanı sağlar.
+Service tanımlanması &amp;lt;service android:description=&amp;#34;string resource&amp;#34;  android:directBootAware=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;]  android:enabled=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;]  android:exported=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;]  android:icon=&amp;#34;drawable resource&amp;#34;  android:isolatedProcess=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;]  android:label=&amp;#34;string resource&amp;#34;  android:name=&amp;#34;string&amp;#34;  android:permission=&amp;#34;string&amp;#34;  android:process=&amp;#34;string&amp;#34; &amp;gt;  .</description>
     </item>
     
     <item>
@@ -48,7 +44,7 @@ Service tanımlanması &amp;lt;service android:description=&amp;#34;string resou
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-circleci/</guid>
-      <description>CircleCI Android Yapılandırması .circleci/config.yml version: 2 jobs: build: working_directory: ~/code docker: - image: circleci/android:api-28-alpha environment: JVM_OPTS: -Xmx3200m steps: - checkout - run: name: Initialize Keystore File command: echo $KEYSTORE_BASE64 | base64 --decode &amp;gt; app/aykutasilkeystore - run: name: Initialize Fabric Properties command: | echo &amp;#34;apiKey=$FABRIC_API_KEY&amp;#34; &amp;gt;&amp;gt; app/fabric.properties echo &amp;#34;apiSecret=$FABRIC_API_SECRET&amp;#34; &amp;gt;&amp;gt; app/fabric.properties cat app/fabric.properties - run: name: Initialize Keystore File command: | echo &amp;#34;signingKeyAlias=$KEYSTORE_KEY_ALIAS&amp;#34; &amp;gt;&amp;gt; keystore.properties echo &amp;#34;signingKeyAliasPassword=$KEYSTORE_KEY_ALIAS_PASSWORD&amp;#34; &amp;gt;&amp;gt; keystore.properties echo &amp;#34;signingStoreFile=$KEYSTORE_STORE_FILE&amp;#34; &amp;gt;&amp;gt; keystore.</description>
+      <description>CircleCI Android Yapılandırması .circleci/config.yml version: 2 jobs:  build:  working_directory: ~/code  docker:  - image: circleci/android:api-28-alpha  environment:  JVM_OPTS: -Xmx3200m  steps:  - checkout  - run:  name: Initialize Keystore File  command: echo $KEYSTORE_BASE64 | base64 --decode &amp;gt; app/aykutasilkeystore  - run:  name: Initialize Fabric Properties  command: |echo &amp;#34;apiKey=$FABRIC_API_KEY&amp;#34; &amp;gt;&amp;gt; app/fabric.properties echo &amp;#34;apiSecret=$FABRIC_API_SECRET&amp;#34; &amp;gt;&amp;gt; app/fabric.properties cat app/fabric.properties  - run:  name: Initialize Keystore File  command: |echo &amp;#34;signingKeyAlias=$KEYSTORE_KEY_ALIAS&amp;#34; &amp;gt;&amp;gt; keystore.</description>
     </item>
     
   </channel>

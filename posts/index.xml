@@ -5,18 +5,14 @@
     <link>https://yazilim.aykutasil.com/posts/</link>
     <description>Recent content in Posts on Aykut Asil</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 02 Nov 2021 20:17:23 +0300</lastBuildDate>
-    
-	<atom:link href="https://yazilim.aykutasil.com/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 02 Nov 2021 20:17:23 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android SMS User Consent API Kullanımı</title>
       <link>https://yazilim.aykutasil.com/android_sms_user_consent_api/</link>
       <pubDate>Tue, 02 Nov 2021 20:17:23 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android_sms_user_consent_api/</guid>
-      <description>Problem? Android işletim sisteminin ilk versiyonlarında SMS&amp;lsquo;lere erişim oldukça kolaydı. Fakat şimdi sadece özel izne sahip uygulamalar bu izne sahip olabiliyor. Google&amp;rsquo;a bir form doldurarak ve neden SMS okuma özelliğine kesin olarak ihtiyacınız olduğunu anlatarak bu izni talep ediyorsunuz. Peki bizim amacımız tek seferlik bir SMS okumak ise yine bu süreçten geçmeli miyiz? Hayır!
+      <description>Problem? Android işletim sisteminin ilk versiyonlarında SMS&amp;rsquo;lere erişim oldukça kolaydı. Fakat şimdi sadece özel izne sahip uygulamalar bu izne sahip olabiliyor. Google&amp;rsquo;a bir form doldurarak ve neden SMS okuma özelliğine kesin olarak ihtiyacınız olduğunu anlatarak bu izni talep ediyorsunuz. Peki bizim amacımız tek seferlik bir SMS okumak ise yine bu süreçten geçmeli miyiz? Hayır!
 Google tek seferlik SMS okuması yapabilmek için çeşitli API&amp;rsquo;ler çıkardı. Bu API&amp;rsquo;lere sayfanın en altında bulunan Kaynaklar bölümünden erişebilirsiniz.</description>
     </item>
     
@@ -29,7 +25,7 @@ Google tek seferlik SMS okuması yapabilmek için çeşitli API&amp;rsquo;ler ç
       <description>CLI ile Entity Framework işlemleri gerçekleştirmek için dotnet-ef toolunu yüklemelisiniz.
  dotnet tool install --global dotnet-ef dotnet add package Microsoft.EntityFrameworkCore.Design  SQLite provider&amp;rsquo;ı için ilgili paketi yüklemelisiniz
  dotnet add package Microsoft.EntityFrameworkCore dotnet add package Microsoft.EntityFrameworkCore.Sqlite  SQLite konfigürasyonu için startup.cs dosyasını aşağıdaki gibi güncellemelisiniz.
- public void ConfigureServices(IServiceCollection services) { services.AddDbContext&amp;lt;MainDbContext&amp;gt;(x =&amp;gt; x.UseSqlite(&amp;#34;DataSource=app.db&amp;#34;)); services.AddControllers(); services.AddSwaggerGen(c =&amp;gt; { c.SwaggerDoc(&amp;#34;v1&amp;#34;, new OpenApiInfo { Title = &amp;#34;ws_agt_ext_api&amp;#34;, Version = &amp;#34;v1&amp;#34; }); }); }  Users tablosunu oluşturmak için aşağıdaki gibi ilgili sınıfları oluşturmalısınız.</description>
+  public void ConfigureServices(IServiceCollection services)  {   services.AddDbContext&amp;lt;MainDbContext&amp;gt;(x =&amp;gt; x.UseSqlite(&amp;#34;DataSource=app.db&amp;#34;));   services.AddControllers();  services.AddSwaggerGen(c =&amp;gt;  {  c.SwaggerDoc(&amp;#34;v1&amp;#34;, new OpenApiInfo { Title = &amp;#34;ws_agt_ext_api&amp;#34;, Version = &amp;#34;v1&amp;#34; });  });  }  Users tablosunu oluşturmak için aşağıdaki gibi ilgili sınıfları oluşturmalısınız.</description>
     </item>
     
     <item>
@@ -38,7 +34,7 @@ Google tek seferlik SMS okuması yapabilmek için çeşitli API&amp;rsquo;ler ç
       <pubDate>Tue, 05 Jan 2021 23:50:00 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/teamcity-slack-integration/</guid>
-      <description>Senaryo Kendi sunucunuz üzerine kurmuş olduğunuz Teamcity&amp;lsquo;e Slack entegrasyonu yaparak, build &amp;gt; deploy adımlarını Slack üzerinden nasıl izleriz?
+      <description>Senaryo Kendi sunucunuz üzerine kurmuş olduğunuz Teamcity&amp;rsquo;e Slack entegrasyonu yaparak, build &amp;gt; deploy adımlarını Slack üzerinden nasıl izleriz?
 Çözüm  Öncelikle Slack yapılandırmaları ile başlayalım.  https://api.slack.com/apps adresine giriyoruz ve yeni bir App oluşturuyoruz.
  OAuth &amp;amp; Permissions tabına geçerek ilgili yetkilendirmeleri yapıyoruz.   Botumuza, ihtiyaç duyacağı tüm izinleri verdikten sonra Install to Workspace diyerek yetkilendirmeyi tamamlıyoruz. Oluşan tokenı Teamcity tarafında kullanıcaz.   Slack tarafında App&amp;lsquo;imizi oluşturduktan sonra şimdi Teamcity tarafında gerekli ayarlamaları yapabiliriz.</description>
     </item>
@@ -81,7 +77,7 @@ Kurulum brew install fastlane Fastlane aracının kurulumunu tamamladıktan sonr
       
       <guid>https://yazilim.aykutasil.com/fastlane-screengrab/</guid>
       <description>Fastlane kurulumunu henüz tamamlamadıysanız sizi buraya alalım.
-Screengrab  Mobil ekran görüntüsü alımını otomatize eden bu aracın kullanımı için öncelikle aşağıdaki komut ile ilgili aracı yüklüyoruz.  sudo gem install screengrab  Daha sonra AndroidManifest.xml dosyasına aşağıdaki bloğu eklemeliyiz.  &amp;lt;!-- Allows unlocking your device and activating its screen so UI tests can succeed --&amp;gt; &amp;lt;uses-permission android:name=&amp;#34;android.permission.DISABLE_KEYGUARD&amp;#34; /&amp;gt; &amp;lt;uses-permission android:name=&amp;#34;android.permission.WAKE_LOCK&amp;#34; /&amp;gt; &amp;lt;!-- Allows for storing and retrieving screenshots --&amp;gt; &amp;lt;uses-permission android:name=&amp;#34;android.</description>
+Screengrab  Mobil ekran görüntüsü alımını otomatize eden bu aracın kullanımı için öncelikle aşağıdaki komut ile ilgili aracı yüklüyoruz.   sudo gem install screengrab  Daha sonra AndroidManifest.xml dosyasına aşağıdaki bloğu eklemeliyiz.   &amp;lt;!-- Allows unlocking your device and activating its screen so UI tests can succeed --&amp;gt;  &amp;lt;uses-permission android:name=&amp;#34;android.permission.DISABLE_KEYGUARD&amp;#34; /&amp;gt;  &amp;lt;uses-permission android:name=&amp;#34;android.permission.WAKE_LOCK&amp;#34; /&amp;gt;   &amp;lt;!-- Allows for storing and retrieving screenshots --&amp;gt;  &amp;lt;uses-permission android:name=&amp;#34;android.</description>
     </item>
     
     <item>
@@ -92,7 +88,7 @@ Screengrab  Mobil ekran görüntüsü alımını otomatize eden bu aracın kulla
       <guid>https://yazilim.aykutasil.com/android-applicationid-vs-packagename/</guid>
       <description>Android projesi oluşturduğunuzda aşağıdaki gibi AndroidManifest.xml ve build.gradle dosyaları oluşur. AndroidManifest.xml içerisinde package tagı ve build.gradle içerisinde applicationId niteliği bulunur.
 Peki bu ikisi arasındaki fark nedir?
-package=&amp;quot;com.example.myapp&amp;rdquo; ile belirttiğimiz kısım aslında projemizin klasör yapısını ifade eder. Yani com &amp;gt; example &amp;gt; myapp şeklinde bir tree yapısı vardır. Ve biz proje dosyalarımızı bu dizin altında oluşturmaya başlarız. Örneğin MainActivity dosyası oluşturduğumuzda aslında bu dosyanın yolu com.example.myapp.MainActivity olur. Projemiz derlenme sırasında package değerine bakar ve dosyaları bu adrese göre bulur.</description>
+package=&amp;ldquo;com.example.myapp&amp;rdquo; ile belirttiğimiz kısım aslında projemizin klasör yapısını ifade eder. Yani com &amp;gt; example &amp;gt; myapp şeklinde bir tree yapısı vardır. Ve biz proje dosyalarımızı bu dizin altında oluşturmaya başlarız. Örneğin MainActivity dosyası oluşturduğumuzda aslında bu dosyanın yolu com.example.myapp.MainActivity olur. Projemiz derlenme sırasında package değerine bakar ve dosyaları bu adrese göre bulur.</description>
     </item>
     
     <item>
@@ -117,7 +113,7 @@ Artık telefonun kamerasını sanki bilgisayarımıza takılı bir webcam gibi k
       <guid>https://yazilim.aykutasil.com/aspnetcore-launchsettings-file/</guid>
       <description>launchSettings.json dosyası sadece local&amp;lsquo;de development yaparken kullanılan bir dosyadır. Visual Studio veya dotnet cli ile birlikte kullanılır.
  Not: Eğer uygulamamızı sunucuyu deploy ettikten sonra ulaşmak istediğimiz ayarlar var ise bunun belirtilmesi gereken yer launchSettings.json dosyası değildir. Bu tür ayarlar genelde appSettings.json dosyası içerisinde tanımlanır.
- launchSettings.json dosyası { &amp;#34;iisSettings&amp;#34;: { &amp;#34;windowsAuthentication&amp;#34;: false, &amp;#34;anonymousAuthentication&amp;#34;: true, &amp;#34;iisExpress&amp;#34;: { &amp;#34;applicationUrl&amp;#34;: &amp;#34;http://localhost:59119&amp;#34;, &amp;#34;sslPort&amp;#34;: 0 } }, &amp;#34;profiles&amp;#34;: { &amp;#34;IIS Express&amp;#34;: { &amp;#34;commandName&amp;#34;: &amp;#34;IISExpress&amp;#34;, &amp;#34;launchBrowser&amp;#34;: true, &amp;#34;environmentVariables&amp;#34;: { &amp;#34;ASPNETCORE_ENVIRONMENT&amp;#34;: &amp;#34;Development&amp;#34; } }, &amp;#34;FirstCoreWebApplication&amp;#34;: { &amp;#34;commandName&amp;#34;: &amp;#34;Project&amp;#34;, &amp;#34;launchBrowser&amp;#34;: true, &amp;#34;applicationUrl&amp;#34;: &amp;#34;http://localhost:5000,https://localhost:5000&amp;#34;, &amp;#34;environmentVariables&amp;#34;: { &amp;#34;ASPNETCORE_ENVIRONMENT&amp;#34;: &amp;#34;Development&amp;#34; } } } Yukarıdaki dosyayı inceleyecek olursak profiles tagı altında IIS Express ve FirstCoreWebApplication tagları olduğunu görürüz.</description>
+ launchSettings.json dosyası {  &amp;#34;iisSettings&amp;#34;: {  &amp;#34;windowsAuthentication&amp;#34;: false,  &amp;#34;anonymousAuthentication&amp;#34;: true,  &amp;#34;iisExpress&amp;#34;: {  &amp;#34;applicationUrl&amp;#34;: &amp;#34;http://localhost:59119&amp;#34;,  &amp;#34;sslPort&amp;#34;: 0  }  },  &amp;#34;profiles&amp;#34;: {  &amp;#34;IIS Express&amp;#34;: {  &amp;#34;commandName&amp;#34;: &amp;#34;IISExpress&amp;#34;,  &amp;#34;launchBrowser&amp;#34;: true,  &amp;#34;environmentVariables&amp;#34;: {  &amp;#34;ASPNETCORE_ENVIRONMENT&amp;#34;: &amp;#34;Development&amp;#34;  }  },  &amp;#34;FirstCoreWebApplication&amp;#34;: {  &amp;#34;commandName&amp;#34;: &amp;#34;Project&amp;#34;,  &amp;#34;launchBrowser&amp;#34;: true,  &amp;#34;applicationUrl&amp;#34;: &amp;#34;http://localhost:5000,https://localhost:5000&amp;#34;,  &amp;#34;environmentVariables&amp;#34;: {  &amp;#34;ASPNETCORE_ENVIRONMENT&amp;#34;: &amp;#34;Development&amp;#34;  }  }  } Yukarıdaki dosyayı inceleyecek olursak profiles tagı altında IIS Express ve FirstCoreWebApplication tagları olduğunu görürüz.</description>
     </item>
     
     <item>
@@ -148,7 +144,7 @@ Peki Neden? Yukarıdaki gibi bir kod bloğu çalıştırılmadan önce javacsrip
       <pubDate>Fri, 03 Apr 2020 11:12:12 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/docker-series-2/</guid>
-      <description>Docker Container&amp;rsquo;ı Detach modda çalıştırmak Uygulamanızı yazarken eğer thread&amp;lsquo;ler ile biraz derin bir ilişki kurmuşsanız daemon kavramıyla karşılaşmış olabilirsiniz. Kısaca, &amp;ldquo;arka tarafa git ve sessiz sedasız çalışmaya devam et&amp;rdquo; demek diyebiliriz. Ayrıntılı bilgi için -&amp;gt; Google :)
+      <description>Docker Container&amp;rsquo;ı Detach modda çalıştırmak Uygulamanızı yazarken eğer thread&amp;rsquo;ler ile biraz derin bir ilişki kurmuşsanız daemon kavramıyla karşılaşmış olabilirsiniz. Kısaca, &amp;ldquo;arka tarafa git ve sessiz sedasız çalışmaya devam et&amp;rdquo; demek diyebiliriz. Ayrıntılı bilgi için -&amp;gt; Google :)
 Aynı mantık ile container&amp;lsquo;ımızın arka planda sesiz sedasız çalışmasını isteyebiliriz. Örneğin web sitemizi bir container&amp;rsquo;a kurduk, yerleştirdik ve belli bir port üzerinden dışarıya açtık. Ve artık bu container kapanmadan sürekli çalışması gerekiyor ki web sitemize erişebilelim.</description>
     </item>
     
@@ -171,7 +167,7 @@ Aynı mantık ile container&amp;lsquo;ımızın arka planda sesiz sedasız çal�
       <description>Kotlin DSL kullanarak Json Objesi nasıl oluşturulur ? Normalde Json objesi oluşturmak için aşağıdaki gibi bir yöntem izleriz.
 val jsonObject = JSONObject() jsonObject.put(&amp;#34;name&amp;#34;,&amp;#34;Aykut&amp;#34;) jsonObject.put(&amp;#34;age&amp;#34;,20) Bunu Kotlin DSL ile çok daha ergonomik bir şekilde hazırlayabiliriz.
 Öncelikle Json isminde bir sınıf oluşturuyoruz ve JsonObject sınıfından kalıtım alıyoruz. Ve DSL kullanabilmek için gerekli custom constructor fonksiyonumuzu yazıyoruz.
-class Json() : JSONObject() { constructor(json: Json.() -&amp;gt; Unit) : this() { this.init() } } Json objemizi hazırlarken kolaylık olsun diye bir infix fonksiyonu ekliyoruz.</description>
+class Json() : JSONObject() {  constructor(json: Json.() -&amp;gt; Unit) : this() {  this.init()  } } Json objemizi hazırlarken kolaylık olsun diye bir infix fonksiyonu ekliyoruz.</description>
     </item>
     
     <item>
@@ -221,7 +217,7 @@ Canlı bir örnek verirsem sanıyorum daha iyi olacak.
       
       <guid>https://yazilim.aykutasil.com/aspnetcore-filters/</guid>
       <description>Not: Bu makale hazırlanırken kullanılan .net core versiyonu: 2.2
- ASP.NET Core&amp;lsquo;daki filter yapısı, middleware bileşenine benzer fakat bazı farklılıkları vardır. Filter&amp;lsquo;lar ile sadece request-response süreci arasına girilerek istenilen kod blokları çalıştırılabilir. Filter tipine göre request-response sürecinin hangi aşamasında çalıştırılacağı belirlenebilir. Oldukça özelleştirebilir bir yapı sunar bize Filter&amp;lsquo;lar.
+ ASP.NET Core&amp;lsquo;daki filter yapısı, middleware bileşenine benzer fakat bazı farklılıkları vardır. Filter&amp;rsquo;lar ile sadece request-response süreci arasına girilerek istenilen kod blokları çalıştırılabilir. Filter tipine göre request-response sürecinin hangi aşamasında çalıştırılacağı belirlenebilir. Oldukça özelleştirebilir bir yapı sunar bize Filter&amp;rsquo;lar.
 Filter Tipleri Authorization Filters İlk çalışan filter&amp;lsquo;dır. İlgili mvc action metoduna erişmek için user&amp;lsquo;ın yetkisi olup olmadığını kontrol eder. Eğer koşullar sağlanıyor ise ilgili mvc action metodu çalışır.</description>
     </item>
     
@@ -254,9 +250,9 @@ DataBinding Uygulamanın arayüzünü tasarlamak için kullandığımız layout 
       <pubDate>Thu, 14 Feb 2019 13:10:18 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-service/</guid>
-      <description>Android&amp;rsquo;in temel bileşenlerinden biri olan Service&amp;lsquo;ler kısaca UI(arayüz) olmayan Activity&amp;lsquo;lere benzetebiliriz. Tabi ki kendine göre ek özellikleri bulunmaktadır. Service tanımlaması AndroidManifest.xml içerisinde tanımlı olmalıdır. Aksi takdirde çalışmaz. &amp;lt;service&amp;gt; elementinin alabileceği özellikler aşağıdaki gibidir.
- Niçin kullanılır? Temel olarak ifade etmek gerekirse Service&amp;lsquo;lerin kullanım amacı uzun süren ve arka planda(background) çalışan taskler oluşturmaktır. Bununla birlikte diğer uygulamalar tarafından çağırılabilen iletişim imkanı sağlar.
-Service tanımlanması &amp;lt;service android:description=&amp;#34;string resource&amp;#34; android:directBootAware=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:enabled=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:exported=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:icon=&amp;#34;drawable resource&amp;#34; android:isolatedProcess=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:label=&amp;#34;string resource&amp;#34; android:name=&amp;#34;string&amp;#34; android:permission=&amp;#34;string&amp;#34; android:process=&amp;#34;string&amp;#34; &amp;gt; .</description>
+      <description>Android&amp;rsquo;in temel bileşenlerinden biri olan Service&amp;rsquo;ler kısaca UI(arayüz) olmayan Activity&amp;rsquo;lere benzetebiliriz. Tabi ki kendine göre ek özellikleri bulunmaktadır. Service tanımlaması AndroidManifest.xml içerisinde tanımlı olmalıdır. Aksi takdirde çalışmaz. &amp;lt;service&amp;gt; elementinin alabileceği özellikler aşağıdaki gibidir.
+ Niçin kullanılır? Temel olarak ifade etmek gerekirse Service&amp;rsquo;lerin kullanım amacı uzun süren ve arka planda(background) çalışan taskler oluşturmaktır. Bununla birlikte diğer uygulamalar tarafından çağırılabilen iletişim imkanı sağlar.
+Service tanımlanması &amp;lt;service android:description=&amp;#34;string resource&amp;#34;  android:directBootAware=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;]  android:enabled=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;]  android:exported=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;]  android:icon=&amp;#34;drawable resource&amp;#34;  android:isolatedProcess=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;]  android:label=&amp;#34;string resource&amp;#34;  android:name=&amp;#34;string&amp;#34;  android:permission=&amp;#34;string&amp;#34;  android:process=&amp;#34;string&amp;#34; &amp;gt;  .</description>
     </item>
     
     <item>
@@ -277,7 +273,7 @@ Service tanımlanması &amp;lt;service android:description=&amp;#34;string resou
       
       <guid>https://yazilim.aykutasil.com/server-ip/</guid>
       <description>Problem Domain&amp;rsquo;i barındıran server&amp;rsquo;ın IP&amp;rsquo;sini bulmak istiyoruz.
-Çözüm Linux  Terminali aç host www.aykutasil.com şeklinde istediğin domain&amp;rsquo;i yaz Server IP:  www.aykutasil.com has address 104.24.114.254 www.aykutasil.com has address 104.24.115.254 www.aykutasil.com has IPv6 address 2606:4700:30::6818:73fe www.aykutasil.com has IPv6 address 2606:4700:30::6818:72fe Windows  Komut penceresini aç. (cmd.exe) nslookup www.aykutasil.com şeklinde istediğin domain&amp;rsquo;i yaz Server IP:  Name: www.aykutasil.com Addresses: 2606:4700:30::6818:73fe 2606:4700:30::6818:72fe 104.24.115.254 104.24.114.254 </description>
+Çözüm Linux  Terminali aç host www.aykutasil.com şeklinde istediğin domain&amp;rsquo;i yaz Server IP:  www.aykutasil.com has address 104.24.114.254 www.aykutasil.com has address 104.24.115.254 www.aykutasil.com has IPv6 address 2606:4700:30::6818:73fe www.aykutasil.com has IPv6 address 2606:4700:30::6818:72fe Windows  Komut penceresini aç. (cmd.exe) nslookup www.aykutasil.com şeklinde istediğin domain&amp;rsquo;i yaz Server IP:  Name: www.aykutasil.com Addresses: 2606:4700:30::6818:73fe  2606:4700:30::6818:72fe  104.24.115.254  104.24.114.254 </description>
     </item>
     
     <item>
@@ -298,7 +294,7 @@ $ sql=$(cat &amp;lt;&amp;lt;EOF SELECT foo, bar FROM db WHERE foo=&amp;#39;baz&a
       <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-circleci/</guid>
-      <description>CircleCI Android Yapılandırması .circleci/config.yml version: 2 jobs: build: working_directory: ~/code docker: - image: circleci/android:api-28-alpha environment: JVM_OPTS: -Xmx3200m steps: - checkout - run: name: Initialize Keystore File command: echo $KEYSTORE_BASE64 | base64 --decode &amp;gt; app/aykutasilkeystore - run: name: Initialize Fabric Properties command: | echo &amp;#34;apiKey=$FABRIC_API_KEY&amp;#34; &amp;gt;&amp;gt; app/fabric.properties echo &amp;#34;apiSecret=$FABRIC_API_SECRET&amp;#34; &amp;gt;&amp;gt; app/fabric.properties cat app/fabric.properties - run: name: Initialize Keystore File command: | echo &amp;#34;signingKeyAlias=$KEYSTORE_KEY_ALIAS&amp;#34; &amp;gt;&amp;gt; keystore.properties echo &amp;#34;signingKeyAliasPassword=$KEYSTORE_KEY_ALIAS_PASSWORD&amp;#34; &amp;gt;&amp;gt; keystore.properties echo &amp;#34;signingStoreFile=$KEYSTORE_STORE_FILE&amp;#34; &amp;gt;&amp;gt; keystore.</description>
+      <description>CircleCI Android Yapılandırması .circleci/config.yml version: 2 jobs:  build:  working_directory: ~/code  docker:  - image: circleci/android:api-28-alpha  environment:  JVM_OPTS: -Xmx3200m  steps:  - checkout  - run:  name: Initialize Keystore File  command: echo $KEYSTORE_BASE64 | base64 --decode &amp;gt; app/aykutasilkeystore  - run:  name: Initialize Fabric Properties  command: |echo &amp;#34;apiKey=$FABRIC_API_KEY&amp;#34; &amp;gt;&amp;gt; app/fabric.properties echo &amp;#34;apiSecret=$FABRIC_API_SECRET&amp;#34; &amp;gt;&amp;gt; app/fabric.properties cat app/fabric.properties  - run:  name: Initialize Keystore File  command: |echo &amp;#34;signingKeyAlias=$KEYSTORE_KEY_ALIAS&amp;#34; &amp;gt;&amp;gt; keystore.</description>
     </item>
     
     <item>
@@ -328,8 +324,8 @@ Yukarıda ki durum ssh&amp;lsquo;ın kullanım amacına ters düştüğü için 
       
       <guid>https://yazilim.aykutasil.com/android-dagger/</guid>
       <description>@BindsInstance Bağımlılıklarınızı oluşturma esnasında belirtmeniz gereken bir değişkenininiz var ve bu değişkeni diğer module leriniz içerisinde kullanıcaksınız. Aşağıdaki gibi @BindsInstance kullanarak bu bağımlılığınızı dependency graph içerisine ekleyerek diğer modüller içerisinde kullanımını sağlayabilirsiniz.
-@Component(modules = AppModule.class) interface AppComponent { App app(); @Component.Builder interface Builder { @BindsInstance Builder apiUrl(@ApiUrl String apiUrl); AppComponent build(); } } Component build edilirken apiUrl değeri bind edilir.
-App app = DaggerAppComponent .builder() .apiUrl(&amp;#34;http://....&amp;#34;) .build()  </description>
+@Component(modules = AppModule.class) interface AppComponent {  App app();   @Component.Builder  interface Builder {  @BindsInstance Builder apiUrl(@ApiUrl String apiUrl);  AppComponent build();  } } Component build edilirken apiUrl değeri bind edilir.
+ App app = DaggerAppComponent  .</description>
     </item>
     
     <item>
@@ -426,7 +422,7 @@ Cloud DNS nedir? Google Cloud platformunun dns yapılandırması için vermiş o
       <guid>https://yazilim.aykutasil.com/kotlin-jvmoverloads/</guid>
       <description>Kotlin @JvmOverloads Kotlin ile uygulama geliştirmeyi teşvik eden en büyük etkenlerden biri şüphesiz Java dili uyumlu yapısıdır. Her iki tarafdan da birbirlerine referanslar verilebilir.
 Kotlin dilinin Java&amp;rsquo;dan ayıran özelliklerinden biri Java compiler ından daha zeki olmasıdır. Nitekim java dili yaşlanıyor :). Kotlin ile oluşturulan bazı yapıların Java tarafına uyumlu hale getirilmesi için bazen ufak düzenlemelere gerek duyulabiliyor. Bu düzenlemelerden bir tanesi de @JvmOverloads annotation kullanımı.
-fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View { return LayoutInflater.</description>
+fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View {  return LayoutInflater.</description>
     </item>
     
     <item>
@@ -436,7 +432,7 @@ fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View { return 
       
       <guid>https://yazilim.aykutasil.com/kotlin-sealed-class/</guid>
       <description>Kotlin Sealed Class Enum yapısına benzer bir yapıya sahiptir. Ve benzer görevler için kullanılır. Aradaki fark enum lar sabit değer ifade etmek için kullanılırken sealed yapısı normal sınıf gibi fakat enum mantığıyla kullanılır. Yani belli bir duruma ait fonksiyonları bir arada tutmak ve when() gibi fonksiyonlar ile birlikte kullanımını sağlamak için kullanılır.
-// Sealed class enum yapısına benzer  // Bir durum için belli başlı akışları bir arada tutmamızı sağlar ve bu akışların yönetimini kolaylaştırır.</description>
+ // Sealed class enum yapısına benzer  // Bir durum için belli başlı akışları bir arada tutmamızı sağlar ve bu akışların yönetimini kolaylaştırır.</description>
     </item>
     
     <item>
@@ -447,7 +443,7 @@ fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View { return 
       <guid>https://yazilim.aykutasil.com/kotlin-lambda/</guid>
       <description>Kotlin Lambda Kullanımı Kotlin dili ile geliştirme yaparken fonksiyonel programlama nimetlerinden faydalanmamızı sağlayan lambda birçok konuda bize yardımcı olacaktır. Doğru kullanımını öğrendiğimiz ölçüde nimetlerinin farkına varabiliriz.
 Belli başlı lambda kullanımları için aşağıdaki örneği inceleyebilirsiniz.
-override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_kotlin_lambda) // Normal Kullanım  ButtonPress.setOnClickListener(object : View.OnClickListener { override fun onClick(view: View?) { toast(&amp;#34;Press Me Click&amp;#34;) } }) // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz  ButtonPress.setOnClickListener({ v -&amp;gt; toast(&amp;#34;Press Me&amp;#34;) }) // Eğer son parametre lambda fonksiyonu ise bu fonksiyonu parantez &amp;#39;()&amp;#39; dışına çıkarabiliriz.</description>
+ override fun onCreate(savedInstanceState: Bundle?) {  super.onCreate(savedInstanceState)  setContentView(R.layout.activity_kotlin_lambda)   // Normal Kullanım  ButtonPress.setOnClickListener(object : View.OnClickListener {  override fun onClick(view: View?) {  toast(&amp;#34;Press Me Click&amp;#34;)  }   })   // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz  ButtonPress.</description>
     </item>
     
     <item>
@@ -458,7 +454,7 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
       <guid>https://yazilim.aykutasil.com/kotlin-apply/</guid>
       <description>fun &amp;lt;T&amp;gt; T.apply(f: T.() -&amp;gt; Unit): T { f(); return this } apply() tüm tipler için belirlenmiş bir extension function dır. apply() fonksiyonu uygulanan nesnenin özelliklerine direk olarak apply kod bloğu içerisinden erişilebilir.
 var file = File(dir) file.mkdirs() veya Java ile yazacak olursak
-File makeDir(String path) { File result = new File(path); result.mkdirs(); return result; } Bu kodu aşağıdaki yapıya çevirebiliriz.
+File makeDir(String path) {  File result = new File(path);  result.mkdirs();  return result; } Bu kodu aşağıdaki yapıya çevirebiliriz.
 File(dir).apply { mkdirs() } </description>
     </item>
     
@@ -470,8 +466,8 @@ File(dir).apply { mkdirs() } </description>
       <guid>https://yazilim.aykutasil.com/kotlin-when/</guid>
       <description>Kotlin&amp;rsquo;de when operatörü işimizi oldukça kolaylaştıran operatörlerden biridir.
 if- else if yapısı yerine kullanılabileceği gibi bazı yardımcı operatörler ile birçok marifet kazanabilir.
-val i = 10 when { i &amp;lt; 7 -&amp;gt; println(&amp;#34;first block&amp;#34;) fooString.startsWith(&amp;#34;hello&amp;#34;) -&amp;gt; println(&amp;#34;second block&amp;#34;) else -&amp;gt; println(&amp;#34;else block&amp;#34;) } Yukarıda ki örnek if-else if-else yapısının aynısıdır.
- when (i) { 0, 21 -&amp;gt; println(&amp;#34;0 or 21&amp;#34;) in 1..20 -&amp;gt; println(&amp;#34;in the range 1 to 20&amp;#34;) else -&amp;gt; println(&amp;#34;none of the above&amp;#34;) } Yukarıda ki gibi aralıklar tanımlanabilir ve bu aralıklara uyum kontrolü yapılarak ilgili işlemlerin yapılması sağlanılabilir.</description>
+ val i = 10  when {  i &amp;lt; 7 -&amp;gt; println(&amp;#34;first block&amp;#34;)  fooString.startsWith(&amp;#34;hello&amp;#34;) -&amp;gt; println(&amp;#34;second block&amp;#34;)  else -&amp;gt; println(&amp;#34;else block&amp;#34;)  } Yukarıda ki örnek if-else if-else yapısının aynısıdır.
+  when (i) {  0, 21 -&amp;gt; println(&amp;#34;0 or 21&amp;#34;)  in 1.</description>
     </item>
     
     <item>
@@ -482,7 +478,7 @@ val i = 10 when { i &amp;lt; 7 -&amp;gt; println(&amp;#34;first block&amp;#34;) 
       <guid>https://yazilim.aykutasil.com/kotlin-let/</guid>
       <description>Kotlin fun &amp;lt;T, R&amp;gt; T.let(f: (T) -&amp;gt; R): R = f(this) let() temel olarak, belirli bir kapsam için bir değişken/kod bloğu oluşturmamızı sağlayan bir kapsamlayıcı işlevdir. Yani let() bir sarmalıyıcı fonksiyondur.
 Örneğin:
-private var mPhotoUrl: String? = null fun uploadClicked() { if (mPhotoUrl != null) { uploadPhoto(mPhotoUrl!!) } } Yukarıda ki if (mPhotoUrl != null) satırı ile null kontrolü yapılır ve eğer null değilse uploadPhoto(mPhotoUrl!!) kod bloğu çalıştırılır. Bu kodu let() ile çok daha kolay ve anlaşılır hale getirebiliriz.</description>
+private var mPhotoUrl: String? = null  fun uploadClicked() {  if (mPhotoUrl != null) {  uploadPhoto(mPhotoUrl!!)  } } Yukarıda ki if (mPhotoUrl != null) satırı ile null kontrolü yapılır ve eğer null değilse uploadPhoto(mPhotoUrl!!) kod bloğu çalıştırılır.</description>
     </item>
     
     <item>
@@ -512,7 +508,7 @@ Nasıl Çalışıyor? Kısaca anlatılan bu yazıyı okuduğunuzda günün sonun
       <pubDate>Sun, 12 Mar 2017 23:40:36 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/arduino_hc06_kullanimi/</guid>
-      <description>HC-06 Bluetooth  Aşağıdaki kodu Arduino kartınıza yükleyiniz Bluetooth Terminal uygulamasını telefonunuza indirin HC-06 modulünün TX-RX çıkışlarını Arduino kartınızın RX-TX girişlerine entegre edin. (Ters sıralamaya dikkat) Cihazınızdan normal bluetooh bağlantısı kurar gibi HC-06 modülü ile bağlantı kurun ve şifre olarak 1234 girin. Aşağıdaki kodda görebileceğiniz gibi 0,1,2,3,4 için farklı işlemler yapılmasını sağladık. Siz de ihtiyacınıza göre ayarlayın. Ben led parlaklığını düzenledim ya da motor hızı olarak da düşünebiliriz.  const int LED_PIN = 9; char veri; void setup() { Serial.</description>
+      <description>HC-06 Bluetooth  Aşağıdaki kodu Arduino kartınıza yükleyiniz Bluetooth Terminal uygulamasını telefonunuza indirin HC-06 modulünün TX-RX çıkışlarını Arduino kartınızın RX-TX girişlerine entegre edin. (Ters sıralamaya dikkat) Cihazınızdan normal bluetooh bağlantısı kurar gibi HC-06 modülü ile bağlantı kurun ve şifre olarak 1234 girin. Aşağıdaki kodda görebileceğiniz gibi 0,1,2,3,4 için farklı işlemler yapılmasını sağladık. Siz de ihtiyacınıza göre ayarlayın. Ben led parlaklığını düzenledim ya da motor hızı olarak da düşünebiliriz.  const int LED_PIN = 9;  char veri;   void setup() {  Serial.</description>
     </item>
     
     <item>
@@ -535,7 +531,7 @@ Ve hazırladığımız bu proje yapısını paket yönetim sistemlerine yollayar
       <description>C# ? ve ?? Operator Kullanımı Kısaca bahsedilecek olursa ? operatörü null kontrolü yapılmasını sağlar.
 Yazılım geliştirme sırasında en çok rastlanan hatanın sebebi null dönen ifadelerdir. Bu bazen bir değişken bazen parametre vs. olabilir. Ama sebep ifadenin null olmasıdır.
 Önceden şu şekilde kontrol ediyorduk.
-var a; if(a != null) { Console.Write(a); } şimdi
+var a; if(a != null) {  Console.Write(a); } şimdi
 var a; Console.Write(a ?? &amp;#34;boş değer&amp;#34;); Yukarıdaki söz dizimi ile şunu söylüyoruz.
  Eğer a değeri null değil ise ekrana a nın değerini yaz.</description>
     </item>
@@ -615,7 +611,7 @@ Aynı anda 1000 den fazla kullanıcıya cevap verme gereksinimiz var artık. Sad
       
       <guid>https://yazilim.aykutasil.com/rxjava-range/</guid>
       <description>RxJava range() Kullanımı **Örnek kod:&amp;ndash;
-private void range() { Observable.range(3, 5).subscribeOn(Schedulers.io()) .subscribe(success -&amp;gt; { Log.i(TAG, &amp;#34;val: &amp;#34; + success.toString()); }); } Açıklama:
+private void range() {  Observable.range(3, 5).subscribeOn(Schedulers.io())  .subscribe(success -&amp;gt; {  Log.i(TAG, &amp;#34;val: &amp;#34; + success.toString());  }); } Açıklama:
 İlk değer 3 kabul edilerek sonraki 5 sayı için teker teker onNext() çağırılır. Yani 3 , 4, 5, 6, 7
 Yukarıda ki kodun çıktısı aşağıdaki gibidir.
 I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActivity: val: 6 I/MainActivity: val: 7 RxJava candır. 😉</description>
@@ -628,7 +624,7 @@ I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActiv
       
       <guid>https://yazilim.aykutasil.com/rxjava-scan/</guid>
       <description>RxJava scan() Kullanımı RxJava da scan() kullanımı iki şekilde olur.
-   İlk değer ataması yapılarak    private void scan() { Observable.just(3, 5, 7, 9) .scan(10,(val1, val2) -&amp;gt; { //  Log.i(TAG, &amp;#34;val1: &amp;#34; + val1.toString()); Log.i(TAG, &amp;#34;val2: &amp;#34; + val2.toString()); return val1 + val2; }).subscribeOn(Schedulers.io()) .subscribe(success -&amp;gt; { Log.i(TAG, &amp;#34;Sonuc:&amp;#34; + success.toString()); }); }   İlk değer ataması yapılmadan    private void scan() { Observable.</description>
+   İlk değer ataması yapılarak    private void scan() {  Observable.just(3, 5, 7, 9)  .scan(10,(val1, val2) -&amp;gt; {  //  Log.i(TAG, &amp;#34;val1: &amp;#34; + val1.toString());  Log.i(TAG, &amp;#34;val2: &amp;#34; + val2.toString());  return val1 + val2;  }).subscribeOn(Schedulers.io())  .subscribe(success -&amp;gt; {  Log.i(TAG, &amp;#34;Sonuc:&amp;#34; + success.toString());  }); }   İlk değer ataması yapılmadan    private void scan() {  Observable.</description>
     </item>
     
     <item>
@@ -638,8 +634,7 @@ I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActiv
       
       <guid>https://yazilim.aykutasil.com/rxjava-reduce/</guid>
       <description>RxJava reduce() Kullanımı reduce() fonskyionu iki şekilde çalışır;
- 1.Kullanım  .reduce(new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } })  2.Kullanım  .reduce(10,new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } }) 1 ile 2 nin farkı, 2 de görüldüğü üzere fonksiyona başlangıç değeri atanabilmesidir.
-Aşağıdaki örneklerde daha net görebilirsiniz.</description>
+ 1.Kullanım  .reduce(new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() {  @Override  public Integer apply(Integer val1, Integer val2) throws Exception {  return null;  } })  2.Kullanım  .reduce(10,new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() {  @Override  public Integer apply(Integer val1, Integer val2) throws Exception {  return null;  } }) 1 ile 2 nin farkı, 2 de görüldüğü üzere fonksiyona başlangıç değeri atanabilmesidir.</description>
     </item>
     
     <item>
@@ -709,7 +704,7 @@ Orijinal Arduino Kartlarının yapımı iki koldan yürüyor. Bir taraf open sou
       <description>Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id&amp;rsquo;sini getirir.
 Yapılan son kaydın id sini almak için uzun yol olarak insert sorgusunu çalıştırdıktan sonra bir select sorgusu atarak ve order by id desc diyerek ilk sıradaki kaydı okuyabilir ve bu kaydın id sini alabiliriz.
 Tüm bunları yapmaktansa:
-DECLARE @son_satir_id INT; INSERT INTO tbQwerty ( Ad , Soyad ) VALUES ( &amp;#39;Aykut&amp;#39; &amp;#39;Asil&amp;#39; ) SET @son_satir_id = SCOPE_IDENTITY(); Ayrıntılı Bilgi : https://technet.</description>
+DECLARE @son_satir_id INT;  INSERT INTO tbQwerty  (  Ad ,  Soyad  ) VALUES (  &amp;#39;Aykut&amp;#39;  &amp;#39;Asil&amp;#39;  ) SET @son_satir_id = SCOPE_IDENTITY(); Ayrıntılı Bilgi : https://technet.</description>
     </item>
     
     <item>
@@ -723,7 +718,7 @@ Her dilde var olan Replace fonksiyonu Javascript de saçma sapan bir şekilde ya
 Örneğin elinizde
 var degisken = ‘İSTANBUL’ ;
 şeklinde bir değişkeniniz var. Ve siz ihtiyacınız doğrultusunda bu kelimeyi veritabanından çektiğiniz ‘istanbul’ kelimesi ile karşılaştırmak istiyorsunuz.
-$(&amp;#39;#Iller &amp;gt; option&amp;#39;).</description>
+ $(&amp;#39;#Iller &amp;gt; option&amp;#39;).</description>
     </item>
     
     <item>
@@ -756,7 +751,7 @@ Sizde projenizde resimlerle ilgili herhangi bir işlem yapıyorsanız bu kütüp
       
       <guid>https://yazilim.aykutasil.com/java-collections/</guid>
       <description>Collections.swap Swap kelime anlamı ile takas anlamına gelmektedir. Mevcut dizimiz içerisinde elemanların yerlerini değiştirmeye yarar.
-private static final String[] STRINGS = new String[]{ &amp;#34;1&amp;#34;, &amp;#34;2&amp;#34;, &amp;#34;3&amp;#34;, &amp;#34;4&amp;#34;, &amp;#34;5&amp;#34; }; private final List mItems = new ArrayList&amp;lt;&amp;gt;(); public void setArray() { mItems.addAll(Arrays.asList(STRINGS)); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 1,2,3,4,5  private void elemanYerDegistir() { Collections.swap(mItems, 0, 4); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 5,2,3,4,1 </description>
+private static final String[] STRINGS = new String[]{  &amp;#34;1&amp;#34;, &amp;#34;2&amp;#34;, &amp;#34;3&amp;#34;, &amp;#34;4&amp;#34;, &amp;#34;5&amp;#34; };  private final List mItems = new ArrayList&amp;lt;&amp;gt;(); public void setArray() {  mItems.addAll(Arrays.asList(STRINGS)); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır.  // 1,2,3,4,5  private void elemanYerDegistir() {  Collections.swap(mItems, 0, 4); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır.</description>
     </item>
     
     <item>
@@ -767,7 +762,7 @@ private static final String[] STRINGS = new String[]{ &amp;#34;1&amp;#34;, &amp;
       <guid>https://yazilim.aykutasil.com/android-custom-toolbar/</guid>
       <description>Android Toolbar Android Toolbar bileşeni çok yönlü bir yapıya sahiptir. Android Design Library kullanarak ve AppBarLayout içerisinde tanımlanarak oldukça farklı şekillere bürünebilir.
 Genel kullanımı aşağıdaki gibidir.
-&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt; &amp;lt;android.support.design.widget.CoordinatorLayout xmlns:android=&amp;#34;http://schemas.android.com/apk/res/android&amp;#34; xmlns:app=&amp;#34;http://schemas.android.com/apk/res-auto&amp;#34; xmlns:tools=&amp;#34;http://schemas.android.com/tools&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;match_parent&amp;#34; android:background=&amp;#34;@color/primary_dark&amp;#34; tools:context=&amp;#34;.MainActivity&amp;#34;&amp;gt; &amp;lt;FrameLayout android:id=&amp;#34;@+id/container&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;match_parent&amp;#34;&amp;gt; &amp;lt;/FrameLayout&amp;gt; &amp;lt;android.support.design.widget.FloatingActionButton android:id=&amp;#34;@+id/fab&amp;#34; android:layout_width=&amp;#34;wrap_content&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; android:layout_gravity=&amp;#34;bottom|end&amp;#34; android:layout_margin=&amp;#34;@dimen/fab_margin&amp;#34; android:src=&amp;#34;@android:drawable/ic_dialog_email&amp;#34; /&amp;gt; &amp;lt;android.support.design.widget.AppBarLayout android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; app:elevation=&amp;#34;0dp&amp;#34;&amp;gt; &amp;lt;android.support.v7.widget.Toolbar android:id=&amp;#34;@+id/toolbar&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; android:background=&amp;#34;@color/primary_dark&amp;#34; android:minHeight=&amp;#34;?attr/actionBarSize&amp;#34; app:popupTheme=&amp;#34;@style/AppTheme.PopupOverlay&amp;#34;/&amp;gt; &amp;lt;/android.support.design.widget.AppBarLayout&amp;gt; &amp;lt;/android.support.design.widget.CoordinatorLayout&amp;gt; app:elevation=&amp;quot;0dp&amp;quot; // AppBarLayout içerisinde ki bu tanımlama default olarak tanımlanmış gölgeyi kaldırır.</description>
+&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt; &amp;lt;android.support.design.widget.CoordinatorLayout xmlns:android=&amp;#34;http://schemas.android.com/apk/res/android&amp;#34;  xmlns:app=&amp;#34;http://schemas.android.com/apk/res-auto&amp;#34;  xmlns:tools=&amp;#34;http://schemas.android.com/tools&amp;#34;  android:layout_width=&amp;#34;match_parent&amp;#34;  android:layout_height=&amp;#34;match_parent&amp;#34;  android:background=&amp;#34;@color/primary_dark&amp;#34;  tools:context=&amp;#34;.MainActivity&amp;#34;&amp;gt;   &amp;lt;FrameLayout  android:id=&amp;#34;@+id/container&amp;#34;  android:layout_width=&amp;#34;match_parent&amp;#34;  android:layout_height=&amp;#34;match_parent&amp;#34;&amp;gt;   &amp;lt;/FrameLayout&amp;gt;    &amp;lt;android.support.design.widget.FloatingActionButton  android:id=&amp;#34;@+id/fab&amp;#34;  android:layout_width=&amp;#34;wrap_content&amp;#34;  android:layout_height=&amp;#34;wrap_content&amp;#34;  android:layout_gravity=&amp;#34;bottom|end&amp;#34;  android:layout_margin=&amp;#34;@dimen/fab_margin&amp;#34;  android:src=&amp;#34;@android:drawable/ic_dialog_email&amp;#34; /&amp;gt;    &amp;lt;android.</description>
     </item>
     
     <item>
@@ -812,7 +807,7 @@ Burada yapacağımız örnekte kısaca şu aşamaları görücez;
       <pubDate>Wed, 11 Jan 2017 01:50:51 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/retrofit-multipart-file-upload/</guid>
-      <description>Retrofit Multipart File Upload @DebugLog public BelgeResponse BelgeSync(BelgeRequest request, String apiVersion, String appVersion) { try { Map&amp;lt;String, RequestBody&amp;gt; map = new HashMap&amp;lt;&amp;gt;(); String belgeDirPath = SuperHelper.getInternalIztopBelgeDir(mContext, request.getGonderiNo()); File belgeDir = new File(belgeDirPath); boolean isDir = belgeDir.isDirectory(); if (isDir) { File[] files = belgeDir.listFiles(); for (File file : files) { RequestBody requestBody = RequestBody.create(MediaType.parse(&amp;#34;image/jpg&amp;#34;), file); map.put(&amp;#34;file\&amp;#34;; filename=\&amp;#34;&amp;#34; + file.getName(), requestBody); } } //RequestBody requestBodyGonderiNo = RequestBody.create(MediaType.parse(&amp;#34;text/plain&amp;#34;), request.getGonderiNo());  //RequestBody requestBodyMusId = RequestBody.</description>
+      <description>Retrofit Multipart File Upload  @DebugLog  public BelgeResponse BelgeSync(BelgeRequest request, String apiVersion, String appVersion) {  try {   Map&amp;lt;String, RequestBody&amp;gt; map = new HashMap&amp;lt;&amp;gt;();  String belgeDirPath = SuperHelper.getInternalIztopBelgeDir(mContext, request.getGonderiNo());  File belgeDir = new File(belgeDirPath);  boolean isDir = belgeDir.isDirectory();  if (isDir) {  File[] files = belgeDir.listFiles();  for (File file : files) {  RequestBody requestBody = RequestBody.create(MediaType.parse(&amp;#34;image/jpg&amp;#34;), file);  map.put(&amp;#34;file\&amp;#34;; filename=\&amp;#34;&amp;#34; + file.</description>
     </item>
     
     <item>
@@ -825,7 +820,7 @@ Burada yapacağımız örnekte kısaca şu aşamaları görücez;
 GcmNetworkManager ın kullanım alanı daha çok asenkron ve periodic network işlemlerinizi yapılandırmaktır.
 Tek sefer çalışacak veya Periodic olarak çalışacak işlemleriniz için 2 tip belirlenmiştir.
  OneoffTask PeriodicTask   OneoffTask Kullanımı
-OneoffTask oneoff = new OneoffTask.Builder() // Uygulamanızı kapatsanız bile tekrar açtığınız da network işleminiz işleme konulur.  // Yani isteğinizin kalıcı olup olmamasını bu parametre ile ayarlayabilirsiniz.  .</description>
+OneoffTask oneoff = new OneoffTask.Builder()  // Uygulamanızı kapatsanız bile tekrar açtığınız da network işleminiz işleme konulur.  // Yani isteğinizin kalıcı olup olmamasını bu parametre ile ayarlayabilirsiniz.</description>
     </item>
     
     <item>
@@ -848,9 +843,8 @@ Biz burda SMS dinlemesi yaparken önlem amaçlı olarak CPU nun uyumasını önl
       <guid>https://yazilim.aykutasil.com/android-internet-connection-receiver/</guid>
       <description>Uygulamanızın akışını internet kontrolü yaparak yönetmeniz gerekebilir.
 Bunun için ilk olarak AndroidManifest.xml dosyasına receiver tanımı yapmalısınız.
-&amp;lt;receiver android:name=&amp;#34;.InternetConnectionReceiver&amp;#34;&amp;gt; &amp;lt;intent-filter&amp;gt; &amp;lt;action android:name=&amp;#34;android.net.conn.CONNECTIVITY_CHANGE&amp;#34; /&amp;gt; &amp;lt;/intent-filter&amp;gt; &amp;lt;/receiver&amp;gt; InternetConnectionReceiver
-public class InternetConnectionReceiver extends BroadcastReceiver { @Override public void onReceive(Context context, Intent intent) { if (CheckConnection(context)) { } } } Yukarıda tanımlanmış olan receiver, cihazın ağ yapısında herhangi bir değişiklik olduğunda bunu yakalar. Örneğin wireless açıkken kapattığınız da veya kapalıyken açtığınız da bunu yakayabilirsiniz.
-CheckConnection</description>
+&amp;lt;receiver android:name=&amp;#34;.InternetConnectionReceiver&amp;#34;&amp;gt;  &amp;lt;intent-filter&amp;gt;  &amp;lt;action android:name=&amp;#34;android.net.conn.CONNECTIVITY_CHANGE&amp;#34; /&amp;gt;  &amp;lt;/intent-filter&amp;gt; &amp;lt;/receiver&amp;gt; InternetConnectionReceiver
+public class InternetConnectionReceiver extends BroadcastReceiver {    @Override  public void onReceive(Context context, Intent intent) {   if (CheckConnection(context)) {   }  } } Yukarıda tanımlanmış olan receiver, cihazın ağ yapısında herhangi bir değişiklik olduğunda bunu yakalar. Örneğin wireless açıkken kapattığınız da veya kapalıyken açtığınız da bunu yakayabilirsiniz.</description>
     </item>
     
     <item>
@@ -879,7 +873,7 @@ ActiveAndroid kütüphanesi ORM kütüphanelerinden biridir.
 Kütüphaneyi buradan indirebilirsiniz.
 Kullanımı oldukça basittir. Sadece birkaç noktaya özellikle dikkat edilmesi gerekiyor. Bunlardan biri oluşturmuş olduğunuz tabloya yeni alanlar eklediğiniz de tablonuzu güncellemek. Veya herhangi bir sebeple tabloda çeşitli işlemler yapmak.
 Aşağıda kısaca Tablo oluşturmaktan ve gerektiğinde Tablo yu nasıl güncelleyeceğimizden bahsedicem.
-@Table(name = &amp;#34;Items&amp;#34;) public class ModelSampleItem extends Model { @Column(name = &amp;#34;Name&amp;#34;) public String name; @Column(name = &amp;#34;Surname&amp;#34;) public String surname; @Column(name = &amp;#34;Phone&amp;#34;) public String phoneNumber; @Column(name = &amp;#34;Xyz&amp;#34;) public String xyz; @Column(name = &amp;#34;EMail&amp;#34;) public String email; @Column(name = &amp;#34;TryColumn&amp;#34;) public String tryColumn; @Column(name = &amp;#34;Column3&amp;#34;) public String column3; public ModelSampleItem() { super(); } } Yukarıda ki yapıyı kullanarak istediğiniz Tablo yu oluşturmanız mümkün.</description>
+@Table(name = &amp;#34;Items&amp;#34;) public class ModelSampleItem extends Model {   @Column(name = &amp;#34;Name&amp;#34;)  public String name;   @Column(name = &amp;#34;Surname&amp;#34;)  public String surname;   @Column(name = &amp;#34;Phone&amp;#34;)  public String phoneNumber;   @Column(name = &amp;#34;Xyz&amp;#34;)  public String xyz;   @Column(name = &amp;#34;EMail&amp;#34;)  public String email;   @Column(name = &amp;#34;TryColumn&amp;#34;)  public String tryColumn;    @Column(name = &amp;#34;Column3&amp;#34;)  public String column3;     public ModelSampleItem() {  super();   } } Yukarıda ki yapıyı kullanarak istediğiniz Tablo yu oluşturmanız mümkün.</description>
     </item>
     
     <item>
@@ -963,7 +957,7 @@ Yukarıda ki resimde görmüş olduğunuz gibi gerekli kutucukları işaretleyip
       <description>TSQL NULLIF fonksiyonu NULLIF fonksiyonu verilen iki parametre birbirine esit ise NULL deger döndürür eger degerleri fakli iki parametre verilirse sonuç olarak birinci parametrenin degerini döndürür.
 Kullanimi ve anlamasi kolay bir fonksiyon oldugu için basit bir örnekle anlatmaya çalisalim.
 Ilk olarak kullanacagimiz geçici tabloyu asagidaki gibi çalistirip içine insert komutu ile veri kaydedelim.
-CREATE TABLE #Urun ( UrunID TINYINT, ListeFiyati DECIMAL NULL); GO INSERT #Urun VALUES(1,100); INSERT #Urun VALUES(2,NULL); INSERT #Urun VALUES(3,0); INSERT #Urun VALUES(7,250); INSERT #Urun VALUES(9,458); ListeFiyati kolonuna göre count yaparsak sonuç olarak 4 dönecegini görürsünüz, çünkü UrunID’si 2 olan ürünün liste fiyati girilmemistir.</description>
+CREATE TABLE #Urun ( UrunID TINYINT, ListeFiyati DECIMAL NULL);  GO  INSERT #Urun VALUES(1,100); INSERT #Urun VALUES(2,NULL); INSERT #Urun VALUES(3,0); INSERT #Urun VALUES(7,250); INSERT #Urun VALUES(9,458); ListeFiyati kolonuna göre count yaparsak sonuç olarak 4 dönecegini görürsünüz, çünkü UrunID’si 2 olan ürünün liste fiyati girilmemistir.</description>
     </item>
     
     <item>
@@ -977,7 +971,7 @@ Farklı ihtiyaçlarınız doğrultusunda Spinner ınızın elemanlarının değe
 Örneğin bir ListView iniz var.Ve içerisinde aynı kategoriden ama değişik durumlara sahip itemlar var ve siz bu itemları durumuna göre gruplandırıp sayısını Spinner da göstermek istiyorsunuz. Bunun için aşağıda belirtecek olduğum yapıyı kullanabilirsiniz.
 Öncellikle String.xml dosyasına Spinner ımızda göstereceğimiz elemanları tanımlıyoruz.
 String.xml
-&amp;lt;string name=&amp;#34;pazartesi&amp;#34;&amp;gt;Pazartesi&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;sali&amp;#34;&amp;gt;Salı&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;carsamba&amp;#34;&amp;gt;Çarşamba&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;persembe&amp;#34;&amp;gt;Perşembe&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;cuma&amp;#34;&amp;gt;Cuma&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;cumartesi&amp;#34;&amp;gt;Cumartesi&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;pazar&amp;#34;&amp;gt;Pazar&amp;lt;/string&amp;gt; &amp;lt;string-array name=&amp;#34;array_gonderi_list_haftalik&amp;#34;&amp;gt; &amp;lt;item&amp;gt;@string/pazartesi&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/sali&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/carsamba&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/persembe&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/cuma&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/cumartesi&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/pazar&amp;lt;/item&amp;gt; &amp;lt;/string-array&amp;gt; SpinnerHelper.</description>
+&amp;lt;string name=&amp;#34;pazartesi&amp;#34;&amp;gt;Pazartesi&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;sali&amp;#34;&amp;gt;Salı&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;carsamba&amp;#34;&amp;gt;Çarşamba&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;persembe&amp;#34;&amp;gt;Perşembe&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;cuma&amp;#34;&amp;gt;Cuma&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;cumartesi&amp;#34;&amp;gt;Cumartesi&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;pazar&amp;#34;&amp;gt;Pazar&amp;lt;/string&amp;gt;   &amp;lt;string-array name=&amp;#34;array_gonderi_list_haftalik&amp;#34;&amp;gt;  &amp;lt;item&amp;gt;@string/pazartesi&amp;lt;/item&amp;gt;  &amp;lt;item&amp;gt;@string/sali&amp;lt;/item&amp;gt;  &amp;lt;item&amp;gt;@string/carsamba&amp;lt;/item&amp;gt;  &amp;lt;item&amp;gt;@string/persembe&amp;lt;/item&amp;gt;  &amp;lt;item&amp;gt;@string/cuma&amp;lt;/item&amp;gt;  &amp;lt;item&amp;gt;@string/cumartesi&amp;lt;/item&amp;gt;  &amp;lt;item&amp;gt;@string/pazar&amp;lt;/item&amp;gt; &amp;lt;/string-array&amp;gt; SpinnerHelper.</description>
     </item>
     
     <item>
@@ -986,7 +980,7 @@ String.xml
       <pubDate>Mon, 02 Jan 2017 14:35:49 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android-pendingintent-flags/</guid>
-      <description>PendingIntent resultPendingIntent = PendingIntent.getActivity( getApplicationContext(), 100, intent, PendingIntent.FLAG_CANCEL_CURRENT ); PendingIntent ler Android uygulama geliştirilmesi sırasında birçok yerde karşımıza çıkabilir.
+      <description>PendingIntent resultPendingIntent = PendingIntent.getActivity(  getApplicationContext(),  100,  intent,  PendingIntent.FLAG_CANCEL_CURRENT ); PendingIntent ler Android uygulama geliştirilmesi sırasında birçok yerde karşımıza çıkabilir.
 Özetle PendingIntent kullanılarak asenkron işlem başlatılımı yapılır.
 En genel kullanım alanlarından bir tanesi de Notification lar iledir.
 Kullanıcı, hazırlamış olduğumuz notification a tıkladığında alacak olduğu tepki nasıl olmalı? sorusuna cevap vermek için PendingIntent imizin flag parametresini uygun şekilde düzenlemeliyiz.

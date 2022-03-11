@@ -5,11 +5,7 @@
     <link>https://yazilim.aykutasil.com/tags/tsql/</link>
     <description>Recent content in tsql on Aykut Asil</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 10 Jan 2017 23:08:34 +0300</lastBuildDate>
-    
-	<atom:link href="https://yazilim.aykutasil.com/tags/tsql/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 10 Jan 2017 23:08:34 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/tsql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TSQL NULLIF Fonksiyonu Nedir ve Nasıl Kullanılır</title>
       <link>https://yazilim.aykutasil.com/sql-nullif-fonksiyonu-kullanimi/</link>
@@ -19,7 +15,7 @@
       <description>TSQL NULLIF fonksiyonu NULLIF fonksiyonu verilen iki parametre birbirine esit ise NULL deger döndürür eger degerleri fakli iki parametre verilirse sonuç olarak birinci parametrenin degerini döndürür.
 Kullanimi ve anlamasi kolay bir fonksiyon oldugu için basit bir örnekle anlatmaya çalisalim.
 Ilk olarak kullanacagimiz geçici tabloyu asagidaki gibi çalistirip içine insert komutu ile veri kaydedelim.
-CREATE TABLE #Urun ( UrunID TINYINT, ListeFiyati DECIMAL NULL); GO INSERT #Urun VALUES(1,100); INSERT #Urun VALUES(2,NULL); INSERT #Urun VALUES(3,0); INSERT #Urun VALUES(7,250); INSERT #Urun VALUES(9,458); ListeFiyati kolonuna göre count yaparsak sonuç olarak 4 dönecegini görürsünüz, çünkü UrunID’si 2 olan ürünün liste fiyati girilmemistir.</description>
+CREATE TABLE #Urun ( UrunID TINYINT, ListeFiyati DECIMAL NULL);  GO  INSERT #Urun VALUES(1,100); INSERT #Urun VALUES(2,NULL); INSERT #Urun VALUES(3,0); INSERT #Urun VALUES(7,250); INSERT #Urun VALUES(9,458); ListeFiyati kolonuna göre count yaparsak sonuç olarak 4 dönecegini görürsünüz, çünkü UrunID’si 2 olan ürünün liste fiyati girilmemistir.</description>
     </item>
     
   </channel>

@@ -5,11 +5,7 @@
     <link>https://yazilim.aykutasil.com/tags/let/</link>
     <description>Recent content in let on Aykut Asil</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 06 Jun 2017 04:33:06 +0300</lastBuildDate>
-    
-	<atom:link href="https://yazilim.aykutasil.com/tags/let/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 06 Jun 2017 04:33:06 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/let/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kotlin Let Kullanımı</title>
       <link>https://yazilim.aykutasil.com/kotlin-let/</link>
@@ -18,7 +14,7 @@
       <guid>https://yazilim.aykutasil.com/kotlin-let/</guid>
       <description>Kotlin fun &amp;lt;T, R&amp;gt; T.let(f: (T) -&amp;gt; R): R = f(this) let() temel olarak, belirli bir kapsam için bir değişken/kod bloğu oluşturmamızı sağlayan bir kapsamlayıcı işlevdir. Yani let() bir sarmalıyıcı fonksiyondur.
 Örneğin:
-private var mPhotoUrl: String? = null fun uploadClicked() { if (mPhotoUrl != null) { uploadPhoto(mPhotoUrl!!) } } Yukarıda ki if (mPhotoUrl != null) satırı ile null kontrolü yapılır ve eğer null değilse uploadPhoto(mPhotoUrl!!) kod bloğu çalıştırılır. Bu kodu let() ile çok daha kolay ve anlaşılır hale getirebiliriz.</description>
+private var mPhotoUrl: String? = null  fun uploadClicked() {  if (mPhotoUrl != null) {  uploadPhoto(mPhotoUrl!!)  } } Yukarıda ki if (mPhotoUrl != null) satırı ile null kontrolü yapılır ve eğer null değilse uploadPhoto(mPhotoUrl!!) kod bloğu çalıştırılır.</description>
     </item>
     
   </channel>

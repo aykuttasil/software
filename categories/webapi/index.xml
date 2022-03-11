@@ -5,11 +5,7 @@
     <link>https://yazilim.aykutasil.com/categories/webapi/</link>
     <description>Recent content in webapi on Aykut Asil</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 15 Apr 2019 22:08:14 +0300</lastBuildDate>
-    
-	<atom:link href="https://yazilim.aykutasil.com/categories/webapi/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 15 Apr 2019 22:08:14 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/webapi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ASP.Net Core app.Run() Middleware</title>
       <link>https://yazilim.aykutasil.com/aspnetcore-run-middleware/</link>

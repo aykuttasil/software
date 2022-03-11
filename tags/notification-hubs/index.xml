@@ -5,11 +5,7 @@
     <link>https://yazilim.aykutasil.com/tags/notification-hubs/</link>
     <description>Recent content in notification hubs on Aykut Asil</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 11 Jan 2017 00:21:36 +0300</lastBuildDate>
-    
-	<atom:link href="https://yazilim.aykutasil.com/tags/notification-hubs/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 11 Jan 2017 00:21:36 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/notification-hubs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure Mobile Services ve Notification Hubs Kullanımı</title>
       <link>https://yazilim.aykutasil.com/azure-notification-hubs-kullanimi/</link>

@@ -5,18 +5,14 @@
     <link>https://yazilim.aykutasil.com/tags/sms-user-consent-api/</link>
     <description>Recent content in sms-user-consent-api on Aykut Asil</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 02 Nov 2021 20:17:23 +0300</lastBuildDate>
-    
-	<atom:link href="https://yazilim.aykutasil.com/tags/sms-user-consent-api/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 02 Nov 2021 20:17:23 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/sms-user-consent-api/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android SMS User Consent API Kullanımı</title>
       <link>https://yazilim.aykutasil.com/android_sms_user_consent_api/</link>
       <pubDate>Tue, 02 Nov 2021 20:17:23 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/android_sms_user_consent_api/</guid>
-      <description>Problem? Android işletim sisteminin ilk versiyonlarında SMS&amp;lsquo;lere erişim oldukça kolaydı. Fakat şimdi sadece özel izne sahip uygulamalar bu izne sahip olabiliyor. Google&amp;rsquo;a bir form doldurarak ve neden SMS okuma özelliğine kesin olarak ihtiyacınız olduğunu anlatarak bu izni talep ediyorsunuz. Peki bizim amacımız tek seferlik bir SMS okumak ise yine bu süreçten geçmeli miyiz? Hayır!
+      <description>Problem? Android işletim sisteminin ilk versiyonlarında SMS&amp;rsquo;lere erişim oldukça kolaydı. Fakat şimdi sadece özel izne sahip uygulamalar bu izne sahip olabiliyor. Google&amp;rsquo;a bir form doldurarak ve neden SMS okuma özelliğine kesin olarak ihtiyacınız olduğunu anlatarak bu izni talep ediyorsunuz. Peki bizim amacımız tek seferlik bir SMS okumak ise yine bu süreçten geçmeli miyiz? Hayır!
 Google tek seferlik SMS okuması yapabilmek için çeşitli API&amp;rsquo;ler çıkardı. Bu API&amp;rsquo;lere sayfanın en altında bulunan Kaynaklar bölümünden erişebilirsiniz.</description>
     </item>
     
