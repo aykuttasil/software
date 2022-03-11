@@ -1,7 +1,7 @@
 baseURL: "https://yazilim.aykutasil.com/"
 title: Aykut Asil
 paginate: 10
-theme: PaperMod
+theme: PaperMod1
 
 enableRobotsTXT: true
 buildDrafts: false
