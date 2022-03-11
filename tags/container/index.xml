@@ -1,7 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>container on</title><link>https://yazilim.aykutasil.com/tags/container/</link><description>Recent content in container on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Fri, 03 Apr 2020 11:12:12 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/container/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker Series - 1</title><link>https://yazilim.aykutasil.com/docker-series-1/</link><pubDate>Fri, 03 Apr 2020 11:12:12 +0300</pubDate><guid>https://yazilim.aykutasil.com/docker-series-1/</guid><description>Docker ile ilgili komut listesine erişmek için komut satırına docker --help ya da sadece docker yazabilirsiniz.
-docker run Docker ile ilgili bir çok temel fonksiyonu docker run komutu ile sağlayabilirsiniz.
-Hızlıca Docker Hub&amp;lsquo;da bulunan bir image&amp;rsquo;i makinemize kurmak istiyorsak aşağıdaki komut işimizi görecektir. docker run ubuntu Yukarıda ki komutu yazdığınızda ilk önce ilgili image dosyasının makinenizde olup olmadığına bakılır ve sonrasında eğer varsa zaten inmiş olan image çalıştırılılr.</description></item><item><title>Docker Series - 2</title><link>https://yazilim.aykutasil.com/docker-series-2/</link><pubDate>Fri, 03 Apr 2020 11:12:12 +0300</pubDate><guid>https://yazilim.aykutasil.com/docker-series-2/</guid><description>Docker Container&amp;rsquo;ı Detach modda çalıştırmak Uygulamanızı yazarken eğer thread&amp;lsquo;ler ile biraz derin bir ilişki kurmuşsanız daemon kavramıyla karşılaşmış olabilirsiniz. Kısaca, &amp;ldquo;arka tarafa git ve sessiz sedasız çalışmaya devam et&amp;rdquo; demek diyebiliriz. Ayrıntılı bilgi için -&amp;gt; Google :)
-Aynı mantık ile container&amp;lsquo;ımızın arka planda sesiz sedasız çalışmasını isteyebiliriz. Örneğin web sitemizi bir container&amp;rsquo;a kurduk, yerleştirdik ve belli bir port üzerinden dışarıya açtık. Ve artık bu container kapanmadan sürekli çalışması gerekiyor ki web sitemize erişebilelim.</description></item><item><title>Docker Container Install nano</title><link>https://yazilim.aykutasil.com/docker-nano-setup/</link><pubDate>Sun, 25 Dec 2016 03:51:49 +0300</pubDate><guid>https://yazilim.aykutasil.com/docker-nano-setup/</guid><description>Docker ile ayağa kaldırmış olduğunuz bir container olduğunu varsayalım ve bu docker container a erişerek komut satırı çalıştırmanız gerekiyor.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>container on Aykut Asil</title>
+    <link>https://yazilim.aykutasil.com/tags/container/</link>
+    <description>Recent content in container on Aykut Asil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 03 Apr 2020 11:12:12 +0300</lastBuildDate>
+    
+	<atom:link href="https://yazilim.aykutasil.com/tags/container/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docker Series - 1</title>
+      <link>https://yazilim.aykutasil.com/docker-series-1/</link>
+      <pubDate>Fri, 03 Apr 2020 11:12:12 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/docker-series-1/</guid>
+      <description>Docker ile ilgili komut listesine erişmek için komut satırına docker --help ya da sadece docker yazabilirsiniz.
+ docker run Docker ile ilgili bir çok temel fonksiyonu docker run komutu ile sağlayabilirsiniz.
+ Hızlıca Docker Hub&amp;lsquo;da bulunan bir image&amp;rsquo;i makinemize kurmak istiyorsak aşağıdaki komut işimizi görecektir.  docker run ubuntu Yukarıda ki komutu yazdığınızda ilk önce ilgili image dosyasının makinenizde olup olmadığına bakılır ve sonrasında eğer varsa zaten inmiş olan image çalıştırılılr.</description>
+    </item>
+    
+    <item>
+      <title>Docker Series - 2</title>
+      <link>https://yazilim.aykutasil.com/docker-series-2/</link>
+      <pubDate>Fri, 03 Apr 2020 11:12:12 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/docker-series-2/</guid>
+      <description>Docker Container&amp;rsquo;ı Detach modda çalıştırmak Uygulamanızı yazarken eğer thread&amp;lsquo;ler ile biraz derin bir ilişki kurmuşsanız daemon kavramıyla karşılaşmış olabilirsiniz. Kısaca, &amp;ldquo;arka tarafa git ve sessiz sedasız çalışmaya devam et&amp;rdquo; demek diyebiliriz. Ayrıntılı bilgi için -&amp;gt; Google :)
+Aynı mantık ile container&amp;lsquo;ımızın arka planda sesiz sedasız çalışmasını isteyebiliriz. Örneğin web sitemizi bir container&amp;rsquo;a kurduk, yerleştirdik ve belli bir port üzerinden dışarıya açtık. Ve artık bu container kapanmadan sürekli çalışması gerekiyor ki web sitemize erişebilelim.</description>
+    </item>
+    
+    <item>
+      <title>Docker Container Install nano</title>
+      <link>https://yazilim.aykutasil.com/docker-nano-setup/</link>
+      <pubDate>Sun, 25 Dec 2016 03:51:49 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/docker-nano-setup/</guid>
+      <description>Docker ile ayağa kaldırmış olduğunuz bir container olduğunu varsayalım ve bu docker container a erişerek komut satırı çalıştırmanız gerekiyor.
 https://docs.docker.com/engine/reference/commandline/exec/
 Yukarıdaki linki takip ederek nasıl komut çalıştıracağınızı öğrenebilirsiniz. Ya da Kitematic gibi bir uygulama yüklü ise bu uygulamayı açarak ve çalışan image e tıklayarak exe butonuna basmamız yeterli olucaktır.
-Bu sayfada anlatmak istediğim şey tüm bunları yaptınız ve container ın içindeyken bir dosya oluşturdunuz. Ve bu dosyanın içeriğini düzenlemeniz gerekmekte.</description></item></channel></rss>
+Bu sayfada anlatmak istediğim şey tüm bunları yaptınız ve container ın içindeyken bir dosya oluşturdunuz. Ve bu dosyanın içeriğini düzenlemeniz gerekmekte.</description>
+    </item>
+    
+  </channel>
+</rss>

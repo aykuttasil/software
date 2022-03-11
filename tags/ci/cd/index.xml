@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ci/cd on</title><link>https://yazilim.aykutasil.com/tags/ci/cd/</link><description>Recent content in ci/cd on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><atom:link href="https://yazilim.aykutasil.com/tags/ci/cd/index.xml" rel="self" type="application/rss+xml"/><item><title>PowerShell Invoke-Command ile Uzak Bilgisayarda Komut Çalıştırma</title><link>https://yazilim.aykutasil.com/powershell-invokecommand-ile-uzak-bilgisayarda-komut-calistirma/</link><pubDate>Mon, 21 Dec 2020 13:01:16 +0300</pubDate><guid>https://yazilim.aykutasil.com/powershell-invokecommand-ile-uzak-bilgisayarda-komut-calistirma/</guid><description>Senaryo Şu anda çalışmış olduğum şirkette, kendi local sunucularımız üzerine kurmuş olduğumuz Teamcity ile projelerin derlenip sunulma aşamasını otomatize etmeye çalışıyoruz. Teamcity kurmuş olduğumuz sunucu ile projelerin deploy olacağı sunucular farklı. Biz şimdilik bu deploy sürecini teamcity built-in FTP özelliğini kullanarak hallediyoruz. Fakat .net core projelerinin deploy olma sürecinde yaşanan bir problem var. Eğer .net core projeniz IIS arkasında konuşlanma şeklinde ayarlanmış ise IIS, projenizin .exe dosyasını çalıştıyor olacak ve bu çalışma süresince siz bu dosyayı değiştirme, silme vb.</description></item><item><title>Android Fastlane Kurulumu</title><link>https://yazilim.aykutasil.com/fastlane-setup/</link><pubDate>Wed, 04 Nov 2020 13:14:18 +0300</pubDate><guid>https://yazilim.aykutasil.com/fastlane-setup/</guid><description>Fastlane, mobil ile ilgili neredeyse tüm süreçleri (build,test,deploy vs.) otomatize etmeye yarayan bir araçtır. Fastlane kullanarak hangi CI/CD platformunu kullanıyor olursanız olun uygulama süreçleriniz tekil hale getirebilirsiniz.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ci/cd on Aykut Asil</title>
+    <link>https://yazilim.aykutasil.com/tags/ci/cd/</link>
+    <description>Recent content in ci/cd on Aykut Asil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://yazilim.aykutasil.com/tags/ci/cd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PowerShell Invoke-Command ile Uzak Bilgisayarda Komut Çalıştırma</title>
+      <link>https://yazilim.aykutasil.com/powershell-invokecommand-ile-uzak-bilgisayarda-komut-calistirma/</link>
+      <pubDate>Mon, 21 Dec 2020 13:01:16 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/powershell-invokecommand-ile-uzak-bilgisayarda-komut-calistirma/</guid>
+      <description>Senaryo Şu anda çalışmış olduğum şirkette, kendi local sunucularımız üzerine kurmuş olduğumuz Teamcity ile projelerin derlenip sunulma aşamasını otomatize etmeye çalışıyoruz. Teamcity kurmuş olduğumuz sunucu ile projelerin deploy olacağı sunucular farklı. Biz şimdilik bu deploy sürecini teamcity built-in FTP özelliğini kullanarak hallediyoruz. Fakat .net core projelerinin deploy olma sürecinde yaşanan bir problem var. Eğer .net core projeniz IIS arkasında konuşlanma şeklinde ayarlanmış ise IIS, projenizin .exe dosyasını çalıştıyor olacak ve bu çalışma süresince siz bu dosyayı değiştirme, silme vb.</description>
+    </item>
+    
+    <item>
+      <title>Android Fastlane Kurulumu</title>
+      <link>https://yazilim.aykutasil.com/fastlane-setup/</link>
+      <pubDate>Wed, 04 Nov 2020 13:14:18 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/fastlane-setup/</guid>
+      <description>Fastlane, mobil ile ilgili neredeyse tüm süreçleri (build,test,deploy vs.) otomatize etmeye yarayan bir araçtır. Fastlane kullanarak hangi CI/CD platformunu kullanıyor olursanız olun uygulama süreçleriniz tekil hale getirebilirsiniz.
 Kurulum brew install fastlane Fastlane aracının kurulumunu tamamladıktan sonra, ilk olarak projenizin root klasörüne gelip fastlane init komutunu çalıştırmalısınız.
-Komut satırında Package Name istenildiğinde uygulamamızın package name&amp;lsquo;ini (com.example.myapplication) giriyoruz. Diğer adımları şimdilik es geçebilirsiniz. Proje yapılandırması tamamlandığında app klasörü ile aynı seviyede fastline isimli bir klasör oluşacak.</description></item><item><title>Android Fastlane Screengrab Kurulumu</title><link>https://yazilim.aykutasil.com/fastlane-screengrab/</link><pubDate>Wed, 04 Nov 2020 13:14:18 +0300</pubDate><guid>https://yazilim.aykutasil.com/fastlane-screengrab/</guid><description>Fastlane kurulumunu henüz tamamlamadıysanız sizi buraya alalım.
-Screengrab Mobil ekran görüntüsü alımını otomatize eden bu aracın kullanımı için öncelikle aşağıdaki komut ile ilgili aracı yüklüyoruz. sudo gem install screengrab Daha sonra AndroidManifest.xml dosyasına aşağıdaki bloğu eklemeliyiz. &amp;lt;!-- Allows unlocking your device and activating its screen so UI tests can succeed --&amp;gt; &amp;lt;uses-permission android:name=&amp;#34;android.permission.DISABLE_KEYGUARD&amp;#34; /&amp;gt; &amp;lt;uses-permission android:name=&amp;#34;android.permission.WAKE_LOCK&amp;#34; /&amp;gt; &amp;lt;!-- Allows for storing and retrieving screenshots --&amp;gt; &amp;lt;uses-permission android:name=&amp;#34;android.</description></item></channel></rss>
+ Komut satırında Package Name istenildiğinde uygulamamızın package name&amp;lsquo;ini (com.example.myapplication) giriyoruz. Diğer adımları şimdilik es geçebilirsiniz.  Proje yapılandırması tamamlandığında app klasörü ile aynı seviyede fastline isimli bir klasör oluşacak.</description>
+    </item>
+    
+    <item>
+      <title>Android Fastlane Screengrab Kurulumu</title>
+      <link>https://yazilim.aykutasil.com/fastlane-screengrab/</link>
+      <pubDate>Wed, 04 Nov 2020 13:14:18 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/fastlane-screengrab/</guid>
+      <description>Fastlane kurulumunu henüz tamamlamadıysanız sizi buraya alalım.
+Screengrab  Mobil ekran görüntüsü alımını otomatize eden bu aracın kullanımı için öncelikle aşağıdaki komut ile ilgili aracı yüklüyoruz.  sudo gem install screengrab  Daha sonra AndroidManifest.xml dosyasına aşağıdaki bloğu eklemeliyiz.  &amp;lt;!-- Allows unlocking your device and activating its screen so UI tests can succeed --&amp;gt; &amp;lt;uses-permission android:name=&amp;#34;android.permission.DISABLE_KEYGUARD&amp;#34; /&amp;gt; &amp;lt;uses-permission android:name=&amp;#34;android.permission.WAKE_LOCK&amp;#34; /&amp;gt; &amp;lt;!-- Allows for storing and retrieving screenshots --&amp;gt; &amp;lt;uses-permission android:name=&amp;#34;android.</description>
+    </item>
+    
+  </channel>
+</rss>

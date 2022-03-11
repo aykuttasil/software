@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>typescript on</title><link>https://yazilim.aykutasil.com/tags/typescript/</link><description>Recent content in typescript on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Wed, 11 Jan 2017 18:14:05 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/typescript/index.xml" rel="self" type="application/rss+xml"/><item><title>VS Code &amp; Express &amp; TypeScript &amp; IntelliSense</title><link>https://yazilim.aykutasil.com/vscode-intellisense/</link><pubDate>Wed, 11 Jan 2017 18:14:05 +0300</pubDate><guid>https://yazilim.aykutasil.com/vscode-intellisense/</guid><description>VS Code &amp;amp; Express &amp;amp; TypeScript &amp;amp; IntelliSense VS Code, Atom ile aynı çekirdeği paylaşan, Electron kullanılarak microsoft tarafından özelleştirilmiş ve birçok dil ile uygulama geliştirmeniz için çeşitli eklentileri bulunan bir editördür.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>typescript on Aykut Asil</title>
+    <link>https://yazilim.aykutasil.com/tags/typescript/</link>
+    <description>Recent content in typescript on Aykut Asil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 11 Jan 2017 18:14:05 +0300</lastBuildDate>
+    
+	<atom:link href="https://yazilim.aykutasil.com/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VS Code &amp; Express &amp; TypeScript &amp; IntelliSense</title>
+      <link>https://yazilim.aykutasil.com/vscode-intellisense/</link>
+      <pubDate>Wed, 11 Jan 2017 18:14:05 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/vscode-intellisense/</guid>
+      <description>VS Code &amp;amp; Express &amp;amp; TypeScript &amp;amp; IntelliSense VS Code, Atom ile aynı çekirdeği paylaşan, Electron kullanılarak microsoft tarafından özelleştirilmiş ve birçok dil ile uygulama geliştirmeniz için çeşitli eklentileri bulunan bir editördür.
 Günümüzün lider dili malum Javascript ve belki de bunun böyle olmasının en temel sebeplerinden biri NodeJS.
 NodeJS ile çok hızlı bir şekilde ve tamamen javascript kullanarak web siteleri, uygulamaları, api service leri vb. geliştirebiliriz.
-Bu yazımızda VS Code un nimetlerinden yararlanarak hızlı ve kolay bir şekilde nasıl NodeJS uygulaması yazabiliriz, bunu görücez.</description></item></channel></rss>
+Bu yazımızda VS Code un nimetlerinden yararlanarak hızlı ve kolay bir şekilde nasıl NodeJS uygulaması yazabiliriz, bunu görücez.</description>
+    </item>
+    
+  </channel>
+</rss>

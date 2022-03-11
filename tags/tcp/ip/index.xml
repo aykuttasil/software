@@ -1,2 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tcp/ip on</title><link>https://yazilim.aykutasil.com/tags/tcp/ip/</link><description>Recent content in tcp/ip on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><atom:link href="https://yazilim.aykutasil.com/tags/tcp/ip/index.xml" rel="self" type="application/rss+xml"/><item><title>TCP/IP Nasıl Çalışır ?</title><link>https://yazilim.aykutasil.com/tcpip-nedir_nasil_calisir/</link><pubDate>Wed, 11 Jan 2017 18:05:02 +0300</pubDate><guid>https://yazilim.aykutasil.com/tcpip-nedir_nasil_calisir/</guid><description>TCP/IP Nasıl Çalışır ? Bilgisayar ağları kullanılarak bilgisayarların birbirileriyle haberleşmeye başladıkları ilk yıllarda iki bilgisayarın birbiriyle haberleşebilmeleri için aynı marka/model cihazları kullanmaları gerekiyordu. Bunun üzerine farklı üreticiler tarafından üretilen cihazların birbiriyle sorunsuz ve belirli bir düzen içinde haberleşebilmesi için çeşitli standartlar geliştirilmiştir.
-Bunlardan en çok kullanılanı Açık Sistem Bağlantıları komitesi tarafından geliştirilen 7 katmanlı OSI referans modeli ve Amerikan Savunma Bakanlığı tarafından geliştirilen TCP/IP referans modelidir. OSI iki bilgisayar arasındaki haberleşme problemini çözmek için 7 katmanlı (aşamalı) bir ağ sistemi önermiştir.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tcp/ip on Aykut Asil</title>
+    <link>https://yazilim.aykutasil.com/tags/tcp/ip/</link>
+    <description>Recent content in tcp/ip on Aykut Asil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://yazilim.aykutasil.com/tags/tcp/ip/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TCP/IP Nasıl Çalışır ?</title>
+      <link>https://yazilim.aykutasil.com/tcpip-nedir_nasil_calisir/</link>
+      <pubDate>Wed, 11 Jan 2017 18:05:02 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tcpip-nedir_nasil_calisir/</guid>
+      <description>TCP/IP Nasıl Çalışır ? Bilgisayar ağları kullanılarak bilgisayarların birbirileriyle haberleşmeye başladıkları ilk yıllarda iki bilgisayarın birbiriyle haberleşebilmeleri için aynı marka/model cihazları kullanmaları gerekiyordu. Bunun üzerine farklı üreticiler tarafından üretilen cihazların birbiriyle sorunsuz ve belirli bir düzen içinde haberleşebilmesi için çeşitli standartlar geliştirilmiştir.
+Bunlardan en çok kullanılanı Açık Sistem Bağlantıları komitesi tarafından geliştirilen 7 katmanlı OSI referans modeli ve Amerikan Savunma Bakanlığı tarafından geliştirilen TCP/IP referans modelidir. OSI iki bilgisayar arasındaki haberleşme problemini çözmek için 7 katmanlı (aşamalı) bir ağ sistemi önermiştir.</description>
+    </item>
+    
+  </channel>
+</rss>

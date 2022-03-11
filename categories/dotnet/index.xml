@@ -1,3 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dotnet on</title><link>https://yazilim.aykutasil.com/categories/dotnet/</link><description>Recent content in dotnet on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Fri, 17 Apr 2020 21:02:16 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/dotnet/index.xml" rel="self" type="application/rss+xml"/><item><title>Asp.Net Core launchSettings.json Kullanımı</title><link>https://yazilim.aykutasil.com/aspnetcore-launchsettings-file/</link><pubDate>Fri, 17 Apr 2020 21:02:16 +0300</pubDate><guid>https://yazilim.aykutasil.com/aspnetcore-launchsettings-file/</guid><description>launchSettings.json dosyası sadece local&amp;lsquo;de development yaparken kullanılan bir dosyadır. Visual Studio veya dotnet cli ile birlikte kullanılır.
-Not: Eğer uygulamamızı sunucuyu deploy ettikten sonra ulaşmak istediğimiz ayarlar var ise bunun belirtilmesi gereken yer launchSettings.json dosyası değildir. Bu tür ayarlar genelde appSettings.json dosyası içerisinde tanımlanır.
-launchSettings.json dosyası { &amp;#34;iisSettings&amp;#34;: { &amp;#34;windowsAuthentication&amp;#34;: false, &amp;#34;anonymousAuthentication&amp;#34;: true, &amp;#34;iisExpress&amp;#34;: { &amp;#34;applicationUrl&amp;#34;: &amp;#34;http://localhost:59119&amp;#34;, &amp;#34;sslPort&amp;#34;: 0 } }, &amp;#34;profiles&amp;#34;: { &amp;#34;IIS Express&amp;#34;: { &amp;#34;commandName&amp;#34;: &amp;#34;IISExpress&amp;#34;, &amp;#34;launchBrowser&amp;#34;: true, &amp;#34;environmentVariables&amp;#34;: { &amp;#34;ASPNETCORE_ENVIRONMENT&amp;#34;: &amp;#34;Development&amp;#34; } }, &amp;#34;FirstCoreWebApplication&amp;#34;: { &amp;#34;commandName&amp;#34;: &amp;#34;Project&amp;#34;, &amp;#34;launchBrowser&amp;#34;: true, &amp;#34;applicationUrl&amp;#34;: &amp;#34;http://localhost:5000,https://localhost:5000&amp;#34;, &amp;#34;environmentVariables&amp;#34;: { &amp;#34;ASPNETCORE_ENVIRONMENT&amp;#34;: &amp;#34;Development&amp;#34; } } } Yukarıdaki dosyayı inceleyecek olursak profiles tagı altında IIS Express ve FirstCoreWebApplication tagları olduğunu görürüz.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dotnet on Aykut Asil</title>
+    <link>https://yazilim.aykutasil.com/categories/dotnet/</link>
+    <description>Recent content in dotnet on Aykut Asil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 17 Apr 2020 21:02:16 +0300</lastBuildDate>
+    
+	<atom:link href="https://yazilim.aykutasil.com/categories/dotnet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Asp.Net Core launchSettings.json Kullanımı</title>
+      <link>https://yazilim.aykutasil.com/aspnetcore-launchsettings-file/</link>
+      <pubDate>Fri, 17 Apr 2020 21:02:16 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/aspnetcore-launchsettings-file/</guid>
+      <description>launchSettings.json dosyası sadece local&amp;lsquo;de development yaparken kullanılan bir dosyadır. Visual Studio veya dotnet cli ile birlikte kullanılır.
+ Not: Eğer uygulamamızı sunucuyu deploy ettikten sonra ulaşmak istediğimiz ayarlar var ise bunun belirtilmesi gereken yer launchSettings.json dosyası değildir. Bu tür ayarlar genelde appSettings.json dosyası içerisinde tanımlanır.
+ launchSettings.json dosyası { &amp;#34;iisSettings&amp;#34;: { &amp;#34;windowsAuthentication&amp;#34;: false, &amp;#34;anonymousAuthentication&amp;#34;: true, &amp;#34;iisExpress&amp;#34;: { &amp;#34;applicationUrl&amp;#34;: &amp;#34;http://localhost:59119&amp;#34;, &amp;#34;sslPort&amp;#34;: 0 } }, &amp;#34;profiles&amp;#34;: { &amp;#34;IIS Express&amp;#34;: { &amp;#34;commandName&amp;#34;: &amp;#34;IISExpress&amp;#34;, &amp;#34;launchBrowser&amp;#34;: true, &amp;#34;environmentVariables&amp;#34;: { &amp;#34;ASPNETCORE_ENVIRONMENT&amp;#34;: &amp;#34;Development&amp;#34; } }, &amp;#34;FirstCoreWebApplication&amp;#34;: { &amp;#34;commandName&amp;#34;: &amp;#34;Project&amp;#34;, &amp;#34;launchBrowser&amp;#34;: true, &amp;#34;applicationUrl&amp;#34;: &amp;#34;http://localhost:5000,https://localhost:5000&amp;#34;, &amp;#34;environmentVariables&amp;#34;: { &amp;#34;ASPNETCORE_ENVIRONMENT&amp;#34;: &amp;#34;Development&amp;#34; } } } Yukarıdaki dosyayı inceleyecek olursak profiles tagı altında IIS Express ve FirstCoreWebApplication tagları olduğunu görürüz.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>extensin function on</title><link>https://yazilim.aykutasil.com/tags/extensin-function/</link><description>Recent content in extensin function on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 06 Jun 2017 10:47:58 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/extensin-function/index.xml" rel="self" type="application/rss+xml"/><item><title>Kotlin apply Kullanımı</title><link>https://yazilim.aykutasil.com/kotlin-apply/</link><pubDate>Tue, 06 Jun 2017 10:47:58 +0300</pubDate><guid>https://yazilim.aykutasil.com/kotlin-apply/</guid><description>fun &amp;lt;T&amp;gt; T.apply(f: T.() -&amp;gt; Unit): T { f(); return this } apply() tüm tipler için belirlenmiş bir extension function dır. apply() fonksiyonu uygulanan nesnenin özelliklerine direk olarak apply kod bloğu içerisinden erişilebilir.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>extensin function on Aykut Asil</title>
+    <link>https://yazilim.aykutasil.com/tags/extensin-function/</link>
+    <description>Recent content in extensin function on Aykut Asil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 06 Jun 2017 10:47:58 +0300</lastBuildDate>
+    
+	<atom:link href="https://yazilim.aykutasil.com/tags/extensin-function/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kotlin apply Kullanımı</title>
+      <link>https://yazilim.aykutasil.com/kotlin-apply/</link>
+      <pubDate>Tue, 06 Jun 2017 10:47:58 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/kotlin-apply/</guid>
+      <description>fun &amp;lt;T&amp;gt; T.apply(f: T.() -&amp;gt; Unit): T { f(); return this } apply() tüm tipler için belirlenmiş bir extension function dır. apply() fonksiyonu uygulanan nesnenin özelliklerine direk olarak apply kod bloğu içerisinden erişilebilir.
 var file = File(dir) file.mkdirs() veya Java ile yazacak olursak
 File makeDir(String path) { File result = new File(path); result.mkdirs(); return result; } Bu kodu aşağıdaki yapıya çevirebiliriz.
-File(dir).apply { mkdirs() }</description></item></channel></rss>
+File(dir).apply { mkdirs() } </description>
+    </item>
+    
+  </channel>
+</rss>

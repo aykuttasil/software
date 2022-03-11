@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>sql_scope_identity on</title><link>https://yazilim.aykutasil.com/tags/sql_scope_identity/</link><description>Recent content in sql_scope_identity on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Wed, 11 Jan 2017 17:20:37 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/sql_scope_identity/index.xml" rel="self" type="application/rss+xml"/><item><title>SQL SCOPE_IDENTITY()</title><link>https://yazilim.aykutasil.com/sql-scope-identity/</link><pubDate>Wed, 11 Jan 2017 17:20:37 +0300</pubDate><guid>https://yazilim.aykutasil.com/sql-scope-identity/</guid><description>Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id&amp;rsquo;sini getirir.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sql_scope_identity on Aykut Asil</title>
+    <link>https://yazilim.aykutasil.com/tags/sql_scope_identity/</link>
+    <description>Recent content in sql_scope_identity on Aykut Asil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 11 Jan 2017 17:20:37 +0300</lastBuildDate>
+    
+	<atom:link href="https://yazilim.aykutasil.com/tags/sql_scope_identity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SQL SCOPE_IDENTITY()</title>
+      <link>https://yazilim.aykutasil.com/sql-scope-identity/</link>
+      <pubDate>Wed, 11 Jan 2017 17:20:37 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/sql-scope-identity/</guid>
+      <description>Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id&amp;rsquo;sini getirir.
 Yapılan son kaydın id sini almak için uzun yol olarak insert sorgusunu çalıştırdıktan sonra bir select sorgusu atarak ve order by id desc diyerek ilk sıradaki kaydı okuyabilir ve bu kaydın id sini alabiliriz.
 Tüm bunları yapmaktansa:
-DECLARE @son_satir_id INT; INSERT INTO tbQwerty ( Ad , Soyad ) VALUES ( &amp;#39;Aykut&amp;#39; &amp;#39;Asil&amp;#39; ) SET @son_satir_id = SCOPE_IDENTITY(); Ayrıntılı Bilgi : https://technet.</description></item></channel></rss>
+DECLARE @son_satir_id INT; INSERT INTO tbQwerty ( Ad , Soyad ) VALUES ( &amp;#39;Aykut&amp;#39; &amp;#39;Asil&amp;#39; ) SET @son_satir_id = SCOPE_IDENTITY(); Ayrıntılı Bilgi : https://technet.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,204 +1,1036 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://yazilim.aykutasil.com/</link><description>Recent content on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Wed, 08 Jan 2020 22:17:00 +0000</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Android SMS User Consent API Kullanımı</title><link>https://yazilim.aykutasil.com/android_sms_user_consent_api/</link><pubDate>Tue, 02 Nov 2021 20:17:23 +0300</pubDate><guid>https://yazilim.aykutasil.com/android_sms_user_consent_api/</guid><description>Problem? Android işletim sisteminin ilk versiyonlarında SMS&amp;lsquo;lere erişim oldukça kolaydı. Fakat şimdi sadece özel izne sahip uygulamalar bu izne sahip olabiliyor. Google&amp;rsquo;a bir form doldurarak ve neden SMS okuma özelliğine kesin olarak ihtiyacınız olduğunu anlatarak bu izni talep ediyorsunuz. Peki bizim amacımız tek seferlik bir SMS okumak ise yine bu süreçten geçmeli miyiz? Hayır!
-Google tek seferlik SMS okuması yapabilmek için çeşitli API&amp;rsquo;ler çıkardı. Bu API&amp;rsquo;lere sayfanın en altında bulunan Kaynaklar bölümünden erişebilirsiniz.</description></item><item><title>.Net Sqlite Konfigürasyonu</title><link>https://yazilim.aykutasil.com/dotnet-sqlite-configuration/</link><pubDate>Thu, 24 Jun 2021 17:51:01 +0300</pubDate><guid>https://yazilim.aykutasil.com/dotnet-sqlite-configuration/</guid><description>CLI ile Entity Framework işlemleri gerçekleştirmek için dotnet-ef toolunu yüklemelisiniz.
-dotnet tool install --global dotnet-ef dotnet add package Microsoft.EntityFrameworkCore.Design SQLite provider&amp;rsquo;ı için ilgili paketi yüklemelisiniz
-dotnet add package Microsoft.EntityFrameworkCore dotnet add package Microsoft.EntityFrameworkCore.Sqlite SQLite konfigürasyonu için startup.cs dosyasını aşağıdaki gibi güncellemelisiniz.
-public void ConfigureServices(IServiceCollection services) { services.AddDbContext&amp;lt;MainDbContext&amp;gt;(x =&amp;gt; x.UseSqlite(&amp;#34;DataSource=app.db&amp;#34;)); services.AddControllers(); services.AddSwaggerGen(c =&amp;gt; { c.SwaggerDoc(&amp;#34;v1&amp;#34;, new OpenApiInfo { Title = &amp;#34;ws_agt_ext_api&amp;#34;, Version = &amp;#34;v1&amp;#34; }); }); } Users tablosunu oluşturmak için aşağıdaki gibi ilgili sınıfları oluşturmalısınız.</description></item><item><title>Teamcity Slack Entegrasyonu</title><link>https://yazilim.aykutasil.com/teamcity-slack-integration/</link><pubDate>Tue, 05 Jan 2021 23:50:00 +0300</pubDate><guid>https://yazilim.aykutasil.com/teamcity-slack-integration/</guid><description>Senaryo Kendi sunucunuz üzerine kurmuş olduğunuz Teamcity&amp;lsquo;e Slack entegrasyonu yaparak, build &amp;gt; deploy adımlarını Slack üzerinden nasıl izleriz?
-Çözüm Öncelikle Slack yapılandırmaları ile başlayalım. https://api.slack.com/apps adresine giriyoruz ve yeni bir App oluşturuyoruz.
-OAuth &amp;amp; Permissions tabına geçerek ilgili yetkilendirmeleri yapıyoruz. Botumuza, ihtiyaç duyacağı tüm izinleri verdikten sonra Install to Workspace diyerek yetkilendirmeyi tamamlıyoruz. Oluşan tokenı Teamcity tarafında kullanıcaz. Slack tarafında App&amp;lsquo;imizi oluşturduktan sonra şimdi Teamcity tarafında gerekli ayarlamaları yapabiliriz.</description></item><item><title>PowerShell Invoke-Command ile Uzak Bilgisayarda Komut Çalıştırma</title><link>https://yazilim.aykutasil.com/powershell-invokecommand-ile-uzak-bilgisayarda-komut-calistirma/</link><pubDate>Mon, 21 Dec 2020 13:01:16 +0300</pubDate><guid>https://yazilim.aykutasil.com/powershell-invokecommand-ile-uzak-bilgisayarda-komut-calistirma/</guid><description>Senaryo Şu anda çalışmış olduğum şirkette, kendi local sunucularımız üzerine kurmuş olduğumuz Teamcity ile projelerin derlenip sunulma aşamasını otomatize etmeye çalışıyoruz. Teamcity kurmuş olduğumuz sunucu ile projelerin deploy olacağı sunucular farklı. Biz şimdilik bu deploy sürecini teamcity built-in FTP özelliğini kullanarak hallediyoruz. Fakat .net core projelerinin deploy olma sürecinde yaşanan bir problem var. Eğer .net core projeniz IIS arkasında konuşlanma şeklinde ayarlanmış ise IIS, projenizin .exe dosyasını çalıştıyor olacak ve bu çalışma süresince siz bu dosyayı değiştirme, silme vb.</description></item><item><title>Düzeltilmiş .gitignore ile Projenin Yeniden Yapılandırılması</title><link>https://yazilim.aykutasil.com/reinitialize-project-with-gitignore/</link><pubDate>Mon, 07 Dec 2020 14:32:26 +0300</pubDate><guid>https://yazilim.aykutasil.com/reinitialize-project-with-gitignore/</guid><description>Problem Zaten halihazırda .gitignore dosyası eklenmiş şekilde bir git repunuz var. Sonradan .gitignore dosyasınızı yapılandırdınız fakat yine de bu dosyalar track(izlenmeye) devam ediyor.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aykut Asil</title>
+    <link>https://yazilim.aykutasil.com/</link>
+    <description>Recent content on Aykut Asil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 02 Nov 2021 20:17:23 +0300</lastBuildDate>
+    
+	<atom:link href="https://yazilim.aykutasil.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android SMS User Consent API Kullanımı</title>
+      <link>https://yazilim.aykutasil.com/android_sms_user_consent_api/</link>
+      <pubDate>Tue, 02 Nov 2021 20:17:23 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android_sms_user_consent_api/</guid>
+      <description>Problem? Android işletim sisteminin ilk versiyonlarında SMS&amp;lsquo;lere erişim oldukça kolaydı. Fakat şimdi sadece özel izne sahip uygulamalar bu izne sahip olabiliyor. Google&amp;rsquo;a bir form doldurarak ve neden SMS okuma özelliğine kesin olarak ihtiyacınız olduğunu anlatarak bu izni talep ediyorsunuz. Peki bizim amacımız tek seferlik bir SMS okumak ise yine bu süreçten geçmeli miyiz? Hayır!
+Google tek seferlik SMS okuması yapabilmek için çeşitli API&amp;rsquo;ler çıkardı. Bu API&amp;rsquo;lere sayfanın en altında bulunan Kaynaklar bölümünden erişebilirsiniz.</description>
+    </item>
+    
+    <item>
+      <title>.Net Sqlite Konfigürasyonu</title>
+      <link>https://yazilim.aykutasil.com/dotnet-sqlite-configuration/</link>
+      <pubDate>Thu, 24 Jun 2021 17:51:01 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/dotnet-sqlite-configuration/</guid>
+      <description>CLI ile Entity Framework işlemleri gerçekleştirmek için dotnet-ef toolunu yüklemelisiniz.
+ dotnet tool install --global dotnet-ef dotnet add package Microsoft.EntityFrameworkCore.Design  SQLite provider&amp;rsquo;ı için ilgili paketi yüklemelisiniz
+ dotnet add package Microsoft.EntityFrameworkCore dotnet add package Microsoft.EntityFrameworkCore.Sqlite  SQLite konfigürasyonu için startup.cs dosyasını aşağıdaki gibi güncellemelisiniz.
+ public void ConfigureServices(IServiceCollection services) { services.AddDbContext&amp;lt;MainDbContext&amp;gt;(x =&amp;gt; x.UseSqlite(&amp;#34;DataSource=app.db&amp;#34;)); services.AddControllers(); services.AddSwaggerGen(c =&amp;gt; { c.SwaggerDoc(&amp;#34;v1&amp;#34;, new OpenApiInfo { Title = &amp;#34;ws_agt_ext_api&amp;#34;, Version = &amp;#34;v1&amp;#34; }); }); }  Users tablosunu oluşturmak için aşağıdaki gibi ilgili sınıfları oluşturmalısınız.</description>
+    </item>
+    
+    <item>
+      <title>Teamcity Slack Entegrasyonu</title>
+      <link>https://yazilim.aykutasil.com/teamcity-slack-integration/</link>
+      <pubDate>Tue, 05 Jan 2021 23:50:00 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/teamcity-slack-integration/</guid>
+      <description>Senaryo Kendi sunucunuz üzerine kurmuş olduğunuz Teamcity&amp;lsquo;e Slack entegrasyonu yaparak, build &amp;gt; deploy adımlarını Slack üzerinden nasıl izleriz?
+Çözüm  Öncelikle Slack yapılandırmaları ile başlayalım.  https://api.slack.com/apps adresine giriyoruz ve yeni bir App oluşturuyoruz.
+ OAuth &amp;amp; Permissions tabına geçerek ilgili yetkilendirmeleri yapıyoruz.   Botumuza, ihtiyaç duyacağı tüm izinleri verdikten sonra Install to Workspace diyerek yetkilendirmeyi tamamlıyoruz. Oluşan tokenı Teamcity tarafında kullanıcaz.   Slack tarafında App&amp;lsquo;imizi oluşturduktan sonra şimdi Teamcity tarafında gerekli ayarlamaları yapabiliriz.</description>
+    </item>
+    
+    <item>
+      <title>PowerShell Invoke-Command ile Uzak Bilgisayarda Komut Çalıştırma</title>
+      <link>https://yazilim.aykutasil.com/powershell-invokecommand-ile-uzak-bilgisayarda-komut-calistirma/</link>
+      <pubDate>Mon, 21 Dec 2020 13:01:16 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/powershell-invokecommand-ile-uzak-bilgisayarda-komut-calistirma/</guid>
+      <description>Senaryo Şu anda çalışmış olduğum şirkette, kendi local sunucularımız üzerine kurmuş olduğumuz Teamcity ile projelerin derlenip sunulma aşamasını otomatize etmeye çalışıyoruz. Teamcity kurmuş olduğumuz sunucu ile projelerin deploy olacağı sunucular farklı. Biz şimdilik bu deploy sürecini teamcity built-in FTP özelliğini kullanarak hallediyoruz. Fakat .net core projelerinin deploy olma sürecinde yaşanan bir problem var. Eğer .net core projeniz IIS arkasında konuşlanma şeklinde ayarlanmış ise IIS, projenizin .exe dosyasını çalıştıyor olacak ve bu çalışma süresince siz bu dosyayı değiştirme, silme vb.</description>
+    </item>
+    
+    <item>
+      <title>Düzeltilmiş .gitignore ile Projenin Yeniden Yapılandırılması</title>
+      <link>https://yazilim.aykutasil.com/reinitialize-project-with-gitignore/</link>
+      <pubDate>Mon, 07 Dec 2020 14:32:26 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/reinitialize-project-with-gitignore/</guid>
+      <description>Problem Zaten halihazırda .gitignore dosyası eklenmiş şekilde bir git repunuz var. Sonradan .gitignore dosyasınızı yapılandırdınız fakat yine de bu dosyalar track(izlenmeye) devam ediyor.
 Sebep Proje dosyalarını ilk commit yaptığınızda mevcut .gitignore yapılandırmanız baz alınarak dosyalar cachelenir. Ve sonrasında bu dosyalarda yapılan tüm değişikler izlenmeye devam eder. Sonradan .gitignore dosyanızda değişiklik yapsanız dahi cachelenmiş dosyalarda değişiklik olmaz.
-Çözüm git cache&amp;rsquo;ini temizleyerek izlenenen tüm dosyaları yeni .gitignore yapılandırmanıza göre tekrardan cachelenmesini sağlayabilirsiniz.</description></item><item><title>Android Fastlane Kurulumu</title><link>https://yazilim.aykutasil.com/fastlane-setup/</link><pubDate>Wed, 04 Nov 2020 13:14:18 +0300</pubDate><guid>https://yazilim.aykutasil.com/fastlane-setup/</guid><description>Fastlane, mobil ile ilgili neredeyse tüm süreçleri (build,test,deploy vs.) otomatize etmeye yarayan bir araçtır. Fastlane kullanarak hangi CI/CD platformunu kullanıyor olursanız olun uygulama süreçleriniz tekil hale getirebilirsiniz.
+Çözüm git cache&amp;rsquo;ini temizleyerek izlenenen tüm dosyaları yeni .gitignore yapılandırmanıza göre tekrardan cachelenmesini sağlayabilirsiniz.</description>
+    </item>
+    
+    <item>
+      <title>Android Fastlane Kurulumu</title>
+      <link>https://yazilim.aykutasil.com/fastlane-setup/</link>
+      <pubDate>Wed, 04 Nov 2020 13:14:18 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/fastlane-setup/</guid>
+      <description>Fastlane, mobil ile ilgili neredeyse tüm süreçleri (build,test,deploy vs.) otomatize etmeye yarayan bir araçtır. Fastlane kullanarak hangi CI/CD platformunu kullanıyor olursanız olun uygulama süreçleriniz tekil hale getirebilirsiniz.
 Kurulum brew install fastlane Fastlane aracının kurulumunu tamamladıktan sonra, ilk olarak projenizin root klasörüne gelip fastlane init komutunu çalıştırmalısınız.
-Komut satırında Package Name istenildiğinde uygulamamızın package name&amp;lsquo;ini (com.example.myapplication) giriyoruz. Diğer adımları şimdilik es geçebilirsiniz. Proje yapılandırması tamamlandığında app klasörü ile aynı seviyede fastline isimli bir klasör oluşacak.</description></item><item><title>Android Fastlane Screengrab Kurulumu</title><link>https://yazilim.aykutasil.com/fastlane-screengrab/</link><pubDate>Wed, 04 Nov 2020 13:14:18 +0300</pubDate><guid>https://yazilim.aykutasil.com/fastlane-screengrab/</guid><description>Fastlane kurulumunu henüz tamamlamadıysanız sizi buraya alalım.
-Screengrab Mobil ekran görüntüsü alımını otomatize eden bu aracın kullanımı için öncelikle aşağıdaki komut ile ilgili aracı yüklüyoruz. sudo gem install screengrab Daha sonra AndroidManifest.xml dosyasına aşağıdaki bloğu eklemeliyiz. &amp;lt;!-- Allows unlocking your device and activating its screen so UI tests can succeed --&amp;gt; &amp;lt;uses-permission android:name=&amp;#34;android.permission.DISABLE_KEYGUARD&amp;#34; /&amp;gt; &amp;lt;uses-permission android:name=&amp;#34;android.permission.WAKE_LOCK&amp;#34; /&amp;gt; &amp;lt;!-- Allows for storing and retrieving screenshots --&amp;gt; &amp;lt;uses-permission android:name=&amp;#34;android.</description></item><item><title>Android applicationId vs package name</title><link>https://yazilim.aykutasil.com/android-applicationid-vs-packagename/</link><pubDate>Sun, 21 Jun 2020 19:36:41 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-applicationid-vs-packagename/</guid><description>Android projesi oluşturduğunuzda aşağıdaki gibi AndroidManifest.xml ve build.gradle dosyaları oluşur. AndroidManifest.xml içerisinde package tagı ve build.gradle içerisinde applicationId niteliği bulunur.
+ Komut satırında Package Name istenildiğinde uygulamamızın package name&amp;lsquo;ini (com.example.myapplication) giriyoruz. Diğer adımları şimdilik es geçebilirsiniz.  Proje yapılandırması tamamlandığında app klasörü ile aynı seviyede fastline isimli bir klasör oluşacak.</description>
+    </item>
+    
+    <item>
+      <title>Android Fastlane Screengrab Kurulumu</title>
+      <link>https://yazilim.aykutasil.com/fastlane-screengrab/</link>
+      <pubDate>Wed, 04 Nov 2020 13:14:18 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/fastlane-screengrab/</guid>
+      <description>Fastlane kurulumunu henüz tamamlamadıysanız sizi buraya alalım.
+Screengrab  Mobil ekran görüntüsü alımını otomatize eden bu aracın kullanımı için öncelikle aşağıdaki komut ile ilgili aracı yüklüyoruz.  sudo gem install screengrab  Daha sonra AndroidManifest.xml dosyasına aşağıdaki bloğu eklemeliyiz.  &amp;lt;!-- Allows unlocking your device and activating its screen so UI tests can succeed --&amp;gt; &amp;lt;uses-permission android:name=&amp;#34;android.permission.DISABLE_KEYGUARD&amp;#34; /&amp;gt; &amp;lt;uses-permission android:name=&amp;#34;android.permission.WAKE_LOCK&amp;#34; /&amp;gt; &amp;lt;!-- Allows for storing and retrieving screenshots --&amp;gt; &amp;lt;uses-permission android:name=&amp;#34;android.</description>
+    </item>
+    
+    <item>
+      <title>Android applicationId vs package name</title>
+      <link>https://yazilim.aykutasil.com/android-applicationid-vs-packagename/</link>
+      <pubDate>Sun, 21 Jun 2020 19:36:41 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-applicationid-vs-packagename/</guid>
+      <description>Android projesi oluşturduğunuzda aşağıdaki gibi AndroidManifest.xml ve build.gradle dosyaları oluşur. AndroidManifest.xml içerisinde package tagı ve build.gradle içerisinde applicationId niteliği bulunur.
 Peki bu ikisi arasındaki fark nedir?
-package=&amp;quot;com.example.myapp&amp;rdquo; ile belirttiğimiz kısım aslında projemizin klasör yapısını ifade eder. Yani com &amp;gt; example &amp;gt; myapp şeklinde bir tree yapısı vardır. Ve biz proje dosyalarımızı bu dizin altında oluşturmaya başlarız. Örneğin MainActivity dosyası oluşturduğumuzda aslında bu dosyanın yolu com.example.myapp.MainActivity olur. Projemiz derlenme sırasında package değerine bakar ve dosyaları bu adrese göre bulur.</description></item><item><title>Telefonun Kamerasini Web Kamerası Gibi Kullanmak</title><link>https://yazilim.aykutasil.com/telefonun-kamerasini_web-kamerasi-gibi-kullanmak/</link><pubDate>Sat, 30 May 2020 16:30:05 +0300</pubDate><guid>https://yazilim.aykutasil.com/telefonun-kamerasini_web-kamerasi-gibi-kullanmak/</guid><description>Gerekli Uygulamaların Kurulması
-Öncelikle şu siteye giderek hem bilgisayarımız hem de telefonumuz için IRION uygulamasını indirip kuruyoruz.
+package=&amp;quot;com.example.myapp&amp;rdquo; ile belirttiğimiz kısım aslında projemizin klasör yapısını ifade eder. Yani com &amp;gt; example &amp;gt; myapp şeklinde bir tree yapısı vardır. Ve biz proje dosyalarımızı bu dizin altında oluşturmaya başlarız. Örneğin MainActivity dosyası oluşturduğumuzda aslında bu dosyanın yolu com.example.myapp.MainActivity olur. Projemiz derlenme sırasında package değerine bakar ve dosyaları bu adrese göre bulur.</description>
+    </item>
+    
+    <item>
+      <title>Telefonun Kamerasini Web Kamerası Gibi Kullanmak</title>
+      <link>https://yazilim.aykutasil.com/telefonun-kamerasini_web-kamerasi-gibi-kullanmak/</link>
+      <pubDate>Sat, 30 May 2020 16:30:05 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/telefonun-kamerasini_web-kamerasi-gibi-kullanmak/</guid>
+      <description>Gerekli Uygulamaların Kurulması
+ Öncelikle şu siteye giderek hem bilgisayarımız hem de telefonumuz için IRION uygulamasını indirip kuruyoruz.
 Daha sonra bilgisayarımız ile telefonumuzun aynı ağa bağlı olduğundan emin oluyoruz.
 Bu kadar. :)
 Artık telefonun kamerasını sanki bilgisayarımıza takılı bir webcam gibi kullanabilir ve kaliteli görüntü aktarabiliriz.
-Zoom uygulamasında kamera kaynağı olarak telefon kamerası (Virtual Cam) görünmüyor. Çözüm için terminal&amp;lsquo;ı açarak aşağıdaki komut satırını yazmamız yeterli olacaktır. Yazmadan önce Zoom uygulamasını kapattığımızdan emin olalım.</description></item><item><title>Asp.Net Core launchSettings.json Kullanımı</title><link>https://yazilim.aykutasil.com/aspnetcore-launchsettings-file/</link><pubDate>Fri, 17 Apr 2020 21:02:16 +0300</pubDate><guid>https://yazilim.aykutasil.com/aspnetcore-launchsettings-file/</guid><description>launchSettings.json dosyası sadece local&amp;lsquo;de development yaparken kullanılan bir dosyadır. Visual Studio veya dotnet cli ile birlikte kullanılır.
-Not: Eğer uygulamamızı sunucuyu deploy ettikten sonra ulaşmak istediğimiz ayarlar var ise bunun belirtilmesi gereken yer launchSettings.json dosyası değildir. Bu tür ayarlar genelde appSettings.json dosyası içerisinde tanımlanır.
-launchSettings.json dosyası { &amp;#34;iisSettings&amp;#34;: { &amp;#34;windowsAuthentication&amp;#34;: false, &amp;#34;anonymousAuthentication&amp;#34;: true, &amp;#34;iisExpress&amp;#34;: { &amp;#34;applicationUrl&amp;#34;: &amp;#34;http://localhost:59119&amp;#34;, &amp;#34;sslPort&amp;#34;: 0 } }, &amp;#34;profiles&amp;#34;: { &amp;#34;IIS Express&amp;#34;: { &amp;#34;commandName&amp;#34;: &amp;#34;IISExpress&amp;#34;, &amp;#34;launchBrowser&amp;#34;: true, &amp;#34;environmentVariables&amp;#34;: { &amp;#34;ASPNETCORE_ENVIRONMENT&amp;#34;: &amp;#34;Development&amp;#34; } }, &amp;#34;FirstCoreWebApplication&amp;#34;: { &amp;#34;commandName&amp;#34;: &amp;#34;Project&amp;#34;, &amp;#34;launchBrowser&amp;#34;: true, &amp;#34;applicationUrl&amp;#34;: &amp;#34;http://localhost:5000,https://localhost:5000&amp;#34;, &amp;#34;environmentVariables&amp;#34;: { &amp;#34;ASPNETCORE_ENVIRONMENT&amp;#34;: &amp;#34;Development&amp;#34; } } } Yukarıdaki dosyayı inceleyecek olursak profiles tagı altında IIS Express ve FirstCoreWebApplication tagları olduğunu görürüz.</description></item><item><title>Javascript Hoisting</title><link>https://yazilim.aykutasil.com/javascript-hoisting/</link><pubDate>Fri, 03 Apr 2020 15:13:51 +0300</pubDate><guid>https://yazilim.aykutasil.com/javascript-hoisting/</guid><description>Javascript dilinin nasıl yorumlandığı ile alakalı bir durum olan Hoisting kavramını bilmekte fayda var diye düşünüyorum. Örneğin aşağıdaki gibi bir kod yazdığımızda;
+ Zoom uygulamasında kamera kaynağı olarak telefon kamerası (Virtual Cam) görünmüyor. Çözüm için terminal&amp;lsquo;ı açarak aşağıdaki komut satırını yazmamız yeterli olacaktır. Yazmadan önce Zoom uygulamasını kapattığımızdan emin olalım.</description>
+    </item>
+    
+    <item>
+      <title>Asp.Net Core launchSettings.json Kullanımı</title>
+      <link>https://yazilim.aykutasil.com/aspnetcore-launchsettings-file/</link>
+      <pubDate>Fri, 17 Apr 2020 21:02:16 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/aspnetcore-launchsettings-file/</guid>
+      <description>launchSettings.json dosyası sadece local&amp;lsquo;de development yaparken kullanılan bir dosyadır. Visual Studio veya dotnet cli ile birlikte kullanılır.
+ Not: Eğer uygulamamızı sunucuyu deploy ettikten sonra ulaşmak istediğimiz ayarlar var ise bunun belirtilmesi gereken yer launchSettings.json dosyası değildir. Bu tür ayarlar genelde appSettings.json dosyası içerisinde tanımlanır.
+ launchSettings.json dosyası { &amp;#34;iisSettings&amp;#34;: { &amp;#34;windowsAuthentication&amp;#34;: false, &amp;#34;anonymousAuthentication&amp;#34;: true, &amp;#34;iisExpress&amp;#34;: { &amp;#34;applicationUrl&amp;#34;: &amp;#34;http://localhost:59119&amp;#34;, &amp;#34;sslPort&amp;#34;: 0 } }, &amp;#34;profiles&amp;#34;: { &amp;#34;IIS Express&amp;#34;: { &amp;#34;commandName&amp;#34;: &amp;#34;IISExpress&amp;#34;, &amp;#34;launchBrowser&amp;#34;: true, &amp;#34;environmentVariables&amp;#34;: { &amp;#34;ASPNETCORE_ENVIRONMENT&amp;#34;: &amp;#34;Development&amp;#34; } }, &amp;#34;FirstCoreWebApplication&amp;#34;: { &amp;#34;commandName&amp;#34;: &amp;#34;Project&amp;#34;, &amp;#34;launchBrowser&amp;#34;: true, &amp;#34;applicationUrl&amp;#34;: &amp;#34;http://localhost:5000,https://localhost:5000&amp;#34;, &amp;#34;environmentVariables&amp;#34;: { &amp;#34;ASPNETCORE_ENVIRONMENT&amp;#34;: &amp;#34;Development&amp;#34; } } } Yukarıdaki dosyayı inceleyecek olursak profiles tagı altında IIS Express ve FirstCoreWebApplication tagları olduğunu görürüz.</description>
+    </item>
+    
+    <item>
+      <title>Javascript Hoisting</title>
+      <link>https://yazilim.aykutasil.com/javascript-hoisting/</link>
+      <pubDate>Fri, 03 Apr 2020 15:13:51 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/javascript-hoisting/</guid>
+      <description>Javascript dilinin nasıl yorumlandığı ile alakalı bir durum olan Hoisting kavramını bilmekte fayda var diye düşünüyorum. Örneğin aşağıdaki gibi bir kod yazdığımızda;
 console.log(username); var username = &amp;#34;aykuttasil&amp;#34;; alacağımız çıktı undefined şeklinde olur. Normal şartlarda beklediğimiz sonuç hata fırlatmasıdır. Çünkü username değişkeni tanımlanmadan önce yazdırılmaya çalışılmıştır. Ama beklediğimiz şekilde olmaz ve ekrana undefined yazılır.
-Peki Neden? Yukarıdaki gibi bir kod bloğu çalıştırılmadan önce javacsript tarafından hoisting işlemi uygulanır ve tüm var değişkenleri kod bloğunun(scope) en üstüne taşınır ve default olarak undefined atanır.</description></item><item><title>Docker Series - 1</title><link>https://yazilim.aykutasil.com/docker-series-1/</link><pubDate>Fri, 03 Apr 2020 11:12:12 +0300</pubDate><guid>https://yazilim.aykutasil.com/docker-series-1/</guid><description>Docker ile ilgili komut listesine erişmek için komut satırına docker --help ya da sadece docker yazabilirsiniz.
-docker run Docker ile ilgili bir çok temel fonksiyonu docker run komutu ile sağlayabilirsiniz.
-Hızlıca Docker Hub&amp;lsquo;da bulunan bir image&amp;rsquo;i makinemize kurmak istiyorsak aşağıdaki komut işimizi görecektir. docker run ubuntu Yukarıda ki komutu yazdığınızda ilk önce ilgili image dosyasının makinenizde olup olmadığına bakılır ve sonrasında eğer varsa zaten inmiş olan image çalıştırılılr.</description></item><item><title>Docker Series - 2</title><link>https://yazilim.aykutasil.com/docker-series-2/</link><pubDate>Fri, 03 Apr 2020 11:12:12 +0300</pubDate><guid>https://yazilim.aykutasil.com/docker-series-2/</guid><description>Docker Container&amp;rsquo;ı Detach modda çalıştırmak Uygulamanızı yazarken eğer thread&amp;lsquo;ler ile biraz derin bir ilişki kurmuşsanız daemon kavramıyla karşılaşmış olabilirsiniz. Kısaca, &amp;ldquo;arka tarafa git ve sessiz sedasız çalışmaya devam et&amp;rdquo; demek diyebiliriz. Ayrıntılı bilgi için -&amp;gt; Google :)
-Aynı mantık ile container&amp;lsquo;ımızın arka planda sesiz sedasız çalışmasını isteyebiliriz. Örneğin web sitemizi bir container&amp;rsquo;a kurduk, yerleştirdik ve belli bir port üzerinden dışarıya açtık. Ve artık bu container kapanmadan sürekli çalışması gerekiyor ki web sitemize erişebilelim.</description></item><item><title>Android Background Location</title><link>https://yazilim.aykutasil.com/android-background-location/</link><pubDate>Fri, 17 Jan 2020 18:13:00 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-background-location/</guid><description>Android 10 ile birlikte gelen değişiklerden biri de Location dinleme ile alakalıdır. Uygulamamız arka plandayken (background) ve ön plandayken (foreground) konum dinleme şekilleri farklılık göstermektedir. Uygulamımız bize görünür vaziyette ise yani foreground&amp;lsquo;da ise her hangi bir değişiklik yapmamıza gerek yoktur. Fakat Home tuşuna basarak veya başka bir uygulama açarak uygulamamızı arka plana atıyorsak ve bu sırada konum dinlemesinin devam etmesini istiyorsak bazı düzenlemeler yapmamız gerekmektedir.
-İki şekilde background konum dinlemesi yapılabilir.</description></item><item><title>About me</title><link>https://yazilim.aykutasil.com/about/</link><pubDate>Wed, 08 Jan 2020 22:17:00 +0000</pubDate><guid>https://yazilim.aykutasil.com/about/</guid><description>Aykut Asil</description></item><item><title>Kotlin DSL ile Json</title><link>https://yazilim.aykutasil.com/create-json-with-kotlin-dsl/</link><pubDate>Fri, 03 Jan 2020 17:19:13 +0300</pubDate><guid>https://yazilim.aykutasil.com/create-json-with-kotlin-dsl/</guid><description>Kotlin DSL kullanarak Json Objesi nasıl oluşturulur ? Normalde Json objesi oluşturmak için aşağıdaki gibi bir yöntem izleriz.
+Peki Neden? Yukarıdaki gibi bir kod bloğu çalıştırılmadan önce javacsript tarafından hoisting işlemi uygulanır ve tüm var değişkenleri kod bloğunun(scope) en üstüne taşınır ve default olarak undefined atanır.</description>
+    </item>
+    
+    <item>
+      <title>Docker Series - 1</title>
+      <link>https://yazilim.aykutasil.com/docker-series-1/</link>
+      <pubDate>Fri, 03 Apr 2020 11:12:12 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/docker-series-1/</guid>
+      <description>Docker ile ilgili komut listesine erişmek için komut satırına docker --help ya da sadece docker yazabilirsiniz.
+ docker run Docker ile ilgili bir çok temel fonksiyonu docker run komutu ile sağlayabilirsiniz.
+ Hızlıca Docker Hub&amp;lsquo;da bulunan bir image&amp;rsquo;i makinemize kurmak istiyorsak aşağıdaki komut işimizi görecektir.  docker run ubuntu Yukarıda ki komutu yazdığınızda ilk önce ilgili image dosyasının makinenizde olup olmadığına bakılır ve sonrasında eğer varsa zaten inmiş olan image çalıştırılılr.</description>
+    </item>
+    
+    <item>
+      <title>Docker Series - 2</title>
+      <link>https://yazilim.aykutasil.com/docker-series-2/</link>
+      <pubDate>Fri, 03 Apr 2020 11:12:12 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/docker-series-2/</guid>
+      <description>Docker Container&amp;rsquo;ı Detach modda çalıştırmak Uygulamanızı yazarken eğer thread&amp;lsquo;ler ile biraz derin bir ilişki kurmuşsanız daemon kavramıyla karşılaşmış olabilirsiniz. Kısaca, &amp;ldquo;arka tarafa git ve sessiz sedasız çalışmaya devam et&amp;rdquo; demek diyebiliriz. Ayrıntılı bilgi için -&amp;gt; Google :)
+Aynı mantık ile container&amp;lsquo;ımızın arka planda sesiz sedasız çalışmasını isteyebiliriz. Örneğin web sitemizi bir container&amp;rsquo;a kurduk, yerleştirdik ve belli bir port üzerinden dışarıya açtık. Ve artık bu container kapanmadan sürekli çalışması gerekiyor ki web sitemize erişebilelim.</description>
+    </item>
+    
+    <item>
+      <title>Android Background Location</title>
+      <link>https://yazilim.aykutasil.com/android-background-location/</link>
+      <pubDate>Fri, 17 Jan 2020 18:13:00 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-background-location/</guid>
+      <description>Android 10 ile birlikte gelen değişiklerden biri de Location dinleme ile alakalıdır. Uygulamamız arka plandayken (background) ve ön plandayken (foreground) konum dinleme şekilleri farklılık göstermektedir. Uygulamımız bize görünür vaziyette ise yani foreground&amp;lsquo;da ise her hangi bir değişiklik yapmamıza gerek yoktur. Fakat Home tuşuna basarak veya başka bir uygulama açarak uygulamamızı arka plana atıyorsak ve bu sırada konum dinlemesinin devam etmesini istiyorsak bazı düzenlemeler yapmamız gerekmektedir.
+İki şekilde background konum dinlemesi yapılabilir.</description>
+    </item>
+    
+    <item>
+      <title>Kotlin DSL ile Json</title>
+      <link>https://yazilim.aykutasil.com/create-json-with-kotlin-dsl/</link>
+      <pubDate>Fri, 03 Jan 2020 17:19:13 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/create-json-with-kotlin-dsl/</guid>
+      <description>Kotlin DSL kullanarak Json Objesi nasıl oluşturulur ? Normalde Json objesi oluşturmak için aşağıdaki gibi bir yöntem izleriz.
 val jsonObject = JSONObject() jsonObject.put(&amp;#34;name&amp;#34;,&amp;#34;Aykut&amp;#34;) jsonObject.put(&amp;#34;age&amp;#34;,20) Bunu Kotlin DSL ile çok daha ergonomik bir şekilde hazırlayabiliriz.
 Öncelikle Json isminde bir sınıf oluşturuyoruz ve JsonObject sınıfından kalıtım alıyoruz. Ve DSL kullanabilmek için gerekli custom constructor fonksiyonumuzu yazıyoruz.
-class Json() : JSONObject() { constructor(json: Json.() -&amp;gt; Unit) : this() { this.init() } } Json objemizi hazırlarken kolaylık olsun diye bir infix fonksiyonu ekliyoruz.</description></item><item><title>Asp.Net Core Session</title><link>https://yazilim.aykutasil.com/aspnetcore-session/</link><pubDate>Tue, 12 Nov 2019 10:17:17 +0300</pubDate><guid>https://yazilim.aykutasil.com/aspnetcore-session/</guid><description>Asp.Net Core Session Kullanımı Asp.Net Core 2.1 ve üstü sürüme sahip projelerinizde Session kullanmak için Startup.cs dosyanızı aşağıdaki yöntemlerden birini seçerek güncellemeniz gerekmektedir.
-Yöntem 1 Yöntem 2 Neden Asp.Net Core 2.1 ve sonrası? 2018&amp;rsquo;de uygulanması zorunlu hale gelen Avrupa Veri Koruma Kanunu ile birlikte, şirketlere kişisel verileri kullanması konusunda bazı kısıtlamalar ve uygulaması gereken bazı zorunluluklar getirilmiştir. Bu zorunluluklardan şu an için bizi ilgilendiren kısmı cookielerin kullanımı.</description></item><item><title>Android Debugging With Local Web Server</title><link>https://yazilim.aykutasil.com/android-debugging-local-server/</link><pubDate>Sat, 03 Aug 2019 03:14:28 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-debugging-local-server/</guid><description>Fiziksel Android cihazımızla localimizde çalışan web server&amp;rsquo;a erişmek, development aşamasında eminim ihtiyaç duyduğunuz veya duyacağınız gereksinimlerden biridir. Bununla beraber local makinenizde bulunan VM üzerinde koşan web server&amp;rsquo;a erişmek.. Ah harika..
+class Json() : JSONObject() { constructor(json: Json.() -&amp;gt; Unit) : this() { this.init() } } Json objemizi hazırlarken kolaylık olsun diye bir infix fonksiyonu ekliyoruz.</description>
+    </item>
+    
+    <item>
+      <title>Asp.Net Core Session</title>
+      <link>https://yazilim.aykutasil.com/aspnetcore-session/</link>
+      <pubDate>Tue, 12 Nov 2019 10:17:17 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/aspnetcore-session/</guid>
+      <description>Asp.Net Core Session Kullanımı Asp.Net Core 2.1 ve üstü sürüme sahip projelerinizde Session kullanmak için Startup.cs dosyanızı aşağıdaki yöntemlerden birini seçerek güncellemeniz gerekmektedir.
+Yöntem 1 Yöntem 2 Neden Asp.Net Core 2.1 ve sonrası? 2018&amp;rsquo;de uygulanması zorunlu hale gelen Avrupa Veri Koruma Kanunu ile birlikte, şirketlere kişisel verileri kullanması konusunda bazı kısıtlamalar ve uygulaması gereken bazı zorunluluklar getirilmiştir. Bu zorunluluklardan şu an için bizi ilgilendiren kısmı cookielerin kullanımı. Web siteleri cookie kullanımı için son kullanıcının onayını almak zorundadır.</description>
+    </item>
+    
+    <item>
+      <title>Android Debugging With Local Web Server</title>
+      <link>https://yazilim.aykutasil.com/android-debugging-local-server/</link>
+      <pubDate>Sat, 03 Aug 2019 03:14:28 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-debugging-local-server/</guid>
+      <description>Fiziksel Android cihazımızla localimizde çalışan web server&amp;rsquo;a erişmek, development aşamasında eminim ihtiyaç duyduğunuz veya duyacağınız gereksinimlerden biridir. Bununla beraber local makinenizde bulunan VM üzerinde koşan web server&amp;rsquo;a erişmek.. Ah harika..
 Canlı bir örnek verirsem sanıyorum daha iyi olacak.
-Geliştirme yaptığınız makinenizinde MacOS işletim sistemi var. Bununla beraber çeşitli ihtiyaçlarınızdan ötürü windows kurmanız gerekti ve Virtual Machine kurarak içine windows yüklediniz. Windows üzerinde Visual Studio ile bir WebApi ayağa kaldırdınız ve bu api&amp;lsquo;ye fiziksel Android cihazınızdan erişmek istiyorsunuz.</description></item><item><title>ADB Komutu ile Cihaz IP'sini Öğren</title><link>https://yazilim.aykutasil.com/deviceip-with-adb/</link><pubDate>Sat, 20 Jul 2019 01:04:53 +0300</pubDate><guid>https://yazilim.aykutasil.com/deviceip-with-adb/</guid><description>Aşağıdaki komutu çalıştırarak android cihaz ip&amp;rsquo;sini öğrenebilirsiniz.
-&amp;gt; adb shell ip -f inet addr show wlan0</description></item><item><title>Android File System</title><link>https://yazilim.aykutasil.com/android-filesystem/</link><pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-filesystem/</guid><description>Internal Storage vs External Storage Internal Storage Her zaman erişilebilir. Sadece uygulamanın kendisi tarafından erişebilir. Buraya kaydedilen dosyalar başka bir uygulama tarafından görünmez. USB ile bilgisayara bağlanıldığında bu dosyalara erişim sağlanamaz. Uygulama silindiğinde internal storage temizlenir. External Storage Her zaman erişilebilir durumda olmayabilir. External storage cihaza dahili olarak bulunabileceği gibi USB cihazı olarak sonradan takılmış bir cihaz da olabilir. Bu nedenle erişebilir olup olmadığı kontrol edilmelidir (getExternalStorageState()). External Storage&amp;rsquo;a kayıt edilen dosyalar başka uygulamalar tarafından okunabilir ve görülebilir durumda olabilir.</description></item><item><title>ASP.NET Core Filters</title><link>https://yazilim.aykutasil.com/aspnetcore-filters/</link><pubDate>Mon, 29 Apr 2019 10:05:05 +0300</pubDate><guid>https://yazilim.aykutasil.com/aspnetcore-filters/</guid><description>Not: Bu makale hazırlanırken kullanılan .net core versiyonu: 2.2
-ASP.NET Core&amp;lsquo;daki filter yapısı, middleware bileşenine benzer fakat bazı farklılıkları vardır. Filter&amp;lsquo;lar ile sadece request-response süreci arasına girilerek istenilen kod blokları çalıştırılabilir. Filter tipine göre request-response sürecinin hangi aşamasında çalıştırılacağı belirlenebilir. Oldukça özelleştirebilir bir yapı sunar bize Filter&amp;lsquo;lar.
-Filter Tipleri Authorization Filters İlk çalışan filter&amp;lsquo;dır. İlgili mvc action metoduna erişmek için user&amp;lsquo;ın yetkisi olup olmadığını kontrol eder. Eğer koşullar sağlanıyor ise ilgili mvc action metodu çalışır.</description></item><item><title>ASP.Net Core app.Run() Middleware</title><link>https://yazilim.aykutasil.com/aspnetcore-run-middleware/</link><pubDate>Mon, 15 Apr 2019 22:08:14 +0300</pubDate><guid>https://yazilim.aykutasil.com/aspnetcore-run-middleware/</guid><description>ASP.NET Core Run Method ASP.NET Core ile birlikte gelen middleware konsepti sayesinde request-response süreçleri arasına girerek kendi mantıksal devremizi yazmamız çok kolay hale gelmiştir.
+ Geliştirme yaptığınız makinenizinde MacOS işletim sistemi var. Bununla beraber çeşitli ihtiyaçlarınızdan ötürü windows kurmanız gerekti ve Virtual Machine kurarak içine windows yüklediniz. Windows üzerinde Visual Studio ile bir WebApi ayağa kaldırdınız ve bu api&amp;lsquo;ye fiziksel Android cihazınızdan erişmek istiyorsunuz.</description>
+    </item>
+    
+    <item>
+      <title>ADB Komutu ile Cihaz IP&#39;sini Öğren</title>
+      <link>https://yazilim.aykutasil.com/deviceip-with-adb/</link>
+      <pubDate>Sat, 20 Jul 2019 01:04:53 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/deviceip-with-adb/</guid>
+      <description>Aşağıdaki komutu çalıştırarak android cihaz ip&amp;rsquo;sini öğrenebilirsiniz.
+&amp;gt; adb shell ip -f inet addr show wlan0 </description>
+    </item>
+    
+    <item>
+      <title>Android File System</title>
+      <link>https://yazilim.aykutasil.com/android-filesystem/</link>
+      <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-filesystem/</guid>
+      <description>Internal Storage vs External Storage Internal Storage  Her zaman erişilebilir. Sadece uygulamanın kendisi tarafından erişebilir. Buraya kaydedilen dosyalar başka bir uygulama tarafından görünmez. USB ile bilgisayara bağlanıldığında bu dosyalara erişim sağlanamaz. Uygulama silindiğinde internal storage temizlenir.  External Storage  Her zaman erişilebilir durumda olmayabilir. External storage cihaza dahili olarak bulunabileceği gibi USB cihazı olarak sonradan takılmış bir cihaz da olabilir. Bu nedenle erişebilir olup olmadığı kontrol edilmelidir (getExternalStorageState()). External Storage&amp;rsquo;a kayıt edilen dosyalar başka uygulamalar tarafından okunabilir ve görülebilir durumda olabilir.</description>
+    </item>
+    
+    <item>
+      <title>ASP.NET Core Filters</title>
+      <link>https://yazilim.aykutasil.com/aspnetcore-filters/</link>
+      <pubDate>Mon, 29 Apr 2019 10:05:05 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/aspnetcore-filters/</guid>
+      <description>Not: Bu makale hazırlanırken kullanılan .net core versiyonu: 2.2
+ ASP.NET Core&amp;lsquo;daki filter yapısı, middleware bileşenine benzer fakat bazı farklılıkları vardır. Filter&amp;lsquo;lar ile sadece request-response süreci arasına girilerek istenilen kod blokları çalıştırılabilir. Filter tipine göre request-response sürecinin hangi aşamasında çalıştırılacağı belirlenebilir. Oldukça özelleştirebilir bir yapı sunar bize Filter&amp;lsquo;lar.
+Filter Tipleri Authorization Filters İlk çalışan filter&amp;lsquo;dır. İlgili mvc action metoduna erişmek için user&amp;lsquo;ın yetkisi olup olmadığını kontrol eder. Eğer koşullar sağlanıyor ise ilgili mvc action metodu çalışır.</description>
+    </item>
+    
+    <item>
+      <title>ASP.Net Core app.Run() Middleware</title>
+      <link>https://yazilim.aykutasil.com/aspnetcore-run-middleware/</link>
+      <pubDate>Mon, 15 Apr 2019 22:08:14 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/aspnetcore-run-middleware/</guid>
+      <description>ASP.NET Core Run Method ASP.NET Core ile birlikte gelen middleware konsepti sayesinde request-response süreçleri arasına girerek kendi mantıksal devremizi yazmamız çok kolay hale gelmiştir.
 Yukarıda ki gibi Startup.cs sınıfı içerisindeki Configure fonksiyonuna app.Run() diyerek middleware&amp;lsquo;ımızı ekleyebiliriz.
 Peki tam olarak app.Run() metodu nasıl çalışıyor? app.Run() middlaware&amp;rsquo;ı ile istenilen bir kod bloğunu çalıştırabilir ve uygulamamıza kısa devre yaptırabiliriz. Yani pipeline akışı eğer Run() içerisine girerse, sonraki kod blokları çalışmayacaktır.
-Yukarıda ki kodun çıktısı sadece Response 1 olacak ve sonraki kod bloğu çalışmayacaktır.</description></item><item><title>Android DataBinding</title><link>https://yazilim.aykutasil.com/android-databinding/</link><pubDate>Mon, 25 Feb 2019 00:00:27 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-databinding/</guid><description>Android DataBinding Android dünyasında temiz kod(Clean Code) günümüzde çokça konuşulan konular arasında yer almakta ve neden temiz kod yazmalıyız ile alakalı bir çok makale yazılmaktadır.
+Yukarıda ki kodun çıktısı sadece Response 1 olacak ve sonraki kod bloğu çalışmayacaktır.</description>
+    </item>
+    
+    <item>
+      <title>Android DataBinding</title>
+      <link>https://yazilim.aykutasil.com/android-databinding/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:27 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-databinding/</guid>
+      <description>Android DataBinding Android dünyasında temiz kod(Clean Code) günümüzde çokça konuşulan konular arasında yer almakta ve neden temiz kod yazmalıyız ile alakalı bir çok makale yazılmaktadır.
 Temiz kod yazmak için MVP, MVVM vs. kod tasarım mimarilerinden birini seçerek yazılan kodların ve etkileşimlerinin birbirinden ayrımını sağlamaktayız. Bu kod tasarım kalıpları ile beraber bize çok faydası olacak bir mimari daha bulunmakta: DataBinding
-DataBinding Uygulamanın arayüzünü tasarlamak için kullandığımız layout dosyamızın içerisine Uygulamamızın arayüzünü oluşturmak için kullandığımız layout xml dosyalarına gerekli datayı doğrudan entegre ederek, arayüz değişikliği ile ilgili tüm akışların harici müdahaleye gerek kalmadan otomatik olarak gerçekleşmesini sağlayabiliriz.</description></item><item><title>Android Service</title><link>https://yazilim.aykutasil.com/android-service/</link><pubDate>Thu, 14 Feb 2019 13:10:18 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-service/</guid><description>Android&amp;rsquo;in temel bileşenlerinden biri olan Service&amp;lsquo;ler kısaca UI(arayüz) olmayan Activity&amp;lsquo;lere benzetebiliriz. Tabi ki kendine göre ek özellikleri bulunmaktadır. Service tanımlaması AndroidManifest.xml içerisinde tanımlı olmalıdır. Aksi takdirde çalışmaz. &amp;lt;service&amp;gt; elementinin alabileceği özellikler aşağıdaki gibidir.
-Niçin kullanılır? Temel olarak ifade etmek gerekirse Service&amp;lsquo;lerin kullanım amacı uzun süren ve arka planda(background) çalışan taskler oluşturmaktır. Bununla birlikte diğer uygulamalar tarafından çağırılabilen iletişim imkanı sağlar.
-Service tanımlanması &amp;lt;service android:description=&amp;#34;string resource&amp;#34; android:directBootAware=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:enabled=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:exported=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:icon=&amp;#34;drawable resource&amp;#34; android:isolatedProcess=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:label=&amp;#34;string resource&amp;#34; android:name=&amp;#34;string&amp;#34; android:permission=&amp;#34;string&amp;#34; android:process=&amp;#34;string&amp;#34; &amp;gt; .</description></item><item><title>Android Kotlin Test - Final Type Problem</title><link>https://yazilim.aykutasil.com/android-kotlin-test-final-type-problem/</link><pubDate>Tue, 29 Jan 2019 15:38:29 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-kotlin-test-final-type-problem/</guid><description>Sorun Kotlin dili ile geliştirilen Android projelerinin test yazımı sırasında sınıfların veya metodların mocklanması, Java ile geliştirilen projelere göre bazı farklılıklar göstermektedir. Bu farklılığın sebeplerinden biri Kotlin ile oluşturulan sınıf veya metodların default olarak final olarak işaretlenmiş olmasıdır. Ve final tipindeki sınıfların mocklanması bazı sorunlar çıkarmaktadır.
+DataBinding Uygulamanın arayüzünü tasarlamak için kullandığımız layout dosyamızın içerisine Uygulamamızın arayüzünü oluşturmak için kullandığımız layout xml dosyalarına gerekli datayı doğrudan entegre ederek, arayüz değişikliği ile ilgili tüm akışların harici müdahaleye gerek kalmadan otomatik olarak gerçekleşmesini sağlayabiliriz.</description>
+    </item>
+    
+    <item>
+      <title>Android Service</title>
+      <link>https://yazilim.aykutasil.com/android-service/</link>
+      <pubDate>Thu, 14 Feb 2019 13:10:18 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-service/</guid>
+      <description>Android&amp;rsquo;in temel bileşenlerinden biri olan Service&amp;lsquo;ler kısaca UI(arayüz) olmayan Activity&amp;lsquo;lere benzetebiliriz. Tabi ki kendine göre ek özellikleri bulunmaktadır. Service tanımlaması AndroidManifest.xml içerisinde tanımlı olmalıdır. Aksi takdirde çalışmaz. &amp;lt;service&amp;gt; elementinin alabileceği özellikler aşağıdaki gibidir.
+ Niçin kullanılır? Temel olarak ifade etmek gerekirse Service&amp;lsquo;lerin kullanım amacı uzun süren ve arka planda(background) çalışan taskler oluşturmaktır. Bununla birlikte diğer uygulamalar tarafından çağırılabilen iletişim imkanı sağlar.
+Service tanımlanması &amp;lt;service android:description=&amp;#34;string resource&amp;#34; android:directBootAware=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:enabled=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:exported=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:icon=&amp;#34;drawable resource&amp;#34; android:isolatedProcess=[&amp;#34;true&amp;#34; | &amp;#34;false&amp;#34;] android:label=&amp;#34;string resource&amp;#34; android:name=&amp;#34;string&amp;#34; android:permission=&amp;#34;string&amp;#34; android:process=&amp;#34;string&amp;#34; &amp;gt; .</description>
+    </item>
+    
+    <item>
+      <title>Android Kotlin Test - Final Type Problem</title>
+      <link>https://yazilim.aykutasil.com/android-kotlin-test-final-type-problem/</link>
+      <pubDate>Tue, 29 Jan 2019 15:38:29 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-kotlin-test-final-type-problem/</guid>
+      <description>Sorun Kotlin dili ile geliştirilen Android projelerinin test yazımı sırasında sınıfların veya metodların mocklanması, Java ile geliştirilen projelere göre bazı farklılıklar göstermektedir. Bu farklılığın sebeplerinden biri Kotlin ile oluşturulan sınıf veya metodların default olarak final olarak işaretlenmiş olmasıdır. Ve final tipindeki sınıfların mocklanması bazı sorunlar çıkarmaktadır.
 Çözüm Final tipindeki sınıfların veya metodların mocklama işlemi sırasında çıkan sorunu çözmenin birkaç farklı yöntemi vardır.
-Çözüm 1 (open ClassName) Test edeceğimiz sınıf ve metodun başına open ifadesini ekleyerek extend edilebilir hale getirmek.</description></item><item><title>Server Ip</title><link>https://yazilim.aykutasil.com/server-ip/</link><pubDate>Tue, 08 Jan 2019 23:20:28 +0300</pubDate><guid>https://yazilim.aykutasil.com/server-ip/</guid><description>Problem Domain&amp;rsquo;i barındıran server&amp;rsquo;ın IP&amp;rsquo;sini bulmak istiyoruz.
-Çözüm Linux Terminali aç host www.aykutasil.com şeklinde istediğin domain&amp;rsquo;i yaz Server IP: www.aykutasil.com has address 104.24.114.254 www.aykutasil.com has address 104.24.115.254 www.aykutasil.com has IPv6 address 2606:4700:30::6818:73fe www.aykutasil.com has IPv6 address 2606:4700:30::6818:72fe Windows Komut penceresini aç. (cmd.exe) nslookup www.aykutasil.com şeklinde istediğin domain&amp;rsquo;i yaz Server IP: Name: www.aykutasil.com Addresses: 2606:4700:30::6818:73fe 2606:4700:30::6818:72fe 104.24.115.254 104.24.114.254</description></item><item><title>Bash Scripts</title><link>https://yazilim.aykutasil.com/bash-scripts/</link><pubDate>Mon, 10 Dec 2018 00:47:41 +0300</pubDate><guid>https://yazilim.aykutasil.com/bash-scripts/</guid><description>cat &amp;laquo;EOF cat &amp;lt;&amp;lt;EOF komutu ile multiline bash script yazabiliriz. Son satır EOF oluncaya kadar satır oluşturulmaya devam eder.
+Çözüm 1 (open ClassName) Test edeceğimiz sınıf ve metodun başına open ifadesini ekleyerek extend edilebilir hale getirmek.</description>
+    </item>
+    
+    <item>
+      <title>Server Ip</title>
+      <link>https://yazilim.aykutasil.com/server-ip/</link>
+      <pubDate>Tue, 08 Jan 2019 23:20:28 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/server-ip/</guid>
+      <description>Problem Domain&amp;rsquo;i barındıran server&amp;rsquo;ın IP&amp;rsquo;sini bulmak istiyoruz.
+Çözüm Linux  Terminali aç host www.aykutasil.com şeklinde istediğin domain&amp;rsquo;i yaz Server IP:  www.aykutasil.com has address 104.24.114.254 www.aykutasil.com has address 104.24.115.254 www.aykutasil.com has IPv6 address 2606:4700:30::6818:73fe www.aykutasil.com has IPv6 address 2606:4700:30::6818:72fe Windows  Komut penceresini aç. (cmd.exe) nslookup www.aykutasil.com şeklinde istediğin domain&amp;rsquo;i yaz Server IP:  Name: www.aykutasil.com Addresses: 2606:4700:30::6818:73fe 2606:4700:30::6818:72fe 104.24.115.254 104.24.114.254 </description>
+    </item>
+    
+    <item>
+      <title>Bash Scripts</title>
+      <link>https://yazilim.aykutasil.com/bash-scripts/</link>
+      <pubDate>Mon, 10 Dec 2018 00:47:41 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/bash-scripts/</guid>
+      <description>cat &amp;laquo;EOF cat &amp;lt;&amp;lt;EOF komutu ile multiline bash script yazabiliriz. Son satır EOF oluncaya kadar satır oluşturulmaya devam eder.
 EOF yerine herhangi bir belirteç yazılabilir. Genelde EOF veya STOP yazılır.
 $ sql=$(cat &amp;lt;&amp;lt;EOF SELECT foo, bar FROM db WHERE foo=&amp;#39;baz&amp;#39; EOF ) $ cat &amp;lt;&amp;lt;EOF &amp;gt; print.sh #!/bin/bash echo \$PWD echo $PWD EOF Yukarıda ki bash çalıştırıldığında print.sh adında ve içeriği
-#!/bin/bash echo $PWD echo /home/user olan bir dosya oluşur.</description></item><item><title>Android CircleCI Configuration</title><link>https://yazilim.aykutasil.com/android-circleci/</link><pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-circleci/</guid><description>CircleCI Android Yapılandırması .circleci/config.yml version: 2 jobs: build: working_directory: ~/code docker: - image: circleci/android:api-28-alpha environment: JVM_OPTS: -Xmx3200m steps: - checkout - run: name: Initialize Keystore File command: echo $KEYSTORE_BASE64 | base64 --decode &amp;gt; app/aykutasilkeystore - run: name: Initialize Fabric Properties command: | echo &amp;#34;apiKey=$FABRIC_API_KEY&amp;#34; &amp;gt;&amp;gt; app/fabric.properties echo &amp;#34;apiSecret=$FABRIC_API_SECRET&amp;#34; &amp;gt;&amp;gt; app/fabric.properties cat app/fabric.properties - run: name: Initialize Keystore File command: | echo &amp;#34;signingKeyAlias=$KEYSTORE_KEY_ALIAS&amp;#34; &amp;gt;&amp;gt; keystore.properties echo &amp;#34;signingKeyAliasPassword=$KEYSTORE_KEY_ALIAS_PASSWORD&amp;#34; &amp;gt;&amp;gt; keystore.properties echo &amp;#34;signingStoreFile=$KEYSTORE_STORE_FILE&amp;#34; &amp;gt;&amp;gt; keystore.</description></item><item><title>CircleCI Configuration</title><link>https://yazilim.aykutasil.com/circleci-configuration/</link><pubDate>Tue, 27 Nov 2018 14:20:45 +0300</pubDate><guid>https://yazilim.aykutasil.com/circleci-configuration/</guid><description>CI/CD Uygulamaların build/test/depleyment süreçlerini otomatize etmemizi sağlayan CI/CD kavramları günümüz yazılım dünyasında olmazsa olmaz, bilinmezse ayıp olurlar arasına girmiş bulunmaktadır. Manuel yapılan bu işlemlerin otomatize edilmesi bize ve takım üyelerine çeşitli konularda fayda sağlayacak ve eğer manuel yöntemler ile ilerlendiği takdirde oluşabilecek hataları minimuma indirecektir. Projenizin build/test/deployment adımlarında çeşitli sorunlar yaşamaya başlamışsanız ya da başlamadan bitirmek istiyorsanız bu kavramları öğrenmekte fayda var.
-Çeşitli CI/CD araçları bulunmaktadır. Travis, Bitrise, AppCenter, CircleCI bunlardan bazılarıdır.</description></item><item><title>SSH Sürekli Parola İstemesi Sorunu</title><link>https://yazilim.aykutasil.com/ssh-surekli-parola-isteme-problemi/</link><pubDate>Fri, 26 Oct 2018 01:04:21 +0300</pubDate><guid>https://yazilim.aykutasil.com/ssh-surekli-parola-isteme-problemi/</guid><description>Problem ./ssh klasörünüzde id_rsa ve id_rsa.pub dosyanız var ve Github, Gitlab, DigitalOcean vs. gibi platformlara erişim için bu rsa keyini kullanıyorsunuz. Her biri için ayrı ayrı rsa key oluşturmuş da olabilirsiniz tabi. Fakat git clone git@gitlab.com:aykuttasil/test.git gibi bir komutu çalıştırdığınızda Enter passphrase for key '/Users/aykutasil/.ssh/id_rsa': gibi bir uyarı karşınıza çıkıyor ve rsa keyinizin şifresini girmenizi istiyor. Her git komutunda aynı şey ile karşılaşıyorsunuz.
-Yukarıda ki durum ssh&amp;lsquo;ın kullanım amacına ters düştüğü için ortada bir problem var demektir.</description></item><item><title>Android Dagger</title><link>https://yazilim.aykutasil.com/android-dagger/</link><pubDate>Fri, 12 Oct 2018 11:48:08 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-dagger/</guid><description>@BindsInstance Bağımlılıklarınızı oluşturma esnasında belirtmeniz gereken bir değişkenininiz var ve bu değişkeni diğer module leriniz içerisinde kullanıcaksınız. Aşağıdaki gibi @BindsInstance kullanarak bu bağımlılığınızı dependency graph içerisine ekleyerek diğer modüller içerisinde kullanımını sağlayabilirsiniz.
+#!/bin/bash echo $PWD echo /home/user olan bir dosya oluşur.</description>
+    </item>
+    
+    <item>
+      <title>Android CircleCI Configuration</title>
+      <link>https://yazilim.aykutasil.com/android-circleci/</link>
+      <pubDate>Sat, 01 Dec 2018 14:20:45 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-circleci/</guid>
+      <description>CircleCI Android Yapılandırması .circleci/config.yml version: 2 jobs: build: working_directory: ~/code docker: - image: circleci/android:api-28-alpha environment: JVM_OPTS: -Xmx3200m steps: - checkout - run: name: Initialize Keystore File command: echo $KEYSTORE_BASE64 | base64 --decode &amp;gt; app/aykutasilkeystore - run: name: Initialize Fabric Properties command: | echo &amp;#34;apiKey=$FABRIC_API_KEY&amp;#34; &amp;gt;&amp;gt; app/fabric.properties echo &amp;#34;apiSecret=$FABRIC_API_SECRET&amp;#34; &amp;gt;&amp;gt; app/fabric.properties cat app/fabric.properties - run: name: Initialize Keystore File command: | echo &amp;#34;signingKeyAlias=$KEYSTORE_KEY_ALIAS&amp;#34; &amp;gt;&amp;gt; keystore.properties echo &amp;#34;signingKeyAliasPassword=$KEYSTORE_KEY_ALIAS_PASSWORD&amp;#34; &amp;gt;&amp;gt; keystore.properties echo &amp;#34;signingStoreFile=$KEYSTORE_STORE_FILE&amp;#34; &amp;gt;&amp;gt; keystore.</description>
+    </item>
+    
+    <item>
+      <title>CircleCI Configuration</title>
+      <link>https://yazilim.aykutasil.com/circleci-configuration/</link>
+      <pubDate>Tue, 27 Nov 2018 14:20:45 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/circleci-configuration/</guid>
+      <description>CI/CD Uygulamaların build/test/depleyment süreçlerini otomatize etmemizi sağlayan CI/CD kavramları günümüz yazılım dünyasında olmazsa olmaz, bilinmezse ayıp olurlar arasına girmiş bulunmaktadır. Manuel yapılan bu işlemlerin otomatize edilmesi bize ve takım üyelerine çeşitli konularda fayda sağlayacak ve eğer manuel yöntemler ile ilerlendiği takdirde oluşabilecek hataları minimuma indirecektir. Projenizin build/test/deployment adımlarında çeşitli sorunlar yaşamaya başlamışsanız ya da başlamadan bitirmek istiyorsanız bu kavramları öğrenmekte fayda var.
+Çeşitli CI/CD araçları bulunmaktadır. Travis, Bitrise, AppCenter, CircleCI bunlardan bazılarıdır.</description>
+    </item>
+    
+    <item>
+      <title>SSH Sürekli Parola İstemesi Sorunu</title>
+      <link>https://yazilim.aykutasil.com/ssh-surekli-parola-isteme-problemi/</link>
+      <pubDate>Fri, 26 Oct 2018 01:04:21 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/ssh-surekli-parola-isteme-problemi/</guid>
+      <description>Problem ./ssh klasörünüzde id_rsa ve id_rsa.pub dosyanız var ve Github, Gitlab, DigitalOcean vs. gibi platformlara erişim için bu rsa keyini kullanıyorsunuz. Her biri için ayrı ayrı rsa key oluşturmuş da olabilirsiniz tabi. Fakat git clone git@gitlab.com:aykuttasil/test.git gibi bir komutu çalıştırdığınızda Enter passphrase for key &#39;/Users/aykutasil/.ssh/id_rsa&#39;: gibi bir uyarı karşınıza çıkıyor ve rsa keyinizin şifresini girmenizi istiyor. Her git komutunda aynı şey ile karşılaşıyorsunuz.
+Yukarıda ki durum ssh&amp;lsquo;ın kullanım amacına ters düştüğü için ortada bir problem var demektir.</description>
+    </item>
+    
+    <item>
+      <title>Android Dagger</title>
+      <link>https://yazilim.aykutasil.com/android-dagger/</link>
+      <pubDate>Fri, 12 Oct 2018 11:48:08 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-dagger/</guid>
+      <description>@BindsInstance Bağımlılıklarınızı oluşturma esnasında belirtmeniz gereken bir değişkenininiz var ve bu değişkeni diğer module leriniz içerisinde kullanıcaksınız. Aşağıdaki gibi @BindsInstance kullanarak bu bağımlılığınızı dependency graph içerisine ekleyerek diğer modüller içerisinde kullanımını sağlayabilirsiniz.
 @Component(modules = AppModule.class) interface AppComponent { App app(); @Component.Builder interface Builder { @BindsInstance Builder apiUrl(@ApiUrl String apiUrl); AppComponent build(); } } Component build edilirken apiUrl değeri bind edilir.
-App app = DaggerAppComponent .builder() .apiUrl(&amp;#34;http://....&amp;#34;) .build()</description></item><item><title>AMP</title><link>https://yazilim.aykutasil.com/post/amp/</link><pubDate>Wed, 10 Oct 2018 11:57:46 +0300</pubDate><guid>https://yazilim.aykutasil.com/post/amp/</guid><description>Not: Bu yazı öğrenme sürecinde hazırlanmış olup kısa kısa notlar içerir.
-Nedir bu AMP Kurallar &amp;lt;!doctype html&amp;gt; ile başlamalı &amp;lt;html amp&amp;gt; şeklinde düzenlenmeli &amp;lt;head&amp;gt; tagı içerisine ilk sırada &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; şeklinde meta tagı eklenmeli &amp;lt;head&amp;gt; tagı içerisine mümkün olduğunda erken sırada &amp;lt;script async src=&amp;quot;https://cdn.ampproject.org/v0.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; script tagı eklenmeli &amp;lt;head&amp;gt; tagı içerisine sayfanın AMP olmayan halinin linkini ya da sadece AMP li hali var ise kendi url i &amp;lt;link rel=&amp;quot;canonical&amp;quot; href=&amp;quot;$SOME_URL&amp;quot;&amp;gt; şeklinde belirtilmeli &amp;lt;head&amp;gt; tagı içerisine &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width,minimum-scale=1&amp;quot;&amp;gt; meta tagı eklenmeli AMP js dosyası yüklenene kadar mevcut içeriği gizlemek için &amp;lt;style amp-boilerplate&amp;gt;body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}&amp;lt;/style&amp;gt;&amp;lt;noscript&amp;gt;&amp;lt;style amp-boilerplate&amp;gt;body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}&amp;lt;/style&amp;gt;&amp;lt;/noscript&amp;gt; tagı eklenmeli Bir çok HTMl tagı direk olarak AMP HTML içerisinde kullanılabilir fakat bazılarının (img gibi) AMP için özel versiyonları bulunmaktadır.</description></item><item><title>Android Test</title><link>https://yazilim.aykutasil.com/android-test/</link><pubDate>Tue, 18 Sep 2018 11:51:07 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-test/</guid><description>Not: Bu yazıyı hazırlarken ben de öğrenme sürecinde olucam. Araştırdığım ve öğrendiğim tüm teknik bilgileri ve yöntemleri, best-practice leri gelişi güzel(karmakarışık değil) bir şekilde yazıcam. Sonrasında zaman bulduğum vakit bir düzenleme yapıcam.
-Unit Test ve Instrumentation Test Unit Test Unit Test: Android framework ünden bağımsız olan sınıfları/metodları test etmek için kullanılır. Robolectric ve JUnit popüler unit test araçlarıdır.
-If you run local unit tests, a special version of the android.</description></item><item><title>DNS over TLS Nedir?</title><link>https://yazilim.aykutasil.com/dns-over-tls/</link><pubDate>Mon, 13 Aug 2018 00:50:25 +0300</pubDate><guid>https://yazilim.aykutasil.com/dns-over-tls/</guid><description>DNS over TLS Nedir? Kısaca açıklamak gerekirse, İnternet Servis Sağlayıcılarının, hangi siteye erişmek istediğimizi görmesini engelleme yöntemidir.
+App app = DaggerAppComponent .builder() .apiUrl(&amp;#34;http://....&amp;#34;) .build()  </description>
+    </item>
+    
+    <item>
+      <title>AMP</title>
+      <link>https://yazilim.aykutasil.com/posts/amp_1/</link>
+      <pubDate>Wed, 10 Oct 2018 11:57:46 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/posts/amp_1/</guid>
+      <description>Not: Bu yazı öğrenme sürecinde hazırlanmış olup kısa kısa notlar içerir.
+ Nedir bu AMP Kurallar  &amp;lt;!doctype html&amp;gt; ile başlamalı &amp;lt;html amp&amp;gt; şeklinde düzenlenmeli &amp;lt;head&amp;gt; tagı içerisine ilk sırada &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt; şeklinde meta tagı eklenmeli &amp;lt;head&amp;gt; tagı içerisine mümkün olduğunda erken sırada &amp;lt;script async src=&amp;quot;https://cdn.ampproject.org/v0.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; script tagı eklenmeli &amp;lt;head&amp;gt; tagı içerisine sayfanın AMP olmayan halinin linkini ya da sadece AMP li hali var ise kendi url i &amp;lt;link rel=&amp;quot;canonical&amp;quot; href=&amp;quot;$SOME_URL&amp;quot;&amp;gt; şeklinde belirtilmeli &amp;lt;head&amp;gt; tagı içerisine &amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width,minimum-scale=1&amp;quot;&amp;gt; meta tagı eklenmeli AMP js dosyası yüklenene kadar mevcut içeriği gizlemek için &amp;lt;style amp-boilerplate&amp;gt;body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}&amp;lt;/style&amp;gt;&amp;lt;noscript&amp;gt;&amp;lt;style amp-boilerplate&amp;gt;body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}&amp;lt;/style&amp;gt;&amp;lt;/noscript&amp;gt; tagı eklenmeli     Bir çok HTMl tagı direk olarak AMP HTML içerisinde kullanılabilir fakat bazılarının (img gibi) AMP için özel versiyonları bulunmaktadır.</description>
+    </item>
+    
+    <item>
+      <title>Android Test</title>
+      <link>https://yazilim.aykutasil.com/android-test/</link>
+      <pubDate>Tue, 18 Sep 2018 11:51:07 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-test/</guid>
+      <description>Not: Bu yazıyı hazırlarken ben de öğrenme sürecinde olucam. Araştırdığım ve öğrendiğim tüm teknik bilgileri ve yöntemleri, best-practice leri gelişi güzel(karmakarışık değil) bir şekilde yazıcam. Sonrasında zaman bulduğum vakit bir düzenleme yapıcam.
+ Unit Test ve Instrumentation Test Unit Test Unit Test: Android framework ünden bağımsız olan sınıfları/metodları test etmek için kullanılır. Robolectric ve JUnit popüler unit test araçlarıdır.
+ If you run local unit tests, a special version of the android.</description>
+    </item>
+    
+    <item>
+      <title>DNS over TLS Nedir?</title>
+      <link>https://yazilim.aykutasil.com/dns-over-tls/</link>
+      <pubDate>Mon, 13 Aug 2018 00:50:25 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/dns-over-tls/</guid>
+      <description>DNS over TLS Nedir? Kısaca açıklamak gerekirse, İnternet Servis Sağlayıcılarının, hangi siteye erişmek istediğimizi görmesini engelleme yöntemidir.
 TLS/SSL protokolü zaten bunu yapmıyor mu? TLS/SSL protokolüne sahip siteler üzerinden yapılan veri alış verişleri şifreli yapılır fakat hala hangi siteye erişmek istediğimiz açık/şifresiz bir şekilde bellidir ve internet servis sağlayıcıları bunu görebilir.
 Bunu engellemek için DNS over TLS kullanılır.
-Özet TLS üzerinden DNS, tüm DNS isteklerinin güvenli bir şekilde yapılmasını sağlayan bir protokoldür.</description></item><item><title>TLS vs SSL</title><link>https://yazilim.aykutasil.com/tls-ssl/</link><pubDate>Sun, 12 Aug 2018 23:12:07 +0300</pubDate><guid>https://yazilim.aykutasil.com/tls-ssl/</guid><description>TLS/SSL nedir? TLS (Transport Layer Securtiy) , SSL(Secure Sockets Layer)&amp;lsquo;ın modernize edilmiş halidir diyebiliriz. Yani günümüzde SSL den bahsedildiğinde aslında TLS den bahsediliyor olduğunu söyleyebiliriz.
-TLS protokolü, makinelerin web üzerindeki iletişimini kimlik doğrulama ve şifreleme mekanizmaları ile güvenli hale getirem bir standarttır. Günümüz dijital dünyasında güvenliğin önemi her geçen gün arttığı için iletişim yöntemleri ve güvenliği de beraberinde değişmekte ve gelişmektedir. Bu nedenle web iletişiminin güvenli hale gelmesi zorunluluk ve ihtiyaçtır.</description></item><item><title>Step Motor Nedir?</title><link>https://yazilim.aykutasil.com/step-motor-nedir/</link><pubDate>Fri, 03 Aug 2018 22:21:48 +0300</pubDate><guid>https://yazilim.aykutasil.com/step-motor-nedir/</guid><description>Step motoru bir diğer adıyla adım motorları; hızlı, Doğrusal ve kademeli hareket istenilen uygulamalarda kullanılan fırçasız DC elektrik motorudur.
-Kademeli motorlar düşük devirlerde yüksek tork ve düşük titreşim ve hassasiyetle çalışmaktadırlar. Step motorları rotor denilen sabit bir manyetik dönen şafta ve stator olarak adlandırılan motoru çevreleyen sabit kısımdaki elektromıknatıslardan oluşur. step motorlar, yarim adim modunda çalistiklarin da hassasiyetleri daha da artar.
-STEP MOTORUN SÜRÜCÜ İLE ÇALIŞTIRILMASI Step motorlar mikro denetleyici, arduino ve step motor sürücü yardımı yöntemi ile sürülmektedir.</description></item><item><title>Android Backstack Navigate</title><link>https://yazilim.aykutasil.com/android-backstack-navigate/</link><pubDate>Fri, 04 May 2018 17:38:15 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-backstack-navigate/</guid><description>Android Navigate Örnek Senaryo Kullanıcıya bir ürün ile ilgili notification yolladınız. Kullanıcı bu notification a tıkladığında direk olarak Ürün Detay sayfasına yönlendiriliyor. Kullanıcı sayfada işi bittiğinde geri tuşuna basıyor ve siz bu durumda kullanıcıyı uygulamanın Anasayfasına yönlendirmek istiyorsunuz. Ek bir geliştirme yapmadığınız takdirde bu senaryo için geri tuşuna basıldığında uygulama kapanır. Çünkü geri gidecek ekranı yoktur. Direk olarak Detay sayfası açılmıştır.
-Çözüm İlk olarak yapmamız gereken Manifest.xml dosyasında DetailActivity tanımlamasını yaptığımız yerde parentActivityName i belirtmek.</description></item><item><title>Android Architecture Components</title><link>https://yazilim.aykutasil.com/android-architecture-components/</link><pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate><guid>https://yazilim.aykutasil.com/android-architecture-components/</guid><description>Android Architecture Components Öncelikle şu linkleri verelim:
-https://developer.android.com/topic/libraries/architecture/index.html Lifecycle LiveData ViewModel LifeCycle Daha önce Android uygulaması geliştirenler çok iyi bilirler ki bir activity veya fragment&amp;rsquo;ın yaşam döngüsünü yönetmek sıkıntılı bir süreçtir. Activity&amp;rsquo;nin arka planda mı yoksa görünür vaziyette mi oluşuna göre düzenlenen akışlar çoğu zaman yoğun dikkat gerektiren süreçlerdir. Yukarıda ki Lifecycle linkine tıklarsanınz çok güzel bir örnek ile durumu açıklamışlar.
-Oluşturduğumuz nesneler eğer activity&amp;rsquo;nin yaşam döngüsüne bağlı ise bunu yönetmek için activity&amp;rsquo;mizin genelde onCreate ve onStop metodları içerisinde bu nesnelere ait fonksiyonları çağırıyorduk.</description></item><item><title>Google Cloud DNS</title><link>https://yazilim.aykutasil.com/google_cloud_dns/</link><pubDate>Wed, 12 Jul 2017 00:00:00 +0300</pubDate><guid>https://yazilim.aykutasil.com/google_cloud_dns/</guid><description>Google Cloud Platform Cloud DNS Örnek senaryomuz şu şekilde olsun.
+Özet  TLS üzerinden DNS, tüm DNS isteklerinin güvenli bir şekilde yapılmasını sağlayan bir protokoldür.</description>
+    </item>
+    
+    <item>
+      <title>TLS vs SSL</title>
+      <link>https://yazilim.aykutasil.com/tls-ssl/</link>
+      <pubDate>Sun, 12 Aug 2018 23:12:07 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tls-ssl/</guid>
+      <description>TLS/SSL nedir? TLS (Transport Layer Securtiy) , SSL(Secure Sockets Layer)&amp;lsquo;ın modernize edilmiş halidir diyebiliriz. Yani günümüzde SSL den bahsedildiğinde aslında TLS den bahsediliyor olduğunu söyleyebiliriz.
+TLS protokolü, makinelerin web üzerindeki iletişimini kimlik doğrulama ve şifreleme mekanizmaları ile güvenli hale getirem bir standarttır. Günümüz dijital dünyasında güvenliğin önemi her geçen gün arttığı için iletişim yöntemleri ve güvenliği de beraberinde değişmekte ve gelişmektedir. Bu nedenle web iletişiminin güvenli hale gelmesi zorunluluk ve ihtiyaçtır.</description>
+    </item>
+    
+    <item>
+      <title>Step Motor Nedir?</title>
+      <link>https://yazilim.aykutasil.com/step-motor-nedir/</link>
+      <pubDate>Fri, 03 Aug 2018 22:21:48 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/step-motor-nedir/</guid>
+      <description>Step motoru bir diğer adıyla adım motorları; hızlı, Doğrusal ve kademeli hareket istenilen uygulamalarda kullanılan fırçasız DC elektrik motorudur.
+ Kademeli motorlar düşük devirlerde yüksek tork ve düşük titreşim ve hassasiyetle çalışmaktadırlar. Step motorları rotor denilen sabit bir manyetik dönen şafta ve stator olarak adlandırılan motoru çevreleyen sabit kısımdaki elektromıknatıslardan oluşur. step motorlar, yarim adim modunda çalistiklarin da hassasiyetleri daha da artar.
+STEP MOTORUN SÜRÜCÜ İLE ÇALIŞTIRILMASI Step motorlar mikro denetleyici, arduino ve step motor sürücü yardımı yöntemi ile sürülmektedir.</description>
+    </item>
+    
+    <item>
+      <title>Android Backstack Navigate</title>
+      <link>https://yazilim.aykutasil.com/android-backstack-navigate/</link>
+      <pubDate>Fri, 04 May 2018 17:38:15 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-backstack-navigate/</guid>
+      <description>Android Navigate Örnek Senaryo Kullanıcıya bir ürün ile ilgili notification yolladınız. Kullanıcı bu notification a tıkladığında direk olarak Ürün Detay sayfasına yönlendiriliyor. Kullanıcı sayfada işi bittiğinde geri tuşuna basıyor ve siz bu durumda kullanıcıyı uygulamanın Anasayfasına yönlendirmek istiyorsunuz. Ek bir geliştirme yapmadığınız takdirde bu senaryo için geri tuşuna basıldığında uygulama kapanır. Çünkü geri gidecek ekranı yoktur. Direk olarak Detay sayfası açılmıştır.
+ Çözüm İlk olarak yapmamız gereken Manifest.xml dosyasında DetailActivity tanımlamasını yaptığımız yerde parentActivityName i belirtmek.</description>
+    </item>
+    
+    <item>
+      <title>Android Architecture Components</title>
+      <link>https://yazilim.aykutasil.com/android-architecture-components/</link>
+      <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-architecture-components/</guid>
+      <description>Android Architecture Components Öncelikle şu linkleri verelim:
+ https://developer.android.com/topic/libraries/architecture/index.html Lifecycle LiveData ViewModel  LifeCycle Daha önce Android uygulaması geliştirenler çok iyi bilirler ki bir activity veya fragment&amp;rsquo;ın yaşam döngüsünü yönetmek sıkıntılı bir süreçtir. Activity&amp;rsquo;nin arka planda mı yoksa görünür vaziyette mi oluşuna göre düzenlenen akışlar çoğu zaman yoğun dikkat gerektiren süreçlerdir. Yukarıda ki Lifecycle linkine tıklarsanınz çok güzel bir örnek ile durumu açıklamışlar.
+Oluşturduğumuz nesneler eğer activity&amp;rsquo;nin yaşam döngüsüne bağlı ise bunu yönetmek için activity&amp;rsquo;mizin genelde onCreate ve onStop metodları içerisinde bu nesnelere ait fonksiyonları çağırıyorduk.</description>
+    </item>
+    
+    <item>
+      <title>Google Cloud DNS</title>
+      <link>https://yazilim.aykutasil.com/google_cloud_dns/</link>
+      <pubDate>Wed, 12 Jul 2017 00:00:00 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/google_cloud_dns/</guid>
+      <description>Google Cloud Platform Cloud DNS Örnek senaryomuz şu şekilde olsun.
 Google Cloud ortamında hazır olarak bulunan (Cloud Launcher) sanal makinelerden wordpress yüklü olanı seçtik ve hızlıca makinemizi hazır hale getirdik. Google Cloud bize makineye ait bir ip adresi verdi ve bu ip ile worpress sitemize erişim sağlayabiliyoruz. Elimizde başka bir yerden aldığımız bir domain adresi var ve bu adresi wordpress sitemize yönlendirmek istiyoruz.
-Cloud DNS nedir? Google Cloud platformunun dns yapılandırması için vermiş olduğu hizmettir.</description></item><item><title>Kotlin @JvmOverloads</title><link>https://yazilim.aykutasil.com/kotlin-jvmoverloads/</link><pubDate>Sun, 09 Jul 2017 00:00:00 +0300</pubDate><guid>https://yazilim.aykutasil.com/kotlin-jvmoverloads/</guid><description>Kotlin @JvmOverloads Kotlin ile uygulama geliştirmeyi teşvik eden en büyük etkenlerden biri şüphesiz Java dili uyumlu yapısıdır. Her iki tarafdan da birbirlerine referanslar verilebilir.
+Cloud DNS nedir? Google Cloud platformunun dns yapılandırması için vermiş olduğu hizmettir.</description>
+    </item>
+    
+    <item>
+      <title>Kotlin @JvmOverloads</title>
+      <link>https://yazilim.aykutasil.com/kotlin-jvmoverloads/</link>
+      <pubDate>Sun, 09 Jul 2017 00:00:00 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/kotlin-jvmoverloads/</guid>
+      <description>Kotlin @JvmOverloads Kotlin ile uygulama geliştirmeyi teşvik eden en büyük etkenlerden biri şüphesiz Java dili uyumlu yapısıdır. Her iki tarafdan da birbirlerine referanslar verilebilir.
 Kotlin dilinin Java&amp;rsquo;dan ayıran özelliklerinden biri Java compiler ından daha zeki olmasıdır. Nitekim java dili yaşlanıyor :). Kotlin ile oluşturulan bazı yapıların Java tarafına uyumlu hale getirilmesi için bazen ufak düzenlemelere gerek duyulabiliyor. Bu düzenlemelerden bir tanesi de @JvmOverloads annotation kullanımı.
-fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View { return LayoutInflater.</description></item><item><title>Kotlin Sealed Class</title><link>https://yazilim.aykutasil.com/kotlin-sealed-class/</link><pubDate>Sat, 01 Jul 2017 00:00:00 +0300</pubDate><guid>https://yazilim.aykutasil.com/kotlin-sealed-class/</guid><description>Kotlin Sealed Class Enum yapısına benzer bir yapıya sahiptir. Ve benzer görevler için kullanılır. Aradaki fark enum lar sabit değer ifade etmek için kullanılırken sealed yapısı normal sınıf gibi fakat enum mantığıyla kullanılır. Yani belli bir duruma ait fonksiyonları bir arada tutmak ve when() gibi fonksiyonlar ile birlikte kullanımını sağlamak için kullanılır.
-// Sealed class enum yapısına benzer // Bir durum için belli başlı akışları bir arada tutmamızı sağlar ve bu akışların yönetimini kolaylaştırır.</description></item><item><title>Kotlin Lambda</title><link>https://yazilim.aykutasil.com/kotlin-lambda/</link><pubDate>Sun, 18 Jun 2017 02:24:37 +0300</pubDate><guid>https://yazilim.aykutasil.com/kotlin-lambda/</guid><description>Kotlin Lambda Kullanımı Kotlin dili ile geliştirme yaparken fonksiyonel programlama nimetlerinden faydalanmamızı sağlayan lambda birçok konuda bize yardımcı olacaktır. Doğru kullanımını öğrendiğimiz ölçüde nimetlerinin farkına varabiliriz.
+fun ViewGroup.inflate(resId: Int, attachToRoot: Boolean = false): View { return LayoutInflater.</description>
+    </item>
+    
+    <item>
+      <title>Kotlin Sealed Class</title>
+      <link>https://yazilim.aykutasil.com/kotlin-sealed-class/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/kotlin-sealed-class/</guid>
+      <description>Kotlin Sealed Class Enum yapısına benzer bir yapıya sahiptir. Ve benzer görevler için kullanılır. Aradaki fark enum lar sabit değer ifade etmek için kullanılırken sealed yapısı normal sınıf gibi fakat enum mantığıyla kullanılır. Yani belli bir duruma ait fonksiyonları bir arada tutmak ve when() gibi fonksiyonlar ile birlikte kullanımını sağlamak için kullanılır.
+// Sealed class enum yapısına benzer  // Bir durum için belli başlı akışları bir arada tutmamızı sağlar ve bu akışların yönetimini kolaylaştırır.</description>
+    </item>
+    
+    <item>
+      <title>Kotlin Lambda</title>
+      <link>https://yazilim.aykutasil.com/kotlin-lambda/</link>
+      <pubDate>Sun, 18 Jun 2017 02:24:37 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/kotlin-lambda/</guid>
+      <description>Kotlin Lambda Kullanımı Kotlin dili ile geliştirme yaparken fonksiyonel programlama nimetlerinden faydalanmamızı sağlayan lambda birçok konuda bize yardımcı olacaktır. Doğru kullanımını öğrendiğimiz ölçüde nimetlerinin farkına varabiliriz.
 Belli başlı lambda kullanımları için aşağıdaki örneği inceleyebilirsiniz.
-override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_kotlin_lambda) // Normal Kullanım ButtonPress.setOnClickListener(object : View.OnClickListener { override fun onClick(view: View?) { toast(&amp;#34;Press Me Click&amp;#34;) } }) // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz ButtonPress.setOnClickListener({ v -&amp;gt; toast(&amp;#34;Press Me&amp;#34;) }) // Eğer son parametre lambda fonksiyonu ise bu fonksiyonu parantez &amp;#39;()&amp;#39; dışına çıkarabiliriz.</description></item><item><title>Kotlin apply Kullanımı</title><link>https://yazilim.aykutasil.com/kotlin-apply/</link><pubDate>Tue, 06 Jun 2017 10:47:58 +0300</pubDate><guid>https://yazilim.aykutasil.com/kotlin-apply/</guid><description>fun &amp;lt;T&amp;gt; T.apply(f: T.() -&amp;gt; Unit): T { f(); return this } apply() tüm tipler için belirlenmiş bir extension function dır. apply() fonksiyonu uygulanan nesnenin özelliklerine direk olarak apply kod bloğu içerisinden erişilebilir.
+override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_kotlin_lambda) // Normal Kullanım  ButtonPress.setOnClickListener(object : View.OnClickListener { override fun onClick(view: View?) { toast(&amp;#34;Press Me Click&amp;#34;) } }) // Yukarıda ki yapıyı lambda kullanarak bu şekle çevirebiliriz  ButtonPress.setOnClickListener({ v -&amp;gt; toast(&amp;#34;Press Me&amp;#34;) }) // Eğer son parametre lambda fonksiyonu ise bu fonksiyonu parantez &amp;#39;()&amp;#39; dışına çıkarabiliriz.</description>
+    </item>
+    
+    <item>
+      <title>Kotlin apply Kullanımı</title>
+      <link>https://yazilim.aykutasil.com/kotlin-apply/</link>
+      <pubDate>Tue, 06 Jun 2017 10:47:58 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/kotlin-apply/</guid>
+      <description>fun &amp;lt;T&amp;gt; T.apply(f: T.() -&amp;gt; Unit): T { f(); return this } apply() tüm tipler için belirlenmiş bir extension function dır. apply() fonksiyonu uygulanan nesnenin özelliklerine direk olarak apply kod bloğu içerisinden erişilebilir.
 var file = File(dir) file.mkdirs() veya Java ile yazacak olursak
 File makeDir(String path) { File result = new File(path); result.mkdirs(); return result; } Bu kodu aşağıdaki yapıya çevirebiliriz.
-File(dir).apply { mkdirs() }</description></item><item><title>Kotlin when kullanımı</title><link>https://yazilim.aykutasil.com/kotlin-when/</link><pubDate>Tue, 06 Jun 2017 04:42:56 +0300</pubDate><guid>https://yazilim.aykutasil.com/kotlin-when/</guid><description>Kotlin&amp;rsquo;de when operatörü işimizi oldukça kolaylaştıran operatörlerden biridir.
+File(dir).apply { mkdirs() } </description>
+    </item>
+    
+    <item>
+      <title>Kotlin when kullanımı</title>
+      <link>https://yazilim.aykutasil.com/kotlin-when/</link>
+      <pubDate>Tue, 06 Jun 2017 04:42:56 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/kotlin-when/</guid>
+      <description>Kotlin&amp;rsquo;de when operatörü işimizi oldukça kolaylaştıran operatörlerden biridir.
 if- else if yapısı yerine kullanılabileceği gibi bazı yardımcı operatörler ile birçok marifet kazanabilir.
 val i = 10 when { i &amp;lt; 7 -&amp;gt; println(&amp;#34;first block&amp;#34;) fooString.startsWith(&amp;#34;hello&amp;#34;) -&amp;gt; println(&amp;#34;second block&amp;#34;) else -&amp;gt; println(&amp;#34;else block&amp;#34;) } Yukarıda ki örnek if-else if-else yapısının aynısıdır.
-when (i) { 0, 21 -&amp;gt; println(&amp;#34;0 or 21&amp;#34;) in 1..20 -&amp;gt; println(&amp;#34;in the range 1 to 20&amp;#34;) else -&amp;gt; println(&amp;#34;none of the above&amp;#34;) } Yukarıda ki gibi aralıklar tanımlanabilir ve bu aralıklara uyum kontrolü yapılarak ilgili işlemlerin yapılması sağlanılabilir.</description></item><item><title>Kotlin Let Kullanımı</title><link>https://yazilim.aykutasil.com/kotlin-let/</link><pubDate>Tue, 06 Jun 2017 04:33:06 +0300</pubDate><guid>https://yazilim.aykutasil.com/kotlin-let/</guid><description>Kotlin fun &amp;lt;T, R&amp;gt; T.let(f: (T) -&amp;gt; R): R = f(this) let() temel olarak, belirli bir kapsam için bir değişken/kod bloğu oluşturmamızı sağlayan bir kapsamlayıcı işlevdir. Yani let() bir sarmalıyıcı fonksiyondur.
+ when (i) { 0, 21 -&amp;gt; println(&amp;#34;0 or 21&amp;#34;) in 1..20 -&amp;gt; println(&amp;#34;in the range 1 to 20&amp;#34;) else -&amp;gt; println(&amp;#34;none of the above&amp;#34;) } Yukarıda ki gibi aralıklar tanımlanabilir ve bu aralıklara uyum kontrolü yapılarak ilgili işlemlerin yapılması sağlanılabilir.</description>
+    </item>
+    
+    <item>
+      <title>Kotlin Let Kullanımı</title>
+      <link>https://yazilim.aykutasil.com/kotlin-let/</link>
+      <pubDate>Tue, 06 Jun 2017 04:33:06 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/kotlin-let/</guid>
+      <description>Kotlin fun &amp;lt;T, R&amp;gt; T.let(f: (T) -&amp;gt; R): R = f(this) let() temel olarak, belirli bir kapsam için bir değişken/kod bloğu oluşturmamızı sağlayan bir kapsamlayıcı işlevdir. Yani let() bir sarmalıyıcı fonksiyondur.
 Örneğin:
-private var mPhotoUrl: String? = null fun uploadClicked() { if (mPhotoUrl != null) { uploadPhoto(mPhotoUrl!!) } } Yukarıda ki if (mPhotoUrl != null) satırı ile null kontrolü yapılır ve eğer null değilse uploadPhoto(mPhotoUrl!!) kod bloğu çalıştırılır. Bu kodu let() ile çok daha kolay ve anlaşılır hale getirebiliriz.</description></item><item><title>Retrofit Oauth</title><link>https://yazilim.aykutasil.com/retrofit_oauth/</link><pubDate>Wed, 17 May 2017 11:58:43 +0300</pubDate><guid>https://yazilim.aykutasil.com/retrofit_oauth/</guid><description>Retrofit Oauth Entegrasyonu Oauth, kısaca anlatmak gerekirse; Kullanıcı ile ilgili her türlü (izin,yetki,güvenlik vs.) etkileşimi standartlaştıran bir yapı diyebiliriz. Google amcaya sorarsanız neler yapabileceğiniz ile ilgili birçok kaynak bulabilirsiniz. Veya buraya bakabilirsiniz.
+private var mPhotoUrl: String? = null fun uploadClicked() { if (mPhotoUrl != null) { uploadPhoto(mPhotoUrl!!) } } Yukarıda ki if (mPhotoUrl != null) satırı ile null kontrolü yapılır ve eğer null değilse uploadPhoto(mPhotoUrl!!) kod bloğu çalıştırılır. Bu kodu let() ile çok daha kolay ve anlaşılır hale getirebiliriz.</description>
+    </item>
+    
+    <item>
+      <title>Retrofit Oauth</title>
+      <link>https://yazilim.aykutasil.com/retrofit_oauth/</link>
+      <pubDate>Wed, 17 May 2017 11:58:43 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/retrofit_oauth/</guid>
+      <description>Retrofit Oauth Entegrasyonu Oauth, kısaca anlatmak gerekirse; Kullanıcı ile ilgili her türlü (izin,yetki,güvenlik vs.) etkileşimi standartlaştıran bir yapı diyebiliriz. Google amcaya sorarsanız neler yapabileceğiniz ile ilgili birçok kaynak bulabilirsiniz. Veya buraya bakabilirsiniz.
 Burada bahsedecek olduğumuz şey Android mobil uygulamanızdan bir istek yaptığınızda tüm bu oauth işlemlerinizi otomatize etmek üzerine olacak.
-Nasıl Çalışıyor? Kısaca anlatılan bu yazıyı okuduğunuzda günün sonunda elimizde bir token olduğunu ve bu tokenı request headerımıza ekleyerek backend kısmında kontrolünü sağladığımızı ve duruma göre cevap döndüğümüzü göreceksiniz.</description></item><item><title>Firebase Dynamic Links</title><link>https://yazilim.aykutasil.com/firebase_dynamiclink/</link><pubDate>Mon, 17 Apr 2017 01:53:03 +0300</pubDate><guid>https://yazilim.aykutasil.com/firebase_dynamiclink/</guid><description>Firebase Dynamic Links Öyle bir link olsun ki;
-Bilgisayarımda ki browserdan linke tıkladığımda kişisel web sitem açılsın, Eğer mobil cihazımda ki browserdan linke tıklarsan; Uygulama cihazda yüklü ise uygulamam açılsın (Belirtmiş olduğum Activity vs.), Uygulama cihazda yüklü değilse Google Play Store veya App Store açılsın, Uygulama cihazda yüklü olsa bile eğer belirttiğim versiyon kodundan eski bir sürüm varsa yine Google Play Store vs. açılsın, &amp;hellip; gibi sorulara tek bir link ile cevap verebilirsiniz.</description></item><item><title>Arduino HC-06 Bluetooth Kullanımı</title><link>https://yazilim.aykutasil.com/arduino_hc06_kullanimi/</link><pubDate>Sun, 12 Mar 2017 23:40:36 +0300</pubDate><guid>https://yazilim.aykutasil.com/arduino_hc06_kullanimi/</guid><description>HC-06 Bluetooth Aşağıdaki kodu Arduino kartınıza yükleyiniz Bluetooth Terminal uygulamasını telefonunuza indirin HC-06 modulünün TX-RX çıkışlarını Arduino kartınızın RX-TX girişlerine entegre edin. (Ters sıralamaya dikkat) Cihazınızdan normal bluetooh bağlantısı kurar gibi HC-06 modülü ile bağlantı kurun ve şifre olarak 1234 girin. Aşağıdaki kodda görebileceğiniz gibi 0,1,2,3,4 için farklı işlemler yapılmasını sağladık. Siz de ihtiyacınıza göre ayarlayın. Ben led parlaklığını düzenledim ya da motor hızı olarak da düşünebiliriz. const int LED_PIN = 9; char veri; void setup() { Serial.</description></item><item><title>Yeoman Kullanımı</title><link>https://yazilim.aykutasil.com/yeoman-kullanimi/</link><pubDate>Wed, 18 Jan 2017 12:09:26 +0300</pubDate><guid>https://yazilim.aykutasil.com/yeoman-kullanimi/</guid><description>Yeoman Kullanımı Yeoman ile kendi proje yapımızı kurgulayabilir ve opsiyonlar belirleyerek ona göre dosya içeriğimizi vs. düzenleyebiliriz. Ya da oluşturduğumuz projeye önceden belirlediğimiz bir dosyayı ekleyebilir ve gerekli ayarlamaları otomatik olarak yapmasını sağlayabiliriz. (yeni bir Controller eklemek gibi vs.)
+Nasıl Çalışıyor? Kısaca anlatılan bu yazıyı okuduğunuzda günün sonunda elimizde bir token olduğunu ve bu tokenı request headerımıza ekleyerek backend kısmında kontrolünü sağladığımızı ve duruma göre cevap döndüğümüzü göreceksiniz.</description>
+    </item>
+    
+    <item>
+      <title>Firebase Dynamic Links</title>
+      <link>https://yazilim.aykutasil.com/firebase_dynamiclink/</link>
+      <pubDate>Mon, 17 Apr 2017 01:53:03 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/firebase_dynamiclink/</guid>
+      <description>Firebase Dynamic Links Öyle bir link olsun ki;
+ Bilgisayarımda ki browserdan linke tıkladığımda kişisel web sitem açılsın, Eğer mobil cihazımda ki browserdan linke tıklarsan;  Uygulama cihazda yüklü ise uygulamam açılsın (Belirtmiş olduğum Activity vs.), Uygulama cihazda yüklü değilse Google Play Store veya App Store açılsın, Uygulama cihazda yüklü olsa bile eğer belirttiğim versiyon kodundan eski bir sürüm varsa yine Google Play Store vs. açılsın, &amp;hellip;    gibi sorulara tek bir link ile cevap verebilirsiniz.</description>
+    </item>
+    
+    <item>
+      <title>Arduino HC-06 Bluetooth Kullanımı</title>
+      <link>https://yazilim.aykutasil.com/arduino_hc06_kullanimi/</link>
+      <pubDate>Sun, 12 Mar 2017 23:40:36 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/arduino_hc06_kullanimi/</guid>
+      <description>HC-06 Bluetooth  Aşağıdaki kodu Arduino kartınıza yükleyiniz Bluetooth Terminal uygulamasını telefonunuza indirin HC-06 modulünün TX-RX çıkışlarını Arduino kartınızın RX-TX girişlerine entegre edin. (Ters sıralamaya dikkat) Cihazınızdan normal bluetooh bağlantısı kurar gibi HC-06 modülü ile bağlantı kurun ve şifre olarak 1234 girin. Aşağıdaki kodda görebileceğiniz gibi 0,1,2,3,4 için farklı işlemler yapılmasını sağladık. Siz de ihtiyacınıza göre ayarlayın. Ben led parlaklığını düzenledim ya da motor hızı olarak da düşünebiliriz.  const int LED_PIN = 9; char veri; void setup() { Serial.</description>
+    </item>
+    
+    <item>
+      <title>Yeoman Kullanımı</title>
+      <link>https://yazilim.aykutasil.com/yeoman-kullanimi/</link>
+      <pubDate>Wed, 18 Jan 2017 12:09:26 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/yeoman-kullanimi/</guid>
+      <description>Yeoman Kullanımı Yeoman ile kendi proje yapımızı kurgulayabilir ve opsiyonlar belirleyerek ona göre dosya içeriğimizi vs. düzenleyebiliriz. Ya da oluşturduğumuz projeye önceden belirlediğimiz bir dosyayı ekleyebilir ve gerekli ayarlamaları otomatik olarak yapmasını sağlayabiliriz. (yeni bir Controller eklemek gibi vs.)
 Ve hazırladığımız bu proje yapısını paket yönetim sistemlerine yollayarak diğer kişilerin kullanımına açabilir veyahut kendimizin de istediğimiz yerden erişebilmesini sağlayabiliriz.
-Öncelikle bilgisayarınız da nodejs yüklü olduğunu varsayıyoruz. Eğer yüklü değilse buradan gerekli işlemleri yaparak kurabiliriz.</description></item><item><title>CSharp Null Kontrolü</title><link>https://yazilim.aykutasil.com/csharp-soru-isareti-syntax/</link><pubDate>Mon, 16 Jan 2017 11:13:16 +0300</pubDate><guid>https://yazilim.aykutasil.com/csharp-soru-isareti-syntax/</guid><description>C# ? ve ?? Operator Kullanımı Kısaca bahsedilecek olursa ? operatörü null kontrolü yapılmasını sağlar.
+Öncelikle bilgisayarınız da nodejs yüklü olduğunu varsayıyoruz. Eğer yüklü değilse buradan gerekli işlemleri yaparak kurabiliriz.</description>
+    </item>
+    
+    <item>
+      <title>CSharp Null Kontrolü</title>
+      <link>https://yazilim.aykutasil.com/csharp-soru-isareti-syntax/</link>
+      <pubDate>Mon, 16 Jan 2017 11:13:16 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/csharp-soru-isareti-syntax/</guid>
+      <description>C# ? ve ?? Operator Kullanımı Kısaca bahsedilecek olursa ? operatörü null kontrolü yapılmasını sağlar.
 Yazılım geliştirme sırasında en çok rastlanan hatanın sebebi null dönen ifadelerdir. Bu bazen bir değişken bazen parametre vs. olabilir. Ama sebep ifadenin null olmasıdır.
 Önceden şu şekilde kontrol ediyorduk.
 var a; if(a != null) { Console.Write(a); } şimdi
 var a; Console.Write(a ?? &amp;#34;boş değer&amp;#34;); Yukarıdaki söz dizimi ile şunu söylüyoruz.
-Eğer a değeri null değil ise ekrana a nın değerini yaz.</description></item><item><title>Android ile WebView Etkileşimi</title><link>https://yazilim.aykutasil.com/android-webview-etkilesimi/</link><pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-webview-etkilesimi/</guid><description>Kısa Hikaye : Üstünde çalışmakta olduğum bir projede kredi kartı ile ödeme yapısı kurmam gerekti. Kısaca projenin yapısından bahsedecek olursak
-Backend : .Net Client : Android (Java) Ödeme altyapısı : İyzico Client tarafında rest isteğiyle tüm işlemlerimizi backend tarafında yapıyoruz. Ödeme yapımızı da bu doğrultuda geliştirdik.
-Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine bankanın bize telefonumuza gelen şifreyi girmemiz için göndermiş olduğu web sayfası vs.</description></item><item><title>Docker Komutları</title><link>https://yazilim.aykutasil.com/docker-komutlari/</link><pubDate>Wed, 11 Jan 2017 19:56:08 +0300</pubDate><guid>https://yazilim.aykutasil.com/docker-komutlari/</guid><description>Docker Komutları ve Açıklamaları
-&amp;gt; docker images Docker hostuna yüklü olan image leri gösterir.
-&amp;gt; docker ps Docker hostunda yüklü olan imagelerle inşa edilmiş olan container ları listeler.
-&amp;gt; docker run hello-world İlk olarak Local de (bilgisayarımızda) hello-world isminde bir image var mı kontrol eder. Eğer varsa direkt olarak çalıştırır.
-Local de verilen isimde bir image bulamaz ise cloud da arama yapar, bulur, local e indirir ve ardından çalıştırır.</description></item><item><title>Docker</title><link>https://yazilim.aykutasil.com/docker/</link><pubDate>Wed, 11 Jan 2017 19:55:08 +0300</pubDate><guid>https://yazilim.aykutasil.com/docker/</guid><description>DOCKER Docker aldı başını gidiyor. Yeni bir devrim açıyor.
+ Eğer a değeri null değil ise ekrana a nın değerini yaz.</description>
+    </item>
+    
+    <item>
+      <title>Android ile WebView Etkileşimi</title>
+      <link>https://yazilim.aykutasil.com/android-webview-etkilesimi/</link>
+      <pubDate>Wed, 11 Jan 2017 19:59:08 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-webview-etkilesimi/</guid>
+      <description>Kısa Hikaye : Üstünde çalışmakta olduğum bir projede kredi kartı ile ödeme yapısı kurmam gerekti. Kısaca projenin yapısından bahsedecek olursak
+  Backend : .Net Client : Android (Java) Ödeme altyapısı : İyzico  Client tarafında rest isteğiyle tüm işlemlerimizi backend tarafında yapıyoruz. Ödeme yapımızı da bu doğrultuda geliştirdik.
+Problem : 3DS ile ödeme almaya çalıştığımızda malumunuz işin içerisine bankanın bize telefonumuza gelen şifreyi girmemiz için göndermiş olduğu web sayfası vs.</description>
+    </item>
+    
+    <item>
+      <title>Docker Komutları</title>
+      <link>https://yazilim.aykutasil.com/docker-komutlari/</link>
+      <pubDate>Wed, 11 Jan 2017 19:56:08 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/docker-komutlari/</guid>
+      <description>Docker Komutları ve Açıklamaları
+ &amp;gt; docker images Docker hostuna yüklü olan image leri gösterir.
+ &amp;gt; docker ps Docker hostunda yüklü olan imagelerle inşa edilmiş olan container ları listeler.
+ &amp;gt; docker run hello-world İlk olarak Local de (bilgisayarımızda) hello-world isminde bir image var mı kontrol eder. Eğer varsa direkt olarak çalıştırır.
+Local de verilen isimde bir image bulamaz ise cloud da arama yapar, bulur, local e indirir ve ardından çalıştırır.</description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://yazilim.aykutasil.com/docker/</link>
+      <pubDate>Wed, 11 Jan 2017 19:55:08 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/docker/</guid>
+      <description>DOCKER Docker aldı başını gidiyor. Yeni bir devrim açıyor.
 E haliyle yazılım dünyası buna sessiz kalmamakla beraber bir çok Docker nedir? örnekleri vs. hazırlanıyor.
 Bu nedenle biz Docker nedir? tanımlamasından daha çok hızlı ilerlemeler şeklinde ufak uygulamalar geliştiricez. Ben de bu yazı serisiyle paralel şekilde öğrenimimi sağlayacağımı belirtmek isterim ! 🙂
 Başlıyoruz..
 İlk olarak makinemize Docker ı kuralım.
-Mac: https://docs.docker.com/docker-for-mac/ Windows : https://docs.docker.com/docker-for-windows/ İndirip kurulumu sağladıktan sonra terminali açarak</description></item><item><title>ExecutorService submit() – execute()</title><link>https://yazilim.aykutasil.com/java-executorservice-submit-and-execute/</link><pubDate>Wed, 11 Jan 2017 19:26:49 +0300</pubDate><guid>https://yazilim.aykutasil.com/java-executorservice-submit-and-execute/</guid><description>ExecutorService submit() – execute() Link : http://javarevisited.blogspot.com.tr/2016/04/difference-between-ExecutorServie-submit-vs-Executor-execute-method-in-Java.html</description></item><item><title>Executor newCachedThreadPool() newFixedThreadPool(n) newSingleThreadExecutor()</title><link>https://yazilim.aykutasil.com/java-executorservice/</link><pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate><guid>https://yazilim.aykutasil.com/java-executorservice/</guid><description>Executor newCachedThreadPool() newFixedThreadPool(n) newSingleThreadExecutor() Thread kullanımı, Java ile multi-threading yazılım geliştiriyorsanız mutlaka ama mutlaka bilmeniz gereken konulardan biridir.
+ Mac: https://docs.docker.com/docker-for-mac/ Windows : https://docs.docker.com/docker-for-windows/  İndirip kurulumu sağladıktan sonra terminali açarak</description>
+    </item>
+    
+    <item>
+      <title>ExecutorService submit() – execute()</title>
+      <link>https://yazilim.aykutasil.com/java-executorservice-submit-and-execute/</link>
+      <pubDate>Wed, 11 Jan 2017 19:26:49 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/java-executorservice-submit-and-execute/</guid>
+      <description>ExecutorService submit() – execute() Link : http://javarevisited.blogspot.com.tr/2016/04/difference-between-ExecutorServie-submit-vs-Executor-execute-method-in-Java.html</description>
+    </item>
+    
+    <item>
+      <title>Executor newCachedThreadPool() newFixedThreadPool(n) newSingleThreadExecutor()</title>
+      <link>https://yazilim.aykutasil.com/java-executorservice/</link>
+      <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/java-executorservice/</guid>
+      <description>Executor newCachedThreadPool() newFixedThreadPool(n) newSingleThreadExecutor() Thread kullanımı, Java ile multi-threading yazılım geliştiriyorsanız mutlaka ama mutlaka bilmeniz gereken konulardan biridir.
 ThreadPool Gün geldi çattı ve uygulamanız ilk kurulduğu amacın evrimleşmesi sonucu bambaşka bir hale büründü 🙂
 Yani birçok uygulamada gidişat bu yöndedir ve olması gerekende budur.
-Aynı anda 1000 den fazla kullanıcıya cevap verme gereksinimiz var artık. Sadece patron kullanmıyor sonuçta. Ya da patron öyle bir uygulama istemişki ağır işler gerektiriyor. Uzun süreler gerektiren işlemler sonucunda akış tamamlanıyor vs.</description></item><item><title>Runnable() &amp; Callable()</title><link>https://yazilim.aykutasil.com/java-runnable-and-callable/</link><pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate><guid>https://yazilim.aykutasil.com/java-runnable-and-callable/</guid><description>Runnable() &amp;amp; Callable() Ayrıntılı açıklama için bu siteyi kullanabilirsiniz.</description></item><item><title>RxJava range() Kullanımı</title><link>https://yazilim.aykutasil.com/rxjava-range/</link><pubDate>Wed, 11 Jan 2017 18:52:51 +0300</pubDate><guid>https://yazilim.aykutasil.com/rxjava-range/</guid><description>RxJava range() Kullanımı **Örnek kod:&amp;ndash;
+Aynı anda 1000 den fazla kullanıcıya cevap verme gereksinimiz var artık. Sadece patron kullanmıyor sonuçta. Ya da patron öyle bir uygulama istemişki ağır işler gerektiriyor. Uzun süreler gerektiren işlemler sonucunda akış tamamlanıyor vs.</description>
+    </item>
+    
+    <item>
+      <title>Runnable() &amp; Callable()</title>
+      <link>https://yazilim.aykutasil.com/java-runnable-and-callable/</link>
+      <pubDate>Wed, 11 Jan 2017 18:55:08 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/java-runnable-and-callable/</guid>
+      <description>Runnable() &amp;amp; Callable() Ayrıntılı açıklama için bu siteyi kullanabilirsiniz.</description>
+    </item>
+    
+    <item>
+      <title>RxJava range() Kullanımı</title>
+      <link>https://yazilim.aykutasil.com/rxjava-range/</link>
+      <pubDate>Wed, 11 Jan 2017 18:52:51 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/rxjava-range/</guid>
+      <description>RxJava range() Kullanımı **Örnek kod:&amp;ndash;
 private void range() { Observable.range(3, 5).subscribeOn(Schedulers.io()) .subscribe(success -&amp;gt; { Log.i(TAG, &amp;#34;val: &amp;#34; + success.toString()); }); } Açıklama:
 İlk değer 3 kabul edilerek sonraki 5 sayı için teker teker onNext() çağırılır. Yani 3 , 4, 5, 6, 7
 Yukarıda ki kodun çıktısı aşağıdaki gibidir.
-I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActivity: val: 6 I/MainActivity: val: 7 RxJava candır. 😉</description></item><item><title>RxJava scan() Kullanımı</title><link>https://yazilim.aykutasil.com/rxjava-scan/</link><pubDate>Wed, 11 Jan 2017 18:49:21 +0300</pubDate><guid>https://yazilim.aykutasil.com/rxjava-scan/</guid><description>RxJava scan() Kullanımı RxJava da scan() kullanımı iki şekilde olur.
-İlk değer ataması yapılarak private void scan() { Observable.just(3, 5, 7, 9) .scan(10,(val1, val2) -&amp;gt; { // Log.i(TAG, &amp;#34;val1: &amp;#34; + val1.toString()); Log.i(TAG, &amp;#34;val2: &amp;#34; + val2.toString()); return val1 + val2; }).subscribeOn(Schedulers.io()) .subscribe(success -&amp;gt; { Log.i(TAG, &amp;#34;Sonuc:&amp;#34; + success.toString()); }); } İlk değer ataması yapılmadan private void scan() { Observable.</description></item><item><title>RxJava reduce() Kullanımı</title><link>https://yazilim.aykutasil.com/rxjava-reduce/</link><pubDate>Wed, 11 Jan 2017 18:42:04 +0300</pubDate><guid>https://yazilim.aykutasil.com/rxjava-reduce/</guid><description>RxJava reduce() Kullanımı reduce() fonskyionu iki şekilde çalışır;
-1.Kullanım .reduce(new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } }) 2.Kullanım .reduce(10,new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } }) 1 ile 2 nin farkı, 2 de görüldüğü üzere fonksiyona başlangıç değeri atanabilmesidir.
-Aşağıdaki örneklerde daha net görebilirsiniz.</description></item><item><title>VS Code &amp; Express &amp; TypeScript &amp; IntelliSense</title><link>https://yazilim.aykutasil.com/vscode-intellisense/</link><pubDate>Wed, 11 Jan 2017 18:14:05 +0300</pubDate><guid>https://yazilim.aykutasil.com/vscode-intellisense/</guid><description>VS Code &amp;amp; Express &amp;amp; TypeScript &amp;amp; IntelliSense VS Code, Atom ile aynı çekirdeği paylaşan, Electron kullanılarak microsoft tarafından özelleştirilmiş ve birçok dil ile uygulama geliştirmeniz için çeşitli eklentileri bulunan bir editördür.
+I/MainActivity: val: 3 I/MainActivity: val: 4 I/MainActivity: val: 5 I/MainActivity: val: 6 I/MainActivity: val: 7 RxJava candır. 😉</description>
+    </item>
+    
+    <item>
+      <title>RxJava scan() Kullanımı</title>
+      <link>https://yazilim.aykutasil.com/rxjava-scan/</link>
+      <pubDate>Wed, 11 Jan 2017 18:49:21 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/rxjava-scan/</guid>
+      <description>RxJava scan() Kullanımı RxJava da scan() kullanımı iki şekilde olur.
+   İlk değer ataması yapılarak    private void scan() { Observable.just(3, 5, 7, 9) .scan(10,(val1, val2) -&amp;gt; { //  Log.i(TAG, &amp;#34;val1: &amp;#34; + val1.toString()); Log.i(TAG, &amp;#34;val2: &amp;#34; + val2.toString()); return val1 + val2; }).subscribeOn(Schedulers.io()) .subscribe(success -&amp;gt; { Log.i(TAG, &amp;#34;Sonuc:&amp;#34; + success.toString()); }); }   İlk değer ataması yapılmadan    private void scan() { Observable.</description>
+    </item>
+    
+    <item>
+      <title>RxJava reduce() Kullanımı</title>
+      <link>https://yazilim.aykutasil.com/rxjava-reduce/</link>
+      <pubDate>Wed, 11 Jan 2017 18:42:04 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/rxjava-reduce/</guid>
+      <description>RxJava reduce() Kullanımı reduce() fonskyionu iki şekilde çalışır;
+ 1.Kullanım  .reduce(new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } })  2.Kullanım  .reduce(10,new BiFunction&amp;lt;Integer, Integer, Integer&amp;gt;() { @Override public Integer apply(Integer val1, Integer val2) throws Exception { return null; } }) 1 ile 2 nin farkı, 2 de görüldüğü üzere fonksiyona başlangıç değeri atanabilmesidir.
+Aşağıdaki örneklerde daha net görebilirsiniz.</description>
+    </item>
+    
+    <item>
+      <title>VS Code &amp; Express &amp; TypeScript &amp; IntelliSense</title>
+      <link>https://yazilim.aykutasil.com/vscode-intellisense/</link>
+      <pubDate>Wed, 11 Jan 2017 18:14:05 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/vscode-intellisense/</guid>
+      <description>VS Code &amp;amp; Express &amp;amp; TypeScript &amp;amp; IntelliSense VS Code, Atom ile aynı çekirdeği paylaşan, Electron kullanılarak microsoft tarafından özelleştirilmiş ve birçok dil ile uygulama geliştirmeniz için çeşitli eklentileri bulunan bir editördür.
 Günümüzün lider dili malum Javascript ve belki de bunun böyle olmasının en temel sebeplerinden biri NodeJS.
 NodeJS ile çok hızlı bir şekilde ve tamamen javascript kullanarak web siteleri, uygulamaları, api service leri vb. geliştirebiliriz.
-Bu yazımızda VS Code un nimetlerinden yararlanarak hızlı ve kolay bir şekilde nasıl NodeJS uygulaması yazabiliriz, bunu görücez.</description></item><item><title>TCP/IP Nasıl Çalışır ?</title><link>https://yazilim.aykutasil.com/tcpip-nedir_nasil_calisir/</link><pubDate>Wed, 11 Jan 2017 18:05:02 +0300</pubDate><guid>https://yazilim.aykutasil.com/tcpip-nedir_nasil_calisir/</guid><description>TCP/IP Nasıl Çalışır ? Bilgisayar ağları kullanılarak bilgisayarların birbirileriyle haberleşmeye başladıkları ilk yıllarda iki bilgisayarın birbiriyle haberleşebilmeleri için aynı marka/model cihazları kullanmaları gerekiyordu. Bunun üzerine farklı üreticiler tarafından üretilen cihazların birbiriyle sorunsuz ve belirli bir düzen içinde haberleşebilmesi için çeşitli standartlar geliştirilmiştir.
-Bunlardan en çok kullanılanı Açık Sistem Bağlantıları komitesi tarafından geliştirilen 7 katmanlı OSI referans modeli ve Amerikan Savunma Bakanlığı tarafından geliştirilen TCP/IP referans modelidir. OSI iki bilgisayar arasındaki haberleşme problemini çözmek için 7 katmanlı (aşamalı) bir ağ sistemi önermiştir.</description></item><item><title>Android Library &amp; Bintray</title><link>https://yazilim.aykutasil.com/android-create-library-upload-bintray/</link><pubDate>Wed, 11 Jan 2017 17:27:29 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-create-library-upload-bintray/</guid><description>Android uygulaması yazarken bazı oluşturmuş olduğunuz yapıları tekrar tekrar yazmak durumunda kalıyorsanız, sizin de artık kendi kütüphanenizi yazmanızın zamanı gelmiş geçiyor demektir. Böyle bir durum söz konusu olmak zorunda değil tabi library oluşturmak için 🙂
+Bu yazımızda VS Code un nimetlerinden yararlanarak hızlı ve kolay bir şekilde nasıl NodeJS uygulaması yazabiliriz, bunu görücez.</description>
+    </item>
+    
+    <item>
+      <title>TCP/IP Nasıl Çalışır ?</title>
+      <link>https://yazilim.aykutasil.com/tcpip-nedir_nasil_calisir/</link>
+      <pubDate>Wed, 11 Jan 2017 18:05:02 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tcpip-nedir_nasil_calisir/</guid>
+      <description>TCP/IP Nasıl Çalışır ? Bilgisayar ağları kullanılarak bilgisayarların birbirileriyle haberleşmeye başladıkları ilk yıllarda iki bilgisayarın birbiriyle haberleşebilmeleri için aynı marka/model cihazları kullanmaları gerekiyordu. Bunun üzerine farklı üreticiler tarafından üretilen cihazların birbiriyle sorunsuz ve belirli bir düzen içinde haberleşebilmesi için çeşitli standartlar geliştirilmiştir.
+Bunlardan en çok kullanılanı Açık Sistem Bağlantıları komitesi tarafından geliştirilen 7 katmanlı OSI referans modeli ve Amerikan Savunma Bakanlığı tarafından geliştirilen TCP/IP referans modelidir. OSI iki bilgisayar arasındaki haberleşme problemini çözmek için 7 katmanlı (aşamalı) bir ağ sistemi önermiştir.</description>
+    </item>
+    
+    <item>
+      <title>Android Library &amp; Bintray</title>
+      <link>https://yazilim.aykutasil.com/android-create-library-upload-bintray/</link>
+      <pubDate>Wed, 11 Jan 2017 17:27:29 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-create-library-upload-bintray/</guid>
+      <description>Android uygulaması yazarken bazı oluşturmuş olduğunuz yapıları tekrar tekrar yazmak durumunda kalıyorsanız, sizin de artık kendi kütüphanenizi yazmanızın zamanı gelmiş geçiyor demektir. Böyle bir durum söz konusu olmak zorunda değil tabi library oluşturmak için 🙂
 Bu yazının konusu Android Library oluşturmak, oluşturmuş olduğumuz bu kütüphaneyi maven ve jcenter repository e deploy etmek olucak.
 Ve başlayabiliriz.
-İlk olarak Android Studio yu açarak File &amp;gt; New &amp;gt; New Project e tıklayıp yeni bir proje oluşturalım.</description></item><item><title>Android Runtime Permission</title><link>https://yazilim.aykutasil.com/android-runtime-permission/</link><pubDate>Wed, 11 Jan 2017 17:24:52 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-runtime-permission/</guid><description>Yavaş yavaş mevcut android cihazlarının API level düzeyi doğal olarak yükselmekte ve bizlerinde tabi ki buna ayak uydurması gerekmekte.
+İlk olarak Android Studio yu açarak File &amp;gt; New &amp;gt; New Project e tıklayıp yeni bir proje oluşturalım.</description>
+    </item>
+    
+    <item>
+      <title>Android Runtime Permission</title>
+      <link>https://yazilim.aykutasil.com/android-runtime-permission/</link>
+      <pubDate>Wed, 11 Jan 2017 17:24:52 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-runtime-permission/</guid>
+      <description>Yavaş yavaş mevcut android cihazlarının API level düzeyi doğal olarak yükselmekte ve bizlerinde tabi ki buna ayak uydurması gerekmekte.
 Bunlardan biri de Android M – Marshmallow (23) ile gelen Runtime Permissions olayı.
-Kullanıcı açısından bakıldığında oldukça yararlı birşey gibi duruyor ama tabi ki biz kullanıcılar runtime sırasında çıkan permission dialog daki yazıyı ne kadar okuruz ve buna göre onay veririz meçhul. Aslına bakarsanız çok da okunacağını düşünmüyorum ama olsun yine de güzel.</description></item><item><title>Mac OS Arduino Uno (Klon) Kurulumu</title><link>https://yazilim.aykutasil.com/macos-arduino-uno-klon-kurulum/</link><pubDate>Wed, 11 Jan 2017 17:22:38 +0300</pubDate><guid>https://yazilim.aykutasil.com/macos-arduino-uno-klon-kurulum/</guid><description>Sizde benim gibi klon Arduino Uno kartınızı çalıştıramayıp bozuk zannettiyseniz doğru yerdesiniz.
+Kullanıcı açısından bakıldığında oldukça yararlı birşey gibi duruyor ama tabi ki biz kullanıcılar runtime sırasında çıkan permission dialog daki yazıyı ne kadar okuruz ve buna göre onay veririz meçhul. Aslına bakarsanız çok da okunacağını düşünmüyorum ama olsun yine de güzel.</description>
+    </item>
+    
+    <item>
+      <title>Mac OS Arduino Uno (Klon) Kurulumu</title>
+      <link>https://yazilim.aykutasil.com/macos-arduino-uno-klon-kurulum/</link>
+      <pubDate>Wed, 11 Jan 2017 17:22:38 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/macos-arduino-uno-klon-kurulum/</guid>
+      <description>Sizde benim gibi klon Arduino Uno kartınızı çalıştıramayıp bozuk zannettiyseniz doğru yerdesiniz.
 Arduino Uno klon kartlarında orijinal Arduino Uno kartına göre farklı bir işlemci kullanılmış ( daha ucuz olanından 😉 ) ve bu yüzden Mac OS kullanıyorsanız ayrı bir driver dosyası indirmeniz gerekmekte.
 Orijinal Arduino Kartlarının yapımı iki koldan yürüyor. Bir taraf open source u destekleyen diğer taraf parayı destekleyen insanlardan oluşuyor(muş).
-http://www.arduino.cc Parayı destekleyen tarafın sitesi
-http://www.</description></item><item><title>SQL SCOPE_IDENTITY()</title><link>https://yazilim.aykutasil.com/sql-scope-identity/</link><pubDate>Wed, 11 Jan 2017 17:20:37 +0300</pubDate><guid>https://yazilim.aykutasil.com/sql-scope-identity/</guid><description>Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id&amp;rsquo;sini getirir.
+  http://www.arduino.cc Parayı destekleyen tarafın sitesi
+  http://www.</description>
+    </item>
+    
+    <item>
+      <title>SQL SCOPE_IDENTITY()</title>
+      <link>https://yazilim.aykutasil.com/sql-scope-identity/</link>
+      <pubDate>Wed, 11 Jan 2017 17:20:37 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/sql-scope-identity/</guid>
+      <description>Kısaca özetlemek gerekirse : insert ile kayıt edilen tablo satırının id&amp;rsquo;sini getirir.
 Yapılan son kaydın id sini almak için uzun yol olarak insert sorgusunu çalıştırdıktan sonra bir select sorgusu atarak ve order by id desc diyerek ilk sıradaki kaydı okuyabilir ve bu kaydın id sini alabiliriz.
 Tüm bunları yapmaktansa:
-DECLARE @son_satir_id INT; INSERT INTO tbQwerty ( Ad , Soyad ) VALUES ( &amp;#39;Aykut&amp;#39; &amp;#39;Asil&amp;#39; ) SET @son_satir_id = SCOPE_IDENTITY(); Ayrıntılı Bilgi : https://technet.</description></item><item><title>Javascript Gariplikleri</title><link>https://yazilim.aykutasil.com/javascript-gariplikleri/</link><pubDate>Wed, 11 Jan 2017 17:14:22 +0300</pubDate><guid>https://yazilim.aykutasil.com/javascript-gariplikleri/</guid><description>Saatlerdir uğraştığım ve javascriptle temel düzeyden biraz daha ileri düzeyde uğraşan kişilerin başına gelebilecek bir saçmalığı belirtmek istiyorum.
+DECLARE @son_satir_id INT; INSERT INTO tbQwerty ( Ad , Soyad ) VALUES ( &amp;#39;Aykut&amp;#39; &amp;#39;Asil&amp;#39; ) SET @son_satir_id = SCOPE_IDENTITY(); Ayrıntılı Bilgi : https://technet.</description>
+    </item>
+    
+    <item>
+      <title>Javascript Gariplikleri</title>
+      <link>https://yazilim.aykutasil.com/javascript-gariplikleri/</link>
+      <pubDate>Wed, 11 Jan 2017 17:14:22 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/javascript-gariplikleri/</guid>
+      <description>Saatlerdir uğraştığım ve javascriptle temel düzeyden biraz daha ileri düzeyde uğraşan kişilerin başına gelebilecek bir saçmalığı belirtmek istiyorum.
 Her dilde var olan Replace fonksiyonu Javascript de saçma sapan bir şekilde yapılandırılmış. Bu kadar basit bir şeyi bu kadar komplike bir vaziyete sokmak gerçekten harika.
 Örneğin elinizde
 var degisken = ‘İSTANBUL’ ;
 şeklinde bir değişkeniniz var. Ve siz ihtiyacınız doğrultusunda bu kelimeyi veritabanından çektiğiniz ‘istanbul’ kelimesi ile karşılaştırmak istiyorsunuz.
-$(&amp;#39;#Iller &amp;gt; option&amp;#39;).</description></item><item><title>Android Glide ve Palette Kullanımı</title><link>https://yazilim.aykutasil.com/android-glide-ve-palette-kullanimi/</link><pubDate>Wed, 11 Jan 2017 17:11:30 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-glide-ve-palette-kullanimi/</guid><description>Google ın resim işlemleri için geliştirmiş olduğu Glide kütüphanesi Android kaynaklarını, cache mekanizmasını vs. verimli şekilde kullanarak uygulamanıza hız ve kalite kazandırır.
+$(&amp;#39;#Iller &amp;gt; option&amp;#39;).</description>
+    </item>
+    
+    <item>
+      <title>Android Glide ve Palette Kullanımı</title>
+      <link>https://yazilim.aykutasil.com/android-glide-ve-palette-kullanimi/</link>
+      <pubDate>Wed, 11 Jan 2017 17:11:30 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-glide-ve-palette-kullanimi/</guid>
+      <description>Google ın resim işlemleri için geliştirmiş olduğu Glide kütüphanesi Android kaynaklarını, cache mekanizmasını vs. verimli şekilde kullanarak uygulamanıza hız ve kalite kazandırır.
 Sizde projenizde resimlerle ilgili herhangi bir işlem yapıyorsanız bu kütüphaneyi incelemenizi tavsiye ediyorum.
-Github : https://github.com/bumptech/glide
-Gradle : compile ‘com.github.florent37:glidepalette:1.0.6’
-Google ın geliştirmiş olduğu Palette kütüphanesi ise, resimlerinizin renkleriyle ilgilenir. Daha farklı işlemler içinde kullanılabilir resim boyutlandırma vs. gibi. Ama renklerle ilgili işlemler için oldukça güzel bir kütüphanedir.</description></item><item><title>Android ViewPager</title><link>https://yazilim.aykutasil.com/android-viewpager/</link><pubDate>Wed, 11 Jan 2017 17:07:51 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-viewpager/</guid><description>Android ViewPager yapısı içerisinde birçok hazır fonksiyonu, animasyonu ve özelleştirilebilir kontrolleri barındırır.
-İhtiyaçlarımız doğrultusunda bu yapıyı özelleştirebilir ve ViewPager ın bize sunmuş olduğu rahatlığı kullanabiliriz.</description></item><item><title>Java Collections</title><link>https://yazilim.aykutasil.com/java-collections/</link><pubDate>Wed, 11 Jan 2017 16:10:10 +0300</pubDate><guid>https://yazilim.aykutasil.com/java-collections/</guid><description>Collections.swap Swap kelime anlamı ile takas anlamına gelmektedir. Mevcut dizimiz içerisinde elemanların yerlerini değiştirmeye yarar.
-private static final String[] STRINGS = new String[]{ &amp;#34;1&amp;#34;, &amp;#34;2&amp;#34;, &amp;#34;3&amp;#34;, &amp;#34;4&amp;#34;, &amp;#34;5&amp;#34; }; private final List mItems = new ArrayList&amp;lt;&amp;gt;(); public void setArray() { mItems.addAll(Arrays.asList(STRINGS)); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 1,2,3,4,5 private void elemanYerDegistir() { Collections.swap(mItems, 0, 4); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 5,2,3,4,1</description></item><item><title>Android Custom Toolbar Title</title><link>https://yazilim.aykutasil.com/android-custom-toolbar/</link><pubDate>Wed, 11 Jan 2017 16:01:33 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-custom-toolbar/</guid><description>Android Toolbar Android Toolbar bileşeni çok yönlü bir yapıya sahiptir. Android Design Library kullanarak ve AppBarLayout içerisinde tanımlanarak oldukça farklı şekillere bürünebilir.
+  Github : https://github.com/bumptech/glide
+  Gradle : compile ‘com.github.florent37:glidepalette:1.0.6’
+  Google ın geliştirmiş olduğu Palette kütüphanesi ise, resimlerinizin renkleriyle ilgilenir. Daha farklı işlemler içinde kullanılabilir resim boyutlandırma vs. gibi. Ama renklerle ilgili işlemler için oldukça güzel bir kütüphanedir.</description>
+    </item>
+    
+    <item>
+      <title>Android ViewPager</title>
+      <link>https://yazilim.aykutasil.com/android-viewpager/</link>
+      <pubDate>Wed, 11 Jan 2017 17:07:51 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-viewpager/</guid>
+      <description>Android ViewPager yapısı içerisinde birçok hazır fonksiyonu, animasyonu ve özelleştirilebilir kontrolleri barındırır.
+İhtiyaçlarımız doğrultusunda bu yapıyı özelleştirebilir ve ViewPager ın bize sunmuş olduğu rahatlığı kullanabiliriz.</description>
+    </item>
+    
+    <item>
+      <title>Java Collections</title>
+      <link>https://yazilim.aykutasil.com/java-collections/</link>
+      <pubDate>Wed, 11 Jan 2017 16:10:10 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/java-collections/</guid>
+      <description>Collections.swap Swap kelime anlamı ile takas anlamına gelmektedir. Mevcut dizimiz içerisinde elemanların yerlerini değiştirmeye yarar.
+private static final String[] STRINGS = new String[]{ &amp;#34;1&amp;#34;, &amp;#34;2&amp;#34;, &amp;#34;3&amp;#34;, &amp;#34;4&amp;#34;, &amp;#34;5&amp;#34; }; private final List mItems = new ArrayList&amp;lt;&amp;gt;(); public void setArray() { mItems.addAll(Arrays.asList(STRINGS)); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 1,2,3,4,5  private void elemanYerDegistir() { Collections.swap(mItems, 0, 4); } mItems listemizi yazdırdığımızda sonuç şu şekilde olacaktır. // 5,2,3,4,1 </description>
+    </item>
+    
+    <item>
+      <title>Android Custom Toolbar Title</title>
+      <link>https://yazilim.aykutasil.com/android-custom-toolbar/</link>
+      <pubDate>Wed, 11 Jan 2017 16:01:33 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-custom-toolbar/</guid>
+      <description>Android Toolbar Android Toolbar bileşeni çok yönlü bir yapıya sahiptir. Android Design Library kullanarak ve AppBarLayout içerisinde tanımlanarak oldukça farklı şekillere bürünebilir.
 Genel kullanımı aşağıdaki gibidir.
-&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt; &amp;lt;android.support.design.widget.CoordinatorLayout xmlns:android=&amp;#34;http://schemas.android.com/apk/res/android&amp;#34; xmlns:app=&amp;#34;http://schemas.android.com/apk/res-auto&amp;#34; xmlns:tools=&amp;#34;http://schemas.android.com/tools&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;match_parent&amp;#34; android:background=&amp;#34;@color/primary_dark&amp;#34; tools:context=&amp;#34;.MainActivity&amp;#34;&amp;gt; &amp;lt;FrameLayout android:id=&amp;#34;@+id/container&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;match_parent&amp;#34;&amp;gt; &amp;lt;/FrameLayout&amp;gt; &amp;lt;android.support.design.widget.FloatingActionButton android:id=&amp;#34;@+id/fab&amp;#34; android:layout_width=&amp;#34;wrap_content&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; android:layout_gravity=&amp;#34;bottom|end&amp;#34; android:layout_margin=&amp;#34;@dimen/fab_margin&amp;#34; android:src=&amp;#34;@android:drawable/ic_dialog_email&amp;#34; /&amp;gt; &amp;lt;android.support.design.widget.AppBarLayout android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; app:elevation=&amp;#34;0dp&amp;#34;&amp;gt; &amp;lt;android.support.v7.widget.Toolbar android:id=&amp;#34;@+id/toolbar&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; android:background=&amp;#34;@color/primary_dark&amp;#34; android:minHeight=&amp;#34;?attr/actionBarSize&amp;#34; app:popupTheme=&amp;#34;@style/AppTheme.PopupOverlay&amp;#34;/&amp;gt; &amp;lt;/android.support.design.widget.AppBarLayout&amp;gt; &amp;lt;/android.support.design.widget.CoordinatorLayout&amp;gt; app:elevation=&amp;quot;0dp&amp;quot; // AppBarLayout içerisinde ki bu tanımlama default olarak tanımlanmış gölgeyi kaldırır.</description></item><item><title>Mac OS ile MSSQL Bağlantısı Kurmak</title><link>https://yazilim.aykutasil.com/macos-mssql-connection/</link><pubDate>Wed, 11 Jan 2017 15:50:10 +0300</pubDate><guid>https://yazilim.aykutasil.com/macos-mssql-connection/</guid><description>MSSQL oldukça gelişmiş ve birçok firma – kişi tarafından kullanılan bir veritabanın sistemidir. Oldukça büyük miktarda verinizi, doğru şekilde tasarlayarak tatmin edici derecede hızlı bir şekilde kontrol edebilirsiniz.
+&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt; &amp;lt;android.support.design.widget.CoordinatorLayout xmlns:android=&amp;#34;http://schemas.android.com/apk/res/android&amp;#34; xmlns:app=&amp;#34;http://schemas.android.com/apk/res-auto&amp;#34; xmlns:tools=&amp;#34;http://schemas.android.com/tools&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;match_parent&amp;#34; android:background=&amp;#34;@color/primary_dark&amp;#34; tools:context=&amp;#34;.MainActivity&amp;#34;&amp;gt; &amp;lt;FrameLayout android:id=&amp;#34;@+id/container&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;match_parent&amp;#34;&amp;gt; &amp;lt;/FrameLayout&amp;gt; &amp;lt;android.support.design.widget.FloatingActionButton android:id=&amp;#34;@+id/fab&amp;#34; android:layout_width=&amp;#34;wrap_content&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; android:layout_gravity=&amp;#34;bottom|end&amp;#34; android:layout_margin=&amp;#34;@dimen/fab_margin&amp;#34; android:src=&amp;#34;@android:drawable/ic_dialog_email&amp;#34; /&amp;gt; &amp;lt;android.support.design.widget.AppBarLayout android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; app:elevation=&amp;#34;0dp&amp;#34;&amp;gt; &amp;lt;android.support.v7.widget.Toolbar android:id=&amp;#34;@+id/toolbar&amp;#34; android:layout_width=&amp;#34;match_parent&amp;#34; android:layout_height=&amp;#34;wrap_content&amp;#34; android:background=&amp;#34;@color/primary_dark&amp;#34; android:minHeight=&amp;#34;?attr/actionBarSize&amp;#34; app:popupTheme=&amp;#34;@style/AppTheme.PopupOverlay&amp;#34;/&amp;gt; &amp;lt;/android.support.design.widget.AppBarLayout&amp;gt; &amp;lt;/android.support.design.widget.CoordinatorLayout&amp;gt; app:elevation=&amp;quot;0dp&amp;quot; // AppBarLayout içerisinde ki bu tanımlama default olarak tanımlanmış gölgeyi kaldırır.</description>
+    </item>
+    
+    <item>
+      <title>Mac OS ile MSSQL Bağlantısı Kurmak</title>
+      <link>https://yazilim.aykutasil.com/macos-mssql-connection/</link>
+      <pubDate>Wed, 11 Jan 2017 15:50:10 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/macos-mssql-connection/</guid>
+      <description>MSSQL oldukça gelişmiş ve birçok firma – kişi tarafından kullanılan bir veritabanın sistemidir. Oldukça büyük miktarda verinizi, doğru şekilde tasarlayarak tatmin edici derecede hızlı bir şekilde kontrol edebilirsiniz.
 Senaryomuz şu şekilde;
 Mac OS yüklü bilgisayarımızdan MSSQL yüklü sunucumuza bağlantı kurmak istiyoruz.
 Not : Aşağıda bahsedecek olduğum uygulamayı Windows yüklü bilgisayarınızda da SQL Management Studio alternatifi olarak kullanabilirsiniz.
 Dbeaver http://dbeaver.jkiss.org/download/
-Tüm işletim sistemleri için sürüm mevcuttur. Kendi işletim sisteminize göre olanı indirip kullanmaya başlayabilirsiniz.</description></item><item><title>SQL Management Studio Custom Generate Scripts</title><link>https://yazilim.aykutasil.com/sqlmanagement-custom-generate-scripts/</link><pubDate>Wed, 11 Jan 2017 15:39:47 +0300</pubDate><guid>https://yazilim.aykutasil.com/sqlmanagement-custom-generate-scripts/</guid><description>SQL Management Studio kullanarak MSSQL e erişim yapmanız size birçok fayda sağlayacaktır. Tabi dezavantajları da yok değil !.
+Tüm işletim sistemleri için sürüm mevcuttur. Kendi işletim sisteminize göre olanı indirip kullanmaya başlayabilirsiniz.</description>
+    </item>
+    
+    <item>
+      <title>SQL Management Studio Custom Generate Scripts</title>
+      <link>https://yazilim.aykutasil.com/sqlmanagement-custom-generate-scripts/</link>
+      <pubDate>Wed, 11 Jan 2017 15:39:47 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/sqlmanagement-custom-generate-scripts/</guid>
+      <description>SQL Management Studio kullanarak MSSQL e erişim yapmanız size birçok fayda sağlayacaktır. Tabi dezavantajları da yok değil !.
 Senaryomuz şu şekilde; Test veritabanında çalışarak kendinizi production veritabanında izole ettiniz ve güvenlik konusunda bir adım öne geçtiniz. Test veritabanı ile işlemleriniz bittikten sonra artık sıra geldi oluşturmuş olduğumuz tüm yapıları taşımaya ! Bu kısım biraz sıkıcı olsa da SQL Management Studio nun buna getirmiş olduğu kolaylıklar var.
-Oluşturmuş olduğumuz tabloların sadece şemasını yani içiindeki veriler olmaksızın taşımak istersek, ( ki bu durum default olarak yapılandıırlmış durumdur ) işimiz oldukça kolay.</description></item><item><title>Foreground Service ile FusedLocationApi Kullanımı</title><link>https://yazilim.aykutasil.com/foregroundservice-ve-fusedlocationapi-kullanimi/</link><pubDate>Wed, 11 Jan 2017 15:27:59 +0300</pubDate><guid>https://yazilim.aykutasil.com/foregroundservice-ve-fusedlocationapi-kullanimi/</guid><description>Android service yapısı, Android’in temel bileşenlerinden olup genel kullanım amacı yan iş parçacığı oluşturmaktır. Uzun süren işlemler (download vb.) için olmazsa olmaz bileşendir. Android in service bileşenini kendi ihtiyaçlarınız doğrultusunda özelleştirebilir ve uygulamanızı modern bir yapıya kavuşturabilirsiniz.
+Oluşturmuş olduğumuz tabloların sadece şemasını yani içiindeki veriler olmaksızın taşımak istersek, ( ki bu durum default olarak yapılandıırlmış durumdur ) işimiz oldukça kolay.</description>
+    </item>
+    
+    <item>
+      <title>Foreground Service ile FusedLocationApi Kullanımı</title>
+      <link>https://yazilim.aykutasil.com/foregroundservice-ve-fusedlocationapi-kullanimi/</link>
+      <pubDate>Wed, 11 Jan 2017 15:27:59 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/foregroundservice-ve-fusedlocationapi-kullanimi/</guid>
+      <description>Android service yapısı, Android’in temel bileşenlerinden olup genel kullanım amacı yan iş parçacığı oluşturmaktır. Uzun süren işlemler (download vb.) için olmazsa olmaz bileşendir. Android in service bileşenini kendi ihtiyaçlarınız doğrultusunda özelleştirebilir ve uygulamanızı modern bir yapıya kavuşturabilirsiniz.
 Burada yapacağımız örnekte kısaca şu aşamaları görücez;
-Service i foreground olarak başlatmak Ongoing(devamlı gözüken) notification oluşturmak GoogleApiClient a bağlanmak Location bilgisini notification da göstermek İlk olarak Service imiz kodlarını yazalım. Gerekli açıklamalar kodların arasında mevcuttur.</description></item><item><title>Retrofit Multipart File Upload</title><link>https://yazilim.aykutasil.com/retrofit-multipart-file-upload/</link><pubDate>Wed, 11 Jan 2017 01:50:51 +0300</pubDate><guid>https://yazilim.aykutasil.com/retrofit-multipart-file-upload/</guid><description>Retrofit Multipart File Upload @DebugLog public BelgeResponse BelgeSync(BelgeRequest request, String apiVersion, String appVersion) { try { Map&amp;lt;String, RequestBody&amp;gt; map = new HashMap&amp;lt;&amp;gt;(); String belgeDirPath = SuperHelper.getInternalIztopBelgeDir(mContext, request.getGonderiNo()); File belgeDir = new File(belgeDirPath); boolean isDir = belgeDir.isDirectory(); if (isDir) { File[] files = belgeDir.listFiles(); for (File file : files) { RequestBody requestBody = RequestBody.create(MediaType.parse(&amp;#34;image/jpg&amp;#34;), file); map.put(&amp;#34;file\&amp;#34;; filename=\&amp;#34;&amp;#34; + file.getName(), requestBody); } } //RequestBody requestBodyGonderiNo = RequestBody.create(MediaType.parse(&amp;#34;text/plain&amp;#34;), request.getGonderiNo()); //RequestBody requestBodyMusId = RequestBody.</description></item><item><title>Android GcmNetworkManager Kullanımı</title><link>https://yazilim.aykutasil.com/android-gcmnetworkmanager-kullanimi/</link><pubDate>Wed, 11 Jan 2017 01:43:53 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-gcmnetworkmanager-kullanimi/</guid><description>GcmNetworkManager kullanarak Android de network tabanlı işlemlerinizi olabildiğince kontrollü bir şekide yapabilirsiniz.
+ Service i foreground olarak başlatmak Ongoing(devamlı gözüken) notification oluşturmak GoogleApiClient a bağlanmak Location bilgisini notification da göstermek  İlk olarak Service imiz kodlarını yazalım. Gerekli açıklamalar kodların arasında mevcuttur.</description>
+    </item>
+    
+    <item>
+      <title>Retrofit Multipart File Upload</title>
+      <link>https://yazilim.aykutasil.com/retrofit-multipart-file-upload/</link>
+      <pubDate>Wed, 11 Jan 2017 01:50:51 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/retrofit-multipart-file-upload/</guid>
+      <description>Retrofit Multipart File Upload @DebugLog public BelgeResponse BelgeSync(BelgeRequest request, String apiVersion, String appVersion) { try { Map&amp;lt;String, RequestBody&amp;gt; map = new HashMap&amp;lt;&amp;gt;(); String belgeDirPath = SuperHelper.getInternalIztopBelgeDir(mContext, request.getGonderiNo()); File belgeDir = new File(belgeDirPath); boolean isDir = belgeDir.isDirectory(); if (isDir) { File[] files = belgeDir.listFiles(); for (File file : files) { RequestBody requestBody = RequestBody.create(MediaType.parse(&amp;#34;image/jpg&amp;#34;), file); map.put(&amp;#34;file\&amp;#34;; filename=\&amp;#34;&amp;#34; + file.getName(), requestBody); } } //RequestBody requestBodyGonderiNo = RequestBody.create(MediaType.parse(&amp;#34;text/plain&amp;#34;), request.getGonderiNo());  //RequestBody requestBodyMusId = RequestBody.</description>
+    </item>
+    
+    <item>
+      <title>Android GcmNetworkManager Kullanımı</title>
+      <link>https://yazilim.aykutasil.com/android-gcmnetworkmanager-kullanimi/</link>
+      <pubDate>Wed, 11 Jan 2017 01:43:53 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-gcmnetworkmanager-kullanimi/</guid>
+      <description>GcmNetworkManager kullanarak Android de network tabanlı işlemlerinizi olabildiğince kontrollü bir şekide yapabilirsiniz.
 GcmNetworkManager ın kullanım alanı daha çok asenkron ve periodic network işlemlerinizi yapılandırmaktır.
 Tek sefer çalışacak veya Periodic olarak çalışacak işlemleriniz için 2 tip belirlenmiştir.
-OneoffTask PeriodicTask OneoffTask Kullanımı
-OneoffTask oneoff = new OneoffTask.Builder() // Uygulamanızı kapatsanız bile tekrar açtığınız da network işleminiz işleme konulur. // Yani isteğinizin kalıcı olup olmamasını bu parametre ile ayarlayabilirsiniz. .</description></item><item><title>Android SMS Receiver</title><link>https://yazilim.aykutasil.com/android-smsreceiver/</link><pubDate>Wed, 11 Jan 2017 01:42:54 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-smsreceiver/</guid><description>Android SMS Receiver Android de gelen sms leri dinlemek ve uygulamanızın akışını gelen sms lere göre şekillendirmek için aşağıdaki yapıyı kullanabilirsiniz.
+ OneoffTask PeriodicTask   OneoffTask Kullanımı
+OneoffTask oneoff = new OneoffTask.Builder() // Uygulamanızı kapatsanız bile tekrar açtığınız da network işleminiz işleme konulur.  // Yani isteğinizin kalıcı olup olmamasını bu parametre ile ayarlayabilirsiniz.  .</description>
+    </item>
+    
+    <item>
+      <title>Android SMS Receiver</title>
+      <link>https://yazilim.aykutasil.com/android-smsreceiver/</link>
+      <pubDate>Wed, 11 Jan 2017 01:42:54 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-smsreceiver/</guid>
+      <description>Android SMS Receiver Android de gelen sms leri dinlemek ve uygulamanızın akışını gelen sms lere göre şekillendirmek için aşağıdaki yapıyı kullanabilirsiniz.
 İlk olarak AndroidManifest.xml dosyanızda receiver tanımlamalısınız. Fakat biz bu receiver ı dinamik olarak tanımlıcaz. Bunu yapmamızın sebebi SMS i dinledikten sonra bu receiver ı silmek ve daha sonra gelen SMS lerin dinlenmesini önlemek.
 Siz uygulamınız da sürekli bir SMS dinlemeye ihtiyaç duyarsanız receiver ı AndroidManifest.xml dosyanızda tanımlamalısınız.
-Biz burda SMS dinlemesi yaparken önlem amaçlı olarak CPU nun uyumasını önlüyoruz.</description></item><item><title>Android Internet Connection Receiver</title><link>https://yazilim.aykutasil.com/android-internet-connection-receiver/</link><pubDate>Wed, 11 Jan 2017 01:42:36 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-internet-connection-receiver/</guid><description>Uygulamanızın akışını internet kontrolü yaparak yönetmeniz gerekebilir.
+Biz burda SMS dinlemesi yaparken önlem amaçlı olarak CPU nun uyumasını önlüyoruz.</description>
+    </item>
+    
+    <item>
+      <title>Android Internet Connection Receiver</title>
+      <link>https://yazilim.aykutasil.com/android-internet-connection-receiver/</link>
+      <pubDate>Wed, 11 Jan 2017 01:42:36 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-internet-connection-receiver/</guid>
+      <description>Uygulamanızın akışını internet kontrolü yaparak yönetmeniz gerekebilir.
 Bunun için ilk olarak AndroidManifest.xml dosyasına receiver tanımı yapmalısınız.
 &amp;lt;receiver android:name=&amp;#34;.InternetConnectionReceiver&amp;#34;&amp;gt; &amp;lt;intent-filter&amp;gt; &amp;lt;action android:name=&amp;#34;android.net.conn.CONNECTIVITY_CHANGE&amp;#34; /&amp;gt; &amp;lt;/intent-filter&amp;gt; &amp;lt;/receiver&amp;gt; InternetConnectionReceiver
 public class InternetConnectionReceiver extends BroadcastReceiver { @Override public void onReceive(Context context, Intent intent) { if (CheckConnection(context)) { } } } Yukarıda tanımlanmış olan receiver, cihazın ağ yapısında herhangi bir değişiklik olduğunda bunu yakalar. Örneğin wireless açıkken kapattığınız da veya kapalıyken açtığınız da bunu yakayabilirsiniz.
-CheckConnection</description></item><item><title>Postman ile API Test Yazımı</title><link>https://yazilim.aykutasil.com/postman-api-test/</link><pubDate>Wed, 11 Jan 2017 01:09:39 +0300</pubDate><guid>https://yazilim.aykutasil.com/postman-api-test/</guid><description>POSTMAN Postman HTTP Request lerinizi istediğiniz şekilde düzenleyip çalıştırabileceğiniz ve test edebileceğiniz bir Chrome eklentisidir.
+CheckConnection</description>
+    </item>
+    
+    <item>
+      <title>Postman ile API Test Yazımı</title>
+      <link>https://yazilim.aykutasil.com/postman-api-test/</link>
+      <pubDate>Wed, 11 Jan 2017 01:09:39 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/postman-api-test/</guid>
+      <description>POSTMAN Postman HTTP Request lerinizi istediğiniz şekilde düzenleyip çalıştırabileceğiniz ve test edebileceğiniz bir Chrome eklentisidir.
 Bu linkten Chrome a ekleyebilirsiniz.
 Postman kullanarak API lerinizi test edebilirsiniz..
 Tek bir butona tıklayarak istediğiniz kadar Request i çalıştırabilir ve bu Requst lerden gelen değerleri başka bir Requestinize parametre olarak gönderebilrsiniz.
 Yukarıdaki ekran Postman i yüklediğinizde açılan ilk ekrandır.
 Enter request URL here yazan kutucuğa End Point yani istek yapacağımız adres yazılır.
-Şuan GET olarak gözüken yerden yapılacak olan istediğin cinsi seçilir.</description></item><item><title>Android ActiveAndroid Kullanımı</title><link>https://yazilim.aykutasil.com/activeandroid/</link><pubDate>Wed, 11 Jan 2017 01:00:19 +0300</pubDate><guid>https://yazilim.aykutasil.com/activeandroid/</guid><description>Anroid ile ORM (Object Relational Mapping) kullanarak veritabanı işlemlerinizi oldukça kolay yapabilirsiniz.
+Şuan GET olarak gözüken yerden yapılacak olan istediğin cinsi seçilir.</description>
+    </item>
+    
+    <item>
+      <title>Android ActiveAndroid Kullanımı</title>
+      <link>https://yazilim.aykutasil.com/activeandroid/</link>
+      <pubDate>Wed, 11 Jan 2017 01:00:19 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/activeandroid/</guid>
+      <description>Anroid ile ORM (Object Relational Mapping) kullanarak veritabanı işlemlerinizi oldukça kolay yapabilirsiniz.
 ActiveAndroid kütüphanesi ORM kütüphanelerinden biridir.
 Kütüphaneyi buradan indirebilirsiniz.
 Kullanımı oldukça basittir. Sadece birkaç noktaya özellikle dikkat edilmesi gerekiyor. Bunlardan biri oluşturmuş olduğunuz tabloya yeni alanlar eklediğiniz de tablonuzu güncellemek. Veya herhangi bir sebeple tabloda çeşitli işlemler yapmak.
 Aşağıda kısaca Tablo oluşturmaktan ve gerektiğinde Tablo yu nasıl güncelleyeceğimizden bahsedicem.
-@Table(name = &amp;#34;Items&amp;#34;) public class ModelSampleItem extends Model { @Column(name = &amp;#34;Name&amp;#34;) public String name; @Column(name = &amp;#34;Surname&amp;#34;) public String surname; @Column(name = &amp;#34;Phone&amp;#34;) public String phoneNumber; @Column(name = &amp;#34;Xyz&amp;#34;) public String xyz; @Column(name = &amp;#34;EMail&amp;#34;) public String email; @Column(name = &amp;#34;TryColumn&amp;#34;) public String tryColumn; @Column(name = &amp;#34;Column3&amp;#34;) public String column3; public ModelSampleItem() { super(); } } Yukarıda ki yapıyı kullanarak istediğiniz Tablo yu oluşturmanız mümkün.</description></item><item><title>Robolectric ile UnitTest Yazımı</title><link>https://yazilim.aykutasil.com/android-robolectric/</link><pubDate>Wed, 11 Jan 2017 00:31:52 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-robolectric/</guid><description>Unit Test birçok yazıılımcı tarafından es geçillen ama bir o kadar da önemli ve yapılması gerekli olan bir durumdur.
+@Table(name = &amp;#34;Items&amp;#34;) public class ModelSampleItem extends Model { @Column(name = &amp;#34;Name&amp;#34;) public String name; @Column(name = &amp;#34;Surname&amp;#34;) public String surname; @Column(name = &amp;#34;Phone&amp;#34;) public String phoneNumber; @Column(name = &amp;#34;Xyz&amp;#34;) public String xyz; @Column(name = &amp;#34;EMail&amp;#34;) public String email; @Column(name = &amp;#34;TryColumn&amp;#34;) public String tryColumn; @Column(name = &amp;#34;Column3&amp;#34;) public String column3; public ModelSampleItem() { super(); } } Yukarıda ki yapıyı kullanarak istediğiniz Tablo yu oluşturmanız mümkün.</description>
+    </item>
+    
+    <item>
+      <title>Robolectric ile UnitTest Yazımı</title>
+      <link>https://yazilim.aykutasil.com/android-robolectric/</link>
+      <pubDate>Wed, 11 Jan 2017 00:31:52 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-robolectric/</guid>
+      <description>Unit Test birçok yazıılımcı tarafından es geçillen ama bir o kadar da önemli ve yapılması gerekli olan bir durumdur.
 Proje büyüdükçe ve ilerledikçe teste duyulan ihtiyaç ta doğru orantılı olarak artmaktadır.
 Unit Test neden yapılır sorusunun daha ayrıntılı cevabı için unit test nedir nicin ve nasil yapilir bu yazıyı okuyabilirsiniz.
 Android Studio da Robolectric kullanarak Unit Test Yazımı
-Aşağıdaki adımları sırası ile ve düzgün bir şekilde uygularsanız herhangi bir sorun çıkmadan testi çalıştırabileceksiniz.</description></item><item><title>Unit Test Nedir ? Niçin ve Nasıl Yapılır ?</title><link>https://yazilim.aykutasil.com/unittest-nedir/</link><pubDate>Wed, 11 Jan 2017 00:27:54 +0300</pubDate><guid>https://yazilim.aykutasil.com/unittest-nedir/</guid><description>Unit Test Nedir ? Niçin ve Nasıl Yapılır ?
-Yıl olmuş 2014 hala birim test makalesi mi yazıyorsun diye düşünüyor olabilirsiniz. Ancak, birim testi uzun zamandır kullanılan bir yöntem olmasına rağmen tam olarak ne işe yaradığı, neden yapıldığı ve nasıl yapılması gerektiği konusunda açıklayıcı bir Türkçe yazı bulmak malesef zor. Bu yüzden, yazılım mühendisi adaylarına ve kariyerine yeni başlayan arkadaşlara faydalı olabilmek adına bu yazıyı yazmak uygun olur diye düşündüm.</description></item><item><title>Azure Mobile Services ve Notification Hubs Kullanımı</title><link>https://yazilim.aykutasil.com/azure-notification-hubs-kullanimi/</link><pubDate>Wed, 11 Jan 2017 00:21:36 +0300</pubDate><guid>https://yazilim.aykutasil.com/azure-notification-hubs-kullanimi/</guid><description>Azure Mobile Services çok hızlı ve kolay bir şekilde uygulama geliştirmeniz için önceden veya uygulama yazımı sırasında yapılması gereken işlemleri minimize eden bir servistir.
+Aşağıdaki adımları sırası ile ve düzgün bir şekilde uygularsanız herhangi bir sorun çıkmadan testi çalıştırabileceksiniz.</description>
+    </item>
+    
+    <item>
+      <title>Unit Test Nedir ? Niçin ve Nasıl Yapılır ?</title>
+      <link>https://yazilim.aykutasil.com/unittest-nedir/</link>
+      <pubDate>Wed, 11 Jan 2017 00:27:54 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/unittest-nedir/</guid>
+      <description>Unit Test Nedir ? Niçin ve Nasıl Yapılır ?
+Yıl olmuş 2014 hala birim test makalesi mi yazıyorsun diye düşünüyor olabilirsiniz. Ancak, birim testi uzun zamandır kullanılan bir yöntem olmasına rağmen tam olarak ne işe yaradığı, neden yapıldığı ve nasıl yapılması gerektiği konusunda açıklayıcı bir Türkçe yazı bulmak malesef zor. Bu yüzden, yazılım mühendisi adaylarına ve kariyerine yeni başlayan arkadaşlara faydalı olabilmek adına bu yazıyı yazmak uygun olur diye düşündüm.</description>
+    </item>
+    
+    <item>
+      <title>Azure Mobile Services ve Notification Hubs Kullanımı</title>
+      <link>https://yazilim.aykutasil.com/azure-notification-hubs-kullanimi/</link>
+      <pubDate>Wed, 11 Jan 2017 00:21:36 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/azure-notification-hubs-kullanimi/</guid>
+      <description>Azure Mobile Services çok hızlı ve kolay bir şekilde uygulama geliştirmeniz için önceden veya uygulama yazımı sırasında yapılması gereken işlemleri minimize eden bir servistir.
 Kullanımı oldukça kolay olmakla beraber ilk bir kaç adımı gerçekleştirmek bazen can sıkıcı olabilmekte.
 Bunun için ufak bir örnekle bu ilk birkaç adımı beraber atıcaz.
 https://azure.microsoft.com/tr-tr/ adresinden portal a girdiniz.Ve mobile services tab ından new diyerek yeni bir mobile services oluşturdunuz.
-Oluşturduğunuz Mobile Service tıkladınız ve çıkan ekranda Push tabına girdiniz.</description></item><item><title>ReCaptcha Kullanımı</title><link>https://yazilim.aykutasil.com/recaptcha-kullanimi/</link><pubDate>Wed, 11 Jan 2017 00:14:08 +0300</pubDate><guid>https://yazilim.aykutasil.com/recaptcha-kullanimi/</guid><description>ReCaptcha Sitenize gelebilecek saldıralara karşı bir önlem olarak kullanılacak eklentilerden biridir ReCaptcha.
+Oluşturduğunuz Mobile Service tıkladınız ve çıkan ekranda Push tabına girdiniz.</description>
+    </item>
+    
+    <item>
+      <title>ReCaptcha Kullanımı</title>
+      <link>https://yazilim.aykutasil.com/recaptcha-kullanimi/</link>
+      <pubDate>Wed, 11 Jan 2017 00:14:08 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/recaptcha-kullanimi/</guid>
+      <description>ReCaptcha Sitenize gelebilecek saldıralara karşı bir önlem olarak kullanılacak eklentilerden biridir ReCaptcha.
 Kolay bir şekilde entegre edilir ve kolay bir şekilde güvenlik sağlanır.
 Bunun için aşağıdaki adımları uygulamanız yeterli olacaktır.
-https://www.google.com/recaptcha/admin#list sitesine gidiniz.Ve gerekli yerleri doldurunuz. Label kısmına ReCaptcha i hangi sayfada kullanacaksınız,(örneğin giriş sayfası için) GirişCaptcha diyin. Domain kısmına sitenizin domain i ekleyin.Her biri bir satır olacak şekilde.Birden fazla domain girerek aynı kodu farklı domainlerde çalıştırabilirsiniz. Owner kısmına ise Adınız yazın.</description></item><item><title>Android Key Hashes &amp; SHA1</title><link>https://yazilim.aykutasil.com/android-keyhashes-sha1/</link><pubDate>Tue, 10 Jan 2017 23:56:35 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-keyhashes-sha1/</guid><description>Android Key Hashes &amp;amp; SHA1 Windows komut satırına aşağıdaki komutu yazarak ulaşabilirsiniz.
+ https://www.google.com/recaptcha/admin#list sitesine gidiniz.Ve gerekli yerleri doldurunuz. Label kısmına ReCaptcha i hangi sayfada kullanacaksınız,(örneğin giriş sayfası için) GirişCaptcha diyin. Domain kısmına sitenizin domain i ekleyin.Her biri bir satır olacak şekilde.Birden fazla domain girerek aynı kodu farklı domainlerde çalıştırabilirsiniz. Owner kısmına ise Adınız yazın.</description>
+    </item>
+    
+    <item>
+      <title>Android Key Hashes &amp; SHA1</title>
+      <link>https://yazilim.aykutasil.com/android-keyhashes-sha1/</link>
+      <pubDate>Tue, 10 Jan 2017 23:56:35 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-keyhashes-sha1/</guid>
+      <description>Android Key Hashes &amp;amp; SHA1 Windows komut satırına aşağıdaki komutu yazarak ulaşabilirsiniz.
 keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%\.android\debug.keystore | openssl sha1 -binary | openssl base64 openssl hatası alırsanız https://code.google.com/p/openssl-for-windows/downloads/detail?name=openssl-0.9.8k_X64.zip adresindeki dosyayı indirdikten sonra çıkan dosyadaki bin klasörünü ortam değişkenlerindeki PATH kısmına eklerseniz sorun ortadan kalkacaktır.
 Ortam değişkenlerine ulaşmak için : Denetim Masası &amp;gt; Sistem &amp;gt; Gelişmiş Sİstem Ayarları
 SHA1 ulaşmak için komut satırına aşağıdaki kodu yazmanız yeterli olacaktır.
-your_user_name yerine kendi kullanıcı adınızı yazmayı unutmayın.</description></item><item><title>Local IIS Site Kurulumu</title><link>https://yazilim.aykutasil.com/windows-local-iis-kurulumu/</link><pubDate>Tue, 10 Jan 2017 23:20:12 +0300</pubDate><guid>https://yazilim.aykutasil.com/windows-local-iis-kurulumu/</guid><description>Uygulamanızı geliştirme sırasında Local IIS e sitenizi tanımlamanız gerekebilir. Sanki uzak sunucuda sitenizi custom domain ile host eder gibi (yani site kodlarınızı uzaktaki hostunuzda çalıştırır gibi) çalıştırabilirsiniz. İstediğiniz domain adresini belirtebilir, işlemlerinizi bu domaini kullanarak gerçekleştirebilirsiniz. Eğer bu yazıyı okuyor iseniz muhtemelen bunu yapmaya gerek duymuşsunuzdur.
+your_user_name yerine kendi kullanıcı adınızı yazmayı unutmayın.</description>
+    </item>
+    
+    <item>
+      <title>Local IIS Site Kurulumu</title>
+      <link>https://yazilim.aykutasil.com/windows-local-iis-kurulumu/</link>
+      <pubDate>Tue, 10 Jan 2017 23:20:12 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/windows-local-iis-kurulumu/</guid>
+      <description>Uygulamanızı geliştirme sırasında Local IIS e sitenizi tanımlamanız gerekebilir. Sanki uzak sunucuda sitenizi custom domain ile host eder gibi (yani site kodlarınızı uzaktaki hostunuzda çalıştırır gibi) çalıştırabilirsiniz. İstediğiniz domain adresini belirtebilir, işlemlerinizi bu domaini kullanarak gerçekleştirebilirsiniz. Eğer bu yazıyı okuyor iseniz muhtemelen bunu yapmaya gerek duymuşsunuzdur.
 İlk olarak windows yüklü bilgisayarımızın başlat menüsüne tıklayarak “Windows özellikleriniz Aç veya Kapat” yazıp arama yapıyoruz.
-Yukarıda ki resimde görmüş olduğunuz gibi gerekli kutucukları işaretleyip kurulumu sağıyoruz.</description></item><item><title>TSQL NULLIF Fonksiyonu Nedir ve Nasıl Kullanılır</title><link>https://yazilim.aykutasil.com/sql-nullif-fonksiyonu-kullanimi/</link><pubDate>Tue, 10 Jan 2017 23:08:34 +0300</pubDate><guid>https://yazilim.aykutasil.com/sql-nullif-fonksiyonu-kullanimi/</guid><description>TSQL NULLIF fonksiyonu NULLIF fonksiyonu verilen iki parametre birbirine esit ise NULL deger döndürür eger degerleri fakli iki parametre verilirse sonuç olarak birinci parametrenin degerini döndürür.
+Yukarıda ki resimde görmüş olduğunuz gibi gerekli kutucukları işaretleyip kurulumu sağıyoruz.</description>
+    </item>
+    
+    <item>
+      <title>TSQL NULLIF Fonksiyonu Nedir ve Nasıl Kullanılır</title>
+      <link>https://yazilim.aykutasil.com/sql-nullif-fonksiyonu-kullanimi/</link>
+      <pubDate>Tue, 10 Jan 2017 23:08:34 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/sql-nullif-fonksiyonu-kullanimi/</guid>
+      <description>TSQL NULLIF fonksiyonu NULLIF fonksiyonu verilen iki parametre birbirine esit ise NULL deger döndürür eger degerleri fakli iki parametre verilirse sonuç olarak birinci parametrenin degerini döndürür.
 Kullanimi ve anlamasi kolay bir fonksiyon oldugu için basit bir örnekle anlatmaya çalisalim.
 Ilk olarak kullanacagimiz geçici tabloyu asagidaki gibi çalistirip içine insert komutu ile veri kaydedelim.
-CREATE TABLE #Urun ( UrunID TINYINT, ListeFiyati DECIMAL NULL); GO INSERT #Urun VALUES(1,100); INSERT #Urun VALUES(2,NULL); INSERT #Urun VALUES(3,0); INSERT #Urun VALUES(7,250); INSERT #Urun VALUES(9,458); ListeFiyati kolonuna göre count yaparsak sonuç olarak 4 dönecegini görürsünüz, çünkü UrunID’si 2 olan ürünün liste fiyati girilmemistir.</description></item><item><title>Android Spinner Text Güncelleme</title><link>https://yazilim.aykutasil.com/android-spinner-dynamic-text/</link><pubDate>Tue, 10 Jan 2017 23:00:03 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-spinner-dynamic-text/</guid><description>Dinamik Olarak Spinner Text Güncelleme Android de Spinner yapısı açılır menü (dropdown) olarak kullanlan kullanışlı bir componenttir.
+CREATE TABLE #Urun ( UrunID TINYINT, ListeFiyati DECIMAL NULL); GO INSERT #Urun VALUES(1,100); INSERT #Urun VALUES(2,NULL); INSERT #Urun VALUES(3,0); INSERT #Urun VALUES(7,250); INSERT #Urun VALUES(9,458); ListeFiyati kolonuna göre count yaparsak sonuç olarak 4 dönecegini görürsünüz, çünkü UrunID’si 2 olan ürünün liste fiyati girilmemistir.</description>
+    </item>
+    
+    <item>
+      <title>Android Spinner Text Güncelleme</title>
+      <link>https://yazilim.aykutasil.com/android-spinner-dynamic-text/</link>
+      <pubDate>Tue, 10 Jan 2017 23:00:03 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-spinner-dynamic-text/</guid>
+      <description>Dinamik Olarak Spinner Text Güncelleme Android de Spinner yapısı açılır menü (dropdown) olarak kullanlan kullanışlı bir componenttir.
 Farklı ihtiyaçlarınız doğrultusunda Spinner ınızın elemanlarının değerini değiştirmek isteyebilirsiniz.
 Örneğin bir ListView iniz var.Ve içerisinde aynı kategoriden ama değişik durumlara sahip itemlar var ve siz bu itemları durumuna göre gruplandırıp sayısını Spinner da göstermek istiyorsunuz. Bunun için aşağıda belirtecek olduğum yapıyı kullanabilirsiniz.
 Öncellikle String.xml dosyasına Spinner ımızda göstereceğimiz elemanları tanımlıyoruz.
 String.xml
-&amp;lt;string name=&amp;#34;pazartesi&amp;#34;&amp;gt;Pazartesi&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;sali&amp;#34;&amp;gt;Salı&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;carsamba&amp;#34;&amp;gt;Çarşamba&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;persembe&amp;#34;&amp;gt;Perşembe&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;cuma&amp;#34;&amp;gt;Cuma&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;cumartesi&amp;#34;&amp;gt;Cumartesi&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;pazar&amp;#34;&amp;gt;Pazar&amp;lt;/string&amp;gt; &amp;lt;string-array name=&amp;#34;array_gonderi_list_haftalik&amp;#34;&amp;gt; &amp;lt;item&amp;gt;@string/pazartesi&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/sali&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/carsamba&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/persembe&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/cuma&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/cumartesi&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/pazar&amp;lt;/item&amp;gt; &amp;lt;/string-array&amp;gt; SpinnerHelper.</description></item><item><title>PendingIntent Flags</title><link>https://yazilim.aykutasil.com/android-pendingintent-flags/</link><pubDate>Mon, 02 Jan 2017 14:35:49 +0300</pubDate><guid>https://yazilim.aykutasil.com/android-pendingintent-flags/</guid><description>PendingIntent resultPendingIntent = PendingIntent.getActivity( getApplicationContext(), 100, intent, PendingIntent.FLAG_CANCEL_CURRENT ); PendingIntent ler Android uygulama geliştirilmesi sırasında birçok yerde karşımıza çıkabilir.
+&amp;lt;string name=&amp;#34;pazartesi&amp;#34;&amp;gt;Pazartesi&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;sali&amp;#34;&amp;gt;Salı&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;carsamba&amp;#34;&amp;gt;Çarşamba&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;persembe&amp;#34;&amp;gt;Perşembe&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;cuma&amp;#34;&amp;gt;Cuma&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;cumartesi&amp;#34;&amp;gt;Cumartesi&amp;lt;/string&amp;gt; &amp;lt;string name=&amp;#34;pazar&amp;#34;&amp;gt;Pazar&amp;lt;/string&amp;gt; &amp;lt;string-array name=&amp;#34;array_gonderi_list_haftalik&amp;#34;&amp;gt; &amp;lt;item&amp;gt;@string/pazartesi&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/sali&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/carsamba&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/persembe&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/cuma&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/cumartesi&amp;lt;/item&amp;gt; &amp;lt;item&amp;gt;@string/pazar&amp;lt;/item&amp;gt; &amp;lt;/string-array&amp;gt; SpinnerHelper.</description>
+    </item>
+    
+    <item>
+      <title>PendingIntent Flags</title>
+      <link>https://yazilim.aykutasil.com/android-pendingintent-flags/</link>
+      <pubDate>Mon, 02 Jan 2017 14:35:49 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/android-pendingintent-flags/</guid>
+      <description>PendingIntent resultPendingIntent = PendingIntent.getActivity( getApplicationContext(), 100, intent, PendingIntent.FLAG_CANCEL_CURRENT ); PendingIntent ler Android uygulama geliştirilmesi sırasında birçok yerde karşımıza çıkabilir.
 Özetle PendingIntent kullanılarak asenkron işlem başlatılımı yapılır.
 En genel kullanım alanlarından bir tanesi de Notification lar iledir.
 Kullanıcı, hazırlamış olduğumuz notification a tıkladığında alacak olduğu tepki nasıl olmalı? sorusuna cevap vermek için PendingIntent imizin flag parametresini uygun şekilde düzenlemeliyiz.
-Not: PendingIntent düzenlenirken requestCode aynı olmalıdır. Eğer her notif için farklı requestCode verirsek her biri farklı notif gibi davranır.</description></item><item><title>Docker Container Install nano</title><link>https://yazilim.aykutasil.com/docker-nano-setup/</link><pubDate>Sun, 25 Dec 2016 03:51:49 +0300</pubDate><guid>https://yazilim.aykutasil.com/docker-nano-setup/</guid><description>Docker ile ayağa kaldırmış olduğunuz bir container olduğunu varsayalım ve bu docker container a erişerek komut satırı çalıştırmanız gerekiyor.
+ Not: PendingIntent düzenlenirken requestCode aynı olmalıdır. Eğer her notif için farklı requestCode verirsek her biri farklı notif gibi davranır.</description>
+    </item>
+    
+    <item>
+      <title>Docker Container Install nano</title>
+      <link>https://yazilim.aykutasil.com/docker-nano-setup/</link>
+      <pubDate>Sun, 25 Dec 2016 03:51:49 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/docker-nano-setup/</guid>
+      <description>Docker ile ayağa kaldırmış olduğunuz bir container olduğunu varsayalım ve bu docker container a erişerek komut satırı çalıştırmanız gerekiyor.
 https://docs.docker.com/engine/reference/commandline/exec/
 Yukarıdaki linki takip ederek nasıl komut çalıştıracağınızı öğrenebilirsiniz. Ya da Kitematic gibi bir uygulama yüklü ise bu uygulamayı açarak ve çalışan image e tıklayarak exe butonuna basmamız yeterli olucaktır.
-Bu sayfada anlatmak istediğim şey tüm bunları yaptınız ve container ın içindeyken bir dosya oluşturdunuz. Ve bu dosyanın içeriğini düzenlemeniz gerekmekte.</description></item><item><title/><link>https://yazilim.aykutasil.com/post/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yazilim.aykutasil.com/post/</guid><description/></item></channel></rss>
+Bu sayfada anlatmak istediğim şey tüm bunları yaptınız ve container ın içindeyken bir dosya oluşturdunuz. Ve bu dosyanın içeriğini düzenlemeniz gerekmekte.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yazilim.aykutasil.com/posts/kotlin_coroutine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/posts/kotlin_coroutine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>https://yazilim.aykutasil.com/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/archives/</guid>
+      <description>archives</description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://yazilim.aykutasil.com/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/search/</guid>
+      <description>search</description>
+    </item>
+    
+  </channel>
+</rss>

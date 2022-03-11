@@ -1,6 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>null condition on</title><link>https://yazilim.aykutasil.com/tags/null-condition/</link><description>Recent content in null condition on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 16 Jan 2017 11:13:16 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/null-condition/index.xml" rel="self" type="application/rss+xml"/><item><title>CSharp Null Kontrolü</title><link>https://yazilim.aykutasil.com/csharp-soru-isareti-syntax/</link><pubDate>Mon, 16 Jan 2017 11:13:16 +0300</pubDate><guid>https://yazilim.aykutasil.com/csharp-soru-isareti-syntax/</guid><description>C# ? ve ?? Operator Kullanımı Kısaca bahsedilecek olursa ? operatörü null kontrolü yapılmasını sağlar.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>null condition on Aykut Asil</title>
+    <link>https://yazilim.aykutasil.com/tags/null-condition/</link>
+    <description>Recent content in null condition on Aykut Asil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 16 Jan 2017 11:13:16 +0300</lastBuildDate>
+    
+	<atom:link href="https://yazilim.aykutasil.com/tags/null-condition/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CSharp Null Kontrolü</title>
+      <link>https://yazilim.aykutasil.com/csharp-soru-isareti-syntax/</link>
+      <pubDate>Mon, 16 Jan 2017 11:13:16 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/csharp-soru-isareti-syntax/</guid>
+      <description>C# ? ve ?? Operator Kullanımı Kısaca bahsedilecek olursa ? operatörü null kontrolü yapılmasını sağlar.
 Yazılım geliştirme sırasında en çok rastlanan hatanın sebebi null dönen ifadelerdir. Bu bazen bir değişken bazen parametre vs. olabilir. Ama sebep ifadenin null olmasıdır.
 Önceden şu şekilde kontrol ediyorduk.
 var a; if(a != null) { Console.Write(a); } şimdi
 var a; Console.Write(a ?? &amp;#34;boş değer&amp;#34;); Yukarıdaki söz dizimi ile şunu söylüyoruz.
-Eğer a değeri null değil ise ekrana a nın değerini yaz.</description></item></channel></rss>
+ Eğer a değeri null değil ise ekrana a nın değerini yaz.</description>
+    </item>
+    
+  </channel>
+</rss>
