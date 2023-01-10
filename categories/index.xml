@@ -9,22 +9,13 @@
       <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 01 Jan 2022 00:00:27 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Nov 2021 20:17:23 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>android</title>
       <link>https://yazilim.aykutasil.com/categories/android/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:27 +0300</pubDate>
+      <pubDate>Tue, 02 Nov 2021 20:17:23 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/categories/android/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mobile</title>
-      <link>https://yazilim.aykutasil.com/categories/mobile/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:27 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/categories/mobile/</guid>
       <description></description>
     </item>
     
@@ -106,6 +97,15 @@
       <pubDate>Fri, 17 Jan 2020 18:13:00 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/categories/location/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mobile</title>
+      <link>https://yazilim.aykutasil.com/categories/mobile/</link>
+      <pubDate>Fri, 17 Jan 2020 18:13:00 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/categories/mobile/</guid>
       <description></description>
     </item>
     
