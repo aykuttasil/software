@@ -4,6 +4,7 @@ date: 2023-02-09T23:09:05+03:00
 weight: 1
 # aliases: ["/first"]
 tags: ["software","firebase","applink","deeplink","verify-app-link","custom-domain","firebase-hosting","dns","assetlink","sha256"]
+categories: ["firebase","deeplink","applink","dynamic-link"]
 author: "Me"
 showToc: true
 TocOpen: false

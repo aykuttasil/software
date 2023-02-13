@@ -3,6 +3,7 @@ title: "Firebase Dynamic Links & Android"
 date: 2023-0T23:09:05+03:00
 weight: 1
 tags: ["software", "firebase", "dynamiclink"]
+categories: ["firebase","deeplink","dynamic-link","android"]
 author: "Me"
 showToc: true
 TocOpen: false

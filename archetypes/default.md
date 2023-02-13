@@ -4,6 +4,7 @@ date: {{ .Date }}
 weight: 1
 # aliases: ["/first"]
 tags: ["software"]
+categories: ["software"]
 author: "Me"
 showToc: true
 TocOpen: false
