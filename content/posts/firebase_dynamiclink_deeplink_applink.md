@@ -162,9 +162,6 @@ Aşağıdakine benzer bir cevap almanız gerekiyor.
 
 ![Custom Firebase Hosting Domain](/img/app-link-verify.png)
 
-
-## Misc
-
 ## Test
 
 ```bash
