@@ -2,8 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yazilim.aykutasil.com/posts/firebase_dynamiclink_deeplink_applink/</loc>
+    <lastmod>2023-02-09T23:09:05+03:00</lastmod>
+  </url><url>
     <loc>https://yazilim.aykutasil.com/ingilizce-kaynaklari/</loc>
     <lastmod>2023-01-11T00:01:04+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/posts/firebase_android_dynamiclink/</loc>
   </url><url>
     <loc>https://yazilim.aykutasil.com/android_sms_user_consent_api/</loc>
     <lastmod>2021-11-02T20:17:23+03:00</lastmod>
@@ -47,8 +52,44 @@
     <loc>https://yazilim.aykutasil.com/android-background-location/</loc>
     <lastmod>2020-01-17T18:13:00+03:00</lastmod>
   </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/applink/</loc>
+    <lastmod>2023-02-09T23:09:05+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/assetlink/</loc>
+    <lastmod>2023-02-09T23:09:05+03:00</lastmod>
+  </url><url>
     <loc>https://yazilim.aykutasil.com/</loc>
-    <lastmod>2023-01-11T00:01:04+03:00</lastmod>
+    <lastmod>2023-02-09T23:09:05+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/custom-domain/</loc>
+    <lastmod>2023-02-09T23:09:05+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/deeplink/</loc>
+    <lastmod>2023-02-09T23:09:05+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/dns/</loc>
+    <lastmod>2023-02-09T23:09:05+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/firebase/</loc>
+    <lastmod>2023-02-09T23:09:05+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/firebase-hosting/</loc>
+    <lastmod>2023-02-09T23:09:05+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/posts/</loc>
+    <lastmod>2023-02-09T23:09:05+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/sha256/</loc>
+    <lastmod>2023-02-09T23:09:05+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/software/</loc>
+    <lastmod>2023-02-09T23:09:05+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/</loc>
+    <lastmod>2023-02-09T23:09:05+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/verify-app-link/</loc>
+    <lastmod>2023-02-09T23:09:05+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/english/</loc>
     <lastmod>2023-01-11T00:01:04+03:00</lastmod>
@@ -59,13 +100,7 @@
     <loc>https://yazilim.aykutasil.com/tags/kaynak/</loc>
     <lastmod>2023-01-11T00:01:04+03:00</lastmod>
   </url><url>
-    <loc>https://yazilim.aykutasil.com/posts/</loc>
-    <lastmod>2023-01-11T00:01:04+03:00</lastmod>
-  </url><url>
     <loc>https://yazilim.aykutasil.com/tags/source/</loc>
-    <lastmod>2023-01-11T00:01:04+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/</loc>
     <lastmod>2023-01-11T00:01:04+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/android/</loc>
@@ -84,9 +119,6 @@
     <lastmod>2021-11-02T20:17:23+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/sms-user-consent-api/</loc>
-    <lastmod>2021-11-02T20:17:23+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/software/</loc>
     <lastmod>2021-11-02T20:17:23+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/categories/software/</loc>
@@ -422,9 +454,6 @@
     <loc>https://yazilim.aykutasil.com/tags/roboloectric/</loc>
     <lastmod>2019-03-01T11:51:07+03:00</lastmod>
   </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/dns/</loc>
-    <lastmod>2018-08-13T00:50:25+03:00</lastmod>
-  </url><url>
     <loc>https://yazilim.aykutasil.com/dns-over-tls/</loc>
     <lastmod>2018-08-13T00:50:25+03:00</lastmod>
   </url><url>
@@ -568,15 +597,6 @@
   </url><url>
     <loc>https://yazilim.aykutasil.com/retrofit_oauth/</loc>
     <lastmod>2017-05-17T11:58:43+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/dynamiclink/</loc>
-    <lastmod>2017-04-17T01:53:03+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/firebase/</loc>
-    <lastmod>2017-04-17T01:53:03+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/firebase_dynamiclink/</loc>
-    <lastmod>2017-04-17T01:53:03+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/categories/arduino/</loc>
     <lastmod>2017-03-12T23:40:36+03:00</lastmod>
@@ -984,6 +1004,8 @@
     <loc>https://yazilim.aykutasil.com/categories/ci/cd/</loc>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/ci/cd/</loc>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/dynamiclink/</loc>
   </url><url>
     <loc>https://yazilim.aykutasil.com/search/</loc>
   </url><url>

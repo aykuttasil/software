@@ -8,16 +8,14 @@
       <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 17 Apr 2017 01:53:03 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/dynamiclink/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://yazilim.aykutasil.com/tags/dynamiclink/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Firebase Dynamic Links</title>
-      <link>https://yazilim.aykutasil.com/firebase_dynamiclink/</link>
-      <pubDate>Mon, 17 Apr 2017 01:53:03 +0300</pubDate>
+      <title>Firebase Dynamic Links &amp; Android</title>
+      <link>https://yazilim.aykutasil.com/posts/firebase_android_dynamiclink/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/firebase_dynamiclink/</guid>
-      <description>Firebase Dynamic Links Öyle bir link olsun ki;
- Bilgisayarımda ki browserdan linke tıkladığımda kişisel web sitem açılsın, Eğer mobil cihazımda ki browserdan linke tıklarsan;  Uygulama cihazda yüklü ise uygulamam açılsın (Belirtmiş olduğum Activity vs.), Uygulama cihazda yüklü değilse Google Play Store veya App Store açılsın, Uygulama cihazda yüklü olsa bile eğer belirttiğim versiyon kodundan eski bir sürüm varsa yine Google Play Store vs. açılsın, &amp;hellip;    gibi sorulara tek bir link ile cevap verebilirsiniz.</description>
+      <guid>https://yazilim.aykutasil.com/posts/firebase_android_dynamiclink/</guid>
+      <description>Firebase Dynamic Links &amp;amp; Android</description>
     </item>
     
   </channel>

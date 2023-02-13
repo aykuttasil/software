@@ -9,7 +9,97 @@
       <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 11 Jan 2023 00:01:04 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Feb 2023 23:09:05 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>applink</title>
+      <link>https://yazilim.aykutasil.com/tags/applink/</link>
+      <pubDate>Thu, 09 Feb 2023 23:09:05 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/applink/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>assetlink</title>
+      <link>https://yazilim.aykutasil.com/tags/assetlink/</link>
+      <pubDate>Thu, 09 Feb 2023 23:09:05 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/assetlink/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>custom-domain</title>
+      <link>https://yazilim.aykutasil.com/tags/custom-domain/</link>
+      <pubDate>Thu, 09 Feb 2023 23:09:05 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/custom-domain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deeplink</title>
+      <link>https://yazilim.aykutasil.com/tags/deeplink/</link>
+      <pubDate>Thu, 09 Feb 2023 23:09:05 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/deeplink/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dns</title>
+      <link>https://yazilim.aykutasil.com/tags/dns/</link>
+      <pubDate>Thu, 09 Feb 2023 23:09:05 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/dns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>firebase</title>
+      <link>https://yazilim.aykutasil.com/tags/firebase/</link>
+      <pubDate>Thu, 09 Feb 2023 23:09:05 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/firebase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>firebase-hosting</title>
+      <link>https://yazilim.aykutasil.com/tags/firebase-hosting/</link>
+      <pubDate>Thu, 09 Feb 2023 23:09:05 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/firebase-hosting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sha256</title>
+      <link>https://yazilim.aykutasil.com/tags/sha256/</link>
+      <pubDate>Thu, 09 Feb 2023 23:09:05 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/sha256/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://yazilim.aykutasil.com/tags/software/</link>
+      <pubDate>Thu, 09 Feb 2023 23:09:05 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>verify-app-link</title>
+      <link>https://yazilim.aykutasil.com/tags/verify-app-link/</link>
+      <pubDate>Thu, 09 Feb 2023 23:09:05 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/verify-app-link/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>english</title>
       <link>https://yazilim.aykutasil.com/tags/english/</link>
@@ -79,15 +169,6 @@
       <pubDate>Tue, 02 Nov 2021 20:17:23 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/tags/sms-user-consent-api/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software</title>
-      <link>https://yazilim.aykutasil.com/tags/software/</link>
-      <pubDate>Tue, 02 Nov 2021 20:17:23 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/tags/software/</guid>
       <description></description>
     </item>
     
@@ -704,15 +785,6 @@
     </item>
     
     <item>
-      <title>dns</title>
-      <link>https://yazilim.aykutasil.com/tags/dns/</link>
-      <pubDate>Mon, 13 Aug 2018 00:50:25 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/tags/dns/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>dns-over-tls</title>
       <link>https://yazilim.aykutasil.com/tags/dns-over-tls/</link>
       <pubDate>Mon, 13 Aug 2018 00:50:25 +0300</pubDate>
@@ -988,24 +1060,6 @@
       <pubDate>Wed, 17 May 2017 11:58:43 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/tags/retrofit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dynamiclink</title>
-      <link>https://yazilim.aykutasil.com/tags/dynamiclink/</link>
-      <pubDate>Mon, 17 Apr 2017 01:53:03 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/tags/dynamiclink/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>firebase</title>
-      <link>https://yazilim.aykutasil.com/tags/firebase/</link>
-      <pubDate>Mon, 17 Apr 2017 01:53:03 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/tags/firebase/</guid>
       <description></description>
     </item>
     
@@ -1744,6 +1798,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yazilim.aykutasil.com/tags/ci/cd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dynamiclink</title>
+      <link>https://yazilim.aykutasil.com/tags/dynamiclink/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/dynamiclink/</guid>
       <description></description>
     </item>
     

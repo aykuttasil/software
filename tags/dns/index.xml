@@ -9,7 +9,16 @@
       <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 13 Aug 2018 00:50:25 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/dns/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Feb 2023 23:09:05 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/dns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Firebase Dynamic Link &amp; Deep Link &amp; App Link</title>
+      <link>https://yazilim.aykutasil.com/posts/firebase_dynamiclink_deeplink_applink/</link>
+      <pubDate>Thu, 09 Feb 2023 23:09:05 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/posts/firebase_dynamiclink_deeplink_applink/</guid>
+      <description>Firebase Dynamic Link &amp;amp; App Link &amp;amp; Custom Domain</description>
+    </item>
+    
     <item>
       <title>DNS over TLS Nedir?</title>
       <link>https://yazilim.aykutasil.com/dns-over-tls/</link>
