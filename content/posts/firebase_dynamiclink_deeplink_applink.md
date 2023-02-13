@@ -34,11 +34,12 @@ editPost:
 
 
 ## Öncelikle ne yapmak istiyoruz?
+
 - Her hangi bir yerden uygulamamıza yönlendirme yapmak ve ilgili sayfayı/içeriği açmak
 - Eğer uygulamamız yüklü değil ise kullanıcıyı direkt olarak store a yönlendirmek
 - Web browser üzerinden açılmış ise ilgili web sayfasına yönlendirmek
 - Dynamic link üretirken kendi domain adresimizi kullanmak
-- Hangi linke ne kadar tıklanmış vs. gibi temel analytics verilere erişmek
+- Hangi linke ne kadar tıklanmış vs. gibi temel analytics verilere erişmek.
 
 ## Deep Link & App Link
 

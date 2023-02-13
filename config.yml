@@ -39,7 +39,6 @@ params:
       software-craftsmanship,
     ]
   author: Aykut Asil
-  # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
@@ -90,7 +89,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: I'm Aykut. I am a technology/software enthusiast. My priority experting are Android(Native) and Flutter development. 
+    Content: I'm Aykut. I am a technology/software enthusiast. My priority experting are Android(Native) and Flutter development.
 
   socialIcons:
     - name: linkedin
@@ -98,14 +97,13 @@ params:
     - name: github
       url: "https://github.com/aykuttasil"
     - name: stackoverflow
-      url: "https://stackoverflow.com/users/3448461"      
+      url: "https://stackoverflow.com/users/3448461"
     - name: twitter
       url: "https://twitter.com/aykuttasil"
     - name: instagram
       url: "https://instagram.com/aykuttasil"
     - name: youtube
       url: "https://www.youtube.com/c/KilavuzsuzRota"
-            
 
   analytics:
     #google:
@@ -137,30 +135,29 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON
-        
-languages:
-    en:
-        languageName: "English"
-        weight: 1
-        menu:
-            main:
-                - name: Archive
-                  url: archives
-                  weight: 5
-                - name: Search
-                  url: search/
-                  weight: 10
-                - name: Tags
-                  url: tags/
-                  weight: 10
-                - name: Categories
-                  url: categories/
-                  weight: 10
+  home:
+    - HTML
+    - RSS
+    - JSON
 
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    menu:
+      main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+        - name: Categories
+          url: categories/
+          weight: 10
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
