@@ -31,6 +31,7 @@ editPost:
     URL: "https://github.com/aykuttasil/software/blob/master/content/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
+url: "firebase-dynamiclink-deeplink-applink"
 ---
 
 
