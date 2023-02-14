@@ -12,10 +12,10 @@
     <lastBuildDate>Thu, 09 Feb 2023 23:09:05 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Firebase Dynamic Link &amp; Deep Link &amp; App Link</title>
-      <link>https://yazilim.aykutasil.com/posts/firebase_dynamiclink_deeplink_applink/</link>
+      <link>https://yazilim.aykutasil.com/firebase-dynamiclink-deeplink-applink/</link>
       <pubDate>Thu, 09 Feb 2023 23:09:05 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/posts/firebase_dynamiclink_deeplink_applink/</guid>
+      <guid>https://yazilim.aykutasil.com/firebase-dynamiclink-deeplink-applink/</guid>
       <description>Firebase Dynamic Link &amp;amp; App Link &amp;amp; Custom Domain</description>
     </item>
     
@@ -30,10 +30,10 @@
     
     <item>
       <title>Firebase Dynamic Links &amp; Android</title>
-      <link>https://yazilim.aykutasil.com/posts/firebase_android_dynamiclink/</link>
+      <link>https://yazilim.aykutasil.com/firebase-android-dynamiclink/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/posts/firebase_android_dynamiclink/</guid>
+      <guid>https://yazilim.aykutasil.com/firebase-android-dynamiclink/</guid>
       <description>Firebase Dynamic Links &amp;amp; Android</description>
     </item>
     
@@ -312,10 +312,10 @@ Google tek seferlik SMS okuması yapabilmek için çeşitli API&amp;rsquo;ler ç
     
     <item>
       <title>AMP</title>
-      <link>https://yazilim.aykutasil.com/posts/amp_1/</link>
+      <link>https://yazilim.aykutasil.com/amp/</link>
       <pubDate>Wed, 10 Oct 2018 11:57:46 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/posts/amp_1/</guid>
+      <guid>https://yazilim.aykutasil.com/amp/</guid>
       <description>AMP nedir ve nasıl kullanılır?</description>
     </item>
     
@@ -930,15 +930,6 @@ Kullanıcı, hazırlamış olduğumuz notification a tıkladığında alacak old
       
       <guid>https://yazilim.aykutasil.com/docker-nano-setup/</guid>
       <description>Docker Nano kurulumu nasıl yapılır?</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://yazilim.aykutasil.com/posts/kotlin_coroutine/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/posts/kotlin_coroutine/</guid>
-      <description></description>
     </item>
     
     

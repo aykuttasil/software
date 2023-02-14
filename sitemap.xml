@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yazilim.aykutasil.com/posts/firebase_dynamiclink_deeplink_applink/</loc>
+    <loc>https://yazilim.aykutasil.com/firebase-dynamiclink-deeplink-applink/</loc>
     <lastmod>2023-02-09T23:09:05+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/ingilizce-kaynaklari/</loc>
     <lastmod>2023-01-11T00:01:04+03:00</lastmod>
   </url><url>
-    <loc>https://yazilim.aykutasil.com/posts/firebase_android_dynamiclink/</loc>
+    <loc>https://yazilim.aykutasil.com/firebase-android-dynamiclink/</loc>
   </url><url>
     <loc>https://yazilim.aykutasil.com/android_sms_user_consent_api/</loc>
     <lastmod>2021-11-02T20:17:23+03:00</lastmod>
@@ -439,7 +439,7 @@
     <loc>https://yazilim.aykutasil.com/tags/di/</loc>
     <lastmod>2018-10-12T11:48:08+03:00</lastmod>
   </url><url>
-    <loc>https://yazilim.aykutasil.com/posts/amp_1/</loc>
+    <loc>https://yazilim.aykutasil.com/amp/</loc>
     <lastmod>2018-10-10T11:57:46+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/amp/</loc>
@@ -1008,8 +1008,6 @@
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/nano/</loc>
     <lastmod>2016-12-25T03:51:49+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/posts/kotlin_coroutine/</loc>
   </url><url>
     <loc>https://yazilim.aykutasil.com/archives/</loc>
   </url><url>
