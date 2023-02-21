@@ -1,6 +1,6 @@
 ---
 title: "Firebase Dynamic Links & Android"
-date: 2023-0T23:09:05+03:00
+date: 2023-02-20T12:00:00+03:00
 weight: 1
 tags: ["software", "firebase", "dynamiclink"]
 categories: ["firebase","deeplink","dynamic-link","android"]
@@ -9,11 +9,10 @@ showToc: true
 TocOpen: false
 draft: false
 hidemeta: false
-comments: false
+comments: true
 description: "Firebase Dynamic Links & Android"
-disableHLJS: true # to disable highlightjs
-disableShare: false
 disableHLJS: false
+disableShare: false
 hideSummary: false
 searchHidden: true
 ShowReadingTime: true
