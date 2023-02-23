@@ -53,22 +53,46 @@ url: "firebase-ios-dynamiclink"
   - Eğer **Firebase Dynamic Links** oluştururken **google**'ın bize sunduğu **customsubdomain.page.link** şeklinde ki linki kullanmıyor ve kendi web adresimizi kullanıyor isek **Info.plist** dosyasını aşağıdaki şekilde güncellemeliyiz.
 
     ```xml
-    <?xml version="1.0" encoding="UTF-8"?>
-    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-    <plist version="1.0">
-    <dict>
-    <key>FirebaseDynamicLinksCustomDomains</key>
-    <array>
-        <string>https://customsubdomian.aykutasil.com</string>
-    </array>
+        <?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+        <plist version="1.0">
+        <dict>
+        <key>FirebaseDynamicLinksCustomDomains</key>
+        <array>
+            <string>https://customsubdomian.aykutasil.com</string>
+        </array>
 
-    ...other settings
+        ...other settings
 
-    </dict>
-    </plist>
+        </dict>
+        </plist>
     ```
 
 - Artık uygulamamız **dynamic links** için belirlediğimiz url lere tıklandığında direkt olarak açılacak ve uygulama içerisinde istediğimiz sayfalara yönlendirme yapabiliyor olacağız.
+
+
+---
+
+## Yaşadığım sorunlar
+
+
+![Custom Firebase Hosting Domain](/img/dynamiclinks_skip_preview.png)
+
+- **Firebase Console** kullanarak **Dynamic link** üretirken **Skip the app preview page(not recommend)** seçeneğini seçmek zorunda kaldım. Bu seçenek seçili olmadığında **iOS** cihazlarda öncelikle bir preview web sayfası çıkıyor. Sonra **Open App** butonuna basmamızı bekliyor. Ve basıldığında uygulamamız açılıyor ama **FirebaseDynamicLinks** kütüphanesi ile bu linki yakalayamadım.
+
+- **Simulator** dan denerken sorun yaşadım. **Fiziksel cihazda** denemek gerekiyor.
+- **Custom domain** belirlediğimde farklı farklı davranışlar sergiledi. Google'ın default olarak vermiş olduğu **customsubdomain.page.link** şeklindeki adresi daha sorunsuz çalıştı.
+- **Google Chrome** üzerinden linki yazdığımda istediğim şekilde uygulama içerisinde yönlendirme yapabildim. Fakat **Safari** den linke gitmeye çalıştığımda **App Store** a yönlendiriyor. Fakat örneğin **mail** üzerinden gönderilmiş linke uzun tıklayıp **Safari** ile aç dediğimde doğru çalışıyor.
+
+Anladığım kadarıyla bu durumların yaşanmasının sebebi **Universel Link** ile **Firebase Dynamic Link** in çakışıyor olması. Ve bazı iOS kısıtlamaları.
+
+
+> Sonuç olarak;
+- **customsubdomain.page.link** şeklinde üretilen **Dynamic Link **ler daha tutarlı çalışıyor.
+- **Safari** ile **Google Chrome** çalışma şekli arasında farklılıklar var
+- **Dynamic Link** üretirken **Skip the app preview page(not recommend)** seçeneğinin seçili olması, linkin çalışma şeklini değiştiriyor.
+
+---
 
 ## Kaynaklar
 
@@ -77,3 +101,4 @@ url: "firebase-ios-dynamiclink"
 - <https://morioh.com/p/89f560dcaabd>
 - <https://firebase.google.com/docs/dynamic-links>
 - <https://firebase.google.com/docs/dynamic-links/flutter/receive>
+- <https://blog.devgenius.io/firebase-flutter-dynamic-links-step-by-step-guide-630402ee729b>
