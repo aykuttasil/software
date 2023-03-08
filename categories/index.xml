@@ -9,7 +9,34 @@
       <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 21 Feb 2023 12:00:00 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Mar 2023 16:33:06 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linux</title>
+      <link>https://yazilim.aykutasil.com/categories/linux/</link>
+      <pubDate>Wed, 08 Mar 2023 16:33:06 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>m1</title>
+      <link>https://yazilim.aykutasil.com/categories/m1/</link>
+      <pubDate>Wed, 08 Mar 2023 16:33:06 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/categories/m1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://yazilim.aykutasil.com/categories/software/</link>
+      <pubDate>Wed, 08 Mar 2023 16:33:06 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/categories/software/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>applink</title>
       <link>https://yazilim.aykutasil.com/categories/applink/</link>
@@ -61,15 +88,6 @@
       <pubDate>Mon, 20 Feb 2023 12:00:00 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/categories/android/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software</title>
-      <link>https://yazilim.aykutasil.com/categories/software/</link>
-      <pubDate>Tue, 02 Nov 2021 20:17:23 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/categories/software/</guid>
       <description></description>
     </item>
     

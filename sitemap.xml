@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yazilim.aykutasil.com/kalilinux-kurulumu-apple-m1/</loc>
+    <lastmod>2023-03-08T16:33:06+03:00</lastmod>
+  </url><url>
     <loc>https://yazilim.aykutasil.com/firebase-ios-dynamiclink/</loc>
     <lastmod>2023-02-21T12:00:00+03:00</lastmod>
   </url><url>
@@ -56,13 +59,49 @@
     <loc>https://yazilim.aykutasil.com/android-background-location/</loc>
     <lastmod>2020-01-17T18:13:00+03:00</lastmod>
   </url><url>
-    <loc>https://yazilim.aykutasil.com/categories/applink/</loc>
-    <lastmod>2023-02-21T12:00:00+03:00</lastmod>
+    <loc>https://yazilim.aykutasil.com/tags/apple/</loc>
+    <lastmod>2023-03-08T16:33:06+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/</loc>
-    <lastmod>2023-02-21T12:00:00+03:00</lastmod>
+    <lastmod>2023-03-08T16:33:06+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/categories/</loc>
+    <lastmod>2023-03-08T16:33:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/kalilinux/</loc>
+    <lastmod>2023-03-08T16:33:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/linux/</loc>
+    <lastmod>2023-03-08T16:33:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/categories/linux/</loc>
+    <lastmod>2023-03-08T16:33:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/m1/</loc>
+    <lastmod>2023-03-08T16:33:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/categories/m1/</loc>
+    <lastmod>2023-03-08T16:33:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/posts/</loc>
+    <lastmod>2023-03-08T16:33:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/software/</loc>
+    <lastmod>2023-03-08T16:33:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/categories/software/</loc>
+    <lastmod>2023-03-08T16:33:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/</loc>
+    <lastmod>2023-03-08T16:33:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/utm/</loc>
+    <lastmod>2023-03-08T16:33:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/virtualize/</loc>
+    <lastmod>2023-03-08T16:33:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/categories/applink/</loc>
     <lastmod>2023-02-21T12:00:00+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/categories/deeplink/</loc>
@@ -81,15 +120,6 @@
     <lastmod>2023-02-21T12:00:00+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/categories/ios/</loc>
-    <lastmod>2023-02-21T12:00:00+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/posts/</loc>
-    <lastmod>2023-02-21T12:00:00+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/software/</loc>
-    <lastmod>2023-02-21T12:00:00+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/</loc>
     <lastmod>2023-02-21T12:00:00+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/categories/android/</loc>
@@ -141,9 +171,6 @@
     <lastmod>2021-11-02T20:17:23+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/sms-user-consent-api/</loc>
-    <lastmod>2021-11-02T20:17:23+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/categories/software/</loc>
     <lastmod>2021-11-02T20:17:23+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/.net5/</loc>
@@ -1011,9 +1038,6 @@
     <lastmod>2017-01-02T14:35:49+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/docker-nano-setup/</loc>
-    <lastmod>2016-12-25T03:51:49+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/linux/</loc>
     <lastmod>2016-12-25T03:51:49+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/nano/</loc>
