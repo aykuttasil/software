@@ -33,6 +33,9 @@ editPost:
 url: "kalilinux-kurulumu-apple-m1"
 ---
 
+
+![https://images.unsplash.com/photo-1629654297299-c8506221ca97?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb](https://images.unsplash.com/photo-1629654297299-c8506221ca97?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb)
+
 # Apple M1 işlemcili bilgisayara Kali Linux kurmak mümkün mü?
 
 Apple M1 işlemcili bilgisayarlarda Kali Linux kurulumunun birkaç farklı yolu var. Benim kullandığım yöntem ise sanallaştırma işlemi için **Virtual Box** yerine özel olarak Apple için geliştirilen [UTM](https://mac.getutm.app/) sanallaştırma uygulamasını kullanmak.
