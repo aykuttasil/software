@@ -59,6 +59,12 @@ Virtual Box indirme linki: [https://www.virtualbox.org/wiki/Downloads](https://w
 
 Arayüz olarak ben henüz çok stabil bir sonuç alamadım. Ancak en azından bu yöntemle Kali Linux kurulumunu başarabildim. Bununla birlikte, daha detaylı bir anlatım için [https://www.kali.org/get-kali/](https://www.kali.org/get-kali/) adresine göz atabilirsiniz. Ayrıca, [https://www.youtube.com/watch?v=9zdjQ9w_v_4](https://www.youtube.com/watch?v=9zdjQ9w_v_4) adresindeki YouTube videosu da faydalı olabilir.
 
+
+## Sorunlar
+
+- Siyah ekran sorunu -> <https://docs.getutm.app/guides/kali/#black-screen-on-start>
+- Kali Linux açıldıktan sonra uygulama pencerelerinin tam açılmaması -> <https://github.com/utmapp/UTM/issues/4090#issuecomment-1261549087>
+  
 ## Kaynaklar
 
 - [https://www.kali.org/get-kali/](https://www.kali.org/get-kali/)
