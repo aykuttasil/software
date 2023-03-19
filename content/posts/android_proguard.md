@@ -63,6 +63,27 @@ Proguard kullanmanın birkaç avantajı vardır:
 3. Proguard'ı kullanarak uygulamanızı derleyin ve **APK** dosyasını oluşturun.
 4. Oluşturulan **APK** dosyasını test edin ve gerekirse düzenlemeler yapın.
 
+
+## Android Studio'da Proguard'ı aktifleştirmek için şu adımları izleyebilirsiniz:
+
+1. **build.gradle** dosyanızı açın.
+2. **android** bloğunun içine şu kodu ekleyin:
+
+```gradle
+buildTypes {
+    release {
+        minifyEnabled true
+        proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+    }
+}
+
+```
+
+1. **proguardFiles** satırındaki **'proguard-android-optimize.txt'** dosyası, Proguard'ın varsayılan yapılandırma dosyasıdır. Bu dosya, uygulamanızın boyutunu küçültmek için kullanılan temel kuralları içerir. **'proguard-rules.pro'** dosyası ise, Proguard'ın hangi kod bloklarını kaldıracağını belirtmenizi sağlar.
+2. Uygulamanızı derleyin ve oluşturulan APK dosyasını test edin.
+
+Bu adımları takip ederek, uygulamanızı **Proguard** ile derleyebilirsiniz.
+
 ## Sonuç
 
 Proguard, Android uygulamalarının boyutunu küçültmek ve daha güvenli hale getirmek için kullanılan harika bir araçtır. Kullanımı oldukça kolaydır ve uygulamanızın performansını artırabilir. **Proguard**'ı kullanarak uygulamanızın boyutunu azaltarak kullanıcı deneyimini iyileştirebilir ve daha kararlı bir uygulama elde edebilirsiniz.
