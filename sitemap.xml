@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yazilim.aykutasil.com/android-proguard-kullanimi/</loc>
+    <lastmod>2023-03-19T17:50:06+03:00</lastmod>
+  </url><url>
     <loc>https://yazilim.aykutasil.com/kalilinux-kurulumu-apple-m1/</loc>
     <lastmod>2023-03-08T16:33:06+03:00</lastmod>
   </url><url>
@@ -59,13 +62,46 @@
     <loc>https://yazilim.aykutasil.com/android-background-location/</loc>
     <lastmod>2020-01-17T18:13:00+03:00</lastmod>
   </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/apple/</loc>
-    <lastmod>2023-03-08T16:33:06+03:00</lastmod>
+    <loc>https://yazilim.aykutasil.com/tags/android/</loc>
+    <lastmod>2023-03-19T17:50:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/categories/android/</loc>
+    <lastmod>2023-03-19T17:50:06+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/</loc>
-    <lastmod>2023-03-08T16:33:06+03:00</lastmod>
+    <lastmod>2023-03-19T17:50:06+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/categories/</loc>
+    <lastmod>2023-03-19T17:50:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/code-optimization/</loc>
+    <lastmod>2023-03-19T17:50:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/mobile-app-development/</loc>
+    <lastmod>2023-03-19T17:50:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/posts/</loc>
+    <lastmod>2023-03-19T17:50:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/proguard/</loc>
+    <lastmod>2023-03-19T17:50:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/security/</loc>
+    <lastmod>2023-03-19T17:50:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/categories/security/</loc>
+    <lastmod>2023-03-19T17:50:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/software/</loc>
+    <lastmod>2023-03-19T17:50:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/categories/software/</loc>
+    <lastmod>2023-03-19T17:50:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/</loc>
+    <lastmod>2023-03-19T17:50:06+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/apple/</loc>
     <lastmod>2023-03-08T16:33:06+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/kalilinux/</loc>
@@ -81,18 +117,6 @@
     <lastmod>2023-03-08T16:33:06+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/categories/m1/</loc>
-    <lastmod>2023-03-08T16:33:06+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/posts/</loc>
-    <lastmod>2023-03-08T16:33:06+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/software/</loc>
-    <lastmod>2023-03-08T16:33:06+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/categories/software/</loc>
-    <lastmod>2023-03-08T16:33:06+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/</loc>
     <lastmod>2023-03-08T16:33:06+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/utm/</loc>
@@ -121,9 +145,6 @@
   </url><url>
     <loc>https://yazilim.aykutasil.com/categories/ios/</loc>
     <lastmod>2023-02-21T12:00:00+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/categories/android/</loc>
-    <lastmod>2023-02-20T12:00:00+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/applink/</loc>
     <lastmod>2023-02-09T23:09:05+03:00</lastmod>
@@ -160,9 +181,6 @@
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/source/</loc>
     <lastmod>2023-01-11T00:01:04+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/android/</loc>
-    <lastmod>2021-11-02T20:17:23+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/aykuttasil/</loc>
     <lastmod>2021-11-02T20:17:23+03:00</lastmod>
@@ -345,12 +363,6 @@
     <lastmod>2019-06-27T14:00:59+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/permission/</loc>
-    <lastmod>2019-06-27T14:00:59+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/security/</loc>
-    <lastmod>2019-06-27T14:00:59+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/categories/security/</loc>
     <lastmod>2019-06-27T14:00:59+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/share-data/</loc>

@@ -9,7 +9,61 @@
       <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 08 Mar 2023 16:33:06 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Mar 2023 17:50:06 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>android</title>
+      <link>https://yazilim.aykutasil.com/tags/android/</link>
+      <pubDate>Sun, 19 Mar 2023 17:50:06 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>code optimization</title>
+      <link>https://yazilim.aykutasil.com/tags/code-optimization/</link>
+      <pubDate>Sun, 19 Mar 2023 17:50:06 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/code-optimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mobile app development</title>
+      <link>https://yazilim.aykutasil.com/tags/mobile-app-development/</link>
+      <pubDate>Sun, 19 Mar 2023 17:50:06 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/mobile-app-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proguard</title>
+      <link>https://yazilim.aykutasil.com/tags/proguard/</link>
+      <pubDate>Sun, 19 Mar 2023 17:50:06 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/proguard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://yazilim.aykutasil.com/tags/security/</link>
+      <pubDate>Sun, 19 Mar 2023 17:50:06 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://yazilim.aykutasil.com/tags/software/</link>
+      <pubDate>Sun, 19 Mar 2023 17:50:06 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/tags/software/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>apple</title>
       <link>https://yazilim.aykutasil.com/tags/apple/</link>
@@ -43,15 +97,6 @@
       <pubDate>Wed, 08 Mar 2023 16:33:06 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/tags/m1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software</title>
-      <link>https://yazilim.aykutasil.com/tags/software/</link>
-      <pubDate>Wed, 08 Mar 2023 16:33:06 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/tags/software/</guid>
       <description></description>
     </item>
     
@@ -196,15 +241,6 @@
       <pubDate>Wed, 11 Jan 2023 00:01:04 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/tags/source/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>android</title>
-      <link>https://yazilim.aykutasil.com/tags/android/</link>
-      <pubDate>Tue, 02 Nov 2021 20:17:23 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/tags/android/</guid>
       <description></description>
     </item>
     
@@ -592,15 +628,6 @@
       <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/tags/permission/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>security</title>
-      <link>https://yazilim.aykutasil.com/tags/security/</link>
-      <pubDate>Thu, 27 Jun 2019 14:00:59 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/tags/security/</guid>
       <description></description>
     </item>
     
