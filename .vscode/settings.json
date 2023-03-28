@@ -7,5 +7,7 @@
         "dynamiclinks",
         "keytool",
         "kolektifhouse"
-    ]
+    ],
+    "turboConsoleLog.logType": "log",
+    "turboConsoleLog.logFunction": "print"
 }
