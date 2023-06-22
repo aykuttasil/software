@@ -9,31 +9,40 @@
       <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 Mar 2023 13:32:12 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Jun 2023 10:50:32 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>security</title>
-      <link>https://yazilim.aykutasil.com/categories/security/</link>
-      <pubDate>Tue, 28 Mar 2023 13:32:12 +0300</pubDate>
+      <title>android</title>
+      <link>https://yazilim.aykutasil.com/categories/android/</link>
+      <pubDate>Thu, 22 Jun 2023 10:50:32 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/categories/security/</guid>
+      <guid>https://yazilim.aykutasil.com/categories/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mobile</title>
+      <link>https://yazilim.aykutasil.com/categories/mobile/</link>
+      <pubDate>Thu, 22 Jun 2023 10:50:32 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/categories/mobile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>software</title>
       <link>https://yazilim.aykutasil.com/categories/software/</link>
-      <pubDate>Tue, 28 Mar 2023 13:32:12 +0300</pubDate>
+      <pubDate>Thu, 22 Jun 2023 10:50:32 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/categories/software/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>android</title>
-      <link>https://yazilim.aykutasil.com/categories/android/</link>
-      <pubDate>Sun, 19 Mar 2023 17:50:06 +0300</pubDate>
+      <title>security</title>
+      <link>https://yazilim.aykutasil.com/categories/security/</link>
+      <pubDate>Tue, 28 Mar 2023 13:32:12 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/categories/android/</guid>
+      <guid>https://yazilim.aykutasil.com/categories/security/</guid>
       <description></description>
     </item>
     
@@ -169,15 +178,6 @@
       <pubDate>Fri, 17 Jan 2020 18:13:00 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/categories/location/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mobile</title>
-      <link>https://yazilim.aykutasil.com/categories/mobile/</link>
-      <pubDate>Fri, 17 Jan 2020 18:13:00 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/categories/mobile/</guid>
       <description></description>
     </item>
     

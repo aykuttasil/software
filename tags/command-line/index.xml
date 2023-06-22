@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>command-line on Aykut Asil</title>
+    <link>https://yazilim.aykutasil.com/tags/command-line/</link>
+    <description>Recent content in command-line on Aykut Asil</description>
+    <image>
+      <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 22 Jun 2023 10:50:32 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/command-line/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android AAB Dosyasını Local Olarak Nasıl Çalıştırabilirsiniz</title>
+      <link>https://yazilim.aykutasil.com/posts/android_run_aab_file_locally/</link>
+      <pubDate>Thu, 22 Jun 2023 10:50:32 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/posts/android_run_aab_file_locally/</guid>
+      <description>Android AAB Dosyasını Yerel Olarak Nasıl Çalıştırabilirsiniz Bir Android AAB dosyasını yerel olarak çalıştırmak için, aşağıdaki adımları izleyerek komut satırı arayüzünü (CLI) kullanabilirsiniz:
+  Bilgisayarınıza Android SDK komut satırı araçlarını yükleyin.
+  Yerel olarak çalıştırmak istediğiniz AAB dosyasını indirin.
+  Bir komut istemi veya terminal penceresi açın ve AAB dosyasını indirdiğiniz dizine gidin.
+  Aşağıdaki komutu çalıştırarak bir APK dosyası oluşturun: &amp;lt;path-to-aab-file&amp;gt; yerine AAB dosyanızın yolunu, &amp;lt;path-to-output-apks-file&amp;gt; ise çıkış APK dosyası için istediğiniz yolunu değiştirin.</description>
+    </item>
+    
+  </channel>
+</rss>

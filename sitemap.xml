@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yazilim.aykutasil.com/posts/android_run_aab_file_locally/</loc>
+    <lastmod>2023-06-22T10:50:32+03:00</lastmod>
+  </url><url>
     <loc>https://yazilim.aykutasil.com/ios-jailbreak-android-rooting/</loc>
     <lastmod>2023-03-28T13:32:12+03:00</lastmod>
   </url><url>
@@ -65,14 +68,47 @@
     <loc>https://yazilim.aykutasil.com/android-background-location/</loc>
     <lastmod>2020-01-17T18:13:00+03:00</lastmod>
   </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/aab/</loc>
+    <lastmod>2023-06-22T10:50:32+03:00</lastmod>
+  </url><url>
     <loc>https://yazilim.aykutasil.com/tags/android/</loc>
-    <lastmod>2023-03-28T13:32:12+03:00</lastmod>
+    <lastmod>2023-06-22T10:50:32+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/categories/android/</loc>
+    <lastmod>2023-06-22T10:50:32+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/apk/</loc>
+    <lastmod>2023-06-22T10:50:32+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/</loc>
-    <lastmod>2023-03-28T13:32:12+03:00</lastmod>
+    <lastmod>2023-06-22T10:50:32+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/bundletool/</loc>
+    <lastmod>2023-06-22T10:50:32+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/categories/</loc>
-    <lastmod>2023-03-28T13:32:12+03:00</lastmod>
+    <lastmod>2023-06-22T10:50:32+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/cli/</loc>
+    <lastmod>2023-06-22T10:50:32+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/command-line/</loc>
+    <lastmod>2023-06-22T10:50:32+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/categories/mobile/</loc>
+    <lastmod>2023-06-22T10:50:32+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/posts/</loc>
+    <lastmod>2023-06-22T10:50:32+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/software/</loc>
+    <lastmod>2023-06-22T10:50:32+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/categories/software/</loc>
+    <lastmod>2023-06-22T10:50:32+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/</loc>
+    <lastmod>2023-06-22T10:50:32+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/hack/</loc>
     <lastmod>2023-03-28T13:32:12+03:00</lastmod>
@@ -83,26 +119,11 @@
     <loc>https://yazilim.aykutasil.com/tags/jailbreak/</loc>
     <lastmod>2023-03-28T13:32:12+03:00</lastmod>
   </url><url>
-    <loc>https://yazilim.aykutasil.com/posts/</loc>
-    <lastmod>2023-03-28T13:32:12+03:00</lastmod>
-  </url><url>
     <loc>https://yazilim.aykutasil.com/tags/reverse-engineering/</loc>
     <lastmod>2023-03-28T13:32:12+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/categories/security/</loc>
     <lastmod>2023-03-28T13:32:12+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/software/</loc>
-    <lastmod>2023-03-28T13:32:12+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/categories/software/</loc>
-    <lastmod>2023-03-28T13:32:12+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/</loc>
-    <lastmod>2023-03-28T13:32:12+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/categories/android/</loc>
-    <lastmod>2023-03-19T17:50:06+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/code-optimization/</loc>
     <lastmod>2023-03-19T17:50:06+03:00</lastmod>
@@ -306,9 +327,6 @@
     <lastmod>2020-01-17T18:13:00+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/mobile/</loc>
-    <lastmod>2020-01-17T18:13:00+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/categories/mobile/</loc>
     <lastmod>2020-01-17T18:13:00+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/dsl/</loc>

@@ -9,7 +9,20 @@
       <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 19 Mar 2023 17:50:06 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Jun 2023 10:50:32 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android AAB Dosyasını Local Olarak Nasıl Çalıştırabilirsiniz</title>
+      <link>https://yazilim.aykutasil.com/posts/android_run_aab_file_locally/</link>
+      <pubDate>Thu, 22 Jun 2023 10:50:32 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/posts/android_run_aab_file_locally/</guid>
+      <description>Android AAB Dosyasını Yerel Olarak Nasıl Çalıştırabilirsiniz Bir Android AAB dosyasını yerel olarak çalıştırmak için, aşağıdaki adımları izleyerek komut satırı arayüzünü (CLI) kullanabilirsiniz:
+  Bilgisayarınıza Android SDK komut satırı araçlarını yükleyin.
+  Yerel olarak çalıştırmak istediğiniz AAB dosyasını indirin.
+  Bir komut istemi veya terminal penceresi açın ve AAB dosyasını indirdiğiniz dizine gidin.
+  Aşağıdaki komutu çalıştırarak bir APK dosyası oluşturun: &amp;lt;path-to-aab-file&amp;gt; yerine AAB dosyanızın yolunu, &amp;lt;path-to-output-apks-file&amp;gt; ise çıkış APK dosyası için istediğiniz yolunu değiştirin.</description>
+    </item>
+    
     <item>
       <title>Android Proguard Kullanımı</title>
       <link>https://yazilim.aykutasil.com/android-proguard-kullanimi/</link>
