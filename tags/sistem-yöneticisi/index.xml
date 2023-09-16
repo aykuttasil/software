@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sistem Yöneticisi on Aykut Asil</title>
+    <link>https://yazilim.aykutasil.com/tags/sistem-y%C3%B6neticisi/</link>
+    <description>Recent content in Sistem Yöneticisi on Aykut Asil</description>
+    <image>
+      <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 16 Sep 2023 13:50:33 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/sistem-y%C3%B6neticisi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>macOS&#39;ta Zamanı Akıllıca Kullanın: launchd ile Otomatik İşlemler</title>
+      <link>https://yazilim.aykutasil.com/posts/mac_launchd_command/</link>
+      <pubDate>Sat, 16 Sep 2023 13:50:33 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/posts/mac_launchd_command/</guid>
+      <description>macOS&amp;#39;ta launchd, otomatik işlemleri düzenlemek için güçlü bir araçtır. Bu kılavuzda, ajanlar ve daemonlar oluşturarak sistem başlangıcında veya kullanıcı oturumu başladığında çalışacak işlemleri yapılandırmayı öğreneceksiniz.</description>
+    </item>
+    
+  </channel>
+</rss>
