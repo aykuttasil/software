@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Betik on Aykut Asil</title>
+    <link>https://yazilim.aykutasil.com/tags/betik/</link>
+    <description>Recent content in Betik on Aykut Asil</description>
+    <image>
+      <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 16 Sep 2023 13:36:59 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/betik/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>macOS&#39;ta &#39;open -a&#39; Komutu: Uygulamaları Terminalden Başlatma</title>
+      <link>https://yazilim.aykutasil.com/posts/open_app_with_commandline/</link>
+      <pubDate>Sat, 16 Sep 2023 13:36:59 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/posts/open_app_with_commandline/</guid>
+      <description>Bu makalede, macOS işletim sisteminde terminal kullanarak &amp;#39;open -a&amp;#39; komutunu nasıl kullanacağınızı öğreneceksiniz. Bu komut sayesinde uygulamaları hızlıca başlatabilir ve otomasyon işlemlerinde pratik bir şekilde kullanabilirsiniz.</description>
+    </item>
+    
+  </channel>
+</rss>

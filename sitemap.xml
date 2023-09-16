@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yazilim.aykutasil.com/posts/open_app_with_commandline/</loc>
+    <lastmod>2023-09-16T13:36:59+03:00</lastmod>
+  </url><url>
     <loc>https://yazilim.aykutasil.com/posts/auto_wakeup_mac/</loc>
     <lastmod>2023-09-16T12:01:10+03:00</lastmod>
   </url><url>
@@ -71,19 +74,55 @@
     <loc>https://yazilim.aykutasil.com/android-background-location/</loc>
     <lastmod>2020-01-17T18:13:00+03:00</lastmod>
   </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/aray%C3%BCz/</loc>
+    <lastmod>2023-09-16T13:36:59+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/automator/</loc>
+    <lastmod>2023-09-16T13:36:59+03:00</lastmod>
+  </url><url>
     <loc>https://yazilim.aykutasil.com/</loc>
-    <lastmod>2023-09-16T12:01:10+03:00</lastmod>
+    <lastmod>2023-09-16T13:36:59+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/ba%C5%9Flatma/</loc>
+    <lastmod>2023-09-16T13:36:59+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/betik/</loc>
+    <lastmod>2023-09-16T13:36:59+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/categories/</loc>
-    <lastmod>2023-09-16T12:01:10+03:00</lastmod>
+    <lastmod>2023-09-16T13:36:59+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/komut/</loc>
+    <lastmod>2023-09-16T13:36:59+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/categories/mac/</loc>
+    <lastmod>2023-09-16T13:36:59+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/macos/</loc>
+    <lastmod>2023-09-16T13:36:59+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/otomasyon/</loc>
+    <lastmod>2023-09-16T13:36:59+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/posts/</loc>
+    <lastmod>2023-09-16T13:36:59+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/</loc>
+    <lastmod>2023-09-16T13:36:59+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/terminal/</loc>
+    <lastmod>2023-09-16T13:36:59+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/terminal-komutlar%C4%B1/</loc>
+    <lastmod>2023-09-16T13:36:59+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/uygulama/</loc>
+    <lastmod>2023-09-16T13:36:59+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/enerjitasarrufu/</loc>
     <lastmod>2023-09-16T12:01:10+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/mac/</loc>
-    <lastmod>2023-09-16T12:01:10+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/categories/mac/</loc>
     <lastmod>2023-09-16T12:01:10+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/mackullan%C4%B1m%C4%B1/</loc>
@@ -92,22 +131,10 @@
     <loc>https://yazilim.aykutasil.com/tags/macotomatika%C3%A7ma/</loc>
     <lastmod>2023-09-16T12:01:10+03:00</lastmod>
   </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/otomasyon/</loc>
-    <lastmod>2023-09-16T12:01:10+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/posts/</loc>
-    <lastmod>2023-09-16T12:01:10+03:00</lastmod>
-  </url><url>
     <loc>https://yazilim.aykutasil.com/categories/software/</loc>
     <lastmod>2023-09-16T12:01:10+03:00</lastmod>
   </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/</loc>
-    <lastmod>2023-09-16T12:01:10+03:00</lastmod>
-  </url><url>
     <loc>https://yazilim.aykutasil.com/tags/teknoloji/</loc>
-    <lastmod>2023-09-16T12:01:10+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/terminal/</loc>
     <lastmod>2023-09-16T12:01:10+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/ipu%C3%A7lar%C4%B1/</loc>
