@@ -63,6 +63,10 @@ Bu komut, bilgisayarın Pazartesi'den Pazar gününe kadar her gün saat 09:00'd
 
 Şimdi bilgisayarınızı kapatın. Belirlediğiniz saatte bilgisayarınızın otomatik olarak açılıp açılmadığını kontrol edin.
 
-**Sonuç:**
+**Sonuç**
 
 Artık **belirli bir saatte** Mac bilgisayarınızın otomatik olarak açılmasını sağlamak için gerekli adımları tamamladınız. Bu işlem sayesinde, bilgisayarınız belirttiğiniz saatte kendiliğinden çalışmaya başlayacak ve size zaman kazandıracak.
+
+### Kaynaklar
+- <https://support.apple.com/tr-tr/guide/mac-help/mchl40376151/mac>
+
