@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>adduser on Aykut Asil</title>
+    <link>https://yazilim.aykutasil.com/tags/adduser/</link>
+    <description>Recent content in adduser on Aykut Asil</description>
+    <image>
+      <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 28 Nov 2023 11:11:56 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/adduser/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux İşletim Sisteminde Yeni Kullanıcı Oluşturma ve Sudo Yetkisi Verme</title>
+      <link>https://yazilim.aykutasil.com/linux-new-user-configuration/</link>
+      <pubDate>Tue, 28 Nov 2023 11:11:56 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/linux-new-user-configuration/</guid>
+      <description>Linux işletim sistemlerinde yeni bir kullanıcı oluşturmak ve bu kullanıcıya sudo yetkisi vermek oldukça yaygın bir ihtiyaçtır. Bu yazıda, adım adım bu işlemleri gerçekleştirmenin nasıl yapıldığını öğreneceksiniz.</description>
+    </item>
+    
+  </channel>
+</rss>

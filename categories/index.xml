@@ -9,22 +9,31 @@
       <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 16 Sep 2023 13:50:33 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Nov 2023 11:11:56 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>mac</title>
-      <link>https://yazilim.aykutasil.com/categories/mac/</link>
-      <pubDate>Sat, 16 Sep 2023 13:50:33 +0300</pubDate>
+      <title>linux</title>
+      <link>https://yazilim.aykutasil.com/categories/linux/</link>
+      <pubDate>Tue, 28 Nov 2023 11:11:56 +0300</pubDate>
       
-      <guid>https://yazilim.aykutasil.com/categories/mac/</guid>
+      <guid>https://yazilim.aykutasil.com/categories/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>software</title>
       <link>https://yazilim.aykutasil.com/categories/software/</link>
-      <pubDate>Sat, 16 Sep 2023 12:01:10 +0300</pubDate>
+      <pubDate>Tue, 28 Nov 2023 11:11:56 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/categories/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mac</title>
+      <link>https://yazilim.aykutasil.com/categories/mac/</link>
+      <pubDate>Sat, 16 Sep 2023 13:50:33 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/categories/mac/</guid>
       <description></description>
     </item>
     
@@ -52,15 +61,6 @@
       <pubDate>Tue, 28 Mar 2023 13:32:12 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/categories/security/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://yazilim.aykutasil.com/categories/linux/</link>
-      <pubDate>Wed, 08 Mar 2023 16:33:06 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/categories/linux/</guid>
       <description></description>
     </item>
     
