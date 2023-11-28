@@ -9,7 +9,16 @@
       <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 Nov 2023 11:11:56 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Nov 2023 11:25:28 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SSH ile Sanal Sunucuya Bağlantı Kurma ve Yapılandırma</title>
+      <link>https://yazilim.aykutasil.com/ssh-connection/</link>
+      <pubDate>Tue, 28 Nov 2023 11:25:28 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/ssh-connection/</guid>
+      <description>SSH (Secure Shell), uzak sunuculara güvenli bir şekilde bağlanmamızı sağlayan bir protokoldür. Bu protokolü kullanarak, sanal sunucularımıza güvenli bir şekilde erişebiliriz. Bu blog yazısında, SSH ile sanal sunucuya bağlantı kurma işlemi ve tekrar tekrar şifre girmeden bağlantı kurma yöntemleri üzerine odaklanacağız.</description>
+    </item>
+    
     <item>
       <title>Linux İşletim Sisteminde Yeni Kullanıcı Oluşturma ve Sudo Yetkisi Verme</title>
       <link>https://yazilim.aykutasil.com/linux-new-user-configuration/</link>

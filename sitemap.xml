@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yazilim.aykutasil.com/ssh-connection/</loc>
+    <lastmod>2023-11-28T11:25:28+03:00</lastmod>
+  </url><url>
     <loc>https://yazilim.aykutasil.com/linux-new-user-configuration/</loc>
     <lastmod>2023-11-28T11:11:56+03:00</lastmod>
   </url><url>
@@ -80,13 +83,34 @@
     <loc>https://yazilim.aykutasil.com/android-background-location/</loc>
     <lastmod>2020-01-17T18:13:00+03:00</lastmod>
   </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/adduser/</loc>
-    <lastmod>2023-11-28T11:11:56+03:00</lastmod>
-  </url><url>
     <loc>https://yazilim.aykutasil.com/</loc>
-    <lastmod>2023-11-28T11:11:56+03:00</lastmod>
+    <lastmod>2023-11-28T11:25:28+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/categories/</loc>
+    <lastmod>2023-11-28T11:25:28+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/posts/</loc>
+    <lastmod>2023-11-28T11:25:28+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/software/</loc>
+    <lastmod>2023-11-28T11:25:28+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/categories/software/</loc>
+    <lastmod>2023-11-28T11:25:28+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/ssh/</loc>
+    <lastmod>2023-11-28T11:25:28+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/categories/ssh/</loc>
+    <lastmod>2023-11-28T11:25:28+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/ssh-keygen/</loc>
+    <lastmod>2023-11-28T11:25:28+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/</loc>
+    <lastmod>2023-11-28T11:25:28+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/adduser/</loc>
     <lastmod>2023-11-28T11:11:56+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/linux/</loc>
@@ -98,25 +122,13 @@
     <loc>https://yazilim.aykutasil.com/tags/ls/</loc>
     <lastmod>2023-11-28T11:11:56+03:00</lastmod>
   </url><url>
-    <loc>https://yazilim.aykutasil.com/posts/</loc>
-    <lastmod>2023-11-28T11:11:56+03:00</lastmod>
-  </url><url>
     <loc>https://yazilim.aykutasil.com/tags/root/</loc>
-    <lastmod>2023-11-28T11:11:56+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/software/</loc>
-    <lastmod>2023-11-28T11:11:56+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/categories/software/</loc>
     <lastmod>2023-11-28T11:11:56+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/su/</loc>
     <lastmod>2023-11-28T11:11:56+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/sudo/</loc>
-    <lastmod>2023-11-28T11:11:56+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/</loc>
     <lastmod>2023-11-28T11:11:56+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/user/</loc>
@@ -601,9 +613,6 @@
   </url><url>
     <loc>https://yazilim.aykutasil.com/circleci-configuration/</loc>
     <lastmod>2018-11-27T14:20:45+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/ssh/</loc>
-    <lastmod>2018-10-26T01:04:21+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/ssh-surekli-parola-isteme-problemi/</loc>
     <lastmod>2018-10-26T01:04:21+03:00</lastmod>

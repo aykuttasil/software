@@ -9,22 +9,31 @@
       <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 Nov 2023 11:11:56 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Nov 2023 11:25:28 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>software</title>
+      <link>https://yazilim.aykutasil.com/categories/software/</link>
+      <pubDate>Tue, 28 Nov 2023 11:25:28 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/categories/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssh</title>
+      <link>https://yazilim.aykutasil.com/categories/ssh/</link>
+      <pubDate>Tue, 28 Nov 2023 11:25:28 +0300</pubDate>
+      
+      <guid>https://yazilim.aykutasil.com/categories/ssh/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>linux</title>
       <link>https://yazilim.aykutasil.com/categories/linux/</link>
       <pubDate>Tue, 28 Nov 2023 11:11:56 +0300</pubDate>
       
       <guid>https://yazilim.aykutasil.com/categories/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software</title>
-      <link>https://yazilim.aykutasil.com/categories/software/</link>
-      <pubDate>Tue, 28 Nov 2023 11:11:56 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/categories/software/</guid>
       <description></description>
     </item>
     

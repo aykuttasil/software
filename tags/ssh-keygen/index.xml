@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ssh on Aykut Asil</title>
-    <link>https://yazilim.aykutasil.com/tags/ssh/</link>
-    <description>Recent content in ssh on Aykut Asil</description>
+    <title>ssh-keygen on Aykut Asil</title>
+    <link>https://yazilim.aykutasil.com/tags/ssh-keygen/</link>
+    <description>Recent content in ssh-keygen on Aykut Asil</description>
     <image>
       <url>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://yazilim.aykutasil.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 28 Nov 2023 11:25:28 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Nov 2023 11:25:28 +0300</lastBuildDate><atom:link href="https://yazilim.aykutasil.com/tags/ssh-keygen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SSH ile Sanal Sunucuya Bağlantı Kurma ve Yapılandırma</title>
       <link>https://yazilim.aykutasil.com/ssh-connection/</link>
@@ -17,15 +17,6 @@
       
       <guid>https://yazilim.aykutasil.com/ssh-connection/</guid>
       <description>SSH (Secure Shell), uzak sunuculara güvenli bir şekilde bağlanmamızı sağlayan bir protokoldür. Bu protokolü kullanarak, sanal sunucularımıza güvenli bir şekilde erişebiliriz. Bu blog yazısında, SSH ile sanal sunucuya bağlantı kurma işlemi ve tekrar tekrar şifre girmeden bağlantı kurma yöntemleri üzerine odaklanacağız.</description>
-    </item>
-    
-    <item>
-      <title>SSH Sürekli Parola İstemesi Sorunu</title>
-      <link>https://yazilim.aykutasil.com/ssh-surekli-parola-isteme-problemi/</link>
-      <pubDate>Fri, 26 Oct 2018 01:04:21 +0300</pubDate>
-      
-      <guid>https://yazilim.aykutasil.com/ssh-surekli-parola-isteme-problemi/</guid>
-      <description>SSH sürekli parola isstemesi problemi ve çözümü</description>
     </item>
     
   </channel>
