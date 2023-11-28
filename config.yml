@@ -37,6 +37,11 @@ params:
       mobile,
       mobile-developer,
       software-craftsmanship,
+      software-development,
+      software-engineering,
+      software-architecture,
+      software-design,
+      software-testing,      
     ]
   author: Aykut Asil
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -89,7 +94,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: I'm Aykut. I am a technology/software enthusiast. My priority experting are Android(Native) and Flutter development.
+    Content: "I'm Aykut. Welcome to my blog."
 
   socialIcons:
     - name: linkedin
