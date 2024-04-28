@@ -13,7 +13,6 @@ hidemeta: false
 comments: false
 description: "macOS'ta launchd, otomatik işlemleri düzenlemek için güçlü bir araçtır. Bu kılavuzda, ajanlar ve daemonlar oluşturarak sistem başlangıcında veya kullanıcı oturumu başladığında çalışacak işlemleri yapılandırmayı öğreneceksiniz."
 canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
