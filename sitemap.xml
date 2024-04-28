@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yazilim.aykutasil.com/posts/uygun_sarj_akimi/</loc>
+    <lastmod>2024-04-29T00:18:00+03:00</lastmod>
+  </url><url>
     <loc>https://yazilim.aykutasil.com/ssh-connection/</loc>
     <lastmod>2023-11-28T11:25:28+03:00</lastmod>
   </url><url>
@@ -83,20 +86,53 @@
     <loc>https://yazilim.aykutasil.com/android-background-location/</loc>
     <lastmod>2020-01-17T18:13:00+03:00</lastmod>
   </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/ak%C4%B1m/</loc>
+    <lastmod>2024-04-29T00:18:00+03:00</lastmod>
+  </url><url>
     <loc>https://yazilim.aykutasil.com/</loc>
-    <lastmod>2023-11-28T11:25:28+03:00</lastmod>
+    <lastmod>2024-04-29T00:18:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/battery/</loc>
+    <lastmod>2024-04-29T00:18:00+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/categories/</loc>
-    <lastmod>2023-11-28T11:25:28+03:00</lastmod>
+    <lastmod>2024-04-29T00:18:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/electronics/</loc>
+    <lastmod>2024-04-29T00:18:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/hardware/</loc>
+    <lastmod>2024-04-29T00:18:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/categories/iot/</loc>
+    <lastmod>2024-04-29T00:18:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/lityum/</loc>
+    <lastmod>2024-04-29T00:18:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/categories/maker/</loc>
+    <lastmod>2024-04-29T00:18:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/pil/</loc>
+    <lastmod>2024-04-29T00:18:00+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/posts/</loc>
-    <lastmod>2023-11-28T11:25:28+03:00</lastmod>
+    <lastmod>2024-04-29T00:18:00+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/software/</loc>
-    <lastmod>2023-11-28T11:25:28+03:00</lastmod>
+    <lastmod>2024-04-29T00:18:00+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/categories/software/</loc>
-    <lastmod>2023-11-28T11:25:28+03:00</lastmod>
+    <lastmod>2024-04-29T00:18:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/</loc>
+    <lastmod>2024-04-29T00:18:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/voltaj/</loc>
+    <lastmod>2024-04-29T00:18:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yazilim.aykutasil.com/tags/%C5%9Farj/</loc>
+    <lastmod>2024-04-29T00:18:00+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/ssh/</loc>
     <lastmod>2023-11-28T11:25:28+03:00</lastmod>
@@ -105,9 +141,6 @@
     <lastmod>2023-11-28T11:25:28+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/ssh-keygen/</loc>
-    <lastmod>2023-11-28T11:25:28+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/tags/</loc>
     <lastmod>2023-11-28T11:25:28+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/adduser/</loc>
@@ -687,9 +720,6 @@
     <lastmod>2018-08-03T22:21:48+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/iot/</loc>
-    <lastmod>2018-08-03T22:21:48+03:00</lastmod>
-  </url><url>
-    <loc>https://yazilim.aykutasil.com/categories/iot/</loc>
     <lastmod>2018-08-03T22:21:48+03:00</lastmod>
   </url><url>
     <loc>https://yazilim.aykutasil.com/tags/motor/</loc>
